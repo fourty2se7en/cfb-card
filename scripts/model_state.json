@@ -1,0 +1,107 @@
+{
+  "_readme": [
+    "Every number the college model agrees on lives here, once.",
+    "Before this file existed the tuning constants sat in build_ratings.py and were",
+    "copied by hand into cfb_backtest.py, the price and sanity thresholds were copied",
+    "into cfb_card.py, and the backtest's win-loss records were pasted into",
+    "cfb_picks.py. Four copies of the same numbers, kept in step by remembering to.",
+    "",
+    "'ratings', 'simulation' and 'thresholds' are hand-edited: change a value here and",
+    "every script picks it up on the next run. 'backtest' is written by cfb_backtest.py",
+    "when the manual cfb-backtest workflow runs, so re-running it updates the grades and",
+    "the card with nothing to paste.",
+    "",
+    "scripts/model_state.py reads this file and falls back to the same values compiled",
+    "in, so a broken or missing file cannot stop a card being built. When that happens",
+    "the card says so in Needs attention rather than quietly using stale numbers."
+  ],
+  "schema": 1,
+
+  "ratings": {
+    "half_life": 6.0,
+    "carry": 0.55,
+    "margin_cap": 50,
+    "ridge_alpha": 1.5,
+    "min_games": 12,
+    "talent_pts": 8.0,
+    "talent_cap": 2.5,
+    "_notes": {
+      "half_life": "games; college seasons are short so decay must be quicker",
+      "carry": "prior-season carryover, eroded by the transfer portal",
+      "margin_cap": "blowout cap, high enough that FBS-over-FCS games still inform the division gap",
+      "ridge_alpha": "light. With a talent prior to shrink toward, heavy shrinkage only costs accuracy",
+      "min_games": "below this a team cannot be estimated; bucket it",
+      "talent_pts": "points per standard deviation of recruiting talent, fitted on real games",
+      "talent_cap": "clip the talent z-score; no prior should be worth 25 points on its own"
+    }
+  },
+
+  "simulation": {
+    "sims": 20000,
+    "line_sd": 7.0,
+    "margin_sd": 15.0,
+    "total_line_sd": 4.1,
+    "total_sd": 13.3,
+    "total_tilt": [0.0541, 7.35, 10.16],
+    "p_floor": 0.40,
+    "p_ceil": 0.60,
+    "value_ceil": 8.0,
+    "win_points": 70.0,
+    "value_points": 30.0,
+    "_notes": {
+      "line_sd": "our uncertainty about the true spread. The NFL card uses 3.0",
+      "margin_sd": "margin around the true line at a total of 52. The NFL card uses 13.2",
+      "total_sd": "points around the true total. The NFL card uses 10.4",
+      "total_tilt": "|residual| = a * total + b, fitted on 762 FBS games, normalised at c",
+      "win_points": "the NFL scoring scale, carried over unchanged and verified against their worked example"
+    }
+  },
+
+  "thresholds": {
+    "break_even": 52.4,
+    "game_sd": 15.6,
+    "price_flag": 2.5,
+    "price_pick": 3.0,
+    "price_max": 14.0,
+    "ml_sane": 5000,
+    "spplus_flag": 10.0,
+    "_notes": {
+      "break_even": "percent needed to profit at standard -110 pricing",
+      "game_sd": "margin scatter used to turn a spread into a win probability",
+      "price_flag": "a book's moneyline and spread disagreeing by this much is worth showing",
+      "price_pick": "and by this much becomes a pick",
+      "price_max": "the conversion is meaningless past this spread; scatter grows from 1 point to 5.5",
+      "ml_sane": "a real two-sided market never gets past about this, so anything beyond is a placeholder",
+      "spplus_flag": "our number against SP+ diverging by this much flags a game low information"
+    }
+  },
+
+  "backtest": {
+    "run_utc": "2026-09-05T07:30:00Z",
+    "window": "2022-2025, walk-forward, FBS vs FBS, real closing lines",
+    "record": {
+      "price_gap": [116, 99],
+      "model_gap_late": [1043, 989],
+      "model_gap_early": [359, 398],
+      "total_over": [1418, 1391]
+    },
+    "record_notes": {
+      "price_gap": "a book's moneyline against its own spread, 3+ points",
+      "model_gap_late": "our number vs the close, weeks 5 on",
+      "model_gap_early": "our number vs the close, weeks 1-4",
+      "total_over": "the market total"
+    },
+    "headline": {
+      "model_gap_pct": 50.3,
+      "model_gap_games": 2789,
+      "market_mae": 11.97,
+      "model_mae": 12.68
+    },
+    "calibration": {
+      "edge_3_6_pct": 50.7,
+      "edge_3_6_games": 880,
+      "edge_6_10_pct": 49.1,
+      "edge_6_10_games": 466
+    }
+  }
+}
