@@ -100,7 +100,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-05T12:16:55Z",
+    "run_utc": "2026-09-05T16:27:32Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -122,6 +122,10 @@
       "total_model": [
         3055,
         3010
+      ],
+      "moneyline": [
+        1025,
+        1483
       ]
     },
     "record_notes": {
@@ -129,7 +133,8 @@
       "model_gap_late": "our number vs the close, weeks 5 on",
       "model_gap_early": "our number vs the close, weeks 1-4",
       "total_over": "the market total, taken over every game, no model input",
-      "total_model": "our total against the close, the model version"
+      "total_model": "our total against the close, the model version",
+      "moneyline": "our calibrated winner against the price, walk-forward"
     },
     "headline": {
       "model_gap_pct": 49.5,
@@ -145,8 +150,8 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.0513,
-        "se_k": 0.136,
+        "se_a": 0.0511,
+        "se_k": 0.1356,
         "n": 1558,
         "k_clears_zero": false
       },
@@ -176,7 +181,7 @@
       },
       "total_over": {
         "a": -0.0254,
-        "k": 0,
+        "k": 0.0,
         "se_a": null,
         "se_k": null,
         "n": 6065,
@@ -186,8 +191,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0308,
-        "se_k": 0.1185,
+        "se_a": 0.0326,
+        "se_k": 0.0356,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -209,7 +214,7 @@
         "pct": 48.7,
         "interval": [
           46.5,
-          51
+          51.0
         ],
         "label": "at least one side P4, 3+ point gap"
       },
@@ -218,8 +223,8 @@
         "l": 802,
         "pct": 48.5,
         "interval": [
-          46,
-          51
+          46.0,
+          51.0
         ],
         "label": "weeks 1 to 4"
       },
@@ -249,7 +254,7 @@
         "pct": 50.2,
         "interval": [
           48.4,
-          52
+          52.0
         ],
         "label": "gap 0 to 3 points"
       },
@@ -258,7 +263,7 @@
         "l": 938,
         "pct": 49.2,
         "interval": [
-          47,
+          47.0,
           51.5
         ],
         "label": "gap 3 to 6 points"
@@ -278,7 +283,7 @@
         "l": 157,
         "pct": 43.7,
         "interval": [
-          38,
+          38.0,
           49.6
         ],
         "label": "gap 10 to 99 points"
@@ -289,7 +294,7 @@
         "pct": 49.1,
         "interval": [
           47.2,
-          51
+          51.0
         ],
         "label": "before 2021"
       },
@@ -302,6 +307,17 @@
           51.5
         ],
         "label": "from 2021"
+      }
+    },
+    "returns": {
+      "moneyline": {
+        "n": 2508,
+        "roi": -Infinity,
+        "se": NaN,
+        "lo": NaN,
+        "hi": NaN,
+        "w": 1025,
+        "l": 1483
       }
     }
   }
