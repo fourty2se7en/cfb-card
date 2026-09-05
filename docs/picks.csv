@@ -101,3 +101,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,SMU,Florida State,spread,model_gap_early,AVOID,D,Florida State,3.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,SMU,Florida State,moneyline,model_gap_early,AVOID,D,Florida State,137.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,SMU,Florida State,total,total_over,AVOID,D,under,53.2,consensus,2026-09-05T08:25:34.766161+00:00,,
+2026,1,East Carolina,Alabama,moneyline,model_gap_early,AVOID,D,East Carolina,1800.0,consensus,2026-09-05T11:51:18.424450+00:00,,
