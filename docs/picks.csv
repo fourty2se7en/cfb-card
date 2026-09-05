@@ -1,0 +1,5 @@
+season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,result,settled_utc
+2026,1,Tulane,Duke,spread,price_gap,LEAN,C,Duke,-7.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
+2026,1,Clemson,LSU,spread,price_gap,LEAN,C,LSU,-9.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
+2026,1,Central Michigan,New Mexico,spread,price_gap,LEAN,C,New Mexico,-10.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
+2026,1,Western Kentucky,Nevada,spread,price_gap,LEAN,C,Western Kentucky,1.0,Bovada,2026-09-05T07:57:31.759715+00:00,,
