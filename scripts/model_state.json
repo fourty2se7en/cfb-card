@@ -100,7 +100,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-05T16:27:32Z",
+    "run_utc": "2026-09-05T16:34:17Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -124,8 +124,8 @@
         3010
       ],
       "moneyline": [
-        1025,
-        1483
+        1032,
+        1486
       ]
     },
     "record_notes": {
@@ -150,16 +150,16 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.0511,
-        "se_k": 0.1356,
+        "se_a": 0.051,
+        "se_k": 0.1348,
         "n": 1558,
         "k_clears_zero": false
       },
       "model_gap_late": {
         "a": 0.0372,
         "k": -0.2039,
-        "se_a": 0.0306,
-        "se_k": 0.1172,
+        "se_a": 0.0311,
+        "se_k": 0.1204,
         "n": 4461,
         "k_clears_zero": false
       },
@@ -191,8 +191,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0326,
-        "se_k": 0.0356,
+        "se_a": 0.0263,
+        "se_k": 0.0893,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -311,13 +311,13 @@
     },
     "returns": {
       "moneyline": {
-        "n": 2508,
-        "roi": -Infinity,
-        "se": NaN,
-        "lo": NaN,
-        "hi": NaN,
-        "w": 1025,
-        "l": 1483
+        "n": 2518,
+        "roi": -4.05,
+        "se": 3.22,
+        "lo": -10.36,
+        "hi": 2.26,
+        "w": 1032,
+        "l": 1486
       }
     }
   }
