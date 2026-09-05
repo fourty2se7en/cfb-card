@@ -1,0 +1,1152 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>College card &middot; week 1</title>
+<style>
+:root { color-scheme: dark; --bg:#0d1117; --card:#161b22; --line:#30363d; --tx:#e6edf3;
+        --mut:#8b949e; --acc:#58a6ff; --warn:#d29922; --good:#3fb950; --bad:#f85149; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--tx); font:15px/1.5 -apple-system,
+        BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; }
+.wrap { max-width:900px; margin:0 auto; padding:16px; }
+h1 { font-size:20px; margin:0 0 2px; }
+.sub { color:var(--mut); font-size:13px; margin-bottom:14px; }
+.banner { background:#1c2128; border:1px solid var(--line); border-left:3px solid var(--warn);
+        border-radius:6px; padding:12px 14px; margin-bottom:16px; font-size:14px; }
+.banner b { color:var(--warn); }
+nav { display:flex; gap:6px; margin-bottom:14px; flex-wrap:wrap; }
+nav button { background:var(--card); color:var(--tx); border:1px solid var(--line);
+        border-radius:6px; padding:8px 14px; font-size:14px; cursor:pointer; }
+nav button[aria-selected=true] { background:var(--acc); color:#0d1117; border-color:var(--acc);
+        font-weight:600; }
+section[hidden] { display:none; }
+.game { background:var(--card); border:1px solid var(--line); border-radius:8px;
+        padding:12px 14px; margin-bottom:12px; }
+.game.cross { opacity:.72; }
+.game header { display:flex; flex-wrap:wrap; align-items:baseline; gap:8px; margin-bottom:8px; }
+.game h3 { font-size:16px; margin:0; }
+.kick { color:var(--mut); font-size:12px; }
+.tag { font-size:11px; padding:2px 7px; border-radius:99px; border:1px solid var(--line); }
+.tag.out { color:var(--mut); }
+.tag.warn { color:var(--warn); border-color:var(--warn); }
+.tag.price { color:var(--good); border-color:var(--good); }
+.tag.done { color:var(--mut); }
+.game.final { opacity:.85; }
+.score { font-size:15px; font-weight:600; margin:2px 0 4px; }
+table.nums { width:100%; border-collapse:collapse; font-size:14px; }
+table.nums th { text-align:left; color:var(--mut); font-weight:500; font-size:12px;
+        padding:3px 6px; }
+table.nums td { padding:4px 6px; border-top:1px solid var(--line); }
+table.nums td:first-child { color:var(--mut); width:34%; }
+.gap { margin-top:9px; font-size:13px; color:var(--tx); background:#0d1117;
+        border:1px solid var(--line); border-radius:6px; padding:8px 10px; }
+.gap.muted { color:var(--mut); }
+.price-box, .notes { margin-top:9px; border:1px solid var(--line); border-radius:6px;
+        padding:8px 10px; background:#0d1117; }
+.ph { font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:var(--mut);
+        margin-bottom:4px; }
+.pn { font-size:13px; color:var(--good); margin:3px 0; }
+.nn { font-size:13px; margin:3px 0; }
+.nn span { color:var(--mut); }
+table.sheet { width:100%; border-collapse:collapse; font-size:13px; }
+table.sheet th { text-align:left; color:var(--mut); font-weight:500; padding:6px 8px;
+        border-bottom:1px solid var(--line); position:sticky; top:0; background:var(--bg); }
+table.sheet td { padding:5px 8px; border-bottom:1px solid var(--line); }
+td.model { color:var(--good); } td.market { color:var(--mut); }
+.scroll { overflow-x:auto; }
+.issue { background:var(--card); border:1px solid var(--line); border-left:3px solid var(--warn);
+        border-radius:6px; padding:9px 12px; margin-bottom:8px; font-size:14px; }
+.ok { color:var(--good); }
+.muted { color:var(--mut); }
+footer { color:var(--mut); font-size:12px; margin-top:24px; border-top:1px solid var(--line);
+        padding-top:12px; }
+</style></head><body><div class="wrap">
+
+<h1>College card &middot; week 1</h1>
+<div class="sub">34 still to play, 27 final,
+38 cross-division for reference. Built by the <b>rebuild</b> run at
+Sat 5 Sep, 12:07 AM Phoenix.</div>
+
+<div class="banner">
+<b>This card does not make picks.</b> Backtested over 2,789 games with real
+closing lines, our number disagreeing with the market went 50.3% against a
+52.4% break-even, and did worse the larger the disagreement got. So every gap below is
+shown with what that size of gap actually did. The one thing here that does not depend on
+beating the market is price consistency: when a book's own moneyline and spread disagree, one
+of them is stale, and that is arithmetic.
+</div>
+
+<nav>
+  <button aria-selected="true" onclick="tab(this,'slate')">Slate</button>
+  <button aria-selected="false" onclick="tab(this,'sheet')">Cheat sheet</button>
+  <button aria-selected="false" onclick="tab(this,'ledger')">Ledger</button>
+  <button aria-selected="false" onclick="tab(this,'attn')">Needs attention</button>
+</nav>
+
+<section id="slate">
+
+<article class="game">
+  <header><h3>Coastal Carolina at West Virginia</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>West Virginia -12.9</td>
+        <td>West Virginia -21.0</td></tr>
+    <tr><td>total</td><td>57.7</td><td>54.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+17.6</td></tr>
+    <tr><td>moneyline</td><td colspan="2">West Virginia -1662 / Coastal Carolina -49550</td></tr>
+  </table>
+  <div class="gap"><b>8.1 points</b> apart. Gaps this size went <b>49.1%</b> over 466 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Liberty at James Madison</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>James Madison -19.7</td>
+        <td>James Madison -6.0</td></tr>
+    <tr><td>total</td><td>56.0</td><td>50.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+8.6 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">James Madison -237 / Liberty +197</td></tr>
+  </table>
+  <div class="gap"><b>13.7 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Ohio at Nebraska</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Nebraska -10.1</td>
+        <td>Nebraska -23.5</td></tr>
+    <tr><td>total</td><td>52.7</td><td>46.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+25.3 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Nebraska -3000 / Ohio +1250</td></tr>
+  </table>
+  <div class="gap"><b>13.4 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>North Texas at Indiana</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Indiana -20.4</td>
+        <td>Indiana -40.8</td></tr>
+    <tr><td>total</td><td>60.2</td><td>56.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+41.6 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap"><b>20.4 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Oregon State at Houston</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Houston -16.5</td>
+        <td>Houston -20.8</td></tr>
+    <tr><td>total</td><td>49.8</td><td>50.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+17.2</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Houston -1550 / Oregon State +862</td></tr>
+  </table>
+  <div class="gap"><b>4.2 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>East Carolina at Alabama</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Alabama -19.0</td>
+        <td>Alabama -27.8</td></tr>
+    <tr><td>total</td><td>52.8</td><td>52.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+24.1</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Alabama -7000 / East Carolina +1700</td></tr>
+  </table>
+  <div class="gap"><b>8.8 points</b> apart. Gaps this size went <b>49.1%</b> over 466 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Miami (OH) at Pittsburgh</h3><div class="kick">Sat 5 Sep, 9:30 AM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Pittsburgh -12.3</td>
+        <td>Pittsburgh -16.2</td></tr>
+    <tr><td>total</td><td>54.6</td><td>47.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+14.4</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Pittsburgh -800 / Miami (OH) +537</td></tr>
+  </table>
+  <div class="gap"><b>3.9 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Ball State at Ohio State</h3><div class="kick">Sat 5 Sep, 9:30 AM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Ohio State -43.2</td>
+        <td>Ohio State -50.2</td></tr>
+    <tr><td>total</td><td>46.7</td><td>56.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+62.0 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap"><b>7.1 points</b> apart. Gaps this size went <b>49.1%</b> over 466 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Kent State at South Carolina</h3><div class="kick">Sat 5 Sep, 9:45 AM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>South Carolina -25.8</td>
+        <td>South Carolina -36.0</td></tr>
+    <tr><td>total</td><td>52.4</td><td>53.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+39.2 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">South Carolina -100000 / Kent State -47500</td></tr>
+  </table>
+  <div class="gap"><b>10.2 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Boston College at Cincinnati</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Cincinnati -8.6</td>
+        <td>Cincinnati -7.5</td></tr>
+    <tr><td>total</td><td>56.0</td><td>50.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+9.7</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Cincinnati -287 / Boston College +232</td></tr>
+  </table>
+  <div class="gap"><b>1.1 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Boise State at Oregon</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Oregon -24.6</td>
+        <td>Oregon -24.8</td></tr>
+    <tr><td>total</td><td>52.9</td><td>51.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+28.3</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Oregon -3250 / Boise State +1250</td></tr>
+  </table>
+  <div class="gap"><b>0.2 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Marshall at Penn State</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Penn State -19.7</td>
+        <td>Penn State -23.5</td></tr>
+    <tr><td>total</td><td>55.7</td><td>52.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+28.6</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Penn State -2950 / Marshall +1150</td></tr>
+  </table>
+  <div class="gap"><b>3.8 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Baylor at Auburn</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Auburn -11.7</td>
+        <td>Auburn -7.5</td></tr>
+    <tr><td>total</td><td>51.5</td><td>59.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+7.7</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Auburn -277 / Baylor +225</td></tr>
+  </table>
+  <div class="gap"><b>4.2 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Texas State at Texas</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Texas -20.7</td>
+        <td>Texas -29.5</td></tr>
+    <tr><td>total</td><td>58.9</td><td>59.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+29.1</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Texas -9000 / Texas State +2350</td></tr>
+  </table>
+  <div class="gap"><b>8.8 points</b> apart. Gaps this size went <b>49.1%</b> over 466 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Tulane at Duke</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div><span class="tag price">price gap</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Duke -6.8</td>
+        <td>Duke -7.5</td></tr>
+    <tr><td>total</td><td>57.2</td><td>51.0</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+14.1</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Duke -402 / Tulane +305</td></tr>
+  </table>
+  <div class="gap"><b>0.7 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div><div class="price-box"><div class="ph">Price consistency</div><div class="pn">Bovada posts -7.5 but its own moneyline implies -12.5. The spread is the better ticket on the away side by 5.0 points.</div></div>
+</article>
+<article class="game">
+  <header><h3>Oklahoma State at Tulsa</h3><div class="kick">Sat 5 Sep, 12:45 PM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Tulsa -2.7</td>
+        <td>Tulsa +13.5</td></tr>
+    <tr><td>total</td><td>49.8</td><td>59.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">-8.8 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Tulsa +407 / Oklahoma State -562</td></tr>
+  </table>
+  <div class="gap"><b>16.2 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Northern Illinois at Iowa</h3><div class="kick">Sat 5 Sep, 1:15 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Iowa -28.0</td>
+        <td>Iowa -31.8</td></tr>
+    <tr><td>total</td><td>47.7</td><td>44.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+36.0</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Iowa -100000 / Northern Illinois +3750</td></tr>
+  </table>
+  <div class="gap"><b>3.8 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Wyoming at Colorado State</h3><div class="kick">Sat 5 Sep, 3:00 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Colorado State -2.3</td>
+        <td>Colorado State -3.0</td></tr>
+    <tr><td>total</td><td>46.2</td><td>46.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+3.4</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Colorado State -167 / Wyoming +142</td></tr>
+  </table>
+  <div class="gap"><b>0.7 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Sam Houston at Troy</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Troy -17.8</td>
+        <td>Troy -16.5</td></tr>
+    <tr><td>total</td><td>52.1</td><td>53.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+22.2</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Troy -1075 / Sam Houston +650</td></tr>
+  </table>
+  <div class="gap"><b>1.3 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Missouri State at Texas A&amp;M</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Texas A&amp;M -29.0</td>
+        <td>Texas A&amp;M -40.5</td></tr>
+    <tr><td>total</td><td>55.9</td><td>53.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+44.2 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap"><b>11.5 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Arkansas State at Memphis</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Memphis -13.8</td>
+        <td>Memphis -11.2</td></tr>
+    <tr><td>total</td><td>52.2</td><td>53.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+16.1</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Memphis -405 / Arkansas State +315</td></tr>
+  </table>
+  <div class="gap"><b>2.5 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Florida International at South Florida</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>South Florida -18.9</td>
+        <td>South Florida -14.5</td></tr>
+    <tr><td>total</td><td>61.3</td><td>51.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+17.0</td></tr>
+    <tr><td>moneyline</td><td colspan="2">South Florida -567 / Florida International +415</td></tr>
+  </table>
+  <div class="gap"><b>4.4 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Clemson at LSU</h3><div class="kick">Sat 5 Sep, 4:30 PM Phoenix</div><span class="tag price">price gap</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>LSU -2.8</td>
+        <td>LSU -9.8</td></tr>
+    <tr><td>total</td><td>47.0</td><td>50.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+11.5</td></tr>
+    <tr><td>moneyline</td><td colspan="2">LSU -445 / Clemson +335</td></tr>
+  </table>
+  <div class="gap"><b>6.9 points</b> apart. Gaps this size went <b>49.1%</b> over 466 backtested games, against 52.4% break-even. Not a pick.</div><div class="price-box"><div class="ph">Price consistency</div><div class="pn">Bovada posts -9.5 but its own moneyline implies -12.5. The spread is the better ticket on the away side by 3.0 points.</div></div>
+</article>
+<article class="game">
+  <header><h3>Western Michigan at Michigan</h3><div class="kick">Sat 5 Sep, 4:30 PM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Michigan -15.8</td>
+        <td>Michigan -27.5</td></tr>
+    <tr><td>total</td><td>47.5</td><td>49.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+27.2 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Michigan -6750 / Western Michigan +1650</td></tr>
+  </table>
+  <div class="gap"><b>11.7 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>UL Monroe at Mississippi State</h3><div class="kick">Sat 5 Sep, 4:30 PM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Mississippi State -24.9</td>
+        <td>Mississippi State -28.5</td></tr>
+    <tr><td>total</td><td>54.5</td><td>54.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+37.9 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Mississippi State -52000 / UL Monroe +2050</td></tr>
+  </table>
+  <div class="gap"><b>3.6 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Florida Atlantic at Florida</h3><div class="kick">Sat 5 Sep, 4:45 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Florida -22.0</td>
+        <td>Florida -26.5</td></tr>
+    <tr><td>total</td><td>56.0</td><td>59.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+25.5</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Florida -4650 / Florida Atlantic +1300</td></tr>
+  </table>
+  <div class="gap"><b>4.5 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>UNLV at Hawai&#x27;i</h3><div class="kick">Sat 5 Sep, 7:00 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>UNLV -1.2</td>
+        <td>Hawai&#x27;i +3.0</td></tr>
+    <tr><td>total</td><td>58.1</td><td>55.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">-2.0</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Hawai&#x27;i +130 / UNLV -152</td></tr>
+  </table>
+  <div class="gap"><b>1.8 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Central Michigan at New Mexico</h3><div class="kick">Sat 5 Sep, 7:00 PM Phoenix</div><span class="tag warn">low information</span><span class="tag price">price gap</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>New Mexico -6.7</td>
+        <td>New Mexico -10.5</td></tr>
+    <tr><td>total</td><td>48.5</td><td>46.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+19.3 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">New Mexico -507 / Central Michigan +370</td></tr>
+  </table>
+  <div class="gap"><b>3.8 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div><div class="price-box"><div class="ph">Price consistency</div><div class="pn">Bovada posts -10.5 but its own moneyline implies -13.7. The spread is the better ticket on the away side by 3.2 points.</div></div>
+</article>
+<article class="game">
+  <header><h3>Western Kentucky at Nevada</h3><div class="kick">Sat 5 Sep, 7:30 PM Phoenix</div><span class="tag price">price gap</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Western Kentucky -5.2</td>
+        <td>Nevada +0.2</td></tr>
+    <tr><td>total</td><td>51.0</td><td>51.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">-0.2</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Nevada +4 / Western Kentucky -124</td></tr>
+  </table>
+  <div class="gap"><b>5.0 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div><div class="price-box"><div class="ph">Price consistency</div><div class="pn">Bovada posts -1.0 but its own moneyline implies +2.4. The moneyline is the better ticket on the home side by 3.4 points.</div></div>
+</article>
+<article class="game">
+  <header><h3>UCLA at California</h3><div class="kick">Sat 5 Sep, 7:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>California -8.1</td>
+        <td>California +2.5</td></tr>
+    <tr><td>total</td><td>53.9</td><td>53.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+1.8</td></tr>
+    <tr><td>moneyline</td><td colspan="2">California +112 / UCLA -132</td></tr>
+  </table>
+  <div class="gap"><b>10.6 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Washington State at Washington</h3><div class="kick">Sun 6 Sep, 1:00 PM Phoenix</div><span class="tag warn">low information</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Washington -13.2</td>
+        <td>Washington -23.2</td></tr>
+    <tr><td>total</td><td>47.9</td><td>51.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+24.3 &nbsp; diverges from our number</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Washington -2300 / Washington State +1100</td></tr>
+  </table>
+  <div class="gap"><b>10.0 points</b> apart. Gaps this size went <b>46.7%</b> over 122 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Louisville at Ole Miss</h3><div class="kick">Sun 6 Sep, 4:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Ole Miss -9.7</td>
+        <td>Ole Miss -6.5</td></tr>
+    <tr><td>total</td><td>49.4</td><td>54.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+5.4</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Ole Miss -270 / Louisville +220</td></tr>
+  </table>
+  <div class="gap"><b>3.2 points</b> apart. Gaps this size went <b>50.7%</b> over 880 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>Wisconsin at Notre Dame</h3><div class="kick">Sun 6 Sep, 4:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Notre Dame -20.6</td>
+        <td>Notre Dame -20.5</td></tr>
+    <tr><td>total</td><td>43.6</td><td>46.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+22.7</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Notre Dame -2300 / Wisconsin +1050</td></tr>
+  </table>
+  <div class="gap"><b>0.1 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<article class="game">
+  <header><h3>SMU at Florida State</h3><div class="kick">Mon 7 Sep, 4:30 PM Phoenix</div></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>SMU -1.4</td>
+        <td>Florida State +3.0</td></tr>
+    <tr><td>total</td><td>52.8</td><td>53.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">+1.2</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Florida State +137 / SMU -162</td></tr>
+  </table>
+  <div class="gap"><b>1.6 points</b> apart. Gaps this size went <b>51.0%</b> over 1293 backtested games, against 52.4% break-even. Not a pick.</div>
+</article>
+<h2 style="font-size:15px;color:var(--mut);margin:22px 0 10px">Cross-division, for reference</h2>
+<article class="game cross">
+  <header><h3>Bryant at Army</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Army -26.3</td>
+        <td>Army -37.2</td></tr>
+    <tr><td>total</td><td>46.4</td><td>50.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Lafayette at UConn</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>UConn -31.3</td>
+        <td>UConn -19.5</td></tr>
+    <tr><td>total</td><td>62.6</td><td>51.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">UConn -1325 / Lafayette +762</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>New Hampshire at Syracuse</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Syracuse -25.8</td>
+        <td>Syracuse -34.5</td></tr>
+    <tr><td>total</td><td>51.1</td><td>55.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Syracuse -100000 / New Hampshire +5000</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Tarleton State at Bowling Green</h3><div class="kick">Sat 5 Sep, 9:00 AM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Bowling Green -9.9</td>
+        <td>Bowling Green -1.8</td></tr>
+    <tr><td>total</td><td>56.0</td><td>47.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Bowling Green -127 / Tarleton State +107</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Duquesne at Air Force</h3><div class="kick">Sat 5 Sep, 10:00 AM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Air Force -20.1</td>
+        <td>Air Force -29.0</td></tr>
+    <tr><td>total</td><td>54.1</td><td>57.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Air Force -6500 / Duquesne +2000</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Youngstown State at Kentucky</h3><div class="kick">Sat 5 Sep, 10:00 AM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Kentucky -29.1</td>
+        <td>Kentucky -22.8</td></tr>
+    <tr><td>total</td><td>59.1</td><td>62.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Kentucky -1900 / Youngstown State +950</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Southeast Missouri State at Iowa State</h3><div class="kick">Sat 5 Sep, 10:00 AM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Iowa State -41.0</td>
+        <td>Iowa State -30.5</td></tr>
+    <tr><td>total</td><td>49.3</td><td>53.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Iowa State -50000 / Southeast Missouri State +4000</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Rhode Island at Temple</h3><div class="kick">Sat 5 Sep, 11:00 AM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Temple -16.0</td>
+        <td>Temple -14.5</td></tr>
+    <tr><td>total</td><td>55.1</td><td>51.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Temple -700 / Rhode Island +487</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Tennessee State at Georgia</h3><div class="kick">Sat 5 Sep, 12:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Georgia -60.9</td>
+        <td>Georgia -47.8</td></tr>
+    <tr><td>total</td><td>44.7</td><td>54.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Towson at Navy</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Navy -25.4</td>
+        <td>Navy -30.5</td></tr>
+    <tr><td>total</td><td>52.0</td><td>50.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Navy -50000 / Towson +4000</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>The Citadel at Charlotte</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Charlotte -22.3</td>
+        <td>Charlotte -20.2</td></tr>
+    <tr><td>total</td><td>50.0</td><td>46.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Charlotte -1525 / The Citadel +850</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Fordham at North Dakota State</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>North Dakota State -34.5</td>
+        <td>North Dakota State -41.5</td></tr>
+    <tr><td>total</td><td>47.6</td><td>56.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Maine at App State</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>App State -22.2</td>
+        <td>App State -19.5</td></tr>
+    <tr><td>total</td><td>52.1</td><td>53.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">App State -1200 / Maine +712</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>UT Rio Grande Valley at UTSA</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>UTSA -18.3</td>
+        <td>UTSA -28.5</td></tr>
+    <tr><td>total</td><td>56.8</td><td>59.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">UTSA -9000 / UT Rio Grande Valley +2500</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Furman at Tennessee</h3><div class="kick">Sat 5 Sep, 12:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Tennessee -47.7</td>
+        <td>Tennessee -48.2</td></tr>
+    <tr><td>total</td><td>55.7</td><td>66.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>North Alabama at Arkansas</h3><div class="kick">Sat 5 Sep, 1:15 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Arkansas -43.9</td>
+        <td>Arkansas -40.5</td></tr>
+    <tr><td>total</td><td>60.6</td><td>63.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Alcorn State at Southern Miss</h3><div class="kick">Sat 5 Sep, 2:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Southern Miss -15.4</td>
+        <td>Southern Miss -19.2</td></tr>
+    <tr><td>total</td><td>54.1</td><td>50.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Southern Miss -1300 / Alcorn State +750</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Norfolk State at Old Dominion</h3><div class="kick">Sat 5 Sep, 3:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Old Dominion -33.7</td>
+        <td>Old Dominion -40.8</td></tr>
+    <tr><td>total</td><td>53.8</td><td>52.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Nicholls at Kansas State</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Kansas State -36.5</td>
+        <td>Kansas State -41.0</td></tr>
+    <tr><td>total</td><td>52.2</td><td>54.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Houston Christian at Rice</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Rice -23.6</td>
+        <td>Rice -22.5</td></tr>
+    <tr><td>total</td><td>52.3</td><td>47.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Rice -2800 / Houston Christian +1225</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Murray State at Middle Tennessee</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Middle Tennessee -34.3</td>
+        <td>Middle Tennessee -20.8</td></tr>
+    <tr><td>total</td><td>53.1</td><td>57.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Middle Tennessee -1800 / Murray State +925</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Austin Peay at Vanderbilt</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Vanderbilt -43.4</td>
+        <td>Vanderbilt -28.8</td></tr>
+    <tr><td>total</td><td>61.3</td><td>60.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Vanderbilt -4500 / Austin Peay +1700</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Idaho State at Utah State</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Utah State -25.4</td>
+        <td>Utah State -14.0</td></tr>
+    <tr><td>total</td><td>54.5</td><td>62.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Utah State -575 / Idaho State +417</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>SE Louisiana at South Alabama</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>South Alabama -19.8</td>
+        <td>South Alabama -13.0</td></tr>
+    <tr><td>total</td><td>53.8</td><td>52.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">South Alabama -522 / SE Louisiana +385</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Charleston Southern at Georgia Southern</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Georgia Southern -27.4</td>
+        <td>Georgia Southern -25.5</td></tr>
+    <tr><td>total</td><td>48.9</td><td>51.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Georgia Southern -4250 / Charleston Southern +1450</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Eastern Kentucky at Jacksonville State</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Jacksonville State -32.6</td>
+        <td>Jacksonville State -20.8</td></tr>
+    <tr><td>total</td><td>48.6</td><td>53.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Jacksonville State -1625 / Eastern Kentucky +875</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Abilene Christian at Texas Tech</h3><div class="kick">Sat 5 Sep, 4:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Texas Tech -51.3</td>
+        <td>Texas Tech -42.5</td></tr>
+    <tr><td>total</td><td>52.7</td><td>59.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Northwestern State at Louisiana Tech</h3><div class="kick">Sat 5 Sep, 4:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Louisiana Tech -44.0</td>
+        <td>Louisiana Tech -44.5</td></tr>
+    <tr><td>total</td><td>55.9</td><td>55.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>VMI at Virginia Tech</h3><div class="kick">Sat 5 Sep, 4:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Virginia Tech -48.8</td>
+        <td>Virginia Tech -55.5</td></tr>
+    <tr><td>total</td><td>52.2</td><td>62.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Utah Tech at BYU</h3><div class="kick">Sat 5 Sep, 5:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>BYU -57.7</td>
+        <td>BYU -51.5</td></tr>
+    <tr><td>total</td><td>49.1</td><td>61.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>South Dakota State at Northwestern</h3><div class="kick">Sat 5 Sep, 5:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Northwestern -26.2</td>
+        <td>Northwestern -12.5</td></tr>
+    <tr><td>total</td><td>52.8</td><td>46.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Northwestern -522 / South Dakota State +382</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Hampton at Maryland</h3><div class="kick">Sat 5 Sep, 5:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Maryland -30.2</td>
+        <td>Maryland -45.5</td></tr>
+    <tr><td>total</td><td>52.7</td><td>55.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Lamar at Louisiana</h3><div class="kick">Sat 5 Sep, 5:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Louisiana -22.7</td>
+        <td>Louisiana -20.2</td></tr>
+    <tr><td>total</td><td>50.0</td><td>48.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Louisiana -1300 / Lamar +750</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Mercyhurst at New Mexico State</h3><div class="kick">Sat 5 Sep, 6:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>New Mexico State -27.7</td>
+        <td>New Mexico State -28.5</td></tr>
+    <tr><td>total</td><td>48.4</td><td>52.2</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">New Mexico State -8000 / Mercyhurst +2200</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Portland State at San Diego State</h3><div class="kick">Sat 5 Sep, 6:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>San Diego State -45.7</td>
+        <td>San Diego State -40.5</td></tr>
+    <tr><td>total</td><td>48.3</td><td>61.8</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Northern Arizona at Arizona</h3><div class="kick">Sat 5 Sep, 6:30 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Arizona -42.0</td>
+        <td>Arizona -31.5</td></tr>
+    <tr><td>total</td><td>56.5</td><td>58.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">Arizona -8000 / Northern Arizona +2200</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Morgan State at Arizona State</h3><div class="kick">Sat 5 Sep, 7:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Arizona State -37.0</td>
+        <td>Arizona State -44.8</td></tr>
+    <tr><td>total</td><td>45.2</td><td>52.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<article class="game cross">
+  <header><h3>Mississippi Valley State at Sacramento State</h3><div class="kick">Sat 5 Sep, 7:00 PM Phoenix</div><span class="tag out">out of scope</span></header>
+  <table class="nums">
+    <tr><th></th><th>our number</th><th>the market</th></tr>
+    <tr><td>spread</td><td>Sacramento State -18.3</td>
+        <td>Sacramento State -37.5</td></tr>
+    <tr><td>total</td><td>56.4</td><td>56.5</td></tr>
+    <tr><td>SP+ cross-check</td><td colspan="2">&mdash;</td></tr>
+    <tr><td>moneyline</td><td colspan="2">&mdash;</td></tr>
+  </table>
+  <div class="gap muted">Cross-division. The model cannot place FBS and FCS on one reliable scale, so this game is shown for reference only.</div>
+</article>
+<h2 style="font-size:15px;color:var(--mut);margin:22px 0 10px">Already played this week</h2>
+<article class="game final">
+  <header><h3>North Carolina at TCU</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">TCU 10, North Carolina 15</div>
+  <div class="gap muted">Final margin -5. We said +2.6, the market said +7.5. Our number was closer, by 4.9.</div>
+</article>
+<article class="game final">
+  <header><h3>San José State at USC</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">USC 42, San José State 26</div>
+  <div class="gap muted">Final margin +16. We said +28.9, the market said +37.5. Our number was closer, by 8.6.</div>
+</article>
+<article class="game final">
+  <header><h3>NC State at Virginia</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Virginia 34, NC State 8</div>
+  <div class="gap muted">Final margin +26. We said +11.9, the market said +4.0. Our number was closer, by 7.9.</div>
+</article>
+<article class="game final">
+  <header><h3>Jacksonville State at North Dakota State</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">North Dakota State 33, Jacksonville State 7</div>
+  <div class="gap muted">Final margin +26. We said -0.9, the market said +6.5. The market was closer, by 7.4.</div>
+</article>
+<article class="game final">
+  <header><h3>Sacramento State at Eastern Michigan</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Eastern Michigan 28, Sacramento State 17</div>
+  <div class="gap muted">Final margin +11. We said +24.0, the market said +9.0. The market was closer, by 11.0.</div>
+</article>
+<article class="game final">
+  <header><h3>Hawai&#x27;i at Stanford</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Stanford 37, Hawai&#x27;i 27</div>
+  <div class="gap muted">Final margin +10. We said +5.1, the market said +4.5. Our number was closer, by 0.6.</div>
+</article>
+<article class="game final">
+  <header><h3>New Mexico State at Florida State</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Florida State 34, New Mexico State 17</div>
+  <div class="gap muted">Final margin +17. We said +22.4, the market said +31.0. Our number was closer, by 8.6.</div>
+</article>
+<article class="game final">
+  <header><h3>Memphis at UNLV</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">UNLV 21, Memphis 27</div>
+  <div class="gap muted">Final margin -6. We said +1.2, the market said +4.5. Our number was closer, by 3.3.</div>
+</article>
+<article class="game final">
+  <header><h3>Massachusetts at Rutgers</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Rutgers 21, Massachusetts 37</div>
+  <div class="gap muted">Final margin -16. We said +15.5, the market said +29.5. Our number was closer, by 14.0.</div>
+</article>
+<article class="game final cross">
+  <header><h3>Merrimack at Delaware</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Delaware 42, Merrimack 7</div>
+  <div class="gap muted">Final margin +35. We said +38.8, the market said +31.5. The market was closer, by 0.3.</div>
+</article>
+<article class="game final">
+  <header><h3>Akron at Wake Forest</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Wake Forest 38, Akron 16</div>
+  <div class="gap muted">Final margin +22. We said +19.1, the market said +27.5. Our number was closer, by 2.6.</div>
+</article>
+<article class="game final cross">
+  <header><h3>Bethune-Cookman at UCF</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">UCF 73, Bethune-Cookman 6</div>
+  <div class="gap muted">Final margin +67. We said +44.8, the market said +43.5. Our number was closer, by 1.3.</div>
+</article>
+<article class="game final cross">
+  <header><h3>UAlbany at Buffalo</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Buffalo 21, UAlbany 17</div>
+  <div class="gap muted">Final margin +4. We said +28.3, the market said +18.5. The market was closer, by 9.8.</div>
+</article>
+<article class="game final cross">
+  <header><h3>West Georgia at Kennesaw State</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Kennesaw State 47, West Georgia 0</div>
+  <div class="gap muted">Final margin +47. We said +45.4, the market said +22.5. Our number was closer, by 22.9.</div>
+</article>
+<article class="game final">
+  <header><h3>Colorado at Georgia Tech</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Georgia Tech 13, Colorado 14</div>
+  <div class="gap muted">Final margin -1. We said +10.1, the market said +6.5. The market was closer, by 3.6.</div>
+</article>
+<article class="game final cross">
+  <header><h3>Eastern Illinois at Minnesota</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Minnesota 59, Eastern Illinois 7</div>
+  <div class="gap muted">Final margin +52. We said +50.0, the market said +42.5. Our number was closer, by 7.5.</div>
+</article>
+<article class="game final cross">
+  <header><h3>Arkansas-Pine Bluff at Missouri</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Missouri 54, Arkansas-Pine Bluff 14</div>
+  <div class="gap muted">Final margin +40. We said +52.9, the market said +55.5. Our number was closer, by 2.6.</div>
+</article>
+<article class="game final cross">
+  <header><h3>Idaho at Utah</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Utah 66, Idaho 14</div>
+  <div class="gap muted">Final margin +52. We said +57.7, the market said +38.0. Our number was closer, by 8.3.</div>
+</article>
+<article class="game final">
+  <header><h3>UAB at Illinois</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Illinois 42, UAB 23</div>
+  <div class="gap muted">Final margin +19. We said +19.6, the market said +25.5. Our number was closer, by 5.9.</div>
+</article>
+<article class="game final">
+  <header><h3>San José State at Eastern Michigan</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Eastern Michigan 21, San José State 27</div>
+  <div class="gap muted">Final margin -6. We said +6.0, the market said +1.5. The market was closer, by 4.5.</div>
+</article>
+<article class="game final cross">
+  <header><h3>North Carolina A&amp;T at Georgia State</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Georgia State 59, North Carolina A&amp;T 10</div>
+  <div class="gap muted">Final margin +49. We said +45.9, the market said +28.5. Our number was closer, by 17.4.</div>
+</article>
+<article class="game final cross">
+  <header><h3>Indiana State at Purdue</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Purdue 44, Indiana State 19</div>
+  <div class="gap muted">Final margin +25. We said +39.4, the market said +35.5. The market was closer, by 3.9.</div>
+</article>
+<article class="game final cross">
+  <header><h3>Long Island University at Kansas</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Kansas 51, Long Island University 6</div>
+  <div class="gap muted">Final margin +45. We said +45.7, the market said +44.5. The market was closer, by 0.2.</div>
+</article>
+<article class="game final">
+  <header><h3>Toledo at Michigan State</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Michigan State 30, Toledo 20</div>
+  <div class="gap muted">Final margin +10. We said +2.2, the market said +10.0. The market was closer, by 7.8.</div>
+</article>
+<article class="game final">
+  <header><h3>UTEP at Oklahoma</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Oklahoma 51, UTEP 0</div>
+  <div class="gap muted">Final margin +51. We said +37.9, the market said +40.5. The market was closer, by 2.6.</div>
+</article>
+<article class="game final">
+  <header><h3>Miami at Stanford</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">Stanford 6, Miami 45</div>
+  <div class="gap muted">Final margin -39. We said -23.3, the market said -24.5. The market was closer, by 1.2.</div>
+</article>
+<article class="game final">
+  <header><h3>Fresno State at USC</h3>
+  <span class="tag done">final</span></header>
+  <div class="score">USC 39, Fresno State 0</div>
+  <div class="gap muted">Final margin +39. We said +24.1, the market said +21.5. Our number was closer, by 2.6.</div>
+</article>
+</section>
+
+<section id="sheet" hidden>
+<p class="muted">Every rated team. Rating is points against an average FBS team on a neutral
+field. Talent prior is where recruiting alone would put them, form is what results have said
+on top of that.</p>
+<div class="scroll"><table class="sheet"><thead><tr><th>rank</th><th>team</th><th>rating</th><th>talent prior</th><th>form</th><th>conference</th><th>division</th></tr></thead><tbody><tr><td>1</td><td>Ohio State</td><td>23.57</td><td>17.09</td><td>9.57</td><td>Big Ten</td><td>fbs</td></tr><tr><td>2</td><td>Texas Tech</td><td>22.89</td><td>5.53</td><td>20.46</td><td>Big 12</td><td>fbs</td></tr><tr><td>3</td><td>Notre Dame</td><td>22.04</td><td>16.43</td><td>8.71</td><td>FBS Independents</td><td>fbs</td></tr><tr><td>4</td><td>Indiana</td><td>22.01</td><td>3.61</td><td>21.49</td><td>Big Ten</td><td>fbs</td></tr><tr><td>5</td><td>Miami</td><td>21.87</td><td>12.48</td><td>12.48</td><td>ACC</td><td>fbs</td></tr><tr><td>6</td><td>Oregon</td><td>21.67</td><td>18.28</td><td>6.49</td><td>Big Ten</td><td>fbs</td></tr><tr><td>7</td><td>Georgia</td><td>20.07</td><td>19.41</td><td>3.75</td><td>SEC</td><td>fbs</td></tr><tr><td>8</td><td>Utah</td><td>17.98</td><td>1.28</td><td>19.79</td><td>Big 12</td><td>fbs</td></tr><tr><td>9</td><td>Texas A&amp;M</td><td>17.49</td><td>15.25</td><td>5.34</td><td>SEC</td><td>fbs</td></tr><tr><td>10</td><td>Oklahoma</td><td>17.44</td><td>10.43</td><td>10.1</td><td>SEC</td><td>fbs</td></tr><tr><td>11</td><td>Alabama</td><td>16.98</td><td>17.64</td><td>2.44</td><td>SEC</td><td>fbs</td></tr><tr><td>12</td><td>Ole Miss</td><td>16.97</td><td>12.47</td><td>7.6</td><td>SEC</td><td>fbs</td></tr><tr><td>13</td><td>Texas</td><td>14.72</td><td>18.32</td><td>-0.51</td><td>SEC</td><td>fbs</td></tr><tr><td>14</td><td>Vanderbilt</td><td>14.63</td><td>3.15</td><td>14.58</td><td>SEC</td><td>fbs</td></tr><tr><td>15</td><td>Missouri</td><td>14.59</td><td>7.91</td><td>9.77</td><td>SEC</td><td>fbs</td></tr><tr><td>16</td><td>USC</td><td>13.5</td><td>13.25</td><td>3.35</td><td>Big Ten</td><td>fbs</td></tr><tr><td>17</td><td>Tennessee</td><td>11.73</td><td>12.48</td><td>2.34</td><td>SEC</td><td>fbs</td></tr><tr><td>18</td><td>Clemson</td><td>11.63</td><td>11.12</td><td>3.61</td><td>ACC</td><td>fbs</td></tr><tr><td>19</td><td>South Florida</td><td>11.56</td><td>1.76</td><td>12.9</td><td>American Athletic</td><td>fbs</td></tr><tr><td>20</td><td>Iowa</td><td>11.24</td><td>2.87</td><td>11.46</td><td>Big Ten</td><td>fbs</td></tr><tr><td>21</td><td>SMU</td><td>10.92</td><td>5.33</td><td>8.69</td><td>ACC</td><td>fbs</td></tr><tr><td>22</td><td>Washington</td><td>10.75</td><td>6.1</td><td>7.75</td><td>Big Ten</td><td>fbs</td></tr><tr><td>23</td><td>Auburn</td><td>10.42</td><td>9.08</td><td>4.43</td><td>SEC</td><td>fbs</td></tr><tr><td>24</td><td>Michigan</td><td>10.37</td><td>12.72</td><td>0.74</td><td>Big Ten</td><td>fbs</td></tr><tr><td>25</td><td>LSU</td><td>10.22</td><td>15.18</td><td>-1.87</td><td>SEC</td><td>fbs</td></tr><tr><td>26</td><td>James Madison</td><td>9.89</td><td>-5.04</td><td>18.03</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>27</td><td>Penn State</td><td>9.61</td><td>5.89</td><td>6.82</td><td>Big Ten</td><td>fbs</td></tr><tr><td>28</td><td>Virginia</td><td>9.14</td><td>1.54</td><td>10.69</td><td>ACC</td><td>fbs</td></tr><tr><td>29</td><td>BYU</td><td>8.94</td><td>0.91</td><td>11.12</td><td>Big 12</td><td>fbs</td></tr><tr><td>30</td><td>South Carolina</td><td>8.78</td><td>11.12</td><td>0.76</td><td>SEC</td><td>fbs</td></tr><tr><td>31</td><td>Arizona</td><td>8.47</td><td>1.51</td><td>10.05</td><td>Big 12</td><td>fbs</td></tr><tr><td>32</td><td>Louisville</td><td>7.31</td><td>3.89</td><td>6.52</td><td>ACC</td><td>fbs</td></tr><tr><td>33</td><td>Florida</td><td>6.94</td><td>12.78</td><td>-2.75</td><td>SEC</td><td>fbs</td></tr><tr><td>34</td><td>Kansas</td><td>5.96</td><td>0.62</td><td>8.44</td><td>Big 12</td><td>fbs</td></tr><tr><td>35</td><td>North Texas</td><td>5.89</td><td>-4.23</td><td>13.22</td><td>American Athletic</td><td>fbs</td></tr><tr><td>36</td><td>Minnesota</td><td>5.8</td><td>3.23</td><td>5.67</td><td>Big Ten</td><td>fbs</td></tr><tr><td>37</td><td>Florida State</td><td>5.32</td><td>7.43</td><td>0.99</td><td>ACC</td><td>fbs</td></tr><tr><td>38</td><td>Duke</td><td>4.82</td><td>-0.32</td><td>8.24</td><td>ACC</td><td>fbs</td></tr><tr><td>39</td><td>Kansas State</td><td>4.78</td><td>2.63</td><td>5.25</td><td>Big 12</td><td>fbs</td></tr><tr><td>40</td><td>Pittsburgh</td><td>4.51</td><td>0.06</td><td>7.54</td><td>ACC</td><td>fbs</td></tr><tr><td>41</td><td>Mississippi State</td><td>4.22</td><td>7.69</td><td>-0.37</td><td>SEC</td><td>fbs</td></tr><tr><td>42</td><td>Wake Forest</td><td>4.0</td><td>0.41</td><td>6.68</td><td>ACC</td><td>fbs</td></tr><tr><td>43</td><td>Kentucky</td><td>3.74</td><td>6.64</td><td>0.2</td><td>SEC</td><td>fbs</td></tr><tr><td>44</td><td>UCF</td><td>3.55</td><td>-0.11</td><td>6.75</td><td>Big 12</td><td>fbs</td></tr><tr><td>44</td><td>Arkansas</td><td>3.55</td><td>4.21</td><td>2.44</td><td>SEC</td><td>fbs</td></tr><tr><td>46</td><td>Iowa State</td><td>3.54</td><td>-0.26</td><td>6.89</td><td>Big 12</td><td>fbs</td></tr><tr><td>47</td><td>Illinois</td><td>3.37</td><td>1.77</td><td>4.7</td><td>Big Ten</td><td>fbs</td></tr><tr><td>48</td><td>Toledo</td><td>2.81</td><td>-6.93</td><td>12.84</td><td>Mid-American</td><td>fbs</td></tr><tr><td>49</td><td>Houston</td><td>2.55</td><td>1.29</td><td>4.35</td><td>Big 12</td><td>fbs</td></tr><tr><td>50</td><td>Northwestern</td><td>2.49</td><td>0.85</td><td>4.74</td><td>Big Ten</td><td>fbs</td></tr><tr><td>50</td><td>Old Dominion</td><td>2.49</td><td>-7.64</td><td>13.23</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>52</td><td>Arizona State</td><td>2.42</td><td>2.83</td><td>2.69</td><td>Big 12</td><td>fbs</td></tr><tr><td>53</td><td>Tulane</td><td>2.25</td><td>-0.52</td><td>5.86</td><td>American Athletic</td><td>fbs</td></tr><tr><td>54</td><td>East Carolina</td><td>2.22</td><td>-2.95</td><td>8.27</td><td>American Athletic</td><td>fbs</td></tr><tr><td>55</td><td>Memphis</td><td>1.91</td><td>-0.22</td><td>5.22</td><td>American Athletic</td><td>fbs</td></tr><tr><td>56</td><td>Georgia Tech</td><td>1.84</td><td>4.57</td><td>0.36</td><td>ACC</td><td>fbs</td></tr><tr><td>57</td><td>Washington State</td><td>1.75</td><td>-2.57</td><td>7.41</td><td>Pac-12</td><td>fbs</td></tr><tr><td>58</td><td>TCU</td><td>1.72</td><td>3.35</td><td>1.47</td><td>Big 12</td><td>fbs</td></tr><tr><td>59</td><td>Kennesaw State</td><td>1.65</td><td>-10.08</td><td>14.82</td><td>Conference USA</td><td>fbs</td></tr><tr><td>60</td><td>Nebraska</td><td>1.59</td><td>6.68</td><td>-2.0</td><td>Big Ten</td><td>fbs</td></tr><tr><td>61</td><td>NC State</td><td>1.49</td><td>4.9</td><td>-0.31</td><td>ACC</td><td>fbs</td></tr><tr><td>62</td><td>Wisconsin</td><td>1.47</td><td>5.52</td><td>-0.96</td><td>Big Ten</td><td>fbs</td></tr><tr><td>63</td><td>Boise State</td><td>1.33</td><td>-1.93</td><td>6.35</td><td>Mountain West</td><td>fbs</td></tr><tr><td>64</td><td>Michigan State</td><td>0.77</td><td>0.65</td><td>3.21</td><td>Big Ten</td><td>fbs</td></tr><tr><td>65</td><td>UTSA</td><td>0.21</td><td>-1.07</td><td>4.37</td><td>American Athletic</td><td>fbs</td></tr><tr><td>66</td><td>California</td><td>-0.55</td><td>4.59</td><td>-2.04</td><td>ACC</td><td>fbs</td></tr><tr><td>67</td><td>San Diego State</td><td>-0.65</td><td>-3.81</td><td>6.25</td><td>Mountain West</td><td>fbs</td></tr><tr><td>68</td><td>Cincinnati</td><td>-0.7</td><td>-2.34</td><td>4.74</td><td>Big 12</td><td>fbs</td></tr><tr><td>69</td><td>North Carolina</td><td>-0.87</td><td>5.53</td><td>-3.3</td><td>ACC</td><td>fbs</td></tr><tr><td>70</td><td>UConn</td><td>-0.9</td><td>-1.26</td><td>3.46</td><td>FBS Independents</td><td>fbs</td></tr><tr><td>71</td><td>UNLV</td><td>-1.1</td><td>1.3</td><td>0.7</td><td>Mountain West</td><td>fbs</td></tr><tr><td>72</td><td>Western Michigan</td><td>-1.23</td><td>-5.99</td><td>7.85</td><td>Mid-American</td><td>fbs</td></tr><tr><td>73</td><td>Baylor</td><td>-1.26</td><td>2.9</td><td>-1.07</td><td>Big 12</td><td>fbs</td></tr><tr><td>74</td><td>Virginia Tech</td><td>-1.45</td><td>5.6</td><td>-3.95</td><td>ACC</td><td>fbs</td></tr><tr><td>75</td><td>Texas State</td><td>-1.75</td><td>-2.89</td><td>4.24</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>76</td><td>Western Kentucky</td><td>-2.65</td><td>-3.68</td><td>4.12</td><td>Conference USA</td><td>fbs</td></tr><tr><td>77</td><td>Florida International</td><td>-3.07</td><td>-3.91</td><td>3.93</td><td>Conference USA</td><td>fbs</td></tr><tr><td>78</td><td>New Mexico</td><td>-3.41</td><td>-6.23</td><td>5.92</td><td>Mountain West</td><td>fbs</td></tr><tr><td>79</td><td>Utah State</td><td>-3.45</td><td>-7.65</td><td>7.3</td><td>Mountain West</td><td>fbs</td></tr><tr><td>80</td><td>Miami (OH)</td><td>-3.56</td><td>-3.1</td><td>2.63</td><td>Mid-American</td><td>fbs</td></tr><tr><td>81</td><td>Colorado</td><td>-3.98</td><td>3.4</td><td>-4.28</td><td>Big 12</td><td>fbs</td></tr><tr><td>82</td><td>Purdue</td><td>-4.11</td><td>1.43</td><td>-2.45</td><td>Big Ten</td><td>fbs</td></tr><tr><td>82</td><td>Louisiana Tech</td><td>-4.11</td><td>-7.71</td><td>6.7</td><td>Conference USA</td><td>fbs</td></tr><tr><td>84</td><td>Ohio</td><td>-4.28</td><td>-8.9</td><td>7.71</td><td>Mid-American</td><td>fbs</td></tr><tr><td>85</td><td>UCLA</td><td>-4.4</td><td>5.92</td><td>-7.22</td><td>Big Ten</td><td>fbs</td></tr><tr><td>86</td><td>West Virginia</td><td>-4.67</td><td>1.98</td><td>-3.55</td><td>Big 12</td><td>fbs</td></tr><tr><td>87</td><td>Boston College</td><td>-5.02</td><td>-0.82</td><td>-1.1</td><td>ACC</td><td>fbs</td></tr><tr><td>88</td><td>Troy</td><td>-5.08</td><td>-4.58</td><td>2.6</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>89</td><td>Jacksonville State</td><td>-5.17</td><td>-4.19</td><td>2.12</td><td>Conference USA</td><td>fbs</td></tr><tr><td>90</td><td>Maryland</td><td>-5.5</td><td>2.69</td><td>-5.1</td><td>Big Ten</td><td>fbs</td></tr><tr><td>91</td><td>Liberty</td><td>-5.55</td><td>-2.39</td><td>-0.07</td><td>Conference USA</td><td>fbs</td></tr><tr><td>92</td><td>Stanford</td><td>-5.67</td><td>1.88</td><td>-4.45</td><td>ACC</td><td>fbs</td></tr><tr><td>93</td><td>Central Michigan</td><td>-5.86</td><td>-7.89</td><td>5.13</td><td>Mid-American</td><td>fbs</td></tr><tr><td>94</td><td>Marshall</td><td>-5.9</td><td>-4.67</td><td>1.86</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>95</td><td>Fresno State</td><td>-6.37</td><td>-3.78</td><td>0.5</td><td>Mountain West</td><td>fbs</td></tr><tr><td>96</td><td>Hawai&#x27;i</td><td>-6.55</td><td>-6.9</td><td>3.44</td><td>Mountain West</td><td>fbs</td></tr><tr><td>97</td><td>Delaware</td><td>-6.88</td><td>-11.22</td><td>7.43</td><td>Conference USA</td><td>fbs</td></tr><tr><td>98</td><td>Southern Miss</td><td>-7.23</td><td>-4.2</td><td>0.06</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>99</td><td>Missouri State</td><td>-7.27</td><td>-7.3</td><td>3.13</td><td>Conference USA</td><td>fbs</td></tr><tr><td>100</td><td>Arkansas State</td><td>-7.63</td><td>-3.99</td><td>-0.54</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>101</td><td>Louisiana</td><td>-7.64</td><td>-4.89</td><td>0.35</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>102</td><td>Georgia State</td><td>-8.02</td><td>-5.9</td><td>0.97</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>103</td><td>Syracuse</td><td>-8.04</td><td>4.22</td><td>-9.17</td><td>ACC</td><td>fbs</td></tr><tr><td>104</td><td>Navy</td><td>-8.09</td><td>-20.0</td><td>15.0</td><td>American Athletic</td><td>fbs</td></tr><tr><td>105</td><td>Temple</td><td>-8.37</td><td>-2.53</td><td>-2.75</td><td>American Athletic</td><td>fbs</td></tr><tr><td>106</td><td>Georgia Southern</td><td>-8.39</td><td>-2.34</td><td>-2.95</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>107</td><td>Rutgers</td><td>-8.4</td><td>2.07</td><td>-7.37</td><td>Big Ten</td><td>fbs</td></tr><tr><td>108</td><td>Montana State</td><td>-8.82</td><td>0.0</td><td>21.02</td><td>Big Sky</td><td>fcs</td></tr><tr><td>109</td><td>Oklahoma State</td><td>-8.89</td><td>-0.07</td><td>-5.72</td><td>Big 12</td><td>fbs</td></tr><tr><td>110</td><td>South Alabama</td><td>-9.18</td><td>-5.92</td><td>-0.16</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>111</td><td>Eastern Michigan</td><td>-9.47</td><td>-5.5</td><td>-0.88</td><td>Mid-American</td><td>fbs</td></tr><tr><td>112</td><td>Buffalo</td><td>-9.71</td><td>-7.34</td><td>0.72</td><td>Mid-American</td><td>fbs</td></tr><tr><td>113</td><td>Oregon State</td><td>-9.74</td><td>-2.25</td><td>-4.4</td><td>Pac-12</td><td>fbs</td></tr><tr><td>114</td><td>Bowling Green</td><td>-9.8</td><td>-6.22</td><td>-0.49</td><td>Mid-American</td><td>fbs</td></tr><tr><td>115</td><td>App State</td><td>-10.1</td><td>-3.08</td><td>-3.92</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>116</td><td>North Dakota State</td><td>-10.33</td><td>0.0</td><td>19.51</td><td>MVFC</td><td>fcs</td></tr><tr><td>117</td><td>Tulsa</td><td>-10.46</td><td>-3.01</td><td>-4.36</td><td>American Athletic</td><td>fbs</td></tr><tr><td>118</td><td>Army</td><td>-10.63</td><td>-20.0</td><td>12.47</td><td>American Athletic</td><td>fbs</td></tr><tr><td>119</td><td>Florida Atlantic</td><td>-10.83</td><td>-4.75</td><td>-2.99</td><td>American Athletic</td><td>fbs</td></tr><tr><td>120</td><td>Akron</td><td>-10.9</td><td>-7.49</td><td>-0.32</td><td>Mid-American</td><td>fbs</td></tr><tr><td>121</td><td>San José State</td><td>-11.2</td><td>-6.17</td><td>-1.94</td><td>Mountain West</td><td>fbs</td></tr><tr><td>122</td><td>Middle Tennessee</td><td>-11.6</td><td>-6.03</td><td>-2.47</td><td>Conference USA</td><td>fbs</td></tr><tr><td>123</td><td>UAB</td><td>-12.02</td><td>-3.99</td><td>-4.93</td><td>American Athletic</td><td>fbs</td></tr><tr><td>124</td><td>Nevada</td><td>-12.1</td><td>-7.3</td><td>-1.7</td><td>Mountain West</td><td>fbs</td></tr><tr><td>125</td><td>Northern Illinois</td><td>-12.48</td><td>-8.09</td><td>-1.29</td><td>Mid-American</td><td>fbs</td></tr><tr><td>126</td><td>Air Force</td><td>-12.77</td><td>-20.0</td><td>10.33</td><td>Mountain West</td><td>fbs</td></tr><tr><td>127</td><td>Kent State</td><td>-12.78</td><td>-8.9</td><td>-0.79</td><td>Mid-American</td><td>fbs</td></tr><tr><td>128</td><td>New Mexico State</td><td>-12.8</td><td>-12.58</td><td>2.87</td><td>Conference USA</td><td>fbs</td></tr><tr><td>129</td><td>Wyoming</td><td>-12.91</td><td>-8.58</td><td>-1.24</td><td>Mountain West</td><td>fbs</td></tr><tr><td>130</td><td>Coastal Carolina</td><td>-13.29</td><td>-5.89</td><td>-4.31</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>131</td><td>UT Rio Grande Valley</td><td>-13.85</td><td>0.0</td><td>15.99</td><td>Southland</td><td>fcs</td></tr><tr><td>132</td><td>South Carolina State</td><td>-14.66</td><td>0.0</td><td>15.18</td><td>MEAC</td><td>fcs</td></tr><tr><td>133</td><td>Colorado State</td><td>-14.82</td><td>-1.98</td><td>-9.74</td><td>Mountain West</td><td>fbs</td></tr><tr><td>134</td><td>Illinois State</td><td>-14.92</td><td>0.0</td><td>14.92</td><td>MVFC</td><td>fcs</td></tr><tr><td>135</td><td>Stephen F. Austin</td><td>-15.26</td><td>0.0</td><td>14.58</td><td>Southland</td><td>fcs</td></tr><tr><td>136</td><td>Rice</td><td>-15.29</td><td>-4.95</td><td>-7.25</td><td>American Athletic</td><td>fbs</td></tr><tr><td>137</td><td>Ball State</td><td>-15.37</td><td>-6.48</td><td>-5.79</td><td>Mid-American</td><td>fbs</td></tr><tr><td>138</td><td>Tarleton State</td><td>-15.43</td><td>0.0</td><td>14.41</td><td>UAC</td><td>fcs</td></tr><tr><td>139</td><td>Lehigh</td><td>-15.75</td><td>0.0</td><td>14.09</td><td>Patriot</td><td>fcs</td></tr><tr><td>140</td><td>Montana</td><td>-15.9</td><td>0.0</td><td>13.94</td><td>Big Sky</td><td>fcs</td></tr><tr><td>141</td><td>UTEP</td><td>-16.24</td><td>-5.19</td><td>-7.95</td><td>Conference USA</td><td>fbs</td></tr><tr><td>142</td><td>UL Monroe</td><td>-16.41</td><td>-9.92</td><td>-3.39</td><td>Sun Belt</td><td>fbs</td></tr><tr><td>143</td><td>Alabama State</td><td>-16.52</td><td>0.0</td><td>13.32</td><td>SWAC</td><td>fcs</td></tr><tr><td>144</td><td>Charlotte</td><td>-17.4</td><td>-5.72</td><td>-8.59</td><td>American Athletic</td><td>fbs</td></tr><tr><td>145</td><td>Villanova</td><td>-18.09</td><td>0.0</td><td>11.75</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>146</td><td>Incarnate Word</td><td>-18.23</td><td>0.0</td><td>11.61</td><td>Southland</td><td>fcs</td></tr><tr><td>147</td><td>Alcorn State</td><td>-18.41</td><td>0.0</td><td>11.43</td><td>SWAC</td><td>fcs</td></tr><tr><td>148</td><td>North Dakota</td><td>-18.47</td><td>0.0</td><td>11.38</td><td>MVFC</td><td>fcs</td></tr><tr><td>148</td><td>South Dakota</td><td>-18.47</td><td>0.0</td><td>11.37</td><td>MVFC</td><td>fcs</td></tr><tr><td>150</td><td>Sam Houston</td><td>-18.69</td><td>-7.04</td><td>-8.55</td><td>Conference USA</td><td>fbs</td></tr><tr><td>151</td><td>Prairie View A&amp;M</td><td>-18.75</td><td>0.0</td><td>11.09</td><td>SWAC</td><td>fcs</td></tr><tr><td>152</td><td>South Dakota State</td><td>-19.52</td><td>0.0</td><td>10.33</td><td>MVFC</td><td>fcs</td></tr><tr><td>153</td><td>Massachusetts</td><td>-19.71</td><td>-8.72</td><td>-7.9</td><td>Mid-American</td><td>fbs</td></tr><tr><td>154</td><td>Rhode Island</td><td>-20.09</td><td>0.0</td><td>9.75</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>155</td><td>Yale</td><td>-20.74</td><td>0.0</td><td>9.1</td><td>Ivy</td><td>fcs</td></tr><tr><td>156</td><td>Elon</td><td>-21.06</td><td>0.0</td><td>8.78</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>157</td><td>Youngstown State</td><td>-21.16</td><td>0.0</td><td>8.68</td><td>MVFC</td><td>fcs</td></tr><tr><td>158</td><td>Dayton</td><td>-21.51</td><td>0.0</td><td>8.33</td><td>Pioneer</td><td>fcs</td></tr><tr><td>159</td><td>Presbyterian</td><td>-21.81</td><td>0.0</td><td>8.03</td><td>Pioneer</td><td>fcs</td></tr><tr><td>160</td><td>Jackson State</td><td>-22.05</td><td>0.0</td><td>7.79</td><td>SWAC</td><td>fcs</td></tr><tr><td>161</td><td>Tennessee Tech</td><td>-22.25</td><td>0.0</td><td>7.59</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>162</td><td>Grambling</td><td>-22.36</td><td>0.0</td><td>7.48</td><td>SWAC</td><td>fcs</td></tr><tr><td>163</td><td>William &amp; Mary</td><td>-22.57</td><td>0.0</td><td>7.27</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>164</td><td>Wofford</td><td>-22.8</td><td>0.0</td><td>7.04</td><td>Southern</td><td>fcs</td></tr><tr><td>165</td><td>San Diego</td><td>-23.15</td><td>0.0</td><td>6.7</td><td>Pioneer</td><td>fcs</td></tr><tr><td>166</td><td>Western Carolina</td><td>-23.74</td><td>0.0</td><td>6.1</td><td>Southern</td><td>fcs</td></tr><tr><td>167</td><td>Delaware State</td><td>-24.14</td><td>0.0</td><td>5.7</td><td>MEAC</td><td>fcs</td></tr><tr><td>168</td><td>St. Thomas (MN)</td><td>-24.17</td><td>0.0</td><td>5.67</td><td>Pioneer</td><td>fcs</td></tr><tr><td>169</td><td>Abilene Christian</td><td>-24.19</td><td>0.0</td><td>5.66</td><td>UAC</td><td>fcs</td></tr><tr><td>170</td><td>Southern Illinois</td><td>-24.32</td><td>0.0</td><td>5.52</td><td>MVFC</td><td>fcs</td></tr><tr><td>171</td><td>Austin Peay</td><td>-24.57</td><td>0.0</td><td>5.27</td><td>UAC</td><td>fcs</td></tr><tr><td>172</td><td>Idaho State</td><td>-24.6</td><td>0.0</td><td>5.24</td><td>Big Sky</td><td>fcs</td></tr><tr><td>173</td><td>Texas Southern</td><td>-24.62</td><td>0.0</td><td>5.22</td><td>SWAC</td><td>fcs</td></tr><tr><td>174</td><td>SE Louisiana</td><td>-24.79</td><td>0.0</td><td>5.05</td><td>Southland</td><td>fcs</td></tr><tr><td>175</td><td>Western Illinois</td><td>-24.83</td><td>0.0</td><td>5.01</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>176</td><td>North Carolina Central</td><td>-25.03</td><td>0.0</td><td>4.81</td><td>MEAC</td><td>fcs</td></tr><tr><td>177</td><td>Southern Utah</td><td>-25.09</td><td>0.0</td><td>4.75</td><td>UAC</td><td>fcs</td></tr><tr><td>178</td><td>Morehead State</td><td>-25.38</td><td>0.0</td><td>4.46</td><td>Pioneer</td><td>fcs</td></tr><tr><td>179</td><td>Drake</td><td>-25.41</td><td>0.0</td><td>4.43</td><td>Pioneer</td><td>fcs</td></tr><tr><td>180</td><td>UC Davis</td><td>-25.74</td><td>0.0</td><td>4.1</td><td>Big Sky</td><td>fcs</td></tr><tr><td>181</td><td>Lamar</td><td>-26.13</td><td>0.0</td><td>3.71</td><td>Southland</td><td>fcs</td></tr><tr><td>182</td><td>Mercer</td><td>-26.85</td><td>0.0</td><td>2.99</td><td>Southern</td><td>fcs</td></tr><tr><td>183</td><td>Norfolk State</td><td>-26.97</td><td>0.0</td><td>2.88</td><td>MEAC</td><td>fcs</td></tr><tr><td>183</td><td>Sacred Heart</td><td>-26.97</td><td>0.0</td><td>2.87</td><td>FCS Independents</td><td>fcs</td></tr><tr><td>185</td><td>Nicholls</td><td>-27.45</td><td>0.0</td><td>2.39</td><td>Southland</td><td>fcs</td></tr><tr><td>186</td><td>Monmouth</td><td>-27.59</td><td>0.0</td><td>2.25</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>187</td><td>Lafayette</td><td>-27.98</td><td>0.0</td><td>1.86</td><td>Patriot</td><td>fcs</td></tr><tr><td>188</td><td>Maine</td><td>-28.03</td><td>0.0</td><td>1.82</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>189</td><td>Stony Brook</td><td>-28.48</td><td>0.0</td><td>1.37</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>190</td><td>Richmond</td><td>-28.57</td><td>0.0</td><td>1.27</td><td>Patriot</td><td>fcs</td></tr><tr><td>191</td><td>Duquesne</td><td>-28.63</td><td>0.0</td><td>1.21</td><td>NEC</td><td>fcs</td></tr><tr><td>192</td><td>Valparaiso</td><td>-28.83</td><td>0.0</td><td>1.01</td><td>Pioneer</td><td>fcs</td></tr><tr><td>193</td><td>Marist</td><td>-29.05</td><td>0.0</td><td>0.79</td><td>Pioneer</td><td>fcs</td></tr><tr><td>194</td><td>McNeese</td><td>-29.15</td><td>0.0</td><td>0.69</td><td>Southland</td><td>fcs</td></tr><tr><td>195</td><td>Butler</td><td>-29.2</td><td>0.0</td><td>0.64</td><td>Pioneer</td><td>fcs</td></tr><tr><td>196</td><td>Sacramento State</td><td>-29.21</td><td>0.0</td><td>0.63</td><td>Big Sky</td><td>fcs</td></tr><tr><td>197</td><td>Towson</td><td>-29.26</td><td>0.0</td><td>0.58</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>198</td><td>Northern Arizona</td><td>-29.28</td><td>0.0</td><td>0.56</td><td>Big Sky</td><td>fcs</td></tr><tr><td>199</td><td>New Hampshire</td><td>-29.57</td><td>0.0</td><td>0.27</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>200</td><td>Lindenwood</td><td>-29.76</td><td>0.0</td><td>0.08</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>201</td><td>Howard</td><td>-29.99</td><td>0.0</td><td>-0.15</td><td>MEAC</td><td>fcs</td></tr><tr><td>202</td><td>Morgan State</td><td>-30.36</td><td>0.0</td><td>-0.52</td><td>MEAC</td><td>fcs</td></tr><tr><td>203</td><td>Campbell</td><td>-30.52</td><td>0.0</td><td>-0.68</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>204</td><td>East Tennessee State</td><td>-30.75</td><td>0.0</td><td>-0.9</td><td>Southern</td><td>fcs</td></tr><tr><td>205</td><td>Cal Poly</td><td>-30.86</td><td>0.0</td><td>-1.02</td><td>Big Sky</td><td>fcs</td></tr><tr><td>206</td><td>Colgate</td><td>-31.1</td><td>0.0</td><td>-1.26</td><td>Patriot</td><td>fcs</td></tr><tr><td>207</td><td>Central Arkansas</td><td>-31.21</td><td>0.0</td><td>-1.37</td><td>UAC</td><td>fcs</td></tr><tr><td>208</td><td>Chattanooga</td><td>-31.32</td><td>0.0</td><td>-1.48</td><td>Southern</td><td>fcs</td></tr><tr><td>209</td><td>Hampton</td><td>-31.44</td><td>0.0</td><td>-1.6</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>210</td><td>Charleston Southern</td><td>-31.57</td><td>0.0</td><td>-1.73</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>211</td><td>Gardner-Webb</td><td>-31.7</td><td>0.0</td><td>-1.86</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>212</td><td>Robert Morris</td><td>-31.71</td><td>0.0</td><td>-1.87</td><td>NEC</td><td>fcs</td></tr><tr><td>213</td><td>Furman</td><td>-31.72</td><td>0.0</td><td>-1.87</td><td>Southern</td><td>fcs</td></tr><tr><td>214</td><td>Eastern Washington</td><td>-31.73</td><td>0.0</td><td>-1.89</td><td>Big Sky</td><td>fcs</td></tr><tr><td>215</td><td>Bryant</td><td>-32.67</td><td>0.0</td><td>-2.83</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>216</td><td>Northern Iowa</td><td>-32.71</td><td>0.0</td><td>-2.87</td><td>MVFC</td><td>fcs</td></tr><tr><td>217</td><td>Florida A&amp;M</td><td>-32.85</td><td>0.0</td><td>-3.01</td><td>SWAC</td><td>fcs</td></tr><tr><td>217</td><td>Central Connecticut</td><td>-32.85</td><td>0.0</td><td>-3.01</td><td>NEC</td><td>fcs</td></tr><tr><td>219</td><td>East Texas A&amp;M</td><td>-32.91</td><td>0.0</td><td>-3.06</td><td>Southland</td><td>fcs</td></tr><tr><td>220</td><td>Holy Cross</td><td>-33.04</td><td>0.0</td><td>-3.2</td><td>Patriot</td><td>fcs</td></tr><tr><td>221</td><td>Southeast Missouri State</td><td>-33.21</td><td>0.0</td><td>-3.37</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>222</td><td>UT Martin</td><td>-33.39</td><td>0.0</td><td>-3.55</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>223</td><td>Eastern Kentucky</td><td>-33.53</td><td>0.0</td><td>-3.69</td><td>UAC</td><td>fcs</td></tr><tr><td>224</td><td>UAlbany</td><td>-33.77</td><td>0.0</td><td>-3.93</td><td>Coastal Athletic</td><td>fcs</td></tr><tr><td>225</td><td>Arkansas-Pine Bluff</td><td>-34.04</td><td>0.0</td><td>-4.2</td><td>SWAC</td><td>fcs</td></tr><tr><td>226</td><td>Houston Christian</td><td>-34.62</td><td>0.0</td><td>-4.78</td><td>Southland</td><td>fcs</td></tr><tr><td>227</td><td>Weber State</td><td>-34.63</td><td>0.0</td><td>-4.79</td><td>Big Sky</td><td>fcs</td></tr><tr><td>228</td><td>The Citadel</td><td>-35.43</td><td>0.0</td><td>-5.59</td><td>Southern</td><td>fcs</td></tr><tr><td>229</td><td>Idaho</td><td>-35.52</td><td>0.0</td><td>-5.68</td><td>Big Sky</td><td>fcs</td></tr><tr><td>230</td><td>Southern</td><td>-35.53</td><td>0.0</td><td>-5.69</td><td>SWAC</td><td>fcs</td></tr><tr><td>230</td><td>Long Island University</td><td>-35.53</td><td>0.0</td><td>-5.69</td><td>NEC</td><td>fcs</td></tr><tr><td>232</td><td>Alabama A&amp;M</td><td>-36.05</td><td>0.0</td><td>-6.21</td><td>SWAC</td><td>fcs</td></tr><tr><td>233</td><td>North Alabama</td><td>-36.15</td><td>0.0</td><td>-6.31</td><td>UAC</td><td>fcs</td></tr><tr><td>234</td><td>Mercyhurst</td><td>-36.27</td><td>0.0</td><td>-6.43</td><td>NEC</td><td>fcs</td></tr><tr><td>235</td><td>Tennessee State</td><td>-36.62</td><td>0.0</td><td>-6.78</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>236</td><td>Georgetown</td><td>-36.96</td><td>0.0</td><td>-7.12</td><td>Patriot</td><td>fcs</td></tr><tr><td>237</td><td>Bethune-Cookman</td><td>-36.97</td><td>0.0</td><td>-7.13</td><td>SWAC</td><td>fcs</td></tr><tr><td>238</td><td>Northern Colorado</td><td>-37.17</td><td>0.0</td><td>-7.33</td><td>Big Sky</td><td>fcs</td></tr><tr><td>239</td><td>Bucknell</td><td>-38.38</td><td>0.0</td><td>-8.54</td><td>Patriot</td><td>fcs</td></tr><tr><td>240</td><td>Wagner</td><td>-38.66</td><td>0.0</td><td>-8.82</td><td>NEC</td><td>fcs</td></tr><tr><td>241</td><td>Stonehill</td><td>-39.11</td><td>0.0</td><td>-9.27</td><td>NEC</td><td>fcs</td></tr><tr><td>242</td><td>Indiana State</td><td>-39.25</td><td>0.0</td><td>-9.41</td><td>MVFC</td><td>fcs</td></tr><tr><td>243</td><td>West Georgia</td><td>-39.5</td><td>0.0</td><td>-9.66</td><td>UAC</td><td>fcs</td></tr><tr><td>244</td><td>Eastern Illinois</td><td>-39.99</td><td>0.0</td><td>-10.15</td><td>OVC-Big South</td><td>fcs</td></tr><tr><td>245</td><td>Davidson</td><td>-40.1</td><td>0.0</td><td>-10.26</td><td>Pioneer</td><td>fcs</td></tr><tr><td>246</td><td>Fordham</td><td>-40.57</td><td>0.0</td><td>-10.73</td><td>Patriot</td><td>fcs</td></tr><tr><td>247</td><td>Merrimack</td><td>-41.4</td><td>0.0</td><td>-11.56</td><td>FCS Independents</td><td>fcs</td></tr><tr><td>248</td><td>Samford</td><td>-41.66</td><td>0.0</td><td>-11.82</td><td>Southern</td><td>fcs</td></tr><tr><td>249</td><td>Murray State</td><td>-41.67</td><td>0.0</td><td>-11.83</td><td>MVFC</td><td>fcs</td></tr><tr><td>250</td><td>Portland State</td><td>-42.16</td><td>0.0</td><td>-12.32</td><td>Big Sky</td><td>fcs</td></tr><tr><td>251</td><td>Mississippi Valley State</td><td>-43.26</td><td>0.0</td><td>-13.42</td><td>SWAC</td><td>fcs</td></tr><tr><td>252</td><td>Northwestern State</td><td>-43.86</td><td>0.0</td><td>-14.02</td><td>Southland</td><td>fcs</td></tr><tr><td>253</td><td>Utah Tech</td><td>-44.48</td><td>0.0</td><td>-14.64</td><td>UAC</td><td>fcs</td></tr><tr><td>254</td><td>VMI</td><td>-46.03</td><td>0.0</td><td>-16.19</td><td>Southern</td><td>fcs</td></tr><tr><td>255</td><td>Stetson</td><td>-46.28</td><td>0.0</td><td>-16.44</td><td>Pioneer</td><td>fcs</td></tr><tr><td>256</td><td>North Carolina A&amp;T</td><td>-49.69</td><td>0.0</td><td>-19.84</td><td>Coastal Athletic</td><td>fcs</td></tr></tbody></table></div>
+</section>
+
+<section id="ledger" hidden><p>Across 17 completed games this season, our number missed the
+final margin by <b>11.9</b> points on average and the market's missed by <b>13.1</b>.
+The model was closer in <b>10</b> games, the market in <b>7</b>.</p>
+<table class="sheet"><thead><tr><th>wk</th><th>game</th><th>ours</th><th>market</th>
+<th>actual</th><th>our miss</th><th>their miss</th><th>closer</th></tr></thead>
+<tbody><tr><td>1</td><td>North Carolina at TCU</td><td>+2.6</td><td>+7.5</td><td>-5</td><td>7.6</td><td>12.5</td><td class="model">model</td></tr><tr><td>1</td><td>San José State at USC</td><td>+28.9</td><td>+37.5</td><td>+16</td><td>12.9</td><td>21.5</td><td class="model">model</td></tr><tr><td>1</td><td>NC State at Virginia</td><td>+11.9</td><td>+4.0</td><td>+26</td><td>14.1</td><td>22.0</td><td class="model">model</td></tr><tr><td>1</td><td>Jacksonville State at North Dakota State</td><td>-0.9</td><td>+6.5</td><td>+26</td><td>26.9</td><td>19.5</td><td class="market">market</td></tr><tr><td>1</td><td>Sacramento State at Eastern Michigan</td><td>+24.0</td><td>+9.0</td><td>+11</td><td>13.0</td><td>2.0</td><td class="market">market</td></tr><tr><td>1</td><td>Hawai&#x27;i at Stanford</td><td>+5.1</td><td>+4.5</td><td>+10</td><td>4.9</td><td>5.5</td><td class="model">model</td></tr><tr><td>1</td><td>New Mexico State at Florida State</td><td>+22.4</td><td>+31.0</td><td>+17</td><td>5.4</td><td>14.0</td><td class="model">model</td></tr><tr><td>1</td><td>Memphis at UNLV</td><td>+1.2</td><td>+4.5</td><td>-6</td><td>7.2</td><td>10.5</td><td class="model">model</td></tr><tr><td>1</td><td>Massachusetts at Rutgers</td><td>+15.5</td><td>+29.5</td><td>-16</td><td>31.5</td><td>45.5</td><td class="model">model</td></tr><tr><td>1</td><td>Akron at Wake Forest</td><td>+19.1</td><td>+27.5</td><td>+22</td><td>2.9</td><td>5.5</td><td class="model">model</td></tr><tr><td>1</td><td>Colorado at Georgia Tech</td><td>+10.1</td><td>+6.5</td><td>-1</td><td>11.1</td><td>7.5</td><td class="market">market</td></tr><tr><td>1</td><td>UAB at Illinois</td><td>+19.6</td><td>+25.5</td><td>+19</td><td>0.6</td><td>6.5</td><td class="model">model</td></tr><tr><td>1</td><td>San José State at Eastern Michigan</td><td>+6.0</td><td>+1.5</td><td>-6</td><td>12.0</td><td>7.5</td><td class="market">market</td></tr><tr><td>1</td><td>Toledo at Michigan State</td><td>+2.2</td><td>+10.0</td><td>+10</td><td>7.8</td><td>0.0</td><td class="market">market</td></tr><tr><td>1</td><td>UTEP at Oklahoma</td><td>+37.9</td><td>+40.5</td><td>+51</td><td>13.1</td><td>10.5</td><td class="market">market</td></tr><tr><td>1</td><td>Fresno State at USC</td><td>+24.1</td><td>+21.5</td><td>+39</td><td>14.9</td><td>17.5</td><td class="model">model</td></tr><tr><td>1</td><td>Miami at Stanford</td><td>-23.3</td><td>-24.5</td><td>-39</td><td>15.7</td><td>14.5</td><td class="market">market</td></tr></tbody></table></section>
+
+<section id="attn" hidden><p class="ok">Nothing to flag. Every scheduled game is on the card, every number is in range, and the two divisions are on the scale we expect.</p></section>
+
+<footer>
+Ratings: opponent-adjusted ridge on game margins, shrunk toward a talent prior.
+Home field +4.2. FBS over FCS +26.8. Built from
+3,943 games across 257 teams.
+Price gaps flagged on 6 of 99 games at a 2.5 point threshold.
+No bet sizing or staking advice appears here by design.
+</footer>
+
+</div><script>
+function tab(btn, id) {
+  document.querySelectorAll('nav button').forEach(function(b) {
+    b.setAttribute('aria-selected', b === btn ? 'true' : 'false');
+  });
+  ['slate','sheet','ledger','attn'].forEach(function(s) {
+    document.getElementById(s).hidden = (s !== id);
+  });
+}
+</script></body></html>

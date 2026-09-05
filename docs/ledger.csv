@@ -1,0 +1,18 @@
+season,week,away,home,model,market,actual,model_err,market_err,closer
+2026,1,North Carolina,TCU,2.6,7.5,-5.0,7.6,12.5,model
+2026,1,San José State,USC,28.9,37.5,16.0,12.9,21.5,model
+2026,1,NC State,Virginia,11.9,4.0,26.0,14.1,22.0,model
+2026,1,Jacksonville State,North Dakota State,-0.9,6.5,26.0,26.9,19.5,market
+2026,1,Sacramento State,Eastern Michigan,24.0,9.0,11.0,13.0,2.0,market
+2026,1,Hawai'i,Stanford,5.1,4.5,10.0,4.9,5.5,model
+2026,1,New Mexico State,Florida State,22.4,31.0,17.0,5.4,14.0,model
+2026,1,Memphis,UNLV,1.2,4.5,-6.0,7.2,10.5,model
+2026,1,Massachusetts,Rutgers,15.5,29.5,-16.0,31.5,45.5,model
+2026,1,Akron,Wake Forest,19.1,27.5,22.0,2.9,5.5,model
+2026,1,Colorado,Georgia Tech,10.1,6.5,-1.0,11.1,7.5,market
+2026,1,UAB,Illinois,19.6,25.5,19.0,0.6,6.5,model
+2026,1,San José State,Eastern Michigan,6.0,1.5,-6.0,12.0,7.5,market
+2026,1,Toledo,Michigan State,2.2,10.0,10.0,7.8,0.0,market
+2026,1,UTEP,Oklahoma,37.9,40.5,51.0,13.1,10.5,market
+2026,1,Fresno State,USC,24.1,21.5,39.0,14.9,17.5,model
+2026,1,Miami,Stanford,-23.3,-24.5,-39.0,15.7,14.5,market
