@@ -100,7 +100,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-05T16:34:17Z",
+    "run_utc": "2026-09-05T16:39:32Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -126,6 +126,14 @@
       "moneyline": [
         1032,
         1486
+      ],
+      "moneyline_fav": [
+        580,
+        260
+      ],
+      "moneyline_dog": [
+        452,
+        1226
       ]
     },
     "record_notes": {
@@ -134,7 +142,9 @@
       "model_gap_early": "our number vs the close, weeks 1-4",
       "total_over": "the market total, taken over every game, no model input",
       "total_model": "our total against the close, the model version",
-      "moneyline": "our calibrated winner against the price, walk-forward"
+      "moneyline": "our calibrated winner against the price, walk-forward",
+      "moneyline_fav": "same, where we land on the favorite, walk-forward",
+      "moneyline_dog": "same, where we land on the underdog, walk-forward"
     },
     "headline": {
       "model_gap_pct": 49.5,
@@ -150,24 +160,24 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.051,
-        "se_k": 0.1348,
+        "se_a": 0.0513,
+        "se_k": 0.1373,
         "n": 1558,
         "k_clears_zero": false
       },
       "model_gap_late": {
         "a": 0.0372,
         "k": -0.2039,
-        "se_a": 0.0311,
-        "se_k": 0.1204,
+        "se_a": 0.0302,
+        "se_k": 0.1145,
         "n": 4461,
         "k_clears_zero": false
       },
       "outright": {
         "a": -0.1239,
         "k": 1.1277,
-        "se_a": 0.0198,
-        "se_k": 0.0302,
+        "se_a": 0.0157,
+        "se_k": 0.017,
         "n": 6019,
         "k_clears_zero": true
       },
@@ -191,8 +201,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0263,
-        "se_k": 0.0893,
+        "se_a": 0.0242,
+        "se_k": 0.0762,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -318,6 +328,24 @@
         "hi": 2.26,
         "w": 1032,
         "l": 1486
+      },
+      "moneyline_fav": {
+        "n": 840,
+        "roi": -5.53,
+        "se": 2.3,
+        "lo": -10.05,
+        "hi": -1.02,
+        "w": 580,
+        "l": 260
+      },
+      "moneyline_dog": {
+        "n": 1678,
+        "roi": -3.3,
+        "se": 4.69,
+        "lo": -12.5,
+        "hi": 5.9,
+        "w": 452,
+        "l": 1226
       }
     }
   }
