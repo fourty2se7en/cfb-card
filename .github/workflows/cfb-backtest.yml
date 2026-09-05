@@ -1,0 +1,64 @@
+# Backtest. Manual only, never on a schedule.
+#
+# The answer is written to the run's Summary page, not just the log, so it is
+# readable on a phone without expanding steps.
+#
+# It now also commits scripts/model_state.json. That file is where the strategy
+# records live, and cfb_picks.py reads them to set every grade on the card. They
+# used to be copied out of this output by hand, which meant the card could be
+# grading on a record the backtest had already superseded and nothing anywhere
+# would say so. The commit closes that gap: re-run this workflow and the next
+# card build grades on the new numbers.
+#
+# The key comes from the encrypted repository secret and is passed as an
+# environment variable. cfb_backtest.py sends it in an Authorization header,
+# never in a URL.
+
+name: cfb-backtest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Run the backtest
+        working-directory: scripts
+        env:
+          CFBD_API_KEY: ${{ secrets.CFBD_API_KEY }}
+        run: |
+          set -o pipefail
+          echo "## Backtest results" >> "$GITHUB_STEP_SUMMARY"
+          echo "~~~text" >> "$GITHUB_STEP_SUMMARY"
+          python3 -u cfb_backtest.py | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "~~~" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the new record
+        run: |
+          # One path, on its own line, and it always exists in the repo. Passing
+          # git a path that is not there makes git add fail and stage NOTHING,
+          # while the run still reports green.
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/model_state.json
+          if git diff --cached --quiet; then
+            echo "model_state.json unchanged, nothing to commit"
+            echo "The record did not change." >> "$GITHUB_STEP_SUMMARY"
+          else
+            git commit -m "backtest: update model_state.json record"
+            # A scheduled card run may have pushed while this was running.
+            git push || (git pull --rebase && git push)
+            echo "Committed the new record. The next card build grades on it." >> "$GITHUB_STEP_SUMMARY"
+          fi
