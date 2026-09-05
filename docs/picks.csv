@@ -3,22 +3,22 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Clemson,LSU,spread,price_gap,LEAN,C,LSU,-9.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
 2026,1,Central Michigan,New Mexico,spread,price_gap,LEAN,C,New Mexico,-10.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
 2026,1,Western Kentucky,Nevada,spread,price_gap,LEAN,C,Western Kentucky,1.0,Bovada,2026-09-05T07:57:31.759715+00:00,,
-2026,1,Ohio,Nebraska,spread,model_gap_early,AVOID,D,Ohio,23.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Ohio,Nebraska,moneyline,model_gap_early,AVOID,D,Ohio,1250.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Ohio,Nebraska,total,total_over,AVOID,D,over,46.2,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Liberty,James Madison,spread,model_gap_early,AVOID,D,James Madison,-6.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Liberty,James Madison,moneyline,model_gap_early,AVOID,D,James Madison,-237.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Liberty,James Madison,total,total_over,AVOID,D,over,50.5,consensus,2026-09-05T08:25:34.766161+00:00,,
+2026,1,Ohio,Nebraska,spread,model_gap_early,AVOID,D,Ohio,23.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T19:34:55.712191+00:00
+2026,1,Ohio,Nebraska,moneyline,model_gap_early,AVOID,D,Ohio,1250.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T19:34:55.712191+00:00
+2026,1,Ohio,Nebraska,total,total_over,AVOID,D,over,46.2,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T19:34:55.712191+00:00
+2026,1,Liberty,James Madison,spread,model_gap_early,AVOID,D,James Madison,-6.0,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T19:34:55.712191+00:00
+2026,1,Liberty,James Madison,moneyline,model_gap_early,AVOID,D,James Madison,-237.0,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T19:34:55.712191+00:00
+2026,1,Liberty,James Madison,total,total_over,AVOID,D,over,50.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T19:34:55.712191+00:00
 2026,1,Coastal Carolina,West Virginia,spread,model_gap_early,AVOID,D,Coastal Carolina,21.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Coastal Carolina,West Virginia,moneyline,model_gap_early,AVOID,D,Coastal Carolina,900.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Coastal Carolina,West Virginia,total,total_over,AVOID,D,over,54.8,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,North Texas,Indiana,spread,model_gap_early,AVOID,D,North Texas,40.8,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,North Texas,Indiana,total,total_over,AVOID,D,over,56.8,consensus,2026-09-05T08:25:34.766161+00:00,,
+2026,1,North Texas,Indiana,spread,model_gap_early,AVOID,D,North Texas,40.8,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T19:34:55.712191+00:00
+2026,1,North Texas,Indiana,total,total_over,AVOID,D,over,56.8,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T19:34:55.712191+00:00
 2026,1,Oregon State,Houston,spread,model_gap_early,AVOID,D,Oregon State,20.8,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Oregon State,Houston,moneyline,model_gap_early,AVOID,D,Oregon State,862.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Oregon State,Houston,total,total_over,AVOID,D,under,50.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,East Carolina,Alabama,spread,model_gap_early,AVOID,D,East Carolina,27.8,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,East Carolina,Alabama,total,total_over,AVOID,D,over,52.5,consensus,2026-09-05T08:25:34.766161+00:00,,
+2026,1,East Carolina,Alabama,spread,model_gap_early,AVOID,D,East Carolina,27.8,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T19:34:55.712191+00:00
+2026,1,East Carolina,Alabama,total,total_over,AVOID,D,over,52.5,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T19:34:55.712191+00:00
 2026,1,Miami (OH),Pittsburgh,spread,model_gap_early,AVOID,D,Miami (OH),16.2,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Miami (OH),Pittsburgh,moneyline,model_gap_early,AVOID,D,Miami (OH),537.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Miami (OH),Pittsburgh,total,total_over,AVOID,D,over,47.2,consensus,2026-09-05T08:25:34.766161+00:00,,
@@ -101,17 +101,17 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,SMU,Florida State,spread,model_gap_early,AVOID,D,Florida State,3.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,SMU,Florida State,moneyline,model_gap_early,AVOID,D,Florida State,137.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,SMU,Florida State,total,total_over,AVOID,D,under,53.2,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,East Carolina,Alabama,moneyline,model_gap_early,AVOID,D,East Carolina,1800.0,consensus,2026-09-05T11:51:18.424450+00:00,,
+2026,1,East Carolina,Alabama,moneyline,model_gap_early,AVOID,D,East Carolina,1800.0,consensus,2026-09-05T11:51:18.424450+00:00,loss,2026-09-05T19:34:55.712191+00:00
 2026,1,Oregon State,Houston,moneyline,,PASS,D,Oregon State,862.0,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Oregon State,Houston,total,total_model,AVOID,D,under,50.5,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Liberty,James Madison,moneyline,,PASS,B,James Madison,-237.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Liberty,James Madison,total,total_model,AVOID,D,over,50.5,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Ohio,Nebraska,moneyline,,PASS,C,Ohio,1250.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Ohio,Nebraska,total,total_model,AVOID,D,over,46.5,consensus,2026-09-05T12:45:03.583359+00:00,,
+2026,1,Liberty,James Madison,moneyline,,PASS,B,James Madison,-237.0,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-05T19:34:55.712191+00:00
+2026,1,Liberty,James Madison,total,total_model,AVOID,D,over,50.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-05T19:34:55.712191+00:00
+2026,1,Ohio,Nebraska,moneyline,,PASS,C,Ohio,1250.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-05T19:34:55.712191+00:00
+2026,1,Ohio,Nebraska,total,total_model,AVOID,D,over,46.5,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-05T19:34:55.712191+00:00
 2026,1,Coastal Carolina,West Virginia,moneyline,,PASS,C,Coastal Carolina,900.0,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Coastal Carolina,West Virginia,total,total_model,AVOID,D,over,54.5,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,North Texas,Indiana,total,total_model,AVOID,D,over,56.2,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,East Carolina,Alabama,total,total_model,AVOID,D,over,52.5,consensus,2026-09-05T12:45:03.583359+00:00,,
+2026,1,North Texas,Indiana,total,total_model,AVOID,D,over,56.2,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-05T19:34:55.712191+00:00
+2026,1,East Carolina,Alabama,total,total_model,AVOID,D,over,52.5,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-05T19:34:55.712191+00:00
 2026,1,Ball State,Ohio State,total,total_model,AVOID,D,under,56.5,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Miami (OH),Pittsburgh,moneyline,,PASS,D,Miami (OH),537.0,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Miami (OH),Pittsburgh,total,total_model,AVOID,D,over,47.2,consensus,2026-09-05T12:45:03.583359+00:00,,

@@ -16,3 +16,7 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,1,UTEP,Oklahoma,37.9,40.5,51.0,13.1,10.5,market
 2026,1,Fresno State,USC,24.1,21.5,39.0,14.9,17.5,model
 2026,1,Miami,Stanford,-23.3,-24.5,-39.0,15.7,14.5,market
+2026,1,East Carolina,Alabama,24.8,28.0,38.0,13.2,10.0,market
+2026,1,Ohio,Nebraska,16.2,23.5,28.0,11.8,4.5,market
+2026,1,North Texas,Indiana,25.1,39.5,36.0,10.9,3.5,market
+2026,1,Liberty,James Madison,15.8,6.0,7.0,8.8,1.0,market
