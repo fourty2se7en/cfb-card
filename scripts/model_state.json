@@ -104,7 +104,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-06T03:47:45Z",
+    "run_utc": "2026-09-06T04:04:31Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -164,24 +164,24 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.0323,
-        "se_k": 0.0394,
+        "se_a": 0.0491,
+        "se_k": 0.1172,
         "n": 1558,
         "k_clears_zero": false
       },
       "model_gap_late": {
         "a": 0.0372,
         "k": -0.2039,
-        "se_a": 0.0312,
-        "se_k": 0.121,
+        "se_a": 0.0309,
+        "se_k": 0.1198,
         "n": 4461,
         "k_clears_zero": false
       },
       "outright": {
         "a": -0.1239,
         "k": 1.1277,
-        "se_a": 0.0201,
-        "se_k": 0.0342,
+        "se_a": 0.0216,
+        "se_k": 0.0192,
         "n": 6019,
         "k_clears_zero": true
       },
@@ -205,8 +205,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0259,
-        "se_k": 0.0901,
+        "se_a": 0.0266,
+        "se_k": 0.0882,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -537,6 +537,112 @@
       ],
       "full_pct": 49.5
     },
-    "turnover": {}
+    "turnover": {
+      "grid": [
+        {
+          "strength": 0.0,
+          "n": 362,
+          "mae": 13.618,
+          "market_mae": 12.34,
+          "vs_market": 1.277,
+          "moved_toward_market": 0,
+          "crossed_market": 0
+        },
+        {
+          "strength": 0.1,
+          "n": 362,
+          "mae": 13.576,
+          "market_mae": 12.34,
+          "vs_market": 1.235,
+          "moved_toward_market": 184,
+          "crossed_market": 5
+        },
+        {
+          "strength": 0.2,
+          "n": 362,
+          "mae": 13.54,
+          "market_mae": 12.34,
+          "vs_market": 1.199,
+          "moved_toward_market": 181,
+          "crossed_market": 11
+        },
+        {
+          "strength": 0.3,
+          "n": 362,
+          "mae": 13.501,
+          "market_mae": 12.34,
+          "vs_market": 1.16,
+          "moved_toward_market": 179,
+          "crossed_market": 17
+        },
+        {
+          "strength": 0.4,
+          "n": 362,
+          "mae": 13.456,
+          "market_mae": 12.34,
+          "vs_market": 1.116,
+          "moved_toward_market": 175,
+          "crossed_market": 22
+        },
+        {
+          "strength": 0.5,
+          "n": 362,
+          "mae": 13.412,
+          "market_mae": 12.34,
+          "vs_market": 1.071,
+          "moved_toward_market": 172,
+          "crossed_market": 29
+        }
+      ],
+      "best": 0.5,
+      "gain": 0.206,
+      "noise": 0.563,
+      "verdict": "no measurable improvement",
+      "games": 362,
+      "market_mae": 12.34,
+      "thin_buckets": [
+        {
+          "lo": 0.0,
+          "hi": 0.17,
+          "n": 36,
+          "mae": 15.94,
+          "market": 14.17,
+          "gap": 1.77
+        },
+        {
+          "lo": 0.17,
+          "hi": 0.225,
+          "n": 33,
+          "mae": 15.54,
+          "market": 13.64,
+          "gap": 1.9
+        },
+        {
+          "lo": 0.225,
+          "hi": 0.321,
+          "n": 56,
+          "mae": 12.7,
+          "market": 10.0,
+          "gap": 2.7
+        },
+        {
+          "lo": 0.321,
+          "hi": 0.422,
+          "n": 55,
+          "mae": 12.29,
+          "market": 10.87,
+          "gap": 1.42
+        },
+        {
+          "lo": 0.422,
+          "hi": 1.01,
+          "n": 180,
+          "mae": 13.46,
+          "market": 12.92,
+          "gap": 0.54
+        }
+      ],
+      "thin_threshold": null
+    }
   }
 }
