@@ -104,7 +104,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-06T05:18:40Z",
+    "run_utc": "2026-09-06T06:01:27Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -164,8 +164,8 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.0511,
-        "se_k": 0.1356,
+        "se_a": 0.0494,
+        "se_k": 0.0664,
         "n": 1558,
         "k_clears_zero": false
       },
@@ -173,15 +173,15 @@
         "a": 0.0372,
         "k": -0.2039,
         "se_a": 0.0306,
-        "se_k": 0.1173,
+        "se_k": 0.1172,
         "n": 4461,
         "k_clears_zero": false
       },
       "outright": {
         "a": -0.1239,
         "k": 1.1277,
-        "se_a": 0.0206,
-        "se_k": 0.0374,
+        "se_a": 0.0203,
+        "se_k": 0.0314,
         "n": 6019,
         "k_clears_zero": true
       },
@@ -205,8 +205,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0242,
-        "se_k": 0.0762,
+        "se_a": 0.019,
+        "se_k": 0.0269,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -884,6 +884,86 @@
       ],
       "base_mae": 13.451,
       "method": "paired difference in absolute error, same games, walk-forward"
+    },
+    "efficiency": {
+      "grid": [
+        {
+          "weight": 0.25,
+          "n": 6136,
+          "gain": 0.0119,
+          "se": 0.0113,
+          "lo": -0.0101,
+          "hi": 0.034,
+          "verdict": "no evidence",
+          "better": 3093,
+          "worse": 3043
+        },
+        {
+          "weight": 0.5,
+          "n": 6136,
+          "gain": -0.0155,
+          "se": 0.0224,
+          "lo": -0.0594,
+          "hi": 0.0285,
+          "verdict": "no evidence",
+          "better": 3050,
+          "worse": 3086
+        },
+        {
+          "weight": 0.75,
+          "n": 6136,
+          "gain": -0.085,
+          "se": 0.0333,
+          "lo": -0.1502,
+          "hi": -0.0197,
+          "verdict": "hurts",
+          "better": 3003,
+          "worse": 3133
+        },
+        {
+          "weight": 1.0,
+          "n": 6136,
+          "gain": -0.2029,
+          "se": 0.0438,
+          "lo": -0.2887,
+          "hi": -0.117,
+          "verdict": "hurts",
+          "better": 2948,
+          "worse": 3188
+        }
+      ],
+      "best": {
+        "weight": 0.25,
+        "n": 6136,
+        "gain": 0.0119,
+        "se": 0.0113,
+        "lo": -0.0101,
+        "hi": 0.034,
+        "verdict": "no evidence",
+        "better": 3093,
+        "worse": 3043
+      },
+      "by_span": [
+        {
+          "span": "weeks 1-4",
+          "n": 1587,
+          "gain": -0.0079,
+          "lo": -0.0494,
+          "hi": 0.0337
+        },
+        {
+          "span": "weeks 5 on",
+          "n": 4549,
+          "gain": 0.0189,
+          "lo": -0.0071,
+          "hi": 0.0448
+        }
+      ],
+      "games": 6136,
+      "coverage": 0.997,
+      "base_mae": 12.888,
+      "market_mae": 12.188,
+      "method": "paired difference in absolute error, same games, walk-forward; points per unit of efficiency refitted at every point in time"
     }
   }
 }
