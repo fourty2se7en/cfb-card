@@ -1,5 +1,5 @@
 season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,result,settled_utc
-2026,1,Tulane,Duke,spread,price_gap,LEAN,C,Duke,-7.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
+2026,1,Tulane,Duke,spread,price_gap,LEAN,C,Duke,-7.5,Bovada,2026-09-05T07:57:31.759715+00:00,win,2026-09-06T00:35:48.057959+00:00
 2026,1,Clemson,LSU,spread,price_gap,LEAN,C,LSU,-9.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
 2026,1,Central Michigan,New Mexico,spread,price_gap,LEAN,C,New Mexico,-10.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
 2026,1,Western Kentucky,Nevada,spread,price_gap,LEAN,C,Western Kentucky,1.0,Bovada,2026-09-05T07:57:31.759715+00:00,,
@@ -37,10 +37,10 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Boston College,Cincinnati,spread,model_gap_early,AVOID,D,Cincinnati,-7.5,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Boston College,Cincinnati,moneyline,model_gap_early,AVOID,D,Boston College,232.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T23:51:58.889551+00:00
 2026,1,Boston College,Cincinnati,total,total_over,AVOID,D,over,50.2,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T23:51:58.889551+00:00
-2026,1,Tulane,Duke,spread,model_gap_early,AVOID,D,Tulane,7.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Tulane,Duke,moneyline,model_gap_early,AVOID,D,Tulane,305.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Tulane,Duke,total,total_over,AVOID,D,over,51.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Tulane,Duke,price,price_gap,LEAN,A,Duke,-7.5,Bovada,2026-09-05T08:25:34.766161+00:00,,
+2026,1,Tulane,Duke,spread,model_gap_early,AVOID,D,Tulane,7.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T00:35:48.057959+00:00
+2026,1,Tulane,Duke,moneyline,model_gap_early,AVOID,D,Tulane,305.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T00:35:48.057959+00:00
+2026,1,Tulane,Duke,total,total_over,AVOID,D,over,51.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T00:35:48.057959+00:00
+2026,1,Tulane,Duke,price,price_gap,LEAN,A,Duke,-7.5,Bovada,2026-09-05T08:25:34.766161+00:00,win,2026-09-06T00:35:48.057959+00:00
 2026,1,Boise State,Oregon,spread,model_gap_early,AVOID,D,Boise State,24.8,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Boise State,Oregon,moneyline,model_gap_early,AVOID,D,Oregon,-3250.0,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Boise State,Oregon,total,total_over,AVOID,D,over,51.5,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T23:51:58.889551+00:00
@@ -120,8 +120,8 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Marshall,Penn State,total,total_model,AVOID,D,over,52.2,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-05T23:51:58.889551+00:00
 2026,1,Baylor,Auburn,moneyline,,PASS,B,Auburn,-277.0,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Baylor,Auburn,total,total_model,AVOID,D,under,59.5,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-05T23:51:58.889551+00:00
-2026,1,Tulane,Duke,moneyline,,PASS,C,Tulane,305.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Tulane,Duke,total,total_model,AVOID,D,over,51.0,consensus,2026-09-05T12:45:03.583359+00:00,,
+2026,1,Tulane,Duke,moneyline,,PASS,C,Tulane,305.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T00:35:48.057959+00:00
+2026,1,Tulane,Duke,total,total_model,AVOID,D,over,51.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T00:35:48.057959+00:00
 2026,1,Texas State,Texas,total,total_model,AVOID,D,under,59.8,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-05T23:51:58.889551+00:00
 2026,1,Boston College,Cincinnati,moneyline,,PASS,D,Boston College,232.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-05T23:51:58.889551+00:00
 2026,1,Boston College,Cincinnati,total,total_model,AVOID,D,over,50.2,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-05T23:51:58.889551+00:00
@@ -164,7 +164,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,SMU,Florida State,total,total_model,AVOID,D,under,53.2,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Boston College,Cincinnati,moneyline,moneyline_dog,PASS,D,Boston College,222.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-05T23:51:58.889551+00:00
 2026,1,Boise State,Oregon,moneyline,moneyline_fav,AVOID,C,Oregon,-3050.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-05T23:51:58.889551+00:00
-2026,1,Tulane,Duke,moneyline,moneyline_dog,PASS,C,Tulane,312.0,consensus,2026-09-05T16:43:39.660333+00:00,,
+2026,1,Tulane,Duke,moneyline,moneyline_dog,PASS,C,Tulane,312.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T00:35:48.057959+00:00
 2026,1,Baylor,Auburn,moneyline,moneyline_fav,AVOID,C,Auburn,-270.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Marshall,Penn State,moneyline,moneyline_dog,PASS,D,Marshall,1050.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-05T23:51:58.889551+00:00
 2026,1,Oklahoma State,Tulsa,moneyline,moneyline_dog,PASS,C,Tulsa,400.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-05T23:51:58.889551+00:00
