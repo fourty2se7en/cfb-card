@@ -104,7 +104,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-05T16:39:32Z",
+    "run_utc": "2026-09-06T01:22:05Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -164,24 +164,24 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.0513,
-        "se_k": 0.1373,
+        "se_a": 0.0511,
+        "se_k": 0.1356,
         "n": 1558,
         "k_clears_zero": false
       },
       "model_gap_late": {
         "a": 0.0372,
         "k": -0.2039,
-        "se_a": 0.0302,
-        "se_k": 0.1145,
+        "se_a": 0.0308,
+        "se_k": 0.118,
         "n": 4461,
         "k_clears_zero": false
       },
       "outright": {
         "a": -0.1239,
         "k": 1.1277,
-        "se_a": 0.0157,
-        "se_k": 0.017,
+        "se_a": 0.0198,
+        "se_k": 0.0302,
         "n": 6019,
         "k_clears_zero": true
       },
@@ -205,8 +205,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0242,
-        "se_k": 0.0762,
+        "se_a": 0.0266,
+        "se_k": 0.0884,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -350,6 +350,174 @@
         "hi": 5.9,
         "w": 452,
         "l": 1226
+      }
+    },
+    "conf_floor": {
+      "buckets": [
+        {
+          "lo": 0,
+          "hi": 35,
+          "n": 857,
+          "w": 151,
+          "l": 706,
+          "roi": -3.57,
+          "interval": [
+            -19.36,
+            12.22
+          ]
+        },
+        {
+          "lo": 35,
+          "hi": 40,
+          "n": 196,
+          "w": 54,
+          "l": 142,
+          "roi": -12.91,
+          "interval": [
+            -33.07,
+            7.24
+          ]
+        },
+        {
+          "lo": 40,
+          "hi": 45,
+          "n": 190,
+          "w": 70,
+          "l": 120,
+          "roi": 6.39,
+          "interval": [
+            -14.24,
+            27.03
+          ]
+        },
+        {
+          "lo": 45,
+          "hi": 50,
+          "n": 195,
+          "w": 85,
+          "l": 110,
+          "roi": 6.53,
+          "interval": [
+            -10.93,
+            23.99
+          ]
+        },
+        {
+          "lo": 50,
+          "hi": 100,
+          "n": 1080,
+          "w": 672,
+          "l": 408,
+          "roi": -6.56,
+          "interval": [
+            -11.36,
+            -1.76
+          ]
+        }
+      ],
+      "measured": null,
+      "basis": "moneyline bets, bucketed by calibrated probability, judged on return",
+      "note": "no bucket lost with its whole interval below zero, so there is no measured floor and the chosen one stands"
+    },
+    "sensitivity": {
+      "2017": {
+        "w": 2978,
+        "l": 3041,
+        "n": 6019,
+        "pct": 49.5,
+        "interval": [
+          48.2,
+          50.7
+        ],
+        "verdict": "loses"
+      },
+      "2018": {
+        "w": 2633,
+        "l": 2680,
+        "n": 5313,
+        "pct": 49.6,
+        "interval": [
+          48.2,
+          50.9
+        ],
+        "verdict": "loses"
+      },
+      "2019": {
+        "w": 2288,
+        "l": 2323,
+        "n": 4611,
+        "pct": 49.6,
+        "interval": [
+          48.2,
+          51.1
+        ],
+        "verdict": "loses"
+      },
+      "2020": {
+        "w": 1946,
+        "l": 1962,
+        "n": 3908,
+        "pct": 49.8,
+        "interval": [
+          48.2,
+          51.4
+        ],
+        "verdict": "loses"
+      },
+      "2021": {
+        "w": 1706,
+        "l": 1721,
+        "n": 3427,
+        "pct": 49.8,
+        "interval": [
+          48.1,
+          51.5
+        ],
+        "verdict": "loses"
+      },
+      "2022": {
+        "w": 1368,
+        "l": 1356,
+        "n": 2724,
+        "pct": 50.2,
+        "interval": [
+          48.3,
+          52.1
+        ],
+        "verdict": "loses"
+      },
+      "2023": {
+        "w": 1034,
+        "l": 996,
+        "n": 2030,
+        "pct": 50.9,
+        "interval": [
+          48.8,
+          53.1
+        ],
+        "verdict": "no evidence"
+      },
+      "2024": {
+        "w": 702,
+        "l": 643,
+        "n": 1345,
+        "pct": 52.2,
+        "interval": [
+          49.5,
+          54.9
+        ],
+        "verdict": "no evidence"
+      },
+      "2025": {
+        "w": 357,
+        "l": 311,
+        "n": 668,
+        "pct": 53.4,
+        "interval": [
+          49.7,
+          57.2
+        ],
+        "verdict": "no evidence"
       }
     }
   }
