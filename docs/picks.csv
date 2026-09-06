@@ -1,6 +1,6 @@
 season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,result,settled_utc
 2026,1,Tulane,Duke,spread,price_gap,LEAN,C,Duke,-7.5,Bovada,2026-09-05T07:57:31.759715+00:00,win,2026-09-06T00:35:48.057959+00:00
-2026,1,Clemson,LSU,spread,price_gap,LEAN,C,LSU,-9.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
+2026,1,Clemson,LSU,spread,price_gap,LEAN,C,LSU,-9.5,Bovada,2026-09-05T07:57:31.759715+00:00,win,2026-09-06T05:22:22.540277+00:00
 2026,1,Central Michigan,New Mexico,spread,price_gap,LEAN,C,New Mexico,-10.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
 2026,1,Western Kentucky,Nevada,spread,price_gap,LEAN,C,Western Kentucky,1.0,Bovada,2026-09-05T07:57:31.759715+00:00,,
 2026,1,Ohio,Nebraska,spread,model_gap_early,AVOID,D,Ohio,23.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T19:34:55.712191+00:00
@@ -63,10 +63,10 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Sam Houston,Troy,spread,model_gap_early,AVOID,D,Troy,-16.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Sam Houston,Troy,moneyline,model_gap_early,AVOID,D,Sam Houston,650.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Sam Houston,Troy,total,total_over,AVOID,D,under,53.8,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-06T03:31:26.075814+00:00
-2026,1,Clemson,LSU,spread,model_gap_early,AVOID,D,Clemson,9.8,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Clemson,LSU,moneyline,model_gap_early,AVOID,D,Clemson,335.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Clemson,LSU,total,total_over,AVOID,D,under,50.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Clemson,LSU,price,price_gap,LEAN,A,LSU,-9.5,Bovada,2026-09-05T08:25:34.766161+00:00,,
+2026,1,Clemson,LSU,spread,model_gap_early,AVOID,D,Clemson,9.8,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T05:22:22.540277+00:00
+2026,1,Clemson,LSU,moneyline,model_gap_early,AVOID,D,Clemson,335.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T05:22:22.540277+00:00
+2026,1,Clemson,LSU,total,total_over,AVOID,D,under,50.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T05:22:22.540277+00:00
+2026,1,Clemson,LSU,price,price_gap,LEAN,A,LSU,-9.5,Bovada,2026-09-05T08:25:34.766161+00:00,win,2026-09-06T05:22:22.540277+00:00
 2026,1,UL Monroe,Mississippi State,spread,model_gap_early,AVOID,D,UL Monroe,28.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,UL Monroe,Mississippi State,moneyline,model_gap_early,AVOID,D,UL Monroe,1600.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,UL Monroe,Mississippi State,total,total_over,AVOID,D,under,54.8,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T03:31:26.075814+00:00
@@ -142,8 +142,8 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Western Michigan,Michigan,total,total_model,AVOID,D,under,49.5,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-06T03:31:26.075814+00:00
 2026,1,UL Monroe,Mississippi State,moneyline,,PASS,D,UL Monroe,1600.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,UL Monroe,Mississippi State,total,total_model,AVOID,D,over,54.8,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-06T03:31:26.075814+00:00
-2026,1,Clemson,LSU,moneyline,,PASS,C,Clemson,335.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Clemson,LSU,total,total_model,AVOID,D,under,50.5,consensus,2026-09-05T12:45:03.583359+00:00,,
+2026,1,Clemson,LSU,moneyline,,PASS,C,Clemson,335.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T05:22:22.540277+00:00
+2026,1,Clemson,LSU,total,total_model,AVOID,D,under,50.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T05:22:22.540277+00:00
 2026,1,Florida Atlantic,Florida,moneyline,,PASS,D,Florida Atlantic,1300.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Florida Atlantic,Florida,total,total_model,AVOID,D,under,59.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Central Michigan,New Mexico,moneyline,,PASS,C,Central Michigan,370.0,consensus,2026-09-05T12:45:03.583359+00:00,,
@@ -172,7 +172,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Arkansas State,Memphis,moneyline,moneyline_fav,AVOID,C,Memphis,-382.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-06T03:31:26.075814+00:00
 2026,1,Florida International,South Florida,moneyline,moneyline_fav,AVOID,C,South Florida,-567.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-06T02:05:54.034062+00:00
 2026,1,Sam Houston,Troy,moneyline,moneyline_dog,PASS,D,Sam Houston,650.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T03:31:26.075814+00:00
-2026,1,Clemson,LSU,moneyline,moneyline_dog,PASS,C,Clemson,325.0,consensus,2026-09-05T16:43:39.660333+00:00,,
+2026,1,Clemson,LSU,moneyline,moneyline_dog,PASS,C,Clemson,325.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T05:22:22.540277+00:00
 2026,1,UL Monroe,Mississippi State,moneyline,moneyline_dog,PASS,D,UL Monroe,1600.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Florida Atlantic,Florida,moneyline,moneyline_dog,PASS,D,Florida Atlantic,1300.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,UNLV,Hawai'i,moneyline,moneyline_dog,PASS,D,Hawai'i,130.0,consensus,2026-09-05T16:43:39.660333+00:00,,
