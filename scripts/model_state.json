@@ -104,7 +104,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-06T04:04:31Z",
+    "run_utc": "2026-09-06T04:34:35Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -164,24 +164,24 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.0491,
-        "se_k": 0.1172,
+        "se_a": 0.0509,
+        "se_k": 0.134,
         "n": 1558,
         "k_clears_zero": false
       },
       "model_gap_late": {
         "a": 0.0372,
         "k": -0.2039,
-        "se_a": 0.0309,
-        "se_k": 0.1198,
+        "se_a": 0.0306,
+        "se_k": 0.1172,
         "n": 4461,
         "k_clears_zero": false
       },
       "outright": {
         "a": -0.1239,
         "k": 1.1277,
-        "se_a": 0.0216,
-        "se_k": 0.0192,
+        "se_a": 0.0198,
+        "se_k": 0.0302,
         "n": 6019,
         "k_clears_zero": true
       },
@@ -205,8 +205,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0266,
-        "se_k": 0.0882,
+        "se_a": 0.0228,
+        "se_k": 0.0726,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -541,65 +541,214 @@
       "grid": [
         {
           "strength": 0.0,
-          "n": 362,
-          "mae": 13.618,
-          "market_mae": 12.34,
-          "vs_market": 1.277,
-          "moved_toward_market": 0,
-          "crossed_market": 0
-        },
-        {
-          "strength": 0.1,
-          "n": 362,
-          "mae": 13.576,
-          "market_mae": 12.34,
-          "vs_market": 1.235,
-          "moved_toward_market": 184,
-          "crossed_market": 5
+          "fade": 4.0,
+          "n": 1587,
+          "gain": 0.0,
+          "se": 0.0,
+          "lo": 0.0,
+          "hi": 0.0,
+          "verdict": "no evidence",
+          "better": 0,
+          "worse": 0
         },
         {
           "strength": 0.2,
-          "n": 362,
-          "mae": 13.54,
-          "market_mae": 12.34,
-          "vs_market": 1.199,
-          "moved_toward_market": 181,
-          "crossed_market": 11
-        },
-        {
-          "strength": 0.3,
-          "n": 362,
-          "mae": 13.501,
-          "market_mae": 12.34,
-          "vs_market": 1.16,
-          "moved_toward_market": 179,
-          "crossed_market": 17
+          "fade": 4.0,
+          "n": 1587,
+          "gain": 0.009,
+          "se": 0.0113,
+          "lo": -0.0131,
+          "hi": 0.0312,
+          "verdict": "no evidence",
+          "better": 781,
+          "worse": 806
         },
         {
           "strength": 0.4,
-          "n": 362,
-          "mae": 13.456,
-          "market_mae": 12.34,
-          "vs_market": 1.116,
-          "moved_toward_market": 175,
-          "crossed_market": 22
+          "fade": 4.0,
+          "n": 1587,
+          "gain": 0.0149,
+          "se": 0.0247,
+          "lo": -0.0334,
+          "hi": 0.0633,
+          "verdict": "no evidence",
+          "better": 772,
+          "worse": 815
         },
         {
-          "strength": 0.5,
-          "n": 362,
-          "mae": 13.412,
-          "market_mae": 12.34,
-          "vs_market": 1.071,
-          "moved_toward_market": 172,
-          "crossed_market": 29
+          "strength": 0.6,
+          "fade": 4.0,
+          "n": 1587,
+          "gain": 0.0118,
+          "se": 0.0399,
+          "lo": -0.0664,
+          "hi": 0.09,
+          "verdict": "no evidence",
+          "better": 766,
+          "worse": 821
+        },
+        {
+          "strength": 0.8,
+          "fade": 4.0,
+          "n": 1587,
+          "gain": -0.0125,
+          "se": 0.0561,
+          "lo": -0.1224,
+          "hi": 0.0974,
+          "verdict": "no evidence",
+          "better": 761,
+          "worse": 826
+        },
+        {
+          "strength": 1.0,
+          "fade": 4.0,
+          "n": 1587,
+          "gain": -0.067,
+          "se": 0.0707,
+          "lo": -0.2056,
+          "hi": 0.0715,
+          "verdict": "no evidence",
+          "better": 756,
+          "worse": 831
+        },
+        {
+          "strength": 0.2,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": 0.0036,
+          "se": 0.0133,
+          "lo": -0.0225,
+          "hi": 0.0296,
+          "verdict": "no evidence",
+          "better": 779,
+          "worse": 808
+        },
+        {
+          "strength": 0.4,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": -0.0016,
+          "se": 0.0291,
+          "lo": -0.0586,
+          "hi": 0.0553,
+          "verdict": "no evidence",
+          "better": 771,
+          "worse": 816
+        },
+        {
+          "strength": 0.6,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": -0.023,
+          "se": 0.0471,
+          "lo": -0.1154,
+          "hi": 0.0693,
+          "verdict": "no evidence",
+          "better": 759,
+          "worse": 828
+        },
+        {
+          "strength": 0.8,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": -0.0702,
+          "se": 0.0671,
+          "lo": -0.2018,
+          "hi": 0.0614,
+          "verdict": "no evidence",
+          "better": 752,
+          "worse": 835
+        },
+        {
+          "strength": 1.0,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": -0.156,
+          "se": 0.0863,
+          "lo": -0.3252,
+          "hi": 0.0131,
+          "verdict": "no evidence",
+          "better": 744,
+          "worse": 843
+        },
+        {
+          "strength": 0.2,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": 0.0009,
+          "se": 0.0144,
+          "lo": -0.0273,
+          "hi": 0.0291,
+          "verdict": "no evidence",
+          "better": 777,
+          "worse": 810
+        },
+        {
+          "strength": 0.4,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": -0.0094,
+          "se": 0.0316,
+          "lo": -0.0713,
+          "hi": 0.0525,
+          "verdict": "no evidence",
+          "better": 769,
+          "worse": 818
+        },
+        {
+          "strength": 0.6,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": -0.0415,
+          "se": 0.0514,
+          "lo": -0.1423,
+          "hi": 0.0593,
+          "verdict": "no evidence",
+          "better": 765,
+          "worse": 822
+        },
+        {
+          "strength": 0.8,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": -0.1042,
+          "se": 0.0738,
+          "lo": -0.2489,
+          "hi": 0.0404,
+          "verdict": "no evidence",
+          "better": 748,
+          "worse": 839
+        },
+        {
+          "strength": 1.0,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": -0.2188,
+          "se": 0.0946,
+          "lo": -0.4043,
+          "hi": -0.0334,
+          "verdict": "hurts",
+          "better": 746,
+          "worse": 841
         }
       ],
-      "best": 0.5,
+      "best": {
+        "strength": 0.4,
+        "fade": 4.0,
+        "n": 1587,
+        "gain": 0.0149,
+        "se": 0.0247,
+        "lo": -0.0334,
+        "hi": 0.0633,
+        "verdict": "no evidence",
+        "better": 772,
+        "worse": 815
+      },
       "gain": 0.206,
       "noise": 0.563,
       "verdict": "no measurable improvement",
-      "games": 362,
-      "market_mae": 12.34,
+      "games": 1587,
+      "market_mae": 12.314,
       "thin_buckets": [
         {
           "lo": 0.0,
@@ -642,7 +791,39 @@
           "gap": 0.54
         }
       ],
-      "thin_threshold": null
+      "thin_threshold": null,
+      "by_week": [
+        {
+          "week": 1,
+          "n": 362,
+          "gain": 0.1616,
+          "lo": 0.0038,
+          "hi": 0.3194
+        },
+        {
+          "week": 2,
+          "n": 375,
+          "gain": 0.0003,
+          "lo": -0.1063,
+          "hi": 0.1069
+        },
+        {
+          "week": 3,
+          "n": 401,
+          "gain": -0.0243,
+          "lo": -0.0886,
+          "hi": 0.04
+        },
+        {
+          "week": 4,
+          "n": 449,
+          "gain": -0.056,
+          "lo": -0.0971,
+          "hi": -0.0149
+        }
+      ],
+      "base_mae": 13.451,
+      "method": "paired difference in absolute error, same games, walk-forward"
     }
   }
 }
