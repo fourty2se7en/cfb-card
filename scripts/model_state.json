@@ -104,7 +104,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-06T06:01:27Z",
+    "run_utc": "2026-09-06T06:37:41Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -164,24 +164,24 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.0494,
-        "se_k": 0.0664,
+        "se_a": 0.0511,
+        "se_k": 0.1356,
         "n": 1558,
         "k_clears_zero": false
       },
       "model_gap_late": {
         "a": 0.0372,
         "k": -0.2039,
-        "se_a": 0.0306,
-        "se_k": 0.1172,
+        "se_a": 0.0345,
+        "se_k": 0.1508,
         "n": 4461,
         "k_clears_zero": false
       },
       "outright": {
         "a": -0.1239,
         "k": 1.1277,
-        "se_a": 0.0203,
-        "se_k": 0.0314,
+        "se_a": 0.0198,
+        "se_k": 0.0302,
         "n": 6019,
         "k_clears_zero": true
       },
@@ -205,8 +205,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.019,
-        "se_k": 0.0269,
+        "se_a": 0.0264,
+        "se_k": 0.089,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -964,6 +964,100 @@
       "base_mae": 12.888,
       "market_mae": 12.188,
       "method": "paired difference in absolute error, same games, walk-forward; points per unit of efficiency refitted at every point in time"
+    },
+    "venue": {
+      "grid": [
+        {
+          "weight": 0.25,
+          "n": 6136,
+          "gain": -0.0149,
+          "se": 0.0051,
+          "lo": -0.025,
+          "hi": -0.0049,
+          "verdict": "hurts",
+          "better": 2946,
+          "worse": 3006
+        },
+        {
+          "weight": 0.5,
+          "n": 6136,
+          "gain": -0.0372,
+          "se": 0.0102,
+          "lo": -0.0571,
+          "hi": -0.0173,
+          "verdict": "hurts",
+          "better": 2924,
+          "worse": 3028
+        },
+        {
+          "weight": 0.75,
+          "n": 6136,
+          "gain": -0.0663,
+          "se": 0.0151,
+          "lo": -0.0959,
+          "hi": -0.0366,
+          "verdict": "hurts",
+          "better": 2901,
+          "worse": 3051
+        },
+        {
+          "weight": 1.0,
+          "n": 6136,
+          "gain": -0.1014,
+          "se": 0.0201,
+          "lo": -0.1408,
+          "hi": -0.062,
+          "verdict": "hurts",
+          "better": 2886,
+          "worse": 3066
+        }
+      ],
+      "best": {
+        "weight": 0.25,
+        "n": 6136,
+        "gain": -0.0149,
+        "se": 0.0051,
+        "lo": -0.025,
+        "hi": -0.0049,
+        "verdict": "hurts",
+        "better": 2946,
+        "worse": 3006
+      },
+      "by_size": [
+        {
+          "span": "adjustment small",
+          "n": 4602,
+          "gain": 0.0012,
+          "lo": -0.0038,
+          "hi": 0.0062
+        },
+        {
+          "span": "adjustment large",
+          "n": 1534,
+          "gain": -0.0633,
+          "lo": -0.1003,
+          "hi": -0.0263
+        }
+      ],
+      "coefficients": {
+        "altitude": {
+          "mean": 1.009,
+          "sd": 0.967
+        },
+        "crowd": {
+          "mean": 0.023,
+          "sd": 0.249
+        },
+        "travel": {
+          "mean": 1.005,
+          "sd": 0.705
+        }
+      },
+      "games": 6136,
+      "adj_sd": 1.555,
+      "base_mae": 12.888,
+      "market_mae": 12.188,
+      "method": "paired difference in absolute error, same games, walk-forward; venue slopes fitted from residuals after the fit, never as columns inside it"
     }
   }
 }
