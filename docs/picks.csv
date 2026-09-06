@@ -49,9 +49,9 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Oklahoma State,Tulsa,total,total_over,AVOID,D,under,59.2,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Northern Illinois,Iowa,spread,model_gap_early,AVOID,D,Northern Illinois,31.8,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T23:51:58.889551+00:00
 2026,1,Northern Illinois,Iowa,total,total_over,AVOID,D,over,44.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T23:51:58.889551+00:00
-2026,1,Wyoming,Colorado State,spread,model_gap_early,AVOID,D,Wyoming,3.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Wyoming,Colorado State,moneyline,model_gap_early,AVOID,D,Wyoming,142.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Wyoming,Colorado State,total,total_over,AVOID,D,under,46.5,consensus,2026-09-05T08:25:34.766161+00:00,,
+2026,1,Wyoming,Colorado State,spread,model_gap_early,AVOID,D,Wyoming,3.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T01:48:46.026325+00:00
+2026,1,Wyoming,Colorado State,moneyline,model_gap_early,AVOID,D,Wyoming,142.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T01:48:46.026325+00:00
+2026,1,Wyoming,Colorado State,total,total_over,AVOID,D,under,46.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T01:48:46.026325+00:00
 2026,1,Florida International,South Florida,spread,model_gap_early,AVOID,D,South Florida,-14.5,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Florida International,South Florida,moneyline,model_gap_early,AVOID,D,South Florida,-567.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Florida International,South Florida,total,total_over,AVOID,D,over,51.8,consensus,2026-09-05T08:25:34.766161+00:00,,
@@ -130,8 +130,8 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Oklahoma State,Tulsa,moneyline,,PASS,C,Tulsa,415.0,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Oklahoma State,Tulsa,total,total_model,AVOID,D,under,59.2,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Northern Illinois,Iowa,total,total_model,AVOID,D,over,44.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-05T23:51:58.889551+00:00
-2026,1,Wyoming,Colorado State,moneyline,,PASS,D,Wyoming,142.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Wyoming,Colorado State,total,total_model,AVOID,D,under,46.5,consensus,2026-09-05T12:45:03.583359+00:00,,
+2026,1,Wyoming,Colorado State,moneyline,,PASS,D,Wyoming,142.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T01:48:46.026325+00:00
+2026,1,Wyoming,Colorado State,total,total_model,AVOID,D,under,46.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T01:48:46.026325+00:00
 2026,1,Florida International,South Florida,moneyline,,PASS,B,South Florida,-567.0,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Florida International,South Florida,total,total_model,AVOID,D,over,51.8,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Arkansas State,Memphis,moneyline,,PASS,B,Memphis,-397.0,consensus,2026-09-05T12:45:03.583359+00:00,,
@@ -168,7 +168,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Baylor,Auburn,moneyline,moneyline_fav,AVOID,C,Auburn,-270.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-05T23:51:58.889551+00:00
 2026,1,Marshall,Penn State,moneyline,moneyline_dog,PASS,D,Marshall,1050.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-05T23:51:58.889551+00:00
 2026,1,Oklahoma State,Tulsa,moneyline,moneyline_dog,PASS,C,Tulsa,400.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-05T23:51:58.889551+00:00
-2026,1,Wyoming,Colorado State,moneyline,moneyline_dog,PASS,D,Wyoming,142.0,consensus,2026-09-05T16:43:39.660333+00:00,,
+2026,1,Wyoming,Colorado State,moneyline,moneyline_dog,PASS,D,Wyoming,142.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T01:48:46.026325+00:00
 2026,1,Arkansas State,Memphis,moneyline,moneyline_fav,AVOID,C,Memphis,-382.0,consensus,2026-09-05T16:43:39.660333+00:00,,
 2026,1,Florida International,South Florida,moneyline,moneyline_fav,AVOID,C,South Florida,-567.0,consensus,2026-09-05T16:43:39.660333+00:00,,
 2026,1,Sam Houston,Troy,moneyline,moneyline_dog,PASS,D,Sam Houston,650.0,consensus,2026-09-05T16:43:39.660333+00:00,,

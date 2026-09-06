@@ -33,3 +33,4 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,1,Oklahoma State,Tulsa,7.8,-13.5,14.0,6.2,27.5,model
 2026,1,Northern Illinois,Iowa,33.5,31.5,40.0,6.5,8.5,model
 2026,1,Tulane,Duke,9.1,8.8,14.0,4.9,5.2,model
+2026,1,Wyoming,Colorado State,9.6,2.8,22.0,12.4,19.2,model
