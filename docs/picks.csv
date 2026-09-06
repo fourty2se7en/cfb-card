@@ -1,8 +1,8 @@
 season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,result,settled_utc
 2026,1,Tulane,Duke,spread,price_gap,LEAN,C,Duke,-7.5,Bovada,2026-09-05T07:57:31.759715+00:00,win,2026-09-06T00:35:48.057959+00:00
 2026,1,Clemson,LSU,spread,price_gap,LEAN,C,LSU,-9.5,Bovada,2026-09-05T07:57:31.759715+00:00,win,2026-09-06T05:22:22.540277+00:00
-2026,1,Central Michigan,New Mexico,spread,price_gap,LEAN,C,New Mexico,-10.5,Bovada,2026-09-05T07:57:31.759715+00:00,,
-2026,1,Western Kentucky,Nevada,spread,price_gap,LEAN,C,Western Kentucky,1.0,Bovada,2026-09-05T07:57:31.759715+00:00,,
+2026,1,Central Michigan,New Mexico,spread,price_gap,LEAN,C,New Mexico,-10.5,Bovada,2026-09-05T07:57:31.759715+00:00,win,2026-09-06T12:10:31.867610+00:00
+2026,1,Western Kentucky,Nevada,spread,price_gap,LEAN,C,Western Kentucky,1.0,Bovada,2026-09-05T07:57:31.759715+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,Ohio,Nebraska,spread,model_gap_early,AVOID,D,Ohio,23.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T19:34:55.712191+00:00
 2026,1,Ohio,Nebraska,moneyline,model_gap_early,AVOID,D,Ohio,1250.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-05T19:34:55.712191+00:00
 2026,1,Ohio,Nebraska,total,total_over,AVOID,D,over,46.2,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-05T19:34:55.712191+00:00
@@ -75,20 +75,20 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Florida Atlantic,Florida,spread,model_gap_early,AVOID,D,Florida Atlantic,26.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Florida Atlantic,Florida,moneyline,model_gap_early,AVOID,D,Florida Atlantic,1300.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Florida Atlantic,Florida,total,total_over,AVOID,D,under,59.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T03:31:26.075814+00:00
-2026,1,Central Michigan,New Mexico,spread,model_gap_early,AVOID,D,Central Michigan,10.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Central Michigan,New Mexico,moneyline,model_gap_early,AVOID,D,Central Michigan,370.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Central Michigan,New Mexico,total,total_over,AVOID,D,over,46.8,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Central Michigan,New Mexico,price,price_gap,LEAN,A,New Mexico,-10.5,Bovada,2026-09-05T08:25:34.766161+00:00,,
-2026,1,UNLV,Hawai'i,spread,model_gap_early,AVOID,D,Hawai'i,3.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,UNLV,Hawai'i,moneyline,model_gap_early,AVOID,D,Hawai'i,130.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,UNLV,Hawai'i,total,total_over,AVOID,D,over,55.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,UCLA,California,spread,model_gap_early,AVOID,D,California,2.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,UCLA,California,moneyline,model_gap_early,AVOID,D,California,112.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,UCLA,California,total,total_over,AVOID,D,over,53.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Western Kentucky,Nevada,spread,model_gap_early,AVOID,D,Western Kentucky,-0.2,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Western Kentucky,Nevada,moneyline,model_gap_early,AVOID,D,Western Kentucky,-140.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Western Kentucky,Nevada,total,total_over,AVOID,D,under,51.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Western Kentucky,Nevada,price,price_gap,LEAN,A,Western Kentucky,1.0,Bovada,2026-09-05T08:25:34.766161+00:00,,
+2026,1,Central Michigan,New Mexico,spread,model_gap_early,AVOID,D,Central Michigan,10.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Central Michigan,New Mexico,moneyline,model_gap_early,AVOID,D,Central Michigan,370.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Central Michigan,New Mexico,total,total_over,AVOID,D,over,46.8,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Central Michigan,New Mexico,price,price_gap,LEAN,A,New Mexico,-10.5,Bovada,2026-09-05T08:25:34.766161+00:00,win,2026-09-06T12:10:31.867610+00:00
+2026,1,UNLV,Hawai'i,spread,model_gap_early,AVOID,D,Hawai'i,3.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UNLV,Hawai'i,moneyline,model_gap_early,AVOID,D,Hawai'i,130.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UNLV,Hawai'i,total,total_over,AVOID,D,over,55.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UCLA,California,spread,model_gap_early,AVOID,D,California,2.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UCLA,California,moneyline,model_gap_early,AVOID,D,California,112.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UCLA,California,total,total_over,AVOID,D,over,53.5,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-06T12:10:31.867610+00:00
+2026,1,Western Kentucky,Nevada,spread,model_gap_early,AVOID,D,Western Kentucky,-0.2,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Western Kentucky,Nevada,moneyline,model_gap_early,AVOID,D,Western Kentucky,-140.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Western Kentucky,Nevada,total,total_over,AVOID,D,under,51.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Western Kentucky,Nevada,price,price_gap,LEAN,A,Western Kentucky,1.0,Bovada,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,Washington State,Washington,spread,model_gap_early,AVOID,D,Washington State,23.2,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Washington State,Washington,moneyline,model_gap_early,AVOID,D,Washington State,1100.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,Washington State,Washington,total,total_over,AVOID,D,under,51.2,consensus,2026-09-05T08:25:34.766161+00:00,,
@@ -146,14 +146,14 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Clemson,LSU,total,total_model,AVOID,D,under,50.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T05:22:22.540277+00:00
 2026,1,Florida Atlantic,Florida,moneyline,,PASS,D,Florida Atlantic,1300.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Florida Atlantic,Florida,total,total_model,AVOID,D,under,59.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T03:31:26.075814+00:00
-2026,1,Central Michigan,New Mexico,moneyline,,PASS,C,Central Michigan,370.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Central Michigan,New Mexico,total,total_model,AVOID,D,over,46.8,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,UNLV,Hawai'i,moneyline,,PASS,D,Hawai'i,130.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,UNLV,Hawai'i,total,total_model,AVOID,D,over,55.5,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Western Kentucky,Nevada,moneyline,,PASS,C,Western Kentucky,-140.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Western Kentucky,Nevada,total,total_model,AVOID,D,under,51.5,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,UCLA,California,moneyline,,PASS,B,California,112.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,UCLA,California,total,total_model,AVOID,D,over,53.5,consensus,2026-09-05T12:45:03.583359+00:00,,
+2026,1,Central Michigan,New Mexico,moneyline,,PASS,C,Central Michigan,370.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Central Michigan,New Mexico,total,total_model,AVOID,D,over,46.8,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UNLV,Hawai'i,moneyline,,PASS,D,Hawai'i,130.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UNLV,Hawai'i,total,total_model,AVOID,D,over,55.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Western Kentucky,Nevada,moneyline,,PASS,C,Western Kentucky,-140.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Western Kentucky,Nevada,total,total_model,AVOID,D,under,51.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UCLA,California,moneyline,,PASS,B,California,112.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UCLA,California,total,total_model,AVOID,D,over,53.5,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-06T12:10:31.867610+00:00
 2026,1,Washington State,Washington,moneyline,,PASS,C,Washington State,1100.0,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Washington State,Washington,total,total_model,AVOID,D,under,51.2,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Wisconsin,Notre Dame,moneyline,,PASS,D,Wisconsin,1050.0,consensus,2026-09-05T12:45:03.583359+00:00,,
@@ -175,10 +175,10 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Clemson,LSU,moneyline,moneyline_dog,PASS,C,Clemson,325.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T05:22:22.540277+00:00
 2026,1,UL Monroe,Mississippi State,moneyline,moneyline_dog,PASS,D,UL Monroe,1600.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T03:31:26.075814+00:00
 2026,1,Florida Atlantic,Florida,moneyline,moneyline_dog,PASS,D,Florida Atlantic,1300.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T03:31:26.075814+00:00
-2026,1,UNLV,Hawai'i,moneyline,moneyline_dog,PASS,D,Hawai'i,130.0,consensus,2026-09-05T16:43:39.660333+00:00,,
-2026,1,Central Michigan,New Mexico,moneyline,moneyline_dog,PASS,C,Central Michigan,370.0,consensus,2026-09-05T16:43:39.660333+00:00,,
-2026,1,UCLA,California,moneyline,moneyline_dog,PASS,B,California,112.0,consensus,2026-09-05T16:43:39.660333+00:00,,
-2026,1,Western Kentucky,Nevada,moneyline,moneyline_fav,AVOID,C,Western Kentucky,-140.0,consensus,2026-09-05T16:43:39.660333+00:00,,
+2026,1,UNLV,Hawai'i,moneyline,moneyline_dog,PASS,D,Hawai'i,130.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Central Michigan,New Mexico,moneyline,moneyline_dog,PASS,C,Central Michigan,370.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,UCLA,California,moneyline,moneyline_dog,PASS,B,California,112.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T12:10:31.867610+00:00
+2026,1,Western Kentucky,Nevada,moneyline,moneyline_fav,AVOID,C,Western Kentucky,-140.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,Washington State,Washington,moneyline,moneyline_dog,PASS,C,Washington State,1100.0,consensus,2026-09-05T16:43:39.660333+00:00,,
 2026,1,Wisconsin,Notre Dame,moneyline,moneyline_dog,PASS,D,Wisconsin,925.0,consensus,2026-09-05T16:43:39.660333+00:00,,
 2026,1,Louisville,Ole Miss,moneyline,moneyline_fav,AVOID,C,Ole Miss,-270.0,consensus,2026-09-05T16:43:39.660333+00:00,,
