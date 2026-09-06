@@ -104,7 +104,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-06T04:42:44Z",
+    "run_utc": "2026-09-06T05:18:40Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -164,24 +164,24 @@
       "model_gap_early": {
         "a": -0.001,
         "k": -0.1221,
-        "se_a": 0.0512,
-        "se_k": 0.1365,
+        "se_a": 0.0511,
+        "se_k": 0.1356,
         "n": 1558,
         "k_clears_zero": false
       },
       "model_gap_late": {
         "a": 0.0372,
         "k": -0.2039,
-        "se_a": 0.0274,
-        "se_k": 0.1111,
+        "se_a": 0.0306,
+        "se_k": 0.1173,
         "n": 4461,
         "k_clears_zero": false
       },
       "outright": {
         "a": -0.1239,
         "k": 1.1277,
-        "se_a": 0.0204,
-        "se_k": 0.0321,
+        "se_a": 0.0206,
+        "se_k": 0.0374,
         "n": 6019,
         "k_clears_zero": true
       },
@@ -205,8 +205,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0264,
-        "se_k": 0.089,
+        "se_a": 0.0242,
+        "se_k": 0.0762,
         "n": 6065,
         "k_clears_zero": false
       }
