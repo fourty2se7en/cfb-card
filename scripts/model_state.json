@@ -104,7 +104,7 @@
     }
   },
   "backtest": {
-    "run_utc": "2026-09-06T01:22:05Z",
+    "run_utc": "2026-09-06T01:35:32Z",
     "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
     "record": {
       "price_gap": [
@@ -165,23 +165,23 @@
         "a": -0.001,
         "k": -0.1221,
         "se_a": 0.0511,
-        "se_k": 0.1356,
+        "se_k": 0.1357,
         "n": 1558,
         "k_clears_zero": false
       },
       "model_gap_late": {
         "a": 0.0372,
         "k": -0.2039,
-        "se_a": 0.0308,
-        "se_k": 0.118,
+        "se_a": 0.0306,
+        "se_k": 0.1172,
         "n": 4461,
         "k_clears_zero": false
       },
       "outright": {
         "a": -0.1239,
         "k": 1.1277,
-        "se_a": 0.0198,
-        "se_k": 0.0302,
+        "se_a": 0.0192,
+        "se_k": 0.0409,
         "n": 6019,
         "k_clears_zero": true
       },
@@ -205,8 +205,8 @@
       "total_model": {
         "a": 0.0156,
         "k": -0.0269,
-        "se_a": 0.0266,
-        "se_k": 0.0884,
+        "se_a": 0.0165,
+        "se_k": 0.0149,
         "n": 6065,
         "k_clears_zero": false
       }
@@ -417,7 +417,7 @@
       ],
       "measured": null,
       "basis": "moneyline bets, bucketed by calibrated probability, judged on return",
-      "note": "no bucket lost with its whole interval below zero, so there is no measured floor and the chosen one stands"
+      "note": "no bucket at the BOTTOM lost with its whole interval below zero, so there is no measured floor and the chosen one stands. The buckets that did lose outright were 50-100%, which a floor cannot reach"
     },
     "sensitivity": {
       "2017": {
@@ -519,6 +519,23 @@
         ],
         "verdict": "no evidence"
       }
+    },
+    "sensitivity_summary": {
+      "stable": false,
+      "verdicts": [
+        "loses",
+        "no evidence"
+      ],
+      "drifted": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "full_interval": [
+        48.2,
+        50.7
+      ],
+      "full_pct": 49.5
     }
   }
 }
