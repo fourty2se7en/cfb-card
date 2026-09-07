@@ -89,15 +89,15 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Western Kentucky,Nevada,moneyline,model_gap_early,AVOID,D,Western Kentucky,-140.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,Western Kentucky,Nevada,total,total_over,AVOID,D,under,51.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,Western Kentucky,Nevada,price,price_gap,LEAN,A,Western Kentucky,1.0,Bovada,2026-09-05T08:25:34.766161+00:00,loss,2026-09-06T12:10:31.867610+00:00
-2026,1,Washington State,Washington,spread,model_gap_early,AVOID,D,Washington State,23.2,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Washington State,Washington,moneyline,model_gap_early,AVOID,D,Washington State,1100.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Washington State,Washington,total,total_over,AVOID,D,under,51.2,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Wisconsin,Notre Dame,spread,model_gap_early,AVOID,D,Wisconsin,20.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Wisconsin,Notre Dame,moneyline,model_gap_early,AVOID,D,Wisconsin,1050.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Wisconsin,Notre Dame,total,total_over,AVOID,D,under,46.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Louisville,Ole Miss,spread,model_gap_early,AVOID,D,Ole Miss,-6.5,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Louisville,Ole Miss,moneyline,model_gap_early,AVOID,D,Ole Miss,-270.0,consensus,2026-09-05T08:25:34.766161+00:00,,
-2026,1,Louisville,Ole Miss,total,total_over,AVOID,D,under,54.8,consensus,2026-09-05T08:25:34.766161+00:00,,
+2026,1,Washington State,Washington,spread,model_gap_early,AVOID,D,Washington State,23.2,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-07T14:17:02.556150+00:00
+2026,1,Washington State,Washington,moneyline,model_gap_early,AVOID,D,Washington State,1100.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Washington State,Washington,total,total_over,AVOID,D,under,51.2,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-07T14:17:02.556150+00:00
+2026,1,Wisconsin,Notre Dame,spread,model_gap_early,AVOID,D,Wisconsin,20.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Wisconsin,Notre Dame,moneyline,model_gap_early,AVOID,D,Wisconsin,1050.0,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Wisconsin,Notre Dame,total,total_over,AVOID,D,under,46.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Louisville,Ole Miss,spread,model_gap_early,AVOID,D,Ole Miss,-6.5,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Louisville,Ole Miss,moneyline,model_gap_early,AVOID,D,Ole Miss,-270.0,consensus,2026-09-05T08:25:34.766161+00:00,win,2026-09-07T14:17:02.556150+00:00
+2026,1,Louisville,Ole Miss,total,total_over,AVOID,D,under,54.8,consensus,2026-09-05T08:25:34.766161+00:00,loss,2026-09-07T14:17:02.556150+00:00
 2026,1,SMU,Florida State,spread,model_gap_early,AVOID,D,Florida State,3.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,SMU,Florida State,moneyline,model_gap_early,AVOID,D,Florida State,137.0,consensus,2026-09-05T08:25:34.766161+00:00,,
 2026,1,SMU,Florida State,total,total_over,AVOID,D,under,53.2,consensus,2026-09-05T08:25:34.766161+00:00,,
@@ -154,12 +154,12 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Western Kentucky,Nevada,total,total_model,AVOID,D,under,51.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,UCLA,California,moneyline,,PASS,B,California,112.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,UCLA,California,total,total_model,AVOID,D,over,53.5,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-06T12:10:31.867610+00:00
-2026,1,Washington State,Washington,moneyline,,PASS,C,Washington State,1100.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Washington State,Washington,total,total_model,AVOID,D,under,51.2,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Wisconsin,Notre Dame,moneyline,,PASS,D,Wisconsin,1050.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Wisconsin,Notre Dame,total,total_model,AVOID,D,under,46.5,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Louisville,Ole Miss,moneyline,,PASS,C,Ole Miss,-270.0,consensus,2026-09-05T12:45:03.583359+00:00,,
-2026,1,Louisville,Ole Miss,total,total_model,AVOID,D,under,54.8,consensus,2026-09-05T12:45:03.583359+00:00,,
+2026,1,Washington State,Washington,moneyline,,PASS,C,Washington State,1100.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Washington State,Washington,total,total_model,AVOID,D,under,51.2,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-07T14:17:02.556150+00:00
+2026,1,Wisconsin,Notre Dame,moneyline,,PASS,D,Wisconsin,1050.0,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Wisconsin,Notre Dame,total,total_model,AVOID,D,under,46.5,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Louisville,Ole Miss,moneyline,,PASS,C,Ole Miss,-270.0,consensus,2026-09-05T12:45:03.583359+00:00,win,2026-09-07T14:17:02.556150+00:00
+2026,1,Louisville,Ole Miss,total,total_model,AVOID,D,under,54.8,consensus,2026-09-05T12:45:03.583359+00:00,loss,2026-09-07T14:17:02.556150+00:00
 2026,1,SMU,Florida State,moneyline,,PASS,D,Florida State,137.0,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,SMU,Florida State,total,total_model,AVOID,D,under,53.2,consensus,2026-09-05T12:45:03.583359+00:00,,
 2026,1,Boston College,Cincinnati,moneyline,moneyline_dog,PASS,D,Boston College,222.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-05T23:51:58.889551+00:00
@@ -179,8 +179,8 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Central Michigan,New Mexico,moneyline,moneyline_dog,PASS,C,Central Michigan,370.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,UCLA,California,moneyline,moneyline_dog,PASS,B,California,112.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T12:10:31.867610+00:00
 2026,1,Western Kentucky,Nevada,moneyline,moneyline_fav,AVOID,C,Western Kentucky,-140.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-06T12:10:31.867610+00:00
-2026,1,Washington State,Washington,moneyline,moneyline_dog,PASS,C,Washington State,1100.0,consensus,2026-09-05T16:43:39.660333+00:00,,
-2026,1,Wisconsin,Notre Dame,moneyline,moneyline_dog,PASS,D,Wisconsin,925.0,consensus,2026-09-05T16:43:39.660333+00:00,,
-2026,1,Louisville,Ole Miss,moneyline,moneyline_fav,AVOID,C,Ole Miss,-270.0,consensus,2026-09-05T16:43:39.660333+00:00,,
+2026,1,Washington State,Washington,moneyline,moneyline_dog,PASS,C,Washington State,1100.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Wisconsin,Notre Dame,moneyline,moneyline_dog,PASS,D,Wisconsin,925.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-07T14:17:02.556150+00:00
+2026,1,Louisville,Ole Miss,moneyline,moneyline_fav,AVOID,C,Ole Miss,-270.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-07T14:17:02.556150+00:00
 2026,1,SMU,Florida State,moneyline,moneyline_dog,PASS,D,Florida State,137.0,consensus,2026-09-05T16:43:39.660333+00:00,,
-2026,1,Wisconsin,Notre Dame,moneyline,moneyline_fav,AVOID,C,Notre Dame,-1975.0,consensus,2026-09-05T23:51:58.889551+00:00,,
+2026,1,Wisconsin,Notre Dame,moneyline,moneyline_fav,AVOID,C,Notre Dame,-1975.0,consensus,2026-09-05T23:51:58.889551+00:00,win,2026-09-07T14:17:02.556150+00:00
