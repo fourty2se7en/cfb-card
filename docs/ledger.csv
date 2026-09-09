@@ -49,3 +49,4 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,1,Washington State,Washington,14.4,24.0,14.0,0.4,10.0,model
 2026,1,Louisville,Ole Miss,8.8,6.5,3.0,5.8,3.5,market
 2026,1,Wisconsin,Notre Dame,23.9,21.0,28.0,4.1,7.0,model
+2026,1,SMU,Florida State,0.4,-3.0,-3.0,3.4,0.0,market
