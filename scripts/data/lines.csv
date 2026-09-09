@@ -252,10 +252,10 @@ id,season,seasonType,week,startDate,homeTeamId,homeTeam,homeConference,homeClass
 401858432,2026,regular,1,2026-09-05T16:30:00.000Z,194,Ohio State,Big Ten,fbs,56.0,2050,Ball State,Mid-American,fbs,3.0,"[{'provider': 'Draft Kings', 'spread': -50.5, 'formattedSpread': 'Ohio State -50.5', 'spreadOpen': None, 'overUnder': 55.5, 'overUnderOpen': None, 'homeMoneyline': None, 'awayMoneyline': None}, {'provider': 'DraftKings', 'spread': -49.5, 'formattedSpread': 'Ohio State -49.5', 'spreadOpen': -49.5, 'overUnder': 55.5, 'overUnderOpen': None, 'homeMoneyline': None, 'awayMoneyline': None}, {'provider': 'Bovada', 'spread': -51, 'formattedSpread': 'Ohio State -51.0', 'spreadOpen': -50.5, 'overUnder': 56.5, 'overUnderOpen': 56.5, 'homeMoneyline': None, 'awayMoneyline': None}]"
 401858429,2026,regular,1,2026-09-05T00:00:00.000Z,127,Michigan State,Big Ten,fbs,30.0,2649,Toledo,Mid-American,fbs,20.0,"[{'provider': 'Draft Kings', 'spread': -10, 'formattedSpread': 'Michigan State -10', 'spreadOpen': None, 'overUnder': 48.5, 'overUnderOpen': None, 'homeMoneyline': None, 'awayMoneyline': None}, {'provider': 'Bovada', 'spread': -10, 'formattedSpread': 'Michigan State -10.0', 'spreadOpen': -10.5, 'overUnder': 48.5, 'overUnderOpen': 49.5, 'homeMoneyline': -410, 'awayMoneyline': 305}, {'provider': 'DraftKings', 'spread': -10, 'formattedSpread': 'Michigan State -10', 'spreadOpen': -10.5, 'overUnder': 48.5, 'overUnderOpen': None, 'homeMoneyline': -410, 'awayMoneyline': 320}]"
 401858445,2026,regular,2,2026-09-13T03:00:00.000Z,30,USC,Big Ten,fbs,,309,Louisiana,Sun Belt,fbs,,"[{'provider': 'DraftKings', 'spread': -30.5, 'formattedSpread': 'USC -30.5', 'spreadOpen': -28.5, 'overUnder': 59.5, 'overUnderOpen': 63.5, 'homeMoneyline': -10000, 'awayMoneyline': 3000}, {'provider': 'Bovada', 'spread': -31, 'formattedSpread': 'USC -31.0', 'spreadOpen': -31, 'overUnder': 59.5, 'overUnderOpen': 60, 'homeMoneyline': None, 'awayMoneyline': None}]"
-401858440,2026,regular,2,2026-09-12T19:30:00.000Z,127,Michigan State,Big Ten,fbs,,2199,Eastern Michigan,Mid-American,fbs,,"[{'provider': 'DraftKings', 'spread': -17.5, 'formattedSpread': 'Michigan State -17.5', 'spreadOpen': -15.5, 'overUnder': 49.5, 'overUnderOpen': 51.5, 'homeMoneyline': -850, 'awayMoneyline': 575}, {'provider': 'Bovada', 'spread': -17.5, 'formattedSpread': 'Michigan State -17.5', 'spreadOpen': -17, 'overUnder': 50, 'overUnderOpen': 51, 'homeMoneyline': -1000, 'awayMoneyline': 625}]"
 401871045,2026,regular,2,2026-09-12T23:00:00.000Z,276,Marshall,Sun Belt,fbs,,2393,Middle Tennessee,Conference USA,fbs,,"[{'provider': 'DraftKings', 'spread': -13.5, 'formattedSpread': 'Marshall -13.5', 'spreadOpen': -17.5, 'overUnder': 57.5, 'overUnderOpen': 57.5, 'homeMoneyline': -550, 'awayMoneyline': 410}, {'provider': 'Bovada', 'spread': -13.5, 'formattedSpread': 'Marshall -13.5', 'spreadOpen': -14, 'overUnder': 57, 'overUnderOpen': 57.5, 'homeMoneyline': -750, 'awayMoneyline': 500}]"
 401856783,2026,regular,2,2026-09-12T23:30:00.000Z,204,Oregon State,Pac-12,fbs,,2641,Texas Tech,Big 12,fbs,,"[{'provider': 'DraftKings', 'spread': 26.5, 'formattedSpread': 'Texas Tech -26.5', 'spreadOpen': 27.5, 'overUnder': 53.5, 'overUnderOpen': 49.5, 'homeMoneyline': 1700, 'awayMoneyline': -4500}, {'provider': 'Bovada', 'spread': 27, 'formattedSpread': 'Texas Tech -27.0', 'spreadOpen': 26.5, 'overUnder': 54, 'overUnderOpen': 51.5, 'homeMoneyline': 1300, 'awayMoneyline': -5000}]"
 401856781,2026,regular,2,2026-09-12T16:00:00.000Z,2306,Kansas State,Big 12,fbs,,265,Washington State,Pac-12,fbs,,"[{'provider': 'DraftKings', 'spread': -19.5, 'formattedSpread': 'Kansas State -19.5', 'spreadOpen': -16.5, 'overUnder': 48.5, 'overUnderOpen': 51.5, 'homeMoneyline': -1100, 'awayMoneyline': 700}, {'provider': 'Bovada', 'spread': -19, 'formattedSpread': 'Kansas State -19.0', 'spreadOpen': -18.5, 'overUnder': 49, 'overUnderOpen': 49, 'homeMoneyline': -1100, 'awayMoneyline': 650}]"
+401858440,2026,regular,2,2026-09-12T19:30:00.000Z,127,Michigan State,Big Ten,fbs,,2199,Eastern Michigan,Mid-American,fbs,,"[{'provider': 'DraftKings', 'spread': -17.5, 'formattedSpread': 'Michigan State -17.5', 'spreadOpen': -15.5, 'overUnder': 49.5, 'overUnderOpen': 51.5, 'homeMoneyline': -900, 'awayMoneyline': 600}, {'provider': 'Bovada', 'spread': -17.5, 'formattedSpread': 'Michigan State -17.5', 'spreadOpen': -17, 'overUnder': 50, 'overUnderOpen': 51, 'homeMoneyline': -1000, 'awayMoneyline': 625}]"
 401866418,2026,regular,2,2026-09-12T22:00:00.000Z,195,Ohio,Mid-American,fbs,,55,Jacksonville State,Conference USA,fbs,,"[{'provider': 'DraftKings', 'spread': -3, 'formattedSpread': 'Ohio -3', 'spreadOpen': -2.5, 'overUnder': 50.5, 'overUnderOpen': 48.5, 'homeMoneyline': -135, 'awayMoneyline': 114}, {'provider': 'Bovada', 'spread': -2.5, 'formattedSpread': 'Ohio -2.5', 'spreadOpen': -2, 'overUnder': 50.5, 'overUnderOpen': 51.5, 'homeMoneyline': -125, 'awayMoneyline': 105}]"
 401858441,2026,regular,2,2026-09-12T23:00:00.000Z,158,Nebraska,Big Ten,fbs,,189,Bowling Green,Mid-American,fbs,,"[{'provider': 'DraftKings', 'spread': -28.5, 'formattedSpread': 'Nebraska -28.5', 'spreadOpen': -25.5, 'overUnder': 51.5, 'overUnderOpen': 48.5, 'homeMoneyline': -8000, 'awayMoneyline': 2200}, {'provider': 'Bovada', 'spread': -30, 'formattedSpread': 'Nebraska -30.0', 'spreadOpen': -29, 'overUnder': 52, 'overUnderOpen': 52, 'homeMoneyline': None, 'awayMoneyline': None}]"
 401864578,2026,regular,2,2026-09-13T03:59:00.000Z,62,Hawai'i,Mountain West,fbs,,166,New Mexico State,Conference USA,fbs,,"[{'provider': 'DraftKings', 'spread': -7, 'formattedSpread': ""Hawai'i -7"", 'spreadOpen': -11.5, 'overUnder': 49.5, 'overUnderOpen': 51.5, 'homeMoneyline': -270, 'awayMoneyline': 220}, {'provider': 'Bovada', 'spread': -7, 'formattedSpread': ""Hawai'i -7.0"", 'spreadOpen': -10, 'overUnder': 50, 'overUnderOpen': 50.5, 'homeMoneyline': -410, 'awayMoneyline': 305}]"
@@ -349,8 +349,8 @@ id,season,seasonType,week,startDate,homeTeamId,homeTeam,homeConference,homeClass
 401858451,2026,regular,3,2026-09-19T16:00:00.000Z,135,Minnesota,Big Ten,fbs,,2006,Akron,Mid-American,fbs,,[]
 401871092,2026,regular,8,2026-10-20T23:30:00.000Z,276,Marshall,Sun Belt,fbs,,6,South Alabama,Sun Belt,fbs,,[]
 401860914,2026,regular,11,2026-11-14T23:00:00.000Z,68,Boise State,Pac-12,fbs,,204,Oregon State,Pac-12,fbs,,[]
-401856793,2026,regular,3,2026-09-20T02:30:00.000Z,12,Arizona,Big 12,fbs,,2459,Northern Illinois,Mountain West,fbs,,[]
 401856724,2026,regular,7,2026-10-17T04:00:00.000Z,251,Texas,SEC,fbs,,57,Florida,SEC,fbs,,[]
+401856793,2026,regular,3,2026-09-20T02:30:00.000Z,12,Arizona,Big 12,fbs,,2459,Northern Illinois,Mountain West,fbs,,[]
 401856697,2026,regular,4,2026-09-27T00:00:00.000Z,8,Arkansas,SEC,fbs,,202,Tulsa,American Athletic,fbs,,[]
 401862841,2026,regular,13,2026-11-28T05:00:00.000Z,242,Rice,American Athletic,fbs,,349,Army,American Athletic,fbs,,[]
 401858447,2026,regular,2,2026-09-12T23:15:00.000Z,275,Wisconsin,Big Ten,fbs,,2710,Western Illinois,OVC,fcs,,[]
@@ -527,8 +527,8 @@ id,season,seasonType,week,startDate,homeTeamId,homeTeam,homeConference,homeClass
 401858287,2026,regular,10,2026-11-07T05:00:00.000Z,59,Georgia Tech,ACC,fbs,,97,Louisville,ACC,fbs,,[]
 401856714,2026,regular,6,2026-10-10T04:00:00.000Z,57,Florida,SEC,fbs,,2579,South Carolina,SEC,fbs,,[]
 401858456,2026,regular,3,2026-09-19T16:00:00.000Z,213,Penn State,Big Ten,fbs,,2084,Buffalo,Mid-American,fbs,,[]
-401856838,2026,regular,8,2026-10-24T04:00:00.000Z,12,Arizona,Big 12,fbs,,66,Iowa State,Big 12,fbs,,[]
 401869927,2026,regular,10,2026-11-07T05:00:00.000Z,2026,App State,Sun Belt,fbs,,2247,Georgia State,Sun Belt,fbs,,[]
+401856838,2026,regular,8,2026-10-24T04:00:00.000Z,12,Arizona,Big 12,fbs,,66,Iowa State,Big 12,fbs,,[]
 401856801,2026,regular,3,2026-09-19T19:30:00.000Z,254,Utah,Big 12,fbs,,328,Utah State,Pac-12,fbs,,[]
 401858458,2026,regular,3,2026-09-20T03:00:00.000Z,26,UCLA,Big Ten,fbs,,2509,Purdue,Big Ten,fbs,,[]
 401866450,2026,regular,8,2026-10-24T04:00:00.000Z,2649,Toledo,Mid-American,fbs,,2711,Western Michigan,Mid-American,fbs,,[]
@@ -580,15 +580,15 @@ id,season,seasonType,week,startDate,homeTeamId,homeTeam,homeConference,homeClass
 401864512,2026,regular,4,2026-09-26T04:00:00.000Z,2006,Akron,Mid-American,fbs,,2439,UNLV,Mountain West,fbs,,[]
 401856812,2026,regular,3,2026-09-19T16:00:00.000Z,2305,Kansas,Big 12,fbs,,9,Arizona State,Big 12,fbs,,[]
 401864510,2026,regular,4,2026-09-26T19:00:00.000Z,2751,Wyoming,Mountain West,fbs,,62,Hawai'i,Mountain West,fbs,,[]
-401856832,2026,regular,7,2026-10-17T04:00:00.000Z,239,Baylor,Big 12,fbs,,2628,TCU,Big 12,fbs,,[]
 401860906,2026,regular,8,2026-10-24T23:30:00.000Z,326,Texas State,Pac-12,fbs,,328,Utah State,Pac-12,fbs,,[]
+401856832,2026,regular,7,2026-10-17T04:00:00.000Z,239,Baylor,Big 12,fbs,,2628,TCU,Big 12,fbs,,[]
 401858459,2026,regular,3,2026-09-19T23:15:00.000Z,264,Washington,Big Ten,fbs,,331,Eastern Washington,Big Sky,fcs,,[]
 401860921,2026,regular,5,2026-10-04T01:30:00.000Z,265,Washington State,Pac-12,fbs,,278,Fresno State,Pac-12,fbs,,[]
 401860899,2026,regular,5,2026-10-03T22:00:00.000Z,36,Colorado State,Pac-12,fbs,,204,Oregon State,Pac-12,fbs,,[]
 401869961,2026,regular,4,2026-09-26T04:00:00.000Z,295,Old Dominion,Sun Belt,fbs,,256,James Madison,Sun Belt,fbs,,[]
 401858253,2026,regular,5,2026-10-03T04:00:00.000Z,52,Florida State,ACC,fbs,,258,Virginia,ACC,fbs,,[]
-401871082,2026,regular,13,2026-11-28T19:00:00.000Z,2229,Florida International,Conference USA,fbs,,2534,Sam Houston,Conference USA,fbs,,[]
 401862823,2026,regular,10,2026-11-08T00:30:00.000Z,349,Army,American Athletic,fbs,,2005,Air Force,Mountain West,fbs,,[]
+401871082,2026,regular,13,2026-11-28T19:00:00.000Z,2229,Florida International,Conference USA,fbs,,2534,Sam Houston,Conference USA,fbs,,[]
 401866448,2026,regular,8,2026-10-24T04:00:00.000Z,2084,Buffalo,Mid-American,fbs,,189,Bowling Green,Mid-American,fbs,,[]
 401856860,2026,regular,11,2026-11-14T03:15:00.000Z,38,Colorado,Big 12,fbs,,248,Houston,Big 12,fbs,,[]
 401856884,2026,regular,11,2026-11-14T05:00:00.000Z,96,Kentucky,SEC,fbs,,57,Florida,SEC,fbs,,[]
@@ -602,8 +602,8 @@ id,season,seasonType,week,startDate,homeTeamId,homeTeam,homeConference,homeClass
 401856722,2026,regular,7,2026-10-17T04:00:00.000Z,201,Oklahoma,SEC,fbs,,96,Kentucky,SEC,fbs,,[]
 401856795,2026,regular,3,2026-09-19T23:30:00.000Z,36,Colorado State,Pac-12,fbs,,252,BYU,Big 12,fbs,,[]
 401856692,2026,regular,3,2026-09-19T23:45:00.000Z,2633,Tennessee,SEC,fbs,,338,Kennesaw State,Conference USA,fbs,,[]
-401860886,2026,regular,3,2026-09-20T03:00:00.000Z,204,Oregon State,Pac-12,fbs,,149,Montana,Big Sky,fcs,,[]
 401856856,2026,regular,10,2026-11-07T05:00:00.000Z,2641,Texas Tech,Big 12,fbs,,277,West Virginia,Big 12,fbs,,[]
+401860886,2026,regular,3,2026-09-20T03:00:00.000Z,204,Oregon State,Pac-12,fbs,,149,Montana,Big Sky,fcs,,[]
 401860892,2026,regular,4,2026-09-26T22:00:00.000Z,326,Texas State,Pac-12,fbs,,2916,Incarnate Word,Southland,fcs,,[]
 401858312,2026,regular,13,2026-11-28T05:00:00.000Z,154,Wake Forest,ACC,fbs,,150,Duke,ACC,fbs,,[]
 401858521,2026,regular,11,2026-11-14T05:00:00.000Z,127,Michigan State,Big Ten,fbs,,264,Washington,Big Ten,fbs,,[]
@@ -741,8 +741,8 @@ id,season,seasonType,week,startDate,homeTeamId,homeTeam,homeConference,homeClass
 401860915,2026,regular,11,2026-11-15T02:30:00.000Z,21,San Diego State,Pac-12,fbs,,328,Utah State,Pac-12,fbs,,[]
 401864509,2026,regular,4,2026-09-26T04:00:00.000Z,2440,Nevada,Mountain West,fbs,,2005,Air Force,Mountain West,fbs,,[]
 401858260,2026,regular,6,2026-10-10T04:00:00.000Z,152,NC State,ACC,fbs,,154,Wake Forest,ACC,fbs,,[]
-401869943,2026,regular,6,2026-10-10T04:00:00.000Z,276,Marshall,Sun Belt,fbs,,324,Coastal Carolina,Sun Belt,fbs,,[]
 401866476,2026,regular,8,2026-10-24T04:00:00.000Z,2117,Central Michigan,Mid-American,fbs,,193,Miami (OH),Mid-American,fbs,,[]
+401869943,2026,regular,6,2026-10-10T04:00:00.000Z,276,Marshall,Sun Belt,fbs,,324,Coastal Carolina,Sun Belt,fbs,,[]
 401858501,2026,regular,9,2026-10-31T04:00:00.000Z,84,Indiana,Big Ten,fbs,,135,Minnesota,Big Ten,fbs,,[]
 401858538,2026,regular,13,2026-11-28T05:00:00.000Z,84,Indiana,Big Ten,fbs,,2509,Purdue,Big Ten,fbs,,[]
 401858464,2026,regular,4,2026-09-26T04:00:00.000Z,127,Michigan State,Big Ten,fbs,,158,Nebraska,Big Ten,fbs,,[]
@@ -879,8 +879,8 @@ id,season,seasonType,week,startDate,homeTeamId,homeTeam,homeConference,homeClass
 401860902,2026,regular,6,2026-10-10T22:00:00.000Z,204,Oregon State,Pac-12,fbs,,21,San Diego State,Pac-12,fbs,,[]
 401856695,2026,regular,3,2026-09-19T16:45:00.000Z,238,Vanderbilt,SEC,fbs,,152,NC State,ACC,fbs,,[]
 401858255,2026,regular,6,2026-10-10T04:00:00.000Z,59,Georgia Tech,ACC,fbs,,150,Duke,ACC,fbs,,[]
-401858240,2026,regular,4,2026-09-27T02:30:00.000Z,24,Stanford,ACC,fbs,,59,Georgia Tech,ACC,fbs,,[]
 401862786,2026,regular,5,2026-10-02T01:00:00.000Z,202,Tulsa,American Athletic,fbs,,249,North Texas,American Athletic,fbs,,[]
+401858240,2026,regular,4,2026-09-27T02:30:00.000Z,24,Stanford,ACC,fbs,,59,Georgia Tech,ACC,fbs,,[]
 401860905,2026,regular,8,2026-10-24T22:30:00.000Z,36,Colorado State,Pac-12,fbs,,21,San Diego State,Pac-12,fbs,,[]
 401860900,2026,regular,5,2026-10-04T02:30:00.000Z,21,San Diego State,Pac-12,fbs,,326,Texas State,Pac-12,fbs,,[]
 401858525,2026,regular,11,2026-11-14T05:00:00.000Z,164,Rutgers,Big Ten,fbs,,158,Nebraska,Big Ten,fbs,,[]
