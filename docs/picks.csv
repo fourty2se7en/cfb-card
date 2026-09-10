@@ -327,3 +327,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,2,New Mexico State,Hawai'i,total,total_model,AVOID,D,over,49.5,consensus,2026-09-09T05:31:18.146468+00:00,,
 2026,2,New Mexico State,Hawai'i,price,price_gap,LEAN,C,Hawai'i,-7.0,Bovada,2026-09-09T05:31:18.146468+00:00,,
 2026,2,South Alabama,Tulane,price,price_gap,LEAN,D,Tulane,-8.5,Bovada,2026-09-09T06:24:01.583983+00:00,,
+2026,2,Texas Tech,Oregon State,moneyline,moneyline_fav,AVOID,C,Texas Tech,-3200.0,consensus,2026-09-10T18:36:25.096733+00:00,,
