@@ -330,3 +330,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,2,Texas Tech,Oregon State,moneyline,moneyline_fav,AVOID,C,Texas Tech,-3200.0,consensus,2026-09-10T18:36:25.096733+00:00,,
 2026,2,Bowling Green,Nebraska,moneyline,moneyline_dog,PASS,D,Bowling Green,1800.0,consensus,2026-09-11T12:51:50.546627+00:00,,
 2026,2,App State,East Carolina,moneyline,moneyline_fav,AVOID,C,East Carolina,-250.0,consensus,2026-09-11T18:42:12.149862+00:00,,
+2026,2,Alabama,Kentucky,price,price_gap,LEAN,D,Alabama,-8.5,Bovada,2026-09-12T17:47:29.279932+00:00,,
