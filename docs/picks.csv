@@ -184,12 +184,12 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,1,Louisville,Ole Miss,moneyline,moneyline_fav,AVOID,C,Ole Miss,-270.0,consensus,2026-09-05T16:43:39.660333+00:00,win,2026-09-07T14:17:02.556150+00:00
 2026,1,SMU,Florida State,moneyline,moneyline_dog,PASS,D,Florida State,137.0,consensus,2026-09-05T16:43:39.660333+00:00,loss,2026-09-09T05:31:18.146468+00:00
 2026,1,Wisconsin,Notre Dame,moneyline,moneyline_fav,AVOID,C,Notre Dame,-1975.0,consensus,2026-09-05T23:51:58.889551+00:00,win,2026-09-07T14:17:02.556150+00:00
-2026,2,Rutgers,Boston College,spread,model_gap_early,AVOID,D,Boston College,-3.0,consensus,2026-09-09T05:31:18.146468+00:00,,
-2026,2,Rutgers,Boston College,moneyline,moneyline_fav,AVOID,C,Boston College,-155.0,consensus,2026-09-09T05:31:18.146468+00:00,,
-2026,2,Rutgers,Boston College,total,total_model,AVOID,D,over,54.5,consensus,2026-09-09T05:31:18.146468+00:00,,
-2026,2,Missouri,Kansas,spread,model_gap_early,AVOID,D,Kansas,5.5,consensus,2026-09-09T05:31:18.146468+00:00,,
-2026,2,Missouri,Kansas,moneyline,moneyline_dog,PASS,D,Kansas,180.0,consensus,2026-09-09T05:31:18.146468+00:00,,
-2026,2,Missouri,Kansas,total,total_model,AVOID,D,over,50.5,consensus,2026-09-09T05:31:18.146468+00:00,,
+2026,2,Rutgers,Boston College,spread,model_gap_early,AVOID,D,Boston College,-3.0,consensus,2026-09-09T05:31:18.146468+00:00,win,2026-09-12T12:12:02.943343+00:00
+2026,2,Rutgers,Boston College,moneyline,moneyline_fav,AVOID,C,Boston College,-155.0,consensus,2026-09-09T05:31:18.146468+00:00,win,2026-09-12T12:12:02.943343+00:00
+2026,2,Rutgers,Boston College,total,total_model,AVOID,D,over,54.5,consensus,2026-09-09T05:31:18.146468+00:00,loss,2026-09-12T12:12:02.943343+00:00
+2026,2,Missouri,Kansas,spread,model_gap_early,AVOID,D,Kansas,5.5,consensus,2026-09-09T05:31:18.146468+00:00,loss,2026-09-12T12:12:02.943343+00:00
+2026,2,Missouri,Kansas,moneyline,moneyline_dog,PASS,D,Kansas,180.0,consensus,2026-09-09T05:31:18.146468+00:00,loss,2026-09-12T12:12:02.943343+00:00
+2026,2,Missouri,Kansas,total,total_model,AVOID,D,over,50.5,consensus,2026-09-09T05:31:18.146468+00:00,win,2026-09-12T12:12:02.943343+00:00
 2026,2,Penn State,Temple,spread,model_gap_early,AVOID,D,Temple,24.0,consensus,2026-09-09T05:31:18.146468+00:00,,
 2026,2,Penn State,Temple,moneyline,moneyline_dog,PASS,D,Temple,1278.0,consensus,2026-09-09T05:31:18.146468+00:00,,
 2026,2,Penn State,Temple,total,total_model,AVOID,D,over,49.5,consensus,2026-09-09T05:31:18.146468+00:00,,
