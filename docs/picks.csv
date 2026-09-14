@@ -491,3 +491,6 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,3,Georgia Southern,Jacksonville State,spread,model_gap_early,AVOID,D,Jacksonville State,-3.0,consensus,2026-09-13T18:17:14.898271+00:00,,
 2026,3,Georgia Southern,Jacksonville State,moneyline,moneyline_fav,AVOID,C,Jacksonville State,-148.0,consensus,2026-09-13T18:17:14.898271+00:00,,
 2026,3,Georgia Southern,Jacksonville State,total,total_model,AVOID,D,under,53.5,consensus,2026-09-13T18:17:14.898271+00:00,,
+2026,3,Akron,Minnesota,moneyline,moneyline_dog,PASS,D,Akron,1400.0,consensus,2026-09-14T15:03:06.130095+00:00,,
+2026,3,Arizona State,Kansas,moneyline,moneyline_dog,PASS,D,Kansas,180.0,consensus,2026-09-14T15:03:06.130095+00:00,,
+2026,3,James Madison,San Diego State,moneyline,moneyline_dog,PASS,C,James Madison,108.0,consensus,2026-09-14T15:03:06.130095+00:00,,
