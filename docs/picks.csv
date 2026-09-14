@@ -494,3 +494,5 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,3,Akron,Minnesota,moneyline,moneyline_dog,PASS,D,Akron,1400.0,consensus,2026-09-14T15:03:06.130095+00:00,,
 2026,3,Arizona State,Kansas,moneyline,moneyline_dog,PASS,D,Kansas,180.0,consensus,2026-09-14T15:03:06.130095+00:00,,
 2026,3,James Madison,San Diego State,moneyline,moneyline_dog,PASS,C,James Madison,108.0,consensus,2026-09-14T15:03:06.130095+00:00,,
+2026,3,Utah State,Utah,moneyline,moneyline_fav,AVOID,C,Utah,-5000.0,consensus,2026-09-14T19:54:19.059339+00:00,,
+2026,3,Troy,Missouri,moneyline,moneyline_fav,AVOID,C,Missouri,-5000.0,consensus,2026-09-14T19:54:19.059339+00:00,,
