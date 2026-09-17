@@ -499,3 +499,5 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,3,Purdue,UCLA,moneyline,moneyline_fav,AVOID,C,UCLA,-650.0,consensus,2026-09-15T19:08:37.907269+00:00,,
 2026,3,Michigan State,Notre Dame,moneyline,moneyline_fav,AVOID,C,Notre Dame,-5000.0,consensus,2026-09-16T18:59:42.588777+00:00,,
 2026,3,UTSA,Texas,moneyline,moneyline_dog,PASS,D,UTSA,2200.0,consensus,2026-09-16T18:59:42.588777+00:00,,
+2026,3,Utah State,Utah,moneyline,moneyline_dog,PASS,D,Utah State,2200.0,consensus,2026-09-17T19:08:50.542811+00:00,,
+2026,3,Troy,Missouri,moneyline,moneyline_dog,PASS,D,Troy,1750.0,consensus,2026-09-17T19:08:50.542811+00:00,,
