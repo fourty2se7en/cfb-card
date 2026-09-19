@@ -334,10 +334,10 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,3,Syracuse,Pittsburgh,spread,model_gap_early,AVOID,D,Pittsburgh,-10.5,consensus,2026-09-13T13:20:00.141366+00:00,win,2026-09-18T12:59:49.272082+00:00
 2026,3,Syracuse,Pittsburgh,moneyline,moneyline_fav,AVOID,C,Pittsburgh,-380.0,consensus,2026-09-13T13:20:00.141366+00:00,win,2026-09-18T12:59:49.272082+00:00
 2026,3,Syracuse,Pittsburgh,total,total_model,AVOID,D,under,53.5,consensus,2026-09-13T13:20:00.141366+00:00,win,2026-09-18T12:59:49.272082+00:00
-2026,3,Miami,Wake Forest,spread,model_gap_early,AVOID,D,Wake Forest,22.5,consensus,2026-09-13T13:20:00.141366+00:00,,
-2026,3,Miami,Wake Forest,moneyline,moneyline_dog,PASS,D,Wake Forest,1000.0,consensus,2026-09-13T13:20:00.141366+00:00,,
-2026,3,Miami,Wake Forest,total,total_model,AVOID,D,over,54.5,consensus,2026-09-13T13:20:00.141366+00:00,,
-2026,3,Houston,Texas Tech,spread,model_gap_early,AVOID,D,Texas Tech,-10.0,consensus,2026-09-13T13:20:00.141366+00:00,,
+2026,3,Miami,Wake Forest,spread,model_gap_early,AVOID,D,Wake Forest,22.5,consensus,2026-09-13T13:20:00.141366+00:00,win,2026-09-19T12:32:23.791331+00:00
+2026,3,Miami,Wake Forest,moneyline,moneyline_dog,PASS,D,Wake Forest,1000.0,consensus,2026-09-13T13:20:00.141366+00:00,loss,2026-09-19T12:32:23.791331+00:00
+2026,3,Miami,Wake Forest,total,total_model,AVOID,D,over,54.5,consensus,2026-09-13T13:20:00.141366+00:00,loss,2026-09-19T12:32:23.791331+00:00
+2026,3,Houston,Texas Tech,spread,model_gap_early,AVOID,D,Texas Tech,-10.0,consensus,2026-09-13T13:20:00.141366+00:00,loss,2026-09-19T12:32:23.791331+00:00
 2026,3,Arizona State,Kansas,spread,model_gap_early,AVOID,D,Arizona State,-5.5,consensus,2026-09-13T13:20:00.141366+00:00,,
 2026,3,Arizona State,Kansas,moneyline,moneyline_fav,AVOID,C,Arizona State,-205.0,consensus,2026-09-13T13:20:00.141366+00:00,,
 2026,3,Arizona State,Kansas,total,total_model,AVOID,D,under,56.5,consensus,2026-09-13T13:20:00.141366+00:00,,
@@ -381,8 +381,8 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,3,LSU,Ole Miss,total,total_model,AVOID,D,under,58.5,consensus,2026-09-13T13:20:00.141366+00:00,,
 2026,3,UTSA,Texas,spread,model_gap_early,AVOID,D,UTSA,29.5,consensus,2026-09-13T13:20:00.141366+00:00,,
 2026,3,UTSA,Texas,total,total_model,AVOID,D,under,57.5,consensus,2026-09-13T13:20:00.141366+00:00,,
-2026,3,Houston,Texas Tech,moneyline,moneyline_fav,AVOID,C,Texas Tech,-410.0,consensus,2026-09-13T17:19:00.106227+00:00,,
-2026,3,Houston,Texas Tech,total,total_model,AVOID,D,over,52.5,consensus,2026-09-13T17:19:00.106227+00:00,,
+2026,3,Houston,Texas Tech,moneyline,moneyline_fav,AVOID,C,Texas Tech,-410.0,consensus,2026-09-13T17:19:00.106227+00:00,win,2026-09-19T12:32:23.791331+00:00
+2026,3,Houston,Texas Tech,total,total_model,AVOID,D,over,52.5,consensus,2026-09-13T17:19:00.106227+00:00,win,2026-09-19T12:32:23.791331+00:00
 2026,3,Coastal Carolina,Delaware,spread,model_gap_early,AVOID,D,Delaware,-5.0,consensus,2026-09-13T17:19:00.106227+00:00,,
 2026,3,Coastal Carolina,Delaware,moneyline,moneyline_fav,AVOID,C,Delaware,-205.0,consensus,2026-09-13T17:19:00.106227+00:00,,
 2026,3,Coastal Carolina,Delaware,total,total_model,AVOID,D,over,58.0,consensus,2026-09-13T17:19:00.106227+00:00,,
@@ -502,3 +502,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,3,Utah State,Utah,moneyline,moneyline_dog,PASS,D,Utah State,2200.0,consensus,2026-09-17T19:08:50.542811+00:00,,
 2026,3,Troy,Missouri,moneyline,moneyline_dog,PASS,D,Troy,1750.0,consensus,2026-09-17T19:08:50.542811+00:00,,
 2026,3,West Virginia,Virginia,moneyline,moneyline_dog,PASS,D,West Virginia,305.0,consensus,2026-09-18T12:59:49.272082+00:00,,
+2026,3,Western Michigan,Rice,price,price_gap,LEAN,D,Western Michigan,-9.0,Bovada,2026-09-19T12:32:23.791331+00:00,,
