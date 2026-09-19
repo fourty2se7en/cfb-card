@@ -503,3 +503,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,3,Troy,Missouri,moneyline,moneyline_dog,PASS,D,Troy,1750.0,consensus,2026-09-17T19:08:50.542811+00:00,,
 2026,3,West Virginia,Virginia,moneyline,moneyline_dog,PASS,D,West Virginia,305.0,consensus,2026-09-18T12:59:49.272082+00:00,,
 2026,3,Western Michigan,Rice,price,price_gap,LEAN,D,Western Michigan,-9.0,Bovada,2026-09-19T12:32:23.791331+00:00,,
+2026,3,Arkansas State,TCU,moneyline,moneyline_fav,AVOID,C,TCU,-1262.0,consensus,2026-09-19T18:09:38.521302+00:00,,
