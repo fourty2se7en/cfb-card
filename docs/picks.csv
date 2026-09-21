@@ -678,3 +678,8 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,4,Air Force,Nevada,spread,model_gap_early,AVOID,D,Nevada,4.5,consensus,2026-09-20T17:19:15.600096+00:00,,
 2026,4,Air Force,Nevada,moneyline,moneyline_dog,PASS,B,Nevada,166.0,consensus,2026-09-20T17:19:15.600096+00:00,,
 2026,4,Air Force,Nevada,total,total_model,AVOID,D,over,49.0,consensus,2026-09-20T17:19:15.600096+00:00,,
+2026,4,Liberty,Coastal Carolina,moneyline,moneyline_dog,PASS,B,Coastal Carolina,120.0,consensus,2026-09-21T15:08:00.380594+00:00,,
+2026,4,Northwestern,Indiana,moneyline,moneyline_fav,AVOID,C,Indiana,-2700.0,consensus,2026-09-21T15:08:00.380594+00:00,,
+2026,4,Clemson,California,moneyline,moneyline_fav,AVOID,C,California,-10.0,consensus,2026-09-21T15:08:00.380594+00:00,,
+2026,4,Utah,Iowa State,price,price_gap,LEAN,D,Utah,-7.5,DraftKings,2026-09-21T15:08:00.380594+00:00,,
+2026,4,Middle Tennessee,Jacksonville State,price,price_gap,LEAN,D,Jacksonville State,-7.0,Bovada,2026-09-21T15:08:00.380594+00:00,,
