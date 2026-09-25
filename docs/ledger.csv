@@ -156,3 +156,4 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,3,Northern Illinois,Arizona,27.6,34.2,25.0,2.6,9.2,model
 2026,3,Fresno State,San José State,-6.3,-5.5,-16.0,9.7,10.5,model
 2026,3,Purdue,UCLA,15.4,14.0,14.0,1.4,0.0,market
+2026,4,Liberty,Coastal Carolina,-1.7,-2.5,-17.0,15.3,14.5,market
