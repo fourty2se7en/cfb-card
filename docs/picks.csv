@@ -685,3 +685,5 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,4,Middle Tennessee,Jacksonville State,price,price_gap,LEAN,D,Jacksonville State,-7.0,Bovada,2026-09-21T15:08:00.380594+00:00,,
 2026,4,Massachusetts,Sacramento State,moneyline,moneyline_fav,AVOID,C,Massachusetts,-200.0,consensus,2026-09-21T20:04:38.873590+00:00,,
 2026,4,Massachusetts,Sacramento State,price,price_gap,LEAN,D,Massachusetts,-3.5,Bovada,2026-09-23T13:41:06.364240+00:00,,
+2026,4,Clemson,California,price,price_gap,LEAN,D,California,2.5,Bovada,2026-09-25T19:23:14.276475+00:00,,
+2026,4,Texas A&M,LSU,price,price_gap,LEAN,D,LSU,-7.5,Bovada,2026-09-25T19:23:14.276475+00:00,,
