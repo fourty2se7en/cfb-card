@@ -157,3 +157,7 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,3,Fresno State,San José State,-6.3,-5.5,-16.0,9.7,10.5,model
 2026,3,Purdue,UCLA,15.4,14.0,14.0,1.4,0.0,market
 2026,4,Liberty,Coastal Carolina,-1.7,-2.5,-17.0,15.3,14.5,market
+2026,4,Army,Temple,4.7,-4.0,-4.0,8.7,0.0,market
+2026,4,Navy,UAB,4.6,-6.5,4.0,0.6,10.5,model
+2026,4,Northwestern,Indiana,18.2,20.5,6.0,12.2,14.5,model
+2026,4,Clemson,California,-2.1,-2.5,-14.0,11.9,11.5,market
