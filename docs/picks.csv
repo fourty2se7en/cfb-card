@@ -687,3 +687,6 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,4,Massachusetts,Sacramento State,price,price_gap,LEAN,D,Massachusetts,-3.5,Bovada,2026-09-23T13:41:06.364240+00:00,,
 2026,4,Clemson,California,price,price_gap,LEAN,D,California,2.5,Bovada,2026-09-25T19:23:14.276475+00:00,loss,2026-09-26T13:08:26.007374+00:00
 2026,4,Texas A&M,LSU,price,price_gap,LEAN,D,LSU,-7.5,Bovada,2026-09-25T19:23:14.276475+00:00,,
+2026,4,Oklahoma,Georgia,price,price_gap,LEAN,D,Georgia,-11.5,Bovada,2026-09-26T18:40:39.194657+00:00,,
+2026,4,UConn,Miami (OH),price,price_gap,LEAN,D,Miami (OH),-2.5,Bovada,2026-09-26T18:40:39.194657+00:00,,
+2026,4,Georgia Tech,Stanford,moneyline,moneyline_fav,AVOID,C,Georgia Tech,-152.0,consensus,2026-09-26T18:40:39.194657+00:00,,
