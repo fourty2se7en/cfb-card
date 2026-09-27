@@ -855,3 +855,5 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,5,San José State,Hawai'i,spread,model_gap_late,AVOID,D,Hawai'i,-3.5,consensus,2026-09-27T18:04:16.371866+00:00,,
 2026,5,San José State,Hawai'i,moneyline,moneyline_fav,AVOID,C,Hawai'i,-175.0,consensus,2026-09-27T18:04:16.371866+00:00,,
 2026,5,San José State,Hawai'i,total,total_model,AVOID,D,under,52.5,consensus,2026-09-27T18:04:16.371866+00:00,,
+2026,5,West Virginia,Iowa State,moneyline,moneyline_fav,AVOID,C,Iowa State,-122.0,consensus,2026-09-27T21:10:21.564600+00:00,,
+2026,5,Georgia Southern,Coastal Carolina,moneyline,moneyline_dog,PASS,D,Coastal Carolina,100.0,consensus,2026-09-27T21:10:21.564600+00:00,,
