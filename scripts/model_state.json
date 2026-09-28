@@ -1,0 +1,1121 @@
+{
+  "_readme": [
+    "Every number the college model agrees on lives here, once.",
+    "Before this file existed the tuning constants sat in build_ratings.py and were",
+    "copied by hand into cfb_backtest.py, the price and sanity thresholds were copied",
+    "into cfb_card.py, and the backtest's win-loss records were pasted into",
+    "cfb_picks.py. Four copies of the same numbers, kept in step by remembering to.",
+    "",
+    "'ratings', 'simulation' and 'thresholds' are hand-edited: change a value here and",
+    "every script picks it up on the next run. 'backtest' is written by cfb_backtest.py",
+    "when the manual cfb-backtest workflow runs, so re-running it updates the grades and",
+    "the card with nothing to paste.",
+    "",
+    "scripts/model_state.py reads this file and falls back to the same values compiled",
+    "in, so a broken or missing file cannot stop a card being built. When that happens",
+    "the card says so in Needs attention rather than quietly using stale numbers."
+  ],
+  "schema": 1,
+  "chrome_sha": "81dd760054c4df2d",
+  "ratings": {
+    "half_life": 6,
+    "carry": 0.55,
+    "ret_strength": 0.2,
+    "ret_fade": 1,
+    "margin_cap": 50,
+    "ridge_alpha": 1.5,
+    "min_games": 12,
+    "talent_pts": 8,
+    "talent_cap": 2.5,
+    "_notes": {
+      "half_life": "games. MEASURED, not chosen: a walk-forward sweep of half-life 3 to 12 and flat, crossed with carry 0.30 to 0.85, over 1,763 FBS games in weeks 3, 6, 9 and 12 of 2017-2025, put the lowest error at exactly this pair. MAE 12.98 against the market's 12.36; every other setting was worse",
+      "ret_strength": "roster turnover, MEASURED at 4.5a. How hard a team returning nothing is pulled toward its talent prior. 0.2 with a one-game fade is the only setting of twenty tested with evidence behind it, worth about +0.065 points a game across weeks 1 to 4 and +0.16 to +0.30 in week 1 itself. Small on purpose: stronger settings measured worse",
+      "ret_fade": "games of its own a team needs before the turnover shrink is gone. 1 means it applies in week 1 only, which is where the two confirmed cases sat",
+      "carry": "prior-season carryover, eroded by the transfer portal. Measured with half_life in the same sweep; 0.55 was the minimum. Raising it flattens the season, lowering it overreacts to two weeks of football",
+      "margin_cap": "blowout cap, high enough that FBS-over-FCS games still inform the division gap",
+      "ridge_alpha": "light. With a talent prior to shrink toward, heavy shrinkage only costs accuracy",
+      "min_games": "below this a team cannot be estimated; bucket it",
+      "talent_pts": "points per standard deviation of recruiting talent, fitted on real games",
+      "talent_cap": "clip the talent z-score; no prior should be worth 25 points on its own"
+    }
+  },
+  "simulation": {
+    "sims": 20000,
+    "line_sd": 7,
+    "margin_sd": 15,
+    "total_line_sd": 4.1,
+    "total_sd": 13.3,
+    "total_tilt": [
+      0.0541,
+      7.35,
+      10.16
+    ],
+    "p_floor": 0.4,
+    "p_ceil": 0.6,
+    "value_ceil": 8,
+    "win_points": 70,
+    "value_points": 30,
+    "_notes": {
+      "line_sd": "our uncertainty about the true spread. The NFL card uses 3.0",
+      "margin_sd": "margin around the true line at a total of 52. The NFL card uses 13.2",
+      "total_sd": "points around the true total. The NFL card uses 10.4",
+      "total_tilt": "|residual| = a * total + b, fitted on 762 FBS games, normalised at c",
+      "win_points": "the NFL scoring scale, carried over unchanged and verified against their worked example"
+    }
+  },
+  "thresholds": {
+    "break_even": 52.4,
+    "game_sd": 15.6,
+    "price_flag": 2.5,
+    "price_pick": 3,
+    "price_max": 14,
+    "ml_sane": 5000,
+    "spplus_flag": 10,
+    "ret_low_pct": 20.0,
+    "_notes": {
+      "break_even": "percent needed to profit at standard -110 pricing",
+      "game_sd": "margin scatter used to turn a spread into a win probability",
+      "price_flag": "a book's moneyline and spread disagreeing by this much is worth showing",
+      "price_pick": "and by this much becomes a pick",
+      "price_max": "the conversion is meaningless past this spread; scatter grows from 1 point to 5.5",
+      "ml_sane": "a real two-sided market never gets past about this, so anything beyond is a placeholder",
+      "spplus_flag": "our number against SP+ diverging by this much flags a game low information",
+      "ret_low_pct": "a team in the bottom this-many percent of returning production is flagged on its game card as thin. Stored as a percentile rather than a percentage so it keeps meaning unusually low as the file changes season to season. CHOSEN; 4.5b wants it tested against four past week 1 slates before it drives anything but a flag."
+    }
+  },
+  "totals": {
+    "alpha": 4,
+    "cap": 70,
+    "_notes": {
+      "alpha": "ridge shrinkage on the points model. The backtest refits the same model week by week, so it has to read this rather than keep its own copy",
+      "cap": "per-team points cap, so one 84-point blowout does not set a team's offensive rating"
+    }
+  },
+  "grading": {
+    "conf_a": 75,
+    "conf_b": 65,
+    "conf_c": 55,
+    "value_a": 2,
+    "value_b": 1,
+    "w_confidence": 0.6,
+    "w_value": 0.4,
+    "conf_floor": 40.0,
+    "_notes": {
+      "_what": "CHOSEN, not measured. Everything under backtest.calibration was fitted from real games; these were decided. Kept side by side so which is which is obvious.",
+      "conf_a": "calibrated probability, in percent, needed for an A on confidence",
+      "value_a": "points of calibrated probability above the price's break-even needed for an A on value",
+      "w_confidence": "how much the merged grade leans on confidence rather than value",
+      "conf_floor": "calibrated probability, in percent, below which a market cannot grade above D however good the price is. CHOSEN, and provisional: on the week 1 slate any value from 40 to 50 demotes the same seven moneylines, because the calls sit at 8-38% and then jump to 52%, so the number is not perched on a cliff edge. It is not yet measured. cfb_backtest.py should test whether the calibration holds in the tail and set this from evidence."
+    }
+  },
+  "backtest": {
+    "run_utc": "2026-09-09T05:44:42Z",
+    "window": "2017-2025, walk-forward, FBS vs FBS, real closing lines",
+    "record": {
+      "model_gap_early": [
+        756,
+        802
+      ],
+      "model_gap_late": [
+        2222,
+        2239
+      ],
+      "price_gap": [
+        115,
+        99
+      ],
+      "total_over": [
+        2971,
+        3094
+      ],
+      "total_model": [
+        3055,
+        3010
+      ],
+      "moneyline": [
+        1032,
+        1486
+      ],
+      "moneyline_fav": [
+        580,
+        260
+      ],
+      "moneyline_dog": [
+        452,
+        1226
+      ]
+    },
+    "record_notes": {
+      "model_gap_early": "our number vs the close, weeks 1-4",
+      "model_gap_late": "our number vs the close, weeks 5 on",
+      "price_gap": "a book's moneyline against its own spread, 3+ points",
+      "total_over": "the market total, taken over every game, no model input",
+      "total_model": "our total against the close, the model version",
+      "moneyline": "our calibrated winner against the price, walk-forward",
+      "moneyline_fav": "same, where we land on the favorite, walk-forward",
+      "moneyline_dog": "same, where we land on the underdog, walk-forward"
+    },
+    "headline": {
+      "model_gap_pct": 49.5,
+      "model_gap_games": 6019,
+      "market_mae": 12.43,
+      "model_mae": 13.06
+    },
+    "calibration": {
+      "edge_3_6_pct": 49.2,
+      "edge_3_6_games": 1848,
+      "edge_6_10_pct": 49.4,
+      "edge_6_10_games": 965,
+      "model_gap_early": {
+        "a": -0.001,
+        "k": -0.1221,
+        "se_a": 0.0508,
+        "se_k": 0.1345,
+        "n": 1558,
+        "k_clears_zero": false
+      },
+      "model_gap_late": {
+        "a": 0.0372,
+        "k": -0.2039,
+        "se_a": 0.0309,
+        "se_k": 0.1196,
+        "n": 4461,
+        "k_clears_zero": false
+      },
+      "outright": {
+        "a": -0.1239,
+        "k": 1.1277,
+        "se_a": 0.0198,
+        "se_k": 0.0302,
+        "n": 6019,
+        "k_clears_zero": true
+      },
+      "price_gap": {
+        "a": 0.0152,
+        "k": 0.1974,
+        "se_a": 0.2294,
+        "se_k": 0.7342,
+        "n": 355,
+        "k_clears_zero": false
+      },
+      "total_over": {
+        "a": -0.0254,
+        "k": 0.0,
+        "se_a": null,
+        "se_k": null,
+        "n": 6065,
+        "k_clears_zero": false,
+        "level_only": true
+      },
+      "total_model": {
+        "a": 0.0156,
+        "k": -0.0269,
+        "se_a": 0.0231,
+        "se_k": 0.08,
+        "n": 6065,
+        "k_clears_zero": false
+      }
+    },
+    "subgroups": {
+      "g5_vs_g5": {
+        "w": 570,
+        "l": 595,
+        "pct": 48.9,
+        "interval": [
+          46.1,
+          51.8
+        ],
+        "label": "both sides Group of 5, 3+ point gap"
+      },
+      "not_g5": {
+        "w": 939,
+        "l": 988,
+        "pct": 48.7,
+        "interval": [
+          46.5,
+          51.0
+        ],
+        "label": "at least one side P4, 3+ point gap"
+      },
+      "weeks_1_4": {
+        "w": 756,
+        "l": 802,
+        "pct": 48.5,
+        "interval": [
+          46.0,
+          51.0
+        ],
+        "label": "weeks 1 to 4"
+      },
+      "weeks_5_9": {
+        "w": 1073,
+        "l": 1099,
+        "pct": 49.4,
+        "interval": [
+          47.3,
+          51.5
+        ],
+        "label": "weeks 5 to 9"
+      },
+      "weeks_10_plus": {
+        "w": 1149,
+        "l": 1140,
+        "pct": 50.2,
+        "interval": [
+          48.1,
+          52.2
+        ],
+        "label": "weeks 10 and later"
+      },
+      "gap_0_3": {
+        "w": 1469,
+        "l": 1458,
+        "pct": 50.2,
+        "interval": [
+          48.4,
+          52.0
+        ],
+        "label": "gap 0 to 3 points"
+      },
+      "gap_3_6": {
+        "w": 910,
+        "l": 938,
+        "pct": 49.2,
+        "interval": [
+          47.0,
+          51.5
+        ],
+        "label": "gap 3 to 6 points"
+      },
+      "gap_6_10": {
+        "w": 477,
+        "l": 488,
+        "pct": 49.4,
+        "interval": [
+          46.3,
+          52.6
+        ],
+        "label": "gap 6 to 10 points"
+      },
+      "gap_10_99": {
+        "w": 122,
+        "l": 157,
+        "pct": 43.7,
+        "interval": [
+          38.0,
+          49.6
+        ],
+        "label": "gap 10 to 99 points"
+      },
+      "older_half": {
+        "w": 1272,
+        "l": 1320,
+        "pct": 49.1,
+        "interval": [
+          47.2,
+          51.0
+        ],
+        "label": "before 2021"
+      },
+      "newer_half": {
+        "w": 1706,
+        "l": 1721,
+        "pct": 49.8,
+        "interval": [
+          48.1,
+          51.5
+        ],
+        "label": "from 2021"
+      }
+    },
+    "returns": {
+      "moneyline": {
+        "n": 2518,
+        "roi": -4.05,
+        "se": 3.22,
+        "lo": -10.36,
+        "hi": 2.26,
+        "w": 1032,
+        "l": 1486
+      },
+      "moneyline_fav": {
+        "n": 840,
+        "roi": -5.53,
+        "se": 2.3,
+        "lo": -10.05,
+        "hi": -1.02,
+        "w": 580,
+        "l": 260
+      },
+      "moneyline_dog": {
+        "n": 1678,
+        "roi": -3.3,
+        "se": 4.69,
+        "lo": -12.5,
+        "hi": 5.9,
+        "w": 452,
+        "l": 1226
+      }
+    },
+    "conf_floor": {
+      "buckets": [
+        {
+          "lo": 0,
+          "hi": 35,
+          "n": 857,
+          "w": 151,
+          "l": 706,
+          "roi": -3.57,
+          "interval": [
+            -19.36,
+            12.22
+          ]
+        },
+        {
+          "lo": 35,
+          "hi": 40,
+          "n": 196,
+          "w": 54,
+          "l": 142,
+          "roi": -12.91,
+          "interval": [
+            -33.07,
+            7.24
+          ]
+        },
+        {
+          "lo": 40,
+          "hi": 45,
+          "n": 190,
+          "w": 70,
+          "l": 120,
+          "roi": 6.39,
+          "interval": [
+            -14.24,
+            27.03
+          ]
+        },
+        {
+          "lo": 45,
+          "hi": 50,
+          "n": 195,
+          "w": 85,
+          "l": 110,
+          "roi": 6.53,
+          "interval": [
+            -10.93,
+            23.99
+          ]
+        },
+        {
+          "lo": 50,
+          "hi": 100,
+          "n": 1080,
+          "w": 672,
+          "l": 408,
+          "roi": -6.56,
+          "interval": [
+            -11.36,
+            -1.76
+          ]
+        }
+      ],
+      "measured": null,
+      "basis": "moneyline bets, bucketed by calibrated probability, judged on return",
+      "note": "no bucket at the BOTTOM lost with its whole interval below zero, so there is no measured floor and the chosen one stands. The buckets that did lose outright were 50-100%, which a floor cannot reach"
+    },
+    "sensitivity": {
+      "2017": {
+        "w": 2978,
+        "l": 3041,
+        "n": 6019,
+        "pct": 49.5,
+        "interval": [
+          48.2,
+          50.7
+        ],
+        "verdict": "loses"
+      },
+      "2018": {
+        "w": 2633,
+        "l": 2680,
+        "n": 5313,
+        "pct": 49.6,
+        "interval": [
+          48.2,
+          50.9
+        ],
+        "verdict": "loses"
+      },
+      "2019": {
+        "w": 2288,
+        "l": 2323,
+        "n": 4611,
+        "pct": 49.6,
+        "interval": [
+          48.2,
+          51.1
+        ],
+        "verdict": "loses"
+      },
+      "2020": {
+        "w": 1946,
+        "l": 1962,
+        "n": 3908,
+        "pct": 49.8,
+        "interval": [
+          48.2,
+          51.4
+        ],
+        "verdict": "loses"
+      },
+      "2021": {
+        "w": 1706,
+        "l": 1721,
+        "n": 3427,
+        "pct": 49.8,
+        "interval": [
+          48.1,
+          51.5
+        ],
+        "verdict": "loses"
+      },
+      "2022": {
+        "w": 1368,
+        "l": 1356,
+        "n": 2724,
+        "pct": 50.2,
+        "interval": [
+          48.3,
+          52.1
+        ],
+        "verdict": "loses"
+      },
+      "2023": {
+        "w": 1034,
+        "l": 996,
+        "n": 2030,
+        "pct": 50.9,
+        "interval": [
+          48.8,
+          53.1
+        ],
+        "verdict": "no evidence"
+      },
+      "2024": {
+        "w": 702,
+        "l": 643,
+        "n": 1345,
+        "pct": 52.2,
+        "interval": [
+          49.5,
+          54.9
+        ],
+        "verdict": "no evidence"
+      },
+      "2025": {
+        "w": 357,
+        "l": 311,
+        "n": 668,
+        "pct": 53.4,
+        "interval": [
+          49.7,
+          57.2
+        ],
+        "verdict": "no evidence"
+      }
+    },
+    "sensitivity_summary": {
+      "stable": false,
+      "verdicts": [
+        "loses",
+        "no evidence"
+      ],
+      "drifted": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "full_interval": [
+        48.2,
+        50.7
+      ],
+      "full_pct": 49.5
+    },
+    "turnover": {
+      "grid": [
+        {
+          "strength": 0.0,
+          "fade": 1.0,
+          "n": 1587,
+          "gain": 0.0,
+          "se": 0.0,
+          "lo": 0.0,
+          "hi": 0.0,
+          "verdict": "no evidence",
+          "better": 0,
+          "worse": 0
+        },
+        {
+          "strength": 0.2,
+          "fade": 1.0,
+          "n": 1587,
+          "gain": 0.0176,
+          "se": 0.0085,
+          "lo": 0.0009,
+          "hi": 0.0343,
+          "verdict": "HELPS",
+          "better": 629,
+          "worse": 639
+        },
+        {
+          "strength": 0.4,
+          "fade": 1.0,
+          "n": 1587,
+          "gain": 0.0363,
+          "se": 0.0189,
+          "lo": -0.0008,
+          "hi": 0.0735,
+          "verdict": "no evidence",
+          "better": 622,
+          "worse": 646
+        },
+        {
+          "strength": 0.6,
+          "fade": 1.0,
+          "n": 1587,
+          "gain": 0.0551,
+          "se": 0.031,
+          "lo": -0.0057,
+          "hi": 0.1159,
+          "verdict": "no evidence",
+          "better": 619,
+          "worse": 649
+        },
+        {
+          "strength": 0.8,
+          "fade": 1.0,
+          "n": 1587,
+          "gain": 0.0651,
+          "se": 0.0438,
+          "lo": -0.0207,
+          "hi": 0.1509,
+          "verdict": "no evidence",
+          "better": 620,
+          "worse": 648
+        },
+        {
+          "strength": 1.0,
+          "fade": 1.0,
+          "n": 1587,
+          "gain": 0.0507,
+          "se": 0.0532,
+          "lo": -0.0536,
+          "hi": 0.1551,
+          "verdict": "no evidence",
+          "better": 618,
+          "worse": 650
+        },
+        {
+          "strength": 0.2,
+          "fade": 4.0,
+          "n": 1587,
+          "gain": 0.009,
+          "se": 0.0113,
+          "lo": -0.0131,
+          "hi": 0.0312,
+          "verdict": "no evidence",
+          "better": 781,
+          "worse": 806
+        },
+        {
+          "strength": 0.4,
+          "fade": 4.0,
+          "n": 1587,
+          "gain": 0.0149,
+          "se": 0.0247,
+          "lo": -0.0334,
+          "hi": 0.0633,
+          "verdict": "no evidence",
+          "better": 772,
+          "worse": 815
+        },
+        {
+          "strength": 0.6,
+          "fade": 4.0,
+          "n": 1587,
+          "gain": 0.0118,
+          "se": 0.0399,
+          "lo": -0.0664,
+          "hi": 0.09,
+          "verdict": "no evidence",
+          "better": 766,
+          "worse": 821
+        },
+        {
+          "strength": 0.8,
+          "fade": 4.0,
+          "n": 1587,
+          "gain": -0.0125,
+          "se": 0.0561,
+          "lo": -0.1224,
+          "hi": 0.0974,
+          "verdict": "no evidence",
+          "better": 761,
+          "worse": 826
+        },
+        {
+          "strength": 1.0,
+          "fade": 4.0,
+          "n": 1587,
+          "gain": -0.067,
+          "se": 0.0707,
+          "lo": -0.2056,
+          "hi": 0.0715,
+          "verdict": "no evidence",
+          "better": 756,
+          "worse": 831
+        },
+        {
+          "strength": 0.2,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": 0.0036,
+          "se": 0.0133,
+          "lo": -0.0225,
+          "hi": 0.0296,
+          "verdict": "no evidence",
+          "better": 779,
+          "worse": 808
+        },
+        {
+          "strength": 0.4,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": -0.0016,
+          "se": 0.0291,
+          "lo": -0.0586,
+          "hi": 0.0553,
+          "verdict": "no evidence",
+          "better": 771,
+          "worse": 816
+        },
+        {
+          "strength": 0.6,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": -0.023,
+          "se": 0.0471,
+          "lo": -0.1154,
+          "hi": 0.0693,
+          "verdict": "no evidence",
+          "better": 759,
+          "worse": 828
+        },
+        {
+          "strength": 0.8,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": -0.0702,
+          "se": 0.0671,
+          "lo": -0.2018,
+          "hi": 0.0614,
+          "verdict": "no evidence",
+          "better": 752,
+          "worse": 835
+        },
+        {
+          "strength": 1.0,
+          "fade": 8.0,
+          "n": 1587,
+          "gain": -0.156,
+          "se": 0.0863,
+          "lo": -0.3252,
+          "hi": 0.0131,
+          "verdict": "no evidence",
+          "better": 744,
+          "worse": 843
+        },
+        {
+          "strength": 0.2,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": 0.0009,
+          "se": 0.0144,
+          "lo": -0.0273,
+          "hi": 0.0291,
+          "verdict": "no evidence",
+          "better": 777,
+          "worse": 810
+        },
+        {
+          "strength": 0.4,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": -0.0094,
+          "se": 0.0316,
+          "lo": -0.0713,
+          "hi": 0.0525,
+          "verdict": "no evidence",
+          "better": 769,
+          "worse": 818
+        },
+        {
+          "strength": 0.6,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": -0.0415,
+          "se": 0.0514,
+          "lo": -0.1423,
+          "hi": 0.0593,
+          "verdict": "no evidence",
+          "better": 765,
+          "worse": 822
+        },
+        {
+          "strength": 0.8,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": -0.1042,
+          "se": 0.0738,
+          "lo": -0.2489,
+          "hi": 0.0404,
+          "verdict": "no evidence",
+          "better": 748,
+          "worse": 839
+        },
+        {
+          "strength": 1.0,
+          "fade": 14.0,
+          "n": 1587,
+          "gain": -0.2188,
+          "se": 0.0946,
+          "lo": -0.4043,
+          "hi": -0.0334,
+          "verdict": "hurts",
+          "better": 746,
+          "worse": 841
+        }
+      ],
+      "best": {
+        "strength": 0.8,
+        "fade": 1.0,
+        "n": 1587,
+        "gain": 0.0651,
+        "se": 0.0438,
+        "lo": -0.0207,
+        "hi": 0.1509,
+        "verdict": "no evidence",
+        "better": 620,
+        "worse": 648
+      },
+      "by_week": [
+        {
+          "week": 1,
+          "n": 362,
+          "gain": 0.3037,
+          "lo": -0.0625,
+          "hi": 0.67
+        },
+        {
+          "week": 2,
+          "n": 375,
+          "gain": -0.0056,
+          "lo": -0.0469,
+          "hi": 0.0357
+        },
+        {
+          "week": 3,
+          "n": 401,
+          "gain": -0.0001,
+          "lo": -0.0179,
+          "hi": 0.0177
+        },
+        {
+          "week": 4,
+          "n": 449,
+          "gain": -0.0102,
+          "lo": -0.0653,
+          "hi": 0.045
+        }
+      ],
+      "games": 1587,
+      "base_mae": 13.451,
+      "market_mae": 12.314,
+      "method": "paired difference in absolute error, same games, walk-forward"
+    },
+    "efficiency": {
+      "grid": [
+        {
+          "weight": 0.25,
+          "n": 6136,
+          "gain": 0.0119,
+          "se": 0.0113,
+          "lo": -0.0101,
+          "hi": 0.034,
+          "verdict": "no evidence",
+          "better": 3093,
+          "worse": 3043
+        },
+        {
+          "weight": 0.5,
+          "n": 6136,
+          "gain": -0.0155,
+          "se": 0.0224,
+          "lo": -0.0594,
+          "hi": 0.0285,
+          "verdict": "no evidence",
+          "better": 3050,
+          "worse": 3086
+        },
+        {
+          "weight": 0.75,
+          "n": 6136,
+          "gain": -0.085,
+          "se": 0.0333,
+          "lo": -0.1502,
+          "hi": -0.0197,
+          "verdict": "hurts",
+          "better": 3003,
+          "worse": 3133
+        },
+        {
+          "weight": 1.0,
+          "n": 6136,
+          "gain": -0.2029,
+          "se": 0.0438,
+          "lo": -0.2887,
+          "hi": -0.117,
+          "verdict": "hurts",
+          "better": 2948,
+          "worse": 3188
+        }
+      ],
+      "best": {
+        "weight": 0.25,
+        "n": 6136,
+        "gain": 0.0119,
+        "se": 0.0113,
+        "lo": -0.0101,
+        "hi": 0.034,
+        "verdict": "no evidence",
+        "better": 3093,
+        "worse": 3043
+      },
+      "by_span": [
+        {
+          "span": "weeks 1-4",
+          "n": 1587,
+          "gain": -0.0079,
+          "lo": -0.0494,
+          "hi": 0.0337
+        },
+        {
+          "span": "weeks 5 on",
+          "n": 4549,
+          "gain": 0.0189,
+          "lo": -0.0071,
+          "hi": 0.0448
+        }
+      ],
+      "games": 6136,
+      "coverage": 0.997,
+      "base_mae": 12.888,
+      "market_mae": 12.188,
+      "method": "paired difference in absolute error, same games, walk-forward; points per unit of efficiency refitted at every point in time"
+    },
+    "venue": {
+      "recency_weighted": {
+        "grid": [
+          {
+            "weight": 0.25,
+            "n": 6136,
+            "gain": -0.0149,
+            "se": 0.0051,
+            "lo": -0.025,
+            "hi": -0.0049,
+            "verdict": "hurts",
+            "better": 2946,
+            "worse": 3006
+          },
+          {
+            "weight": 0.5,
+            "n": 6136,
+            "gain": -0.0372,
+            "se": 0.0102,
+            "lo": -0.0571,
+            "hi": -0.0173,
+            "verdict": "hurts",
+            "better": 2924,
+            "worse": 3028
+          },
+          {
+            "weight": 0.75,
+            "n": 6136,
+            "gain": -0.0663,
+            "se": 0.0151,
+            "lo": -0.0959,
+            "hi": -0.0366,
+            "verdict": "hurts",
+            "better": 2901,
+            "worse": 3051
+          },
+          {
+            "weight": 1.0,
+            "n": 6136,
+            "gain": -0.1014,
+            "se": 0.0201,
+            "lo": -0.1408,
+            "hi": -0.062,
+            "verdict": "hurts",
+            "better": 2886,
+            "worse": 3066
+          }
+        ],
+        "best": {
+          "weight": 0.25,
+          "n": 6136,
+          "gain": -0.0149,
+          "se": 0.0051,
+          "lo": -0.025,
+          "hi": -0.0049,
+          "verdict": "hurts",
+          "better": 2946,
+          "worse": 3006
+        },
+        "by_size": [
+          {
+            "span": "adjustment small",
+            "n": 4602,
+            "gain": 0.0012,
+            "lo": -0.0038,
+            "hi": 0.0062
+          },
+          {
+            "span": "adjustment large",
+            "n": 1534,
+            "gain": -0.0633,
+            "lo": -0.1003,
+            "hi": -0.0263
+          }
+        ],
+        "coefficients": {
+          "altitude": {
+            "mean": 1.009,
+            "sd": 0.967
+          },
+          "crowd": {
+            "mean": 0.023,
+            "sd": 0.249
+          },
+          "travel": {
+            "mean": 1.005,
+            "sd": 0.705
+          }
+        },
+        "refits": 138,
+        "games": 6136,
+        "adj_sd": 1.555,
+        "adj_max": 18.459,
+        "base_mae": 12.888,
+        "market_mae": 12.188
+      },
+      "flat_weighted": {
+        "grid": [
+          {
+            "weight": 0.25,
+            "n": 6136,
+            "gain": -0.0103,
+            "se": 0.0049,
+            "lo": -0.02,
+            "hi": -0.0007,
+            "verdict": "hurts",
+            "better": 2967,
+            "worse": 2985
+          },
+          {
+            "weight": 0.5,
+            "n": 6136,
+            "gain": -0.0282,
+            "se": 0.0098,
+            "lo": -0.0474,
+            "hi": -0.009,
+            "verdict": "hurts",
+            "better": 2938,
+            "worse": 3014
+          },
+          {
+            "weight": 0.75,
+            "n": 6136,
+            "gain": -0.0527,
+            "se": 0.0146,
+            "lo": -0.0814,
+            "hi": -0.0241,
+            "verdict": "hurts",
+            "better": 2923,
+            "worse": 3029
+          },
+          {
+            "weight": 1.0,
+            "n": 6136,
+            "gain": -0.0839,
+            "se": 0.0194,
+            "lo": -0.1218,
+            "hi": -0.0459,
+            "verdict": "hurts",
+            "better": 2903,
+            "worse": 3049
+          }
+        ],
+        "best": {
+          "weight": 0.25,
+          "n": 6136,
+          "gain": -0.0103,
+          "se": 0.0049,
+          "lo": -0.02,
+          "hi": -0.0007,
+          "verdict": "hurts",
+          "better": 2967,
+          "worse": 2985
+        },
+        "by_size": [
+          {
+            "span": "adjustment small",
+            "n": 4602,
+            "gain": 0.0032,
+            "lo": -0.0021,
+            "hi": 0.0084
+          },
+          {
+            "span": "adjustment large",
+            "n": 1534,
+            "gain": -0.0508,
+            "lo": -0.0859,
+            "hi": -0.0157
+          }
+        ],
+        "coefficients": {
+          "altitude": {
+            "mean": 1.024,
+            "sd": 0.669
+          },
+          "crowd": {
+            "mean": 0.005,
+            "sd": 0.232
+          },
+          "travel": {
+            "mean": 1.092,
+            "sd": 0.678
+          }
+        },
+        "refits": 138,
+        "games": 6136,
+        "adj_sd": 1.511,
+        "adj_max": 18.15,
+        "base_mae": 12.888,
+        "market_mae": 12.188
+      },
+      "method": "paired difference in absolute error, same games, walk-forward; venue slopes fitted from residuals after the fit, never as columns inside it"
+    }
+  }
+}
