@@ -295,3 +295,9 @@ written_utc,season,week,away,home,qb_out,starters_out,confidence,spread_open,spr
 2026-09-27T14:01:51.189727+00:00,2026,5,Texas State,San Diego State,,,,,,,,1.2540000000000004
 2026-09-27T14:01:51.189727+00:00,2026,5,Cincinnati,Arizona,,,,8.5,8.5,54.5,54.5,11.904
 2026-09-27T14:01:51.189727+00:00,2026,5,San José State,Hawai'i,,,,,,,,7.853999999999999
+2026-09-29T17:39:41.710054+00:00,2026,5,Notre Dame,North Carolina,none,1,reported,-22.5,-21.0,51.75,47.0,-14.017
+2026-09-29T17:39:41.710054+00:00,2026,5,Middle Tennessee,Kansas,home,3,reported,20.75,18.5,51.5,49.5,16.423
+2026-09-29T17:39:41.710054+00:00,2026,5,UCF,Houston,away,2,reported,12.0,12.0,51.5,51.5,12.663
+2026-09-29T17:39:41.710054+00:00,2026,5,Michigan State,Wisconsin,none,1,reported,10.25,10.0,44.5,43.5,13.853
+2026-09-29T17:39:41.710054+00:00,2026,5,Kentucky,South Carolina,none,1,confirmed,5.0,2.5,51.5,53.5,5.603
+2026-09-29T17:39:41.710054+00:00,2026,5,Miami,Clemson,none,1,reported,-12.0,-16.5,52.25,47.5,-10.266999999999996
