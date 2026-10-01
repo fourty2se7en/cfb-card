@@ -863,3 +863,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,5,Old Dominion,Georgia State,moneyline,moneyline_fav,AVOID,C,Georgia State,-125.0,consensus,2026-09-28T21:54:33.784048+00:00,,
 2026,5,Louisville,NC State,price,price_gap,LEAN,D,Louisville,-3.5,Bovada,2026-09-30T14:57:21.215636+00:00,,
 2026,5,Texas Tech,Colorado,moneyline,moneyline_fav,AVOID,C,Texas Tech,-485.0,consensus,2026-09-30T20:11:09.002117+00:00,,
+2026,5,North Texas,Tulsa,moneyline,moneyline_fav,AVOID,C,North Texas,-122.0,consensus,2026-10-01T17:24:00.927628+00:00,,
