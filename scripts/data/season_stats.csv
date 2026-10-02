@@ -1,0 +1,267 @@
+team,conference,stat,value
+Air Force,Mountain West,firstDowns,73
+Akron,Mid-American,firstDowns,83
+Alabama,SEC,firstDowns,95
+App State,Sun Belt,firstDowns,95
+Arizona,Big 12,firstDowns,93
+Arizona State,Big 12,firstDowns,61
+Arkansas,SEC,firstDowns,92
+Arkansas State,Sun Belt,firstDowns,76
+Army,American Athletic,firstDowns,74
+Auburn,SEC,firstDowns,92
+Ball State,Mid-American,firstDowns,65
+Baylor,Big 12,firstDowns,103
+Boise State,Pac-12,firstDowns,96
+Boston College,ACC,firstDowns,73
+Bowling Green,Mid-American,firstDowns,54
+Buffalo,Mid-American,firstDowns,71
+BYU,Big 12,firstDowns,67
+California,ACC,firstDowns,80
+Central Michigan,Mid-American,firstDowns,55
+Charlotte,American Athletic,firstDowns,59
+Cincinnati,Big 12,firstDowns,90
+Clemson,ACC,firstDowns,73
+Coastal Carolina,Sun Belt,firstDowns,84
+Colorado,Big 12,firstDowns,87
+Colorado State,Pac-12,firstDowns,79
+Delaware,Conference USA,firstDowns,79
+Duke,ACC,firstDowns,89
+East Carolina,American Athletic,firstDowns,61
+Eastern Michigan,Mid-American,firstDowns,87
+Florida,SEC,firstDowns,105
+Florida Atlantic,American Athletic,firstDowns,97
+Florida International,Conference USA,firstDowns,80
+Florida State,ACC,firstDowns,77
+Fresno State,Pac-12,firstDowns,74
+Georgia,SEC,firstDowns,84
+Georgia Southern,Sun Belt,firstDowns,84
+Georgia State,Sun Belt,firstDowns,93
+Georgia Tech,ACC,firstDowns,87
+Hawai'i,Mountain West,firstDowns,82
+Houston,Big 12,firstDowns,113
+Illinois,Big Ten,firstDowns,86
+Indiana,Big Ten,firstDowns,90
+Iowa,Big Ten,firstDowns,87
+Iowa State,Big 12,firstDowns,72
+Jacksonville State,Conference USA,firstDowns,104
+James Madison,Sun Belt,firstDowns,83
+Kansas,Big 12,firstDowns,69
+Kansas State,Big 12,firstDowns,103
+Kennesaw State,Conference USA,firstDowns,84
+Kent State,Mid-American,firstDowns,57
+Kentucky,SEC,firstDowns,82
+Liberty,Conference USA,firstDowns,84
+Louisiana,Sun Belt,firstDowns,84
+Louisiana Tech,Sun Belt,firstDowns,56
+Louisville,ACC,firstDowns,95
+LSU,SEC,firstDowns,102
+Marshall,Sun Belt,firstDowns,82
+Maryland,Big Ten,firstDowns,94
+Massachusetts,Mid-American,firstDowns,63
+Memphis,American Athletic,firstDowns,89
+Miami,ACC,firstDowns,123
+Miami (OH),Mid-American,firstDowns,79
+Michigan,Big Ten,firstDowns,74
+Michigan State,Big Ten,firstDowns,83
+Middle Tennessee,Conference USA,firstDowns,82
+Minnesota,Big Ten,firstDowns,80
+Mississippi State,SEC,firstDowns,109
+Missouri,SEC,firstDowns,90
+Missouri State,Conference USA,firstDowns,69
+Navy,American Athletic,firstDowns,72
+NC State,ACC,firstDowns,92
+Nebraska,Big Ten,firstDowns,100
+Nevada,Mountain West,firstDowns,77
+New Mexico,Mountain West,firstDowns,82
+New Mexico State,Conference USA,firstDowns,83
+North Carolina,ACC,firstDowns,63
+North Dakota State,Mountain West,firstDowns,77
+Northern Illinois,Mountain West,firstDowns,71
+North Texas,American Athletic,firstDowns,108
+Northwestern,Big Ten,firstDowns,61
+Notre Dame,FBS Independents,firstDowns,83
+Ohio,Mid-American,firstDowns,80
+Ohio State,Big Ten,firstDowns,103
+Oklahoma,SEC,firstDowns,65
+Oklahoma State,Big 12,firstDowns,110
+Old Dominion,Sun Belt,firstDowns,55
+Ole Miss,SEC,firstDowns,99
+Oregon,Big Ten,firstDowns,96
+Oregon State,Pac-12,firstDowns,93
+Penn State,Big Ten,firstDowns,85
+Pittsburgh,ACC,firstDowns,105
+Purdue,Big Ten,firstDowns,96
+Rice,American Athletic,firstDowns,76
+Rutgers,Big Ten,firstDowns,93
+Sacramento State,Mid-American,firstDowns,98
+Sam Houston,Conference USA,firstDowns,78
+San Diego State,Pac-12,firstDowns,73
+San José State,Mountain West,firstDowns,78
+SMU,ACC,firstDowns,98
+South Alabama,Sun Belt,firstDowns,92
+South Carolina,SEC,firstDowns,100
+Southern Miss,Sun Belt,firstDowns,84
+South Florida,American Athletic,firstDowns,84
+Stanford,ACC,firstDowns,75
+Syracuse,ACC,firstDowns,82
+TCU,Big 12,firstDowns,90
+Temple,American Athletic,firstDowns,71
+Tennessee,SEC,firstDowns,101
+Texas,SEC,firstDowns,92
+Texas A&M,SEC,firstDowns,83
+Texas State,Pac-12,firstDowns,100
+Texas Tech,Big 12,firstDowns,94
+Toledo,Mid-American,firstDowns,84
+Troy,Sun Belt,firstDowns,81
+Tulane,American Athletic,firstDowns,61
+Tulsa,American Athletic,firstDowns,68
+UAB,American Athletic,firstDowns,73
+UCF,Big 12,firstDowns,69
+UCLA,Big Ten,firstDowns,93
+UConn,FBS Independents,firstDowns,82
+UL Monroe,Sun Belt,firstDowns,73
+UNLV,Mountain West,firstDowns,81
+USC,Big Ten,firstDowns,131
+Utah,Big 12,firstDowns,101
+Utah State,Pac-12,firstDowns,72
+UTEP,Mountain West,firstDowns,58
+UTSA,American Athletic,firstDowns,79
+Vanderbilt,SEC,firstDowns,79
+Virginia,ACC,firstDowns,96
+Virginia Tech,ACC,firstDowns,104
+Wake Forest,ACC,firstDowns,85
+Washington,Big Ten,firstDowns,77
+Washington State,Pac-12,firstDowns,77
+Western Kentucky,Conference USA,firstDowns,74
+Western Michigan,Mid-American,firstDowns,69
+West Virginia,Big 12,firstDowns,91
+Wisconsin,Big Ten,firstDowns,73
+Wyoming,Mountain West,firstDowns,73
+Abilene Christian,UAC,firstDowns,93
+Alabama A&M,SWAC,firstDowns,124
+Alabama State,SWAC,firstDowns,58
+Alcorn State,SWAC,firstDowns,119
+Arkansas-Pine Bluff,SWAC,firstDowns,73
+Austin Peay,UAC,firstDowns,89
+Bethune-Cookman,SWAC,firstDowns,77
+Brown,Ivy,firstDowns,36
+Bryant,Coastal Athletic,firstDowns,68
+Bucknell,Patriot,firstDowns,67
+Butler,Pioneer,firstDowns,78
+Cal Poly,Big Sky,firstDowns,105
+Campbell,Coastal Athletic,firstDowns,114
+Central Arkansas,UAC,firstDowns,100
+Central Connecticut,NEC,firstDowns,46
+Charleston Southern,OVC,firstDowns,64
+Chattanooga,Southern,firstDowns,77
+Chicago State,FCS Independents,firstDowns,81
+Colgate,Patriot,firstDowns,98
+Columbia,Ivy,firstDowns,55
+Cornell,Ivy,firstDowns,30
+Dartmouth,Ivy,firstDowns,43
+Davidson,Pioneer,firstDowns,100
+Dayton,Pioneer,firstDowns,61
+Delaware State,MEAC,firstDowns,100
+Drake,Pioneer,firstDowns,106
+Duquesne,NEC,firstDowns,59
+Eastern Illinois,OVC,firstDowns,69
+Eastern Kentucky,UAC,firstDowns,81
+Eastern Washington,Big Sky,firstDowns,112
+East Tennessee State,Southern,firstDowns,109
+East Texas A&M,Southland,firstDowns,85
+Elon,Coastal Athletic,firstDowns,93
+Florida A&M,SWAC,firstDowns,61
+Fordham,Patriot,firstDowns,72
+Furman,Southern,firstDowns,76
+Gardner-Webb,OVC,firstDowns,111
+Georgetown,Patriot,firstDowns,34
+Grambling,SWAC,firstDowns,76
+Hampton,Coastal Athletic,firstDowns,80
+Harvard,Ivy,firstDowns,39
+Holy Cross,Patriot,firstDowns,89
+Houston Christian,Southland,firstDowns,81
+Howard,MEAC,firstDowns,48
+Idaho,Big Sky,firstDowns,77
+Idaho State,Big Sky,firstDowns,78
+Illinois State,MVFC,firstDowns,108
+Incarnate Word,Southland,firstDowns,101
+Indiana State,MVFC,firstDowns,96
+Jackson State,SWAC,firstDowns,89
+Lafayette,Patriot,firstDowns,79
+Lamar,Southland,firstDowns,71
+Lehigh,Patriot,firstDowns,106
+Lindenwood,OVC,firstDowns,60
+Long Island University,NEC,firstDowns,69
+Maine,Coastal Athletic,firstDowns,78
+Marist,Pioneer,firstDowns,72
+McNeese,Southland,firstDowns,97
+Mercer,Southern,firstDowns,88
+Mercyhurst,NEC,firstDowns,66
+Merrimack,FCS Independents,firstDowns,92
+Mississippi Valley State,SWAC,firstDowns,60
+Monmouth,Coastal Athletic,firstDowns,116
+Montana,Big Sky,firstDowns,110
+Montana State,Big Sky,firstDowns,116
+Morehead State,Pioneer,firstDowns,74
+Morgan State,MEAC,firstDowns,64
+Murray State,MVFC,firstDowns,68
+New Hampshire,Coastal Athletic,firstDowns,68
+New Haven,NEC,firstDowns,70
+Nicholls,Southland,firstDowns,85
+Norfolk State,MEAC,firstDowns,100
+North Alabama,UAC,firstDowns,82
+North Carolina A&T,Coastal Athletic,firstDowns,78
+North Carolina Central,MEAC,firstDowns,89
+North Dakota,MVFC,firstDowns,119
+Northern Arizona,Big Sky,firstDowns,91
+Northern Colorado,Big Sky,firstDowns,111
+Northern Iowa,MVFC,firstDowns,75
+Northwestern State,Southland,firstDowns,87
+Pennsylvania,Ivy,firstDowns,29
+Portland State,Big Sky,firstDowns,81
+Prairie View A&M,SWAC,firstDowns,90
+Presbyterian,Pioneer,firstDowns,76
+Princeton,Ivy,firstDowns,34
+Rhode Island,Coastal Athletic,firstDowns,88
+Richmond,Patriot,firstDowns,91
+Robert Morris,NEC,firstDowns,59
+Sacred Heart,Coastal Athletic,firstDowns,77
+Samford,Southern,firstDowns,88
+San Diego,Pioneer,firstDowns,87
+SE Louisiana,Southland,firstDowns,87
+South Carolina State,MEAC,firstDowns,115
+South Dakota,MVFC,firstDowns,98
+South Dakota State,MVFC,firstDowns,128
+Southeast Missouri State,OVC,firstDowns,88
+Southern,SWAC,firstDowns,83
+Southern Illinois,MVFC,firstDowns,102
+Southern Utah,Big Sky,firstDowns,115
+Stephen F. Austin,Southland,firstDowns,115
+Stetson,Pioneer,firstDowns,45
+Stonehill,NEC,firstDowns,81
+Stony Brook,Coastal Athletic,firstDowns,107
+St. Thomas (MN),Pioneer,firstDowns,93
+Tarleton State,UAC,firstDowns,92
+Tennessee State,OVC,firstDowns,67
+Tennessee Tech,Southern,firstDowns,82
+Texas Southern,SWAC,firstDowns,75
+The Citadel,Southern,firstDowns,71
+Towson,Coastal Athletic,firstDowns,87
+UAlbany,Coastal Athletic,firstDowns,103
+UC Davis,Big Sky,firstDowns,101
+Utah Tech,Big Sky,firstDowns,79
+UT Martin,OVC,firstDowns,86
+UT Rio Grande Valley,Southland,firstDowns,98
+Valparaiso,Pioneer,firstDowns,44
+Villanova,Patriot,firstDowns,94
+VMI,Southern,firstDowns,58
+Wagner,NEC,firstDowns,48
+Weber State,Big Sky,firstDowns,115
+Western Carolina,Southern,firstDowns,112
+Western Illinois,OVC,firstDowns,107
+West Florida,UAC,firstDowns,65
+West Georgia,UAC,firstDowns,84
+William & Mary,Patriot,firstDowns,77
+Wofford,Southern,firstDowns,75
+Yale,Ivy,firstDowns,45
+Youngstown State,MVFC,firstDowns,125
