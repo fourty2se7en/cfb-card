@@ -47,8 +47,8 @@ South Carolina,5.85,11.12,2.58,862.87,7.5,31.3,24.1,148.3,0.69,SEC,fbs,45
 Clemson,5.58,11.12,2.31,862.85,4.9,23.5,18.9,124.3,0.414,ACC,fbs,46
 Florida State,5.31,7.43,5.73,800.2,5.7,32.1,26.5,162.9,0.401,ACC,fbs,47
 New Mexico,4.56,-6.23,18.64,568.19,7.7,27.9,20.4,174.1,0.582,Mountain West,fbs,48
-Illinois,4.48,1.77,10.56,704.01,8.5,34.3,26.2,83.5,0.211,Big Ten,fbs,49
 NC State,4.48,4.9,7.43,757.14,3.4,31.5,28.0,233.7,0.599,ACC,fbs,49
+Illinois,4.48,1.77,10.56,704.01,8.5,34.3,26.2,83.5,0.211,Big Ten,fbs,49
 Arizona State,4.21,2.83,9.23,722.0,3.0,26.3,22.8,37.6,0.155,Big 12,fbs,51
 Washington,3.92,6.1,5.67,777.63,12.1,29.9,17.7,228.1,0.544,Big Ten,fbs,52
 UCF,3.76,-0.11,11.72,672.14,8.7,27.0,18.4,62.3,0.248,Big 12,fbs,53
@@ -169,8 +169,8 @@ Gardner-Webb,-23.87,0.0,3.48,,,,,,,OVC-Big South,fcs,167
 Chattanooga,-23.99,0.0,3.36,,,,,,,Southern,fcs,168
 Mercer,-24.01,0.0,3.33,,,,,,,Southern,fcs,169
 Charleston Southern,-24.3,0.0,3.05,,,,,,,OVC-Big South,fcs,170
-East Tennessee State,-24.6,0.0,2.75,,,,,,,Southern,fcs,171
 Lamar,-24.6,0.0,2.75,,,,,,,Southland,fcs,171
+East Tennessee State,-24.6,0.0,2.75,,,,,,,Southern,fcs,171
 Grambling,-24.75,0.0,2.6,,,,,,,SWAC,fcs,173
 McNeese,-24.87,0.0,2.47,,,,,,,Southland,fcs,174
 Colgate,-25.03,0.0,2.32,,,,,,,Patriot,fcs,175
@@ -210,8 +210,8 @@ Southern,-30.23,0.0,-2.89,,,,,,,SWAC,fcs,208
 UT Martin,-30.89,0.0,-3.54,,,,,,,OVC-Big South,fcs,209
 West Georgia,-31.01,0.0,-3.66,,,,,,,UAC,fcs,210
 Duquesne,-31.3,0.0,-3.95,,,,,,,NEC,fcs,211
-Columbia,-31.6,0.0,-4.26,,,,,,,Ivy,fcs,212
 Bryant,-31.6,0.0,-4.25,,,,,,,Coastal Athletic,fcs,212
+Columbia,-31.6,0.0,-4.26,,,,,,,Ivy,fcs,212
 Indiana State,-31.65,0.0,-4.3,,,,,,,MVFC,fcs,214
 Eastern Washington,-31.74,0.0,-4.39,,,,,,,Big Sky,fcs,215
 Houston Christian,-32.26,0.0,-4.91,,,,,,,Southland,fcs,216
