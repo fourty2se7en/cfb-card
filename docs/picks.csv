@@ -744,9 +744,9 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,5,Cincinnati,Arizona,spread,model_gap_late,AVOID,D,Arizona,-8.5,consensus,2026-09-27T14:01:51.189727+00:00,,,-6.5,2026-10-01T18:07:21.524908+00:00
 2026,5,Cincinnati,Arizona,moneyline,moneyline_fav,AVOID,C,Arizona,-285.0,consensus,2026-09-27T14:01:51.189727+00:00,,,-245.0,2026-10-02T02:42:15.959458+00:00
 2026,5,Cincinnati,Arizona,total,total_model,AVOID,D,over,54.5,consensus,2026-09-27T14:01:51.189727+00:00,,,55.5,2026-10-01T18:07:21.524908+00:00
-2026,5,Western Kentucky,New Mexico State,spread,model_gap_late,AVOID,D,Western Kentucky,1.5,consensus,2026-09-27T18:04:16.371866+00:00,,,1.5,2026-10-02T02:42:15.959458+00:00
-2026,5,Western Kentucky,New Mexico State,moneyline,moneyline_dog,PASS,D,Western Kentucky,102.0,consensus,2026-09-27T18:04:16.371866+00:00,,,102.0,2026-10-02T02:42:15.959458+00:00
-2026,5,Western Kentucky,New Mexico State,total,total_model,AVOID,D,over,53.0,consensus,2026-09-27T18:04:16.371866+00:00,,,55.8,2026-10-02T02:42:15.959458+00:00
+2026,5,Western Kentucky,New Mexico State,spread,model_gap_late,AVOID,D,Western Kentucky,1.5,consensus,2026-09-27T18:04:16.371866+00:00,loss,2026-10-02T03:33:47.014137+00:00,1.5,2026-10-02T02:42:15.959458+00:00
+2026,5,Western Kentucky,New Mexico State,moneyline,moneyline_dog,PASS,D,Western Kentucky,102.0,consensus,2026-09-27T18:04:16.371866+00:00,loss,2026-10-02T03:33:47.014137+00:00,102.0,2026-10-02T02:42:15.959458+00:00
+2026,5,Western Kentucky,New Mexico State,total,total_model,AVOID,D,over,53.0,consensus,2026-09-27T18:04:16.371866+00:00,loss,2026-10-02T03:33:47.014137+00:00,55.8,2026-10-02T02:42:15.959458+00:00
 2026,5,North Texas,Tulsa,spread,model_gap_late,AVOID,D,North Texas,2.5,consensus,2026-09-27T18:04:16.371866+00:00,,,-2.0,2026-10-02T02:42:15.959458+00:00
 2026,5,North Texas,Tulsa,moneyline,moneyline_dog,PASS,B,North Texas,110.0,consensus,2026-09-27T18:04:16.371866+00:00,,,-123.0,2026-10-01T20:24:58.961892+00:00
 2026,5,North Texas,Tulsa,total,total_model,AVOID,D,over,57.5,consensus,2026-09-27T18:04:16.371866+00:00,,,56.8,2026-10-02T02:42:15.959458+00:00

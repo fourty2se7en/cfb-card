@@ -214,3 +214,4 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,4,Georgia Tech,Stanford,-1.5,-3.0,7.0,8.5,10.0,model
 2026,4,Air Force,Nevada,3.6,-6.0,-3.0,6.6,3.0,market
 2026,4,Minnesota,Washington,8.4,10.5,-3.0,11.4,13.5,model
+2026,5,Western Kentucky,New Mexico State,5.7,1.5,21.0,15.3,19.5,model
