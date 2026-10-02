@@ -35,3 +35,6 @@ run_utc,mode,season,week,group,games,priced,hours_to_first_kick
 2026-10-02T05:05+00:00,rebuild,2026,5,Cross,3,3,38.4
 2026-10-02T05:05+00:00,rebuild,2026,5,FBS,56,56,-5.1
 2026-10-02T05:05+00:00,rebuild,2026,5,FCS,55,1,21.4
+2026-10-02T05:16+00:00,rebuild,2026,5,Cross,3,3,38.2
+2026-10-02T05:16+00:00,rebuild,2026,5,FBS,56,56,-5.3
+2026-10-02T05:16+00:00,rebuild,2026,5,FCS,55,1,21.2
