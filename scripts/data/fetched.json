@@ -1,19 +1,27 @@
 {
   "_quota": {
+    "by_endpoint": {
+      "/games": 1,
+      "/lines": 1,
+      "/stats/player/season": 2
+    },
+    "calls_this_month": 4,
     "calls_this_run": 4,
     "header_seen": null,
-    "last_checked_utc": "2026-10-03T06:24+00:00",
+    "last_checked_utc": "2026-10-03T06:42+00:00",
     "limit": null,
+    "month": "2026-10",
     "remaining": null,
-    "reset": null
+    "reset": null,
+    "runs_this_month": 1
   },
   "games.csv": {
-    "at": "2026-10-03T06:24:52+00:00",
+    "at": "2026-10-03T06:42:16+00:00",
     "max_age_days": 0
   },
   "games_prior.csv": "2026-09-09T05:31:04+00:00",
   "lines.csv": {
-    "at": "2026-10-03T06:24:54+00:00",
+    "at": "2026-10-03T06:42:17+00:00",
     "max_age_days": 0
   },
   "rankings.csv": {
@@ -25,7 +33,7 @@
     "max_age_days": 14
   },
   "returning_fcs.csv": {
-    "at": "2026-10-03T06:24:57+00:00",
+    "at": "2026-10-03T06:42:20+00:00",
     "max_age_days": 300
   },
   "season_stats.csv": {

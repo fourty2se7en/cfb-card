@@ -1026,3 +1026,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,5,Eastern Washington,UC Davis,moneyline,moneyline_dog,PASS,D,Eastern Washington,255.0,consensus,2026-10-02T20:02:18.924464+00:00,,,255.0,2026-10-02T20:02:18.924464+00:00
 2026,5,Eastern Washington,UC Davis,total,total_model,AVOID,D,under,60.5,consensus,2026-10-02T20:02:18.924464+00:00,,,60.5,2026-10-02T20:02:18.924464+00:00
 2026,5,Morgan State,Villanova,price,price_gap,LEAN,D,Villanova,-10.5,DraftKings,2026-10-03T05:17:37.498753+00:00,,,-10.5,2026-10-03T05:17:37.498753+00:00
+2026,5,Army,Louisiana Tech,price,price_gap,LEAN,D,Army,-1.0,Bovada,2026-10-03T06:42:31.701478+00:00,,,-1.0,2026-10-03T06:42:31.701478+00:00
