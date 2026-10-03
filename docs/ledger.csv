@@ -219,3 +219,4 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,5,Pittsburgh,Virginia Tech,0.7,1.5,-2.0,2.7,3.5,model
 2026,5,Liberty,Delaware,-5.3,-7.0,-16.0,10.7,9.0,market
 2026,5,Penn State,Northwestern,8.2,-2.8,21.0,12.8,23.8,model
+2026,5,Memphis,Charlotte,-22.5,-19.5,-51.0,28.5,31.5,model
