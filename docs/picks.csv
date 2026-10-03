@@ -760,7 +760,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,5,Syracuse,UConn,moneyline,moneyline_dog,PASS,B,UConn,190.0,consensus,2026-09-27T18:04:16.371866+00:00,,,211.0,2026-10-03T05:17:37.498753+00:00
 2026,5,Syracuse,UConn,total,total_model,AVOID,D,over,52.5,consensus,2026-09-27T18:04:16.371866+00:00,,,50.5,2026-10-01T18:07:21.524908+00:00
 2026,5,Navy,Air Force,spread,model_gap_late,AVOID,D,Air Force,-1.5,consensus,2026-09-27T18:04:16.371866+00:00,,,-3.0,2026-10-02T20:02:18.924464+00:00
-2026,5,Navy,Air Force,moneyline,moneyline_fav,AVOID,C,Air Force,-127.0,consensus,2026-09-27T18:04:16.371866+00:00,,,-150.0,2026-10-02T20:02:18.924464+00:00
+2026,5,Navy,Air Force,moneyline,moneyline_fav,AVOID,C,Air Force,-127.0,consensus,2026-09-27T18:04:16.371866+00:00,,,-148.0,2026-10-03T07:04:19.683249+00:00
 2026,5,Navy,Air Force,total,total_model,AVOID,D,over,46.5,consensus,2026-09-27T18:04:16.371866+00:00,,,45.5,2026-10-02T20:02:18.924464+00:00
 2026,5,West Virginia,Iowa State,spread,model_gap_late,AVOID,D,Iowa State,-1.5,consensus,2026-09-27T18:04:16.371866+00:00,,,-3.0,2026-10-01T18:07:21.524908+00:00
 2026,5,West Virginia,Iowa State,total,total_model,AVOID,D,over,52.5,consensus,2026-09-27T18:04:16.371866+00:00,,,53.0,2026-10-01T18:07:21.524908+00:00
