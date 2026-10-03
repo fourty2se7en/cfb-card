@@ -4076,7 +4076,7 @@ function flt(){{
  [].slice.call(document.querySelectorAll('.row')).forEach(function(rw){{
    rw.style.display = rowVisible(rw, FILTER_GROUPS) ? '' : 'none';}});
  var n=0;
- [].slice.call(document.querySelectorAll('.row')).forEach(function(rw){{
+ [].slice.call(document.querySelectorAll('tr.row')).forEach(function(rw){{
    if(rw.style.display!=='none') n++;}});
  var c=document.getElementById('fcount');
  if(c) c.textContent=n+' of '+gAll+' games shown';
