@@ -216,3 +216,6 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,4,Minnesota,Washington,8.4,10.5,-3.0,11.4,13.5,model
 2026,5,Western Kentucky,New Mexico State,5.7,1.5,21.0,15.3,19.5,model
 2026,5,North Texas,Tulsa,-3.4,-2.0,-1.0,2.4,1.0,market
+2026,5,Pittsburgh,Virginia Tech,0.7,1.5,-2.0,2.7,3.5,model
+2026,5,Liberty,Delaware,-5.3,-7.0,-16.0,10.7,9.0,market
+2026,5,Penn State,Northwestern,8.2,-2.8,21.0,12.8,23.8,model
