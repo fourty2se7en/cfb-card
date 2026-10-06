@@ -1053,7 +1053,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,6,Texas A&M,Missouri,total,total_model,AVOID,D,over,50.5,consensus,2026-10-04T14:06:29.502463+00:00,,,48.5,2026-10-05T22:06:24.138901+00:00
 2026,6,Indiana,Nebraska,spread,model_gap_late,AVOID,D,Nebraska,8.5,consensus,2026-10-04T14:06:29.502463+00:00,,,7.5,2026-10-05T22:06:24.138901+00:00
 2026,6,Indiana,Nebraska,moneyline,moneyline_dog,PASS,D,Nebraska,285.0,consensus,2026-10-04T14:06:29.502463+00:00,,,249.0,2026-10-05T22:06:24.138901+00:00
-2026,6,Indiana,Nebraska,total,total_model,AVOID,D,over,50.5,consensus,2026-10-04T14:06:29.502463+00:00,,,52.0,2026-10-05T22:06:24.138901+00:00
+2026,6,Indiana,Nebraska,total,total_model,AVOID,D,over,50.5,consensus,2026-10-04T14:06:29.502463+00:00,,,51.5,2026-10-06T15:14:38.320539+00:00
 2026,6,South Carolina,Florida,spread,model_gap_late,AVOID,D,South Carolina,14.5,consensus,2026-10-04T14:06:29.502463+00:00,,,14.5,2026-10-04T14:06:29.502463+00:00
 2026,6,South Carolina,Florida,moneyline,moneyline_dog,PASS,D,South Carolina,490.0,consensus,2026-10-04T14:06:29.502463+00:00,,,415.0,2026-10-05T22:06:24.138901+00:00
 2026,6,South Carolina,Florida,total,total_model,AVOID,D,over,57.5,consensus,2026-10-04T14:06:29.502463+00:00,,,62.0,2026-10-05T22:06:24.138901+00:00
@@ -1132,7 +1132,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,6,Duke,Georgia Tech,total,total_model,AVOID,D,over,50.5,consensus,2026-10-04T18:01:21.972983+00:00,,,49.5,2026-10-05T22:06:24.138901+00:00
 2026,6,Eastern Michigan,Akron,spread,model_gap_late,AVOID,D,Akron,5.5,consensus,2026-10-04T18:01:21.972983+00:00,,,7.0,2026-10-05T22:06:24.138901+00:00
 2026,6,Eastern Michigan,Akron,moneyline,moneyline_dog,PASS,C,Akron,180.0,consensus,2026-10-04T18:01:21.972983+00:00,,,226.0,2026-10-05T22:06:24.138901+00:00
-2026,6,Eastern Michigan,Akron,total,total_model,AVOID,D,over,50.5,consensus,2026-10-04T18:01:21.972983+00:00,,,52.0,2026-10-05T22:06:24.138901+00:00
+2026,6,Eastern Michigan,Akron,total,total_model,AVOID,D,over,50.5,consensus,2026-10-04T18:01:21.972983+00:00,,,51.5,2026-10-06T15:14:38.320539+00:00
 2026,6,Kent State,Western Michigan,spread,model_gap_late,AVOID,D,Western Michigan,-14.0,consensus,2026-10-04T18:01:21.972983+00:00,,,-13.5,2026-10-05T22:06:24.138901+00:00
 2026,6,Kent State,Western Michigan,moneyline,moneyline_fav,AVOID,C,Western Michigan,-630.0,consensus,2026-10-04T18:01:21.972983+00:00,,,-600.0,2026-10-05T22:06:24.138901+00:00
 2026,6,Kent State,Western Michigan,total,total_model,AVOID,D,under,46.0,consensus,2026-10-04T18:01:21.972983+00:00,,,46.0,2026-10-04T18:01:21.972983+00:00
@@ -1147,7 +1147,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,6,Tulsa,Navy,total,total_model,AVOID,D,under,52.5,consensus,2026-10-04T18:01:21.972983+00:00,,,52.5,2026-10-04T18:01:21.972983+00:00
 2026,6,Buffalo,Toledo,spread,model_gap_late,AVOID,D,Toledo,-18.0,consensus,2026-10-04T18:01:21.972983+00:00,,,-20.0,2026-10-05T22:06:24.138901+00:00
 2026,6,Buffalo,Toledo,moneyline,moneyline_fav,AVOID,C,Toledo,-1450.0,consensus,2026-10-04T18:01:21.972983+00:00,,,-1700.0,2026-10-05T22:06:24.138901+00:00
-2026,6,Buffalo,Toledo,total,total_model,AVOID,D,over,55.0,consensus,2026-10-04T18:01:21.972983+00:00,,,55.0,2026-10-04T18:01:21.972983+00:00
+2026,6,Buffalo,Toledo,total,total_model,AVOID,D,over,55.0,consensus,2026-10-04T18:01:21.972983+00:00,,,54.5,2026-10-06T15:14:38.320539+00:00
 2026,6,Central Michigan,Ohio,spread,model_gap_late,AVOID,D,Ohio,-3.5,consensus,2026-10-04T18:01:21.972983+00:00,,,-3.0,2026-10-05T22:06:24.138901+00:00
 2026,6,Central Michigan,Ohio,moneyline,moneyline_fav,AVOID,C,Ohio,-175.0,consensus,2026-10-04T18:01:21.972983+00:00,,,-148.0,2026-10-05T22:06:24.138901+00:00
 2026,6,Central Michigan,Ohio,total,total_model,AVOID,D,over,47.0,consensus,2026-10-04T18:01:21.972983+00:00,,,46.5,2026-10-05T22:06:24.138901+00:00
@@ -1201,7 +1201,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,6,Kansas,Utah,total,total_model,AVOID,D,over,52.0,consensus,2026-10-04T18:01:21.972983+00:00,,,52.0,2026-10-04T18:01:21.972983+00:00
 2026,6,Hawai'i,Arizona State,spread,model_gap_late,AVOID,D,Hawai'i,22.5,consensus,2026-10-04T18:01:21.972983+00:00,,,20.5,2026-10-05T22:06:24.138901+00:00
 2026,6,Hawai'i,Arizona State,moneyline,moneyline_dog,PASS,D,Hawai'i,1100.0,consensus,2026-10-04T18:01:21.972983+00:00,,,900.0,2026-10-05T22:06:24.138901+00:00
-2026,6,Hawai'i,Arizona State,total,total_model,AVOID,D,over,51.5,consensus,2026-10-04T18:01:21.972983+00:00,,,51.0,2026-10-05T22:06:24.138901+00:00
+2026,6,Hawai'i,Arizona State,total,total_model,AVOID,D,over,51.5,consensus,2026-10-04T18:01:21.972983+00:00,,,51.5,2026-10-06T15:14:38.320539+00:00
 2026,6,Boise State,Fresno State,spread,model_gap_late,AVOID,D,Fresno State,7.5,consensus,2026-10-04T18:01:21.972983+00:00,,,6.5,2026-10-05T22:06:24.138901+00:00
 2026,6,Boise State,Fresno State,moneyline,moneyline_dog,PASS,C,Fresno State,265.0,consensus,2026-10-04T18:01:21.972983+00:00,,,195.0,2026-10-05T22:06:24.138901+00:00
 2026,6,Boise State,Fresno State,total,total_model,AVOID,D,over,48.5,consensus,2026-10-04T18:01:21.972983+00:00,,,48.5,2026-10-04T18:01:21.972983+00:00
@@ -1214,3 +1214,5 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,6,USC,Penn State,moneyline,moneyline_fav,AVOID,C,Penn State,-124.0,consensus,2026-10-05T22:06:24.138901+00:00,,,-124.0,2026-10-05T22:06:24.138901+00:00
 2026,6,Georgia,Alabama,moneyline,moneyline_fav,AVOID,C,Alabama,-126.0,consensus,2026-10-05T22:06:24.138901+00:00,,,-126.0,2026-10-05T22:06:24.138901+00:00
 2026,6,Air Force,Northern Illinois,price,price_gap,LEAN,C,Air Force,-7.5,Bovada,2026-10-05T22:06:24.138901+00:00,,,-7.5,2026-10-05T22:06:24.138901+00:00
+2026,6,Florida State,Louisville,price,price_gap,LEAN,D,Louisville,-3.5,Bovada,2026-10-06T15:14:38.320539+00:00,,,-3.5,2026-10-06T15:14:38.320539+00:00
+2026,6,Indiana,Nebraska,price,price_gap,LEAN,D,Indiana,-7.0,Bovada,2026-10-06T15:14:38.320539+00:00,,,-7.0,2026-10-06T15:14:38.320539+00:00
