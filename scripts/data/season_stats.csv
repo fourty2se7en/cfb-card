@@ -6310,68 +6310,68 @@ South Carolina,SEC,totalYards,2455
 South Carolina,SEC,totalYardsOpponent,1658
 South Carolina,SEC,turnovers,8
 South Carolina,SEC,turnoversOpponent,2
-Southern Miss,Sun Belt,firstDowns,84
-Southern Miss,Sun Belt,firstDownsOpponent,86
-Southern Miss,Sun Belt,fourthDownConversions,2
-Southern Miss,Sun Belt,fourthDownConversionsOpponent,5
-Southern Miss,Sun Belt,fourthDowns,6
-Southern Miss,Sun Belt,fourthDownsOpponent,7
-Southern Miss,Sun Belt,fumblesLost,0
+Southern Miss,Sun Belt,firstDowns,114
+Southern Miss,Sun Belt,firstDownsOpponent,119
+Southern Miss,Sun Belt,fourthDownConversions,5
+Southern Miss,Sun Belt,fourthDownConversionsOpponent,7
+Southern Miss,Sun Belt,fourthDowns,10
+Southern Miss,Sun Belt,fourthDownsOpponent,10
+Southern Miss,Sun Belt,fumblesLost,1
 Southern Miss,Sun Belt,fumblesLostOpponent,2
 Southern Miss,Sun Belt,fumblesRecovered,2
-Southern Miss,Sun Belt,fumblesRecoveredOpponent,0
-Southern Miss,Sun Belt,games,4
-Southern Miss,Sun Belt,interceptions,5
+Southern Miss,Sun Belt,fumblesRecoveredOpponent,1
+Southern Miss,Sun Belt,games,5
+Southern Miss,Sun Belt,interceptions,7
 Southern Miss,Sun Belt,interceptionsOpponent,5
 Southern Miss,Sun Belt,interceptionTDs,0
 Southern Miss,Sun Belt,interceptionTDsOpponent,2
 Southern Miss,Sun Belt,interceptionYards,3
 Southern Miss,Sun Belt,interceptionYardsOpponent,109
-Southern Miss,Sun Belt,kickReturns,1
-Southern Miss,Sun Belt,kickReturnsOpponent,11
+Southern Miss,Sun Belt,kickReturns,4
+Southern Miss,Sun Belt,kickReturnsOpponent,14
 Southern Miss,Sun Belt,kickReturnTDs,0
 Southern Miss,Sun Belt,kickReturnTDsOpponent,0
-Southern Miss,Sun Belt,kickReturnYards,27
-Southern Miss,Sun Belt,kickReturnYardsOpponent,205
-Southern Miss,Sun Belt,netPassingYards,966
-Southern Miss,Sun Belt,netPassingYardsOpponent,773
-Southern Miss,Sun Belt,passAttempts,141
-Southern Miss,Sun Belt,passAttemptsOpponent,110
-Southern Miss,Sun Belt,passCompletions,85
-Southern Miss,Sun Belt,passCompletionsOpponent,67
+Southern Miss,Sun Belt,kickReturnYards,72
+Southern Miss,Sun Belt,kickReturnYardsOpponent,257
+Southern Miss,Sun Belt,netPassingYards,1357
+Southern Miss,Sun Belt,netPassingYardsOpponent,998
+Southern Miss,Sun Belt,passAttempts,180
+Southern Miss,Sun Belt,passAttemptsOpponent,131
+Southern Miss,Sun Belt,passCompletions,110
+Southern Miss,Sun Belt,passCompletionsOpponent,85
 Southern Miss,Sun Belt,passesIntercepted,5
-Southern Miss,Sun Belt,passesInterceptedOpponent,5
-Southern Miss,Sun Belt,passingTDs,6
-Southern Miss,Sun Belt,passingTDsOpponent,6
-Southern Miss,Sun Belt,penalties,29
-Southern Miss,Sun Belt,penaltiesOpponent,31
-Southern Miss,Sun Belt,penaltyYards,269
-Southern Miss,Sun Belt,penaltyYardsOpponent,276
-Southern Miss,Sun Belt,possessionTime,6826
-Southern Miss,Sun Belt,possessionTimeOpponent,7574
+Southern Miss,Sun Belt,passesInterceptedOpponent,7
+Southern Miss,Sun Belt,passingTDs,9
+Southern Miss,Sun Belt,passingTDsOpponent,8
+Southern Miss,Sun Belt,penalties,32
+Southern Miss,Sun Belt,penaltiesOpponent,38
+Southern Miss,Sun Belt,penaltyYards,294
+Southern Miss,Sun Belt,penaltyYardsOpponent,363
+Southern Miss,Sun Belt,possessionTime,8064
+Southern Miss,Sun Belt,possessionTimeOpponent,9936
 Southern Miss,Sun Belt,puntReturns,4
 Southern Miss,Sun Belt,puntReturnsOpponent,7
 Southern Miss,Sun Belt,puntReturnTDs,0
 Southern Miss,Sun Belt,puntReturnTDsOpponent,0
 Southern Miss,Sun Belt,puntReturnYards,23
 Southern Miss,Sun Belt,puntReturnYardsOpponent,1
-Southern Miss,Sun Belt,rushingAttempts,143
-Southern Miss,Sun Belt,rushingAttemptsOpponent,180
-Southern Miss,Sun Belt,rushingTDs,7
-Southern Miss,Sun Belt,rushingTDsOpponent,6
-Southern Miss,Sun Belt,rushingYards,600
-Southern Miss,Sun Belt,rushingYardsOpponent,941
-Southern Miss,Sun Belt,sacks,8
-Southern Miss,Sun Belt,sacksOpponent,9
-Southern Miss,Sun Belt,tacklesForLoss,21
-Southern Miss,Sun Belt,tacklesForLossOpponent,18
-Southern Miss,Sun Belt,thirdDownConversions,18
-Southern Miss,Sun Belt,thirdDownConversionsOpponent,25
-Southern Miss,Sun Belt,thirdDowns,54
-Southern Miss,Sun Belt,thirdDownsOpponent,58
-Southern Miss,Sun Belt,totalYards,1566
-Southern Miss,Sun Belt,totalYardsOpponent,1714
-Southern Miss,Sun Belt,turnovers,5
+Southern Miss,Sun Belt,rushingAttempts,170
+Southern Miss,Sun Belt,rushingAttemptsOpponent,239
+Southern Miss,Sun Belt,rushingTDs,9
+Southern Miss,Sun Belt,rushingTDsOpponent,11
+Southern Miss,Sun Belt,rushingYards,721
+Southern Miss,Sun Belt,rushingYardsOpponent,1378
+Southern Miss,Sun Belt,sacks,10
+Southern Miss,Sun Belt,sacksOpponent,11
+Southern Miss,Sun Belt,tacklesForLoss,26
+Southern Miss,Sun Belt,tacklesForLossOpponent,22
+Southern Miss,Sun Belt,thirdDownConversions,21
+Southern Miss,Sun Belt,thirdDownConversionsOpponent,33
+Southern Miss,Sun Belt,thirdDowns,63
+Southern Miss,Sun Belt,thirdDownsOpponent,72
+Southern Miss,Sun Belt,totalYards,2078
+Southern Miss,Sun Belt,totalYardsOpponent,2376
+Southern Miss,Sun Belt,turnovers,8
 Southern Miss,Sun Belt,turnoversOpponent,7
 South Florida,American Athletic,firstDowns,101
 South Florida,American Athletic,firstDownsOpponent,86
@@ -7063,69 +7063,69 @@ Toledo,Mid-American,totalYards,2425
 Toledo,Mid-American,totalYardsOpponent,1627
 Toledo,Mid-American,turnovers,4
 Toledo,Mid-American,turnoversOpponent,6
-Troy,Sun Belt,firstDowns,81
-Troy,Sun Belt,firstDownsOpponent,69
-Troy,Sun Belt,fourthDownConversions,4
-Troy,Sun Belt,fourthDownConversionsOpponent,1
-Troy,Sun Belt,fourthDowns,9
-Troy,Sun Belt,fourthDownsOpponent,4
+Troy,Sun Belt,firstDowns,114
+Troy,Sun Belt,firstDownsOpponent,99
+Troy,Sun Belt,fourthDownConversions,6
+Troy,Sun Belt,fourthDownConversionsOpponent,4
+Troy,Sun Belt,fourthDowns,12
+Troy,Sun Belt,fourthDownsOpponent,8
 Troy,Sun Belt,fumblesLost,1
-Troy,Sun Belt,fumblesLostOpponent,2
-Troy,Sun Belt,fumblesRecovered,2
+Troy,Sun Belt,fumblesLostOpponent,3
+Troy,Sun Belt,fumblesRecovered,3
 Troy,Sun Belt,fumblesRecoveredOpponent,1
-Troy,Sun Belt,games,4
+Troy,Sun Belt,games,5
 Troy,Sun Belt,interceptions,4
-Troy,Sun Belt,interceptionsOpponent,2
+Troy,Sun Belt,interceptionsOpponent,4
 Troy,Sun Belt,interceptionTDs,0
 Troy,Sun Belt,interceptionTDsOpponent,0
 Troy,Sun Belt,interceptionYards,19
 Troy,Sun Belt,interceptionYardsOpponent,118
-Troy,Sun Belt,kickReturns,6
-Troy,Sun Belt,kickReturnsOpponent,9
+Troy,Sun Belt,kickReturns,9
+Troy,Sun Belt,kickReturnsOpponent,12
 Troy,Sun Belt,kickReturnTDs,0
 Troy,Sun Belt,kickReturnTDsOpponent,0
-Troy,Sun Belt,kickReturnYards,120
-Troy,Sun Belt,kickReturnYardsOpponent,124
-Troy,Sun Belt,netPassingYards,822
-Troy,Sun Belt,netPassingYardsOpponent,773
-Troy,Sun Belt,passAttempts,134
-Troy,Sun Belt,passAttemptsOpponent,117
-Troy,Sun Belt,passCompletions,69
-Troy,Sun Belt,passCompletionsOpponent,71
-Troy,Sun Belt,passesIntercepted,2
+Troy,Sun Belt,kickReturnYards,172
+Troy,Sun Belt,kickReturnYardsOpponent,169
+Troy,Sun Belt,netPassingYards,1047
+Troy,Sun Belt,netPassingYardsOpponent,1164
+Troy,Sun Belt,passAttempts,155
+Troy,Sun Belt,passAttemptsOpponent,156
+Troy,Sun Belt,passCompletions,87
+Troy,Sun Belt,passCompletionsOpponent,96
+Troy,Sun Belt,passesIntercepted,4
 Troy,Sun Belt,passesInterceptedOpponent,4
-Troy,Sun Belt,passingTDs,7
-Troy,Sun Belt,passingTDsOpponent,7
-Troy,Sun Belt,penalties,31
-Troy,Sun Belt,penaltiesOpponent,32
-Troy,Sun Belt,penaltyYards,310
-Troy,Sun Belt,penaltyYardsOpponent,260
-Troy,Sun Belt,possessionTime,8023
-Troy,Sun Belt,possessionTimeOpponent,6375
+Troy,Sun Belt,passingTDs,9
+Troy,Sun Belt,passingTDsOpponent,10
+Troy,Sun Belt,penalties,38
+Troy,Sun Belt,penaltiesOpponent,35
+Troy,Sun Belt,penaltyYards,397
+Troy,Sun Belt,penaltyYardsOpponent,285
+Troy,Sun Belt,possessionTime,10385
+Troy,Sun Belt,possessionTimeOpponent,7613
 Troy,Sun Belt,puntReturns,3
 Troy,Sun Belt,puntReturnsOpponent,7
 Troy,Sun Belt,puntReturnTDs,0
 Troy,Sun Belt,puntReturnTDsOpponent,1
 Troy,Sun Belt,puntReturnYards,5
 Troy,Sun Belt,puntReturnYardsOpponent,88
-Troy,Sun Belt,rushingAttempts,152
-Troy,Sun Belt,rushingAttemptsOpponent,117
-Troy,Sun Belt,rushingTDs,3
-Troy,Sun Belt,rushingTDsOpponent,3
-Troy,Sun Belt,rushingYards,665
-Troy,Sun Belt,rushingYardsOpponent,464
-Troy,Sun Belt,sacks,8
-Troy,Sun Belt,sacksOpponent,8
-Troy,Sun Belt,tacklesForLoss,27
-Troy,Sun Belt,tacklesForLossOpponent,21
-Troy,Sun Belt,thirdDownConversions,20
-Troy,Sun Belt,thirdDownConversionsOpponent,16
-Troy,Sun Belt,thirdDowns,59
-Troy,Sun Belt,thirdDownsOpponent,50
-Troy,Sun Belt,totalYards,1487
-Troy,Sun Belt,totalYardsOpponent,1237
+Troy,Sun Belt,rushingAttempts,211
+Troy,Sun Belt,rushingAttemptsOpponent,144
+Troy,Sun Belt,rushingTDs,8
+Troy,Sun Belt,rushingTDsOpponent,5
+Troy,Sun Belt,rushingYards,1102
+Troy,Sun Belt,rushingYardsOpponent,585
+Troy,Sun Belt,sacks,10
+Troy,Sun Belt,sacksOpponent,10
+Troy,Sun Belt,tacklesForLoss,31
+Troy,Sun Belt,tacklesForLossOpponent,26
+Troy,Sun Belt,thirdDownConversions,28
+Troy,Sun Belt,thirdDownConversionsOpponent,19
+Troy,Sun Belt,thirdDowns,73
+Troy,Sun Belt,thirdDownsOpponent,59
+Troy,Sun Belt,totalYards,2149
+Troy,Sun Belt,totalYardsOpponent,1749
 Troy,Sun Belt,turnovers,5
-Troy,Sun Belt,turnoversOpponent,4
+Troy,Sun Belt,turnoversOpponent,7
 Tulane,American Athletic,firstDowns,61
 Tulane,American Athletic,firstDownsOpponent,84
 Tulane,American Athletic,fourthDownConversions,1
