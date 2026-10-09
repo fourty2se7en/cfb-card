@@ -273,3 +273,7 @@ season,week,away,home,model,market,actual,model_err,market_err,closer
 2026,6,Southern Miss,Troy,12.8,9.5,21.0,8.2,11.5,model
 2026,6,Jacksonville State,Kennesaw State,5.3,-3.0,-1.0,6.3,2.0,market
 2026,6,New Mexico State,Florida International,13.6,6.5,19.0,5.4,12.5,model
+2026,6,Missouri State,Western Kentucky,10.0,-1.5,21.0,11.0,22.5,model
+2026,6,Sam Houston,Liberty,20.0,13.5,32.0,12.0,18.5,model
+2026,6,South Alabama,Arkansas State,5.2,3.0,-7.0,12.2,10.0,market
+2026,6,South Florida,UTSA,3.4,6.5,7.0,3.6,0.5,market

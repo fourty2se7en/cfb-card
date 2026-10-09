@@ -3,7 +3,6 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 218,FIU Stadium,20000.0,False,False,Miami,FL,33199,US,America/New_York,25.7525014,-80.3778912,1.718581796,1995.0
 4779,Thomas A. Robinson National Stadium,15000.0,True,False,Nassau,,,BS,,25.055569,-77.358736,3.182889223,1981.0
 11591,Lokken Stadium,,,False,Valley City,ND,,US,,,,,
-5220,Garrison Stadium,5000.0,,False,Murfreesboro,TN,,US,,36.434053,-77.098431,18.69116974,2007.0
 3884,RAM Stadium,,,False,East Point,GA,,US,,,,,
 11589,Hinchliffe Stadium,,,True,Paterson,NJ,,US,,,,,
 6043,Bethpage Federal Credit Union Stadium,6000.0,False,False,Brookville,NY,11545,US,America/New_York,40.816284,-73.589546,236,1966.0
@@ -19,7 +18,9 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 11797,Nilton Santos Stadium,,,False,Rio De Janeiro,,,US,,,,,
 3827,"Memorial Stadium (Stephenville, TX)",24000.0,False,False,Stephenville,TX,76401,US,America/Chicago,32.2191836,-98.2130634,402,
 5348,Mercedes-Benz Stadium,75000.0,False,True,Atlanta,GA,30313,US,America/New_York,33.755578,-84.400881,307.9,2017.0
+5831,Dale Lippert Field,1500.0,,False,Franklin,MA,03235,US,,42.0836,-71.397,,
 3689,Cramton Bowl,25000.0,False,False,Montgomery,AL,36101,US,America/Chicago,32.37949,-86.293002,75.10210419,1922.0
+5220,Garrison Stadium,5000.0,,False,Murfreesboro,NC,,US,,36.434053,-77.098431,18.69116974,2007.0
 538,StubHub Center,27000.0,False,False,Carson,CA,92620,US,,33.8322043,-118.2517547,,
 4258,Dignity Health Sports Park,48114.0,True,False,Carson,CA,90746,US,America/Los_Angeles,33.864,-118.261,39,2003.0
 4205,Petco Park,0.0,,False,San Diego,CA,92093,US,,32.7174202,-117.1627728,,
@@ -32,7 +33,6 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 6269,Globe Life Field,40000.0,,False,Arlington,TX,76011,US,,32.7355816,-97.1071186,,
 3494,The Dome at America's Center,66000.0,,True,Saint Louis,MO,63103,US,,38.6264256,-90.1995853,,
 6177,Alexander Durley Sports Complex,5500.0,,False,Houston,TX,77002,US,,29.7589382,-95.3676974,,
-5831,Dale Lippert Field,1500.0,,False,Franklin,MA,03235,US,,34.440962,-87.8339064,,
 6127,John P. Papp Stadium,4500.0,,False,Wooster,OH,44691,US,,40.7980976,-81.9397733,,
 5863,Don Shula Stadium at Wasmer Field,5416.0,,False,University Heights,OH,45220,US,,41.497831,-81.537346,,
 5907,McCarthy Stadium (Wilkes Barre),3000.0,,False,Wilkes Barre Township,PA,18702,US,,41.23369915,-75.85364178943517,,
@@ -57,13 +57,13 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 5636,Wright Stadium,1200.0,,False,Oneonta,NY,13820,US,,42.453492,-75.0629531,,
 5921,Rock Bowl,10000.0,,False,Dubuque,IA,50118,US,,42.5006243,-90.6647985,,
 5795,Edor Nelson Field,1400.0,,False,Minneapolis,MN,55488,US,,44.9772995,-93.2654692,,
-3716,"Stewart """"Red"""" Faught Stadium",4000.0,,False,Franklin,IN,92620,US,,33.704156,-117.75109,222.7,1999.0
 7179,Toyota Field,7000.0,,False,Madison,AL,,US,,,,,
+3716,"Stewart """"Red"""" Faught Stadium",4000.0,,False,Franklin,IN,92620,US,,39.47708,-86.0459,222.7,1999.0
+3885,Harvey Randall Wickes Memorial Stadium,6800.0,,False,University Center,MI,48915,US,,43.51222,-83.95472,,
 5134,Bearcat Stadium,6500.0,,False,Maryville,MO,64468,US,,40.3460468,-94.8723858,,
 6059,Sanchez Family Stadium,5000.0,,False,Las Vegas,NM,87701,US,,35.5939325,-105.2238969,,
 6071,Jess Dow Field,6000.0,,False,New Haven,CT,06473,US,,41.3082138,-72.9250518,,
 6221,Mitchell Stadium,10000.0,,False,Bluefield,WV,24701,US,,37.2698395,-81.2223195,,
-3885,Harvey Randall Wickes Memorial Stadium,6800.0,,False,University Center,MI,48915,US,,25.71414555,-80.27640498387049,,
 3770,Jack Miller Stadium,6000.0,,False,Ashland,OH,,US,,40.8686147,-82.3175942,,
 4436,Adamson Stadium,6500.0,,False,Brownsville,PA,15417,US,,40.0236854,-79.8839357,,
 6032,Hovey Field,10000.0,,False,Richmond,VA,23298,US,,37.5385087,-77.43428,,
@@ -126,9 +126,9 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 5879,Tomlinson Stadium,4000.0,,False,Ellensburg,WA,98926,US,,46.9970635,-120.545122,,
 5945,Wildcat Stadium (GA),10000.0,,False,Fort Valley,GA,,US,,32.5537585,-83.8874084,,
 5121,University of Charleston Stadium,18500.0,,False,Charleston,WV,25314,US,,38.3505995,-81.6332812,,
+5934,Farmers Insurance Athletic Complex,2000.0,,False,Caledonia,MI,63631,US,,42.84267,-85.5136,,
 5880,Elliott Field at Don Beebe Stadium,3500.0,,False,Chadron,NE,69337,US,,42.8309807,-103.0003729,,
 5941,Roebuck Stadium,3500.0,,False,Elizabeth City,NC,28051,US,,36.2956836,-76.2247697,,
-5934,Farmers Insurance Athletic Complex,2000.0,,False,Caledonia,MI,63631,US,,37.763382,-90.7729061,,
 4015,Barron Stadium,6500.0,,False,Rome,GA,30161,US,,34.257038,-85.1646726,,
 3859,Offutt Field,5000.0,,False,Greensburg,PA,15601,US,,40.3014581,-79.5389289,,
 6046,Meares Stadium,5000.0,,False,Mars Hill,NC,,US,,35.82685585,-82.55057686987725,,
@@ -183,6 +183,7 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 3848,Multi-Sport Stadium,1200.0,,False,Worcester,MA,01613,US,,42.2625621,-71.8018877,203.4,2005.0
 3851,Mustang Stadium,3500.0,,False,Stevenson,MD,21153,US,,39.4102772,-76.7128314,154,2012.0
 6284,Village of Lisle-Benedictine University Sports Complex,3071.0,,False,Lisle,IL,60532,US,,41.801159,-88.0747687,,
+6139,Cameron Stadium,3500.0,,False,Washington,PA,15301,US,,40.1645,-80.2457,,
 5903,Community Stadium at Goerke Park,4000.0,,False,Stevens Point,WI,54881,US,,44.5229223,-89.574111,,
 5829,Old National Bank Stadium,1400.0,,False,Saint Bonifacius,MN,,US,,,,,
 3677,Chuck Noll Field,1050.0,,False,Latrobe,PA,15650,US,,40.317287,-79.3840301,,
@@ -198,7 +199,6 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 5822,Cadet Memorial Field,4500.0,,False,New London,CT,06320,US,,41.3556187,-72.0997804,,
 6138,Wilson Field,4000.0,,False,Lexington,VA,22936,US,,37.7840208,-79.4428157,,
 5850,Stoffer Family Stadium,3300.0,,False,Newberg,OR,,US,,45.300347,-122.972751,,
-6139,Cameron Stadium,3500.0,,False,Washington,PA,15301,US,,31.3991238,-88.2019828,,
 6080,Frank M. Lindsay Field,4000.0,,False,Decatur,IL,62521,US,,39.8454163,-88.9524151,,
 3675,Charles A. Gaetano Stadium,1200.0,,False,Utica,NY,13501,US,,43.1009031,-75.2326641,,
 6099,Selby Stadium,9100.0,,False,Delaware,OH,43015,US,,40.2986724,-83.067965,,
@@ -264,8 +264,9 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 7513,O'Hara Field,0.0,,False,Saint Davids,PA,,US,,,,,
 7496,ACU Football Field,0.0,,False,Glendale,AZ,,US,,,,,
 3978,Vigilante Field,0.0,,False,Dillon,MT,,US,,,,,
+6083,Mangelsdorf Field,1500.0,,False,Dallas,PA,18612,US,,41.339,-75.959,,
+6128,Alumni Stadium (PA),1400.0,,False,Greenville,PA,36037,US,,41.402,-80.383,,
 4737,Croke Park Stadium,82300.0,False,False,Dublin,,,IE,,,,4.7,1884.0
-6128,Alumni Stadium (PA),1400.0,,False,Greenville,PA,36037,US,,31.8295972,-86.6177517,,
 5844,McAfee Field,1200.0,,False,Hancock,MI,49930,US,,47.126871,-88.580956,,
 3599,Ace W. Mumford Stadium,28500.0,False,False,Baton Rouge,LA,70807,US,America/Chicago,30.5221461,-91.1896087,20.24213219,1928.0
 1027,Alex G. Spanos Stadium,11075.0,True,False,San Luis Obispo,CA,93405,US,America/Los_Angeles,35.2984123,-120.6650005,84.6832428,2006.0
@@ -301,7 +302,6 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 5862,Butterfield Stadium,5000.0,,False,Ithaca,NY,,US,,42.4396039,-76.4968019,,
 6148,The Pine Bowl,2200.0,,False,Spokane,WA,99201,US,,47.6571934,-117.4235106,,
 6124,Amos Alonzo Stagg Field (PA),3500.0,,False,Selinsgrove,PA,,US,,40.8062437,-76.8607084,,
-6083,Mangelsdorf Field,1500.0,,False,Dallas,PA,18612,US,,32.3117968,-87.1046643,,
 6089,Scotty Wood Stadium,3000.0,,False,Allentown,PA,,US,,40.6022059,-75.4712794,,
 5902,Knox Stadium,3000.0,,False,Huntingdon,PA,16652,US,,40.4847959,-78.0102813,,
 6152,Wiliams Stadium (OH),3500.0,,False,Wilmington,OH,,US,,39.4453393,-83.8285375,,
@@ -542,9 +542,9 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 5919,Ron Roberts Field at the Banta Bowl,3634.0,,False,Appleton,WI,,US,,44.2613967,-88.4069744,,
 5793,Macholtz Stadium,4300.0,,False,Anderson,IN,46016,US,,40.1053196,-85.6802541,,
 6111,Cook Stadium,2500.0,,False,Terre Haute,IN,47809,US,,39.4667025,-87.4139119,,
+3920,Schmidt Stadium,1800.0,,False,Edwardsville,PA,36261,US,,41.269,-75.904,,
 5118,Redwood Bowl,0.0,,False,Aracata,CA,,US,,,,,
 5263,Steele Stadium,3000.0,,False,Owensboro,KY,42   ,US,,37.742297,-87.119976,122.5809097,2004.0
-3920,Schmidt Stadium,1800.0,,False,Edwardsville,PA,36261,US,,33.707182,-85.51021468718943,,
 7225,Polar Park,9508.0,,False,Worcester,MA,01613,US,,42.2625621,-71.8018877,,
 4435,Robert B. Redman Stadium,5000.0,,False,Bloomsburg,PA,17815,US,,41.0044958,-76.4537302,,
 5802,Belhaven Bowl Stadium,1200.0,,False,Jackson,MS,39202,US,,32.2990021,-90.1847691,,
