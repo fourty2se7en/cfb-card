@@ -27,3 +27,34 @@ first_seen_utc,season,week,game,name,market,side,line,pick
 2026-09-29T17:39:43+00:00,2026,5,Baylor@Arizona State,Julian Edlow (DraftKings Network),spread,Arizona State,-4.0,Arizona State -4
 2026-09-29T17:39:43+00:00,2026,5,Baylor@Arizona State,Chris Vasile (Covers),moneyline,Baylor,,Baylor ML
 2026-09-29T17:39:43+00:00,2026,5,San José State@Hawai'i,Chris Vasile (Covers),moneyline,San José State,,San José State ML
+2026-10-09T20:59:30+00:00,2026,6,Florida State@Louisville,Rob Paul (Covers),total,over,59.5,Over 59.5
+2026-10-09T20:59:30+00:00,2026,6,Iowa@Washington,Brad Powers (Covers),spread,Washington,-2.5,Washington -2.5
+2026-10-09T20:59:30+00:00,2026,6,Iowa@Washington,Geoff Clark (Covers),total,under,41.5,Under 41.5
+2026-10-09T20:59:30+00:00,2026,6,Iowa State@BYU,Geoff Clark (Covers),total,under,45.5,Under 45.5
+2026-10-09T20:59:30+00:00,2026,6,Indiana@Nebraska,Colby Marchio (Covers),total,over,48.5,Over 48.5
+2026-10-09T20:59:30+00:00,2026,6,Texas A&M@Missouri,Jason Ence (Covers),total,over,48.5,Over 48.5
+2026-10-09T20:59:30+00:00,2026,6,Stanford@Notre Dame,Geoff Clark (Covers),total,over,54.5,Over 54.5
+2026-10-09T20:59:30+00:00,2026,6,Texas@Oklahoma,Rob Paul (Covers),spread,Texas,-8.5,Texas -8.5
+2026-10-09T20:59:30+00:00,2026,6,Texas@Oklahoma,Chris Gregory (Covers),spread,Texas,-7.5,Texas -7.5
+2026-10-09T20:59:30+00:00,2026,6,LSU@Kentucky,Geoff Clark (Covers),total,under,51.5,Under 51.5
+2026-10-09T20:59:30+00:00,2026,6,Georgia@Alabama,Rob Paul (Covers),total,over,54.5,Over 54.5
+2026-10-09T20:59:30+00:00,2026,6,USC@Penn State,JD Yonke (Covers),spread,USC,1.5,USC +1.5
+2026-10-09T20:59:30+00:00,2026,6,USC@Penn State,JD Yonke (Covers),total,under,56.5,Under 56.5
+2026-10-09T20:59:30+00:00,2026,6,USC@Penn State,Colby Marchio (Covers),moneyline,Penn State,,Penn State ML
+2026-10-09T20:59:30+00:00,2026,6,James Madison@Georgia Southern,Rob Paul (Covers),spread,James Madison,-7.5,James Madison -7.5
+2026-10-09T20:59:30+00:00,2026,6,Minnesota@Purdue,Colby Marchio (Covers),spread,Purdue,2.5,Purdue +2.5
+2026-10-09T20:59:30+00:00,2026,6,Kansas@Utah,Ed Scimia (Covers),total,under,51.5,Under 51.5
+2026-10-09T20:59:30+00:00,2026,6,UCLA@Oregon,Chris Gregory (Covers),spread,UCLA,12.5,UCLA +12.5
+2026-10-09T20:59:30+00:00,2026,6,UCLA@Oregon,Geoff Clark (Covers),total,under,59.5,Under 59.5
+2026-10-09T20:59:30+00:00,2026,6,Boise State@Fresno State,Brad Powers (Covers),spread,Boise State,-5.5,Boise State -5.5
+2026-10-09T20:59:30+00:00,2026,6,Arizona@West Virginia,Colby Marchio (Covers),moneyline,West Virginia,,West Virginia ML
+2026-10-09T20:59:30+00:00,2026,6,UConn@Temple,Rob Paul (Covers),spread,UConn,3.5,UConn +3.5
+2026-10-09T20:59:30+00:00,2026,6,North Dakota State@UNLV,Rob Paul (Covers),spread,North Dakota State,-3.5,North Dakota State -3.5
+2026-10-09T20:59:30+00:00,2026,6,San Diego State@Oregon State,Rob Paul (Covers),spread,Oregon State,-14.5,Oregon State -14.5
+2026-10-09T20:59:30+00:00,2026,6,Tennessee@Arkansas,Chris Hatfield (Covers),total,under,51.5,Under 51.5
+2026-10-09T20:59:30+00:00,2026,6,Ole Miss@Vanderbilt,Nick Galaida (Covers),total,under,55.5,Under 55.5
+2026-10-09T20:59:30+00:00,2026,6,South Carolina@Florida,Nick Galaida (Covers),total,over,59.5,Over 59.5
+2026-10-09T20:59:30+00:00,2026,6,Hawai'i@Arizona State,JD Yonke (Covers),spread,Hawai'i,20.5,Hawai'i +20.5
+2026-10-09T20:59:30+00:00,2026,6,Hawai'i@Arizona State,JD Yonke (Covers),total,under,50.5,Under 50.5
+2026-10-09T20:59:30+00:00,2026,6,Tulsa@Navy,Colby Marchio (Covers),moneyline,Tulsa,,Tulsa ML
+2026-10-09T20:59:30+00:00,2026,6,UAB@Memphis,Rob Paul (Covers),spread,Memphis,-13.5,Memphis -13.5

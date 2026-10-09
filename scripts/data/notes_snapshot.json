@@ -1,5 +1,5 @@
 {
- "saved": "2026-10-09T20:11+00:00",
+ "saved": "2026-10-09T20:59+00:00",
  "notes": {
   "Ohio State@Texas": {
    "notable": [
@@ -1982,6 +1982,554 @@
   "Wyoming@North Dakota State": {
    "injuries": [
     "Wyoming QB T. Hasselbeck has been out with a knee injury since August and WR K. Washom is out, unconfirmed (Covers injury report, Sept 24)"
+   ]
+  },
+  "Florida State@Louisville": {
+   "injuries": [
+    "Louisville QB L. Kienholz is listed questionable with a lower-body injury, unconfirmed (Covers injury report, Oct 3)",
+    "Florida State WR D. Carter is out with a back injury, unconfirmed (Covers injury report, Oct 1)"
+   ],
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "Over 59.5",
+     "market": "total",
+     "side": "over",
+     "line": 59.5
+    }
+   ]
+  },
+  "Washington State@Utah State": {
+   "injuries": [
+    "Utah State RB N. Washington is out, nature undisclosed, unconfirmed (Covers injury report, Oct 9)"
+   ]
+  },
+  "Iowa@Washington": {
+   "injuries": [
+    "Washington S C. Christian is out with an Achilles injury, unconfirmed (Covers injury report, Oct 3)",
+    "Iowa QB H. Brown is listed questionable with a shoulder injury, unconfirmed (Covers injury report, Oct 6)"
+   ],
+   "experts": [
+    {
+     "name": "Brad Powers (Covers)",
+     "record": "record not published",
+     "pick": "Washington -2.5",
+     "market": "spread",
+     "side": "Washington",
+     "line": -2.5
+    },
+    {
+     "name": "Geoff Clark (Covers)",
+     "record": "record not published",
+     "pick": "Under 41.5",
+     "market": "total",
+     "side": "under",
+     "line": 41.5
+    }
+   ]
+  },
+  "Iowa State@BYU": {
+   "injuries": [
+    "BYU RB L. Martin is out with an ankle injury, unconfirmed (Covers injury report, Oct 5)",
+    "Iowa State WR C. Pabst is out with a knee injury, unconfirmed (Covers injury report, Oct 3)"
+   ],
+   "experts": [
+    {
+     "name": "Geoff Clark (Covers)",
+     "record": "record not published",
+     "pick": "Under 45.5",
+     "market": "total",
+     "side": "under",
+     "line": 45.5
+    }
+   ]
+  },
+  "Indiana@Nebraska": {
+   "experts": [
+    {
+     "name": "Colby Marchio (Covers)",
+     "record": "record not published",
+     "pick": "Over 48.5",
+     "market": "total",
+     "side": "over",
+     "line": 48.5
+    }
+   ]
+  },
+  "Texas A&M@Missouri": {
+   "injuries": [
+    "Missouri DL L. Kitchen and DL D. Smith are both out, nature undisclosed, unconfirmed (Covers injury report, Oct 2)",
+    "Texas A&M OG B. Ivy is out, nature undisclosed, unconfirmed (Covers injury report, Oct 8)"
+   ],
+   "experts": [
+    {
+     "name": "Jason Ence (Covers)",
+     "record": "record not published",
+     "pick": "Over 48.5",
+     "market": "total",
+     "side": "over",
+     "line": 48.5
+    }
+   ]
+  },
+  "Buffalo@Toledo": {
+   "injuries": [
+    "Buffalo QB E. Holmes is out with a knee injury, unconfirmed (Covers injury report, Sept 26)"
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 1,
+    "confidence": "unconfirmed"
+   }
+  },
+  "Stanford@Notre Dame": {
+   "injuries": [
+    "Notre Dame LB K. Viliamu-Asa is out with a thumb injury, unconfirmed (Covers injury report, Oct 8)"
+   ],
+   "experts": [
+    {
+     "name": "Geoff Clark (Covers)",
+     "record": "record not published",
+     "pick": "Over 54.5",
+     "market": "total",
+     "side": "over",
+     "line": 54.5
+    }
+   ]
+  },
+  "Eastern Michigan@Akron": {
+   "injuries": [
+    "Akron QB C. Broughton is out with a knee injury, unconfirmed (Covers injury report, Oct 3)",
+    "Akron WR C. Monteiro is out, nature undisclosed, unconfirmed (Covers injury report, Oct 3)"
+   ],
+   "log": {
+    "qb_out": "home",
+    "starters_out": 2,
+    "confidence": "unconfirmed"
+   }
+  },
+  "Texas@Oklahoma": {
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "Texas -8.5",
+     "market": "spread",
+     "side": "Texas",
+     "line": -8.5
+    },
+    {
+     "name": "Chris Gregory (Covers)",
+     "record": "record not published",
+     "pick": "Texas -7.5",
+     "market": "spread",
+     "side": "Texas",
+     "line": -7.5
+    }
+   ],
+   "injuries": [
+    "Texas DL Z. Williams and WR K. Lockett are both out, nature undisclosed, unconfirmed (Covers injury report, Oct 9)",
+    "Oklahoma LB K. Lewis, WR J. Carter and DL D. Stone are all listed questionable, unconfirmed (Covers injury report, Oct 8)"
+   ]
+  },
+  "Virginia Tech@California": {
+   "injuries": [
+    "California QB J. Sagapolutele is listed questionable with a head injury, unconfirmed (Covers injury report, Oct 6)",
+    "California RB C. Vargas is out with a leg injury, unconfirmed (Covers injury report, Oct 9)"
+   ]
+  },
+  "Charlotte@North Texas": {
+   "injuries": [
+    "Charlotte QB C. Harrell is out, nature undisclosed, unconfirmed (Covers injury report, Oct 3)"
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 1,
+    "confidence": "unconfirmed"
+   }
+  },
+  "Miami (OH)@Massachusetts": {
+   "injuries": [
+    "Miami (OH) QB D. McComb is out with an upper-body injury, unconfirmed (Covers injury report, Oct 2)",
+    "Massachusetts RB J. Washington is out, nature undisclosed, unconfirmed (Covers injury report, Oct 3)"
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 2,
+    "confidence": "unconfirmed"
+   }
+  },
+  "LSU@Kentucky": {
+   "injuries": [
+    "Kentucky WR D. Miller is listed questionable with a leg injury, unconfirmed (Covers injury report, Oct 8)",
+    "Kentucky TE L. Watkins is listed questionable, nature undisclosed, unconfirmed (Covers injury report, Oct 8)"
+   ],
+   "experts": [
+    {
+     "name": "Geoff Clark (Covers)",
+     "record": "record not published",
+     "pick": "Under 51.5",
+     "market": "total",
+     "side": "under",
+     "line": 51.5
+    }
+   ]
+  },
+  "Georgia@Alabama": {
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "Over 54.5",
+     "market": "total",
+     "side": "over",
+     "line": 54.5
+    }
+   ],
+   "injuries": [
+    "Alabama TE J. Ford is listed questionable with an arm injury, unconfirmed (Covers injury report, Oct 7)"
+   ]
+  },
+  "Louisiana@Louisiana Tech": {
+   "injuries": [
+    "Louisiana Tech QB T. Kukuk is listed questionable with an ankle injury, unconfirmed (Covers injury report, Oct 8)",
+    "Louisiana Tech QB B. Baker is out with a hand injury, unconfirmed (Covers injury report, Sept 14)",
+    "Louisiana WR J. Norris and RB D. Smith are both out, nature undisclosed, unconfirmed (Covers injury report, Oct 8)",
+    "Louisiana Tech WR D. Benedix is out, nature undisclosed, unconfirmed (Covers injury report, Oct 8)"
+   ]
+  },
+  "Air Force@Northern Illinois": {
+   "injuries": [
+    "Air Force QB Liam Szarka is out for the season with a lower-leg injury suffered against Navy, reported (ESPN, Oct 5)"
+   ],
+   "movement": [
+    "The five-point move follows the Szarka injury report."
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 1,
+    "confidence": "reported"
+   }
+  },
+  "USC@Penn State": {
+   "injuries": [
+    "USC WR C. Simms is out with a knee injury, unconfirmed (Covers injury report, Oct 2)"
+   ],
+   "experts": [
+    {
+     "name": "JD Yonke (Covers)",
+     "record": "record not published",
+     "pick": "USC +1.5",
+     "market": "spread",
+     "side": "USC",
+     "line": 1.5
+    },
+    {
+     "name": "JD Yonke (Covers)",
+     "record": "record not published",
+     "pick": "Under 56.5",
+     "market": "total",
+     "side": "under",
+     "line": 56.5
+    },
+    {
+     "name": "Colby Marchio (Covers)",
+     "record": "record not published",
+     "pick": "Penn State ML",
+     "market": "moneyline",
+     "side": "Penn State"
+    }
+   ]
+  },
+  "James Madison@Georgia Southern": {
+   "injuries": [
+    "James Madison QB J. Evans is listed questionable with a wrist injury, unconfirmed (Covers injury report, Oct 3)",
+    "Georgia Southern WR A. Hollins is out with a shoulder injury, unconfirmed (Covers injury report, Oct 1)"
+   ],
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "James Madison -7.5",
+     "market": "spread",
+     "side": "James Madison",
+     "line": -7.5
+    }
+   ]
+  },
+  "Minnesota@Purdue": {
+   "experts": [
+    {
+     "name": "Colby Marchio (Covers)",
+     "record": "record not published",
+     "pick": "Purdue +2.5",
+     "market": "spread",
+     "side": "Purdue",
+     "line": 2.5
+    }
+   ]
+  },
+  "Kansas@Utah": {
+   "injuries": [
+    "Kansas QB C. Ballard is out with a shoulder injury, unconfirmed (Covers injury report, Oct 2)",
+    "Kansas QB J. Mason is out, nature undisclosed, unconfirmed (Covers injury report, Sept 17)",
+    "Kansas TE C. Moses and RB K. Amachree are both out, nature undisclosed, unconfirmed (Covers injury report, Oct 3)"
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 2,
+    "confidence": "unconfirmed"
+   },
+   "experts": [
+    {
+     "name": "Ed Scimia (Covers)",
+     "record": "record not published",
+     "pick": "Under 51.5",
+     "market": "total",
+     "side": "under",
+     "line": 51.5
+    }
+   ]
+  },
+  "UCLA@Oregon": {
+   "injuries": [
+    "Oregon QB Dante Moore is ruled out with a concussion and Dylan Raiola starts in his place, confirmed (ESPN and USA Today, Oct 8)"
+   ],
+   "experts": [
+    {
+     "name": "Chris Gregory (Covers)",
+     "record": "record not published",
+     "pick": "UCLA +12.5",
+     "market": "spread",
+     "side": "UCLA",
+     "line": 12.5
+    },
+    {
+     "name": "Geoff Clark (Covers)",
+     "record": "record not published",
+     "pick": "Under 59.5",
+     "market": "total",
+     "side": "under",
+     "line": 59.5
+    }
+   ],
+   "log": {
+    "qb_out": "home",
+    "starters_out": 1,
+    "confidence": "confirmed"
+   }
+  },
+  "Boise State@Fresno State": {
+   "experts": [
+    {
+     "name": "Brad Powers (Covers)",
+     "record": "record not published",
+     "pick": "Boise State -5.5",
+     "market": "spread",
+     "side": "Boise State",
+     "line": -5.5
+    }
+   ]
+  },
+  "Houston@Kansas State": {
+   "injuries": [
+    "Houston RB J. Hebert is out with a leg injury, unconfirmed (Covers injury report, Oct 5)",
+    "Kansas State TE W. Anciaux is out with a leg injury, unconfirmed (Covers injury report, Oct 5)",
+    "Houston TE J. Thurman is out, nature undisclosed, unconfirmed (Covers injury report, Oct 9)"
+   ]
+  },
+  "Arizona@West Virginia": {
+   "injuries": [
+    "Arizona WR T. Spivey is out with an ankle injury, unconfirmed (Covers injury report, Oct 4)",
+    "Arizona TE C. Rusk is out with a leg injury, unconfirmed (Covers injury report, Oct 1)",
+    "West Virginia WR J. Neider is out, nature undisclosed, unconfirmed (Covers injury report, Oct 9)"
+   ],
+   "experts": [
+    {
+     "name": "Colby Marchio (Covers)",
+     "record": "record not published",
+     "pick": "West Virginia ML",
+     "market": "moneyline",
+     "side": "West Virginia"
+    }
+   ]
+  },
+  "UConn@Temple": {
+   "injuries": [
+    "UConn WR J. Brown is out with a concussion, unconfirmed (Covers injury report, Oct 5)",
+    "Temple QB J. Smolik is listed questionable with a foot injury, unconfirmed (Covers injury report, Oct 4)"
+   ],
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "UConn +3.5",
+     "market": "spread",
+     "side": "UConn",
+     "line": 3.5
+    }
+   ]
+  },
+  "North Dakota State@UNLV": {
+   "injuries": [
+    "North Dakota State RB D. Scott is out with a foot injury, unconfirmed (Covers injury report, Oct 3)",
+    "North Dakota State RB B. Toliver, WRs D. Schlosser and K. Schlichting and TE C. Danner are all out, nature undisclosed, unconfirmed (Covers injury report, Oct 9)"
+   ],
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "North Dakota State -3.5",
+     "market": "spread",
+     "side": "North Dakota State",
+     "line": -3.5
+    }
+   ]
+  },
+  "San Diego State@Oregon State": {
+   "injuries": [
+    "Oregon State RB K. Glass is out, nature undisclosed, unconfirmed (Covers injury report, Oct 2)"
+   ],
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "Oregon State -14.5",
+     "market": "spread",
+     "side": "Oregon State",
+     "line": -14.5
+    }
+   ]
+  },
+  "Wyoming@San Jos\u00e9 State": {
+   "injuries": [
+    "Wyoming WR D. DeBlanc is out with a toe injury, unconfirmed (Covers injury report, Oct 5)"
+   ]
+  },
+  "UCF@Oklahoma State": {
+   "injuries": [
+    "UCF QB A. Barnett III is listed questionable with a hamstring injury, unconfirmed (Covers injury report, Oct 5)"
+   ]
+  },
+  "Tennessee@Arkansas": {
+   "injuries": [
+    "Tennessee CB Q. Moss is out, nature undisclosed, unconfirmed (Covers injury report, Oct 3)"
+   ],
+   "experts": [
+    {
+     "name": "Chris Hatfield (Covers)",
+     "record": "record not published",
+     "pick": "Under 51.5",
+     "market": "total",
+     "side": "under",
+     "line": 51.5
+    }
+   ]
+  },
+  "North Carolina@Pittsburgh": {
+   "injuries": [
+    "Pittsburgh QB M. Heintschel is listed questionable with a leg injury, unconfirmed (Covers injury report, Oct 2)"
+   ]
+  },
+  "Ole Miss@Vanderbilt": {
+   "injuries": [
+    "Vanderbilt QB J. Curtis is listed questionable, nature undisclosed, unconfirmed (Covers injury report, Oct 3)",
+    "Vanderbilt WR K. Smith is out, nature undisclosed, unconfirmed (Covers injury report, Oct 2)"
+   ],
+   "experts": [
+    {
+     "name": "Nick Galaida (Covers)",
+     "record": "record not published",
+     "pick": "Under 55.5",
+     "market": "total",
+     "side": "under",
+     "line": 55.5
+    }
+   ]
+  },
+  "Illinois@Michigan State": {
+   "injuries": [
+    "Michigan State QB C. Fancher is listed questionable with a knee injury, unconfirmed (Covers injury report, Oct 3)",
+    "Michigan State LB C. Wheatland is out, nature undisclosed, unconfirmed (Covers injury report, Oct 8)",
+    "Michigan State RB C. Edwards is listed questionable with a knee injury, unconfirmed (Covers injury report, Oct 8)"
+   ]
+  },
+  "Syracuse@Virginia": {
+   "injuries": [
+    "Virginia WR T. Ward is out, nature undisclosed, unconfirmed (Covers injury report, Oct 1)",
+    "Syracuse QB A. Odom is listed questionable, nature undisclosed, unconfirmed (Covers injury report, Oct 9)"
+   ]
+  },
+  "Sacramento State@Bowling Green": {
+   "injuries": [
+    "Bowling Green RB K. Baldwin is out, nature undisclosed, unconfirmed (Covers injury report, Oct 3)"
+   ]
+  },
+  "South Carolina@Florida": {
+   "injuries": [
+    "South Carolina QB L. Anderson III is listed questionable, nature undisclosed, unconfirmed (Covers injury report, Oct 8)"
+   ],
+   "experts": [
+    {
+     "name": "Nick Galaida (Covers)",
+     "record": "record not published",
+     "pick": "Over 59.5",
+     "market": "total",
+     "side": "over",
+     "line": 59.5
+    }
+   ]
+  },
+  "Nevada@UTEP": {
+   "injuries": [
+    "UTEP QB E. Colson Jr. is listed questionable, nature undisclosed, unconfirmed (Covers injury report, Oct 6)"
+   ]
+  },
+  "Hawai'i@Arizona State": {
+   "injuries": [
+    "Arizona State CB L. Rawls is out with a leg injury, unconfirmed (Covers injury report, Oct 7)"
+   ],
+   "experts": [
+    {
+     "name": "JD Yonke (Covers)",
+     "record": "record not published",
+     "pick": "Hawai'i +20.5",
+     "market": "spread",
+     "side": "Hawai'i",
+     "line": 20.5
+    },
+    {
+     "name": "JD Yonke (Covers)",
+     "record": "record not published",
+     "pick": "Under 50.5",
+     "market": "total",
+     "side": "under",
+     "line": 50.5
+    }
+   ]
+  },
+  "Tulsa@Navy": {
+   "experts": [
+    {
+     "name": "Colby Marchio (Covers)",
+     "record": "record not published",
+     "pick": "Tulsa ML",
+     "market": "moneyline",
+     "side": "Tulsa"
+    }
+   ]
+  },
+  "UAB@Memphis": {
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "Memphis -13.5",
+     "market": "spread",
+     "side": "Memphis",
+     "line": -13.5
+    }
    ]
   }
  }
