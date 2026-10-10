@@ -1,279 +1,384 @@
-season,week,away,home,model,market,actual,model_err,market_err,closer
-2026,1,North Carolina,TCU,2.6,7.5,-5.0,7.6,12.5,model
-2026,1,San José State,USC,28.9,37.5,16.0,12.9,21.5,model
-2026,1,NC State,Virginia,11.9,4.0,26.0,14.1,22.0,model
-2026,1,Jacksonville State,North Dakota State,-0.9,6.5,26.0,26.9,19.5,market
-2026,1,Sacramento State,Eastern Michigan,24.0,9.0,11.0,13.0,2.0,market
-2026,1,Hawai'i,Stanford,5.1,4.5,10.0,4.9,5.5,model
-2026,1,New Mexico State,Florida State,22.4,31.0,17.0,5.4,14.0,model
-2026,1,Memphis,UNLV,1.2,4.5,-6.0,7.2,10.5,model
-2026,1,Massachusetts,Rutgers,15.5,29.5,-16.0,31.5,45.5,model
-2026,1,Akron,Wake Forest,19.1,27.5,22.0,2.9,5.5,model
-2026,1,Colorado,Georgia Tech,10.1,6.5,-1.0,11.1,7.5,market
-2026,1,UAB,Illinois,19.6,25.5,19.0,0.6,6.5,model
-2026,1,San José State,Eastern Michigan,6.0,1.5,-6.0,12.0,7.5,market
-2026,1,Toledo,Michigan State,2.2,10.0,10.0,7.8,0.0,market
-2026,1,UTEP,Oklahoma,37.9,40.5,51.0,13.1,10.5,market
-2026,1,Fresno State,USC,24.1,21.5,39.0,14.9,17.5,model
-2026,1,Miami,Stanford,-23.3,-24.5,-39.0,15.7,14.5,market
-2026,1,East Carolina,Alabama,24.8,28.0,38.0,13.2,10.0,market
-2026,1,Ohio,Nebraska,16.2,23.5,28.0,11.8,4.5,market
-2026,1,North Texas,Indiana,25.1,39.5,36.0,10.9,3.5,market
-2026,1,Liberty,James Madison,15.8,6.0,7.0,8.8,1.0,market
-2026,1,Oregon State,Houston,16.0,21.0,13.0,3.0,8.0,model
-2026,1,Coastal Carolina,West Virginia,11.4,21.0,7.0,4.4,14.0,model
-2026,1,Ball State,Ohio State,47.1,50.5,53.0,5.9,2.5,market
-2026,1,Miami (OH),Pittsburgh,24.1,16.5,45.0,20.9,28.5,model
-2026,1,Kent State,South Carolina,34.9,35.5,57.0,22.1,21.5,market
-2026,1,Boston College,Cincinnati,11.4,7.0,19.0,7.6,12.0,model
-2026,1,Texas State,Texas,31.5,29.5,52.0,20.5,22.5,model
-2026,1,Marshall,Penn State,28.4,23.5,45.0,16.6,21.5,model
-2026,1,Baylor,Auburn,8.8,6.5,1.0,7.8,5.5,market
-2026,1,Boise State,Oregon,19.2,24.5,7.0,12.2,17.5,model
-2026,1,Oklahoma State,Tulsa,7.8,-13.5,14.0,6.2,27.5,model
-2026,1,Northern Illinois,Iowa,33.5,31.5,40.0,6.5,8.5,model
-2026,1,Tulane,Duke,9.1,8.8,14.0,4.9,5.2,model
-2026,1,Wyoming,Colorado State,9.6,2.8,22.0,12.4,19.2,model
-2026,1,Florida International,South Florida,17.2,14.5,10.0,7.2,4.5,market
-2026,1,Arkansas State,Memphis,15.1,10.5,18.0,2.9,7.5,model
-2026,1,Missouri State,Texas A&M,36.8,39.5,50.0,13.2,10.5,market
-2026,1,Sam Houston,Troy,13.9,16.5,3.0,10.9,13.5,model
-2026,1,Western Michigan,Michigan,13.9,27.5,1.0,12.9,26.5,model
-2026,1,UL Monroe,Mississippi State,33.1,28.5,49.0,15.9,20.5,model
-2026,1,Florida Atlantic,Florida,30.5,26.0,45.0,14.5,19.0,model
-2026,1,Clemson,LSU,16.4,10.0,41.0,24.6,31.0,model
-2026,1,Central Michigan,New Mexico,17.6,11.0,31.0,13.4,20.0,model
-2026,1,UNLV,Hawai'i,-4.5,-2.0,-15.0,10.5,13.0,model
-2026,1,UCLA,California,-1.2,-2.5,-21.0,19.8,18.5,market
-2026,1,Western Kentucky,Nevada,7.8,-0.0,35.0,27.2,35.0,model
-2026,1,Washington State,Washington,14.4,24.0,14.0,0.4,10.0,model
-2026,1,Louisville,Ole Miss,8.8,6.5,3.0,5.8,3.5,market
-2026,1,Wisconsin,Notre Dame,23.9,21.0,28.0,4.1,7.0,model
-2026,1,SMU,Florida State,0.4,-3.0,-3.0,3.4,0.0,market
-2026,2,Rutgers,Boston College,8.6,3.0,7.0,1.6,4.0,model
-2026,2,Missouri,Kansas,-7.2,-4.5,-17.0,9.8,12.5,model
-2026,2,Arizona State,Texas A&M,21.4,14.8,28.0,6.6,13.2,model
-2026,2,Old Dominion,Virginia Tech,11.1,17.8,23.0,11.9,5.2,market
-2026,2,App State,East Carolina,6.6,6.5,-3.0,9.6,9.5,market
-2026,2,South Florida,Army,-4.6,3.0,-4.0,0.6,7.0,model
-2026,2,Wake Forest,Purdue,-2.8,-2.8,-2.0,0.8,0.8,market
-2026,2,Washington State,Kansas State,19.8,17.8,27.0,7.2,9.2,model
-2026,2,Oregon,Oklahoma State,-11.2,-23.8,8.0,19.2,31.8,model
-2026,2,Penn State,Temple,-11.6,-24.2,-18.0,6.4,6.2,market
-2026,2,Oklahoma,Michigan,-0.2,-5.0,7.0,7.2,12.0,model
-2026,2,Western Kentucky,Georgia,40.3,40.2,50.0,9.7,9.8,model
-2026,2,Duke,Illinois,1.8,6.0,-4.0,5.8,10.0,model
-2026,2,UCF,Pittsburgh,10.2,7.0,5.0,5.2,2.0,market
-2026,2,Alabama,Kentucky,-10.3,-9.0,-28.0,17.7,19.0,model
-2026,2,UL Monroe,UAB,11.1,9.5,6.0,5.1,3.5,market
-2026,2,Arizona,BYU,8.4,7.0,11.0,2.6,4.0,model
-2026,2,Rice,Notre Dame,43.5,44.5,52.0,8.5,7.5,market
-2026,2,Maryland,UConn,1.7,-11.5,-24.0,25.7,12.5,market
-2026,2,Eastern Michigan,Michigan State,22.2,17.5,28.0,5.8,10.5,model
-2026,2,Mississippi State,Minnesota,-5.9,-0.0,-25.0,19.1,25.0,model
-2026,2,Utah State,Washington,15.1,28.0,2.0,13.1,26.0,model
-2026,2,UTSA,Texas State,-3.5,2.5,-5.0,1.5,7.5,model
-2026,2,California,Syracuse,7.2,3.5,-3.0,10.2,6.5,market
-2026,2,UNLV,North Texas,16.9,-3.0,38.0,21.1,41.0,model
-2026,2,Delaware,Vanderbilt,23.7,21.0,9.0,14.7,12.0,market
-2026,2,Jacksonville State,Ohio,3.1,1.5,2.0,1.1,0.5,market
-2026,2,Buffalo,Florida International,15.9,10.0,13.0,2.9,3.0,model
-2026,2,Memphis,Boise State,11.5,9.0,18.0,6.5,9.0,model
-2026,2,Middle Tennessee,Marshall,6.5,13.0,2.0,4.5,11.0,model
-2026,2,Tulsa,Sam Houston,-0.5,-12.5,-6.0,5.5,6.5,model
-2026,2,Tennessee,Georgia Tech,-10.1,-12.0,-21.0,10.9,9.0,market
-2026,2,Georgia State,Kennesaw State,7.4,8.0,-14.0,21.4,22.0,model
-2026,2,Bowling Green,Nebraska,29.1,30.5,49.0,19.9,18.5,market
-2026,2,South Alabama,Tulane,10.7,9.5,4.0,6.7,5.5,market
-2026,2,San Diego State,UCLA,10.7,13.5,18.0,7.3,4.5,market
-2026,2,Navy,Florida Atlantic,1.1,-4.5,8.0,6.9,12.5,model
-2026,2,Louisiana Tech,LSU,24.7,35.0,31.0,6.3,4.0,market
-2026,2,Texas Tech,Oregon State,-19.4,-26.0,-11.0,8.4,15.0,model
-2026,2,Georgia Southern,Clemson,16.8,20.0,15.0,1.8,5.0,model
-2026,2,Ohio State,Texas,2.0,1.5,1.0,1.0,0.5,market
-2026,2,Iowa State,Iowa,10.4,14.0,3.0,7.4,11.0,model
-2026,2,Southern Miss,Auburn,21.3,32.8,35.0,13.7,2.2,market
-2026,2,Charlotte,Ole Miss,38.8,45.0,32.0,6.8,13.0,model
-2026,2,North Dakota State,Air Force,7.0,-2.0,-6.0,13.0,4.0,market
-2026,2,Arkansas,Utah,24.6,12.5,33.0,8.4,20.5,model
-2026,2,Sacramento State,Fresno State,32.6,17.5,46.0,13.4,28.5,model
-2026,2,Louisiana,USC,22.2,31.0,19.0,3.2,12.0,model
-2026,2,New Mexico State,Hawai'i,7.6,7.0,10.0,2.4,3.0,model
-2026,3,Syracuse,Pittsburgh,16.6,10.5,14.0,2.6,3.5,model
-2026,3,Miami,Wake Forest,-13.0,-20.5,-13.0,0.0,7.5,model
-2026,3,Houston,Texas Tech,14.5,7.5,2.0,12.5,5.5,market
-2026,3,Coastal Carolina,Delaware,8.0,5.0,8.0,0.0,3.0,model
-2026,3,North Texas,Texas State,-1.4,3.0,14.0,15.4,11.0,market
-2026,3,Buffalo,Penn State,36.3,39.8,42.0,5.7,2.2,market
-2026,3,Kent State,Ohio State,46.1,52.2,56.0,9.9,3.8,market
-2026,3,Akron,Minnesota,19.8,22.5,34.0,14.2,11.5,market
-2026,3,Georgia,Arkansas,-18.7,-24.5,-28.0,9.3,3.5,market
-2026,3,North Carolina,Clemson,9.3,3.0,8.0,1.3,5.0,model
-2026,3,Tulane,Kansas State,16.2,20.5,11.0,5.2,9.5,model
-2026,3,Bowling Green,Iowa State,34.5,23.2,48.0,13.5,24.8,model
-2026,3,Arizona State,Kansas,-6.4,-5.2,-7.0,0.6,1.8,model
-2026,3,Eastern Michigan,Wisconsin,28.7,23.5,44.0,15.3,20.5,model
-2026,3,NC State,Vanderbilt,9.9,3.0,4.0,5.9,1.0,market
-2026,3,Wyoming,Central Michigan,12.6,-1.8,14.0,1.4,15.8,model
-2026,3,Temple,Toledo,14.4,5.0,1.0,13.4,4.0,market
-2026,3,USC,Rutgers,-11.2,-21.0,-7.0,4.2,14.0,model
-2026,3,Utah State,Utah,28.7,27.2,33.0,4.3,5.8,model
-2026,3,UTEP,Michigan,28.6,34.5,35.0,6.4,0.5,market
-2026,3,Kentucky,Texas A&M,15.2,16.5,-10.0,25.2,26.5,model
-2026,3,Miami (OH),Cincinnati,15.2,14.5,4.0,11.2,10.5,market
-2026,3,Florida State,Alabama,21.5,19.0,14.0,7.5,5.0,market
-2026,3,SMU,Louisville,5.1,2.5,10.0,4.9,7.5,model
-2026,3,Ball State,Liberty,20.5,14.5,36.0,15.5,21.5,model
-2026,3,Stanford,Duke,22.8,10.0,28.0,5.2,18.0,model
-2026,3,Western Kentucky,Indiana,40.6,44.5,38.0,2.6,6.5,model
-2026,3,Louisiana Tech,Baylor,16.6,20.0,17.0,0.4,3.0,model
-2026,3,Mississippi State,South Carolina,3.3,3.5,-7.0,10.3,10.5,model
-2026,3,Charlotte,App State,17.7,17.5,5.0,12.7,12.5,market
-2026,3,Florida International,Florida Atlantic,-0.1,6.5,6.0,6.1,0.5,market
-2026,3,East Carolina,Old Dominion,6.4,3.0,-3.0,9.4,6.0,market
-2026,3,Marshall,Missouri State,5.7,-4.0,-6.0,11.7,2.0,market
-2026,3,Georgia State,UCF,16.7,17.5,14.0,2.7,3.5,model
-2026,3,Ohio,South Alabama,8.7,7.0,5.0,3.7,2.0,market
-2026,3,Western Michigan,Rice,-7.5,-9.0,-7.0,0.5,2.0,model
-2026,3,Florida,Auburn,0.9,-2.0,-5.0,5.9,3.0,market
-2026,3,UConn,Southern Miss,-3.6,-3.5,-28.0,24.4,24.5,model
-2026,3,Nevada,Middle Tennessee,6.6,-3.5,7.0,0.4,10.5,model
-2026,3,Troy,Missouri,20.9,27.0,10.0,10.9,17.0,model
-2026,3,Georgia Southern,Jacksonville State,6.9,3.5,4.0,2.9,0.5,market
-2026,3,New Mexico,Oklahoma,15.9,21.0,8.0,7.9,13.0,model
-2026,3,Virginia Tech,Maryland,4.0,-2.5,-9.0,13.0,6.5,market
-2026,3,West Virginia,Virginia,5.9,10.8,-11.0,16.9,21.8,model
-2026,3,BYU,Colorado State,-11.6,-17.5,-18.0,6.4,0.5,market
-2026,3,LSU,Ole Miss,8.2,-3.0,8.0,0.2,11.0,model
-2026,3,Michigan State,Notre Dame,26.5,29.0,17.0,9.5,12.0,model
-2026,3,Colorado,Northwestern,17.2,3.5,34.0,16.8,30.5,model
-2026,3,Kennesaw State,Tennessee,30.1,35.0,33.0,2.9,2.0,market
-2026,3,UTSA,Texas,22.1,30.0,24.0,1.9,6.0,model
-2026,3,UAB,Louisiana,13.3,7.0,7.0,6.3,0.0,market
-2026,3,Arkansas State,TCU,21.4,19.0,24.0,2.6,5.0,model
-2026,3,James Madison,San Diego State,-6.1,1.5,-13.0,6.9,14.5,model
-2026,3,North Dakota State,Sacramento State,-13.8,-26.5,-21.0,7.2,5.5,market
-2026,3,Northern Illinois,Arizona,27.6,34.2,25.0,2.6,9.2,model
-2026,3,Fresno State,San José State,-6.3,-5.5,-16.0,9.7,10.5,model
-2026,3,Purdue,UCLA,15.4,14.0,14.0,1.4,0.0,market
-2026,4,Liberty,Coastal Carolina,-1.7,-2.5,-17.0,15.3,14.5,market
-2026,4,Army,Temple,4.7,-4.0,-4.0,8.7,0.0,market
-2026,4,Navy,UAB,4.6,-6.5,4.0,0.6,10.5,model
-2026,4,Northwestern,Indiana,18.2,20.5,6.0,12.2,14.5,model
-2026,4,Clemson,California,-2.1,-2.5,-14.0,11.9,11.5,market
-2026,4,Illinois,Ohio State,24.2,25.5,23.0,1.2,2.5,model
-2026,4,Wake Forest,Louisville,10.0,11.2,-3.0,13.0,14.2,model
-2026,4,Texas,Tennessee,3.0,-5.5,-3.0,6.0,2.5,market
-2026,4,UNLV,Akron,-7.8,-13.5,-28.0,20.2,14.5,market
-2026,4,Virginia Tech,Boston College,-5.0,-14.5,-7.0,2.0,7.5,model
-2026,4,Sam Houston,Texas Tech,33.6,34.5,35.0,1.4,0.5,market
-2026,4,San Diego State,Toledo,14.3,2.8,25.0,10.7,22.2,model
-2026,4,Colorado State,UTSA,16.8,14.2,14.0,2.8,0.2,market
-2026,4,Colorado,Baylor,14.8,8.5,10.0,4.8,1.5,market
-2026,4,Ball State,Kent State,8.3,2.5,13.0,4.7,10.5,model
-2026,4,South Alabama,Kentucky,20.7,20.5,24.0,3.3,3.5,model
-2026,4,UCLA,Maryland,-7.7,-2.5,-51.0,43.3,48.5,model
-2026,4,Northern Illinois,Georgia State,15.7,8.8,21.0,5.3,12.2,model
-2026,4,Notre Dame,Purdue,-24.6,-27.5,-39.0,14.4,11.5,market
-2026,4,Hawai'i,Wyoming,5.3,-2.0,17.0,11.7,19.0,model
-2026,4,UConn,Miami (OH),1.6,2.5,3.0,1.4,0.5,market
-2026,4,TCU,UCF,3.7,-3.5,8.0,4.3,11.5,model
-2026,4,Utah,Iowa State,-4.5,-7.5,-14.0,9.5,6.5,market
-2026,4,Boise State,Western Michigan,-3.7,-7.5,-25.0,21.3,17.5,market
-2026,4,New Mexico,New Mexico State,-11.9,-11.5,-24.0,12.1,12.5,model
-2026,4,Iowa,Michigan,0.2,5.5,-1.0,1.2,6.5,model
-2026,4,Ole Miss,Florida,12.2,4.0,24.0,11.8,20.0,model
-2026,4,Oklahoma,Georgia,21.5,12.0,28.0,6.5,16.0,model
-2026,4,Houston,Georgia Southern,-9.5,-17.5,-14.0,4.5,3.5,market
-2026,4,Vanderbilt,Auburn,6.6,10.0,6.0,0.6,4.0,model
-2026,4,South Florida,Bowling Green,-17.8,-18.5,-8.0,9.8,10.5,model
-2026,4,Nebraska,Michigan State,-5.1,-6.0,-18.0,12.9,12.0,market
-2026,4,Wisconsin,Penn State,10.8,10.0,-4.0,14.8,14.0,market
-2026,4,Delaware,Virginia,26.6,20.0,39.0,12.4,19.0,model
-2026,4,James Madison,Old Dominion,-10.4,-7.0,-26.0,15.6,19.0,model
-2026,4,Louisiana,Charlotte,-9.6,-10.0,-27.0,17.4,17.0,market
-2026,4,Central Michigan,Miami,41.2,41.5,49.0,7.8,7.5,market
-2026,4,Kennesaw State,Arkansas State,6.9,6.5,3.0,3.9,3.5,market
-2026,4,Kansas State,Cincinnati,2.5,-6.0,5.0,2.5,11.0,model
-2026,4,Southern Miss,Tulane,12.4,17.8,3.0,9.4,14.8,model
-2026,4,Middle Tennessee,Jacksonville State,12.1,7.0,10.0,2.1,3.0,model
-2026,4,South Carolina,Alabama,21.4,12.5,31.0,9.6,18.5,model
-2026,4,Oklahoma State,West Virginia,3.5,2.0,-17.0,20.5,19.0,market
-2026,4,App State,NC State,16.2,13.0,10.0,6.2,3.0,market
-2026,4,Arizona,Washington State,-1.6,-10.5,-10.0,8.4,0.5,market
-2026,4,Oregon,USC,-1.2,-3.5,-14.0,12.8,10.5,market
-2026,4,Troy,Utah State,6.4,3.0,11.0,4.6,8.0,model
-2026,4,Texas A&M,LSU,10.4,8.0,29.0,18.6,21.0,model
-2026,4,Missouri,Mississippi State,7.5,4.5,7.0,0.5,2.5,model
-2026,4,Tulsa,Arkansas,12.3,7.0,28.0,15.7,21.0,model
-2026,4,Florida Atlantic,UL Monroe,-6.5,-11.5,-28.0,21.5,16.5,market
-2026,4,Missouri State,SMU,24.3,32.0,10.0,14.3,22.0,model
-2026,4,Oregon State,UTEP,-11.0,-11.5,-26.0,15.0,14.5,market
-2026,4,Massachusetts,Sacramento State,-17.7,-4.8,-29.0,11.3,24.2,model
-2026,4,Rice,Fresno State,18.1,13.0,14.0,4.1,1.0,market
-2026,4,Georgia Tech,Stanford,-1.5,-3.0,7.0,8.5,10.0,model
-2026,4,Air Force,Nevada,3.6,-6.0,-3.0,6.6,3.0,market
-2026,4,Minnesota,Washington,8.4,10.5,-3.0,11.4,13.5,model
-2026,5,Western Kentucky,New Mexico State,5.7,1.5,21.0,15.3,19.5,model
-2026,5,North Texas,Tulsa,-3.4,-2.0,-1.0,2.4,1.0,market
-2026,5,Pittsburgh,Virginia Tech,0.7,1.5,-2.0,2.7,3.5,model
-2026,5,Liberty,Delaware,-5.3,-7.0,-16.0,10.7,9.0,market
-2026,5,Penn State,Northwestern,8.2,-2.8,21.0,12.8,23.8,model
-2026,5,Memphis,Charlotte,-22.5,-19.5,-51.0,28.5,31.5,model
-2026,5,Syracuse,UConn,6.4,-6.5,-1.0,7.4,5.5,market
-2026,5,West Virginia,Iowa State,12.1,3.0,3.0,9.1,0.0,market
-2026,5,Navy,Air Force,6.0,2.8,5.0,1.0,2.2,model
-2026,5,Boston College,SMU,20.7,21.5,9.0,11.7,12.5,model
-2026,5,Stanford,Wake Forest,25.3,14.5,54.0,28.7,39.5,model
-2026,5,Middle Tennessee,Kansas,24.9,21.0,55.0,30.1,34.0,model
-2026,5,Michigan,Minnesota,3.1,-6.2,6.0,2.9,12.2,model
-2026,5,UCF,Houston,11.3,10.5,10.0,1.3,0.5,market
-2026,5,Alabama,Mississippi State,-10.9,-5.5,-33.0,22.1,27.5,model
-2026,5,Notre Dame,North Carolina,-14.2,-21.0,-11.0,3.2,10.0,model
-2026,5,Michigan State,Wisconsin,16.7,8.8,28.0,11.3,19.2,model
-2026,5,Vanderbilt,Georgia,23.6,25.5,24.0,0.4,1.5,model
-2026,5,Western Michigan,Buffalo,-5.8,-13.2,-3.0,2.8,10.2,model
-2026,5,Toledo,Ball State,-14.2,-20.8,-15.0,0.8,5.8,model
-2026,5,Florida,Missouri,6.5,-5.5,28.0,21.5,33.5,model
-2026,5,Ohio State,Iowa,-6.6,-14.5,-17.0,10.4,2.5,market
-2026,5,Ohio,Kent State,-2.3,-3.5,-3.0,0.7,0.5,market
-2026,5,Eastern Michigan,Massachusetts,3.2,5.5,-24.0,27.2,29.5,model
-2026,5,Akron,Central Michigan,13.0,7.0,24.0,11.0,17.0,model
-2026,5,Louisville,NC State,3.8,-5.0,3.0,0.8,8.0,model
-2026,5,Old Dominion,Georgia State,13.2,2.5,32.0,18.8,29.5,model
-2026,5,Virginia,Florida State,10.0,-1.0,31.0,21.0,32.0,model
-2026,5,Wyoming,North Dakota State,10.8,17.0,28.0,17.2,11.0,market
-2026,5,California,UNLV,9.0,1.0,8.0,1.0,7.0,model
-2026,5,Bowling Green,Miami (OH),13.0,10.5,-4.0,17.0,14.5,market
-2026,5,Auburn,Tennessee,12.1,6.5,10.0,2.1,3.5,model
-2026,5,Marshall,James Madison,26.7,15.5,28.0,1.3,12.5,model
-2026,5,Maryland,Nebraska,24.2,15.0,25.0,0.8,10.0,model
-2026,5,UTEP,New Mexico,33.1,23.5,54.0,20.9,30.5,model
-2026,5,Purdue,Illinois,12.2,9.5,-7.0,19.2,16.5,market
-2026,5,Kentucky,South Carolina,3.7,2.5,-1.0,4.7,3.5,market
-2026,5,Oregon State,Colorado State,-9.1,-6.5,-30.0,20.9,23.5,model
-2026,5,Arkansas,Texas A&M,19.1,14.0,27.0,7.9,13.0,model
-2026,5,UTSA,Rice,-6.5,-12.0,-2.0,4.5,10.0,model
-2026,5,UL Monroe,South Alabama,20.0,13.5,17.0,3.0,3.5,model
-2026,5,BYU,TCU,1.6,-6.0,-7.0,8.6,1.0,market
-2026,5,Georgia Southern,Coastal Carolina,-1.1,-2.0,-7.0,5.9,5.0,market
-2026,5,Utah State,Boise State,19.1,19.5,19.0,0.1,0.5,model
-2026,5,Temple,South Florida,14.8,5.5,-4.0,18.8,9.5,market
-2026,5,Washington,USC,10.1,7.5,4.0,6.1,3.5,market
-2026,5,Texas Tech,Colorado,-15.7,-13.5,-22.0,6.3,8.5,model
-2026,5,Miami,Clemson,-14.6,-15.5,-28.0,13.4,12.5,market
-2026,5,Army,Louisiana Tech,5.6,-0.0,2.0,3.6,2.0,market
-2026,5,Arkansas State,Louisiana,6.6,6.0,3.0,3.6,3.0,market
-2026,5,Indiana,Rutgers,-20.3,-24.5,-32.0,11.7,7.5,market
-2026,5,Fresno State,Washington State,1.0,2.0,-20.0,21.0,22.0,model
-2026,5,Baylor,Arizona State,-3.4,3.5,-36.0,32.6,39.5,model
-2026,5,Texas State,San Diego State,1.2,-10.0,2.0,0.8,12.0,model
-2026,5,Cincinnati,Arizona,14.7,7.0,27.0,12.3,20.0,model
-2026,5,San José State,Hawai'i,3.8,3.0,-4.0,7.8,7.0,market
-2026,6,Southern Miss,Troy,12.8,9.5,21.0,8.2,11.5,model
-2026,6,Jacksonville State,Kennesaw State,5.3,-3.0,-1.0,6.3,2.0,market
-2026,6,New Mexico State,Florida International,13.6,6.5,19.0,5.4,12.5,model
-2026,6,Missouri State,Western Kentucky,10.0,-1.5,21.0,11.0,22.5,model
-2026,6,Sam Houston,Liberty,20.0,13.5,32.0,12.0,18.5,model
-2026,6,South Alabama,Arkansas State,5.2,3.0,-7.0,12.2,10.0,market
-2026,6,South Florida,UTSA,3.4,6.5,7.0,3.6,0.5,market
+season,week,away,home,model,market,actual,model_err,market_err,closer,captured,captured_utc
+2026,1,North Carolina,TCU,2.6,7.5,-5.0,7.6,12.5,model,post,
+2026,1,San José State,USC,28.9,37.5,16.0,12.9,21.5,model,post,
+2026,1,NC State,Virginia,11.9,4.0,26.0,14.1,22.0,model,post,
+2026,1,Jacksonville State,North Dakota State,-0.9,6.5,26.0,26.9,19.5,market,post,
+2026,1,Sacramento State,Eastern Michigan,24.0,9.0,11.0,13.0,2.0,market,post,
+2026,1,Hawai'i,Stanford,5.1,4.5,10.0,4.9,5.5,model,post,
+2026,1,New Mexico State,Florida State,22.4,31.0,17.0,5.4,14.0,model,post,
+2026,1,Memphis,UNLV,1.2,4.5,-6.0,7.2,10.5,model,post,
+2026,1,Massachusetts,Rutgers,15.5,29.5,-16.0,31.5,45.5,model,post,
+2026,1,Akron,Wake Forest,19.1,27.5,22.0,2.9,5.5,model,post,
+2026,1,Colorado,Georgia Tech,10.1,6.5,-1.0,11.1,7.5,market,post,
+2026,1,UAB,Illinois,19.6,25.5,19.0,0.6,6.5,model,post,
+2026,1,San José State,Eastern Michigan,6.0,1.5,-6.0,12.0,7.5,market,post,
+2026,1,Toledo,Michigan State,2.2,10.0,10.0,7.8,0.0,market,post,
+2026,1,UTEP,Oklahoma,37.9,40.5,51.0,13.1,10.5,market,post,
+2026,1,Fresno State,USC,24.1,21.5,39.0,14.9,17.5,model,post,
+2026,1,Miami,Stanford,-23.3,-24.5,-39.0,15.7,14.5,market,post,
+2026,1,East Carolina,Alabama,24.8,28.0,38.0,13.2,10.0,market,post,
+2026,1,Ohio,Nebraska,16.2,23.5,28.0,11.8,4.5,market,post,
+2026,1,North Texas,Indiana,25.1,39.5,36.0,10.9,3.5,market,post,
+2026,1,Liberty,James Madison,15.8,6.0,7.0,8.8,1.0,market,post,
+2026,1,Oregon State,Houston,16.0,21.0,13.0,3.0,8.0,model,post,
+2026,1,Coastal Carolina,West Virginia,11.4,21.0,7.0,4.4,14.0,model,post,
+2026,1,Ball State,Ohio State,47.1,50.5,53.0,5.9,2.5,market,post,
+2026,1,Miami (OH),Pittsburgh,24.1,16.5,45.0,20.9,28.5,model,post,
+2026,1,Kent State,South Carolina,34.9,35.5,57.0,22.1,21.5,market,post,
+2026,1,Boston College,Cincinnati,11.4,7.0,19.0,7.6,12.0,model,post,
+2026,1,Texas State,Texas,31.5,29.5,52.0,20.5,22.5,model,post,
+2026,1,Marshall,Penn State,28.4,23.5,45.0,16.6,21.5,model,post,
+2026,1,Baylor,Auburn,8.8,6.5,1.0,7.8,5.5,market,post,
+2026,1,Boise State,Oregon,19.2,24.5,7.0,12.2,17.5,model,post,
+2026,1,Oklahoma State,Tulsa,7.8,-13.5,14.0,6.2,27.5,model,post,
+2026,1,Northern Illinois,Iowa,33.5,31.5,40.0,6.5,8.5,model,post,
+2026,1,Tulane,Duke,9.1,8.8,14.0,4.9,5.2,model,post,
+2026,1,Wyoming,Colorado State,9.6,2.8,22.0,12.4,19.2,model,post,
+2026,1,Florida International,South Florida,17.2,14.5,10.0,7.2,4.5,market,post,
+2026,1,Arkansas State,Memphis,15.1,10.5,18.0,2.9,7.5,model,post,
+2026,1,Missouri State,Texas A&M,36.8,39.5,50.0,13.2,10.5,market,post,
+2026,1,Sam Houston,Troy,13.9,16.5,3.0,10.9,13.5,model,post,
+2026,1,Western Michigan,Michigan,13.9,27.5,1.0,12.9,26.5,model,post,
+2026,1,UL Monroe,Mississippi State,33.1,28.5,49.0,15.9,20.5,model,post,
+2026,1,Florida Atlantic,Florida,30.5,26.0,45.0,14.5,19.0,model,post,
+2026,1,Clemson,LSU,16.4,10.0,41.0,24.6,31.0,model,post,
+2026,1,Central Michigan,New Mexico,17.6,11.0,31.0,13.4,20.0,model,post,
+2026,1,UNLV,Hawai'i,-4.5,-2.0,-15.0,10.5,13.0,model,post,
+2026,1,UCLA,California,-1.2,-2.5,-21.0,19.8,18.5,market,post,
+2026,1,Western Kentucky,Nevada,7.8,-0.0,35.0,27.2,35.0,model,post,
+2026,1,Washington State,Washington,14.4,24.0,14.0,0.4,10.0,model,post,
+2026,1,Louisville,Ole Miss,8.8,6.5,3.0,5.8,3.5,market,post,
+2026,1,Wisconsin,Notre Dame,23.9,21.0,28.0,4.1,7.0,model,post,
+2026,1,SMU,Florida State,0.4,-3.0,-3.0,3.4,0.0,market,post,
+2026,2,Rutgers,Boston College,8.6,3.0,7.0,1.6,4.0,model,post,
+2026,2,Missouri,Kansas,-7.2,-4.5,-17.0,9.8,12.5,model,post,
+2026,2,Arizona State,Texas A&M,21.4,14.8,28.0,6.6,13.2,model,post,
+2026,2,Old Dominion,Virginia Tech,11.1,17.8,23.0,11.9,5.2,market,post,
+2026,2,App State,East Carolina,6.6,6.5,-3.0,9.6,9.5,market,post,
+2026,2,South Florida,Army,-4.6,3.0,-4.0,0.6,7.0,model,post,
+2026,2,Wake Forest,Purdue,-2.8,-2.8,-2.0,0.8,0.8,market,post,
+2026,2,Washington State,Kansas State,19.8,17.8,27.0,7.2,9.2,model,post,
+2026,2,Oregon,Oklahoma State,-11.2,-23.8,8.0,19.2,31.8,model,post,
+2026,2,Penn State,Temple,-11.6,-24.2,-18.0,6.4,6.2,market,post,
+2026,2,Oklahoma,Michigan,-0.2,-5.0,7.0,7.2,12.0,model,post,
+2026,2,Western Kentucky,Georgia,40.3,40.2,50.0,9.7,9.8,model,post,
+2026,2,Duke,Illinois,1.8,6.0,-4.0,5.8,10.0,model,post,
+2026,2,UCF,Pittsburgh,10.2,7.0,5.0,5.2,2.0,market,post,
+2026,2,Alabama,Kentucky,-10.3,-9.0,-28.0,17.7,19.0,model,post,
+2026,2,UL Monroe,UAB,11.1,9.5,6.0,5.1,3.5,market,post,
+2026,2,Arizona,BYU,8.4,7.0,11.0,2.6,4.0,model,post,
+2026,2,Rice,Notre Dame,43.5,44.5,52.0,8.5,7.5,market,post,
+2026,2,Maryland,UConn,1.7,-11.5,-24.0,25.7,12.5,market,post,
+2026,2,Eastern Michigan,Michigan State,22.2,17.5,28.0,5.8,10.5,model,post,
+2026,2,Mississippi State,Minnesota,-5.9,-0.0,-25.0,19.1,25.0,model,post,
+2026,2,Utah State,Washington,15.1,28.0,2.0,13.1,26.0,model,post,
+2026,2,UTSA,Texas State,-3.5,2.5,-5.0,1.5,7.5,model,post,
+2026,2,California,Syracuse,7.2,3.5,-3.0,10.2,6.5,market,post,
+2026,2,UNLV,North Texas,16.9,-3.0,38.0,21.1,41.0,model,post,
+2026,2,Delaware,Vanderbilt,23.7,21.0,9.0,14.7,12.0,market,post,
+2026,2,Jacksonville State,Ohio,3.1,1.5,2.0,1.1,0.5,market,post,
+2026,2,Buffalo,Florida International,15.9,10.0,13.0,2.9,3.0,model,post,
+2026,2,Memphis,Boise State,11.5,9.0,18.0,6.5,9.0,model,post,
+2026,2,Middle Tennessee,Marshall,6.5,13.0,2.0,4.5,11.0,model,post,
+2026,2,Tulsa,Sam Houston,-0.5,-12.5,-6.0,5.5,6.5,model,post,
+2026,2,Tennessee,Georgia Tech,-10.1,-12.0,-21.0,10.9,9.0,market,post,
+2026,2,Georgia State,Kennesaw State,7.4,8.0,-14.0,21.4,22.0,model,post,
+2026,2,Bowling Green,Nebraska,29.1,30.5,49.0,19.9,18.5,market,post,
+2026,2,South Alabama,Tulane,10.7,9.5,4.0,6.7,5.5,market,post,
+2026,2,San Diego State,UCLA,10.7,13.5,18.0,7.3,4.5,market,post,
+2026,2,Navy,Florida Atlantic,1.1,-4.5,8.0,6.9,12.5,model,post,
+2026,2,Louisiana Tech,LSU,24.7,35.0,31.0,6.3,4.0,market,post,
+2026,2,Texas Tech,Oregon State,-19.4,-26.0,-11.0,8.4,15.0,model,post,
+2026,2,Georgia Southern,Clemson,16.8,20.0,15.0,1.8,5.0,model,post,
+2026,2,Ohio State,Texas,2.0,1.5,1.0,1.0,0.5,market,post,
+2026,2,Iowa State,Iowa,10.4,14.0,3.0,7.4,11.0,model,post,
+2026,2,Southern Miss,Auburn,21.3,32.8,35.0,13.7,2.2,market,post,
+2026,2,Charlotte,Ole Miss,38.8,45.0,32.0,6.8,13.0,model,post,
+2026,2,North Dakota State,Air Force,7.0,-2.0,-6.0,13.0,4.0,market,post,
+2026,2,Arkansas,Utah,24.6,12.5,33.0,8.4,20.5,model,post,
+2026,2,Sacramento State,Fresno State,32.6,17.5,46.0,13.4,28.5,model,post,
+2026,2,Louisiana,USC,22.2,31.0,19.0,3.2,12.0,model,post,
+2026,2,New Mexico State,Hawai'i,7.6,7.0,10.0,2.4,3.0,model,post,
+2026,3,Syracuse,Pittsburgh,16.6,10.5,14.0,2.6,3.5,model,post,
+2026,3,Miami,Wake Forest,-13.0,-20.5,-13.0,0.0,7.5,model,post,
+2026,3,Houston,Texas Tech,14.5,7.5,2.0,12.5,5.5,market,post,
+2026,3,Coastal Carolina,Delaware,8.0,5.0,8.0,0.0,3.0,model,post,
+2026,3,North Texas,Texas State,-1.4,3.0,14.0,15.4,11.0,market,post,
+2026,3,Buffalo,Penn State,36.3,39.8,42.0,5.7,2.2,market,post,
+2026,3,Kent State,Ohio State,46.1,52.2,56.0,9.9,3.8,market,post,
+2026,3,Akron,Minnesota,19.8,22.5,34.0,14.2,11.5,market,post,
+2026,3,Georgia,Arkansas,-18.7,-24.5,-28.0,9.3,3.5,market,post,
+2026,3,North Carolina,Clemson,9.3,3.0,8.0,1.3,5.0,model,post,
+2026,3,Tulane,Kansas State,16.2,20.5,11.0,5.2,9.5,model,post,
+2026,3,Bowling Green,Iowa State,34.5,23.2,48.0,13.5,24.8,model,post,
+2026,3,Arizona State,Kansas,-6.4,-5.2,-7.0,0.6,1.8,model,post,
+2026,3,Eastern Michigan,Wisconsin,28.7,23.5,44.0,15.3,20.5,model,post,
+2026,3,NC State,Vanderbilt,9.9,3.0,4.0,5.9,1.0,market,post,
+2026,3,Wyoming,Central Michigan,12.6,-1.8,14.0,1.4,15.8,model,post,
+2026,3,Temple,Toledo,14.4,5.0,1.0,13.4,4.0,market,post,
+2026,3,USC,Rutgers,-11.2,-21.0,-7.0,4.2,14.0,model,post,
+2026,3,Utah State,Utah,28.7,27.2,33.0,4.3,5.8,model,post,
+2026,3,UTEP,Michigan,28.6,34.5,35.0,6.4,0.5,market,post,
+2026,3,Kentucky,Texas A&M,15.2,16.5,-10.0,25.2,26.5,model,post,
+2026,3,Miami (OH),Cincinnati,15.2,14.5,4.0,11.2,10.5,market,post,
+2026,3,Florida State,Alabama,21.5,19.0,14.0,7.5,5.0,market,post,
+2026,3,SMU,Louisville,5.1,2.5,10.0,4.9,7.5,model,post,
+2026,3,Ball State,Liberty,20.5,14.5,36.0,15.5,21.5,model,post,
+2026,3,Stanford,Duke,22.8,10.0,28.0,5.2,18.0,model,post,
+2026,3,Western Kentucky,Indiana,40.6,44.5,38.0,2.6,6.5,model,post,
+2026,3,Louisiana Tech,Baylor,16.6,20.0,17.0,0.4,3.0,model,post,
+2026,3,Mississippi State,South Carolina,3.3,3.5,-7.0,10.3,10.5,model,post,
+2026,3,Charlotte,App State,17.7,17.5,5.0,12.7,12.5,market,post,
+2026,3,Florida International,Florida Atlantic,-0.1,6.5,6.0,6.1,0.5,market,post,
+2026,3,East Carolina,Old Dominion,6.4,3.0,-3.0,9.4,6.0,market,post,
+2026,3,Marshall,Missouri State,5.7,-4.0,-6.0,11.7,2.0,market,post,
+2026,3,Georgia State,UCF,16.7,17.5,14.0,2.7,3.5,model,post,
+2026,3,Ohio,South Alabama,8.7,7.0,5.0,3.7,2.0,market,post,
+2026,3,Western Michigan,Rice,-7.5,-9.0,-7.0,0.5,2.0,model,post,
+2026,3,Florida,Auburn,0.9,-2.0,-5.0,5.9,3.0,market,post,
+2026,3,UConn,Southern Miss,-3.6,-3.5,-28.0,24.4,24.5,model,post,
+2026,3,Nevada,Middle Tennessee,6.6,-3.5,7.0,0.4,10.5,model,post,
+2026,3,Troy,Missouri,20.9,27.0,10.0,10.9,17.0,model,post,
+2026,3,Georgia Southern,Jacksonville State,6.9,3.5,4.0,2.9,0.5,market,post,
+2026,3,New Mexico,Oklahoma,15.9,21.0,8.0,7.9,13.0,model,post,
+2026,3,Virginia Tech,Maryland,4.0,-2.5,-9.0,13.0,6.5,market,post,
+2026,3,West Virginia,Virginia,5.9,10.8,-11.0,16.9,21.8,model,post,
+2026,3,BYU,Colorado State,-11.6,-17.5,-18.0,6.4,0.5,market,post,
+2026,3,LSU,Ole Miss,8.2,-3.0,8.0,0.2,11.0,model,post,
+2026,3,Michigan State,Notre Dame,26.5,29.0,17.0,9.5,12.0,model,post,
+2026,3,Colorado,Northwestern,17.2,3.5,34.0,16.8,30.5,model,post,
+2026,3,Kennesaw State,Tennessee,30.1,35.0,33.0,2.9,2.0,market,post,
+2026,3,UTSA,Texas,22.1,30.0,24.0,1.9,6.0,model,post,
+2026,3,UAB,Louisiana,13.3,7.0,7.0,6.3,0.0,market,post,
+2026,3,Arkansas State,TCU,21.4,19.0,24.0,2.6,5.0,model,post,
+2026,3,James Madison,San Diego State,-6.1,1.5,-13.0,6.9,14.5,model,post,
+2026,3,North Dakota State,Sacramento State,-13.8,-26.5,-21.0,7.2,5.5,market,post,
+2026,3,Northern Illinois,Arizona,27.6,34.2,25.0,2.6,9.2,model,post,
+2026,3,Fresno State,San José State,-6.3,-5.5,-16.0,9.7,10.5,model,post,
+2026,3,Purdue,UCLA,15.4,14.0,14.0,1.4,0.0,market,post,
+2026,4,Liberty,Coastal Carolina,-1.7,-2.5,-17.0,15.3,14.5,market,post,
+2026,4,Army,Temple,4.7,-4.0,-4.0,8.7,0.0,market,post,
+2026,4,Navy,UAB,4.6,-6.5,4.0,0.6,10.5,model,post,
+2026,4,Northwestern,Indiana,18.2,20.5,6.0,12.2,14.5,model,post,
+2026,4,Clemson,California,-2.1,-2.5,-14.0,11.9,11.5,market,post,
+2026,4,Illinois,Ohio State,24.2,25.5,23.0,1.2,2.5,model,post,
+2026,4,Wake Forest,Louisville,10.0,11.2,-3.0,13.0,14.2,model,post,
+2026,4,Texas,Tennessee,3.0,-5.5,-3.0,6.0,2.5,market,post,
+2026,4,UNLV,Akron,-7.8,-13.5,-28.0,20.2,14.5,market,post,
+2026,4,Virginia Tech,Boston College,-5.0,-14.5,-7.0,2.0,7.5,model,post,
+2026,4,Sam Houston,Texas Tech,33.6,34.5,35.0,1.4,0.5,market,post,
+2026,4,San Diego State,Toledo,14.3,2.8,25.0,10.7,22.2,model,post,
+2026,4,Colorado State,UTSA,16.8,14.2,14.0,2.8,0.2,market,post,
+2026,4,Colorado,Baylor,14.8,8.5,10.0,4.8,1.5,market,post,
+2026,4,Ball State,Kent State,8.3,2.5,13.0,4.7,10.5,model,post,
+2026,4,South Alabama,Kentucky,20.7,20.5,24.0,3.3,3.5,model,post,
+2026,4,UCLA,Maryland,-7.7,-2.5,-51.0,43.3,48.5,model,post,
+2026,4,Northern Illinois,Georgia State,15.7,8.8,21.0,5.3,12.2,model,post,
+2026,4,Notre Dame,Purdue,-24.6,-27.5,-39.0,14.4,11.5,market,post,
+2026,4,Hawai'i,Wyoming,5.3,-2.0,17.0,11.7,19.0,model,post,
+2026,4,UConn,Miami (OH),1.6,2.5,3.0,1.4,0.5,market,post,
+2026,4,TCU,UCF,3.7,-3.5,8.0,4.3,11.5,model,post,
+2026,4,Utah,Iowa State,-4.5,-7.5,-14.0,9.5,6.5,market,post,
+2026,4,Boise State,Western Michigan,-3.7,-7.5,-25.0,21.3,17.5,market,post,
+2026,4,New Mexico,New Mexico State,-11.9,-11.5,-24.0,12.1,12.5,model,post,
+2026,4,Iowa,Michigan,0.2,5.5,-1.0,1.2,6.5,model,post,
+2026,4,Ole Miss,Florida,12.2,4.0,24.0,11.8,20.0,model,post,
+2026,4,Oklahoma,Georgia,21.5,12.0,28.0,6.5,16.0,model,post,
+2026,4,Houston,Georgia Southern,-9.5,-17.5,-14.0,4.5,3.5,market,post,
+2026,4,Vanderbilt,Auburn,6.6,10.0,6.0,0.6,4.0,model,post,
+2026,4,South Florida,Bowling Green,-17.8,-18.5,-8.0,9.8,10.5,model,post,
+2026,4,Nebraska,Michigan State,-5.1,-6.0,-18.0,12.9,12.0,market,post,
+2026,4,Wisconsin,Penn State,10.8,10.0,-4.0,14.8,14.0,market,post,
+2026,4,Delaware,Virginia,26.6,20.0,39.0,12.4,19.0,model,post,
+2026,4,James Madison,Old Dominion,-10.4,-7.0,-26.0,15.6,19.0,model,post,
+2026,4,Louisiana,Charlotte,-9.6,-10.0,-27.0,17.4,17.0,market,post,
+2026,4,Central Michigan,Miami,41.2,41.5,49.0,7.8,7.5,market,post,
+2026,4,Kennesaw State,Arkansas State,6.9,6.5,3.0,3.9,3.5,market,post,
+2026,4,Kansas State,Cincinnati,2.5,-6.0,5.0,2.5,11.0,model,post,
+2026,4,Southern Miss,Tulane,12.4,17.8,3.0,9.4,14.8,model,post,
+2026,4,Middle Tennessee,Jacksonville State,12.1,7.0,10.0,2.1,3.0,model,post,
+2026,4,South Carolina,Alabama,21.4,12.5,31.0,9.6,18.5,model,post,
+2026,4,Oklahoma State,West Virginia,3.5,2.0,-17.0,20.5,19.0,market,post,
+2026,4,App State,NC State,16.2,13.0,10.0,6.2,3.0,market,post,
+2026,4,Arizona,Washington State,-1.6,-10.5,-10.0,8.4,0.5,market,post,
+2026,4,Oregon,USC,-1.2,-3.5,-14.0,12.8,10.5,market,post,
+2026,4,Troy,Utah State,6.4,3.0,11.0,4.6,8.0,model,post,
+2026,4,Texas A&M,LSU,10.4,8.0,29.0,18.6,21.0,model,post,
+2026,4,Missouri,Mississippi State,7.5,4.5,7.0,0.5,2.5,model,post,
+2026,4,Tulsa,Arkansas,12.3,7.0,28.0,15.7,21.0,model,post,
+2026,4,Florida Atlantic,UL Monroe,-6.5,-11.5,-28.0,21.5,16.5,market,post,
+2026,4,Missouri State,SMU,24.3,32.0,10.0,14.3,22.0,model,post,
+2026,4,Oregon State,UTEP,-11.0,-11.5,-26.0,15.0,14.5,market,post,
+2026,4,Massachusetts,Sacramento State,-17.7,-4.8,-29.0,11.3,24.2,model,post,
+2026,4,Rice,Fresno State,18.1,13.0,14.0,4.1,1.0,market,post,
+2026,4,Georgia Tech,Stanford,-1.5,-3.0,7.0,8.5,10.0,model,post,
+2026,4,Air Force,Nevada,3.6,-6.0,-3.0,6.6,3.0,market,post,
+2026,4,Minnesota,Washington,8.4,10.5,-3.0,11.4,13.5,model,post,
+2026,5,Western Kentucky,New Mexico State,5.7,1.5,21.0,15.3,19.5,model,post,
+2026,5,North Texas,Tulsa,-3.4,-2.0,-1.0,2.4,1.0,market,post,
+2026,5,Pittsburgh,Virginia Tech,0.7,1.5,-2.0,2.7,3.5,model,post,
+2026,5,Liberty,Delaware,-5.3,-7.0,-16.0,10.7,9.0,market,post,
+2026,5,Penn State,Northwestern,8.2,-2.8,21.0,12.8,23.8,model,post,
+2026,5,Memphis,Charlotte,-22.5,-19.5,-51.0,28.5,31.5,model,post,
+2026,5,Syracuse,UConn,6.4,-6.5,-1.0,7.4,5.5,market,post,
+2026,5,West Virginia,Iowa State,12.1,3.0,3.0,9.1,0.0,market,post,
+2026,5,Navy,Air Force,6.0,2.8,5.0,1.0,2.2,model,post,
+2026,5,Boston College,SMU,20.7,21.5,9.0,11.7,12.5,model,post,
+2026,5,Stanford,Wake Forest,25.3,14.5,54.0,28.7,39.5,model,post,
+2026,5,Middle Tennessee,Kansas,24.9,21.0,55.0,30.1,34.0,model,post,
+2026,5,Michigan,Minnesota,3.1,-6.2,6.0,2.9,12.2,model,post,
+2026,5,UCF,Houston,11.3,10.5,10.0,1.3,0.5,market,post,
+2026,5,Alabama,Mississippi State,-10.9,-5.5,-33.0,22.1,27.5,model,post,
+2026,5,Notre Dame,North Carolina,-14.2,-21.0,-11.0,3.2,10.0,model,post,
+2026,5,Michigan State,Wisconsin,16.7,8.8,28.0,11.3,19.2,model,post,
+2026,5,Vanderbilt,Georgia,23.6,25.5,24.0,0.4,1.5,model,post,
+2026,5,Western Michigan,Buffalo,-5.8,-13.2,-3.0,2.8,10.2,model,post,
+2026,5,Toledo,Ball State,-14.2,-20.8,-15.0,0.8,5.8,model,post,
+2026,5,Florida,Missouri,6.5,-5.5,28.0,21.5,33.5,model,post,
+2026,5,Ohio State,Iowa,-6.6,-14.5,-17.0,10.4,2.5,market,post,
+2026,5,Ohio,Kent State,-2.3,-3.5,-3.0,0.7,0.5,market,post,
+2026,5,Eastern Michigan,Massachusetts,3.2,5.5,-24.0,27.2,29.5,model,post,
+2026,5,Akron,Central Michigan,13.0,7.0,24.0,11.0,17.0,model,post,
+2026,5,Louisville,NC State,3.8,-5.0,3.0,0.8,8.0,model,post,
+2026,5,Old Dominion,Georgia State,13.2,2.5,32.0,18.8,29.5,model,post,
+2026,5,Virginia,Florida State,10.0,-1.0,31.0,21.0,32.0,model,post,
+2026,5,Wyoming,North Dakota State,10.8,17.0,28.0,17.2,11.0,market,post,
+2026,5,California,UNLV,9.0,1.0,8.0,1.0,7.0,model,post,
+2026,5,Bowling Green,Miami (OH),13.0,10.5,-4.0,17.0,14.5,market,post,
+2026,5,Auburn,Tennessee,12.1,6.5,10.0,2.1,3.5,model,post,
+2026,5,Marshall,James Madison,26.7,15.5,28.0,1.3,12.5,model,post,
+2026,5,Maryland,Nebraska,24.2,15.0,25.0,0.8,10.0,model,post,
+2026,5,UTEP,New Mexico,33.1,23.5,54.0,20.9,30.5,model,post,
+2026,5,Purdue,Illinois,12.2,9.5,-7.0,19.2,16.5,market,post,
+2026,5,Kentucky,South Carolina,3.7,2.5,-1.0,4.7,3.5,market,post,
+2026,5,Oregon State,Colorado State,-9.1,-6.5,-30.0,20.9,23.5,model,post,
+2026,5,Arkansas,Texas A&M,19.1,14.0,27.0,7.9,13.0,model,post,
+2026,5,UTSA,Rice,-6.5,-12.0,-2.0,4.5,10.0,model,post,
+2026,5,UL Monroe,South Alabama,20.0,13.5,17.0,3.0,3.5,model,post,
+2026,5,BYU,TCU,1.6,-6.0,-7.0,8.6,1.0,market,post,
+2026,5,Georgia Southern,Coastal Carolina,-1.1,-2.0,-7.0,5.9,5.0,market,post,
+2026,5,Utah State,Boise State,19.1,19.5,19.0,0.1,0.5,model,post,
+2026,5,Temple,South Florida,14.8,5.5,-4.0,18.8,9.5,market,post,
+2026,5,Washington,USC,10.1,7.5,4.0,6.1,3.5,market,post,
+2026,5,Texas Tech,Colorado,-15.7,-13.5,-22.0,6.3,8.5,model,post,
+2026,5,Miami,Clemson,-14.6,-15.5,-28.0,13.4,12.5,market,post,
+2026,5,Army,Louisiana Tech,5.6,-0.0,2.0,3.6,2.0,market,post,
+2026,5,Arkansas State,Louisiana,6.6,6.0,3.0,3.6,3.0,market,post,
+2026,5,Indiana,Rutgers,-20.3,-24.5,-32.0,11.7,7.5,market,post,
+2026,5,Fresno State,Washington State,1.0,2.0,-20.0,21.0,22.0,model,post,
+2026,5,Baylor,Arizona State,-3.4,3.5,-36.0,32.6,39.5,model,post,
+2026,5,Texas State,San Diego State,1.2,-10.0,2.0,0.8,12.0,model,post,
+2026,5,Cincinnati,Arizona,14.7,7.0,27.0,12.3,20.0,model,post,
+2026,5,San José State,Hawai'i,3.8,3.0,-4.0,7.8,7.0,market,post,
+2026,6,Southern Miss,Troy,12.8,9.5,21.0,8.2,11.5,model,post,
+2026,6,Jacksonville State,Kennesaw State,5.3,-3.0,-1.0,6.3,2.0,market,post,
+2026,6,New Mexico State,Florida International,13.6,6.5,19.0,5.4,12.5,model,post,
+2026,6,Missouri State,Western Kentucky,10.0,-1.5,21.0,11.0,22.5,model,post,
+2026,6,Sam Houston,Liberty,20.0,13.5,32.0,12.0,18.5,model,post,
+2026,6,South Alabama,Arkansas State,5.2,3.0,-7.0,12.2,10.0,market,post,
+2026,6,South Florida,UTSA,3.4,6.5,7.0,3.6,0.5,market,post,
+2026,6,Iowa State,BYU,11.7,11.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Tulane,Army,4.0,3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,North Carolina,Pittsburgh,12.1,3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Sacramento State,Bowling Green,25.1,8.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Indiana,Nebraska,-3.9,-7.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Wake Forest,NC State,3.5,-3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Arizona,West Virginia,-3.8,-3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,UCF,Oklahoma State,3.4,10.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Texas A&M,Missouri,7.1,3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Ball State,Northwestern,33.2,35.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,South Carolina,Florida,13.9,11.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Old Dominion,App State,10.0,9.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Miami (OH),Massachusetts,0.7,-3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Kent State,Western Michigan,18.1,14.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,UCLA,Oregon,15.9,10.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Virginia Tech,California,1.4,-10.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Central Michigan,Ohio,9.1,3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Illinois,Michigan State,2.6,-2.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Buffalo,Toledo,24.6,19.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Houston,Kansas State,2.9,2.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Charlotte,North Texas,35.3,28.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Texas,Oklahoma,-7.8,-7.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Eastern Michigan,Akron,0.8,-5.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Duke,Georgia Tech,0.5,-6.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Stanford,Notre Dame,40.6,39.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Ole Miss,Vanderbilt,3.8,-9.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Tulsa,Navy,1.8,1.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,UConn,Temple,3.9,3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Rice,East Carolina,18.0,10.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Tennessee,Arkansas,-8.0,-13.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Maryland,Ohio State,36.6,33.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,San Diego State,Oregon State,14.8,16.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,UAB,Memphis,22.5,14.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Coastal Carolina,Marshall,8.2,4.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,North Dakota State,UNLV,16.1,-3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,LSU,Kentucky,-3.2,-8.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Nevada,UTEP,-1.5,-9.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Georgia,Alabama,6.0,1.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Air Force,Northern Illinois,0.8,-7.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,USC,Penn State,6.2,1.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,James Madison,Georgia Southern,-8.8,-7.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Louisiana,Louisiana Tech,5.5,3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Syracuse,Virginia,13.6,9.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Minnesota,Purdue,-0.6,-2.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Kansas,Utah,20.0,15.5,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Hawai'i,Arizona State,19.8,21.0,,,,,pre,2026-10-10T01:07+00:00
+2026,6,Boise State,Fresno State,0.5,-7.0,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Delaware,Middle Tennessee,3.9,1.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Florida International,Jacksonville State,5.5,3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Colorado State,Texas State,17.9,12.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Wisconsin,UCLA,5.9,3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Nebraska,Oregon,13.0,12.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Penn State,Michigan,3.5,5.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Mississippi State,LSU,16.9,12.2,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Ohio State,Indiana,4.0,-3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Kansas,Kansas State,9.2,8.8,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Florida,Texas,11.3,8.8,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Auburn,Georgia,22.7,18.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Alabama,Tennessee,-3.8,-5.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,North Carolina,Duke,10.3,4.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Missouri,Ole Miss,2.8,6.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Florida State,Miami,22.1,19.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Kentucky,Oklahoma,8.4,6.2,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Notre Dame,BYU,-6.5,-12.5,,,,,pre,2026-10-10T01:07+00:00
+2026,7,Oklahoma State,Houston,14.3,3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,8,Duke,Virginia,5.4,6.5,,,,,pre,2026-10-10T01:07+00:00
+2026,8,Houston,Utah,13.8,6.5,,,,,pre,2026-10-10T01:07+00:00
+2026,8,Indiana,Michigan,-8.6,-6.0,,,,,pre,2026-10-10T01:07+00:00
+2026,8,Ole Miss,Texas,14.7,8.5,,,,,pre,2026-10-10T01:07+00:00
+2026,8,Texas A&M,Alabama,18.1,2.5,,,,,pre,2026-10-10T01:07+00:00
+2026,9,Ohio State,USC,-8.1,-7.5,,,,,pre,2026-10-10T01:07+00:00
+2026,9,Clemson,Florida State,11.4,-1.5,,,,,pre,2026-10-10T01:07+00:00
+2026,9,Florida,Georgia,11.5,12.5,,,,,pre,2026-10-10T01:07+00:00
+2026,10,Michigan State,Michigan,14.4,16.5,,,,,pre,2026-10-10T01:07+00:00
+2026,10,BYU,Utah,13.3,3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,10,Alabama,LSU,-0.2,3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,10,Georgia,Ole Miss,-8.5,-4.5,,,,,pre,2026-10-10T01:07+00:00
+2026,10,Oregon,Ohio State,12.4,6.0,,,,,pre,2026-10-10T01:07+00:00
+2026,10,Miami,Notre Dame,4.4,6.5,,,,,pre,2026-10-10T01:07+00:00
+2026,11,Texas Tech,Oklahoma State,-9.3,-15.5,,,,,pre,2026-10-10T01:07+00:00
+2026,11,Ole Miss,Oklahoma,6.9,4.0,,,,,pre,2026-10-10T01:07+00:00
+2026,11,Duke,Miami,24.6,21.0,,,,,pre,2026-10-10T01:07+00:00
+2026,11,USC,Indiana,18.4,10.0,,,,,pre,2026-10-10T01:07+00:00
+2026,11,Michigan,Oregon,17.7,13.5,,,,,pre,2026-10-10T01:07+00:00
+2026,11,Tennessee,Texas A&M,4.8,8.5,,,,,pre,2026-10-10T01:07+00:00
+2026,11,Texas,LSU,6.0,-2.5,,,,,pre,2026-10-10T01:07+00:00
+2026,12,Virginia Tech,Miami,29.4,16.5,,,,,pre,2026-10-10T01:07+00:00
+2026,12,Texas A&M,Oklahoma,4.1,2.5,,,,,pre,2026-10-10T01:07+00:00
+2026,12,LSU,Tennessee,2.7,-1.5,,,,,pre,2026-10-10T01:07+00:00
+2026,12,SMU,Notre Dame,22.8,17.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,TCU,Texas Tech,18.4,16.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Mississippi State,Ole Miss,8.9,14.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Florida,Florida State,2.0,-4.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Texas,Texas A&M,0.8,-2.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Washington,Oregon,18.6,15.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Illinois,Northwestern,14.8,-3.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,NC State,North Carolina,4.5,-1.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,USC,UCLA,5.2,-10.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,South Carolina,Clemson,4.5,3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Auburn,Alabama,22.4,10.0,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Arizona State,Arizona,16.3,4.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Tennessee,Vanderbilt,-0.6,-3.0,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Virginia,Virginia Tech,2.7,1.5,,,,,pre,2026-10-10T01:07+00:00
+2026,13,Michigan,Ohio State,23.7,13.5,,,,,pre,2026-10-10T01:07+00:00
+2026,15,Navy,Army,3.6,-2.5,,,,,pre,2026-10-10T01:07+00:00
