@@ -1437,7 +1437,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,7,North Carolina,Duke,total,total_model,AVOID,D,over,47.5,consensus,2026-10-11T14:56:28.235016+00:00,,,47.5,2026-10-11T14:56:28.235016+00:00
 2026,7,Missouri,Ole Miss,spread,model_gap_late,AVOID,D,Missouri,6.0,consensus,2026-10-11T14:56:28.235016+00:00,,,6.0,2026-10-11T14:56:28.235016+00:00
 2026,7,Missouri,Ole Miss,moneyline,moneyline_dog,PASS,D,Missouri,185.0,consensus,2026-10-11T14:56:28.235016+00:00,,,185.0,2026-10-13T15:47:28.593861+00:00
-2026,7,Missouri,Ole Miss,total,total_model,AVOID,D,under,58.5,consensus,2026-10-11T14:56:28.235016+00:00,,,58.8,2026-10-13T15:47:28.593861+00:00
+2026,7,Missouri,Ole Miss,total,total_model,AVOID,D,under,58.5,consensus,2026-10-11T14:56:28.235016+00:00,,,59.0,2026-10-13T19:09:29.548572+00:00
 2026,7,Arizona State,Texas Tech,spread,model_gap_late,AVOID,D,Texas Tech,-12.5,consensus,2026-10-11T14:56:28.235016+00:00,,,-14.5,2026-10-13T15:47:28.593861+00:00
 2026,7,Arizona State,Texas Tech,moneyline,moneyline_fav,AVOID,D,Texas Tech,-520.0,consensus,2026-10-11T14:56:28.235016+00:00,,,-700.0,2026-10-12T22:32:32.956389+00:00
 2026,7,Arizona State,Texas Tech,total,total_model,AVOID,D,over,52.5,consensus,2026-10-11T14:56:28.235016+00:00,,,48.5,2026-10-12T17:58:35.547022+00:00
@@ -1458,7 +1458,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,7,Florida State,Miami,total,total_model,AVOID,D,under,55.5,consensus,2026-10-11T14:56:28.235016+00:00,,,55.5,2026-10-13T15:47:28.593861+00:00
 2026,7,Oklahoma State,Houston,spread,model_gap_late,AVOID,D,Houston,-3.5,consensus,2026-10-11T14:56:28.235016+00:00,,,-4.5,2026-10-12T22:32:32.956389+00:00
 2026,7,Oklahoma State,Houston,moneyline,moneyline_fav,AVOID,D,Houston,-170.0,consensus,2026-10-11T14:56:28.235016+00:00,,,-192.0,2026-10-13T15:47:28.593861+00:00
-2026,7,Oklahoma State,Houston,total,total_model,AVOID,D,under,58.5,consensus,2026-10-11T14:56:28.235016+00:00,,,61.5,2026-10-12T22:32:32.956389+00:00
+2026,7,Oklahoma State,Houston,total,total_model,AVOID,D,under,58.5,consensus,2026-10-11T14:56:28.235016+00:00,,,62.0,2026-10-13T19:09:29.548572+00:00
 2026,7,Kentucky,Oklahoma,spread,model_gap_late,AVOID,D,Oklahoma,-6.5,consensus,2026-10-11T14:56:28.235016+00:00,,,-7.0,2026-10-12T22:32:32.956389+00:00
 2026,7,Kentucky,Oklahoma,moneyline,moneyline_fav,AVOID,D,Oklahoma,-230.0,consensus,2026-10-11T14:56:28.235016+00:00,,,-258.0,2026-10-13T15:47:28.593861+00:00
 2026,7,Kentucky,Oklahoma,total,total_model,AVOID,D,over,42.5,consensus,2026-10-11T14:56:28.235016+00:00,,,43.5,2026-10-11T18:38:54.377930+00:00
@@ -1559,3 +1559,5 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,7,Charleston Southern,Clemson,total,total_model,AVOID,D,under,59.5,consensus,2026-10-13T15:47:28.593861+00:00,,,59.5,2026-10-13T15:47:28.593861+00:00
 2026,7,Elon,Stanford,spread,model_gap_late,AVOID,D,Elon,32.5,consensus,2026-10-13T15:47:28.593861+00:00,,,32.5,2026-10-13T15:47:28.593861+00:00
 2026,7,Elon,Stanford,total,total_model,AVOID,D,under,53.5,consensus,2026-10-13T15:47:28.593861+00:00,,,53.5,2026-10-13T15:47:28.593861+00:00
+2026,7,The Citadel,Texas A&M,spread,model_gap_late,AVOID,D,Texas A&M,-45.5,consensus,2026-10-13T19:09:29.548572+00:00,,,-45.5,2026-10-13T19:09:29.548572+00:00
+2026,7,The Citadel,Texas A&M,total,total_model,AVOID,D,under,56.5,consensus,2026-10-13T19:09:29.548572+00:00,,,56.5,2026-10-13T19:09:29.548572+00:00
