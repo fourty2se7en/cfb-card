@@ -583,3 +583,7 @@ written_utc,season,week,away,home,qb_out,starters_out,confidence,spread_open,spr
 2026-10-11T14:56:28.235016+00:00,2026,7,Wake Forest,California,,,,,,,,-6.884000000000001
 2026-10-11T14:56:28.235016+00:00,2026,7,Fresno State,San Diego State,,,,-8.5,-8.5,43.5,43.5,-3.604
 2026-10-11T14:56:28.235016+00:00,2026,7,New Mexico,Hawai'i,,,,,,,,-15.294
+2026-10-13T15:47:28.593861+00:00,2026,7,App State,Coastal Carolina,away,1,unconfirmed,-1.25,-1.5,51.75,49.5,3.605999999999999
+2026-10-13T15:47:28.593861+00:00,2026,7,UNLV,Air Force,home,1,reported,-2.0,-0.0,47.75,48.5,-0.8440000000000003
+2026-10-13T15:47:28.593861+00:00,2026,7,Wisconsin,UCLA,home,1,reported,3.25,2.5,48.0,44.0,8.346
+2026-10-13T15:47:28.593861+00:00,2026,7,Notre Dame,BYU,none,3,reported,-10.5,-10.0,51.25,47.0,-8.274000000000001

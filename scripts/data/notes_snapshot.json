@@ -1,5 +1,5 @@
 {
- "saved": "2026-10-12T22:32+00:00",
+ "saved": "2026-10-13T15:47+00:00",
  "notes": {
   "Ohio State@Texas": {
    "notable": [
@@ -2530,6 +2530,270 @@
      "side": "Memphis",
      "line": -13.5
     }
+   ]
+  },
+  "Delaware@Middle Tennessee": {
+   "injuries": [
+    "Delaware QB N. Minicucci is out with a leg injury, unconfirmed (Covers injury report, Oct 2)"
+   ]
+  },
+  "Florida International@Jacksonville State": {
+   "injuries": [
+    "Jacksonville State RB A. Paul is out, unconfirmed (Covers injury report, Oct 7)"
+   ],
+   "experts": [
+    {
+     "name": "Colby Marchio (Covers)",
+     "record": "record not published",
+     "pick": "Under 43.5",
+     "market": "total",
+     "side": "under",
+     "line": 43.5
+    }
+   ]
+  },
+  "Georgia Southern@Old Dominion": {
+   "injuries": [
+    "Georgia Southern RB D. Mbadinga and WR J. Ware are out, unconfirmed (Covers injury report, Oct 12)",
+    "Old Dominion WR J. Harrell is out, unconfirmed (Covers injury report, Oct 12)"
+   ]
+  },
+  "Colorado State@Texas State": {
+   "injuries": [
+    "Texas State RB D. Jackson is out, unconfirmed (Covers injury report, Oct 12)",
+    "Colorado State TE G. Houser and WR T. Foster are out, unconfirmed (Covers injury report, Oct 2)"
+   ]
+  },
+  "Memphis@Tulane": {
+   "experts": [
+    {
+     "name": "Chris Gregory (Covers)",
+     "record": "record not published",
+     "pick": "Memphis -6.5",
+     "market": "spread",
+     "side": "Memphis",
+     "line": -6.5
+    }
+   ]
+  },
+  "App State@Coastal Carolina": {
+   "injuries": [
+    "App State QB M. Singleton is out with an ankle injury, unconfirmed (Covers injury report, Oct 11)"
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 1,
+    "confidence": "unconfirmed"
+   }
+  },
+  "Washington@Purdue": {
+   "injuries": [
+    "Washington S C. Christian is out with an Achilles injury, unconfirmed (Covers injury report, Oct 3)"
+   ],
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "Washington +3.5",
+     "market": "spread",
+     "side": "Washington",
+     "line": 3.5
+    }
+   ]
+  },
+  "Cincinnati@West Virginia": {
+   "injuries": [
+    "West Virginia RBs A. Devine and M. Boswell, TE C. Ball and WR J. Neider are all out, unconfirmed (Covers injury report, Oct 10)"
+   ]
+  },
+  "Northwestern@Michigan State": {
+   "experts": [
+    {
+     "name": "Corbie Craig (Yahoo Sports)",
+     "record": "record not published",
+     "pick": "Michigan State +7.5",
+     "market": "spread",
+     "side": "Michigan State",
+     "line": 7.5
+    }
+   ]
+  },
+  "Ball State@Bowling Green": {
+   "injuries": [
+    "Ball State TE C. Coonrod and WR I. Thacker are out, unconfirmed (Covers injury report, Oct 10)",
+    "Bowling Green WR I. Dawson is out, unconfirmed (Covers injury report, Oct 10)"
+   ]
+  },
+  "Kansas@Kansas State": {
+   "injuries": [
+    "Kansas QB C. Ballard and RB K. Amachree are out, QB with a shoulder injury, unconfirmed (Covers injury report, Oct 2)"
+   ]
+  },
+  "Rutgers@Maryland": {
+   "injuries": [
+    "Rutgers QB D. Lonergan is out with a head injury, unconfirmed (Covers injury report, Oct 4)"
+   ]
+  },
+  "Massachusetts@Buffalo": {
+   "injuries": [
+    "Buffalo QB E. Holmes is out with a knee injury, unconfirmed (Covers injury report, Oct 6)",
+    "Buffalo WRs B. Mays, T. Richards and J. Gathings are out, unconfirmed (Covers injury report, Oct 10)",
+    "Massachusetts RB J. Washington is out, unconfirmed (Covers injury report, Oct 10)"
+   ]
+  },
+  "Alabama@Tennessee": {
+   "injuries": [
+    "Alabama WR Ryan Coleman-Williams is expected to miss the game with head and knee injuries, head coach Kalen DeBoer said Monday (Oct 12)",
+    "Alabama C Racin Delgatty is day-to-day with a lower-body injury and will be limited early in the week, head coach Kalen DeBoer said Monday (Oct 12)",
+    "Tennessee QB Faizon Brandon was limited in practice by a right shoulder injury and was available only for emergency use at Arkansas (Knoxville News Sentinel, Oct 12)"
+   ],
+   "notable": [
+    "Josh Heupel has declined to name a starting quarterback for a second straight week, with George MacIntyre having started the Arkansas win (Knoxville News Sentinel, Oct 12)"
+   ]
+  },
+  "UNLV@Air Force": {
+   "injuries": [
+    "Air Force QB Liam Szarka is out for the season and Evan Medders has taken over as starter (Colorado Springs Gazette, Oct 5)"
+   ],
+   "notable": [
+    "Air Force is also thin at cornerback through injuries (Colorado Springs Gazette, Oct 7)"
+   ],
+   "log": {
+    "qb_out": "home",
+    "starters_out": 1,
+    "confidence": "reported"
+   }
+  },
+  "Arizona State@Texas Tech": {
+   "injuries": [
+    "Arizona State CB L. Rawls is out with a leg injury, unconfirmed (Covers injury report, Oct 7)",
+    "Texas Tech RB C. Dickey is out with an ankle injury, unconfirmed (Covers injury report, Oct 5)"
+   ],
+   "experts": [
+    {
+     "name": "Brad Powers (Covers)",
+     "record": "record not published",
+     "pick": "Arizona State +14.5",
+     "market": "spread",
+     "side": "Arizona State",
+     "line": 14.5
+    }
+   ]
+  },
+  "Toledo@Eastern Michigan": {
+   "injuries": [
+    "Toledo TE T. Kelleher and WR K. Gilbert Jr. are out, unconfirmed (Covers injury report, Oct 10)"
+   ],
+   "experts": [
+    {
+     "name": "Brad Powers (Covers)",
+     "record": "record not published",
+     "pick": "Toledo -5.5",
+     "market": "spread",
+     "side": "Toledo",
+     "line": -5.5
+    }
+   ]
+  },
+  "Akron@Miami (OH)": {
+   "injuries": [
+    "Miami (OH) QB D. McComb is out with an upper-body injury, unconfirmed (Covers injury report, Oct 10)",
+    "Akron QB C. Broughton is questionable with a knee injury, unconfirmed (Covers injury report, Oct 11)"
+   ]
+  },
+  "North Carolina@Duke": {
+   "injuries": [
+    "Duke K C. Salas is out, unconfirmed (Covers injury report, Oct 12)",
+    "North Carolina TE J. Washington is out, unconfirmed (Covers injury report, Oct 10)"
+   ]
+  },
+  "Nevada@North Dakota State": {
+   "injuries": [
+    "North Dakota State RB B. Toliver, WRs D. Schlosser and K. Schlichting and TE C. Danner are all out, unconfirmed (Covers injury report, Oct 9)"
+   ]
+  },
+  "Wisconsin@UCLA": {
+   "injuries": [
+    "UCLA QB Nico Iamaleava is expected to miss the rest of the season with a knee injury suffered against Oregon, with Cal Poly transfer Ty Dieffenbach expected to start (CBS Sports' Matt Zenitz, reported Oct 12)"
+   ],
+   "experts": [
+    {
+     "name": "Chris Gregory (Covers)",
+     "record": "record not published",
+     "pick": "Wisconsin +3.5",
+     "market": "spread",
+     "side": "Wisconsin",
+     "line": 3.5
+    }
+   ],
+   "log": {
+    "qb_out": "home",
+    "starters_out": 1,
+    "confidence": "reported"
+   }
+  },
+  "Notre Dame@BYU": {
+   "injuries": [
+    "BYU RB LJ Martin is out four to six weeks with a lower-body injury and will miss this game (ESPN's Pete Thamel, reported Oct 7)",
+    "Notre Dame S Brauntae Johnson is out with a left foot injury and is not expected back until November, head coach Marcus Freeman said (Oct 12)",
+    "Notre Dame CB Leonard Moore is questionable with a concussion and DT Jason Onye questionable with a left ankle injury on the official availability report (Oct 12)"
+   ],
+   "returning": [
+    "Notre Dame LB Kyngstonn Viliamu-Asa is available after missing the Stanford game with a left thumb injury, removed from the availability report Monday"
+   ],
+   "notable": [
+    "Notre Dame WR Quincy Porter and CB Chaz Smith are out for the season with knee injuries"
+   ],
+   "experts": [
+    {
+     "name": "Rob Paul (Covers)",
+     "record": "record not published",
+     "pick": "Notre Dame -9.5",
+     "market": "spread",
+     "side": "Notre Dame",
+     "line": -9.5
+    }
+   ],
+   "log": {
+    "qb_out": "none",
+    "starters_out": 3,
+    "confidence": "reported"
+   }
+  },
+  "Kentucky@Oklahoma": {
+   "experts": [
+    {
+     "name": "Corbie Craig (Yahoo Sports)",
+     "record": "record not published",
+     "pick": "Over 43.5",
+     "market": "total",
+     "side": "over",
+     "line": 43.5
+    }
+   ]
+  },
+  "Oklahoma State@Houston": {
+   "injuries": [
+    "Houston RB J. Hebert is out with a leg injury, unconfirmed (Covers injury report, Oct 5)",
+    "Oklahoma State OG J. Sexton is out with a leg injury, unconfirmed (Covers injury report, Oct 10)"
+   ]
+  },
+  "Fresno State@San Diego State": {
+   "experts": [
+    {
+     "name": "Corbie Craig (Yahoo Sports)",
+     "record": "record not published",
+     "pick": "San Diego State +8.5",
+     "market": "spread",
+     "side": "San Diego State",
+     "line": 8.5
+    }
+   ]
+  },
+  "New Mexico@Hawai'i": {
+   "injuries": [
+    "New Mexico WRs T. Omeire and S. Miller and TE T. Walsh are out, unconfirmed (Covers injury report, Oct 1-2)",
+    "Hawai'i WR P. Ashlock is out, unconfirmed (Covers injury report, Oct 5)"
    ]
   }
  }
