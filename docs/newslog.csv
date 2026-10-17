@@ -587,3 +587,8 @@ written_utc,season,week,away,home,qb_out,starters_out,confidence,spread_open,spr
 2026-10-13T15:47:28.593861+00:00,2026,7,UNLV,Air Force,home,1,reported,-2.0,-0.0,47.75,48.5,-0.8440000000000003
 2026-10-13T15:47:28.593861+00:00,2026,7,Wisconsin,UCLA,home,1,reported,3.25,2.5,48.0,44.0,8.346
 2026-10-13T15:47:28.593861+00:00,2026,7,Notre Dame,BYU,none,3,reported,-10.5,-10.0,51.25,47.0,-8.274000000000001
+2026-10-17T15:24:46.478743+00:00,2026,7,Auburn,Georgia,none,1,confirmed,17.5,19.5,51.5,50.0,23.846
+2026-10-17T15:24:46.478743+00:00,2026,7,Penn State,Michigan,none,2,confirmed,6.25,6.0,47.0,43.0,5.126
+2026-10-17T15:24:46.478743+00:00,2026,7,Alabama,Tennessee,none,1,reported,-4.25,-7.5,55.0,51.0,-3.644000000000001
+2026-10-17T15:24:46.478743+00:00,2026,7,Florida State,Miami,none,3,confirmed,18.75,19.5,55.0,56.5,24.156
+2026-10-17T15:24:46.478743+00:00,2026,7,Nebraska,Oregon,home,1,reported,14.0,7.0,52.0,51.5,10.245999999999999
