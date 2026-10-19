@@ -7,7 +7,7 @@ Alabama,20.56,17.64,10.46,973.53,23.0,40.0,17.1,120.2,0.264,,SEC,fbs,5
 Indiana,19.92,3.61,23.84,735.26,26.7,39.3,12.8,97.9,0.166,,Big Ten,fbs,6
 LSU,19.87,15.18,12.23,931.76,21.7,36.7,14.9,42.9,0.212,,SEC,fbs,7
 Ole Miss,17.57,12.47,12.63,885.72,15.9,39.9,24.4,279.4,0.503,,SEC,fbs,8
-Texas Tech,17.32,5.53,19.32,767.89,21.6,36.7,15.4,231.6,0.534,,Big 12,fbs,9
+Texas Tech,17.31,5.53,19.32,767.89,21.6,36.7,15.4,231.6,0.534,,Big 12,fbs,9
 Tennessee,15.98,12.48,11.04,885.9,16.7,34.9,18.5,186.2,0.353,,SEC,fbs,10
 Utah,14.34,1.28,20.59,695.72,23.5,39.1,15.7,278.5,0.679,,Big 12,fbs,11
 Oregon,14.33,18.28,3.59,984.33,21.0,38.2,17.4,373.3,0.753,,Big Ten,fbs,12
@@ -148,11 +148,11 @@ North Dakota,-18.65,0.0,9.47,,,,,,,0.5645,MVFC,fcs,146
 Lehigh,-18.86,0.0,9.26,,,,,,,0.6472,Patriot,fcs,147
 Harvard,-19.5,0.0,8.62,,,,,,,0.4414,Ivy,fcs,148
 Charlotte,-19.99,-5.72,-6.73,576.77,-28.6,12.4,40.7,53.6,0.409,,American Athletic,fbs,149
-Montana,-20.43,0.0,7.7,,,,,,,0.6606,Big Sky,fcs,150
+Montana,-20.42,0.0,7.7,,,,,,,0.6606,Big Sky,fcs,150
 Dayton,-20.85,0.0,7.27,,,,,,,0.8804,Pioneer,fcs,151
 Alabama State,-20.94,0.0,7.18,,,,,,,0.5464,SWAC,fcs,152
 Mercer,-21.04,0.0,7.09,,,,,,,0.1518,Southern,fcs,153
-Butler,-21.59,0.0,6.54,,,,,,,0.5962,Pioneer,fcs,154
+Butler,-21.59,0.0,6.53,,,,,,,0.5962,Pioneer,fcs,154
 Tennessee Tech,-21.69,0.0,6.43,,,,,,,0.2008,OVC-Big South,fcs,155
 UTEP,-22.12,-5.19,-9.39,585.76,-24.6,13.3,37.4,-0.9,-0.011,,Conference USA,fbs,156
 Princeton,-22.17,0.0,5.95,,,,,,,0.5255,Ivy,fcs,157
@@ -171,7 +171,7 @@ Chattanooga,-25.15,0.0,2.97,,,,,,,0.2748,Southern,fcs,169
 Lamar,-25.24,0.0,2.88,,,,,,,0.5417,Southland,fcs,170
 Northern Arizona,-25.32,0.0,2.8,,,,,,,0.5778,Big Sky,fcs,171
 Cornell,-25.44,0.0,2.68,,,,,,,0.852,Ivy,fcs,172
-Brown,-25.62,0.0,2.51,,,,,,,0.8358,Ivy,fcs,173
+Brown,-25.61,0.0,2.51,,,,,,,0.8358,Ivy,fcs,173
 Northern Iowa,-26.09,0.0,2.03,,,,,,,0.2972,MVFC,fcs,174
 Central Connecticut,-26.15,0.0,1.97,,,,,,,0.1217,NEC,fcs,175
 UT Rio Grande Valley,-26.41,0.0,1.71,,,,,,,0.2453,Southland,fcs,176
@@ -187,10 +187,10 @@ Grambling,-27.19,0.0,0.93,,,,,,,0.4325,SWAC,fcs,185
 Villanova,-27.37,0.0,0.75,,,,,,,0.6769,Coastal Athletic,fcs,186
 Southern Utah,-27.47,0.0,0.65,,,,,,,0.2252,UAC,fcs,187
 SE Louisiana,-27.62,0.0,0.5,,,,,,,0.438,Southland,fcs,188
-Delaware State,-27.86,0.0,0.27,,,,,,,0.2632,MEAC,fcs,189
 Campbell,-27.86,0.0,0.27,,,,,,,0.5485,Coastal Athletic,fcs,189
-Prairie View A&M,-27.89,0.0,0.24,,,,,,,0.3143,SWAC,fcs,191
-Charleston Southern,-27.89,0.0,0.23,,,,,,,0.163,OVC-Big South,fcs,191
+Delaware State,-27.86,0.0,0.26,,,,,,,0.2632,MEAC,fcs,189
+Prairie View A&M,-27.88,0.0,0.24,,,,,,,0.3143,SWAC,fcs,191
+Charleston Southern,-27.89,0.0,0.23,,,,,,,0.163,OVC-Big South,fcs,192
 Colgate,-27.91,0.0,0.21,,,,,,,0.4335,Patriot,fcs,193
 Southeast Missouri State,-28.09,0.0,0.03,,,,,,,0.3209,OVC-Big South,fcs,194
 Marist,-28.16,0.0,-0.04,,,,,,,0.6728,Pioneer,fcs,195
@@ -198,11 +198,11 @@ Central Arkansas,-28.24,0.0,-0.12,,,,,,,0.2448,UAC,fcs,196
 Idaho,-28.71,0.0,-0.59,,,,,,,0.603,Big Sky,fcs,197
 UT Martin,-28.79,0.0,-0.67,,,,,,,0.1913,OVC-Big South,fcs,198
 North Alabama,-29.07,0.0,-0.95,,,,,,,0.3814,UAC,fcs,199
-Furman,-29.25,0.0,-1.12,,,,,,,0.2113,Southern,fcs,200
+Furman,-29.24,0.0,-1.12,,,,,,,0.2113,Southern,fcs,200
 Stony Brook,-29.53,0.0,-1.41,,,,,,,0.2635,Coastal Athletic,fcs,201
 Gardner-Webb,-29.6,0.0,-1.48,,,,,,,0.3487,OVC-Big South,fcs,202
-McNeese,-29.72,0.0,-1.59,,,,,,,0.5735,Southland,fcs,203
-Dartmouth,-30.0,0.0,-1.87,,,,,,,0.5918,Ivy,fcs,204
+McNeese,-29.71,0.0,-1.59,,,,,,,0.5735,Southland,fcs,203
+Dartmouth,-29.99,0.0,-1.87,,,,,,,0.5918,Ivy,fcs,204
 Columbia,-30.14,0.0,-2.02,,,,,,,0.8876,Ivy,fcs,205
 Florida A&M,-30.17,0.0,-2.05,,,,,,,0.1668,SWAC,fcs,206
 Pennsylvania,-30.24,0.0,-2.12,,,,,,,0.1614,Ivy,fcs,207
@@ -225,19 +225,19 @@ Northern Colorado,-32.92,0.0,-4.8,,,,,,,0.1667,Big Sky,fcs,223
 Towson,-32.97,0.0,-4.85,,,,,,,0.5067,Coastal Athletic,fcs,224
 Robert Morris,-33.25,0.0,-5.13,,,,,,,0.2992,NEC,fcs,225
 Tennessee State,-33.26,0.0,-5.14,,,,,,,0.414,OVC-Big South,fcs,226
-West Georgia,-33.37,0.0,-5.24,,,,,,,0.0957,UAC,fcs,227
+West Georgia,-33.36,0.0,-5.24,,,,,,,0.0957,UAC,fcs,227
 Lafayette,-33.86,0.0,-5.74,,,,,,,0.3971,Patriot,fcs,228
 New Haven,-34.32,0.0,-6.2,,,,,,,0.656,NEC,fcs,229
 Eastern Washington,-34.55,0.0,-6.43,,,,,,,0.6344,Big Sky,fcs,230
 Lindenwood,-34.86,0.0,-6.74,,,,,,,0.4053,OVC-Big South,fcs,231
 Sacred Heart,-34.9,0.0,-6.78,,,,,,,0.7682,FCS Independents,fcs,232
-North Carolina Central,-34.92,0.0,-6.79,,,,,,,0.229,MEAC,fcs,233
+North Carolina Central,-34.91,0.0,-6.79,,,,,,,0.229,MEAC,fcs,233
 Long Island University,-34.95,0.0,-6.83,,,,,,,0.588,NEC,fcs,234
 Eastern Kentucky,-35.1,0.0,-6.98,,,,,,,0.7908,UAC,fcs,235
 Indiana State,-35.12,0.0,-6.99,,,,,,,0.2614,MVFC,fcs,236
 East Texas A&M,-35.16,0.0,-7.04,,,,,,,0.323,Southland,fcs,237
-Stonehill,-35.24,0.0,-7.11,,,,,,,0.5888,NEC,fcs,238
-The Citadel,-35.45,0.0,-7.32,,,,,,,0.4055,Southern,fcs,239
+Stonehill,-35.23,0.0,-7.11,,,,,,,0.5888,NEC,fcs,238
+The Citadel,-35.45,0.0,-7.33,,,,,,,0.4055,Southern,fcs,239
 Georgetown,-35.63,0.0,-7.51,,,,,,,0.2408,Patriot,fcs,240
 Merrimack,-35.71,0.0,-7.59,,,,,,,0.2553,FCS Independents,fcs,241
 Samford,-36.19,0.0,-8.07,,,,,,,0.2217,Southern,fcs,242
@@ -256,11 +256,11 @@ Wagner,-41.67,0.0,-13.55,,,,,,,0.5509,NEC,fcs,254
 Sacramento State,-42.03,0.0,-13.91,561.42,-24.7,12.1,36.6,,,,Big Sky,fcs,255
 Mississippi Valley State,-42.28,0.0,-14.15,,,,,,,0.413,SWAC,fcs,256
 Hampton,-43.14,0.0,-15.01,,,,,,,0.2112,Coastal Athletic,fcs,257
-Utah Tech,-43.75,0.0,-15.62,,,,,,,0.3826,UAC,fcs,258
+Utah Tech,-43.74,0.0,-15.62,,,,,,,0.3826,UAC,fcs,258
 Nicholls,-43.82,0.0,-15.7,,,,,,,0.5118,Southland,fcs,259
 Stetson,-43.92,0.0,-15.8,,,,,,,0.6768,Pioneer,fcs,260
 Murray State,-45.13,0.0,-17.0,,,,,,,0.5617,MVFC,fcs,261
 Saint Francis,-46.14,0.0,-18.02,,,,,,,,NEC,fcs,262
 Davidson,-46.34,0.0,-18.22,,,,,,,0.2331,Pioneer,fcs,263
-Northwestern State,-47.13,0.0,-19.0,,,,,,,0.7383,Southland,fcs,264
+Northwestern State,-47.12,0.0,-19.0,,,,,,,0.7383,Southland,fcs,264
 VMI,-51.24,0.0,-23.12,,,,,,,0.2837,Southern,fcs,265
