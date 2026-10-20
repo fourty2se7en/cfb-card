@@ -83,3 +83,24 @@ first_seen_utc,season,week,game,name,market,side,line,pick
 2026-10-17T15:24:48+00:00,2026,7,Utah@Colorado,Geoff Clark (Covers),spread,Colorado,14.5,Colorado +14.5
 2026-10-17T15:24:48+00:00,2026,7,Wake Forest@California,Rob Paul (Covers),spread,Wake Forest,-9.5,Wake Forest -9.5
 2026-10-17T15:24:48+00:00,2026,7,Nebraska@Oregon,Geoff Clark (Covers),spread,Oregon,-6.5,Oregon -6.5
+2026-10-20T22:23:39+00:00,2026,8,Indiana@Michigan,Kody Malstrom (Action Network),spread,Indiana,-6.5,Indiana -6.5
+2026-10-20T22:23:39+00:00,2026,8,Indiana@Michigan,Doug Ziefel (Action Network),spread,Indiana,-6.5,Indiana -6.5
+2026-10-20T22:23:39+00:00,2026,8,Indiana@Michigan,Mike Calabrese (Action Network),spread,Indiana,-6.5,Indiana -6.5
+2026-10-20T22:23:39+00:00,2026,8,Indiana@Michigan,Alex Hinton (Action Network),total,under,42.5,Under 42.5
+2026-10-20T22:23:39+00:00,2026,8,Tennessee@South Carolina,Mike McNamara (Action Network),spread,South Carolina,3.5,South Carolina +3.5
+2026-10-20T22:23:39+00:00,2026,8,Tennessee@South Carolina,Doug Ziefel (Action Network),moneyline,South Carolina,,South Carolina -122
+2026-10-20T22:23:39+00:00,2026,8,Tennessee@South Carolina,John Feltman (Action Network),moneyline,South Carolina,,South Carolina -135
+2026-10-20T22:23:39+00:00,2026,8,Tennessee@South Carolina,Peter Dewey (Sports Illustrated),moneyline,South Carolina,,South Carolina moneyline
+2026-10-20T22:23:39+00:00,2026,8,Ole Miss@Texas,Kody Malstrom (Action Network),spread,Texas,-3.0,Texas -3
+2026-10-20T22:23:39+00:00,2026,8,Ole Miss@Texas,Alex Hinton (Action Network),spread,Ole Miss,3.5,Ole Miss +3.5
+2026-10-20T22:23:39+00:00,2026,8,Ole Miss@Texas,Nick Griffith (Action Network),moneyline,Texas,,Texas -159
+2026-10-20T22:23:39+00:00,2026,8,Texas A&M@Alabama,Alex Hinton (Action Network),total,over,50.5,Over 50.5
+2026-10-20T22:23:39+00:00,2026,8,Texas Tech@Cincinnati,Mike McNamara (Action Network),spread,Cincinnati,10.5,Cincinnati +10.5
+2026-10-20T22:23:39+00:00,2026,8,Texas Tech@Cincinnati,Kody Malstrom (Action Network),spread,Texas Tech,-10.0,Texas Tech -10
+2026-10-20T22:23:39+00:00,2026,8,Houston@Utah,Kody Malstrom (Action Network),spread,Utah,-6.5,Utah -6.5
+2026-10-20T22:23:39+00:00,2026,8,Houston@Utah,Brandon Kravitz (Action Network),spread,Houston,6.5,Houston +6.5
+2026-10-20T22:23:39+00:00,2026,8,USC@Wisconsin,Doug Ziefel (Action Network),moneyline,USC,,USC -151
+2026-10-20T22:23:39+00:00,2026,8,USC@Wisconsin,Brandon Kravitz (Action Network),spread,Wisconsin,2.5,Wisconsin +2.5
+2026-10-20T22:23:39+00:00,2026,8,Boise State@Washington State,Alex Hinton (Action Network),spread,Boise State,-12.0,Boise State -12
+2026-10-20T22:23:39+00:00,2026,8,James Madison@App State,Sandy Plashkes (Action Network),total,under,56.5,Under 56.5
+2026-10-20T22:23:39+00:00,2026,8,East Carolina@Memphis,Sandy Plashkes (Action Network),total,under,54.5,Under 54.5

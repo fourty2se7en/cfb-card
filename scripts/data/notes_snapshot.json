@@ -1,5 +1,5 @@
 {
- "saved": "2026-10-20T19:26+00:00",
+ "saved": "2026-10-20T22:23+00:00",
  "notes": {
   "Ohio State@Texas": {
    "notable": [
@@ -3013,6 +3013,350 @@
   "TCU@Baylor": {
    "injuries": [
     "Baylor S C. Redding is out with a knee injury and WR T. Williams Jr. is out with a collarbone injury, unconfirmed (Covers injury report, Oct 16)"
+   ]
+  },
+  "Indiana@Michigan": {
+   "injuries": [
+    "Indiana QB Josh Hoover hurt his throwing arm against Ohio State on 17 October, left for one play and returned, and no status for this week has been announced, unconfirmed (USA TODAY, Oct 17; VegasInsider, Oct 20)"
+   ],
+   "returning": [
+    "Michigan OL Andrew Babalola returned to practice availability after a week out but was not considered ready against Penn State, and the staff hopes to work him in at left tackle (Kyle Whittingham press conference, Oct 20)"
+   ],
+   "coaching": [
+    "Michigan coach Kyle Whittingham said he has settled on a quarterback plan but would not say whether Bryce Underwood or freshman Tommy Carr starts, after Underwood was benched at halftime against Penn State (Whittingham press conference, Oct 20)"
+   ],
+   "movement": [
+    "Spread: open Indiana -8.5, now Indiana -7. Total: open 42.5, now 41.5. Moneyline: Indiana now -280, opener not confirmed. Borgata sportsbook director Tom Gable cited questions over Josh Hoover's shoulder."
+   ],
+   "notable": [
+    "Carr led three second-half touchdown drives in relief as Michigan turned 80 first-half yards into 220 in the second half (Whittingham press conference, Oct 20)"
+   ],
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "67-54-1 (last 30d)",
+     "pick": "Indiana -6.5",
+     "market": "spread",
+     "side": "Indiana",
+     "line": -6.5
+    },
+    {
+     "name": "Doug Ziefel (Action Network)",
+     "record": "361-409-7 (last 30d)",
+     "pick": "Indiana -6.5",
+     "market": "spread",
+     "side": "Indiana",
+     "line": -6.5
+    },
+    {
+     "name": "Mike Calabrese (Action Network)",
+     "record": "35-52-0 (last 30d)",
+     "pick": "Indiana -6.5",
+     "market": "spread",
+     "side": "Indiana",
+     "line": -6.5
+    },
+    {
+     "name": "Alex Hinton (Action Network)",
+     "record": "82-96-3 (last 30d)",
+     "pick": "Under 42.5",
+     "market": "total",
+     "side": "under",
+     "line": 42.5
+    }
+   ]
+  },
+  "Michigan State@UCLA": {
+   "injuries": [
+    "UCLA QB Nico Iamaleava is out for the season and needs knee surgery, with coach Bob Chesney calling the injury severe (Bob Chesney via Associated Press, Oct 20)",
+    "Michigan State QB Clayton Fancher is listed questionable with a knee problem as of 17 October, unconfirmed (Covers injury report, Oct 20)"
+   ],
+   "coaching": [
+    "Bob Chesney is in his first season at UCLA after reaching the College Football Playoff at James Madison (ClutchPoints, Oct 20)"
+   ],
+   "notable": [
+    "Backup Ty Dieffenbach made his first career FBS start last week and went 22 of 33 for 264 yards in a 17-7 win over Wisconsin (Associated Press, Oct 20)"
+   ],
+   "log": {
+    "qb_out": "home",
+    "starters_out": 1,
+    "confidence": "confirmed"
+   }
+  },
+  "Virginia Tech@Clemson": {
+   "injuries": [
+    "Clemson QB Christopher Vizzina, the preseason starter, has not played since fracturing his elbow against Georgia Southern on 12 September (Dabo Swinney press conference, Oct 20)"
+   ],
+   "returning": [
+    "Vizzina had his best practice since the September elbow fracture on Monday and Dabo Swinney said he is close to being available as more than an emergency option (Swinney press conference, Oct 20)"
+   ],
+   "coaching": [
+    "Swinney confirmed freshman Tait Reynolds remains Clemson's starting quarterback (Swinney press conference, Oct 20)"
+   ]
+  },
+  "BYU@UCF": {
+   "injuries": [
+    "UCF QB Alonza Barnett III is ruled out against BYU with a hamstring injury (Rotowire and Heartland College Sports, Oct 20)"
+   ],
+   "notable": [
+    "Keyone Jenkins makes his fifth consecutive start at quarterback for UCF (Heartland College Sports, Oct 20)"
+   ]
+  },
+  "Iowa@Minnesota": {
+   "injuries": [
+    "Iowa QB Hank Brown will not start at Minnesota because of a shoulder injury (Rotowire and Hawk Central, Oct 20)"
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 1,
+    "confidence": "reported"
+   }
+  },
+  "Tennessee@South Carolina": {
+   "movement": [
+    "Spread: open Tennessee -2.5, now South Carolina -2.5. Total: open 50.5, unchanged. Moneyline: South Carolina now -135, opener not confirmed."
+   ],
+   "notable": [
+    "South Carolina comes off a bye and Tennessee off a 26-10 home win over Alabama (247Sports, Oct 18)"
+   ],
+   "experts": [
+    {
+     "name": "Mike McNamara (Action Network)",
+     "record": "74-72-2 (last 30d)",
+     "pick": "South Carolina +3.5",
+     "market": "spread",
+     "side": "South Carolina",
+     "line": 3.5
+    },
+    {
+     "name": "Doug Ziefel (Action Network)",
+     "record": "361-409-7 (last 30d)",
+     "pick": "South Carolina -122",
+     "market": "moneyline",
+     "side": "South Carolina"
+    },
+    {
+     "name": "John Feltman (Action Network)",
+     "record": "83-55-1 (last 30d)",
+     "pick": "South Carolina -135",
+     "market": "moneyline",
+     "side": "South Carolina"
+    },
+    {
+     "name": "Peter Dewey (Sports Illustrated)",
+     "record": "record not published",
+     "pick": "South Carolina moneyline",
+     "market": "moneyline",
+     "side": "South Carolina"
+    }
+   ]
+  },
+  "Ole Miss@Texas": {
+   "injuries": [
+    "Texas OG Trevor Goosby is out with a knee injury as of 17 October, reported (Covers injury report, Oct 20)"
+   ],
+   "movement": [
+    "Spread: open Texas -3, unchanged. Total: open 53.5, unchanged. Moneyline: Texas now -160, opener not confirmed."
+   ],
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "67-54-1 (last 30d)",
+     "pick": "Texas -3",
+     "market": "spread",
+     "side": "Texas",
+     "line": -3
+    },
+    {
+     "name": "Alex Hinton (Action Network)",
+     "record": "82-96-3 (last 30d)",
+     "pick": "Ole Miss +3.5",
+     "market": "spread",
+     "side": "Ole Miss",
+     "line": 3.5
+    },
+    {
+     "name": "Nick Griffith (Action Network)",
+     "record": "48-42-0 (last 30d)",
+     "pick": "Texas -159",
+     "market": "moneyline",
+     "side": "Texas"
+    }
+   ]
+  },
+  "Texas A&M@Alabama": {
+   "injuries": [
+    "Alabama WR Ryan Coleman-Williams is out with a knee injury as of 17 October, reported (Covers injury report, Oct 20)",
+    "Texas A&M OG Bryce Ivy has been out since 11 October, reported (Covers injury report, Oct 20)"
+   ],
+   "movement": [
+    "Spread: open Alabama -15.5, now Alabama -14. Total: open 51.5, now 50.5. Moneyline: Alabama now -600, opener not confirmed. Borgata sportsbook director Tom Gable said Texas A&M was hit in the wider market on Monday."
+   ],
+   "experts": [
+    {
+     "name": "Alex Hinton (Action Network)",
+     "record": "82-96-3 (last 30d)",
+     "pick": "Over 50.5",
+     "market": "total",
+     "side": "over",
+     "line": 50.5
+    }
+   ]
+  },
+  "Texas Tech@Cincinnati": {
+   "injuries": [
+    "Texas Tech WR Donovan Lee Jr. is out with a knee injury as of 19 October, reported (Covers injury report, Oct 20)",
+    "Texas Tech RB Cameron Dickey has been out with an ankle injury since 5 October, reported (Covers injury report, Oct 20)"
+   ],
+   "movement": [
+    "Spread: open Texas Tech -11.5, now Texas Tech -10.5. Total: open 55.5, now 56.5. Moneyline: Texas Tech now -430, opener not confirmed. Borgata sportsbook director Tom Gable cited early Cincinnati money on the side and early Over money on the total."
+   ],
+   "experts": [
+    {
+     "name": "Mike McNamara (Action Network)",
+     "record": "74-72-2 (last 30d)",
+     "pick": "Cincinnati +10.5",
+     "market": "spread",
+     "side": "Cincinnati",
+     "line": 10.5
+    },
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "67-54-1 (last 30d)",
+     "pick": "Texas Tech -10",
+     "market": "spread",
+     "side": "Texas Tech",
+     "line": -10
+    }
+   ]
+  },
+  "Houston@Utah": {
+   "injuries": [
+    "Houston RB Jaylon Hebert has been out with a leg injury since 5 October, reported (Covers injury report, Oct 20)"
+   ],
+   "movement": [
+    "Spread: open Utah -6.5, unchanged. Total: open 56.5, unchanged. Moneyline: Utah now -245, opener not confirmed."
+   ],
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "67-54-1 (last 30d)",
+     "pick": "Utah -6.5",
+     "market": "spread",
+     "side": "Utah",
+     "line": -6.5
+    },
+    {
+     "name": "Brandon Kravitz (Action Network)",
+     "record": "50-60-1 (last 30d)",
+     "pick": "Houston +6.5",
+     "market": "spread",
+     "side": "Houston",
+     "line": 6.5
+    }
+   ]
+  },
+  "USC@Wisconsin": {
+   "movement": [
+    "Spread: open USC -2.5, now USC -3. Total: open 49.5, unchanged. Moneyline: USC now -150, opener not confirmed."
+   ],
+   "experts": [
+    {
+     "name": "Doug Ziefel (Action Network)",
+     "record": "361-409-7 (last 30d)",
+     "pick": "USC -151",
+     "market": "moneyline",
+     "side": "USC"
+    },
+    {
+     "name": "Brandon Kravitz (Action Network)",
+     "record": "50-60-1 (last 30d)",
+     "pick": "Wisconsin +2.5",
+     "market": "spread",
+     "side": "Wisconsin",
+     "line": 2.5
+    }
+   ]
+  },
+  "Pittsburgh@Miami": {
+   "movement": [
+    "Spread: open Miami -23.5, now Miami -20. Total: open 51.5, now 50.5. Moneyline: Miami now -1800, opener not confirmed."
+   ]
+  },
+  "California@SMU": {
+   "injuries": [
+    "California RB Christian Vargas is out with a leg injury as of 18 October, reported (Covers injury report, Oct 20)",
+    "SMU S Tyler Polley Jr. is out with a pectoral injury as of 20 October, reported (Covers injury report, Oct 20)"
+   ],
+   "movement": [
+    "Spread: open SMU -17.5, now SMU -20. Total: open 52.5, now 54.5. Moneyline: SMU now -1200, opener not confirmed."
+   ]
+  },
+  "Rutgers@Northwestern": {
+   "injuries": [
+    "Rutgers QB Dylan Lonergan has been out with a head injury since 4 October, reported (Covers injury report, Oct 20)"
+   ],
+   "movement": [
+    "Spread: open Northwestern -16.5, now Northwestern -16. Total: open 58.5, now 58. Moneyline: Northwestern now -775, opener not confirmed."
+   ]
+  },
+  "Vanderbilt@Kentucky": {
+   "movement": [
+    "Spread: open Kentucky -11.5, now Kentucky -10.5. Total: open 51.5, unchanged. Moneyline: Kentucky now -440, opener not confirmed."
+   ]
+  },
+  "Boise State@Washington State": {
+   "injuries": [
+    "Washington State WR Tristan Freeman has been out with a leg injury since 14 September, reported (Covers injury report, Oct 20)"
+   ],
+   "movement": [
+    "Spread: open Boise State -14, now Boise State -13. Total: open 50.5, now 51.5. Moneyline: Boise State now -530, opener not confirmed."
+   ],
+   "experts": [
+    {
+     "name": "Alex Hinton (Action Network)",
+     "record": "82-96-3 (last 30d)",
+     "pick": "Boise State -12",
+     "market": "spread",
+     "side": "Boise State",
+     "line": -12
+    }
+   ]
+  },
+  "Air Force@Wyoming": {
+   "injuries": [
+    "Air Force QB Liam Szarka has been out with a leg injury since 5 October, reported (Covers injury report, Oct 20)",
+    "Wyoming RB Dean Hubbard is out with a knee injury as of 18 October, reported (Covers injury report, Oct 20)"
+   ]
+  },
+  "Duke@Virginia": {
+   "injuries": [
+    "Virginia WR Rico Flores Jr. is out with a knee injury as of 20 October, reported (Covers injury report, Oct 20)",
+    "Virginia K Trey Hamann has been out since 17 October, reported (Covers injury report, Oct 20)"
+   ]
+  },
+  "James Madison@App State": {
+   "experts": [
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "101-97-2 (last 30d)",
+     "pick": "Under 56.5",
+     "market": "total",
+     "side": "under",
+     "line": 56.5
+    }
+   ]
+  },
+  "East Carolina@Memphis": {
+   "experts": [
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "101-97-2 (last 30d)",
+     "pick": "Under 54.5",
+     "market": "total",
+     "side": "under",
+     "line": 54.5
+    }
    ]
   }
  }
