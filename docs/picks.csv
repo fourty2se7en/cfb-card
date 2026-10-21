@@ -1730,15 +1730,15 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,7,Missouri,Ole Miss,moneyline,moneyline_fav,AVOID,D,Ole Miss,-193.0,consensus,2026-10-17T15:24:46.478743+00:00,win,2026-10-18T12:38:05.075744+00:00,-193.0,2026-10-17T15:24:46.478743+00:00
 2026,7,Stephen F. Austin,Nicholls,moneyline,moneyline_fav,AVOID,D,Stephen F. Austin,-2800.0,consensus,2026-10-17T15:24:46.478743+00:00,win,2026-10-18T12:38:05.075744+00:00,-2800.0,2026-10-17T15:24:46.478743+00:00
 2026,7,UT Rio Grande Valley,Incarnate Word,moneyline,moneyline_dog,PASS,D,UT Rio Grande Valley,139.0,consensus,2026-10-17T15:24:46.478743+00:00,loss,2026-10-18T12:38:05.075744+00:00,139.0,2026-10-17T15:24:46.478743+00:00
-2026,8,Middle Tennessee,Florida International,spread,model_gap_late,AVOID,D,Florida International,-10.5,consensus,2026-10-18T12:38:05.075744+00:00,,,-10.0,2026-10-18T17:06:12.728703+00:00
-2026,8,Middle Tennessee,Florida International,moneyline,moneyline_fav,AVOID,D,Florida International,-452.0,consensus,2026-10-18T12:38:05.075744+00:00,,,-405.0,2026-10-20T19:26:44.144381+00:00
-2026,8,Middle Tennessee,Florida International,total,total_model,AVOID,D,over,45.0,consensus,2026-10-18T12:38:05.075744+00:00,,,46.5,2026-10-20T19:26:44.144381+00:00
-2026,8,Missouri State,Delaware,spread,model_gap_late,AVOID,D,Delaware,-2.8,consensus,2026-10-18T12:38:05.075744+00:00,,,-3.0,2026-10-18T17:06:12.728703+00:00
-2026,8,Missouri State,Delaware,moneyline,moneyline_fav,AVOID,D,Delaware,-142.0,consensus,2026-10-18T12:38:05.075744+00:00,,,-145.0,2026-10-20T19:26:44.144381+00:00
-2026,8,Missouri State,Delaware,total,total_model,AVOID,D,over,52.0,consensus,2026-10-18T12:38:05.075744+00:00,,,53.5,2026-10-20T19:26:44.144381+00:00
-2026,8,South Alabama,Marshall,spread,model_gap_late,AVOID,D,Marshall,3.0,consensus,2026-10-18T12:38:05.075744+00:00,,,3.0,2026-10-18T12:38:05.075744+00:00
-2026,8,South Alabama,Marshall,moneyline,moneyline_dog,PASS,D,Marshall,125.0,consensus,2026-10-18T12:38:05.075744+00:00,,,130.0,2026-10-19T20:40:22.251306+00:00
-2026,8,South Alabama,Marshall,total,total_model,AVOID,D,over,61.5,consensus,2026-10-18T12:38:05.075744+00:00,,,66.5,2026-10-20T19:26:44.144381+00:00
+2026,8,Middle Tennessee,Florida International,spread,model_gap_late,AVOID,D,Florida International,-10.5,consensus,2026-10-18T12:38:05.075744+00:00,loss,2026-10-21T13:50:49.786170+00:00,-10.0,2026-10-18T17:06:12.728703+00:00
+2026,8,Middle Tennessee,Florida International,moneyline,moneyline_fav,AVOID,D,Florida International,-452.0,consensus,2026-10-18T12:38:05.075744+00:00,loss,2026-10-21T13:50:49.786170+00:00,-405.0,2026-10-20T19:26:44.144381+00:00
+2026,8,Middle Tennessee,Florida International,total,total_model,AVOID,D,over,45.0,consensus,2026-10-18T12:38:05.075744+00:00,win,2026-10-21T13:50:49.786170+00:00,46.5,2026-10-20T19:26:44.144381+00:00
+2026,8,Missouri State,Delaware,spread,model_gap_late,AVOID,D,Delaware,-2.8,consensus,2026-10-18T12:38:05.075744+00:00,win,2026-10-21T13:50:49.786170+00:00,-3.0,2026-10-18T17:06:12.728703+00:00
+2026,8,Missouri State,Delaware,moneyline,moneyline_fav,AVOID,D,Delaware,-142.0,consensus,2026-10-18T12:38:05.075744+00:00,win,2026-10-21T13:50:49.786170+00:00,-145.0,2026-10-20T19:26:44.144381+00:00
+2026,8,Missouri State,Delaware,total,total_model,AVOID,D,over,52.0,consensus,2026-10-18T12:38:05.075744+00:00,win,2026-10-21T13:50:49.786170+00:00,53.5,2026-10-20T19:26:44.144381+00:00
+2026,8,South Alabama,Marshall,spread,model_gap_late,AVOID,D,Marshall,3.0,consensus,2026-10-18T12:38:05.075744+00:00,win,2026-10-21T13:50:49.786170+00:00,2.5,2026-10-21T13:50:49.786170+00:00
+2026,8,South Alabama,Marshall,moneyline,moneyline_dog,PASS,D,Marshall,125.0,consensus,2026-10-18T12:38:05.075744+00:00,win,2026-10-21T13:50:49.786170+00:00,112.0,2026-10-21T13:50:49.786170+00:00
+2026,8,South Alabama,Marshall,total,total_model,AVOID,D,over,61.5,consensus,2026-10-18T12:38:05.075744+00:00,loss,2026-10-21T13:50:49.786170+00:00,66.5,2026-10-20T19:26:44.144381+00:00
 2026,8,New Mexico State,Sam Houston,spread,model_gap_late,AVOID,D,Sam Houston,2.5,consensus,2026-10-18T12:38:05.075744+00:00,,,2.5,2026-10-20T19:26:44.144381+00:00
 2026,8,New Mexico State,Sam Houston,moneyline,moneyline_dog,PASS,C,Sam Houston,112.0,consensus,2026-10-18T12:38:05.075744+00:00,,,119.0,2026-10-20T19:26:44.144381+00:00
 2026,8,New Mexico State,Sam Houston,total,total_model,AVOID,D,over,46.5,consensus,2026-10-18T12:38:05.075744+00:00,,,44.5,2026-10-19T20:40:22.251306+00:00
@@ -1786,7 +1786,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Iowa,Minnesota,moneyline,moneyline_fav,AVOID,D,Iowa,-183.0,consensus,2026-10-18T12:38:05.075744+00:00,,,-235.0,2026-10-19T15:39:47.382534+00:00
 2026,8,Iowa,Minnesota,total,total_model,AVOID,D,over,42.0,consensus,2026-10-18T12:38:05.075744+00:00,,,40.5,2026-10-20T19:26:44.144381+00:00
 2026,8,Indiana,Michigan,spread,model_gap_late,AVOID,D,Indiana,-9.0,consensus,2026-10-18T12:38:05.075744+00:00,,,-7.0,2026-10-19T20:40:22.251306+00:00
-2026,8,Indiana,Michigan,moneyline,moneyline_dog,PASS,D,Michigan,292.0,consensus,2026-10-18T12:38:05.075744+00:00,,,255.0,2026-10-19T15:39:47.382534+00:00
+2026,8,Indiana,Michigan,moneyline,moneyline_dog,PASS,D,Michigan,292.0,consensus,2026-10-18T12:38:05.075744+00:00,,,230.0,2026-10-21T13:50:49.786170+00:00
 2026,8,Indiana,Michigan,total,total_model,AVOID,D,over,42.5,consensus,2026-10-18T12:38:05.075744+00:00,,,41.5,2026-10-19T15:39:47.382534+00:00
 2026,8,LSU,Auburn,spread,model_gap_late,AVOID,D,Auburn,5.5,consensus,2026-10-18T12:38:05.075744+00:00,,,7.5,2026-10-19T20:40:22.251306+00:00
 2026,8,LSU,Auburn,moneyline,moneyline_dog,PASS,D,Auburn,176.0,consensus,2026-10-18T12:38:05.075744+00:00,,,237.0,2026-10-20T19:26:44.144381+00:00
@@ -1822,7 +1822,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Colorado,Oklahoma State,moneyline,moneyline_dog,PASS,D,Colorado,380.0,consensus,2026-10-18T17:06:12.728703+00:00,,,396.0,2026-10-20T19:26:44.144381+00:00
 2026,8,Colorado,Oklahoma State,total,total_model,AVOID,D,under,54.5,consensus,2026-10-18T17:06:12.728703+00:00,,,55.5,2026-10-19T20:40:22.251306+00:00
 2026,8,Oregon,Illinois,spread,model_gap_late,AVOID,D,Illinois,12.5,consensus,2026-10-18T17:06:12.728703+00:00,,,8.5,2026-10-19T20:40:22.251306+00:00
-2026,8,Oregon,Illinois,moneyline,moneyline_dog,PASS,D,Illinois,330.0,consensus,2026-10-18T17:06:12.728703+00:00,,,285.0,2026-10-19T20:40:22.251306+00:00
+2026,8,Oregon,Illinois,moneyline,moneyline_dog,PASS,D,Illinois,330.0,consensus,2026-10-18T17:06:12.728703+00:00,,,290.0,2026-10-21T13:50:49.786170+00:00
 2026,8,Oregon,Illinois,total,total_model,AVOID,D,over,51.5,consensus,2026-10-18T17:06:12.728703+00:00,,,50.5,2026-10-19T15:39:47.382534+00:00
 2026,8,Kansas State,Arizona State,spread,model_gap_late,AVOID,D,Arizona State,3.0,consensus,2026-10-18T17:06:12.728703+00:00,,,3.5,2026-10-19T15:39:47.382534+00:00
 2026,8,Kansas State,Arizona State,moneyline,moneyline_dog,PASS,C,Arizona State,130.0,consensus,2026-10-18T17:06:12.728703+00:00,,,140.0,2026-10-20T19:26:44.144381+00:00
@@ -1841,7 +1841,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Rice,Florida Atlantic,moneyline,moneyline_dog,PASS,D,Rice,320.0,consensus,2026-10-18T17:06:12.728703+00:00,,,320.0,2026-10-18T17:06:12.728703+00:00
 2026,8,Rice,Florida Atlantic,total,total_model,AVOID,D,under,58.5,consensus,2026-10-18T17:06:12.728703+00:00,,,58.5,2026-10-18T17:06:12.728703+00:00
 2026,8,Miami (OH),Central Michigan,spread,model_gap_late,AVOID,D,Central Michigan,-1.2,consensus,2026-10-18T17:06:12.728703+00:00,,,2.5,2026-10-19T15:39:47.382534+00:00
-2026,8,Miami (OH),Central Michigan,total,total_model,AVOID,D,over,43.0,consensus,2026-10-18T17:06:12.728703+00:00,,,40.5,2026-10-20T19:26:44.144381+00:00
+2026,8,Miami (OH),Central Michigan,total,total_model,AVOID,D,over,43.0,consensus,2026-10-18T17:06:12.728703+00:00,,,40.0,2026-10-21T13:50:49.786170+00:00
 2026,8,Akron,Kent State,spread,model_gap_late,AVOID,D,Kent State,-3.5,consensus,2026-10-18T17:06:12.728703+00:00,,,-3.0,2026-10-19T15:39:47.382534+00:00
 2026,8,Akron,Kent State,moneyline,moneyline_fav,AVOID,D,Kent State,-157.0,consensus,2026-10-18T17:06:12.728703+00:00,,,-150.0,2026-10-19T20:40:22.251306+00:00
 2026,8,Akron,Kent State,total,total_model,AVOID,D,over,43.0,consensus,2026-10-18T17:06:12.728703+00:00,,,46.5,2026-10-19T20:40:22.251306+00:00
@@ -1850,7 +1850,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Bowling Green,Buffalo,total,total_model,AVOID,D,over,43.5,consensus,2026-10-18T17:06:12.728703+00:00,,,44.5,2026-10-19T15:39:47.382534+00:00
 2026,8,North Texas,Navy,spread,model_gap_late,AVOID,D,North Texas,-1.5,consensus,2026-10-18T17:06:12.728703+00:00,,,-2.5,2026-10-19T20:40:22.251306+00:00
 2026,8,North Texas,Navy,moneyline,moneyline_fav,AVOID,D,North Texas,-121.0,consensus,2026-10-18T17:06:12.728703+00:00,,,-130.0,2026-10-20T19:26:44.144381+00:00
-2026,8,North Texas,Navy,total,total_model,AVOID,D,over,61.5,consensus,2026-10-18T17:06:12.728703+00:00,,,62.0,2026-10-20T19:26:44.144381+00:00
+2026,8,North Texas,Navy,total,total_model,AVOID,D,over,61.5,consensus,2026-10-18T17:06:12.728703+00:00,,,62.5,2026-10-21T13:50:49.786170+00:00
 2026,8,Boston College,Georgia Tech,spread,model_gap_late,AVOID,D,Georgia Tech,-4.5,consensus,2026-10-18T17:06:12.728703+00:00,,,-4.0,2026-10-19T20:40:22.251306+00:00
 2026,8,Boston College,Georgia Tech,moneyline,moneyline_fav,AVOID,D,Georgia Tech,-202.0,consensus,2026-10-18T17:06:12.728703+00:00,,,-185.0,2026-10-19T20:40:22.251306+00:00
 2026,8,Boston College,Georgia Tech,total,total_model,AVOID,D,over,50.2,consensus,2026-10-18T17:06:12.728703+00:00,,,49.5,2026-10-19T20:40:22.251306+00:00
@@ -1905,4 +1905,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Indiana,Michigan,moneyline,moneyline_fav,AVOID,D,Indiana,-285.0,consensus,2026-10-19T20:40:22.251306+00:00,,,-280.0,2026-10-20T19:26:44.144381+00:00
 2026,8,Iowa,Minnesota,moneyline,moneyline_dog,PASS,D,Minnesota,225.0,consensus,2026-10-19T20:40:22.251306+00:00,,,215.0,2026-10-20T22:23:36.138636+00:00
 2026,8,Rice,Florida Atlantic,price,price_gap,LEAN,D,Florida Atlantic,-7.5,Bovada,2026-10-20T13:34:59.026980+00:00,,,-7.5,2026-10-20T13:34:59.026980+00:00
-2026,8,South Alabama,Marshall,moneyline,moneyline_fav,AVOID,D,South Alabama,-135.0,consensus,2026-10-20T19:26:44.144381+00:00,,,-135.0,2026-10-20T19:26:44.144381+00:00
+2026,8,South Alabama,Marshall,moneyline,moneyline_fav,AVOID,D,South Alabama,-135.0,consensus,2026-10-20T19:26:44.144381+00:00,loss,2026-10-21T13:50:49.786170+00:00,-135.0,2026-10-20T19:26:44.144381+00:00
