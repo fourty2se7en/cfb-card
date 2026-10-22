@@ -1559,69 +1559,69 @@ Colorado State,Pac-12,totalYards,2672
 Colorado State,Pac-12,totalYardsOpponent,3057
 Colorado State,Pac-12,turnovers,4
 Colorado State,Pac-12,turnoversOpponent,12
-Delaware,Conference USA,firstDowns,117
-Delaware,Conference USA,firstDownsOpponent,130
-Delaware,Conference USA,fourthDownConversions,4
+Delaware,Conference USA,firstDowns,143
+Delaware,Conference USA,firstDownsOpponent,152
+Delaware,Conference USA,fourthDownConversions,9
 Delaware,Conference USA,fourthDownConversionsOpponent,8
-Delaware,Conference USA,fourthDowns,9
+Delaware,Conference USA,fourthDowns,14
 Delaware,Conference USA,fourthDownsOpponent,15
 Delaware,Conference USA,fumblesLost,1
-Delaware,Conference USA,fumblesLostOpponent,6
-Delaware,Conference USA,fumblesRecovered,6
+Delaware,Conference USA,fumblesLostOpponent,7
+Delaware,Conference USA,fumblesRecovered,7
 Delaware,Conference USA,fumblesRecoveredOpponent,1
-Delaware,Conference USA,games,6
-Delaware,Conference USA,interceptions,7
-Delaware,Conference USA,interceptionsOpponent,2
+Delaware,Conference USA,games,7
+Delaware,Conference USA,interceptions,8
+Delaware,Conference USA,interceptionsOpponent,4
 Delaware,Conference USA,interceptionTDs,0
-Delaware,Conference USA,interceptionTDsOpponent,0
+Delaware,Conference USA,interceptionTDsOpponent,1
 Delaware,Conference USA,interceptionYards,22
-Delaware,Conference USA,interceptionYardsOpponent,48
-Delaware,Conference USA,kickReturns,11
-Delaware,Conference USA,kickReturnsOpponent,15
+Delaware,Conference USA,interceptionYardsOpponent,95
+Delaware,Conference USA,kickReturns,16
+Delaware,Conference USA,kickReturnsOpponent,20
 Delaware,Conference USA,kickReturnTDs,0
 Delaware,Conference USA,kickReturnTDsOpponent,0
-Delaware,Conference USA,kickReturnYards,164
-Delaware,Conference USA,kickReturnYardsOpponent,301
-Delaware,Conference USA,netPassingYards,1626
-Delaware,Conference USA,netPassingYardsOpponent,1570
-Delaware,Conference USA,passAttempts,207
-Delaware,Conference USA,passAttemptsOpponent,204
-Delaware,Conference USA,passCompletions,110
-Delaware,Conference USA,passCompletionsOpponent,122
-Delaware,Conference USA,passesIntercepted,2
-Delaware,Conference USA,passesInterceptedOpponent,7
-Delaware,Conference USA,passingTDs,11
-Delaware,Conference USA,passingTDsOpponent,11
-Delaware,Conference USA,penalties,35
-Delaware,Conference USA,penaltiesOpponent,39
-Delaware,Conference USA,penaltyYards,312
-Delaware,Conference USA,penaltyYardsOpponent,332
-Delaware,Conference USA,possessionTime,10098
-Delaware,Conference USA,possessionTimeOpponent,11449
+Delaware,Conference USA,kickReturnYards,324
+Delaware,Conference USA,kickReturnYardsOpponent,397
+Delaware,Conference USA,netPassingYards,1876
+Delaware,Conference USA,netPassingYardsOpponent,1907
+Delaware,Conference USA,passAttempts,240
+Delaware,Conference USA,passAttemptsOpponent,239
+Delaware,Conference USA,passCompletions,132
+Delaware,Conference USA,passCompletionsOpponent,148
+Delaware,Conference USA,passesIntercepted,4
+Delaware,Conference USA,passesInterceptedOpponent,8
+Delaware,Conference USA,passingTDs,16
+Delaware,Conference USA,passingTDsOpponent,13
+Delaware,Conference USA,penalties,40
+Delaware,Conference USA,penaltiesOpponent,51
+Delaware,Conference USA,penaltyYards,352
+Delaware,Conference USA,penaltyYardsOpponent,432
+Delaware,Conference USA,possessionTime,12181
+Delaware,Conference USA,possessionTimeOpponent,12966
 Delaware,Conference USA,puntReturns,7
 Delaware,Conference USA,puntReturnsOpponent,11
 Delaware,Conference USA,puntReturnTDs,1
 Delaware,Conference USA,puntReturnTDsOpponent,1
 Delaware,Conference USA,puntReturnYards,42
 Delaware,Conference USA,puntReturnYardsOpponent,100
-Delaware,Conference USA,rushingAttempts,181
-Delaware,Conference USA,rushingAttemptsOpponent,211
-Delaware,Conference USA,rushingTDs,6
-Delaware,Conference USA,rushingTDsOpponent,9
-Delaware,Conference USA,rushingYards,564
-Delaware,Conference USA,rushingYardsOpponent,789
-Delaware,Conference USA,sacks,18
-Delaware,Conference USA,sacksOpponent,18
-Delaware,Conference USA,tacklesForLoss,36
-Delaware,Conference USA,tacklesForLossOpponent,33
-Delaware,Conference USA,thirdDownConversions,25
-Delaware,Conference USA,thirdDownConversionsOpponent,30
-Delaware,Conference USA,thirdDowns,79
-Delaware,Conference USA,thirdDownsOpponent,83
-Delaware,Conference USA,totalYards,2190
-Delaware,Conference USA,totalYardsOpponent,2359
-Delaware,Conference USA,turnovers,8
-Delaware,Conference USA,turnoversOpponent,8
+Delaware,Conference USA,rushingAttempts,223
+Delaware,Conference USA,rushingAttemptsOpponent,234
+Delaware,Conference USA,rushingTDs,9
+Delaware,Conference USA,rushingTDsOpponent,11
+Delaware,Conference USA,rushingYards,796
+Delaware,Conference USA,rushingYardsOpponent,883
+Delaware,Conference USA,sacks,19
+Delaware,Conference USA,sacksOpponent,20
+Delaware,Conference USA,tacklesForLoss,39
+Delaware,Conference USA,tacklesForLossOpponent,38
+Delaware,Conference USA,thirdDownConversions,30
+Delaware,Conference USA,thirdDownConversionsOpponent,34
+Delaware,Conference USA,thirdDowns,91
+Delaware,Conference USA,thirdDownsOpponent,91
+Delaware,Conference USA,totalYards,2672
+Delaware,Conference USA,totalYardsOpponent,2790
+Delaware,Conference USA,turnovers,9
+Delaware,Conference USA,turnoversOpponent,11
 Duke,ACC,firstDowns,136
 Duke,ACC,firstDownsOpponent,98
 Duke,ACC,fourthDownConversions,8
@@ -1937,68 +1937,68 @@ Florida Atlantic,American Athletic,totalYards,2534
 Florida Atlantic,American Athletic,totalYardsOpponent,2499
 Florida Atlantic,American Athletic,turnovers,6
 Florida Atlantic,American Athletic,turnoversOpponent,8
-Florida International,Conference USA,firstDowns,116
-Florida International,Conference USA,firstDownsOpponent,86
+Florida International,Conference USA,firstDowns,131
+Florida International,Conference USA,firstDownsOpponent,106
 Florida International,Conference USA,fourthDownConversions,8
-Florida International,Conference USA,fourthDownConversionsOpponent,8
-Florida International,Conference USA,fourthDowns,17
-Florida International,Conference USA,fourthDownsOpponent,13
+Florida International,Conference USA,fourthDownConversionsOpponent,9
+Florida International,Conference USA,fourthDowns,19
+Florida International,Conference USA,fourthDownsOpponent,15
 Florida International,Conference USA,fumblesLost,2
 Florida International,Conference USA,fumblesLostOpponent,3
 Florida International,Conference USA,fumblesRecovered,3
 Florida International,Conference USA,fumblesRecoveredOpponent,2
-Florida International,Conference USA,games,6
-Florida International,Conference USA,interceptions,7
+Florida International,Conference USA,games,7
+Florida International,Conference USA,interceptions,8
 Florida International,Conference USA,interceptionsOpponent,5
 Florida International,Conference USA,interceptionTDs,0
 Florida International,Conference USA,interceptionTDsOpponent,0
 Florida International,Conference USA,interceptionYards,52
-Florida International,Conference USA,interceptionYardsOpponent,100
-Florida International,Conference USA,kickReturns,6
-Florida International,Conference USA,kickReturnsOpponent,12
+Florida International,Conference USA,interceptionYardsOpponent,105
+Florida International,Conference USA,kickReturns,9
+Florida International,Conference USA,kickReturnsOpponent,14
 Florida International,Conference USA,kickReturnTDs,0
 Florida International,Conference USA,kickReturnTDsOpponent,0
-Florida International,Conference USA,kickReturnYards,95
-Florida International,Conference USA,kickReturnYardsOpponent,221
-Florida International,Conference USA,netPassingYards,1576
-Florida International,Conference USA,netPassingYardsOpponent,997
-Florida International,Conference USA,passAttempts,214
-Florida International,Conference USA,passAttemptsOpponent,167
-Florida International,Conference USA,passCompletions,125
-Florida International,Conference USA,passCompletionsOpponent,93
+Florida International,Conference USA,kickReturnYards,177
+Florida International,Conference USA,kickReturnYardsOpponent,267
+Florida International,Conference USA,netPassingYards,1755
+Florida International,Conference USA,netPassingYardsOpponent,1197
+Florida International,Conference USA,passAttempts,243
+Florida International,Conference USA,passAttemptsOpponent,194
+Florida International,Conference USA,passCompletions,140
+Florida International,Conference USA,passCompletionsOpponent,109
 Florida International,Conference USA,passesIntercepted,5
-Florida International,Conference USA,passesInterceptedOpponent,7
-Florida International,Conference USA,passingTDs,8
-Florida International,Conference USA,passingTDsOpponent,4
-Florida International,Conference USA,penalties,46
-Florida International,Conference USA,penaltiesOpponent,38
-Florida International,Conference USA,penaltyYards,359
-Florida International,Conference USA,penaltyYardsOpponent,303
-Florida International,Conference USA,possessionTime,12368
-Florida International,Conference USA,possessionTimeOpponent,9704
-Florida International,Conference USA,puntReturns,12
+Florida International,Conference USA,passesInterceptedOpponent,8
+Florida International,Conference USA,passingTDs,11
+Florida International,Conference USA,passingTDsOpponent,5
+Florida International,Conference USA,penalties,51
+Florida International,Conference USA,penaltiesOpponent,47
+Florida International,Conference USA,penaltyYards,388
+Florida International,Conference USA,penaltyYardsOpponent,360
+Florida International,Conference USA,possessionTime,13975
+Florida International,Conference USA,possessionTimeOpponent,11697
+Florida International,Conference USA,puntReturns,14
 Florida International,Conference USA,puntReturnsOpponent,6
 Florida International,Conference USA,puntReturnTDs,0
 Florida International,Conference USA,puntReturnTDsOpponent,0
-Florida International,Conference USA,puntReturnYards,66
+Florida International,Conference USA,puntReturnYards,92
 Florida International,Conference USA,puntReturnYardsOpponent,10
-Florida International,Conference USA,rushingAttempts,214
-Florida International,Conference USA,rushingAttemptsOpponent,188
+Florida International,Conference USA,rushingAttempts,243
+Florida International,Conference USA,rushingAttemptsOpponent,227
 Florida International,Conference USA,rushingTDs,4
-Florida International,Conference USA,rushingTDsOpponent,3
-Florida International,Conference USA,rushingYards,720
-Florida International,Conference USA,rushingYardsOpponent,603
+Florida International,Conference USA,rushingTDsOpponent,4
+Florida International,Conference USA,rushingYards,888
+Florida International,Conference USA,rushingYardsOpponent,851
 Florida International,Conference USA,sacks,14
 Florida International,Conference USA,sacksOpponent,7
-Florida International,Conference USA,tacklesForLoss,37
+Florida International,Conference USA,tacklesForLoss,42
 Florida International,Conference USA,tacklesForLossOpponent,28
-Florida International,Conference USA,thirdDownConversions,45
-Florida International,Conference USA,thirdDownConversionsOpponent,24
-Florida International,Conference USA,thirdDowns,97
-Florida International,Conference USA,thirdDownsOpponent,82
-Florida International,Conference USA,totalYards,2296
-Florida International,Conference USA,totalYardsOpponent,1600
-Florida International,Conference USA,turnovers,9
+Florida International,Conference USA,thirdDownConversions,51
+Florida International,Conference USA,thirdDownConversionsOpponent,27
+Florida International,Conference USA,thirdDowns,110
+Florida International,Conference USA,thirdDownsOpponent,95
+Florida International,Conference USA,totalYards,2643
+Florida International,Conference USA,totalYardsOpponent,2048
+Florida International,Conference USA,turnovers,10
 Florida International,Conference USA,turnoversOpponent,8
 Florida State,ACC,firstDowns,140
 Florida State,ACC,firstDownsOpponent,155
@@ -3506,69 +3506,69 @@ LSU,SEC,totalYards,3528
 LSU,SEC,totalYardsOpponent,1796
 LSU,SEC,turnovers,11
 LSU,SEC,turnoversOpponent,9
-Marshall,Sun Belt,firstDowns,130
-Marshall,Sun Belt,firstDownsOpponent,131
+Marshall,Sun Belt,firstDowns,150
+Marshall,Sun Belt,firstDownsOpponent,150
 Marshall,Sun Belt,fourthDownConversions,3
-Marshall,Sun Belt,fourthDownConversionsOpponent,5
+Marshall,Sun Belt,fourthDownConversionsOpponent,10
 Marshall,Sun Belt,fourthDowns,7
-Marshall,Sun Belt,fourthDownsOpponent,7
+Marshall,Sun Belt,fourthDownsOpponent,13
 Marshall,Sun Belt,fumblesLost,7
 Marshall,Sun Belt,fumblesLostOpponent,2
 Marshall,Sun Belt,fumblesRecovered,2
 Marshall,Sun Belt,fumblesRecoveredOpponent,7
-Marshall,Sun Belt,games,6
+Marshall,Sun Belt,games,7
 Marshall,Sun Belt,interceptions,7
-Marshall,Sun Belt,interceptionsOpponent,3
+Marshall,Sun Belt,interceptionsOpponent,4
 Marshall,Sun Belt,interceptionTDs,0
 Marshall,Sun Belt,interceptionTDsOpponent,0
 Marshall,Sun Belt,interceptionYards,57
 Marshall,Sun Belt,interceptionYardsOpponent,24
-Marshall,Sun Belt,kickReturns,20
-Marshall,Sun Belt,kickReturnsOpponent,10
+Marshall,Sun Belt,kickReturns,21
+Marshall,Sun Belt,kickReturnsOpponent,13
 Marshall,Sun Belt,kickReturnTDs,0
 Marshall,Sun Belt,kickReturnTDsOpponent,0
-Marshall,Sun Belt,kickReturnYards,369
-Marshall,Sun Belt,kickReturnYardsOpponent,236
-Marshall,Sun Belt,netPassingYards,1487
-Marshall,Sun Belt,netPassingYardsOpponent,1521
-Marshall,Sun Belt,passAttempts,205
-Marshall,Sun Belt,passAttemptsOpponent,186
-Marshall,Sun Belt,passCompletions,128
-Marshall,Sun Belt,passCompletionsOpponent,116
-Marshall,Sun Belt,passesIntercepted,3
+Marshall,Sun Belt,kickReturnYards,404
+Marshall,Sun Belt,kickReturnYardsOpponent,294
+Marshall,Sun Belt,netPassingYards,1668
+Marshall,Sun Belt,netPassingYardsOpponent,1669
+Marshall,Sun Belt,passAttempts,238
+Marshall,Sun Belt,passAttemptsOpponent,219
+Marshall,Sun Belt,passCompletions,149
+Marshall,Sun Belt,passCompletionsOpponent,128
+Marshall,Sun Belt,passesIntercepted,4
 Marshall,Sun Belt,passesInterceptedOpponent,7
 Marshall,Sun Belt,passingTDs,8
 Marshall,Sun Belt,passingTDsOpponent,16
-Marshall,Sun Belt,penalties,39
-Marshall,Sun Belt,penaltiesOpponent,41
-Marshall,Sun Belt,penaltyYards,352
-Marshall,Sun Belt,penaltyYardsOpponent,340
-Marshall,Sun Belt,possessionTime,10787
-Marshall,Sun Belt,possessionTimeOpponent,10813
-Marshall,Sun Belt,puntReturns,5
-Marshall,Sun Belt,puntReturnsOpponent,11
+Marshall,Sun Belt,penalties,44
+Marshall,Sun Belt,penaltiesOpponent,45
+Marshall,Sun Belt,penaltyYards,402
+Marshall,Sun Belt,penaltyYardsOpponent,370
+Marshall,Sun Belt,possessionTime,12549
+Marshall,Sun Belt,possessionTimeOpponent,12651
+Marshall,Sun Belt,puntReturns,6
+Marshall,Sun Belt,puntReturnsOpponent,12
 Marshall,Sun Belt,puntReturnTDs,0
 Marshall,Sun Belt,puntReturnTDsOpponent,0
-Marshall,Sun Belt,puntReturnYards,31
-Marshall,Sun Belt,puntReturnYardsOpponent,168
-Marshall,Sun Belt,rushingAttempts,215
-Marshall,Sun Belt,rushingAttemptsOpponent,210
-Marshall,Sun Belt,rushingTDs,8
-Marshall,Sun Belt,rushingTDsOpponent,8
-Marshall,Sun Belt,rushingYards,952
-Marshall,Sun Belt,rushingYardsOpponent,1163
-Marshall,Sun Belt,sacks,5
-Marshall,Sun Belt,sacksOpponent,11
-Marshall,Sun Belt,tacklesForLoss,28
-Marshall,Sun Belt,tacklesForLossOpponent,35
-Marshall,Sun Belt,thirdDownConversions,32
-Marshall,Sun Belt,thirdDownConversionsOpponent,33
-Marshall,Sun Belt,thirdDowns,79
-Marshall,Sun Belt,thirdDownsOpponent,76
-Marshall,Sun Belt,totalYards,2439
-Marshall,Sun Belt,totalYardsOpponent,2684
+Marshall,Sun Belt,puntReturnYards,47
+Marshall,Sun Belt,puntReturnYardsOpponent,182
+Marshall,Sun Belt,rushingAttempts,248
+Marshall,Sun Belt,rushingAttemptsOpponent,252
+Marshall,Sun Belt,rushingTDs,10
+Marshall,Sun Belt,rushingTDsOpponent,9
+Marshall,Sun Belt,rushingYards,1099
+Marshall,Sun Belt,rushingYardsOpponent,1341
+Marshall,Sun Belt,sacks,6
+Marshall,Sun Belt,sacksOpponent,13
+Marshall,Sun Belt,tacklesForLoss,36
+Marshall,Sun Belt,tacklesForLossOpponent,40
+Marshall,Sun Belt,thirdDownConversions,37
+Marshall,Sun Belt,thirdDownConversionsOpponent,37
+Marshall,Sun Belt,thirdDowns,92
+Marshall,Sun Belt,thirdDownsOpponent,94
+Marshall,Sun Belt,totalYards,2767
+Marshall,Sun Belt,totalYardsOpponent,3010
 Marshall,Sun Belt,turnovers,14
-Marshall,Sun Belt,turnoversOpponent,5
+Marshall,Sun Belt,turnoversOpponent,6
 Maryland,Big Ten,firstDowns,142
 Maryland,Big Ten,firstDownsOpponent,142
 Maryland,Big Ten,fourthDownConversions,8
@@ -4010,69 +4010,69 @@ Michigan State,Big Ten,totalYards,2175
 Michigan State,Big Ten,totalYardsOpponent,2398
 Michigan State,Big Ten,turnovers,8
 Michigan State,Big Ten,turnoversOpponent,3
-Middle Tennessee,Conference USA,firstDowns,111
-Middle Tennessee,Conference USA,firstDownsOpponent,133
-Middle Tennessee,Conference USA,fourthDownConversions,6
+Middle Tennessee,Conference USA,firstDowns,131
+Middle Tennessee,Conference USA,firstDownsOpponent,148
+Middle Tennessee,Conference USA,fourthDownConversions,7
 Middle Tennessee,Conference USA,fourthDownConversionsOpponent,6
-Middle Tennessee,Conference USA,fourthDowns,9
-Middle Tennessee,Conference USA,fourthDownsOpponent,8
+Middle Tennessee,Conference USA,fourthDowns,11
+Middle Tennessee,Conference USA,fourthDownsOpponent,10
 Middle Tennessee,Conference USA,fumblesLost,2
 Middle Tennessee,Conference USA,fumblesLostOpponent,4
 Middle Tennessee,Conference USA,fumblesRecovered,4
 Middle Tennessee,Conference USA,fumblesRecoveredOpponent,2
-Middle Tennessee,Conference USA,games,6
+Middle Tennessee,Conference USA,games,7
 Middle Tennessee,Conference USA,interceptions,2
-Middle Tennessee,Conference USA,interceptionsOpponent,4
+Middle Tennessee,Conference USA,interceptionsOpponent,5
 Middle Tennessee,Conference USA,interceptionTDs,0
 Middle Tennessee,Conference USA,interceptionTDsOpponent,0
-Middle Tennessee,Conference USA,interceptionYards,72
+Middle Tennessee,Conference USA,interceptionYards,77
 Middle Tennessee,Conference USA,interceptionYardsOpponent,76
-Middle Tennessee,Conference USA,kickReturns,15
-Middle Tennessee,Conference USA,kickReturnsOpponent,12
+Middle Tennessee,Conference USA,kickReturns,17
+Middle Tennessee,Conference USA,kickReturnsOpponent,15
 Middle Tennessee,Conference USA,kickReturnTDs,0
 Middle Tennessee,Conference USA,kickReturnTDsOpponent,0
-Middle Tennessee,Conference USA,kickReturnYards,285
-Middle Tennessee,Conference USA,kickReturnYardsOpponent,239
-Middle Tennessee,Conference USA,netPassingYards,1204
-Middle Tennessee,Conference USA,netPassingYardsOpponent,1299
-Middle Tennessee,Conference USA,passAttempts,189
-Middle Tennessee,Conference USA,passAttemptsOpponent,159
-Middle Tennessee,Conference USA,passCompletions,110
-Middle Tennessee,Conference USA,passCompletionsOpponent,101
-Middle Tennessee,Conference USA,passesIntercepted,4
+Middle Tennessee,Conference USA,kickReturnYards,331
+Middle Tennessee,Conference USA,kickReturnYardsOpponent,321
+Middle Tennessee,Conference USA,netPassingYards,1404
+Middle Tennessee,Conference USA,netPassingYardsOpponent,1478
+Middle Tennessee,Conference USA,passAttempts,216
+Middle Tennessee,Conference USA,passAttemptsOpponent,188
+Middle Tennessee,Conference USA,passCompletions,126
+Middle Tennessee,Conference USA,passCompletionsOpponent,116
+Middle Tennessee,Conference USA,passesIntercepted,5
 Middle Tennessee,Conference USA,passesInterceptedOpponent,2
-Middle Tennessee,Conference USA,passingTDs,11
-Middle Tennessee,Conference USA,passingTDsOpponent,6
-Middle Tennessee,Conference USA,penalties,42
-Middle Tennessee,Conference USA,penaltiesOpponent,42
-Middle Tennessee,Conference USA,penaltyYards,314
-Middle Tennessee,Conference USA,penaltyYardsOpponent,360
-Middle Tennessee,Conference USA,possessionTime,10028
-Middle Tennessee,Conference USA,possessionTimeOpponent,10911
+Middle Tennessee,Conference USA,passingTDs,12
+Middle Tennessee,Conference USA,passingTDsOpponent,9
+Middle Tennessee,Conference USA,penalties,51
+Middle Tennessee,Conference USA,penaltiesOpponent,47
+Middle Tennessee,Conference USA,penaltyYards,371
+Middle Tennessee,Conference USA,penaltyYardsOpponent,389
+Middle Tennessee,Conference USA,possessionTime,12021
+Middle Tennessee,Conference USA,possessionTimeOpponent,12518
 Middle Tennessee,Conference USA,puntReturns,9
-Middle Tennessee,Conference USA,puntReturnsOpponent,12
+Middle Tennessee,Conference USA,puntReturnsOpponent,14
 Middle Tennessee,Conference USA,puntReturnTDs,0
 Middle Tennessee,Conference USA,puntReturnTDsOpponent,0
 Middle Tennessee,Conference USA,puntReturnYards,53
-Middle Tennessee,Conference USA,puntReturnYardsOpponent,173
-Middle Tennessee,Conference USA,rushingAttempts,153
-Middle Tennessee,Conference USA,rushingAttemptsOpponent,226
-Middle Tennessee,Conference USA,rushingTDs,4
+Middle Tennessee,Conference USA,puntReturnYardsOpponent,199
+Middle Tennessee,Conference USA,rushingAttempts,192
+Middle Tennessee,Conference USA,rushingAttemptsOpponent,255
+Middle Tennessee,Conference USA,rushingTDs,5
 Middle Tennessee,Conference USA,rushingTDsOpponent,15
-Middle Tennessee,Conference USA,rushingYards,725
-Middle Tennessee,Conference USA,rushingYardsOpponent,1178
+Middle Tennessee,Conference USA,rushingYards,973
+Middle Tennessee,Conference USA,rushingYardsOpponent,1346
 Middle Tennessee,Conference USA,sacks,7
 Middle Tennessee,Conference USA,sacksOpponent,7
 Middle Tennessee,Conference USA,tacklesForLoss,19
-Middle Tennessee,Conference USA,tacklesForLossOpponent,23
-Middle Tennessee,Conference USA,thirdDownConversions,17
-Middle Tennessee,Conference USA,thirdDownConversionsOpponent,27
-Middle Tennessee,Conference USA,thirdDowns,65
-Middle Tennessee,Conference USA,thirdDownsOpponent,68
-Middle Tennessee,Conference USA,totalYards,1929
-Middle Tennessee,Conference USA,totalYardsOpponent,2477
+Middle Tennessee,Conference USA,tacklesForLossOpponent,28
+Middle Tennessee,Conference USA,thirdDownConversions,20
+Middle Tennessee,Conference USA,thirdDownConversionsOpponent,33
+Middle Tennessee,Conference USA,thirdDowns,78
+Middle Tennessee,Conference USA,thirdDownsOpponent,81
+Middle Tennessee,Conference USA,totalYards,2377
+Middle Tennessee,Conference USA,totalYardsOpponent,2824
 Middle Tennessee,Conference USA,turnovers,4
-Middle Tennessee,Conference USA,turnoversOpponent,8
+Middle Tennessee,Conference USA,turnoversOpponent,9
 Minnesota,Big Ten,firstDowns,107
 Minnesota,Big Ten,firstDownsOpponent,102
 Minnesota,Big Ten,fourthDownConversions,5
@@ -4259,69 +4259,69 @@ Missouri,SEC,totalYards,3012
 Missouri,SEC,totalYardsOpponent,2314
 Missouri,SEC,turnovers,4
 Missouri,SEC,turnoversOpponent,9
-Missouri State,Conference USA,firstDowns,112
-Missouri State,Conference USA,firstDownsOpponent,143
+Missouri State,Conference USA,firstDowns,134
+Missouri State,Conference USA,firstDownsOpponent,169
 Missouri State,Conference USA,fourthDownConversions,6
-Missouri State,Conference USA,fourthDownConversionsOpponent,6
+Missouri State,Conference USA,fourthDownConversionsOpponent,11
 Missouri State,Conference USA,fourthDowns,16
-Missouri State,Conference USA,fourthDownsOpponent,9
-Missouri State,Conference USA,fumblesLost,3
+Missouri State,Conference USA,fourthDownsOpponent,14
+Missouri State,Conference USA,fumblesLost,4
 Missouri State,Conference USA,fumblesLostOpponent,4
 Missouri State,Conference USA,fumblesRecovered,4
-Missouri State,Conference USA,fumblesRecoveredOpponent,3
-Missouri State,Conference USA,games,6
-Missouri State,Conference USA,interceptions,4
-Missouri State,Conference USA,interceptionsOpponent,2
-Missouri State,Conference USA,interceptionTDs,1
+Missouri State,Conference USA,fumblesRecoveredOpponent,4
+Missouri State,Conference USA,games,7
+Missouri State,Conference USA,interceptions,6
+Missouri State,Conference USA,interceptionsOpponent,3
+Missouri State,Conference USA,interceptionTDs,2
 Missouri State,Conference USA,interceptionTDsOpponent,0
-Missouri State,Conference USA,interceptionYards,60
+Missouri State,Conference USA,interceptionYards,107
 Missouri State,Conference USA,interceptionYardsOpponent,18
-Missouri State,Conference USA,kickReturns,6
-Missouri State,Conference USA,kickReturnsOpponent,13
+Missouri State,Conference USA,kickReturns,11
+Missouri State,Conference USA,kickReturnsOpponent,18
 Missouri State,Conference USA,kickReturnTDs,0
 Missouri State,Conference USA,kickReturnTDsOpponent,0
-Missouri State,Conference USA,kickReturnYards,104
-Missouri State,Conference USA,kickReturnYardsOpponent,232
-Missouri State,Conference USA,netPassingYards,1348
-Missouri State,Conference USA,netPassingYardsOpponent,1526
-Missouri State,Conference USA,passAttempts,183
-Missouri State,Conference USA,passAttemptsOpponent,194
-Missouri State,Conference USA,passCompletions,120
-Missouri State,Conference USA,passCompletionsOpponent,129
-Missouri State,Conference USA,passesIntercepted,2
-Missouri State,Conference USA,passesInterceptedOpponent,4
-Missouri State,Conference USA,passingTDs,8
-Missouri State,Conference USA,passingTDsOpponent,11
-Missouri State,Conference USA,penalties,50
-Missouri State,Conference USA,penaltiesOpponent,48
-Missouri State,Conference USA,penaltyYards,394
-Missouri State,Conference USA,penaltyYardsOpponent,485
-Missouri State,Conference USA,possessionTime,9819
-Missouri State,Conference USA,possessionTimeOpponent,11776
+Missouri State,Conference USA,kickReturnYards,200
+Missouri State,Conference USA,kickReturnYardsOpponent,392
+Missouri State,Conference USA,netPassingYards,1685
+Missouri State,Conference USA,netPassingYardsOpponent,1776
+Missouri State,Conference USA,passAttempts,218
+Missouri State,Conference USA,passAttemptsOpponent,227
+Missouri State,Conference USA,passCompletions,146
+Missouri State,Conference USA,passCompletionsOpponent,151
+Missouri State,Conference USA,passesIntercepted,3
+Missouri State,Conference USA,passesInterceptedOpponent,6
+Missouri State,Conference USA,passingTDs,10
+Missouri State,Conference USA,passingTDsOpponent,16
+Missouri State,Conference USA,penalties,62
+Missouri State,Conference USA,penaltiesOpponent,53
+Missouri State,Conference USA,penaltyYards,494
+Missouri State,Conference USA,penaltyYardsOpponent,525
+Missouri State,Conference USA,possessionTime,11336
+Missouri State,Conference USA,possessionTimeOpponent,13859
 Missouri State,Conference USA,puntReturns,8
 Missouri State,Conference USA,puntReturnsOpponent,9
 Missouri State,Conference USA,puntReturnTDs,0
 Missouri State,Conference USA,puntReturnTDsOpponent,0
 Missouri State,Conference USA,puntReturnYards,76
 Missouri State,Conference USA,puntReturnYardsOpponent,73
-Missouri State,Conference USA,rushingAttempts,202
-Missouri State,Conference USA,rushingAttemptsOpponent,233
-Missouri State,Conference USA,rushingTDs,7
-Missouri State,Conference USA,rushingTDsOpponent,12
-Missouri State,Conference USA,rushingYards,809
-Missouri State,Conference USA,rushingYardsOpponent,1059
-Missouri State,Conference USA,sacks,7
-Missouri State,Conference USA,sacksOpponent,12
-Missouri State,Conference USA,tacklesForLoss,22
-Missouri State,Conference USA,tacklesForLossOpponent,39
-Missouri State,Conference USA,thirdDownConversions,27
-Missouri State,Conference USA,thirdDownConversionsOpponent,36
-Missouri State,Conference USA,thirdDowns,77
-Missouri State,Conference USA,thirdDownsOpponent,80
-Missouri State,Conference USA,totalYards,2157
-Missouri State,Conference USA,totalYardsOpponent,2585
-Missouri State,Conference USA,turnovers,7
-Missouri State,Conference USA,turnoversOpponent,6
+Missouri State,Conference USA,rushingAttempts,225
+Missouri State,Conference USA,rushingAttemptsOpponent,275
+Missouri State,Conference USA,rushingTDs,9
+Missouri State,Conference USA,rushingTDsOpponent,15
+Missouri State,Conference USA,rushingYards,903
+Missouri State,Conference USA,rushingYardsOpponent,1291
+Missouri State,Conference USA,sacks,9
+Missouri State,Conference USA,sacksOpponent,13
+Missouri State,Conference USA,tacklesForLoss,27
+Missouri State,Conference USA,tacklesForLossOpponent,42
+Missouri State,Conference USA,thirdDownConversions,31
+Missouri State,Conference USA,thirdDownConversionsOpponent,41
+Missouri State,Conference USA,thirdDowns,85
+Missouri State,Conference USA,thirdDownsOpponent,92
+Missouri State,Conference USA,totalYards,2588
+Missouri State,Conference USA,totalYardsOpponent,3067
+Missouri State,Conference USA,turnovers,10
+Missouri State,Conference USA,turnoversOpponent,7
 Navy,American Athletic,firstDowns,124
 Navy,American Athletic,firstDownsOpponent,110
 Navy,American Athletic,fourthDownConversions,10
@@ -4637,69 +4637,69 @@ New Mexico,Mountain West,totalYards,2265
 New Mexico,Mountain West,totalYardsOpponent,1571
 New Mexico,Mountain West,turnovers,4
 New Mexico,Mountain West,turnoversOpponent,21
-New Mexico State,Conference USA,firstDowns,112
-New Mexico State,Conference USA,firstDownsOpponent,107
-New Mexico State,Conference USA,fourthDownConversions,6
+New Mexico State,Conference USA,firstDowns,133
+New Mexico State,Conference USA,firstDownsOpponent,116
+New Mexico State,Conference USA,fourthDownConversions,7
 New Mexico State,Conference USA,fourthDownConversionsOpponent,5
-New Mexico State,Conference USA,fourthDowns,13
-New Mexico State,Conference USA,fourthDownsOpponent,9
-New Mexico State,Conference USA,fumblesLost,3
-New Mexico State,Conference USA,fumblesLostOpponent,1
-New Mexico State,Conference USA,fumblesRecovered,1
-New Mexico State,Conference USA,fumblesRecoveredOpponent,3
-New Mexico State,Conference USA,games,6
-New Mexico State,Conference USA,interceptions,8
-New Mexico State,Conference USA,interceptionsOpponent,5
+New Mexico State,Conference USA,fourthDowns,16
+New Mexico State,Conference USA,fourthDownsOpponent,10
+New Mexico State,Conference USA,fumblesLost,4
+New Mexico State,Conference USA,fumblesLostOpponent,2
+New Mexico State,Conference USA,fumblesRecovered,2
+New Mexico State,Conference USA,fumblesRecoveredOpponent,4
+New Mexico State,Conference USA,games,7
+New Mexico State,Conference USA,interceptions,9
+New Mexico State,Conference USA,interceptionsOpponent,6
 New Mexico State,Conference USA,interceptionTDs,1
 New Mexico State,Conference USA,interceptionTDsOpponent,0
-New Mexico State,Conference USA,interceptionYards,49
+New Mexico State,Conference USA,interceptionYards,74
 New Mexico State,Conference USA,interceptionYardsOpponent,46
-New Mexico State,Conference USA,kickReturns,10
-New Mexico State,Conference USA,kickReturnsOpponent,18
+New Mexico State,Conference USA,kickReturns,12
+New Mexico State,Conference USA,kickReturnsOpponent,24
 New Mexico State,Conference USA,kickReturnTDs,0
 New Mexico State,Conference USA,kickReturnTDsOpponent,0
-New Mexico State,Conference USA,kickReturnYards,185
-New Mexico State,Conference USA,kickReturnYardsOpponent,445
-New Mexico State,Conference USA,netPassingYards,1355
-New Mexico State,Conference USA,netPassingYardsOpponent,1330
-New Mexico State,Conference USA,passAttempts,195
-New Mexico State,Conference USA,passAttemptsOpponent,186
-New Mexico State,Conference USA,passCompletions,108
-New Mexico State,Conference USA,passCompletionsOpponent,119
-New Mexico State,Conference USA,passesIntercepted,4
-New Mexico State,Conference USA,passesInterceptedOpponent,8
-New Mexico State,Conference USA,passingTDs,7
-New Mexico State,Conference USA,passingTDsOpponent,3
-New Mexico State,Conference USA,penalties,40
-New Mexico State,Conference USA,penaltiesOpponent,43
-New Mexico State,Conference USA,penaltyYards,307
-New Mexico State,Conference USA,penaltyYardsOpponent,350
-New Mexico State,Conference USA,possessionTime,9792
-New Mexico State,Conference USA,possessionTimeOpponent,11808
-New Mexico State,Conference USA,puntReturns,6
-New Mexico State,Conference USA,puntReturnsOpponent,3
+New Mexico State,Conference USA,kickReturnYards,232
+New Mexico State,Conference USA,kickReturnYardsOpponent,554
+New Mexico State,Conference USA,netPassingYards,1515
+New Mexico State,Conference USA,netPassingYardsOpponent,1565
+New Mexico State,Conference USA,passAttempts,224
+New Mexico State,Conference USA,passAttemptsOpponent,220
+New Mexico State,Conference USA,passCompletions,127
+New Mexico State,Conference USA,passCompletionsOpponent,137
+New Mexico State,Conference USA,passesIntercepted,5
+New Mexico State,Conference USA,passesInterceptedOpponent,9
+New Mexico State,Conference USA,passingTDs,9
+New Mexico State,Conference USA,passingTDsOpponent,4
+New Mexico State,Conference USA,penalties,46
+New Mexico State,Conference USA,penaltiesOpponent,56
+New Mexico State,Conference USA,penaltyYards,355
+New Mexico State,Conference USA,penaltyYardsOpponent,469
+New Mexico State,Conference USA,possessionTime,11866
+New Mexico State,Conference USA,possessionTimeOpponent,13334
+New Mexico State,Conference USA,puntReturns,8
+New Mexico State,Conference USA,puntReturnsOpponent,6
 New Mexico State,Conference USA,puntReturnTDs,0
 New Mexico State,Conference USA,puntReturnTDsOpponent,0
-New Mexico State,Conference USA,puntReturnYards,8
-New Mexico State,Conference USA,puntReturnYardsOpponent,28
-New Mexico State,Conference USA,rushingAttempts,189
-New Mexico State,Conference USA,rushingAttemptsOpponent,214
-New Mexico State,Conference USA,rushingTDs,6
-New Mexico State,Conference USA,rushingTDsOpponent,13
-New Mexico State,Conference USA,rushingYards,856
-New Mexico State,Conference USA,rushingYardsOpponent,750
-New Mexico State,Conference USA,sacks,15
+New Mexico State,Conference USA,puntReturnYards,32
+New Mexico State,Conference USA,puntReturnYardsOpponent,61
+New Mexico State,Conference USA,rushingAttempts,231
+New Mexico State,Conference USA,rushingAttemptsOpponent,234
+New Mexico State,Conference USA,rushingTDs,8
+New Mexico State,Conference USA,rushingTDsOpponent,14
+New Mexico State,Conference USA,rushingYards,1059
+New Mexico State,Conference USA,rushingYardsOpponent,761
+New Mexico State,Conference USA,sacks,17
 New Mexico State,Conference USA,sacksOpponent,12
-New Mexico State,Conference USA,tacklesForLoss,38
-New Mexico State,Conference USA,tacklesForLossOpponent,30
-New Mexico State,Conference USA,thirdDownConversions,32
-New Mexico State,Conference USA,thirdDownConversionsOpponent,36
-New Mexico State,Conference USA,thirdDowns,78
-New Mexico State,Conference USA,thirdDownsOpponent,87
-New Mexico State,Conference USA,totalYards,2211
-New Mexico State,Conference USA,totalYardsOpponent,2080
-New Mexico State,Conference USA,turnovers,11
-New Mexico State,Conference USA,turnoversOpponent,6
+New Mexico State,Conference USA,tacklesForLoss,45
+New Mexico State,Conference USA,tacklesForLossOpponent,34
+New Mexico State,Conference USA,thirdDownConversions,34
+New Mexico State,Conference USA,thirdDownConversionsOpponent,39
+New Mexico State,Conference USA,thirdDowns,90
+New Mexico State,Conference USA,thirdDownsOpponent,100
+New Mexico State,Conference USA,totalYards,2574
+New Mexico State,Conference USA,totalYardsOpponent,2326
+New Mexico State,Conference USA,turnovers,13
+New Mexico State,Conference USA,turnoversOpponent,8
 North Carolina,ACC,firstDowns,116
 North Carolina,ACC,firstDownsOpponent,122
 North Carolina,ACC,fourthDownConversions,5
@@ -5954,69 +5954,69 @@ Sacramento State,Mid-American,totalYards,2116
 Sacramento State,Mid-American,totalYardsOpponent,2555
 Sacramento State,Mid-American,turnovers,13
 Sacramento State,Mid-American,turnoversOpponent,3
-Sam Houston,Conference USA,firstDowns,103
-Sam Houston,Conference USA,firstDownsOpponent,109
+Sam Houston,Conference USA,firstDowns,112
+Sam Houston,Conference USA,firstDownsOpponent,130
 Sam Houston,Conference USA,fourthDownConversions,0
-Sam Houston,Conference USA,fourthDownConversionsOpponent,5
-Sam Houston,Conference USA,fourthDowns,7
-Sam Houston,Conference USA,fourthDownsOpponent,7
-Sam Houston,Conference USA,fumblesLost,1
-Sam Houston,Conference USA,fumblesLostOpponent,2
-Sam Houston,Conference USA,fumblesRecovered,2
-Sam Houston,Conference USA,fumblesRecoveredOpponent,1
-Sam Houston,Conference USA,games,6
-Sam Houston,Conference USA,interceptions,5
-Sam Houston,Conference USA,interceptionsOpponent,5
+Sam Houston,Conference USA,fourthDownConversionsOpponent,6
+Sam Houston,Conference USA,fourthDowns,8
+Sam Houston,Conference USA,fourthDownsOpponent,10
+Sam Houston,Conference USA,fumblesLost,2
+Sam Houston,Conference USA,fumblesLostOpponent,3
+Sam Houston,Conference USA,fumblesRecovered,3
+Sam Houston,Conference USA,fumblesRecoveredOpponent,2
+Sam Houston,Conference USA,games,7
+Sam Houston,Conference USA,interceptions,6
+Sam Houston,Conference USA,interceptionsOpponent,6
 Sam Houston,Conference USA,interceptionTDs,0
 Sam Houston,Conference USA,interceptionTDsOpponent,2
 Sam Houston,Conference USA,interceptionYards,34
-Sam Houston,Conference USA,interceptionYardsOpponent,86
-Sam Houston,Conference USA,kickReturns,14
-Sam Houston,Conference USA,kickReturnsOpponent,11
+Sam Houston,Conference USA,interceptionYardsOpponent,111
+Sam Houston,Conference USA,kickReturns,20
+Sam Houston,Conference USA,kickReturnsOpponent,13
 Sam Houston,Conference USA,kickReturnTDs,0
 Sam Houston,Conference USA,kickReturnTDsOpponent,0
-Sam Houston,Conference USA,kickReturnYards,272
-Sam Houston,Conference USA,kickReturnYardsOpponent,266
-Sam Houston,Conference USA,netPassingYards,1482
-Sam Houston,Conference USA,netPassingYardsOpponent,827
-Sam Houston,Conference USA,passAttempts,211
-Sam Houston,Conference USA,passAttemptsOpponent,156
-Sam Houston,Conference USA,passCompletions,132
-Sam Houston,Conference USA,passCompletionsOpponent,78
-Sam Houston,Conference USA,passesIntercepted,5
-Sam Houston,Conference USA,passesInterceptedOpponent,5
-Sam Houston,Conference USA,passingTDs,12
-Sam Houston,Conference USA,passingTDsOpponent,7
-Sam Houston,Conference USA,penalties,46
-Sam Houston,Conference USA,penaltiesOpponent,42
-Sam Houston,Conference USA,penaltyYards,404
-Sam Houston,Conference USA,penaltyYardsOpponent,343
-Sam Houston,Conference USA,possessionTime,11271
-Sam Houston,Conference USA,possessionTimeOpponent,10329
-Sam Houston,Conference USA,puntReturns,11
-Sam Houston,Conference USA,puntReturnsOpponent,10
+Sam Houston,Conference USA,kickReturnYards,381
+Sam Houston,Conference USA,kickReturnYardsOpponent,313
+Sam Houston,Conference USA,netPassingYards,1717
+Sam Houston,Conference USA,netPassingYardsOpponent,987
+Sam Houston,Conference USA,passAttempts,245
+Sam Houston,Conference USA,passAttemptsOpponent,185
+Sam Houston,Conference USA,passCompletions,150
+Sam Houston,Conference USA,passCompletionsOpponent,97
+Sam Houston,Conference USA,passesIntercepted,6
+Sam Houston,Conference USA,passesInterceptedOpponent,6
+Sam Houston,Conference USA,passingTDs,13
+Sam Houston,Conference USA,passingTDsOpponent,9
+Sam Houston,Conference USA,penalties,59
+Sam Houston,Conference USA,penaltiesOpponent,48
+Sam Houston,Conference USA,penaltyYards,523
+Sam Houston,Conference USA,penaltyYardsOpponent,391
+Sam Houston,Conference USA,possessionTime,12797
+Sam Houston,Conference USA,possessionTimeOpponent,12403
+Sam Houston,Conference USA,puntReturns,14
+Sam Houston,Conference USA,puntReturnsOpponent,12
 Sam Houston,Conference USA,puntReturnTDs,0
 Sam Houston,Conference USA,puntReturnTDsOpponent,0
-Sam Houston,Conference USA,puntReturnYards,85
-Sam Houston,Conference USA,puntReturnYardsOpponent,78
-Sam Houston,Conference USA,rushingAttempts,181
-Sam Houston,Conference USA,rushingAttemptsOpponent,235
-Sam Houston,Conference USA,rushingTDs,3
-Sam Houston,Conference USA,rushingTDsOpponent,10
-Sam Houston,Conference USA,rushingYards,570
-Sam Houston,Conference USA,rushingYardsOpponent,1202
+Sam Houston,Conference USA,puntReturnYards,118
+Sam Houston,Conference USA,puntReturnYardsOpponent,102
+Sam Houston,Conference USA,rushingAttempts,201
+Sam Houston,Conference USA,rushingAttemptsOpponent,277
+Sam Houston,Conference USA,rushingTDs,4
+Sam Houston,Conference USA,rushingTDsOpponent,12
+Sam Houston,Conference USA,rushingYards,581
+Sam Houston,Conference USA,rushingYardsOpponent,1405
 Sam Houston,Conference USA,sacks,12
-Sam Houston,Conference USA,sacksOpponent,16
-Sam Houston,Conference USA,tacklesForLoss,34
-Sam Houston,Conference USA,tacklesForLossOpponent,46
-Sam Houston,Conference USA,thirdDownConversions,32
-Sam Houston,Conference USA,thirdDownConversionsOpponent,27
-Sam Houston,Conference USA,thirdDowns,86
-Sam Houston,Conference USA,thirdDownsOpponent,83
-Sam Houston,Conference USA,totalYards,2052
-Sam Houston,Conference USA,totalYardsOpponent,2029
-Sam Houston,Conference USA,turnovers,6
-Sam Houston,Conference USA,turnoversOpponent,7
+Sam Houston,Conference USA,sacksOpponent,18
+Sam Houston,Conference USA,tacklesForLoss,38
+Sam Houston,Conference USA,tacklesForLossOpponent,53
+Sam Houston,Conference USA,thirdDownConversions,35
+Sam Houston,Conference USA,thirdDownConversionsOpponent,29
+Sam Houston,Conference USA,thirdDowns,99
+Sam Houston,Conference USA,thirdDownsOpponent,95
+Sam Houston,Conference USA,totalYards,2298
+Sam Houston,Conference USA,totalYardsOpponent,2392
+Sam Houston,Conference USA,turnovers,8
+Sam Houston,Conference USA,turnoversOpponent,9
 San Diego State,Pac-12,firstDowns,109
 San Diego State,Pac-12,firstDownsOpponent,166
 San Diego State,Pac-12,fourthDownConversions,4
@@ -6206,68 +6206,68 @@ SMU,ACC,totalYards,2825
 SMU,ACC,totalYardsOpponent,1818
 SMU,ACC,turnovers,9
 SMU,ACC,turnoversOpponent,6
-South Alabama,Sun Belt,firstDowns,133
-South Alabama,Sun Belt,firstDownsOpponent,124
-South Alabama,Sun Belt,fourthDownConversions,12
+South Alabama,Sun Belt,firstDowns,152
+South Alabama,Sun Belt,firstDownsOpponent,144
+South Alabama,Sun Belt,fourthDownConversions,17
 South Alabama,Sun Belt,fourthDownConversionsOpponent,4
-South Alabama,Sun Belt,fourthDowns,20
+South Alabama,Sun Belt,fourthDowns,26
 South Alabama,Sun Belt,fourthDownsOpponent,9
 South Alabama,Sun Belt,fumblesLost,1
 South Alabama,Sun Belt,fumblesLostOpponent,5
 South Alabama,Sun Belt,fumblesRecovered,5
 South Alabama,Sun Belt,fumblesRecoveredOpponent,1
-South Alabama,Sun Belt,games,6
-South Alabama,Sun Belt,interceptions,2
+South Alabama,Sun Belt,games,7
+South Alabama,Sun Belt,interceptions,3
 South Alabama,Sun Belt,interceptionsOpponent,6
 South Alabama,Sun Belt,interceptionTDs,0
 South Alabama,Sun Belt,interceptionTDsOpponent,0
 South Alabama,Sun Belt,interceptionYards,87
 South Alabama,Sun Belt,interceptionYardsOpponent,41
-South Alabama,Sun Belt,kickReturns,9
-South Alabama,Sun Belt,kickReturnsOpponent,22
+South Alabama,Sun Belt,kickReturns,12
+South Alabama,Sun Belt,kickReturnsOpponent,23
 South Alabama,Sun Belt,kickReturnTDs,1
 South Alabama,Sun Belt,kickReturnTDsOpponent,0
-South Alabama,Sun Belt,kickReturnYards,249
-South Alabama,Sun Belt,kickReturnYardsOpponent,417
-South Alabama,Sun Belt,netPassingYards,1305
-South Alabama,Sun Belt,netPassingYardsOpponent,1582
-South Alabama,Sun Belt,passAttempts,151
-South Alabama,Sun Belt,passAttemptsOpponent,183
-South Alabama,Sun Belt,passCompletions,96
-South Alabama,Sun Belt,passCompletionsOpponent,123
+South Alabama,Sun Belt,kickReturnYards,307
+South Alabama,Sun Belt,kickReturnYardsOpponent,452
+South Alabama,Sun Belt,netPassingYards,1453
+South Alabama,Sun Belt,netPassingYardsOpponent,1763
+South Alabama,Sun Belt,passAttempts,184
+South Alabama,Sun Belt,passAttemptsOpponent,216
+South Alabama,Sun Belt,passCompletions,108
+South Alabama,Sun Belt,passCompletionsOpponent,144
 South Alabama,Sun Belt,passesIntercepted,6
-South Alabama,Sun Belt,passesInterceptedOpponent,2
+South Alabama,Sun Belt,passesInterceptedOpponent,3
 South Alabama,Sun Belt,passingTDs,10
 South Alabama,Sun Belt,passingTDsOpponent,14
-South Alabama,Sun Belt,penalties,39
-South Alabama,Sun Belt,penaltiesOpponent,33
-South Alabama,Sun Belt,penaltyYards,348
-South Alabama,Sun Belt,penaltyYardsOpponent,288
-South Alabama,Sun Belt,possessionTime,11899
-South Alabama,Sun Belt,possessionTimeOpponent,9701
-South Alabama,Sun Belt,puntReturns,1
-South Alabama,Sun Belt,puntReturnsOpponent,3
+South Alabama,Sun Belt,penalties,43
+South Alabama,Sun Belt,penaltiesOpponent,38
+South Alabama,Sun Belt,penaltyYards,378
+South Alabama,Sun Belt,penaltyYardsOpponent,338
+South Alabama,Sun Belt,possessionTime,13737
+South Alabama,Sun Belt,possessionTimeOpponent,11463
+South Alabama,Sun Belt,puntReturns,2
+South Alabama,Sun Belt,puntReturnsOpponent,4
 South Alabama,Sun Belt,puntReturnTDs,0
 South Alabama,Sun Belt,puntReturnTDsOpponent,0
-South Alabama,Sun Belt,puntReturnYards,6
-South Alabama,Sun Belt,puntReturnYardsOpponent,-5
-South Alabama,Sun Belt,rushingAttempts,276
-South Alabama,Sun Belt,rushingAttemptsOpponent,171
-South Alabama,Sun Belt,rushingTDs,18
-South Alabama,Sun Belt,rushingTDsOpponent,14
-South Alabama,Sun Belt,rushingYards,1322
-South Alabama,Sun Belt,rushingYardsOpponent,985
-South Alabama,Sun Belt,sacks,10
-South Alabama,Sun Belt,sacksOpponent,6
-South Alabama,Sun Belt,tacklesForLoss,23
-South Alabama,Sun Belt,tacklesForLossOpponent,31
-South Alabama,Sun Belt,thirdDownConversions,38
-South Alabama,Sun Belt,thirdDownConversionsOpponent,26
-South Alabama,Sun Belt,thirdDowns,86
-South Alabama,Sun Belt,thirdDownsOpponent,61
-South Alabama,Sun Belt,totalYards,2627
-South Alabama,Sun Belt,totalYardsOpponent,2567
-South Alabama,Sun Belt,turnovers,3
+South Alabama,Sun Belt,puntReturnYards,20
+South Alabama,Sun Belt,puntReturnYardsOpponent,11
+South Alabama,Sun Belt,rushingAttempts,318
+South Alabama,Sun Belt,rushingAttemptsOpponent,204
+South Alabama,Sun Belt,rushingTDs,19
+South Alabama,Sun Belt,rushingTDsOpponent,16
+South Alabama,Sun Belt,rushingYards,1500
+South Alabama,Sun Belt,rushingYardsOpponent,1132
+South Alabama,Sun Belt,sacks,12
+South Alabama,Sun Belt,sacksOpponent,7
+South Alabama,Sun Belt,tacklesForLoss,28
+South Alabama,Sun Belt,tacklesForLossOpponent,39
+South Alabama,Sun Belt,thirdDownConversions,42
+South Alabama,Sun Belt,thirdDownConversionsOpponent,31
+South Alabama,Sun Belt,thirdDowns,104
+South Alabama,Sun Belt,thirdDownsOpponent,74
+South Alabama,Sun Belt,totalYards,2953
+South Alabama,Sun Belt,totalYardsOpponent,2895
+South Alabama,Sun Belt,turnovers,4
 South Alabama,Sun Belt,turnoversOpponent,11
 South Carolina,SEC,firstDowns,143
 South Carolina,SEC,firstDownsOpponent,106
