@@ -182,22 +182,22 @@ Alabama,SEC,totalYards,2916
 Alabama,SEC,totalYardsOpponent,2365
 Alabama,SEC,turnovers,11
 Alabama,SEC,turnoversOpponent,16
-App State,Sun Belt,firstDowns,132
-App State,Sun Belt,firstDownsOpponent,112
+App State,Sun Belt,firstDowns,154
+App State,Sun Belt,firstDownsOpponent,131
 App State,Sun Belt,fourthDownConversions,6
-App State,Sun Belt,fourthDownConversionsOpponent,5
+App State,Sun Belt,fourthDownConversionsOpponent,8
 App State,Sun Belt,fourthDowns,11
-App State,Sun Belt,fourthDownsOpponent,9
+App State,Sun Belt,fourthDownsOpponent,12
 App State,Sun Belt,fumblesLost,4
 App State,Sun Belt,fumblesLostOpponent,2
 App State,Sun Belt,fumblesRecovered,2
 App State,Sun Belt,fumblesRecoveredOpponent,4
-App State,Sun Belt,games,6
+App State,Sun Belt,games,7
 App State,Sun Belt,interceptions,3
-App State,Sun Belt,interceptionsOpponent,9
+App State,Sun Belt,interceptionsOpponent,10
 App State,Sun Belt,interceptionTDs,0
 App State,Sun Belt,interceptionTDsOpponent,1
-App State,Sun Belt,interceptionYards,17
+App State,Sun Belt,interceptionYards,38
 App State,Sun Belt,interceptionYardsOpponent,52
 App State,Sun Belt,kickReturns,8
 App State,Sun Belt,kickReturnsOpponent,3
@@ -205,46 +205,46 @@ App State,Sun Belt,kickReturnTDs,0
 App State,Sun Belt,kickReturnTDsOpponent,0
 App State,Sun Belt,kickReturnYards,120
 App State,Sun Belt,kickReturnYardsOpponent,71
-App State,Sun Belt,netPassingYards,1606
-App State,Sun Belt,netPassingYardsOpponent,1287
-App State,Sun Belt,passAttempts,196
-App State,Sun Belt,passAttemptsOpponent,188
-App State,Sun Belt,passCompletions,132
-App State,Sun Belt,passCompletionsOpponent,111
-App State,Sun Belt,passesIntercepted,9
+App State,Sun Belt,netPassingYards,1891
+App State,Sun Belt,netPassingYardsOpponent,1618
+App State,Sun Belt,passAttempts,240
+App State,Sun Belt,passAttemptsOpponent,234
+App State,Sun Belt,passCompletions,161
+App State,Sun Belt,passCompletionsOpponent,138
+App State,Sun Belt,passesIntercepted,10
 App State,Sun Belt,passesInterceptedOpponent,3
-App State,Sun Belt,passingTDs,8
-App State,Sun Belt,passingTDsOpponent,7
-App State,Sun Belt,penalties,40
-App State,Sun Belt,penaltiesOpponent,39
-App State,Sun Belt,penaltyYards,335
-App State,Sun Belt,penaltyYardsOpponent,326
-App State,Sun Belt,possessionTime,10847
-App State,Sun Belt,possessionTimeOpponent,10753
-App State,Sun Belt,puntReturns,6
-App State,Sun Belt,puntReturnsOpponent,4
+App State,Sun Belt,passingTDs,11
+App State,Sun Belt,passingTDsOpponent,9
+App State,Sun Belt,penalties,47
+App State,Sun Belt,penaltiesOpponent,49
+App State,Sun Belt,penaltyYards,403
+App State,Sun Belt,penaltyYardsOpponent,418
+App State,Sun Belt,possessionTime,12837
+App State,Sun Belt,possessionTimeOpponent,12363
+App State,Sun Belt,puntReturns,7
+App State,Sun Belt,puntReturnsOpponent,6
 App State,Sun Belt,puntReturnTDs,0
 App State,Sun Belt,puntReturnTDsOpponent,0
-App State,Sun Belt,puntReturnYards,22
-App State,Sun Belt,puntReturnYardsOpponent,10
-App State,Sun Belt,rushingAttempts,218
-App State,Sun Belt,rushingAttemptsOpponent,225
+App State,Sun Belt,puntReturnYards,33
+App State,Sun Belt,puntReturnYardsOpponent,34
+App State,Sun Belt,rushingAttempts,249
+App State,Sun Belt,rushingAttemptsOpponent,255
 App State,Sun Belt,rushingTDs,14
-App State,Sun Belt,rushingTDsOpponent,8
-App State,Sun Belt,rushingYards,925
-App State,Sun Belt,rushingYardsOpponent,827
+App State,Sun Belt,rushingTDsOpponent,10
+App State,Sun Belt,rushingYards,1006
+App State,Sun Belt,rushingYardsOpponent,919
 App State,Sun Belt,sacks,9
-App State,Sun Belt,sacksOpponent,8
-App State,Sun Belt,tacklesForLoss,38
-App State,Sun Belt,tacklesForLossOpponent,34
-App State,Sun Belt,thirdDownConversions,28
-App State,Sun Belt,thirdDownConversionsOpponent,33
-App State,Sun Belt,thirdDowns,78
-App State,Sun Belt,thirdDownsOpponent,86
-App State,Sun Belt,totalYards,2531
-App State,Sun Belt,totalYardsOpponent,2114
+App State,Sun Belt,sacksOpponent,11
+App State,Sun Belt,tacklesForLoss,40
+App State,Sun Belt,tacklesForLossOpponent,39
+App State,Sun Belt,thirdDownConversions,35
+App State,Sun Belt,thirdDownConversionsOpponent,35
+App State,Sun Belt,thirdDowns,96
+App State,Sun Belt,thirdDownsOpponent,101
+App State,Sun Belt,totalYards,2897
+App State,Sun Belt,totalYardsOpponent,2537
 App State,Sun Belt,turnovers,7
-App State,Sun Belt,turnoversOpponent,11
+App State,Sun Belt,turnoversOpponent,12
 Arizona,Big 12,firstDowns,143
 Arizona,Big 12,firstDownsOpponent,110
 Arizona,Big 12,fourthDownConversions,3
@@ -1685,69 +1685,69 @@ Duke,ACC,totalYards,2656
 Duke,ACC,totalYardsOpponent,1756
 Duke,ACC,turnovers,3
 Duke,ACC,turnoversOpponent,5
-East Carolina,American Athletic,firstDowns,102
-East Carolina,American Athletic,firstDownsOpponent,111
-East Carolina,American Athletic,fourthDownConversions,5
-East Carolina,American Athletic,fourthDownConversionsOpponent,2
-East Carolina,American Athletic,fourthDowns,11
-East Carolina,American Athletic,fourthDownsOpponent,5
-East Carolina,American Athletic,fumblesLost,6
-East Carolina,American Athletic,fumblesLostOpponent,3
-East Carolina,American Athletic,fumblesRecovered,3
-East Carolina,American Athletic,fumblesRecoveredOpponent,6
-East Carolina,American Athletic,games,6
-East Carolina,American Athletic,interceptions,4
+East Carolina,American Athletic,firstDowns,124
+East Carolina,American Athletic,firstDownsOpponent,135
+East Carolina,American Athletic,fourthDownConversions,7
+East Carolina,American Athletic,fourthDownConversionsOpponent,4
+East Carolina,American Athletic,fourthDowns,13
+East Carolina,American Athletic,fourthDownsOpponent,7
+East Carolina,American Athletic,fumblesLost,7
+East Carolina,American Athletic,fumblesLostOpponent,4
+East Carolina,American Athletic,fumblesRecovered,4
+East Carolina,American Athletic,fumblesRecoveredOpponent,7
+East Carolina,American Athletic,games,7
+East Carolina,American Athletic,interceptions,6
 East Carolina,American Athletic,interceptionsOpponent,5
 East Carolina,American Athletic,interceptionTDs,2
 East Carolina,American Athletic,interceptionTDsOpponent,2
 East Carolina,American Athletic,interceptionYards,92
 East Carolina,American Athletic,interceptionYardsOpponent,107
 East Carolina,American Athletic,kickReturns,4
-East Carolina,American Athletic,kickReturnsOpponent,9
+East Carolina,American Athletic,kickReturnsOpponent,10
 East Carolina,American Athletic,kickReturnTDs,0
 East Carolina,American Athletic,kickReturnTDsOpponent,0
 East Carolina,American Athletic,kickReturnYards,68
-East Carolina,American Athletic,kickReturnYardsOpponent,147
-East Carolina,American Athletic,netPassingYards,1102
-East Carolina,American Athletic,netPassingYardsOpponent,1125
-East Carolina,American Athletic,passAttempts,176
-East Carolina,American Athletic,passAttemptsOpponent,159
-East Carolina,American Athletic,passCompletions,108
-East Carolina,American Athletic,passCompletionsOpponent,87
+East Carolina,American Athletic,kickReturnYardsOpponent,163
+East Carolina,American Athletic,netPassingYards,1362
+East Carolina,American Athletic,netPassingYardsOpponent,1445
+East Carolina,American Athletic,passAttempts,215
+East Carolina,American Athletic,passAttemptsOpponent,202
+East Carolina,American Athletic,passCompletions,127
+East Carolina,American Athletic,passCompletionsOpponent,116
 East Carolina,American Athletic,passesIntercepted,5
-East Carolina,American Athletic,passesInterceptedOpponent,4
-East Carolina,American Athletic,passingTDs,11
-East Carolina,American Athletic,passingTDsOpponent,3
-East Carolina,American Athletic,penalties,41
-East Carolina,American Athletic,penaltiesOpponent,51
-East Carolina,American Athletic,penaltyYards,398
-East Carolina,American Athletic,penaltyYardsOpponent,387
-East Carolina,American Athletic,possessionTime,9700
-East Carolina,American Athletic,possessionTimeOpponent,11896
-East Carolina,American Athletic,puntReturns,13
-East Carolina,American Athletic,puntReturnsOpponent,10
+East Carolina,American Athletic,passesInterceptedOpponent,6
+East Carolina,American Athletic,passingTDs,12
+East Carolina,American Athletic,passingTDsOpponent,6
+East Carolina,American Athletic,penalties,44
+East Carolina,American Athletic,penaltiesOpponent,60
+East Carolina,American Athletic,penaltyYards,421
+East Carolina,American Athletic,penaltyYardsOpponent,463
+East Carolina,American Athletic,possessionTime,11441
+East Carolina,American Athletic,possessionTimeOpponent,13755
+East Carolina,American Athletic,puntReturns,16
+East Carolina,American Athletic,puntReturnsOpponent,13
 East Carolina,American Athletic,puntReturnTDs,0
 East Carolina,American Athletic,puntReturnTDsOpponent,0
-East Carolina,American Athletic,puntReturnYards,24
-East Carolina,American Athletic,puntReturnYardsOpponent,93
-East Carolina,American Athletic,rushingAttempts,217
-East Carolina,American Athletic,rushingAttemptsOpponent,262
-East Carolina,American Athletic,rushingTDs,5
-East Carolina,American Athletic,rushingTDsOpponent,10
-East Carolina,American Athletic,rushingYards,935
-East Carolina,American Athletic,rushingYardsOpponent,834
-East Carolina,American Athletic,sacks,17
-East Carolina,American Athletic,sacksOpponent,13
-East Carolina,American Athletic,tacklesForLoss,61
-East Carolina,American Athletic,tacklesForLossOpponent,37
-East Carolina,American Athletic,thirdDownConversions,26
-East Carolina,American Athletic,thirdDownConversionsOpponent,31
-East Carolina,American Athletic,thirdDowns,83
-East Carolina,American Athletic,thirdDownsOpponent,92
-East Carolina,American Athletic,totalYards,2037
-East Carolina,American Athletic,totalYardsOpponent,1959
-East Carolina,American Athletic,turnovers,10
-East Carolina,American Athletic,turnoversOpponent,8
+East Carolina,American Athletic,puntReturnYards,36
+East Carolina,American Athletic,puntReturnYardsOpponent,119
+East Carolina,American Athletic,rushingAttempts,255
+East Carolina,American Athletic,rushingAttemptsOpponent,299
+East Carolina,American Athletic,rushingTDs,7
+East Carolina,American Athletic,rushingTDsOpponent,12
+East Carolina,American Athletic,rushingYards,1096
+East Carolina,American Athletic,rushingYardsOpponent,998
+East Carolina,American Athletic,sacks,18
+East Carolina,American Athletic,sacksOpponent,17
+East Carolina,American Athletic,tacklesForLoss,66
+East Carolina,American Athletic,tacklesForLossOpponent,44
+East Carolina,American Athletic,thirdDownConversions,31
+East Carolina,American Athletic,thirdDownConversionsOpponent,35
+East Carolina,American Athletic,thirdDowns,100
+East Carolina,American Athletic,thirdDownsOpponent,107
+East Carolina,American Athletic,totalYards,2458
+East Carolina,American Athletic,totalYardsOpponent,2443
+East Carolina,American Athletic,turnovers,13
+East Carolina,American Athletic,turnoversOpponent,9
 Eastern Michigan,Mid-American,firstDowns,159
 Eastern Michigan,Mid-American,firstDownsOpponent,148
 Eastern Michigan,Mid-American,fourthDownConversions,6
@@ -2816,68 +2816,68 @@ Jacksonville State,Conference USA,totalYards,2734
 Jacksonville State,Conference USA,totalYardsOpponent,2422
 Jacksonville State,Conference USA,turnovers,10
 Jacksonville State,Conference USA,turnoversOpponent,6
-James Madison,Sun Belt,firstDowns,155
-James Madison,Sun Belt,firstDownsOpponent,132
-James Madison,Sun Belt,fourthDownConversions,8
+James Madison,Sun Belt,firstDowns,174
+James Madison,Sun Belt,firstDownsOpponent,154
+James Madison,Sun Belt,fourthDownConversions,11
 James Madison,Sun Belt,fourthDownConversionsOpponent,6
-James Madison,Sun Belt,fourthDowns,10
+James Madison,Sun Belt,fourthDowns,13
 James Madison,Sun Belt,fourthDownsOpponent,16
 James Madison,Sun Belt,fumblesLost,4
 James Madison,Sun Belt,fumblesLostOpponent,5
 James Madison,Sun Belt,fumblesRecovered,5
 James Madison,Sun Belt,fumblesRecoveredOpponent,4
-James Madison,Sun Belt,games,7
-James Madison,Sun Belt,interceptions,1
+James Madison,Sun Belt,games,8
+James Madison,Sun Belt,interceptions,2
 James Madison,Sun Belt,interceptionsOpponent,7
 James Madison,Sun Belt,interceptionTDs,0
 James Madison,Sun Belt,interceptionTDsOpponent,0
 James Madison,Sun Belt,interceptionYards,26
-James Madison,Sun Belt,interceptionYardsOpponent,8
+James Madison,Sun Belt,interceptionYardsOpponent,29
 James Madison,Sun Belt,kickReturns,14
 James Madison,Sun Belt,kickReturnsOpponent,16
 James Madison,Sun Belt,kickReturnTDs,0
 James Madison,Sun Belt,kickReturnTDsOpponent,0
 James Madison,Sun Belt,kickReturnYards,496
 James Madison,Sun Belt,kickReturnYardsOpponent,260
-James Madison,Sun Belt,netPassingYards,1662
-James Madison,Sun Belt,netPassingYardsOpponent,1655
-James Madison,Sun Belt,passAttempts,202
-James Madison,Sun Belt,passAttemptsOpponent,247
-James Madison,Sun Belt,passCompletions,131
-James Madison,Sun Belt,passCompletionsOpponent,140
+James Madison,Sun Belt,netPassingYards,1993
+James Madison,Sun Belt,netPassingYardsOpponent,1940
+James Madison,Sun Belt,passAttempts,248
+James Madison,Sun Belt,passAttemptsOpponent,291
+James Madison,Sun Belt,passCompletions,158
+James Madison,Sun Belt,passCompletionsOpponent,169
 James Madison,Sun Belt,passesIntercepted,7
-James Madison,Sun Belt,passesInterceptedOpponent,1
-James Madison,Sun Belt,passingTDs,19
-James Madison,Sun Belt,passingTDsOpponent,8
-James Madison,Sun Belt,penalties,49
-James Madison,Sun Belt,penaltiesOpponent,67
-James Madison,Sun Belt,penaltyYards,498
-James Madison,Sun Belt,penaltyYardsOpponent,491
-James Madison,Sun Belt,possessionTime,11877
-James Madison,Sun Belt,possessionTimeOpponent,13323
-James Madison,Sun Belt,puntReturns,14
-James Madison,Sun Belt,puntReturnsOpponent,11
+James Madison,Sun Belt,passesInterceptedOpponent,2
+James Madison,Sun Belt,passingTDs,21
+James Madison,Sun Belt,passingTDsOpponent,11
+James Madison,Sun Belt,penalties,59
+James Madison,Sun Belt,penaltiesOpponent,74
+James Madison,Sun Belt,penaltyYards,590
+James Madison,Sun Belt,penaltyYardsOpponent,559
+James Madison,Sun Belt,possessionTime,13487
+James Madison,Sun Belt,possessionTimeOpponent,15313
+James Madison,Sun Belt,puntReturns,16
+James Madison,Sun Belt,puntReturnsOpponent,12
 James Madison,Sun Belt,puntReturnTDs,3
 James Madison,Sun Belt,puntReturnTDsOpponent,0
-James Madison,Sun Belt,puntReturnYards,227
-James Madison,Sun Belt,puntReturnYardsOpponent,45
-James Madison,Sun Belt,rushingAttempts,274
-James Madison,Sun Belt,rushingAttemptsOpponent,242
-James Madison,Sun Belt,rushingTDs,16
+James Madison,Sun Belt,puntReturnYards,251
+James Madison,Sun Belt,puntReturnYardsOpponent,56
+James Madison,Sun Belt,rushingAttempts,304
+James Madison,Sun Belt,rushingAttemptsOpponent,273
+James Madison,Sun Belt,rushingTDs,18
 James Madison,Sun Belt,rushingTDsOpponent,5
-James Madison,Sun Belt,rushingYards,1565
-James Madison,Sun Belt,rushingYardsOpponent,800
-James Madison,Sun Belt,sacks,18
+James Madison,Sun Belt,rushingYards,1657
+James Madison,Sun Belt,rushingYardsOpponent,881
+James Madison,Sun Belt,sacks,21
 James Madison,Sun Belt,sacksOpponent,8
-James Madison,Sun Belt,tacklesForLoss,44
-James Madison,Sun Belt,tacklesForLossOpponent,24
-James Madison,Sun Belt,thirdDownConversions,36
-James Madison,Sun Belt,thirdDownConversionsOpponent,41
-James Madison,Sun Belt,thirdDowns,89
-James Madison,Sun Belt,thirdDownsOpponent,109
-James Madison,Sun Belt,totalYards,3227
-James Madison,Sun Belt,totalYardsOpponent,2455
-James Madison,Sun Belt,turnovers,5
+James Madison,Sun Belt,tacklesForLoss,49
+James Madison,Sun Belt,tacklesForLossOpponent,26
+James Madison,Sun Belt,thirdDownConversions,38
+James Madison,Sun Belt,thirdDownConversionsOpponent,48
+James Madison,Sun Belt,thirdDowns,104
+James Madison,Sun Belt,thirdDownsOpponent,127
+James Madison,Sun Belt,totalYards,3650
+James Madison,Sun Belt,totalYardsOpponent,2821
+James Madison,Sun Belt,turnovers,6
 James Madison,Sun Belt,turnoversOpponent,12
 Kansas,Big 12,firstDowns,142
 Kansas,Big 12,firstDownsOpponent,108
@@ -3005,68 +3005,68 @@ Kansas State,Big 12,totalYards,2788
 Kansas State,Big 12,totalYardsOpponent,1778
 Kansas State,Big 12,turnovers,6
 Kansas State,Big 12,turnoversOpponent,4
-Kennesaw State,Conference USA,firstDowns,129
-Kennesaw State,Conference USA,firstDownsOpponent,131
-Kennesaw State,Conference USA,fourthDownConversions,2
+Kennesaw State,Conference USA,firstDowns,144
+Kennesaw State,Conference USA,firstDownsOpponent,152
+Kennesaw State,Conference USA,fourthDownConversions,3
 Kennesaw State,Conference USA,fourthDownConversionsOpponent,3
-Kennesaw State,Conference USA,fourthDowns,8
+Kennesaw State,Conference USA,fourthDowns,11
 Kennesaw State,Conference USA,fourthDownsOpponent,7
 Kennesaw State,Conference USA,fumblesLost,2
 Kennesaw State,Conference USA,fumblesLostOpponent,5
 Kennesaw State,Conference USA,fumblesRecovered,5
 Kennesaw State,Conference USA,fumblesRecoveredOpponent,2
-Kennesaw State,Conference USA,games,6
-Kennesaw State,Conference USA,interceptions,4
+Kennesaw State,Conference USA,games,7
+Kennesaw State,Conference USA,interceptions,6
 Kennesaw State,Conference USA,interceptionsOpponent,3
 Kennesaw State,Conference USA,interceptionTDs,0
 Kennesaw State,Conference USA,interceptionTDsOpponent,0
 Kennesaw State,Conference USA,interceptionYards,2
-Kennesaw State,Conference USA,interceptionYardsOpponent,46
-Kennesaw State,Conference USA,kickReturns,13
+Kennesaw State,Conference USA,interceptionYardsOpponent,64
+Kennesaw State,Conference USA,kickReturns,18
 Kennesaw State,Conference USA,kickReturnsOpponent,6
 Kennesaw State,Conference USA,kickReturnTDs,0
 Kennesaw State,Conference USA,kickReturnTDsOpponent,0
-Kennesaw State,Conference USA,kickReturnYards,267
+Kennesaw State,Conference USA,kickReturnYards,344
 Kennesaw State,Conference USA,kickReturnYardsOpponent,76
-Kennesaw State,Conference USA,netPassingYards,1342
-Kennesaw State,Conference USA,netPassingYardsOpponent,1400
-Kennesaw State,Conference USA,passAttempts,198
-Kennesaw State,Conference USA,passAttemptsOpponent,190
-Kennesaw State,Conference USA,passCompletions,137
-Kennesaw State,Conference USA,passCompletionsOpponent,128
+Kennesaw State,Conference USA,netPassingYards,1577
+Kennesaw State,Conference USA,netPassingYardsOpponent,1587
+Kennesaw State,Conference USA,passAttempts,239
+Kennesaw State,Conference USA,passAttemptsOpponent,211
+Kennesaw State,Conference USA,passCompletions,161
+Kennesaw State,Conference USA,passCompletionsOpponent,140
 Kennesaw State,Conference USA,passesIntercepted,3
-Kennesaw State,Conference USA,passesInterceptedOpponent,4
+Kennesaw State,Conference USA,passesInterceptedOpponent,6
 Kennesaw State,Conference USA,passingTDs,4
-Kennesaw State,Conference USA,passingTDsOpponent,5
-Kennesaw State,Conference USA,penalties,53
-Kennesaw State,Conference USA,penaltiesOpponent,47
-Kennesaw State,Conference USA,penaltyYards,467
-Kennesaw State,Conference USA,penaltyYardsOpponent,385
-Kennesaw State,Conference USA,possessionTime,10318
-Kennesaw State,Conference USA,possessionTimeOpponent,11282
-Kennesaw State,Conference USA,puntReturns,3
-Kennesaw State,Conference USA,puntReturnsOpponent,7
+Kennesaw State,Conference USA,passingTDsOpponent,6
+Kennesaw State,Conference USA,penalties,57
+Kennesaw State,Conference USA,penaltiesOpponent,59
+Kennesaw State,Conference USA,penaltyYards,499
+Kennesaw State,Conference USA,penaltyYardsOpponent,470
+Kennesaw State,Conference USA,possessionTime,11693
+Kennesaw State,Conference USA,possessionTimeOpponent,13507
+Kennesaw State,Conference USA,puntReturns,4
+Kennesaw State,Conference USA,puntReturnsOpponent,8
 Kennesaw State,Conference USA,puntReturnTDs,0
 Kennesaw State,Conference USA,puntReturnTDsOpponent,0
-Kennesaw State,Conference USA,puntReturnYards,11
-Kennesaw State,Conference USA,puntReturnYardsOpponent,111
-Kennesaw State,Conference USA,rushingAttempts,193
-Kennesaw State,Conference USA,rushingAttemptsOpponent,207
+Kennesaw State,Conference USA,puntReturnYards,15
+Kennesaw State,Conference USA,puntReturnYardsOpponent,112
+Kennesaw State,Conference USA,rushingAttempts,220
+Kennesaw State,Conference USA,rushingAttemptsOpponent,248
 Kennesaw State,Conference USA,rushingTDs,13
-Kennesaw State,Conference USA,rushingTDsOpponent,10
-Kennesaw State,Conference USA,rushingYards,862
-Kennesaw State,Conference USA,rushingYardsOpponent,858
+Kennesaw State,Conference USA,rushingTDsOpponent,13
+Kennesaw State,Conference USA,rushingYards,924
+Kennesaw State,Conference USA,rushingYardsOpponent,1073
 Kennesaw State,Conference USA,sacks,6
-Kennesaw State,Conference USA,sacksOpponent,6
-Kennesaw State,Conference USA,tacklesForLoss,24
-Kennesaw State,Conference USA,tacklesForLossOpponent,24
-Kennesaw State,Conference USA,thirdDownConversions,29
-Kennesaw State,Conference USA,thirdDownConversionsOpponent,29
-Kennesaw State,Conference USA,thirdDowns,71
-Kennesaw State,Conference USA,thirdDownsOpponent,75
-Kennesaw State,Conference USA,totalYards,2204
-Kennesaw State,Conference USA,totalYardsOpponent,2258
-Kennesaw State,Conference USA,turnovers,6
+Kennesaw State,Conference USA,sacksOpponent,8
+Kennesaw State,Conference USA,tacklesForLoss,25
+Kennesaw State,Conference USA,tacklesForLossOpponent,28
+Kennesaw State,Conference USA,thirdDownConversions,35
+Kennesaw State,Conference USA,thirdDownConversionsOpponent,32
+Kennesaw State,Conference USA,thirdDowns,88
+Kennesaw State,Conference USA,thirdDownsOpponent,85
+Kennesaw State,Conference USA,totalYards,2501
+Kennesaw State,Conference USA,totalYardsOpponent,2660
+Kennesaw State,Conference USA,turnovers,8
 Kennesaw State,Conference USA,turnoversOpponent,8
 Kent State,Mid-American,firstDowns,108
 Kent State,Mid-American,firstDownsOpponent,139
@@ -3194,66 +3194,66 @@ Kentucky,SEC,totalYards,2715
 Kentucky,SEC,totalYardsOpponent,2639
 Kentucky,SEC,turnovers,5
 Kentucky,SEC,turnoversOpponent,16
-Liberty,Conference USA,firstDowns,129
-Liberty,Conference USA,firstDownsOpponent,102
+Liberty,Conference USA,firstDowns,150
+Liberty,Conference USA,firstDownsOpponent,117
 Liberty,Conference USA,fourthDownConversions,4
-Liberty,Conference USA,fourthDownConversionsOpponent,4
+Liberty,Conference USA,fourthDownConversionsOpponent,5
 Liberty,Conference USA,fourthDowns,9
-Liberty,Conference USA,fourthDownsOpponent,13
+Liberty,Conference USA,fourthDownsOpponent,16
 Liberty,Conference USA,fumblesLost,5
 Liberty,Conference USA,fumblesLostOpponent,3
 Liberty,Conference USA,fumblesRecovered,3
 Liberty,Conference USA,fumblesRecoveredOpponent,5
-Liberty,Conference USA,games,6
+Liberty,Conference USA,games,7
 Liberty,Conference USA,interceptions,0
-Liberty,Conference USA,interceptionsOpponent,5
+Liberty,Conference USA,interceptionsOpponent,7
 Liberty,Conference USA,interceptionTDs,0
-Liberty,Conference USA,interceptionYards,38
+Liberty,Conference USA,interceptionYards,56
 Liberty,Conference USA,kickReturns,8
-Liberty,Conference USA,kickReturnsOpponent,14
+Liberty,Conference USA,kickReturnsOpponent,19
 Liberty,Conference USA,kickReturnTDs,0
 Liberty,Conference USA,kickReturnTDsOpponent,0
 Liberty,Conference USA,kickReturnYards,205
-Liberty,Conference USA,kickReturnYardsOpponent,273
-Liberty,Conference USA,netPassingYards,1157
-Liberty,Conference USA,netPassingYardsOpponent,1005
-Liberty,Conference USA,passAttempts,129
-Liberty,Conference USA,passAttemptsOpponent,177
-Liberty,Conference USA,passCompletions,76
-Liberty,Conference USA,passCompletionsOpponent,92
-Liberty,Conference USA,passesIntercepted,5
-Liberty,Conference USA,passingTDs,11
+Liberty,Conference USA,kickReturnYardsOpponent,350
+Liberty,Conference USA,netPassingYards,1344
+Liberty,Conference USA,netPassingYardsOpponent,1240
+Liberty,Conference USA,passAttempts,150
+Liberty,Conference USA,passAttemptsOpponent,218
+Liberty,Conference USA,passCompletions,88
+Liberty,Conference USA,passCompletionsOpponent,116
+Liberty,Conference USA,passesIntercepted,7
+Liberty,Conference USA,passingTDs,12
 Liberty,Conference USA,passingTDsOpponent,5
-Liberty,Conference USA,penalties,59
-Liberty,Conference USA,penaltiesOpponent,52
-Liberty,Conference USA,penaltyYards,515
-Liberty,Conference USA,penaltyYardsOpponent,446
-Liberty,Conference USA,possessionTime,12033
-Liberty,Conference USA,possessionTimeOpponent,9567
-Liberty,Conference USA,puntReturns,8
-Liberty,Conference USA,puntReturnsOpponent,3
+Liberty,Conference USA,penalties,71
+Liberty,Conference USA,penaltiesOpponent,56
+Liberty,Conference USA,penaltyYards,600
+Liberty,Conference USA,penaltyYardsOpponent,478
+Liberty,Conference USA,possessionTime,14258
+Liberty,Conference USA,possessionTimeOpponent,10942
+Liberty,Conference USA,puntReturns,9
+Liberty,Conference USA,puntReturnsOpponent,4
 Liberty,Conference USA,puntReturnTDs,0
 Liberty,Conference USA,puntReturnTDsOpponent,0
-Liberty,Conference USA,puntReturnYards,33
-Liberty,Conference USA,puntReturnYardsOpponent,23
-Liberty,Conference USA,rushingAttempts,254
-Liberty,Conference USA,rushingAttemptsOpponent,184
-Liberty,Conference USA,rushingTDs,12
+Liberty,Conference USA,puntReturnYards,34
+Liberty,Conference USA,puntReturnYardsOpponent,27
+Liberty,Conference USA,rushingAttempts,295
+Liberty,Conference USA,rushingAttemptsOpponent,211
+Liberty,Conference USA,rushingTDs,15
 Liberty,Conference USA,rushingTDsOpponent,4
-Liberty,Conference USA,rushingYards,1338
-Liberty,Conference USA,rushingYardsOpponent,745
-Liberty,Conference USA,sacks,12
+Liberty,Conference USA,rushingYards,1553
+Liberty,Conference USA,rushingYardsOpponent,807
+Liberty,Conference USA,sacks,14
 Liberty,Conference USA,sacksOpponent,12
-Liberty,Conference USA,tacklesForLoss,39
-Liberty,Conference USA,tacklesForLossOpponent,27
-Liberty,Conference USA,thirdDownConversions,33
-Liberty,Conference USA,thirdDownConversionsOpponent,21
-Liberty,Conference USA,thirdDowns,73
-Liberty,Conference USA,thirdDownsOpponent,73
-Liberty,Conference USA,totalYards,2495
-Liberty,Conference USA,totalYardsOpponent,1750
+Liberty,Conference USA,tacklesForLoss,43
+Liberty,Conference USA,tacklesForLossOpponent,28
+Liberty,Conference USA,thirdDownConversions,36
+Liberty,Conference USA,thirdDownConversionsOpponent,27
+Liberty,Conference USA,thirdDowns,83
+Liberty,Conference USA,thirdDownsOpponent,90
+Liberty,Conference USA,totalYards,2897
+Liberty,Conference USA,totalYardsOpponent,2047
 Liberty,Conference USA,turnovers,5
-Liberty,Conference USA,turnoversOpponent,8
+Liberty,Conference USA,turnoversOpponent,10
 Louisiana,Sun Belt,firstDowns,155
 Louisiana,Sun Belt,firstDownsOpponent,114
 Louisiana,Sun Belt,fourthDownConversions,6
@@ -3695,69 +3695,69 @@ Massachusetts,Mid-American,totalYards,2374
 Massachusetts,Mid-American,totalYardsOpponent,2158
 Massachusetts,Mid-American,turnovers,6
 Massachusetts,Mid-American,turnoversOpponent,13
-Memphis,American Athletic,firstDowns,176
-Memphis,American Athletic,firstDownsOpponent,127
-Memphis,American Athletic,fourthDownConversions,3
-Memphis,American Athletic,fourthDownConversionsOpponent,5
-Memphis,American Athletic,fourthDowns,8
-Memphis,American Athletic,fourthDownsOpponent,12
-Memphis,American Athletic,fumblesLost,4
-Memphis,American Athletic,fumblesLostOpponent,6
-Memphis,American Athletic,fumblesRecovered,6
-Memphis,American Athletic,fumblesRecoveredOpponent,4
-Memphis,American Athletic,games,7
+Memphis,American Athletic,firstDowns,200
+Memphis,American Athletic,firstDownsOpponent,149
+Memphis,American Athletic,fourthDownConversions,5
+Memphis,American Athletic,fourthDownConversionsOpponent,7
+Memphis,American Athletic,fourthDowns,10
+Memphis,American Athletic,fourthDownsOpponent,14
+Memphis,American Athletic,fumblesLost,5
+Memphis,American Athletic,fumblesLostOpponent,7
+Memphis,American Athletic,fumblesRecovered,7
+Memphis,American Athletic,fumblesRecoveredOpponent,5
+Memphis,American Athletic,games,8
 Memphis,American Athletic,interceptions,7
-Memphis,American Athletic,interceptionsOpponent,7
+Memphis,American Athletic,interceptionsOpponent,9
 Memphis,American Athletic,interceptionTDs,0
 Memphis,American Athletic,interceptionTDsOpponent,1
 Memphis,American Athletic,interceptionYards,95
 Memphis,American Athletic,interceptionYardsOpponent,139
-Memphis,American Athletic,kickReturns,6
+Memphis,American Athletic,kickReturns,7
 Memphis,American Athletic,kickReturnsOpponent,6
 Memphis,American Athletic,kickReturnTDs,0
 Memphis,American Athletic,kickReturnTDsOpponent,0
-Memphis,American Athletic,kickReturnYards,143
+Memphis,American Athletic,kickReturnYards,159
 Memphis,American Athletic,kickReturnYardsOpponent,87
-Memphis,American Athletic,netPassingYards,1924
-Memphis,American Athletic,netPassingYardsOpponent,1397
-Memphis,American Athletic,passAttempts,191
-Memphis,American Athletic,passAttemptsOpponent,185
-Memphis,American Athletic,passCompletions,128
-Memphis,American Athletic,passCompletionsOpponent,109
-Memphis,American Athletic,passesIntercepted,7
+Memphis,American Athletic,netPassingYards,2244
+Memphis,American Athletic,netPassingYardsOpponent,1657
+Memphis,American Athletic,passAttempts,234
+Memphis,American Athletic,passAttemptsOpponent,224
+Memphis,American Athletic,passCompletions,157
+Memphis,American Athletic,passCompletionsOpponent,128
+Memphis,American Athletic,passesIntercepted,9
 Memphis,American Athletic,passesInterceptedOpponent,7
-Memphis,American Athletic,passingTDs,20
-Memphis,American Athletic,passingTDsOpponent,7
-Memphis,American Athletic,penalties,34
-Memphis,American Athletic,penaltiesOpponent,47
-Memphis,American Athletic,penaltyYards,310
-Memphis,American Athletic,penaltyYardsOpponent,400
-Memphis,American Athletic,possessionTime,12091
-Memphis,American Athletic,possessionTimeOpponent,13109
-Memphis,American Athletic,puntReturns,6
-Memphis,American Athletic,puntReturnsOpponent,8
+Memphis,American Athletic,passingTDs,23
+Memphis,American Athletic,passingTDsOpponent,8
+Memphis,American Athletic,penalties,43
+Memphis,American Athletic,penaltiesOpponent,50
+Memphis,American Athletic,penaltyYards,386
+Memphis,American Athletic,penaltyYardsOpponent,423
+Memphis,American Athletic,possessionTime,13950
+Memphis,American Athletic,possessionTimeOpponent,14850
+Memphis,American Athletic,puntReturns,9
+Memphis,American Athletic,puntReturnsOpponent,11
 Memphis,American Athletic,puntReturnTDs,0
 Memphis,American Athletic,puntReturnTDsOpponent,1
-Memphis,American Athletic,puntReturnYards,23
-Memphis,American Athletic,puntReturnYardsOpponent,100
-Memphis,American Athletic,rushingAttempts,296
-Memphis,American Athletic,rushingAttemptsOpponent,256
-Memphis,American Athletic,rushingTDs,12
-Memphis,American Athletic,rushingTDsOpponent,10
-Memphis,American Athletic,rushingYards,1664
-Memphis,American Athletic,rushingYardsOpponent,1210
-Memphis,American Athletic,sacks,16
-Memphis,American Athletic,sacksOpponent,15
-Memphis,American Athletic,tacklesForLoss,40
-Memphis,American Athletic,tacklesForLossOpponent,29
-Memphis,American Athletic,thirdDownConversions,37
-Memphis,American Athletic,thirdDownConversionsOpponent,29
-Memphis,American Athletic,thirdDowns,82
-Memphis,American Athletic,thirdDownsOpponent,93
-Memphis,American Athletic,totalYards,3588
-Memphis,American Athletic,totalYardsOpponent,2607
-Memphis,American Athletic,turnovers,11
-Memphis,American Athletic,turnoversOpponent,13
+Memphis,American Athletic,puntReturnYards,49
+Memphis,American Athletic,puntReturnYardsOpponent,112
+Memphis,American Athletic,rushingAttempts,333
+Memphis,American Athletic,rushingAttemptsOpponent,294
+Memphis,American Athletic,rushingTDs,14
+Memphis,American Athletic,rushingTDsOpponent,12
+Memphis,American Athletic,rushingYards,1828
+Memphis,American Athletic,rushingYardsOpponent,1371
+Memphis,American Athletic,sacks,20
+Memphis,American Athletic,sacksOpponent,16
+Memphis,American Athletic,tacklesForLoss,47
+Memphis,American Athletic,tacklesForLossOpponent,34
+Memphis,American Athletic,thirdDownConversions,41
+Memphis,American Athletic,thirdDownConversionsOpponent,34
+Memphis,American Athletic,thirdDowns,97
+Memphis,American Athletic,thirdDownsOpponent,110
+Memphis,American Athletic,totalYards,4072
+Memphis,American Athletic,totalYardsOpponent,3028
+Memphis,American Athletic,turnovers,12
+Memphis,American Athletic,turnoversOpponent,16
 Miami,ACC,firstDowns,174
 Miami,ACC,firstDownsOpponent,92
 Miami,ACC,fourthDownConversions,2
