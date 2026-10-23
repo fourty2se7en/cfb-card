@@ -1769,7 +1769,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Houston,Utah,moneyline,moneyline_fav,AVOID,D,Utah,-236.0,consensus,2026-10-18T12:38:05.075744+00:00,,,-250.0,2026-10-23T19:24:35.561591+00:00
 2026,8,Houston,Utah,total,total_model,AVOID,D,over,56.5,consensus,2026-10-18T12:38:05.075744+00:00,,,56.8,2026-10-23T19:24:35.561591+00:00
 2026,8,BYU,UCF,spread,model_gap_late,AVOID,D,UCF,7.5,consensus,2026-10-18T12:38:05.075744+00:00,,,7.5,2026-10-23T19:24:35.561591+00:00
-2026,8,BYU,UCF,moneyline,moneyline_dog,PASS,D,UCF,250.0,consensus,2026-10-18T12:38:05.075744+00:00,,,230.0,2026-10-23T19:24:35.561591+00:00
+2026,8,BYU,UCF,moneyline,moneyline_dog,PASS,D,UCF,250.0,consensus,2026-10-18T12:38:05.075744+00:00,,,235.0,2026-10-23T20:08:14.621117+00:00
 2026,8,BYU,UCF,total,total_model,AVOID,D,over,45.5,consensus,2026-10-18T12:38:05.075744+00:00,,,43.5,2026-10-19T20:40:22.251306+00:00
 2026,8,Virginia Tech,Clemson,spread,model_gap_late,AVOID,D,Clemson,1.5,consensus,2026-10-18T12:38:05.075744+00:00,,,-2.5,2026-10-18T18:14:05.845226+00:00
 2026,8,Virginia Tech,Clemson,total,total_model,AVOID,D,over,49.5,consensus,2026-10-18T12:38:05.075744+00:00,,,49.5,2026-10-18T12:38:05.075744+00:00
@@ -1938,8 +1938,8 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Wagner,Duquesne,moneyline,moneyline_fav,AVOID,D,Duquesne,-620.0,consensus,2026-10-23T19:24:35.561591+00:00,,,-620.0,2026-10-23T19:24:35.561591+00:00
 2026,8,Wagner,Duquesne,total,total_model,AVOID,D,under,46.5,consensus,2026-10-23T19:24:35.561591+00:00,,,46.5,2026-10-23T19:24:35.561591+00:00
 2026,8,Jackson State,Bethune-Cookman,spread,model_gap_late,AVOID,D,Bethune-Cookman,7.0,consensus,2026-10-23T19:24:35.561591+00:00,,,7.0,2026-10-23T19:24:35.561591+00:00
-2026,8,Jackson State,Bethune-Cookman,moneyline,moneyline_dog,PASS,D,Bethune-Cookman,230.0,consensus,2026-10-23T19:24:35.561591+00:00,,,230.0,2026-10-23T19:24:35.561591+00:00
-2026,8,Jackson State,Bethune-Cookman,total,total_model,AVOID,D,over,50.5,consensus,2026-10-23T19:24:35.561591+00:00,,,50.5,2026-10-23T19:24:35.561591+00:00
+2026,8,Jackson State,Bethune-Cookman,moneyline,moneyline_dog,PASS,D,Bethune-Cookman,230.0,consensus,2026-10-23T19:24:35.561591+00:00,,,229.0,2026-10-23T20:08:14.621117+00:00
+2026,8,Jackson State,Bethune-Cookman,total,total_model,AVOID,D,over,50.5,consensus,2026-10-23T19:24:35.561591+00:00,,,48.5,2026-10-23T20:08:14.621117+00:00
 2026,8,Butler,Drake,spread,model_gap_late,AVOID,D,Butler,-3.0,consensus,2026-10-23T19:24:35.561591+00:00,,,-3.0,2026-10-23T19:24:35.561591+00:00
 2026,8,Butler,Drake,moneyline,moneyline_fav,AVOID,D,Butler,-156.0,consensus,2026-10-23T19:24:35.561591+00:00,,,-156.0,2026-10-23T19:24:35.561591+00:00
 2026,8,Butler,Drake,total,total_model,AVOID,D,under,53.5,consensus,2026-10-23T19:24:35.561591+00:00,,,53.5,2026-10-23T19:24:35.561591+00:00
@@ -1990,7 +1990,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Monmouth,Hampton,total,total_model,AVOID,D,over,58.5,consensus,2026-10-23T19:24:35.561591+00:00,,,58.5,2026-10-23T19:24:35.561591+00:00
 2026,8,Stony Brook,Bryant,spread,model_gap_late,AVOID,D,Bryant,3.0,consensus,2026-10-23T19:24:35.561591+00:00,,,3.0,2026-10-23T19:24:35.561591+00:00
 2026,8,Stony Brook,Bryant,moneyline,moneyline_dog,PASS,C,Bryant,129.0,consensus,2026-10-23T19:24:35.561591+00:00,,,129.0,2026-10-23T19:24:35.561591+00:00
-2026,8,Stony Brook,Bryant,total,total_model,AVOID,D,over,50.5,consensus,2026-10-23T19:24:35.561591+00:00,,,50.5,2026-10-23T19:24:35.561591+00:00
+2026,8,Stony Brook,Bryant,total,total_model,AVOID,D,over,50.5,consensus,2026-10-23T19:24:35.561591+00:00,,,52.5,2026-10-23T20:08:14.621117+00:00
 2026,8,Chattanooga,Western Carolina,spread,model_gap_late,AVOID,D,Western Carolina,-3.0,consensus,2026-10-23T19:24:35.561591+00:00,,,-3.0,2026-10-23T19:24:35.561591+00:00
 2026,8,Chattanooga,Western Carolina,moneyline,moneyline_fav,AVOID,D,Western Carolina,-155.0,consensus,2026-10-23T19:24:35.561591+00:00,,,-155.0,2026-10-23T19:24:35.561591+00:00
 2026,8,Chattanooga,Western Carolina,total,total_model,AVOID,D,over,45.5,consensus,2026-10-23T19:24:35.561591+00:00,,,45.5,2026-10-23T19:24:35.561591+00:00
@@ -2064,3 +2064,4 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,8,Northern Colorado,UC Davis,spread,model_gap_late,AVOID,D,Northern Colorado,9.5,consensus,2026-10-23T19:24:35.561591+00:00,,,9.5,2026-10-23T19:24:35.561591+00:00
 2026,8,Northern Colorado,UC Davis,moneyline,moneyline_dog,PASS,D,Northern Colorado,274.0,consensus,2026-10-23T19:24:35.561591+00:00,,,274.0,2026-10-23T19:24:35.561591+00:00
 2026,8,Northern Colorado,UC Davis,total,total_model,AVOID,D,under,58.5,consensus,2026-10-23T19:24:35.561591+00:00,,,58.5,2026-10-23T19:24:35.561591+00:00
+2026,8,Massachusetts,UConn,price,price_gap,LEAN,D,UConn,-13.0,Bovada,2026-10-23T20:08:14.621117+00:00,,,-13.0,2026-10-23T20:08:14.621117+00:00

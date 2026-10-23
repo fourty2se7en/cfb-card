@@ -705,3 +705,5 @@ written_utc,season,week,away,home,qb_out,starters_out,confidence,spread_open,spr
 2026-10-18T12:38:05.075744+00:00,2026,8,North Dakota State,New Mexico,,,,3.5,4.0,46.5,47.0,25.691000000000003
 2026-10-20T22:23:36.138636+00:00,2026,8,Michigan State,UCLA,home,1,confirmed,13.75,14.0,46.75,44.5,17.761000000000003
 2026-10-20T22:23:36.138636+00:00,2026,8,Iowa,Minnesota,away,1,reported,-5.75,-7.0,41.75,40.5,-7.459000000000001
+2026-10-23T20:08:14.621117+00:00,2026,8,Oregon,Illinois,both,2,reported,-11.25,-10.0,51.25,50.0,-7.007
+2026-10-23T20:08:14.621117+00:00,2026,8,Ole Miss,Texas,none,3,confirmed,6.0,3.25,53.25,54.0,2.5329999999999995

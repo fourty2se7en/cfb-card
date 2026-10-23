@@ -104,3 +104,76 @@ first_seen_utc,season,week,game,name,market,side,line,pick
 2026-10-20T22:23:39+00:00,2026,8,Boise State@Washington State,Alex Hinton (Action Network),spread,Boise State,-12.0,Boise State -12
 2026-10-20T22:23:39+00:00,2026,8,James Madison@App State,Sandy Plashkes (Action Network),total,under,56.5,Under 56.5
 2026-10-20T22:23:39+00:00,2026,8,East Carolina@Memphis,Sandy Plashkes (Action Network),total,under,54.5,Under 54.5
+2026-10-23T20:08:17+00:00,2026,8,Indiana@Michigan,Ryan Minion (Action Network),spread,Indiana,-7.0,Indiana -7
+2026-10-23T20:08:17+00:00,2026,8,Michigan State@UCLA,Collin Wilson (Action Network),spread,UCLA,-13.5,UCLA -13.5
+2026-10-23T20:08:17+00:00,2026,8,Michigan State@UCLA,Kody Malstrom (Action Network),spread,UCLA,-13.5,UCLA -13.5
+2026-10-23T20:08:17+00:00,2026,8,Michigan State@UCLA,Ryan Minion (Action Network),spread,UCLA,-14.0,UCLA -14
+2026-10-23T20:08:17+00:00,2026,8,Virginia Tech@Clemson,Kody Malstrom (Action Network),spread,Virginia Tech,3.0,Virginia Tech +3
+2026-10-23T20:08:17+00:00,2026,8,BYU@UCF,Brandon Kravitz (Action Network),spread,UCF,6.5,UCF +6.5
+2026-10-23T20:08:17+00:00,2026,8,BYU@UCF,John Feltman (Action Network),spread,UCF,7.5,UCF +7.5
+2026-10-23T20:08:17+00:00,2026,8,BYU@UCF,Kody Malstrom (Action Network),spread,BYU,-6.5,BYU -6.5
+2026-10-23T20:08:17+00:00,2026,8,Iowa@Minnesota,John Feltman (Action Network),spread,Minnesota,7.0,Minnesota +7
+2026-10-23T20:08:17+00:00,2026,8,Iowa@Minnesota,Mike McNamara (Action Network),spread,Minnesota,6.5,Minnesota +6.5
+2026-10-23T20:08:17+00:00,2026,8,Ole Miss@Texas,Charlie DiSturco (Action Network),total,over,53.5,Over 53.5
+2026-10-23T20:08:17+00:00,2026,8,Ole Miss@Texas,Collin Wilson (Action Network),spread,Texas,-3.0,Texas -3
+2026-10-23T20:08:17+00:00,2026,8,Ole Miss@Texas,Jeremiah Rose (Action Network),spread,Ole Miss,4.0,Ole Miss +4
+2026-10-23T20:08:17+00:00,2026,8,Ole Miss@Texas,Ryan Minion (Action Network),spread,Texas,-3.0,Texas -3
+2026-10-23T20:08:17+00:00,2026,8,Texas A&M@Alabama,Brandon Kravitz (Action Network),spread,Alabama,-13.5,Alabama -13.5
+2026-10-23T20:08:17+00:00,2026,8,Texas Tech@Cincinnati,Collin Wilson (Action Network),spread,Cincinnati,11.5,Cincinnati +11.5
+2026-10-23T20:08:17+00:00,2026,8,Texas Tech@Cincinnati,John Feltman (Action Network),spread,Cincinnati,10.5,Cincinnati +10.5
+2026-10-23T20:08:17+00:00,2026,8,Houston@Utah,Collin Wilson (Action Network),spread,Utah,-6.5,Utah -6.5
+2026-10-23T20:08:17+00:00,2026,8,Houston@Utah,Mike McNamara (Action Network),spread,Houston,6.5,Houston +6.5
+2026-10-23T20:08:17+00:00,2026,8,USC@Wisconsin,Mike McNamara (Action Network),spread,Wisconsin,3.0,Wisconsin +3
+2026-10-23T20:08:17+00:00,2026,8,USC@Wisconsin,Sandy Plashkes (Action Network),spread,Wisconsin,3.0,Wisconsin +3
+2026-10-23T20:08:17+00:00,2026,8,Pittsburgh@Miami,Jeremiah Rose (Action Network),spread,Pittsburgh,21.0,Pittsburgh +21
+2026-10-23T20:08:17+00:00,2026,8,Pittsburgh@Miami,Sandy Plashkes (Action Network),spread,Pittsburgh,21.0,Pittsburgh +21
+2026-10-23T20:08:17+00:00,2026,8,Air Force@Wyoming,Collin Wilson (Action Network),total,over,43.0,Over 43
+2026-10-23T20:08:17+00:00,2026,8,Air Force@Wyoming,Doug Ziefel (Action Network),spread,Air Force,-4.5,Air Force -4.5
+2026-10-23T20:08:17+00:00,2026,8,Duke@Virginia,Brian Bitler (Action Network),spread,Duke,2.5,Duke +2.5
+2026-10-23T20:08:17+00:00,2026,8,Duke@Virginia,Doug Ziefel (Action Network),moneyline,Virginia,,Virginia -120
+2026-10-23T20:08:17+00:00,2026,8,Oregon@Illinois,Alex Hinton (Action Network),spread,Illinois,10.5,Illinois +10.5
+2026-10-23T20:08:17+00:00,2026,8,Oregon@Illinois,Collin Wilson (Action Network),total,over,50.5,Over 50.5
+2026-10-23T20:08:17+00:00,2026,8,Oregon@Illinois,Jeremiah Rose (Action Network),spread,Oregon,-9.5,Oregon -9.5
+2026-10-23T20:08:17+00:00,2026,8,LSU@Auburn,Collin Wilson (Action Network),spread,LSU,-7.0,LSU -7
+2026-10-23T20:08:17+00:00,2026,8,LSU@Auburn,Mike Calabrese (Action Network),spread,LSU,-6.5,LSU -6.5
+2026-10-23T20:08:17+00:00,2026,8,NC State@Stanford,Collin Wilson (Action Network),total,over,54.5,Over 54.5
+2026-10-23T20:08:17+00:00,2026,8,Hawai'i@Northern Illinois,John Feltman (Action Network),spread,Northern Illinois,4.5,Northern Illinois +4.5
+2026-10-23T20:08:17+00:00,2026,8,Utah State@Texas State,Collin Wilson (Action Network),spread,Texas State,-10.5,Texas State -10.5
+2026-10-23T20:08:17+00:00,2026,8,Utah State@Texas State,Doug Ziefel (Action Network),total,over,60.5,Over 60.5
+2026-10-23T20:08:17+00:00,2026,8,Utah State@Texas State,Sandy Plashkes (Action Network),total,under,61.0,Under 61
+2026-10-23T20:08:17+00:00,2026,8,Army@Tulsa,Austin Pendergrass (Action Network),moneyline,Tulsa,,Tulsa -120
+2026-10-23T20:08:17+00:00,2026,8,Army@Tulsa,Brian Bitler (Action Network),spread,Tulsa,-1.5,Tulsa -1.5
+2026-10-23T20:08:17+00:00,2026,8,Army@Tulsa,Collin Wilson (Action Network),spread,Tulsa,1.0,Tulsa +1
+2026-10-23T20:08:17+00:00,2026,8,Baylor@Kansas,Collin Wilson (Action Network),moneyline,Baylor,,Baylor -115
+2026-10-23T20:08:17+00:00,2026,8,Baylor@Kansas,Sandy Plashkes (Action Network),total,under,53.5,Under 53.5
+2026-10-23T20:08:17+00:00,2026,8,Bowling Green@Buffalo,Doug Ziefel (Action Network),total,over,44.5,Over 44.5
+2026-10-23T20:08:17+00:00,2026,8,Colorado@Oklahoma State,Sandy Plashkes (Action Network),total,under,55.5,Under 55.5
+2026-10-23T20:08:17+00:00,2026,8,Eastern Michigan@Ohio,Mike Calabrese (Action Network),spread,Eastern Michigan,12.5,Eastern Michigan +12.5
+2026-10-23T20:08:17+00:00,2026,8,Georgia State@Arkansas State,Mike Calabrese (Action Network),spread,Georgia State,-2.5,Georgia State -2.5
+2026-10-23T20:08:17+00:00,2026,8,Iowa State@Arizona,Collin Wilson (Action Network),spread,Arizona,-10.5,Arizona -10.5
+2026-10-23T20:08:17+00:00,2026,8,Iowa State@Arizona,Kody Malstrom (Action Network),spread,Arizona,-9.5,Arizona -9.5
+2026-10-23T20:08:17+00:00,2026,8,Kansas State@Arizona State,Sandy Plashkes (Action Network),spread,Kansas State,-3.5,Kansas State -3.5
+2026-10-23T20:08:17+00:00,2026,8,Louisiana@Southern Miss,Kody Malstrom (Action Network),spread,Louisiana,-9.5,Louisiana -9.5
+2026-10-23T20:08:17+00:00,2026,8,Massachusetts@UConn,Brian Bitler (Action Network),spread,UConn,-14.0,UConn -14
+2026-10-23T20:08:17+00:00,2026,8,Massachusetts@UConn,Charlie DiSturco (Action Network),total,over,51.5,Over 51.5
+2026-10-23T20:08:17+00:00,2026,8,Massachusetts@UConn,Collin Wilson (Action Network),spread,UConn,-14.0,UConn -14
+2026-10-23T20:08:17+00:00,2026,8,Miami (OH)@Central Michigan,Kody Malstrom (Action Network),spread,Miami (OH),-1.5,Miami (OH) -1.5
+2026-10-23T20:08:17+00:00,2026,8,North Dakota State@New Mexico,Collin Wilson (Action Network),total,under,41.5,Under 41.5
+2026-10-23T20:08:17+00:00,2026,8,North Dakota State@New Mexico,Doug Ziefel (Action Network),total,under,41.5,Under 41.5
+2026-10-23T20:08:17+00:00,2026,8,North Dakota State@New Mexico,John Feltman (Action Network),total,under,42.0,Under 42
+2026-10-23T20:08:17+00:00,2026,8,North Dakota State@New Mexico,Mike Calabrese (Action Network),total,under,41.5,Under 41.5
+2026-10-23T20:08:17+00:00,2026,8,North Texas@Navy,John Feltman (Action Network),moneyline,North Texas,,North Texas -125
+2026-10-23T20:08:17+00:00,2026,8,Old Dominion@Louisiana Tech,Kody Malstrom (Action Network),spread,Old Dominion,13.5,Old Dominion +13.5
+2026-10-23T20:08:17+00:00,2026,8,Rice@Florida Atlantic,Collin Wilson (Action Network),spread,Rice,9.0,Rice +9
+2026-10-23T20:08:17+00:00,2026,8,Rice@Florida Atlantic,Kody Malstrom (Action Network),spread,Florida Atlantic,-7.0,Florida Atlantic -7
+2026-10-23T20:08:17+00:00,2026,8,Sacramento State@Ball State,Kody Malstrom (Action Network),spread,Sacramento State,14.5,Sacramento State +14.5
+2026-10-23T20:08:17+00:00,2026,8,San Diego State@Colorado State,Mike Calabrese (Action Network),moneyline,Colorado State,,Colorado State +102
+2026-10-23T20:08:17+00:00,2026,8,San José State@Nevada,Jeremiah Rose (Action Network),spread,Nevada,-5.5,Nevada -5.5
+2026-10-23T20:08:17+00:00,2026,8,Syracuse@North Carolina,Collin Wilson (Action Network),total,over,44.5,Over 44.5
+2026-10-23T20:08:17+00:00,2026,8,Syracuse@North Carolina,Sandy Plashkes (Action Network),spread,Syracuse,9.0,Syracuse +9
+2026-10-23T20:08:17+00:00,2026,8,UL Monroe@Troy,Doug Ziefel (Action Network),spread,UL Monroe,14.5,UL Monroe +14.5
+2026-10-23T20:08:17+00:00,2026,8,UTSA@Tulane,Sandy Plashkes (Action Network),total,under,51.5,Under 51.5
+2026-10-23T20:08:17+00:00,2026,8,West Virginia@TCU,Alex Hinton (Action Network),total,over,57.5,Over 57.5
+2026-10-23T20:08:17+00:00,2026,8,West Virginia@TCU,Collin Wilson (Action Network),spread,TCU,-9.5,TCU -9.5
+2026-10-23T20:08:17+00:00,2026,8,West Virginia@TCU,Sandy Plashkes (Action Network),total,under,57.0,Under 57
+2026-10-23T20:08:17+00:00,2026,8,Western Michigan@Toledo,Doug Ziefel (Action Network),total,over,45.5,Over 45.5
