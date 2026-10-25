@@ -347,41 +347,41 @@ season,week,away,home,model,market,actual,model_err,market_err,closer,captured,c
 2026,8,Indiana,Michigan,-8.6,-7.5,-7.0,1.6,0.5,market,pre,2026-10-24T12:43+00:00
 2026,8,Ole Miss,Texas,2.5,3.0,7.0,4.5,4.0,market,pre,2026-10-24T12:43+00:00
 2026,8,Texas A&M,Alabama,13.9,13.5,11.0,2.9,2.5,market,pre,2026-10-24T12:43+00:00
-2026,9,Ohio State,USC,-9.4,-6.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Clemson,Florida State,8.1,6.2,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Florida,Georgia,9.5,10.5,,,,,pre,2026-10-25T17:26+00:00
-2026,10,Michigan State,Michigan,13.2,16.5,,,,,pre,2026-10-25T17:26+00:00
-2026,10,BYU,Utah,8.8,3.0,,,,,pre,2026-10-25T17:26+00:00
-2026,10,Alabama,LSU,6.6,3.5,,,,,pre,2026-10-25T17:26+00:00
-2026,10,Georgia,Ole Miss,1.1,-4.5,,,,,pre,2026-10-25T17:26+00:00
-2026,10,Oregon,Ohio State,16.0,6.0,,,,,pre,2026-10-25T17:26+00:00
-2026,10,Miami,Notre Dame,4.7,6.5,,,,,pre,2026-10-25T17:26+00:00
-2026,11,Texas Tech,Oklahoma State,-2.9,-15.5,,,,,pre,2026-10-25T17:26+00:00
-2026,11,Ole Miss,Oklahoma,-1.6,4.0,,,,,pre,2026-10-25T17:26+00:00
-2026,11,Duke,Miami,23.5,21.0,,,,,pre,2026-10-25T17:26+00:00
-2026,11,USC,Indiana,16.6,10.0,,,,,pre,2026-10-25T17:26+00:00
-2026,11,Michigan,Oregon,11.9,13.5,,,,,pre,2026-10-25T17:26+00:00
-2026,11,Tennessee,Texas A&M,3.4,8.5,,,,,pre,2026-10-25T17:26+00:00
-2026,11,Texas,LSU,11.5,-2.5,,,,,pre,2026-10-25T17:26+00:00
-2026,12,Virginia Tech,Miami,26.4,16.5,,,,,pre,2026-10-25T17:26+00:00
-2026,12,Texas A&M,Oklahoma,2.5,2.5,,,,,pre,2026-10-25T17:26+00:00
-2026,12,LSU,Tennessee,-1.3,-1.5,,,,,pre,2026-10-25T17:26+00:00
-2026,12,SMU,Notre Dame,18.2,17.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,TCU,Texas Tech,14.3,16.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Mississippi State,Ole Miss,18.1,14.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Florida,Florida State,2.0,-4.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Texas,Texas A&M,3.0,-2.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Washington,Oregon,13.9,15.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Illinois,Northwestern,10.9,-3.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,NC State,North Carolina,9.4,-1.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,USC,UCLA,6.4,-10.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,South Carolina,Clemson,0.8,3.0,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Auburn,Alabama,17.6,10.0,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Arizona State,Arizona,19.3,4.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Tennessee,Vanderbilt,-9.2,-3.0,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Virginia,Virginia Tech,4.0,1.5,,,,,pre,2026-10-25T17:26+00:00
-2026,13,Michigan,Ohio State,22.5,13.5,,,,,pre,2026-10-25T17:26+00:00
-2026,15,Navy,Army,5.0,-2.5,,,,,pre,2026-10-25T17:26+00:00
+2026,9,Ohio State,USC,-9.4,-6.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Clemson,Florida State,8.1,6.2,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Florida,Georgia,9.5,10.5,,,,,pre,2026-10-25T18:31+00:00
+2026,10,Michigan State,Michigan,13.2,16.5,,,,,pre,2026-10-25T18:31+00:00
+2026,10,BYU,Utah,8.8,3.0,,,,,pre,2026-10-25T18:31+00:00
+2026,10,Alabama,LSU,6.6,3.5,,,,,pre,2026-10-25T18:31+00:00
+2026,10,Georgia,Ole Miss,1.1,-4.5,,,,,pre,2026-10-25T18:31+00:00
+2026,10,Oregon,Ohio State,16.0,6.0,,,,,pre,2026-10-25T18:31+00:00
+2026,10,Miami,Notre Dame,4.7,6.5,,,,,pre,2026-10-25T18:31+00:00
+2026,11,Texas Tech,Oklahoma State,-2.9,-15.5,,,,,pre,2026-10-25T18:31+00:00
+2026,11,Ole Miss,Oklahoma,-1.6,4.0,,,,,pre,2026-10-25T18:31+00:00
+2026,11,Duke,Miami,23.5,21.0,,,,,pre,2026-10-25T18:31+00:00
+2026,11,USC,Indiana,16.6,10.0,,,,,pre,2026-10-25T18:31+00:00
+2026,11,Michigan,Oregon,11.9,13.5,,,,,pre,2026-10-25T18:31+00:00
+2026,11,Tennessee,Texas A&M,3.4,8.5,,,,,pre,2026-10-25T18:31+00:00
+2026,11,Texas,LSU,11.5,-2.5,,,,,pre,2026-10-25T18:31+00:00
+2026,12,Virginia Tech,Miami,26.4,16.5,,,,,pre,2026-10-25T18:31+00:00
+2026,12,Texas A&M,Oklahoma,2.5,2.5,,,,,pre,2026-10-25T18:31+00:00
+2026,12,LSU,Tennessee,-1.3,-1.5,,,,,pre,2026-10-25T18:31+00:00
+2026,12,SMU,Notre Dame,18.2,17.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,TCU,Texas Tech,14.3,16.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Mississippi State,Ole Miss,18.1,14.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Florida,Florida State,2.0,-4.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Texas,Texas A&M,3.0,-2.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Washington,Oregon,13.9,15.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Illinois,Northwestern,10.9,-3.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,NC State,North Carolina,9.4,-1.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,USC,UCLA,6.4,-10.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,South Carolina,Clemson,0.8,3.0,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Auburn,Alabama,17.6,10.0,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Arizona State,Arizona,19.3,4.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Tennessee,Vanderbilt,-9.2,-3.0,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Virginia,Virginia Tech,4.0,1.5,,,,,pre,2026-10-25T18:31+00:00
+2026,13,Michigan,Ohio State,22.5,13.5,,,,,pre,2026-10-25T18:31+00:00
+2026,15,Navy,Army,5.0,-2.5,,,,,pre,2026-10-25T18:31+00:00
 2026,6,Florida State,Louisville,8.8,4.2,24.0,15.2,19.8,model,post,2026-10-10T03:29+00:00
 2026,6,Wyoming,San José State,5.8,4.2,-3.0,8.8,7.2,market,post,2026-10-10T14:29+00:00
 2026,6,Iowa,Washington,-3.3,3.0,-17.0,13.7,20.0,model,post,2026-10-10T14:29+00:00
@@ -478,56 +478,56 @@ season,week,away,home,model,market,actual,model_err,market_err,closer,captured,c
 2026,8,Utah State,Texas State,14.9,13.5,3.0,11.9,10.5,market,pre,2026-10-24T12:43+00:00
 2026,8,Syracuse,North Carolina,13.4,9.0,-1.0,14.4,10.0,market,pre,2026-10-24T12:43+00:00
 2026,8,UTSA,Tulane,6.1,-3.0,-23.0,29.1,20.0,market,pre,2026-10-24T12:43+00:00
-2026,9,Northwestern,Oregon,7.9,3.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Wisconsin,Iowa,6.3,3.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Arizona,Texas Tech,6.3,4.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Notre Dame,Navy,-30.3,-30.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Auburn,Ole Miss,14.3,12.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Minnesota,Indiana,24.7,19.8,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Arizona State,BYU,16.0,14.8,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Utah,Cincinnati,-3.9,-7.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,South Carolina,Oklahoma,5.2,3.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Miami,North Carolina,-13.8,-15.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Delaware,Western Kentucky,8.4,-1.2,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Sam Houston,Missouri State,7.7,5.2,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Jacksonville State,New Mexico State,0.8,-3.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Missouri,Arkansas,-4.2,-9.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Washington,Nebraska,12.8,9.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Oregon State,Fresno State,-2.4,-6.8,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Kennesaw State,Middle Tennessee,3.9,3.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Troy,James Madison,22.7,19.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Florida Atlantic,North Texas,20.7,11.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Tulane,Charlotte,-10.0,-11.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Baylor,UCF,3.6,2.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Kent State,Sacramento State,-22.6,-10.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,SMU,Syracuse,-4.5,-9.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Michigan,Rutgers,-4.4,-14.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Virginia,Wake Forest,14.4,13.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Nevada,UCLA,22.0,22.2,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Mississippi State,Texas,16.4,20.2,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Illinois,Maryland,-5.7,-2.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Boston College,Duke,11.8,7.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Bowling Green,Western Michigan,17.3,14.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,California,NC State,12.8,7.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,UAB,South Florida,17.9,8.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Marshall,Old Dominion,6.3,-3.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Coastal Carolina,Georgia State,10.1,7.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Kansas State,Colorado,-2.5,-2.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Louisiana Tech,South Alabama,0.7,-4.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,UConn,Air Force,-2.4,2.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Temple,East Carolina,11.7,4.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Stanford,Louisville,24.2,21.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,UTEP,North Dakota State,11.1,26.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Southern Miss,UL Monroe,-3.0,-3.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Colorado State,Utah State,11.5,4.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Florida International,Liberty,15.1,12.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Kansas,TCU,8.6,4.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,New Mexico,San José State,-12.8,-14.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Purdue,Penn State,13.8,7.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,App State,Georgia Southern,7.6,3.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Oklahoma State,Iowa State,0.6,-9.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Washington State,San Diego State,1.8,2.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Georgia Tech,Pittsburgh,13.2,7.0,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Army,Memphis,10.2,6.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Texas State,Boise State,12.7,12.5,,,,,pre,2026-10-25T17:26+00:00
-2026,9,Northern Illinois,UNLV,26.0,23.8,,,,,pre,2026-10-25T17:26+00:00
+2026,9,Northwestern,Oregon,7.9,3.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Wisconsin,Iowa,6.3,3.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Arizona,Texas Tech,6.3,4.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Notre Dame,Navy,-30.3,-30.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Auburn,Ole Miss,14.3,13.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Minnesota,Indiana,24.7,19.8,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Arizona State,BYU,16.0,14.8,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Utah,Cincinnati,-3.9,-7.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,South Carolina,Oklahoma,5.2,3.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Miami,North Carolina,-13.8,-15.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Delaware,Western Kentucky,8.4,-1.2,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Sam Houston,Missouri State,7.7,5.2,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Jacksonville State,New Mexico State,0.8,-3.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Missouri,Arkansas,-4.2,-9.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Washington,Nebraska,12.8,9.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Oregon State,Fresno State,-2.4,-6.8,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Kennesaw State,Middle Tennessee,3.9,2.8,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Troy,James Madison,22.7,19.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Florida Atlantic,North Texas,20.7,11.2,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Tulane,Charlotte,-10.0,-11.2,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Baylor,UCF,3.6,2.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Kent State,Sacramento State,-22.6,-10.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,SMU,Syracuse,-4.5,-9.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Michigan,Rutgers,-4.4,-14.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Virginia,Wake Forest,14.4,13.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Nevada,UCLA,22.0,22.2,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Mississippi State,Texas,16.4,20.2,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Illinois,Maryland,-5.7,-2.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Boston College,Duke,11.8,7.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Bowling Green,Western Michigan,17.3,14.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,California,NC State,12.8,7.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,UAB,South Florida,17.9,8.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Marshall,Old Dominion,6.3,-3.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Coastal Carolina,Georgia State,10.1,7.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Kansas State,Colorado,-2.5,-2.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Louisiana Tech,South Alabama,0.7,-4.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,UConn,Air Force,-2.4,2.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Temple,East Carolina,11.7,4.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Stanford,Louisville,24.2,21.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,UTEP,North Dakota State,11.1,26.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Southern Miss,UL Monroe,-3.0,-3.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Colorado State,Utah State,11.5,4.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Florida International,Liberty,15.1,12.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Kansas,TCU,8.6,4.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,New Mexico,San José State,-12.8,-14.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Purdue,Penn State,13.8,7.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,App State,Georgia Southern,7.6,3.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Oklahoma State,Iowa State,0.6,-9.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Washington State,San Diego State,1.8,2.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Georgia Tech,Pittsburgh,13.2,7.0,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Army,Memphis,10.2,6.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Texas State,Boise State,12.7,12.5,,,,,pre,2026-10-25T18:31+00:00
+2026,9,Northern Illinois,UNLV,26.0,23.8,,,,,pre,2026-10-25T18:31+00:00
