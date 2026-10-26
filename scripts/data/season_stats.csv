@@ -9088,7 +9088,7 @@ Bethune-Cookman,SWAC,passingTDs,9
 Bethune-Cookman,SWAC,passingTDsOpponent,10
 Bethune-Cookman,SWAC,penalties,59
 Bethune-Cookman,SWAC,penaltiesOpponent,54
-Bethune-Cookman,SWAC,penaltyYards,563
+Bethune-Cookman,SWAC,penaltyYards,562
 Bethune-Cookman,SWAC,penaltyYardsOpponent,504
 Bethune-Cookman,SWAC,possessionTime,15331
 Bethune-Cookman,SWAC,possessionTimeOpponent,13469
@@ -9107,7 +9107,7 @@ Bethune-Cookman,SWAC,rushingYardsOpponent,1481
 Bethune-Cookman,SWAC,sacks,23
 Bethune-Cookman,SWAC,sacksOpponent,15
 Bethune-Cookman,SWAC,tacklesForLoss,56
-Bethune-Cookman,SWAC,tacklesForLossOpponent,57
+Bethune-Cookman,SWAC,tacklesForLossOpponent,58
 Bethune-Cookman,SWAC,thirdDownConversions,41
 Bethune-Cookman,SWAC,thirdDownConversionsOpponent,32
 Bethune-Cookman,SWAC,thirdDowns,113
@@ -9305,7 +9305,7 @@ Bucknell,Patriot,totalYards,1849
 Bucknell,Patriot,totalYardsOpponent,3212
 Bucknell,Patriot,turnovers,11
 Bucknell,Patriot,turnoversOpponent,7
-Butler,Pioneer,firstDowns,123
+Butler,Pioneer,firstDowns,124
 Butler,Pioneer,firstDownsOpponent,118
 Butler,Pioneer,fourthDownConversions,3
 Butler,Pioneer,fourthDownConversionsOpponent,4
@@ -9342,7 +9342,7 @@ Butler,Pioneer,penalties,36
 Butler,Pioneer,penaltiesOpponent,33
 Butler,Pioneer,penaltyYards,319
 Butler,Pioneer,penaltyYardsOpponent,313
-Butler,Pioneer,possessionTime,13232
+Butler,Pioneer,possessionTime,13497
 Butler,Pioneer,possessionTimeOpponent,11703
 Butler,Pioneer,puntReturns,5
 Butler,Pioneer,puntReturnsOpponent,12
@@ -9350,21 +9350,21 @@ Butler,Pioneer,puntReturnTDs,0
 Butler,Pioneer,puntReturnTDsOpponent,0
 Butler,Pioneer,puntReturnYards,34
 Butler,Pioneer,puntReturnYardsOpponent,151
-Butler,Pioneer,rushingAttempts,274
+Butler,Pioneer,rushingAttempts,277
 Butler,Pioneer,rushingAttemptsOpponent,203
 Butler,Pioneer,rushingTDs,19
 Butler,Pioneer,rushingTDsOpponent,7
-Butler,Pioneer,rushingYards,1459
+Butler,Pioneer,rushingYards,1463
 Butler,Pioneer,rushingYardsOpponent,678
 Butler,Pioneer,sacks,15
 Butler,Pioneer,sacksOpponent,13
 Butler,Pioneer,tacklesForLoss,38
 Butler,Pioneer,tacklesForLossOpponent,40
-Butler,Pioneer,thirdDownConversions,42
+Butler,Pioneer,thirdDownConversions,43
 Butler,Pioneer,thirdDownConversionsOpponent,36
-Butler,Pioneer,thirdDowns,92
+Butler,Pioneer,thirdDowns,93
 Butler,Pioneer,thirdDownsOpponent,88
-Butler,Pioneer,totalYards,2572
+Butler,Pioneer,totalYards,2576
 Butler,Pioneer,totalYardsOpponent,2362
 Butler,Pioneer,turnovers,4
 Butler,Pioneer,turnoversOpponent,15
@@ -9391,7 +9391,7 @@ Cal Poly,Big Sky,kickReturnTDs,0
 Cal Poly,Big Sky,kickReturnTDsOpponent,0
 Cal Poly,Big Sky,kickReturnYards,437
 Cal Poly,Big Sky,kickReturnYardsOpponent,536
-Cal Poly,Big Sky,netPassingYards,2195
+Cal Poly,Big Sky,netPassingYards,2208
 Cal Poly,Big Sky,netPassingYardsOpponent,2166
 Cal Poly,Big Sky,passAttempts,287
 Cal Poly,Big Sky,passAttemptsOpponent,281
@@ -9406,7 +9406,7 @@ Cal Poly,Big Sky,penaltiesOpponent,40
 Cal Poly,Big Sky,penaltyYards,307
 Cal Poly,Big Sky,penaltyYardsOpponent,354
 Cal Poly,Big Sky,possessionTime,16015
-Cal Poly,Big Sky,possessionTimeOpponent,16376
+Cal Poly,Big Sky,possessionTimeOpponent,16385
 Cal Poly,Big Sky,puntReturns,11
 Cal Poly,Big Sky,puntReturnsOpponent,9
 Cal Poly,Big Sky,puntReturnTDs,0
@@ -9418,7 +9418,7 @@ Cal Poly,Big Sky,rushingAttemptsOpponent,349
 Cal Poly,Big Sky,rushingTDs,14
 Cal Poly,Big Sky,rushingTDsOpponent,16
 Cal Poly,Big Sky,rushingYards,1418
-Cal Poly,Big Sky,rushingYardsOpponent,1566
+Cal Poly,Big Sky,rushingYardsOpponent,1567
 Cal Poly,Big Sky,sacks,14
 Cal Poly,Big Sky,sacksOpponent,21
 Cal Poly,Big Sky,tacklesForLoss,34
@@ -9427,8 +9427,8 @@ Cal Poly,Big Sky,thirdDownConversions,47
 Cal Poly,Big Sky,thirdDownConversionsOpponent,53
 Cal Poly,Big Sky,thirdDowns,121
 Cal Poly,Big Sky,thirdDownsOpponent,128
-Cal Poly,Big Sky,totalYards,3613
-Cal Poly,Big Sky,totalYardsOpponent,3732
+Cal Poly,Big Sky,totalYards,3626
+Cal Poly,Big Sky,totalYardsOpponent,3733
 Cal Poly,Big Sky,turnovers,16
 Cal Poly,Big Sky,turnoversOpponent,11
 Campbell,Coastal Athletic,firstDowns,184
@@ -9644,14 +9644,14 @@ Charleston Southern,OVC,kickReturnTDsOpponent,0
 Charleston Southern,OVC,kickReturnYards,384
 Charleston Southern,OVC,kickReturnYardsOpponent,263
 Charleston Southern,OVC,netPassingYards,1122
-Charleston Southern,OVC,netPassingYardsOpponent,1505
+Charleston Southern,OVC,netPassingYardsOpponent,1495
 Charleston Southern,OVC,passAttempts,186
 Charleston Southern,OVC,passAttemptsOpponent,277
 Charleston Southern,OVC,passCompletions,103
 Charleston Southern,OVC,passCompletionsOpponent,148
 Charleston Southern,OVC,passesIntercepted,9
 Charleston Southern,OVC,passesInterceptedOpponent,2
-Charleston Southern,OVC,passingTDs,6
+Charleston Southern,OVC,passingTDs,7
 Charleston Southern,OVC,passingTDsOpponent,5
 Charleston Southern,OVC,penalties,56
 Charleston Southern,OVC,penaltiesOpponent,51
@@ -9678,9 +9678,9 @@ Charleston Southern,OVC,tacklesForLossOpponent,74
 Charleston Southern,OVC,thirdDownConversions,30
 Charleston Southern,OVC,thirdDownConversionsOpponent,50
 Charleston Southern,OVC,thirdDowns,99
-Charleston Southern,OVC,thirdDownsOpponent,130
+Charleston Southern,OVC,thirdDownsOpponent,129
 Charleston Southern,OVC,totalYards,2033
-Charleston Southern,OVC,totalYardsOpponent,2515
+Charleston Southern,OVC,totalYardsOpponent,2505
 Charleston Southern,OVC,turnovers,9
 Charleston Southern,OVC,turnoversOpponent,14
 Chattanooga,Southern,firstDowns,124
@@ -9809,69 +9809,69 @@ Chicago State,FCS Independents,totalYards,2619
 Chicago State,FCS Independents,totalYardsOpponent,3508
 Chicago State,FCS Independents,turnovers,16
 Chicago State,FCS Independents,turnoversOpponent,14
-Colgate,Patriot,firstDowns,136
-Colgate,Patriot,firstDownsOpponent,122
+Colgate,Patriot,firstDowns,155
+Colgate,Patriot,firstDownsOpponent,133
 Colgate,Patriot,fourthDownConversions,7
-Colgate,Patriot,fourthDownConversionsOpponent,8
-Colgate,Patriot,fourthDowns,10
-Colgate,Patriot,fourthDownsOpponent,18
-Colgate,Patriot,fumblesLost,5
+Colgate,Patriot,fourthDownConversionsOpponent,9
+Colgate,Patriot,fourthDowns,11
+Colgate,Patriot,fourthDownsOpponent,19
+Colgate,Patriot,fumblesLost,6
 Colgate,Patriot,fumblesLostOpponent,2
 Colgate,Patriot,fumblesRecovered,2
-Colgate,Patriot,fumblesRecoveredOpponent,5
+Colgate,Patriot,fumblesRecoveredOpponent,6
 Colgate,Patriot,games,8
-Colgate,Patriot,interceptions,8
-Colgate,Patriot,interceptionsOpponent,11
+Colgate,Patriot,interceptions,11
+Colgate,Patriot,interceptionsOpponent,12
 Colgate,Patriot,interceptionTDs,0
 Colgate,Patriot,interceptionTDsOpponent,1
 Colgate,Patriot,interceptionYards,79
-Colgate,Patriot,interceptionYardsOpponent,56
-Colgate,Patriot,kickReturns,8
-Colgate,Patriot,kickReturnsOpponent,21
+Colgate,Patriot,interceptionYardsOpponent,73
+Colgate,Patriot,kickReturns,10
+Colgate,Patriot,kickReturnsOpponent,22
 Colgate,Patriot,kickReturnTDs,0
 Colgate,Patriot,kickReturnTDsOpponent,0
-Colgate,Patriot,kickReturnYards,124
-Colgate,Patriot,kickReturnYardsOpponent,399
-Colgate,Patriot,netPassingYards,1227
-Colgate,Patriot,netPassingYardsOpponent,1324
-Colgate,Patriot,passAttempts,195
-Colgate,Patriot,passAttemptsOpponent,222
-Colgate,Patriot,passCompletions,111
-Colgate,Patriot,passCompletionsOpponent,127
-Colgate,Patriot,passesIntercepted,11
-Colgate,Patriot,passesInterceptedOpponent,8
+Colgate,Patriot,kickReturnYards,154
+Colgate,Patriot,kickReturnYardsOpponent,414
+Colgate,Patriot,netPassingYards,1539
+Colgate,Patriot,netPassingYardsOpponent,1473
+Colgate,Patriot,passAttempts,240
+Colgate,Patriot,passAttemptsOpponent,243
+Colgate,Patriot,passCompletions,136
+Colgate,Patriot,passCompletionsOpponent,138
+Colgate,Patriot,passesIntercepted,12
+Colgate,Patriot,passesInterceptedOpponent,11
 Colgate,Patriot,passingTDs,9
-Colgate,Patriot,passingTDsOpponent,8
-Colgate,Patriot,penalties,38
-Colgate,Patriot,penaltiesOpponent,37
-Colgate,Patriot,penaltyYards,347
-Colgate,Patriot,penaltyYardsOpponent,349
-Colgate,Patriot,possessionTime,13738
-Colgate,Patriot,possessionTimeOpponent,11462
-Colgate,Patriot,puntReturns,9
-Colgate,Patriot,puntReturnsOpponent,6
+Colgate,Patriot,passingTDsOpponent,9
+Colgate,Patriot,penalties,44
+Colgate,Patriot,penaltiesOpponent,41
+Colgate,Patriot,penaltyYards,398
+Colgate,Patriot,penaltyYardsOpponent,389
+Colgate,Patriot,possessionTime,15833
+Colgate,Patriot,possessionTimeOpponent,12967
+Colgate,Patriot,puntReturns,12
+Colgate,Patriot,puntReturnsOpponent,8
 Colgate,Patriot,puntReturnTDs,0
 Colgate,Patriot,puntReturnTDsOpponent,0
-Colgate,Patriot,puntReturnYards,117
-Colgate,Patriot,puntReturnYardsOpponent,29
-Colgate,Patriot,rushingAttempts,275
-Colgate,Patriot,rushingAttemptsOpponent,212
+Colgate,Patriot,puntReturnYards,121
+Colgate,Patriot,puntReturnYardsOpponent,41
+Colgate,Patriot,rushingAttempts,304
+Colgate,Patriot,rushingAttemptsOpponent,238
 Colgate,Patriot,rushingTDs,10
 Colgate,Patriot,rushingTDsOpponent,6
-Colgate,Patriot,rushingYards,1127
-Colgate,Patriot,rushingYardsOpponent,775
-Colgate,Patriot,sacks,16
-Colgate,Patriot,sacksOpponent,11
-Colgate,Patriot,tacklesForLoss,44
-Colgate,Patriot,tacklesForLossOpponent,29
-Colgate,Patriot,thirdDownConversions,45
-Colgate,Patriot,thirdDownConversionsOpponent,36
-Colgate,Patriot,thirdDowns,102
-Colgate,Patriot,thirdDownsOpponent,93
-Colgate,Patriot,totalYards,2354
-Colgate,Patriot,totalYardsOpponent,2099
-Colgate,Patriot,turnovers,13
-Colgate,Patriot,turnoversOpponent,13
+Colgate,Patriot,rushingYards,1131
+Colgate,Patriot,rushingYardsOpponent,878
+Colgate,Patriot,sacks,17
+Colgate,Patriot,sacksOpponent,19
+Colgate,Patriot,tacklesForLoss,48
+Colgate,Patriot,tacklesForLossOpponent,40
+Colgate,Patriot,thirdDownConversions,55
+Colgate,Patriot,thirdDownConversionsOpponent,38
+Colgate,Patriot,thirdDowns,121
+Colgate,Patriot,thirdDownsOpponent,106
+Colgate,Patriot,totalYards,2670
+Colgate,Patriot,totalYardsOpponent,2351
+Colgate,Patriot,turnovers,17
+Colgate,Patriot,turnoversOpponent,14
 Columbia,Ivy,firstDowns,149
 Columbia,Ivy,firstDownsOpponent,108
 Columbia,Ivy,fourthDownConversions,2
@@ -10125,7 +10125,7 @@ Davidson,Pioneer,totalYardsOpponent,3403
 Davidson,Pioneer,turnovers,14
 Davidson,Pioneer,turnoversOpponent,8
 Dayton,Pioneer,firstDowns,145
-Dayton,Pioneer,firstDownsOpponent,133
+Dayton,Pioneer,firstDownsOpponent,134
 Dayton,Pioneer,fourthDownConversions,7
 Dayton,Pioneer,fourthDownConversionsOpponent,5
 Dayton,Pioneer,fourthDowns,18
@@ -10148,9 +10148,9 @@ Dayton,Pioneer,kickReturnTDsOpponent,0
 Dayton,Pioneer,kickReturnYards,405
 Dayton,Pioneer,kickReturnYardsOpponent,236
 Dayton,Pioneer,netPassingYards,1554
-Dayton,Pioneer,netPassingYardsOpponent,1884
+Dayton,Pioneer,netPassingYardsOpponent,1902
 Dayton,Pioneer,passAttempts,242
-Dayton,Pioneer,passAttemptsOpponent,259
+Dayton,Pioneer,passAttemptsOpponent,260
 Dayton,Pioneer,passCompletions,157
 Dayton,Pioneer,passCompletionsOpponent,155
 Dayton,Pioneer,passesIntercepted,9
@@ -10162,7 +10162,7 @@ Dayton,Pioneer,penaltiesOpponent,56
 Dayton,Pioneer,penaltyYards,366
 Dayton,Pioneer,penaltyYardsOpponent,541
 Dayton,Pioneer,possessionTime,13991
-Dayton,Pioneer,possessionTimeOpponent,11152
+Dayton,Pioneer,possessionTimeOpponent,11209
 Dayton,Pioneer,puntReturns,16
 Dayton,Pioneer,puntReturnsOpponent,4
 Dayton,Pioneer,puntReturnTDs,1
@@ -10184,7 +10184,7 @@ Dayton,Pioneer,thirdDownConversionsOpponent,39
 Dayton,Pioneer,thirdDowns,97
 Dayton,Pioneer,thirdDownsOpponent,98
 Dayton,Pioneer,totalYards,2598
-Dayton,Pioneer,totalYardsOpponent,2531
+Dayton,Pioneer,totalYardsOpponent,2549
 Dayton,Pioneer,turnovers,9
 Dayton,Pioneer,turnoversOpponent,14
 Delaware State,MEAC,firstDowns,157
@@ -10204,11 +10204,11 @@ Delaware State,MEAC,interceptionTDs,0
 Delaware State,MEAC,interceptionTDsOpponent,0
 Delaware State,MEAC,interceptionYards,32
 Delaware State,MEAC,interceptionYardsOpponent,67
-Delaware State,MEAC,kickReturns,30
+Delaware State,MEAC,kickReturns,29
 Delaware State,MEAC,kickReturnsOpponent,16
 Delaware State,MEAC,kickReturnTDs,0
 Delaware State,MEAC,kickReturnTDsOpponent,0
-Delaware State,MEAC,kickReturnYards,486
+Delaware State,MEAC,kickReturnYards,503
 Delaware State,MEAC,kickReturnYardsOpponent,287
 Delaware State,MEAC,netPassingYards,1527
 Delaware State,MEAC,netPassingYardsOpponent,1494
@@ -10251,7 +10251,7 @@ Delaware State,MEAC,totalYardsOpponent,2766
 Delaware State,MEAC,turnovers,13
 Delaware State,MEAC,turnoversOpponent,12
 Drake,Pioneer,firstDowns,194
-Drake,Pioneer,firstDownsOpponent,173
+Drake,Pioneer,firstDownsOpponent,174
 Drake,Pioneer,fourthDownConversions,17
 Drake,Pioneer,fourthDownConversionsOpponent,13
 Drake,Pioneer,fourthDowns,33
@@ -10288,7 +10288,7 @@ Drake,Pioneer,penaltiesOpponent,53
 Drake,Pioneer,penaltyYards,490
 Drake,Pioneer,penaltyYardsOpponent,504
 Drake,Pioneer,possessionTime,12601
-Drake,Pioneer,possessionTimeOpponent,15934
+Drake,Pioneer,possessionTimeOpponent,16199
 Drake,Pioneer,puntReturns,5
 Drake,Pioneer,puntReturnsOpponent,9
 Drake,Pioneer,puntReturnTDs,1
@@ -10296,21 +10296,21 @@ Drake,Pioneer,puntReturnTDsOpponent,0
 Drake,Pioneer,puntReturnYards,55
 Drake,Pioneer,puntReturnYardsOpponent,57
 Drake,Pioneer,rushingAttempts,226
-Drake,Pioneer,rushingAttemptsOpponent,303
+Drake,Pioneer,rushingAttemptsOpponent,306
 Drake,Pioneer,rushingTDs,8
 Drake,Pioneer,rushingTDsOpponent,17
 Drake,Pioneer,rushingYards,721
-Drake,Pioneer,rushingYardsOpponent,1245
+Drake,Pioneer,rushingYardsOpponent,1249
 Drake,Pioneer,sacks,8
 Drake,Pioneer,sacksOpponent,24
 Drake,Pioneer,tacklesForLoss,24
 Drake,Pioneer,tacklesForLossOpponent,64
 Drake,Pioneer,thirdDownConversions,46
-Drake,Pioneer,thirdDownConversionsOpponent,47
+Drake,Pioneer,thirdDownConversionsOpponent,48
 Drake,Pioneer,thirdDowns,121
-Drake,Pioneer,thirdDownsOpponent,110
+Drake,Pioneer,thirdDownsOpponent,111
 Drake,Pioneer,totalYards,3315
-Drake,Pioneer,totalYardsOpponent,3162
+Drake,Pioneer,totalYardsOpponent,3166
 Drake,Pioneer,turnovers,21
 Drake,Pioneer,turnoversOpponent,9
 Duquesne,NEC,firstDowns,114
@@ -10326,7 +10326,7 @@ Duquesne,NEC,fumblesRecoveredOpponent,4
 Duquesne,NEC,games,7
 Duquesne,NEC,interceptions,8
 Duquesne,NEC,interceptionsOpponent,4
-Duquesne,NEC,interceptionTDs,1
+Duquesne,NEC,interceptionTDs,0
 Duquesne,NEC,interceptionTDsOpponent,0
 Duquesne,NEC,interceptionYards,47
 Duquesne,NEC,interceptionYardsOpponent,66
@@ -10350,7 +10350,7 @@ Duquesne,NEC,penalties,55
 Duquesne,NEC,penaltiesOpponent,47
 Duquesne,NEC,penaltyYards,461
 Duquesne,NEC,penaltyYardsOpponent,411
-Duquesne,NEC,possessionTime,11955
+Duquesne,NEC,possessionTime,12031
 Duquesne,NEC,possessionTimeOpponent,13169
 Duquesne,NEC,puntReturns,7
 Duquesne,NEC,puntReturnsOpponent,14
@@ -10358,11 +10358,11 @@ Duquesne,NEC,puntReturnTDs,0
 Duquesne,NEC,puntReturnTDsOpponent,2
 Duquesne,NEC,puntReturnYards,70
 Duquesne,NEC,puntReturnYardsOpponent,221
-Duquesne,NEC,rushingAttempts,239
+Duquesne,NEC,rushingAttempts,241
 Duquesne,NEC,rushingAttemptsOpponent,290
 Duquesne,NEC,rushingTDs,11
 Duquesne,NEC,rushingTDsOpponent,12
-Duquesne,NEC,rushingYards,975
+Duquesne,NEC,rushingYards,973
 Duquesne,NEC,rushingYardsOpponent,1248
 Duquesne,NEC,sacks,17
 Duquesne,NEC,sacksOpponent,10
@@ -10372,7 +10372,7 @@ Duquesne,NEC,thirdDownConversions,30
 Duquesne,NEC,thirdDownConversionsOpponent,30
 Duquesne,NEC,thirdDowns,81
 Duquesne,NEC,thirdDownsOpponent,84
-Duquesne,NEC,totalYards,2066
+Duquesne,NEC,totalYards,2064
 Duquesne,NEC,totalYardsOpponent,2470
 Duquesne,NEC,turnovers,12
 Duquesne,NEC,turnoversOpponent,7
@@ -10399,7 +10399,7 @@ Eastern Illinois,OVC,kickReturnTDs,0
 Eastern Illinois,OVC,kickReturnTDsOpponent,0
 Eastern Illinois,OVC,kickReturnYards,165
 Eastern Illinois,OVC,kickReturnYardsOpponent,278
-Eastern Illinois,OVC,netPassingYards,1123
+Eastern Illinois,OVC,netPassingYards,1124
 Eastern Illinois,OVC,netPassingYardsOpponent,1885
 Eastern Illinois,OVC,passAttempts,176
 Eastern Illinois,OVC,passAttemptsOpponent,250
@@ -10413,13 +10413,13 @@ Eastern Illinois,OVC,penalties,50
 Eastern Illinois,OVC,penaltiesOpponent,38
 Eastern Illinois,OVC,penaltyYards,481
 Eastern Illinois,OVC,penaltyYardsOpponent,338
-Eastern Illinois,OVC,possessionTime,12803
+Eastern Illinois,OVC,possessionTime,12825
 Eastern Illinois,OVC,possessionTimeOpponent,15834
 Eastern Illinois,OVC,puntReturns,10
 Eastern Illinois,OVC,puntReturnsOpponent,19
 Eastern Illinois,OVC,puntReturnTDs,0
 Eastern Illinois,OVC,puntReturnTDsOpponent,3
-Eastern Illinois,OVC,puntReturnYards,84
+Eastern Illinois,OVC,puntReturnYards,98
 Eastern Illinois,OVC,puntReturnYardsOpponent,331
 Eastern Illinois,OVC,rushingAttempts,260
 Eastern Illinois,OVC,rushingAttemptsOpponent,329
@@ -10433,9 +10433,9 @@ Eastern Illinois,OVC,tacklesForLoss,43
 Eastern Illinois,OVC,tacklesForLossOpponent,64
 Eastern Illinois,OVC,thirdDownConversions,31
 Eastern Illinois,OVC,thirdDownConversionsOpponent,51
-Eastern Illinois,OVC,thirdDowns,102
+Eastern Illinois,OVC,thirdDowns,103
 Eastern Illinois,OVC,thirdDownsOpponent,121
-Eastern Illinois,OVC,totalYards,2011
+Eastern Illinois,OVC,totalYards,2012
 Eastern Illinois,OVC,totalYardsOpponent,3441
 Eastern Illinois,OVC,turnovers,6
 Eastern Illinois,OVC,turnoversOpponent,14
@@ -11164,12 +11164,12 @@ Hampton,Coastal Athletic,passCompletionsOpponent,174
 Hampton,Coastal Athletic,passesIntercepted,1
 Hampton,Coastal Athletic,passesInterceptedOpponent,7
 Hampton,Coastal Athletic,passingTDs,10
-Hampton,Coastal Athletic,passingTDsOpponent,13
+Hampton,Coastal Athletic,passingTDsOpponent,14
 Hampton,Coastal Athletic,penalties,63
 Hampton,Coastal Athletic,penaltiesOpponent,57
 Hampton,Coastal Athletic,penaltyYards,565
 Hampton,Coastal Athletic,penaltyYardsOpponent,545
-Hampton,Coastal Athletic,possessionTime,12947
+Hampton,Coastal Athletic,possessionTime,13322
 Hampton,Coastal Athletic,possessionTimeOpponent,15472
 Hampton,Coastal Athletic,puntReturns,10
 Hampton,Coastal Athletic,puntReturnsOpponent,17
@@ -11178,9 +11178,9 @@ Hampton,Coastal Athletic,puntReturnTDsOpponent,2
 Hampton,Coastal Athletic,puntReturnYards,58
 Hampton,Coastal Athletic,puntReturnYardsOpponent,293
 Hampton,Coastal Athletic,rushingAttempts,252
-Hampton,Coastal Athletic,rushingAttemptsOpponent,324
+Hampton,Coastal Athletic,rushingAttemptsOpponent,323
 Hampton,Coastal Athletic,rushingTDs,6
-Hampton,Coastal Athletic,rushingTDsOpponent,18
+Hampton,Coastal Athletic,rushingTDsOpponent,21
 Hampton,Coastal Athletic,rushingYards,840
 Hampton,Coastal Athletic,rushingYardsOpponent,1591
 Hampton,Coastal Athletic,sacks,5
@@ -11560,17 +11560,17 @@ Idaho State,Big Sky,rushingAttemptsOpponent,311
 Idaho State,Big Sky,rushingTDs,11
 Idaho State,Big Sky,rushingTDsOpponent,14
 Idaho State,Big Sky,rushingYards,1088
-Idaho State,Big Sky,rushingYardsOpponent,1448
+Idaho State,Big Sky,rushingYardsOpponent,1458
 Idaho State,Big Sky,sacks,17
 Idaho State,Big Sky,sacksOpponent,14
-Idaho State,Big Sky,tacklesForLoss,51
+Idaho State,Big Sky,tacklesForLoss,50
 Idaho State,Big Sky,tacklesForLossOpponent,37
 Idaho State,Big Sky,thirdDownConversions,44
 Idaho State,Big Sky,thirdDownConversionsOpponent,38
 Idaho State,Big Sky,thirdDowns,108
 Idaho State,Big Sky,thirdDownsOpponent,110
 Idaho State,Big Sky,totalYards,3426
-Idaho State,Big Sky,totalYardsOpponent,2850
+Idaho State,Big Sky,totalYardsOpponent,2860
 Idaho State,Big Sky,turnovers,12
 Idaho State,Big Sky,turnoversOpponent,14
 Illinois State,MVFC,firstDowns,187
@@ -11798,7 +11798,7 @@ Jackson State,SWAC,passingTDsOpponent,11
 Jackson State,SWAC,penalties,61
 Jackson State,SWAC,penaltiesOpponent,48
 Jackson State,SWAC,penaltyYards,548
-Jackson State,SWAC,penaltyYardsOpponent,397
+Jackson State,SWAC,penaltyYardsOpponent,396
 Jackson State,SWAC,possessionTime,14180
 Jackson State,SWAC,possessionTimeOpponent,14811
 Jackson State,SWAC,puntReturns,18
@@ -11815,7 +11815,7 @@ Jackson State,SWAC,rushingYards,1543
 Jackson State,SWAC,rushingYardsOpponent,964
 Jackson State,SWAC,sacks,17
 Jackson State,SWAC,sacksOpponent,12
-Jackson State,SWAC,tacklesForLoss,49
+Jackson State,SWAC,tacklesForLoss,50
 Jackson State,SWAC,tacklesForLossOpponent,42
 Jackson State,SWAC,thirdDownConversions,52
 Jackson State,SWAC,thirdDownConversionsOpponent,51
@@ -12083,10 +12083,10 @@ Long Island University,NEC,fourthDownConversions,13
 Long Island University,NEC,fourthDownConversionsOpponent,7
 Long Island University,NEC,fourthDowns,23
 Long Island University,NEC,fourthDownsOpponent,14
-Long Island University,NEC,fumblesLost,4
+Long Island University,NEC,fumblesLost,5
 Long Island University,NEC,fumblesLostOpponent,7
 Long Island University,NEC,fumblesRecovered,6
-Long Island University,NEC,fumblesRecoveredOpponent,4
+Long Island University,NEC,fumblesRecoveredOpponent,5
 Long Island University,NEC,games,9
 Long Island University,NEC,interceptions,5
 Long Island University,NEC,interceptionsOpponent,7
@@ -12100,7 +12100,7 @@ Long Island University,NEC,kickReturnTDs,0
 Long Island University,NEC,kickReturnTDsOpponent,0
 Long Island University,NEC,kickReturnYards,176
 Long Island University,NEC,kickReturnYardsOpponent,346
-Long Island University,NEC,netPassingYards,948
+Long Island University,NEC,netPassingYards,955
 Long Island University,NEC,netPassingYardsOpponent,2188
 Long Island University,NEC,passAttempts,178
 Long Island University,NEC,passAttemptsOpponent,257
@@ -12114,7 +12114,7 @@ Long Island University,NEC,penalties,50
 Long Island University,NEC,penaltiesOpponent,50
 Long Island University,NEC,penaltyYards,489
 Long Island University,NEC,penaltyYardsOpponent,438
-Long Island University,NEC,possessionTime,15856
+Long Island University,NEC,possessionTime,15861
 Long Island University,NEC,possessionTimeOpponent,16539
 Long Island University,NEC,puntReturns,6
 Long Island University,NEC,puntReturnsOpponent,24
@@ -12136,9 +12136,9 @@ Long Island University,NEC,thirdDownConversions,38
 Long Island University,NEC,thirdDownConversionsOpponent,51
 Long Island University,NEC,thirdDowns,126
 Long Island University,NEC,thirdDownsOpponent,115
-Long Island University,NEC,totalYards,2219
+Long Island University,NEC,totalYards,2226
 Long Island University,NEC,totalYardsOpponent,3368
-Long Island University,NEC,turnovers,9
+Long Island University,NEC,turnovers,10
 Long Island University,NEC,turnoversOpponent,14
 Maine,Coastal Athletic,firstDowns,125
 Maine,Coastal Athletic,firstDownsOpponent,163
@@ -12241,7 +12241,7 @@ Marist,Pioneer,penaltiesOpponent,52
 Marist,Pioneer,penaltyYards,359
 Marist,Pioneer,penaltyYardsOpponent,519
 Marist,Pioneer,possessionTime,14394
-Marist,Pioneer,possessionTimeOpponent,14358
+Marist,Pioneer,possessionTimeOpponent,14406
 Marist,Pioneer,puntReturns,11
 Marist,Pioneer,puntReturnsOpponent,8
 Marist,Pioneer,puntReturnTDs,2
@@ -12249,11 +12249,11 @@ Marist,Pioneer,puntReturnTDsOpponent,0
 Marist,Pioneer,puntReturnYards,98
 Marist,Pioneer,puntReturnYardsOpponent,28
 Marist,Pioneer,rushingAttempts,257
-Marist,Pioneer,rushingAttemptsOpponent,256
+Marist,Pioneer,rushingAttemptsOpponent,258
 Marist,Pioneer,rushingTDs,13
 Marist,Pioneer,rushingTDsOpponent,8
 Marist,Pioneer,rushingYards,1032
-Marist,Pioneer,rushingYardsOpponent,965
+Marist,Pioneer,rushingYardsOpponent,961
 Marist,Pioneer,sacks,11
 Marist,Pioneer,sacksOpponent,12
 Marist,Pioneer,tacklesForLoss,38
@@ -12263,7 +12263,7 @@ Marist,Pioneer,thirdDownConversionsOpponent,62
 Marist,Pioneer,thirdDowns,96
 Marist,Pioneer,thirdDownsOpponent,126
 Marist,Pioneer,totalYards,2766
-Marist,Pioneer,totalYardsOpponent,2780
+Marist,Pioneer,totalYardsOpponent,2776
 Marist,Pioneer,turnovers,10
 Marist,Pioneer,turnoversOpponent,8
 McNeese,Southland,firstDowns,134
@@ -12612,23 +12612,23 @@ Monmouth,Coastal Athletic,passCompletions,178
 Monmouth,Coastal Athletic,passCompletionsOpponent,133
 Monmouth,Coastal Athletic,passesIntercepted,4
 Monmouth,Coastal Athletic,passesInterceptedOpponent,4
-Monmouth,Coastal Athletic,passingTDs,15
+Monmouth,Coastal Athletic,passingTDs,16
 Monmouth,Coastal Athletic,passingTDsOpponent,20
 Monmouth,Coastal Athletic,penalties,49
 Monmouth,Coastal Athletic,penaltiesOpponent,40
 Monmouth,Coastal Athletic,penaltyYards,434
 Monmouth,Coastal Athletic,penaltyYardsOpponent,397
 Monmouth,Coastal Athletic,possessionTime,14294
-Monmouth,Coastal Athletic,possessionTimeOpponent,14131
+Monmouth,Coastal Athletic,possessionTimeOpponent,14506
 Monmouth,Coastal Athletic,puntReturns,9
 Monmouth,Coastal Athletic,puntReturnsOpponent,6
 Monmouth,Coastal Athletic,puntReturnTDs,0
 Monmouth,Coastal Athletic,puntReturnTDsOpponent,0
 Monmouth,Coastal Athletic,puntReturnYards,103
 Monmouth,Coastal Athletic,puntReturnYardsOpponent,173
-Monmouth,Coastal Athletic,rushingAttempts,327
+Monmouth,Coastal Athletic,rushingAttempts,326
 Monmouth,Coastal Athletic,rushingAttemptsOpponent,285
-Monmouth,Coastal Athletic,rushingTDs,13
+Monmouth,Coastal Athletic,rushingTDs,16
 Monmouth,Coastal Athletic,rushingTDsOpponent,13
 Monmouth,Coastal Athletic,rushingYards,1538
 Monmouth,Coastal Athletic,rushingYardsOpponent,1141
@@ -13109,7 +13109,7 @@ Nicholls,Southland,kickReturnTDsOpponent,1
 Nicholls,Southland,kickReturnYards,89
 Nicholls,Southland,kickReturnYardsOpponent,422
 Nicholls,Southland,netPassingYards,1292
-Nicholls,Southland,netPassingYardsOpponent,2023
+Nicholls,Southland,netPassingYardsOpponent,2039
 Nicholls,Southland,passAttempts,242
 Nicholls,Southland,passAttemptsOpponent,256
 Nicholls,Southland,passCompletions,125
@@ -13145,7 +13145,7 @@ Nicholls,Southland,thirdDownConversionsOpponent,52
 Nicholls,Southland,thirdDowns,126
 Nicholls,Southland,thirdDownsOpponent,110
 Nicholls,Southland,totalYards,2373
-Nicholls,Southland,totalYardsOpponent,3569
+Nicholls,Southland,totalYardsOpponent,3585
 Nicholls,Southland,turnovers,11
 Nicholls,Southland,turnoversOpponent,14
 Norfolk State,MEAC,firstDowns,163
@@ -13355,11 +13355,11 @@ North Carolina Central,MEAC,interceptionTDsOpponent,2
 North Carolina Central,MEAC,interceptionYards,79
 North Carolina Central,MEAC,interceptionYardsOpponent,82
 North Carolina Central,MEAC,kickReturns,15
-North Carolina Central,MEAC,kickReturnsOpponent,29
+North Carolina Central,MEAC,kickReturnsOpponent,28
 North Carolina Central,MEAC,kickReturnTDs,0
 North Carolina Central,MEAC,kickReturnTDsOpponent,0
 North Carolina Central,MEAC,kickReturnYards,323
-North Carolina Central,MEAC,kickReturnYardsOpponent,601
+North Carolina Central,MEAC,kickReturnYardsOpponent,618
 North Carolina Central,MEAC,netPassingYards,1271
 North Carolina Central,MEAC,netPassingYardsOpponent,1672
 North Carolina Central,MEAC,passAttempts,204
@@ -13675,7 +13675,7 @@ Northwestern State,Southland,kickReturnTDs,0
 Northwestern State,Southland,kickReturnTDsOpponent,0
 Northwestern State,Southland,kickReturnYards,302
 Northwestern State,Southland,kickReturnYardsOpponent,334
-Northwestern State,Southland,netPassingYards,1811
+Northwestern State,Southland,netPassingYards,1827
 Northwestern State,Southland,netPassingYardsOpponent,1702
 Northwestern State,Southland,passAttempts,291
 Northwestern State,Southland,passAttemptsOpponent,206
@@ -13711,7 +13711,7 @@ Northwestern State,Southland,thirdDownConversions,41
 Northwestern State,Southland,thirdDownConversionsOpponent,47
 Northwestern State,Southland,thirdDowns,129
 Northwestern State,Southland,thirdDownsOpponent,94
-Northwestern State,Southland,totalYards,2705
+Northwestern State,Southland,totalYards,2721
 Northwestern State,Southland,totalYardsOpponent,3438
 Northwestern State,Southland,turnovers,15
 Northwestern State,Southland,turnoversOpponent,9
@@ -13827,17 +13827,17 @@ Portland State,Big Sky,rushingAttempts,252
 Portland State,Big Sky,rushingAttemptsOpponent,288
 Portland State,Big Sky,rushingTDs,12
 Portland State,Big Sky,rushingTDsOpponent,22
-Portland State,Big Sky,rushingYards,941
+Portland State,Big Sky,rushingYards,951
 Portland State,Big Sky,rushingYardsOpponent,1562
 Portland State,Big Sky,sacks,12
 Portland State,Big Sky,sacksOpponent,15
 Portland State,Big Sky,tacklesForLoss,33
-Portland State,Big Sky,tacklesForLossOpponent,46
+Portland State,Big Sky,tacklesForLossOpponent,45
 Portland State,Big Sky,thirdDownConversions,38
 Portland State,Big Sky,thirdDownConversionsOpponent,47
 Portland State,Big Sky,thirdDowns,113
 Portland State,Big Sky,thirdDownsOpponent,106
-Portland State,Big Sky,totalYards,2553
+Portland State,Big Sky,totalYards,2563
 Portland State,Big Sky,totalYardsOpponent,4137
 Portland State,Big Sky,turnovers,14
 Portland State,Big Sky,turnoversOpponent,15
@@ -13954,7 +13954,7 @@ Presbyterian,Pioneer,rushingAttemptsOpponent,290
 Presbyterian,Pioneer,rushingTDs,18
 Presbyterian,Pioneer,rushingTDsOpponent,21
 Presbyterian,Pioneer,rushingYards,1429
-Presbyterian,Pioneer,rushingYardsOpponent,1598
+Presbyterian,Pioneer,rushingYardsOpponent,1600
 Presbyterian,Pioneer,sacks,11
 Presbyterian,Pioneer,sacksOpponent,21
 Presbyterian,Pioneer,tacklesForLoss,35
@@ -13964,7 +13964,7 @@ Presbyterian,Pioneer,thirdDownConversionsOpponent,47
 Presbyterian,Pioneer,thirdDowns,119
 Presbyterian,Pioneer,thirdDownsOpponent,104
 Presbyterian,Pioneer,totalYards,3308
-Presbyterian,Pioneer,totalYardsOpponent,3702
+Presbyterian,Pioneer,totalYardsOpponent,3704
 Presbyterian,Pioneer,turnovers,13
 Presbyterian,Pioneer,turnoversOpponent,15
 Princeton,Ivy,firstDowns,112
@@ -14093,69 +14093,69 @@ Rhode Island,Coastal Athletic,totalYards,2688
 Rhode Island,Coastal Athletic,totalYardsOpponent,2999
 Rhode Island,Coastal Athletic,turnovers,13
 Rhode Island,Coastal Athletic,turnoversOpponent,13
-Richmond,Patriot,firstDowns,134
-Richmond,Patriot,firstDownsOpponent,114
-Richmond,Patriot,fourthDownConversions,3
+Richmond,Patriot,firstDowns,145
+Richmond,Patriot,firstDownsOpponent,133
+Richmond,Patriot,fourthDownConversions,4
 Richmond,Patriot,fourthDownConversionsOpponent,6
-Richmond,Patriot,fourthDowns,6
-Richmond,Patriot,fourthDownsOpponent,10
+Richmond,Patriot,fourthDowns,7
+Richmond,Patriot,fourthDownsOpponent,11
 Richmond,Patriot,fumblesLost,6
-Richmond,Patriot,fumblesLostOpponent,8
-Richmond,Patriot,fumblesRecovered,8
+Richmond,Patriot,fumblesLostOpponent,9
+Richmond,Patriot,fumblesRecovered,9
 Richmond,Patriot,fumblesRecoveredOpponent,6
 Richmond,Patriot,games,8
-Richmond,Patriot,interceptions,7
-Richmond,Patriot,interceptionsOpponent,3
+Richmond,Patriot,interceptions,8
+Richmond,Patriot,interceptionsOpponent,6
 Richmond,Patriot,interceptionTDs,0
 Richmond,Patriot,interceptionTDsOpponent,0
-Richmond,Patriot,interceptionYards,39
+Richmond,Patriot,interceptionYards,56
 Richmond,Patriot,interceptionYardsOpponent,45
-Richmond,Patriot,kickReturns,11
-Richmond,Patriot,kickReturnsOpponent,15
+Richmond,Patriot,kickReturns,12
+Richmond,Patriot,kickReturnsOpponent,17
 Richmond,Patriot,kickReturnTDs,0
 Richmond,Patriot,kickReturnTDsOpponent,0
-Richmond,Patriot,kickReturnYards,178
-Richmond,Patriot,kickReturnYardsOpponent,289
-Richmond,Patriot,netPassingYards,1365
-Richmond,Patriot,netPassingYardsOpponent,1174
-Richmond,Patriot,passAttempts,256
-Richmond,Patriot,passAttemptsOpponent,181
-Richmond,Patriot,passCompletions,140
-Richmond,Patriot,passCompletionsOpponent,95
-Richmond,Patriot,passesIntercepted,3
-Richmond,Patriot,passesInterceptedOpponent,7
-Richmond,Patriot,passingTDs,11
+Richmond,Patriot,kickReturnYards,193
+Richmond,Patriot,kickReturnYardsOpponent,319
+Richmond,Patriot,netPassingYards,1514
+Richmond,Patriot,netPassingYardsOpponent,1486
+Richmond,Patriot,passAttempts,277
+Richmond,Patriot,passAttemptsOpponent,226
+Richmond,Patriot,passCompletions,151
+Richmond,Patriot,passCompletionsOpponent,120
+Richmond,Patriot,passesIntercepted,6
+Richmond,Patriot,passesInterceptedOpponent,8
+Richmond,Patriot,passingTDs,12
 Richmond,Patriot,passingTDsOpponent,9
-Richmond,Patriot,penalties,46
-Richmond,Patriot,penaltiesOpponent,37
-Richmond,Patriot,penaltyYards,434
-Richmond,Patriot,penaltyYardsOpponent,377
-Richmond,Patriot,possessionTime,13822
-Richmond,Patriot,possessionTimeOpponent,11378
-Richmond,Patriot,puntReturns,11
-Richmond,Patriot,puntReturnsOpponent,15
+Richmond,Patriot,penalties,50
+Richmond,Patriot,penaltiesOpponent,43
+Richmond,Patriot,penaltyYards,474
+Richmond,Patriot,penaltyYardsOpponent,428
+Richmond,Patriot,possessionTime,15327
+Richmond,Patriot,possessionTimeOpponent,13473
+Richmond,Patriot,puntReturns,13
+Richmond,Patriot,puntReturnsOpponent,18
 Richmond,Patriot,puntReturnTDs,0
 Richmond,Patriot,puntReturnTDsOpponent,0
-Richmond,Patriot,puntReturnYards,86
-Richmond,Patriot,puntReturnYardsOpponent,78
-Richmond,Patriot,rushingAttempts,226
-Richmond,Patriot,rushingAttemptsOpponent,231
+Richmond,Patriot,puntReturnYards,98
+Richmond,Patriot,puntReturnYardsOpponent,82
+Richmond,Patriot,rushingAttempts,252
+Richmond,Patriot,rushingAttemptsOpponent,260
 Richmond,Patriot,rushingTDs,7
 Richmond,Patriot,rushingTDsOpponent,14
-Richmond,Patriot,rushingYards,932
-Richmond,Patriot,rushingYardsOpponent,1128
-Richmond,Patriot,sacks,21
-Richmond,Patriot,sacksOpponent,11
-Richmond,Patriot,tacklesForLoss,40
-Richmond,Patriot,tacklesForLossOpponent,35
-Richmond,Patriot,thirdDownConversions,37
-Richmond,Patriot,thirdDownConversionsOpponent,25
-Richmond,Patriot,thirdDowns,100
-Richmond,Patriot,thirdDownsOpponent,86
-Richmond,Patriot,totalYards,2297
-Richmond,Patriot,totalYardsOpponent,2302
-Richmond,Patriot,turnovers,13
-Richmond,Patriot,turnoversOpponent,11
+Richmond,Patriot,rushingYards,1035
+Richmond,Patriot,rushingYardsOpponent,1132
+Richmond,Patriot,sacks,29
+Richmond,Patriot,sacksOpponent,12
+Richmond,Patriot,tacklesForLoss,51
+Richmond,Patriot,tacklesForLossOpponent,39
+Richmond,Patriot,thirdDownConversions,39
+Richmond,Patriot,thirdDownConversionsOpponent,35
+Richmond,Patriot,thirdDowns,113
+Richmond,Patriot,thirdDownsOpponent,105
+Richmond,Patriot,totalYards,2549
+Richmond,Patriot,totalYardsOpponent,2618
+Richmond,Patriot,turnovers,14
+Richmond,Patriot,turnoversOpponent,15
 Robert Morris,NEC,firstDowns,133
 Robert Morris,NEC,firstDownsOpponent,159
 Robert Morris,NEC,fourthDownConversions,7
@@ -14345,7 +14345,7 @@ Samford,Southern,totalYards,2338
 Samford,Southern,totalYardsOpponent,2701
 Samford,Southern,turnovers,10
 Samford,Southern,turnoversOpponent,8
-San Diego,Pioneer,firstDowns,180
+San Diego,Pioneer,firstDowns,181
 San Diego,Pioneer,firstDownsOpponent,155
 San Diego,Pioneer,fourthDownConversions,7
 San Diego,Pioneer,fourthDownConversionsOpponent,3
@@ -14368,9 +14368,9 @@ San Diego,Pioneer,kickReturnTDs,0
 San Diego,Pioneer,kickReturnTDsOpponent,1
 San Diego,Pioneer,kickReturnYards,408
 San Diego,Pioneer,kickReturnYardsOpponent,652
-San Diego,Pioneer,netPassingYards,2090
+San Diego,Pioneer,netPassingYards,2108
 San Diego,Pioneer,netPassingYardsOpponent,2066
-San Diego,Pioneer,passAttempts,299
+San Diego,Pioneer,passAttempts,300
 San Diego,Pioneer,passAttemptsOpponent,238
 San Diego,Pioneer,passCompletions,187
 San Diego,Pioneer,passCompletionsOpponent,148
@@ -14382,7 +14382,7 @@ San Diego,Pioneer,penalties,48
 San Diego,Pioneer,penaltiesOpponent,40
 San Diego,Pioneer,penaltyYards,451
 San Diego,Pioneer,penaltyYardsOpponent,359
-San Diego,Pioneer,possessionTime,15701
+San Diego,Pioneer,possessionTime,15758
 San Diego,Pioneer,possessionTimeOpponent,13042
 San Diego,Pioneer,puntReturns,10
 San Diego,Pioneer,puntReturnsOpponent,17
@@ -14404,7 +14404,7 @@ San Diego,Pioneer,thirdDownConversions,46
 San Diego,Pioneer,thirdDownConversionsOpponent,37
 San Diego,Pioneer,thirdDowns,117
 San Diego,Pioneer,thirdDownsOpponent,87
-San Diego,Pioneer,totalYards,3327
+San Diego,Pioneer,totalYards,3345
 San Diego,Pioneer,totalYardsOpponent,3434
 San Diego,Pioneer,turnovers,9
 San Diego,Pioneer,turnoversOpponent,12
@@ -14442,7 +14442,7 @@ SE Louisiana,Southland,passesInterceptedOpponent,8
 SE Louisiana,Southland,passingTDs,12
 SE Louisiana,Southland,passingTDsOpponent,15
 SE Louisiana,Southland,penalties,37
-SE Louisiana,Southland,penaltiesOpponent,54
+SE Louisiana,Southland,penaltiesOpponent,53
 SE Louisiana,Southland,penaltyYards,385
 SE Louisiana,Southland,penaltyYardsOpponent,459
 SE Louisiana,Southland,possessionTime,13899
@@ -14684,7 +14684,7 @@ Southeast Missouri State,OVC,kickReturnTDsOpponent,0
 Southeast Missouri State,OVC,kickReturnYards,481
 Southeast Missouri State,OVC,kickReturnYardsOpponent,286
 Southeast Missouri State,OVC,netPassingYards,1605
-Southeast Missouri State,OVC,netPassingYardsOpponent,1677
+Southeast Missouri State,OVC,netPassingYardsOpponent,1678
 Southeast Missouri State,OVC,passAttempts,234
 Southeast Missouri State,OVC,passAttemptsOpponent,242
 Southeast Missouri State,OVC,passCompletions,148
@@ -14698,13 +14698,13 @@ Southeast Missouri State,OVC,penaltiesOpponent,46
 Southeast Missouri State,OVC,penaltyYards,477
 Southeast Missouri State,OVC,penaltyYardsOpponent,455
 Southeast Missouri State,OVC,possessionTime,15819
-Southeast Missouri State,OVC,possessionTimeOpponent,12767
+Southeast Missouri State,OVC,possessionTimeOpponent,12789
 Southeast Missouri State,OVC,puntReturns,14
 Southeast Missouri State,OVC,puntReturnsOpponent,8
 Southeast Missouri State,OVC,puntReturnTDs,0
 Southeast Missouri State,OVC,puntReturnTDsOpponent,0
 Southeast Missouri State,OVC,puntReturnYards,159
-Southeast Missouri State,OVC,puntReturnYardsOpponent,52
+Southeast Missouri State,OVC,puntReturnYardsOpponent,66
 Southeast Missouri State,OVC,rushingAttempts,334
 Southeast Missouri State,OVC,rushingAttemptsOpponent,245
 Southeast Missouri State,OVC,rushingTDs,12
@@ -14718,9 +14718,9 @@ Southeast Missouri State,OVC,tacklesForLossOpponent,59
 Southeast Missouri State,OVC,thirdDownConversions,48
 Southeast Missouri State,OVC,thirdDownConversionsOpponent,38
 Southeast Missouri State,OVC,thirdDowns,125
-Southeast Missouri State,OVC,thirdDownsOpponent,103
+Southeast Missouri State,OVC,thirdDownsOpponent,104
 Southeast Missouri State,OVC,totalYards,2670
-Southeast Missouri State,OVC,totalYardsOpponent,2722
+Southeast Missouri State,OVC,totalYardsOpponent,2723
 Southeast Missouri State,OVC,turnovers,15
 Southeast Missouri State,OVC,turnoversOpponent,12
 Southern,SWAC,firstDowns,138
@@ -14772,7 +14772,7 @@ Southern,SWAC,rushingAttempts,324
 Southern,SWAC,rushingAttemptsOpponent,295
 Southern,SWAC,rushingTDs,11
 Southern,SWAC,rushingTDsOpponent,18
-Southern,SWAC,rushingYards,1394
+Southern,SWAC,rushingYards,1398
 Southern,SWAC,rushingYardsOpponent,1744
 Southern,SWAC,sacks,15
 Southern,SWAC,sacksOpponent,9
@@ -14782,7 +14782,7 @@ Southern,SWAC,thirdDownConversions,44
 Southern,SWAC,thirdDownConversionsOpponent,34
 Southern,SWAC,thirdDowns,117
 Southern,SWAC,thirdDownsOpponent,91
-Southern,SWAC,totalYards,2705
+Southern,SWAC,totalYards,2709
 Southern,SWAC,totalYardsOpponent,3099
 Southern,SWAC,turnovers,6
 Southern,SWAC,turnoversOpponent,9
@@ -14945,7 +14945,7 @@ Stephen F. Austin,Southland,passesIntercepted,12
 Stephen F. Austin,Southland,passesInterceptedOpponent,6
 Stephen F. Austin,Southland,passingTDs,23
 Stephen F. Austin,Southland,passingTDsOpponent,10
-Stephen F. Austin,Southland,penalties,59
+Stephen F. Austin,Southland,penalties,58
 Stephen F. Austin,Southland,penaltiesOpponent,60
 Stephen F. Austin,Southland,penaltyYards,504
 Stephen F. Austin,Southland,penaltyYardsOpponent,571
@@ -15045,8 +15045,8 @@ Stonehill,NEC,fourthDownConversionsOpponent,10
 Stonehill,NEC,fourthDowns,16
 Stonehill,NEC,fourthDownsOpponent,19
 Stonehill,NEC,fumblesLost,6
-Stonehill,NEC,fumblesLostOpponent,3
-Stonehill,NEC,fumblesRecovered,3
+Stonehill,NEC,fumblesLostOpponent,4
+Stonehill,NEC,fumblesRecovered,4
 Stonehill,NEC,fumblesRecoveredOpponent,5
 Stonehill,NEC,games,8
 Stonehill,NEC,interceptions,5
@@ -15062,7 +15062,7 @@ Stonehill,NEC,kickReturnTDsOpponent,1
 Stonehill,NEC,kickReturnYards,431
 Stonehill,NEC,kickReturnYardsOpponent,482
 Stonehill,NEC,netPassingYards,1573
-Stonehill,NEC,netPassingYardsOpponent,1399
+Stonehill,NEC,netPassingYardsOpponent,1406
 Stonehill,NEC,passAttempts,230
 Stonehill,NEC,passAttemptsOpponent,203
 Stonehill,NEC,passCompletions,137
@@ -15076,7 +15076,7 @@ Stonehill,NEC,penaltiesOpponent,48
 Stonehill,NEC,penaltyYards,480
 Stonehill,NEC,penaltyYardsOpponent,492
 Stonehill,NEC,possessionTime,15066
-Stonehill,NEC,possessionTimeOpponent,13729
+Stonehill,NEC,possessionTimeOpponent,13734
 Stonehill,NEC,puntReturns,21
 Stonehill,NEC,puntReturnsOpponent,8
 Stonehill,NEC,puntReturnTDs,0
@@ -15098,9 +15098,9 @@ Stonehill,NEC,thirdDownConversionsOpponent,35
 Stonehill,NEC,thirdDowns,101
 Stonehill,NEC,thirdDownsOpponent,102
 Stonehill,NEC,totalYards,2400
-Stonehill,NEC,totalYardsOpponent,2671
+Stonehill,NEC,totalYardsOpponent,2678
 Stonehill,NEC,turnovers,11
-Stonehill,NEC,turnoversOpponent,9
+Stonehill,NEC,turnoversOpponent,10
 Stony Brook,Coastal Athletic,firstDowns,164
 Stony Brook,Coastal Athletic,firstDownsOpponent,167
 Stony Brook,Coastal Athletic,fourthDownConversions,8
@@ -15201,7 +15201,7 @@ St. Thomas (MN),Pioneer,penalties,55
 St. Thomas (MN),Pioneer,penaltiesOpponent,37
 St. Thomas (MN),Pioneer,penaltyYards,518
 St. Thomas (MN),Pioneer,penaltyYardsOpponent,333
-St. Thomas (MN),Pioneer,possessionTime,14305
+St. Thomas (MN),Pioneer,possessionTime,14353
 St. Thomas (MN),Pioneer,possessionTimeOpponent,14447
 St. Thomas (MN),Pioneer,puntReturns,12
 St. Thomas (MN),Pioneer,puntReturnsOpponent,8
@@ -15209,11 +15209,11 @@ St. Thomas (MN),Pioneer,puntReturnTDs,1
 St. Thomas (MN),Pioneer,puntReturnTDsOpponent,0
 St. Thomas (MN),Pioneer,puntReturnYards,152
 St. Thomas (MN),Pioneer,puntReturnYardsOpponent,51
-St. Thomas (MN),Pioneer,rushingAttempts,297
+St. Thomas (MN),Pioneer,rushingAttempts,299
 St. Thomas (MN),Pioneer,rushingAttemptsOpponent,277
 St. Thomas (MN),Pioneer,rushingTDs,21
 St. Thomas (MN),Pioneer,rushingTDsOpponent,10
-St. Thomas (MN),Pioneer,rushingYards,1608
+St. Thomas (MN),Pioneer,rushingYards,1604
 St. Thomas (MN),Pioneer,rushingYardsOpponent,1195
 St. Thomas (MN),Pioneer,sacks,14
 St. Thomas (MN),Pioneer,sacksOpponent,4
@@ -15223,7 +15223,7 @@ St. Thomas (MN),Pioneer,thirdDownConversions,46
 St. Thomas (MN),Pioneer,thirdDownConversionsOpponent,35
 St. Thomas (MN),Pioneer,thirdDowns,99
 St. Thomas (MN),Pioneer,thirdDownsOpponent,106
-St. Thomas (MN),Pioneer,totalYards,3528
+St. Thomas (MN),Pioneer,totalYards,3524
 St. Thomas (MN),Pioneer,totalYardsOpponent,3154
 St. Thomas (MN),Pioneer,turnovers,11
 St. Thomas (MN),Pioneer,turnoversOpponent,15
@@ -15313,7 +15313,7 @@ Tennessee State,OVC,kickReturnTDs,0
 Tennessee State,OVC,kickReturnTDsOpponent,0
 Tennessee State,OVC,kickReturnYards,392
 Tennessee State,OVC,kickReturnYardsOpponent,524
-Tennessee State,OVC,netPassingYards,1830
+Tennessee State,OVC,netPassingYards,1820
 Tennessee State,OVC,netPassingYardsOpponent,1978
 Tennessee State,OVC,passAttempts,281
 Tennessee State,OVC,passAttemptsOpponent,258
@@ -15322,7 +15322,7 @@ Tennessee State,OVC,passCompletionsOpponent,162
 Tennessee State,OVC,passesIntercepted,5
 Tennessee State,OVC,passesInterceptedOpponent,9
 Tennessee State,OVC,passingTDs,13
-Tennessee State,OVC,passingTDsOpponent,14
+Tennessee State,OVC,passingTDsOpponent,15
 Tennessee State,OVC,penalties,42
 Tennessee State,OVC,penaltiesOpponent,66
 Tennessee State,OVC,penaltyYards,329
@@ -15347,9 +15347,9 @@ Tennessee State,OVC,tacklesForLoss,25
 Tennessee State,OVC,tacklesForLossOpponent,57
 Tennessee State,OVC,thirdDownConversions,49
 Tennessee State,OVC,thirdDownConversionsOpponent,42
-Tennessee State,OVC,thirdDowns,123
+Tennessee State,OVC,thirdDowns,122
 Tennessee State,OVC,thirdDownsOpponent,102
-Tennessee State,OVC,totalYards,2319
+Tennessee State,OVC,totalYards,2309
 Tennessee State,OVC,totalYardsOpponent,3339
 Tennessee State,OVC,turnovers,13
 Tennessee State,OVC,turnoversOpponent,10
@@ -15466,7 +15466,7 @@ Texas Southern,SWAC,rushingAttemptsOpponent,251
 Texas Southern,SWAC,rushingTDs,13
 Texas Southern,SWAC,rushingTDsOpponent,17
 Texas Southern,SWAC,rushingYards,1201
-Texas Southern,SWAC,rushingYardsOpponent,1265
+Texas Southern,SWAC,rushingYardsOpponent,1269
 Texas Southern,SWAC,sacks,16
 Texas Southern,SWAC,sacksOpponent,23
 Texas Southern,SWAC,tacklesForLoss,44
@@ -15476,7 +15476,7 @@ Texas Southern,SWAC,thirdDownConversionsOpponent,40
 Texas Southern,SWAC,thirdDowns,102
 Texas Southern,SWAC,thirdDownsOpponent,92
 Texas Southern,SWAC,totalYards,2385
-Texas Southern,SWAC,totalYardsOpponent,2933
+Texas Southern,SWAC,totalYardsOpponent,2937
 Texas Southern,SWAC,turnovers,11
 Texas Southern,SWAC,turnoversOpponent,5
 The Citadel,Southern,firstDowns,122
@@ -15755,7 +15755,7 @@ Utah Tech,Big Sky,kickReturnTDsOpponent,2
 Utah Tech,Big Sky,kickReturnYards,153
 Utah Tech,Big Sky,kickReturnYardsOpponent,540
 Utah Tech,Big Sky,netPassingYards,1879
-Utah Tech,Big Sky,netPassingYardsOpponent,1861
+Utah Tech,Big Sky,netPassingYardsOpponent,1874
 Utah Tech,Big Sky,passAttempts,293
 Utah Tech,Big Sky,passAttemptsOpponent,221
 Utah Tech,Big Sky,passCompletions,160
@@ -15768,7 +15768,7 @@ Utah Tech,Big Sky,penalties,55
 Utah Tech,Big Sky,penaltiesOpponent,39
 Utah Tech,Big Sky,penaltyYards,462
 Utah Tech,Big Sky,penaltyYardsOpponent,363
-Utah Tech,Big Sky,possessionTime,13850
+Utah Tech,Big Sky,possessionTime,13859
 Utah Tech,Big Sky,possessionTimeOpponent,14941
 Utah Tech,Big Sky,puntReturns,5
 Utah Tech,Big Sky,puntReturnsOpponent,16
@@ -15780,7 +15780,7 @@ Utah Tech,Big Sky,rushingAttempts,237
 Utah Tech,Big Sky,rushingAttemptsOpponent,295
 Utah Tech,Big Sky,rushingTDs,10
 Utah Tech,Big Sky,rushingTDsOpponent,23
-Utah Tech,Big Sky,rushingYards,875
+Utah Tech,Big Sky,rushingYards,876
 Utah Tech,Big Sky,rushingYardsOpponent,1617
 Utah Tech,Big Sky,sacks,10
 Utah Tech,Big Sky,sacksOpponent,9
@@ -15790,8 +15790,8 @@ Utah Tech,Big Sky,thirdDownConversions,41
 Utah Tech,Big Sky,thirdDownConversionsOpponent,47
 Utah Tech,Big Sky,thirdDowns,116
 Utah Tech,Big Sky,thirdDownsOpponent,95
-Utah Tech,Big Sky,totalYards,2754
-Utah Tech,Big Sky,totalYardsOpponent,3478
+Utah Tech,Big Sky,totalYards,2755
+Utah Tech,Big Sky,totalYardsOpponent,3491
 Utah Tech,Big Sky,turnovers,15
 Utah Tech,Big Sky,turnoversOpponent,10
 UT Martin,OVC,firstDowns,141
@@ -15824,7 +15824,7 @@ UT Martin,OVC,passAttemptsOpponent,227
 UT Martin,OVC,passCompletions,133
 UT Martin,OVC,passCompletionsOpponent,138
 UT Martin,OVC,passesIntercepted,9
-UT Martin,OVC,passesInterceptedOpponent,9
+UT Martin,OVC,passesInterceptedOpponent,10
 UT Martin,OVC,passingTDs,4
 UT Martin,OVC,passingTDsOpponent,19
 UT Martin,OVC,penalties,53
@@ -15969,7 +15969,7 @@ Valparaiso,Pioneer,rushingAttempts,215
 Valparaiso,Pioneer,rushingAttemptsOpponent,276
 Valparaiso,Pioneer,rushingTDs,9
 Valparaiso,Pioneer,rushingTDsOpponent,11
-Valparaiso,Pioneer,rushingYards,628
+Valparaiso,Pioneer,rushingYards,630
 Valparaiso,Pioneer,rushingYardsOpponent,1400
 Valparaiso,Pioneer,sacks,19
 Valparaiso,Pioneer,sacksOpponent,13
@@ -15979,7 +15979,7 @@ Valparaiso,Pioneer,thirdDownConversions,34
 Valparaiso,Pioneer,thirdDownConversionsOpponent,29
 Valparaiso,Pioneer,thirdDowns,99
 Valparaiso,Pioneer,thirdDownsOpponent,94
-Valparaiso,Pioneer,totalYards,2118
+Valparaiso,Pioneer,totalYards,2120
 Valparaiso,Pioneer,totalYardsOpponent,2653
 Valparaiso,Pioneer,turnovers,8
 Valparaiso,Pioneer,turnoversOpponent,13
@@ -16123,7 +16123,7 @@ Wagner,NEC,games,8
 Wagner,NEC,interceptions,4
 Wagner,NEC,interceptionsOpponent,5
 Wagner,NEC,interceptionTDs,2
-Wagner,NEC,interceptionTDsOpponent,1
+Wagner,NEC,interceptionTDsOpponent,0
 Wagner,NEC,interceptionYards,161
 Wagner,NEC,interceptionYardsOpponent,40
 Wagner,NEC,kickReturns,18
@@ -16147,7 +16147,7 @@ Wagner,NEC,penaltiesOpponent,54
 Wagner,NEC,penaltyYards,442
 Wagner,NEC,penaltyYardsOpponent,481
 Wagner,NEC,possessionTime,14546
-Wagner,NEC,possessionTimeOpponent,14178
+Wagner,NEC,possessionTimeOpponent,14254
 Wagner,NEC,puntReturns,9
 Wagner,NEC,puntReturnsOpponent,20
 Wagner,NEC,puntReturnTDs,0
@@ -16155,11 +16155,11 @@ Wagner,NEC,puntReturnTDsOpponent,4
 Wagner,NEC,puntReturnYards,57
 Wagner,NEC,puntReturnYardsOpponent,259
 Wagner,NEC,rushingAttempts,249
-Wagner,NEC,rushingAttemptsOpponent,285
+Wagner,NEC,rushingAttemptsOpponent,287
 Wagner,NEC,rushingTDs,2
 Wagner,NEC,rushingTDsOpponent,19
 Wagner,NEC,rushingYards,627
-Wagner,NEC,rushingYardsOpponent,1396
+Wagner,NEC,rushingYardsOpponent,1394
 Wagner,NEC,sacks,9
 Wagner,NEC,sacksOpponent,22
 Wagner,NEC,tacklesForLoss,37
@@ -16169,7 +16169,7 @@ Wagner,NEC,thirdDownConversionsOpponent,38
 Wagner,NEC,thirdDowns,117
 Wagner,NEC,thirdDownsOpponent,94
 Wagner,NEC,totalYards,2115
-Wagner,NEC,totalYardsOpponent,3148
+Wagner,NEC,totalYardsOpponent,3146
 Wagner,NEC,turnovers,13
 Wagner,NEC,turnoversOpponent,10
 Weber State,Big Sky,firstDowns,196
@@ -16327,7 +16327,7 @@ Western Illinois,OVC,passAttempts,261
 Western Illinois,OVC,passAttemptsOpponent,243
 Western Illinois,OVC,passCompletions,161
 Western Illinois,OVC,passCompletionsOpponent,124
-Western Illinois,OVC,passesIntercepted,8
+Western Illinois,OVC,passesIntercepted,9
 Western Illinois,OVC,passesInterceptedOpponent,6
 Western Illinois,OVC,passingTDs,13
 Western Illinois,OVC,passingTDsOpponent,8

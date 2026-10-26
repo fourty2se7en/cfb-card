@@ -199,3 +199,5 @@ run_utc,mode,season,week,group,games,priced,hours_to_first_kick
 2026-10-25T17:26+00:00,rebuild,2026,9,FCS,58,0,101.6
 2026-10-25T18:31+00:00,refresh,2026,9,FBS,56,56,52.5
 2026-10-25T18:31+00:00,refresh,2026,9,FCS,58,0,100.5
+2026-10-26T15:13+00:00,grade,2026,9,FBS,56,56,31.8
+2026-10-26T15:13+00:00,grade,2026,9,FCS,58,0,79.8
