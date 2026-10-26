@@ -92,8 +92,8 @@ Colorado,-6.03,3.4,-2.38,731.62,-4.3,22.7,26.5,26.4,0.137,,Big 12,fbs,90
 Miami (OH),-6.13,-3.1,4.01,621.37,-4.2,23.0,27.3,31.9,0.139,,Mid-American,fbs,91
 Georgia State,-6.19,-5.9,6.75,573.83,-9.2,26.3,35.3,131.7,0.465,,Sun Belt,fbs,92
 Arkansas State,-6.24,-3.99,4.79,606.22,-7.0,25.4,32.2,73.9,0.3,,Sun Belt,fbs,93
-Jacksonville State,-6.41,-4.19,4.82,602.83,-2.6,25.5,28.1,133.7,0.495,,Conference USA,fbs,94
 App State,-6.41,-3.08,3.71,621.61,-4.9,24.2,29.5,107.7,0.379,,Sun Belt,fbs,94
+Jacksonville State,-6.41,-4.19,4.82,602.83,-2.6,25.5,28.1,133.7,0.495,,Conference USA,fbs,94
 South Alabama,-6.49,-5.92,6.47,573.38,-11.5,26.5,37.5,180.8,0.786,,Sun Belt,fbs,96
 Florida International,-6.68,-3.91,4.27,607.56,-7.9,17.9,25.4,75.2,0.316,,Conference USA,fbs,97
 Maryland,-6.83,2.69,-2.48,719.64,-2.1,26.6,28.7,112.3,0.54,,Big Ten,fbs,98
@@ -162,8 +162,8 @@ Mercer,-22.58,0.0,6.02,,,,,,,0.1518,Southern,fcs,160
 Dayton,-22.65,0.0,5.96,,,,,,,0.8804,Pioneer,fcs,161
 Monmouth,-23.57,0.0,5.03,,,,,,,0.2897,Coastal Athletic,fcs,162
 Idaho State,-24.21,0.0,4.39,,,,,,,0.6907,Big Sky,fcs,163
-Lamar,-24.23,0.0,4.38,,,,,,,0.5417,Southland,fcs,164
 Abilene Christian,-24.23,0.0,4.37,,,,,,,0.1686,UAC,fcs,164
+Lamar,-24.23,0.0,4.38,,,,,,,0.5417,Southland,fcs,164
 Western Illinois,-24.33,0.0,4.27,,,,,,,0.4002,OVC-Big South,fcs,166
 UAlbany,-24.51,0.0,4.09,,,,,,,0.1429,Coastal Athletic,fcs,167
 Alcorn State,-24.64,0.0,3.97,,,,,,,0.4211,SWAC,fcs,168
