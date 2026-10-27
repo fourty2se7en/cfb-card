@@ -1,5 +1,5 @@
 {
- "saved": "2026-10-27T14:34+00:00",
+ "saved": "2026-10-27T18:32+00:00",
  "notes": {
   "Ohio State@Texas": {
    "notable": [
@@ -4118,6 +4118,672 @@
      "side": "over",
      "line": 45.5
     }
+   ]
+  },
+  "Delaware@Western Kentucky": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Western Kentucky +2.5",
+     "market": "spread",
+     "side": "Western Kentucky",
+     "line": 2.5
+    },
+    {
+     "name": "Doug Ziefel (Action Network)",
+     "record": "430-423-10 (last 30d)",
+     "pick": "Western Kentucky -109",
+     "market": "moneyline",
+     "side": "Western Kentucky"
+    },
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "Under 57.5",
+     "market": "total",
+     "side": "under",
+     "line": 57.5
+    },
+    {
+     "name": "Scott Rickenbach (Action Network)",
+     "record": "94-94-2 (last 30d)",
+     "pick": "Delaware +1.5",
+     "market": "spread",
+     "side": "Delaware",
+     "line": 1.5
+    }
+   ],
+   "notable": [
+    "Delaware was favoured at both sources checked when the market opened (Delaware -1.5 at DraftKings late Oct 24, Delaware -2.5 on Action Network's opening line) and Western Kentucky is now favoured, so the side has flipped; the two openers disagree, so no opening number is asserted"
+   ]
+  },
+  "Sam Houston@Missouri State": {
+   "experts": [
+    {
+     "name": "Scott Rickenbach (Action Network)",
+     "record": "94-94-2 (last 30d)",
+     "pick": "Missouri State -5.5",
+     "market": "spread",
+     "side": "Missouri State",
+     "line": -5.5
+    }
+   ]
+  },
+  "Kennesaw State@Middle Tennessee": {
+   "experts": [
+    {
+     "name": "Jeremiah Rose (Action Network)",
+     "record": "53-61-3 (last 30d)",
+     "pick": "Middle Tennessee -2.5",
+     "market": "spread",
+     "side": "Middle Tennessee",
+     "line": -2.5
+    },
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "Kennesaw State +3",
+     "market": "spread",
+     "side": "Kennesaw State",
+     "line": 3
+    }
+   ]
+  },
+  "Florida Atlantic@North Texas": {
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Florida Atlantic +14",
+     "market": "spread",
+     "side": "Florida Atlantic",
+     "line": 14
+    }
+   ]
+  },
+  "Tulane@Charlotte": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Under 48.5",
+     "market": "total",
+     "side": "under",
+     "line": 48.5
+    },
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Tulane -10",
+     "market": "spread",
+     "side": "Tulane",
+     "line": -10
+    },
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "Charlotte +10.5",
+     "market": "spread",
+     "side": "Charlotte",
+     "line": 10.5
+    }
+   ]
+  },
+  "Baylor@UCF": {
+   "experts": [
+    {
+     "name": "Doug Ziefel (Action Network)",
+     "record": "430-423-10 (last 30d)",
+     "pick": "Baylor -111",
+     "market": "moneyline",
+     "side": "Baylor"
+    },
+    {
+     "name": "Brandon Kravitz (Action Network)",
+     "record": "59-60-2 (last 30d)",
+     "pick": "Baylor +2.5",
+     "market": "spread",
+     "side": "Baylor",
+     "line": 2.5
+    }
+   ]
+  },
+  "Kent State@Sacramento State": {
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Sacramento State +10.5",
+     "market": "spread",
+     "side": "Sacramento State",
+     "line": 10.5
+    }
+   ]
+  },
+  "SMU@Syracuse": {
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "SMU -8.5",
+     "market": "spread",
+     "side": "SMU",
+     "line": -8.5
+    },
+    {
+     "name": "Doug Ziefel (Action Network)",
+     "record": "430-423-10 (last 30d)",
+     "pick": "SMU -9.5",
+     "market": "spread",
+     "side": "SMU",
+     "line": -9.5
+    },
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "Under 58.5",
+     "market": "total",
+     "side": "under",
+     "line": 58.5
+    }
+   ],
+   "injuries": [
+    "SMU S T. Polley Jr. is listed out with a pectoral injury on Covers' injury table as of Oct 20; unconfirmed by the school"
+   ]
+  },
+  "Boston College@Duke": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Duke -7",
+     "market": "spread",
+     "side": "Duke",
+     "line": -7
+    },
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Duke -6.5",
+     "market": "spread",
+     "side": "Duke",
+     "line": -6.5
+    }
+   ]
+  },
+  "Notre Dame@Navy": {
+   "experts": [
+    {
+     "name": "Ryan Minion (Action Network)",
+     "record": "234-231-3 (last 30d)",
+     "pick": "Notre Dame -30.5",
+     "market": "spread",
+     "side": "Notre Dame",
+     "line": -30.5
+    }
+   ]
+  },
+  "Wisconsin@Iowa": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Wisconsin +3.5",
+     "market": "spread",
+     "side": "Wisconsin",
+     "line": 3.5
+    },
+    {
+     "name": "Mike McNamara (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Wisconsin +3.5",
+     "market": "spread",
+     "side": "Wisconsin",
+     "line": 3.5
+    }
+   ],
+   "injuries": [
+    "Wisconsin QB D. O'Neil is listed out with a lower-body injury on Covers' injury table as of Oct 18; unconfirmed by the school"
+   ]
+  },
+  "Bowling Green@Western Michigan": {
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Western Michigan -13",
+     "market": "spread",
+     "side": "Western Michigan",
+     "line": -13
+    }
+   ]
+  },
+  "Illinois@Maryland": {
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Illinois -2.5",
+     "market": "spread",
+     "side": "Illinois",
+     "line": -2.5
+    }
+   ]
+  },
+  "Arizona@Texas Tech": {
+   "experts": [
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "Under 55",
+     "market": "total",
+     "side": "under",
+     "line": 55
+    }
+   ],
+   "notable": [
+    "Both sources checked have Texas Tech opening at -7.5, Action Network's opening line and SportsBettingDime (Brady Trettenero, Oct 25) describing the earlier board, before the number moved to -4.5 and then to the current -3; the two disagree on the opening total, so no movement line is written"
+   ]
+  },
+  "Marshall@Old Dominion": {
+   "experts": [
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "Marshall -3",
+     "market": "spread",
+     "side": "Marshall",
+     "line": -3
+    }
+   ]
+  },
+  "Kansas State@Colorado": {
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Kansas State -2",
+     "market": "spread",
+     "side": "Kansas State",
+     "line": -2
+    }
+   ]
+  },
+  "Louisiana Tech@South Alabama": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Over 56.5",
+     "market": "total",
+     "side": "over",
+     "line": 56.5
+    },
+    {
+     "name": "John Feltman (Action Network)",
+     "record": "93-55-1 (last 30d)",
+     "pick": "Over 58",
+     "market": "total",
+     "side": "over",
+     "line": 58
+    }
+   ]
+  },
+  "Temple@East Carolina": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "East Carolina -5.5",
+     "market": "spread",
+     "side": "East Carolina",
+     "line": -5.5
+    }
+   ]
+  },
+  "Stanford@Louisville": {
+   "experts": [
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "Stanford +22.5",
+     "market": "spread",
+     "side": "Stanford",
+     "line": 22.5
+    }
+   ]
+  },
+  "Florida International@Liberty": {
+   "experts": [
+    {
+     "name": "John Feltman (Action Network)",
+     "record": "93-55-1 (last 30d)",
+     "pick": "Florida International +14",
+     "market": "spread",
+     "side": "Florida International",
+     "line": 14
+    }
+   ],
+   "movement": [
+    "Spread: open Liberty -11.5, now Liberty -14. Total: open 44.5, now 45.5. Moneyline: Liberty now -600, opener not confirmed."
+   ]
+  },
+  "Southern Miss@UL Monroe": {
+   "experts": [
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "Southern Miss -3.5",
+     "market": "spread",
+     "side": "Southern Miss",
+     "line": -3.5
+    }
+   ]
+  },
+  "Colorado State@Utah State": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Under 64.5",
+     "market": "total",
+     "side": "under",
+     "line": 64.5
+    }
+   ]
+  },
+  "Florida@Georgia": {
+   "experts": [
+    {
+     "name": "Doug Ziefel (Action Network)",
+     "record": "430-423-10 (last 30d)",
+     "pick": "Georgia -11.5",
+     "market": "spread",
+     "side": "Georgia",
+     "line": -11.5
+    },
+    {
+     "name": "Brandon Kravitz (Action Network)",
+     "record": "59-60-2 (last 30d)",
+     "pick": "Florida +11.5",
+     "market": "spread",
+     "side": "Florida",
+     "line": 11.5
+    }
+   ]
+  },
+  "Northwestern@Oregon": {
+   "experts": [
+    {
+     "name": "Ryan Minion (Action Network)",
+     "record": "234-231-3 (last 30d)",
+     "pick": "Oregon -2.5",
+     "market": "spread",
+     "side": "Oregon",
+     "line": -2.5
+    },
+    {
+     "name": "Mike Calabrese (Action Network)",
+     "record": "33-52-0 (last 30d)",
+     "pick": "Northwestern +3.5",
+     "market": "spread",
+     "side": "Northwestern",
+     "line": 3.5
+    }
+   ],
+   "injuries": [
+    "Oregon QB Dante Moore will not return this season from the concussion he suffered at USC in late September, Dan Lanning said on Oct 26, with Dylan Raiola and Brock Thomas having started the past three games"
+   ],
+   "coaching": [
+    "Oregon dismissed offensive coordinator Drew Mehringer on Oct 25 and assistant Jay Johnson will coordinate the offence from this game on"
+   ],
+   "log": {
+    "qb_out": "home",
+    "starters_out": 1,
+    "confidence": "confirmed"
+   }
+  },
+  "Minnesota@Indiana": {
+   "experts": [
+    {
+     "name": "Mike McNamara (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Indiana -19.5",
+     "market": "spread",
+     "side": "Indiana",
+     "line": -19.5
+    },
+    {
+     "name": "John Feltman (Action Network)",
+     "record": "93-55-1 (last 30d)",
+     "pick": "Indiana -18.5",
+     "market": "spread",
+     "side": "Indiana",
+     "line": -18.5
+    }
+   ]
+  },
+  "Virginia@Wake Forest": {
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Virginia +14",
+     "market": "spread",
+     "side": "Virginia",
+     "line": 14
+    }
+   ],
+   "injuries": [
+    "Virginia S E. Minter and WR R. Flores Jr. are both listed out on Covers' injury table as of Oct 20-21; unconfirmed by the school"
+   ],
+   "movement": [
+    "Spread: open Wake Forest -13.5, now Wake Forest -14. Total: open 49.5, unchanged. Moneyline: Wake Forest open -500, now -625."
+   ]
+  },
+  "New Mexico@San Jos\u00e9 State": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Over 41.5",
+     "market": "total",
+     "side": "over",
+     "line": 41.5
+    },
+    {
+     "name": "Sandy Plashkes (Action Network)",
+     "record": "112-111-4 (last 30d)",
+     "pick": "New Mexico -14.5",
+     "market": "spread",
+     "side": "New Mexico",
+     "line": -14.5
+    }
+   ],
+   "movement": [
+    "Spread: open New Mexico -14.5, unchanged. Total: open 41.5, now 42. Moneyline: New Mexico now -675, opener not confirmed."
+   ]
+  },
+  "Nevada@UCLA": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "UCLA -22.5",
+     "market": "spread",
+     "side": "UCLA",
+     "line": -22.5
+    }
+   ]
+  },
+  "South Carolina@Oklahoma": {
+   "experts": [
+    {
+     "name": "Doug Ziefel (Action Network)",
+     "record": "430-423-10 (last 30d)",
+     "pick": "Oklahoma -4.5",
+     "market": "spread",
+     "side": "Oklahoma",
+     "line": -4.5
+    }
+   ]
+  },
+  "Washington State@San Diego State": {
+   "experts": [
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "San Diego State -1.5",
+     "market": "spread",
+     "side": "San Diego State",
+     "line": -1.5
+    }
+   ]
+  },
+  "Mississippi State@Texas": {
+   "experts": [
+    {
+     "name": "Ryan Minion (Action Network)",
+     "record": "234-231-3 (last 30d)",
+     "pick": "Mississippi State +21",
+     "market": "spread",
+     "side": "Mississippi State",
+     "line": 21
+    }
+   ],
+   "injuries": [
+    "Mississippi State QB Kamario Taylor will miss the rest of the season with a foot injury that requires surgery, per a university statement on Oct 27, with freshman Billy Puckett expected to stay in the job"
+   ],
+   "movement": [
+    "Spread: open Texas -20.5, now Texas -21. Total: open 50.5, unchanged. Moneyline: Texas open -1350, now -1600."
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 1,
+    "confidence": "confirmed"
+   }
+  },
+  "Miami@North Carolina": {
+   "experts": [
+    {
+     "name": "Mike McNamara (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "North Carolina +15",
+     "market": "spread",
+     "side": "North Carolina",
+     "line": 15
+    },
+    {
+     "name": "Kody Malstrom (Action Network)",
+     "record": "66-50-2 (last 30d)",
+     "pick": "Miami -14",
+     "market": "spread",
+     "side": "Miami",
+     "line": -14
+    },
+    {
+     "name": "Brandon Kravitz (Action Network)",
+     "record": "59-60-2 (last 30d)",
+     "pick": "Miami -14.5",
+     "market": "spread",
+     "side": "Miami",
+     "line": -14.5
+    },
+    {
+     "name": "John Feltman (Action Network)",
+     "record": "93-55-1 (last 30d)",
+     "pick": "North Carolina +15",
+     "market": "spread",
+     "side": "North Carolina",
+     "line": 15
+    }
+   ],
+   "injuries": [
+    "North Carolina RB D. McCoy and TE S. Brown are both listed out on Covers' injury table as of Oct 21; unconfirmed by the school"
+   ]
+  },
+  "Ohio State@USC": {
+   "experts": [
+    {
+     "name": "Mike McNamara (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "USC +7",
+     "market": "spread",
+     "side": "USC",
+     "line": 7
+    },
+    {
+     "name": "John Feltman (Action Network)",
+     "record": "93-55-1 (last 30d)",
+     "pick": "USC +7",
+     "market": "spread",
+     "side": "USC",
+     "line": 7
+    }
+   ],
+   "injuries": [
+    "Ohio State QB Julian Sayin is out indefinitely and potentially for the season, and Ryan Day had not chosen between Luke Fahey and Tavien St. Clair as of Oct 26, so whichever one starts will be making his first career start",
+    "Ohio State RB Ja'Kobi Jackson remains out after Lisfranc surgery and is hoping to return late in the regular season"
+   ],
+   "returning": [
+    "Ohio State OL Austin Siereveld is expected back after missing two games with illness, with Ryan Day saying on Oct 26 the Buckeyes should have a full arsenal up front"
+   ],
+   "notable": [
+    "Ryan Day said on Oct 26 he expects the majority, but not necessarily all, of Kenyatta Jackson Jr., Jay Timmons and John Walker back from the injuries they suffered at Indiana",
+    "Ohio State's first official injury report of the week is not released until 8 pm Wednesday, after this update was written"
+   ],
+   "log": {
+    "qb_out": "away",
+    "starters_out": 1,
+    "confidence": "confirmed"
+   }
+  },
+  "Missouri@Arkansas": {
+   "experts": [
+    {
+     "name": "Collin Wilson (Action Network)",
+     "record": "75-62-2 (last 30d)",
+     "pick": "Arkansas +10.5",
+     "market": "spread",
+     "side": "Arkansas",
+     "line": 10.5
+    }
+   ]
+  },
+  "Oregon State@Fresno State": {
+   "experts": [
+    {
+     "name": "Ryan Minion (Action Network)",
+     "record": "234-231-3 (last 30d)",
+     "pick": "Oregon State -5.5",
+     "market": "spread",
+     "side": "Oregon State",
+     "line": -5.5
+    }
+   ]
+  },
+  "Michigan@Rutgers": {
+   "injuries": [
+    "Rutgers CB K. Sanders is listed out on Covers' injury table as of Oct 20; unconfirmed by the school"
+   ],
+   "movement": [
+    "Spread: open Michigan -14, unchanged. Total: open 47.5, now 46.5. Moneyline: Michigan open -625, unchanged."
+   ]
+  },
+  "UConn@Air Force": {
+   "movement": [
+    "Spread: open Air Force -3, now Air Force -2.5. Total: open 55.5, now 53.5. Moneyline: Air Force open -155, now -145."
+   ]
+  },
+  "App State@Georgia Southern": {
+   "movement": [
+    "Spread: open Georgia Southern -3.5, now Georgia Southern -5.5. Total: open 54.5, unchanged. Moneyline: Georgia Southern open -162, now -205."
+   ]
+  },
+  "Kansas@TCU": {
+   "movement": [
+    "Spread: open TCU -4.5, now TCU -6. Total: open 48.5, now 46.5. Moneyline: TCU now -230, opener not confirmed."
    ]
   }
  }

@@ -821,3 +821,6 @@ written_utc,season,week,away,home,qb_out,starters_out,confidence,spread_open,spr
 2026-10-25T13:13:51.976526+00:00,2026,9,Texas State,Boise State,,,,,,,,12.669
 2026-10-25T13:13:51.976526+00:00,2026,9,Northern Illinois,UNLV,,,,,,,,25.999000000000002
 2026-10-25T13:13:51.976526+00:00,2026,9,Oregon State,Fresno State,,,,-7.0,-6.75,56.5,56.5,-2.391
+2026-10-27T18:32:45.460593+00:00,2026,9,Northwestern,Oregon,home,1,confirmed,5.5,3.5,50.25,47.5,7.899000000000001
+2026-10-27T18:32:45.460593+00:00,2026,9,Ohio State,USC,away,1,confirmed,-7.25,-6.5,52.75,51.5,-9.391
+2026-10-27T18:32:45.460593+00:00,2026,9,Mississippi State,Texas,away,1,confirmed,20.75,20.0,50.5,50.5,16.439
