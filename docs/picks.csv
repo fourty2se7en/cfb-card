@@ -2207,7 +2207,7 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,9,Southern Miss,UL Monroe,moneyline,moneyline_fav,AVOID,D,Southern Miss,-135.0,consensus,2026-10-25T17:26:58.986376+00:00,,,-135.0,2026-10-25T17:26:58.986376+00:00
 2026,9,Southern Miss,UL Monroe,total,total_model,AVOID,D,over,52.5,consensus,2026-10-25T17:26:58.986376+00:00,,,54.2,2026-10-26T20:39:45.741575+00:00
 2026,9,UTEP,North Dakota State,spread,model_gap_late,AVOID,D,UTEP,26.5,consensus,2026-10-25T17:26:58.986376+00:00,,,24.5,2026-10-26T20:39:45.741575+00:00
-2026,9,UTEP,North Dakota State,moneyline,moneyline_dog,PASS,D,UTEP,1800.0,consensus,2026-10-25T17:26:58.986376+00:00,,,1225.0,2026-10-27T18:32:45.460593+00:00
+2026,9,UTEP,North Dakota State,moneyline,moneyline_dog,PASS,D,UTEP,1800.0,consensus,2026-10-25T17:26:58.986376+00:00,,,1200.0,2026-10-27T20:10:07.465912+00:00
 2026,9,UTEP,North Dakota State,total,total_model,AVOID,D,over,47.0,consensus,2026-10-25T17:26:58.986376+00:00,,,43.5,2026-10-26T20:39:45.741575+00:00
 2026,9,Virginia,Wake Forest,moneyline,moneyline_dog,PASS,D,Virginia,417.0,consensus,2026-10-25T17:26:58.986376+00:00,,,400.0,2026-10-27T18:32:45.460593+00:00
 2026,9,New Mexico,San José State,spread,model_gap_late,AVOID,D,San José State,14.5,consensus,2026-10-25T17:26:58.986376+00:00,,,14.5,2026-10-25T17:26:58.986376+00:00
