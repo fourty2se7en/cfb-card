@@ -2427,125 +2427,125 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,9,UConn,Air Force,price,price_gap,LEAN,D,Air Force,1.0,Bovada,2026-10-31T14:33:44.468223+00:00,win,2026-11-01T15:13:53.519549+00:00,1.0,2026-10-31T14:33:44.468223+00:00
 2026,9,Grambling,Texas Southern,moneyline,moneyline_fav,AVOID,D,Grambling,-190.0,consensus,2026-10-31T19:25:48.165940+00:00,loss,2026-11-01T15:13:53.519549+00:00,-190.0,2026-10-31T19:25:48.165940+00:00
 2026,10,Ohio,Akron,spread,model_gap_late,AVOID,D,Akron,12.5,consensus,2026-11-01T15:13:53.519549+00:00,,,12.5,2026-11-01T15:13:53.519549+00:00
-2026,10,Ohio,Akron,moneyline,moneyline_dog,PASS,D,Akron,367.0,consensus,2026-11-01T15:13:53.519549+00:00,,,395.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Ohio,Akron,total,total_model,AVOID,D,over,49.0,consensus,2026-11-01T15:13:53.519549+00:00,,,48.8,2026-11-01T19:51:05.494610+00:00
+2026,10,Ohio,Akron,moneyline,moneyline_dog,PASS,D,Akron,367.0,consensus,2026-11-01T15:13:53.519549+00:00,,,400.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Ohio,Akron,total,total_model,AVOID,D,over,49.0,consensus,2026-11-01T15:13:53.519549+00:00,,,49.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Buffalo,Miami (OH),spread,model_gap_late,AVOID,D,Miami (OH),-6.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-6.5,2026-11-01T15:13:53.519549+00:00
-2026,10,Buffalo,Miami (OH),moneyline,moneyline_fav,AVOID,D,Miami (OH),-225.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-251.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Buffalo,Miami (OH),moneyline,moneyline_fav,AVOID,D,Miami (OH),-225.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-260.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Buffalo,Miami (OH),total,total_model,AVOID,D,over,45.0,consensus,2026-11-01T15:13:53.519549+00:00,,,44.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Toledo,Sacramento State,spread,model_gap_late,AVOID,D,Toledo,-27.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-27.5,2026-11-01T15:13:53.519549+00:00
-2026,10,Toledo,Sacramento State,moneyline,moneyline_fav,AVOID,D,Toledo,-4500.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-4500.0,2026-11-01T15:13:53.519549+00:00
-2026,10,Toledo,Sacramento State,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T15:13:53.519549+00:00,,,51.5,2026-11-01T15:13:53.519549+00:00
+2026,10,Toledo,Sacramento State,moneyline,moneyline_fav,AVOID,D,Toledo,-4500.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-2900.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Toledo,Sacramento State,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T15:13:53.519549+00:00,,,52.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Ball State,Massachusetts,spread,model_gap_late,AVOID,D,Massachusetts,-4.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-3.5,2026-11-01T19:51:05.494610+00:00
-2026,10,Ball State,Massachusetts,moneyline,moneyline_fav,AVOID,D,Massachusetts,-175.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-172.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Ball State,Massachusetts,moneyline,moneyline_fav,AVOID,D,Massachusetts,-175.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-166.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Ball State,Massachusetts,total,total_model,AVOID,D,over,48.5,consensus,2026-11-01T15:13:53.519549+00:00,,,48.5,2026-11-01T15:13:53.519549+00:00
 2026,10,Central Michigan,Eastern Michigan,spread,model_gap_late,AVOID,D,Central Michigan,2.0,consensus,2026-11-01T15:13:53.519549+00:00,,,1.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Central Michigan,Eastern Michigan,moneyline,moneyline_dog,PASS,D,Central Michigan,108.0,consensus,2026-11-01T15:13:53.519549+00:00,,,105.0,2026-11-01T18:46:05.296473+00:00
 2026,10,Central Michigan,Eastern Michigan,total,total_model,AVOID,D,under,46.0,consensus,2026-11-01T15:13:53.519549+00:00,,,44.5,2026-11-01T18:46:05.296473+00:00
-2026,10,UTSA,Florida Atlantic,spread,model_gap_late,AVOID,D,Florida Atlantic,6.5,consensus,2026-11-01T15:13:53.519549+00:00,,,6.5,2026-11-01T15:13:53.519549+00:00
-2026,10,UTSA,Florida Atlantic,moneyline,moneyline_dog,PASS,D,Florida Atlantic,200.0,consensus,2026-11-01T15:13:53.519549+00:00,,,190.0,2026-11-01T18:46:05.296473+00:00
-2026,10,UTSA,Florida Atlantic,total,total_model,AVOID,D,under,71.5,consensus,2026-11-01T15:13:53.519549+00:00,,,73.0,2026-11-01T18:46:05.296473+00:00
+2026,10,UTSA,Florida Atlantic,spread,model_gap_late,AVOID,D,Florida Atlantic,6.5,consensus,2026-11-01T15:13:53.519549+00:00,,,6.8,2026-11-02T18:25:54.919445+00:00
+2026,10,UTSA,Florida Atlantic,moneyline,moneyline_dog,PASS,D,Florida Atlantic,200.0,consensus,2026-11-01T15:13:53.519549+00:00,,,210.0,2026-11-02T18:25:54.919445+00:00
+2026,10,UTSA,Florida Atlantic,total,total_model,AVOID,D,under,71.5,consensus,2026-11-01T15:13:53.519549+00:00,,,72.8,2026-11-02T18:25:54.919445+00:00
 2026,10,James Madison,Southern Miss,spread,model_gap_late,AVOID,D,Southern Miss,14.0,consensus,2026-11-01T15:13:53.519549+00:00,,,14.5,2026-11-01T18:46:05.296473+00:00
-2026,10,James Madison,Southern Miss,moneyline,moneyline_dog,PASS,D,Southern Miss,390.0,consensus,2026-11-01T15:13:53.519549+00:00,,,440.0,2026-11-01T18:46:05.296473+00:00
-2026,10,James Madison,Southern Miss,total,total_model,AVOID,D,over,55.5,consensus,2026-11-01T15:13:53.519549+00:00,,,55.5,2026-11-01T15:13:53.519549+00:00
+2026,10,James Madison,Southern Miss,moneyline,moneyline_dog,PASS,D,Southern Miss,390.0,consensus,2026-11-01T15:13:53.519549+00:00,,,472.0,2026-11-02T18:25:54.919445+00:00
+2026,10,James Madison,Southern Miss,total,total_model,AVOID,D,over,55.5,consensus,2026-11-01T15:13:53.519549+00:00,,,58.2,2026-11-02T18:25:54.919445+00:00
 2026,10,Virginia Tech,SMU,spread,model_gap_late,AVOID,D,SMU,-6.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-6.5,2026-11-01T15:13:53.519549+00:00
-2026,10,Virginia Tech,SMU,moneyline,moneyline_fav,AVOID,D,SMU,-205.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-215.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Virginia Tech,SMU,total,total_model,AVOID,D,under,56.5,consensus,2026-11-01T15:13:53.519549+00:00,,,56.5,2026-11-01T15:13:53.519549+00:00
-2026,10,South Florida,East Carolina,spread,model_gap_late,AVOID,D,South Florida,-1.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-1.5,2026-11-01T15:13:53.519549+00:00
-2026,10,South Florida,East Carolina,total,total_model,AVOID,D,over,45.5,consensus,2026-11-01T15:13:53.519549+00:00,,,42.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Nebraska,Illinois,spread,model_gap_late,AVOID,D,Illinois,6.0,consensus,2026-11-01T15:13:53.519549+00:00,,,5.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Nebraska,Illinois,moneyline,moneyline_dog,PASS,C,Illinois,170.0,consensus,2026-11-01T15:13:53.519549+00:00,,,172.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Nebraska,Illinois,total,total_model,AVOID,D,under,48.5,consensus,2026-11-01T15:13:53.519549+00:00,,,48.5,2026-11-01T15:13:53.519549+00:00
+2026,10,Virginia Tech,SMU,moneyline,moneyline_fav,AVOID,D,SMU,-205.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-227.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Virginia Tech,SMU,total,total_model,AVOID,D,under,56.5,consensus,2026-11-01T15:13:53.519549+00:00,,,55.5,2026-11-02T18:25:54.919445+00:00
+2026,10,South Florida,East Carolina,spread,model_gap_late,AVOID,D,South Florida,-1.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-1.0,2026-11-02T18:25:54.919445+00:00
+2026,10,South Florida,East Carolina,total,total_model,AVOID,D,over,45.5,consensus,2026-11-01T15:13:53.519549+00:00,,,41.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Nebraska,Illinois,spread,model_gap_late,AVOID,D,Illinois,6.0,consensus,2026-11-01T15:13:53.519549+00:00,,,5.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Nebraska,Illinois,moneyline,moneyline_dog,PASS,C,Illinois,170.0,consensus,2026-11-01T15:13:53.519549+00:00,,,169.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Nebraska,Illinois,total,total_model,AVOID,D,under,48.5,consensus,2026-11-01T15:13:53.519549+00:00,,,49.0,2026-11-02T18:25:54.919445+00:00
 2026,10,New Mexico,Nevada,spread,model_gap_late,AVOID,D,Nevada,12.5,consensus,2026-11-01T15:13:53.519549+00:00,,,11.5,2026-11-01T19:51:05.494610+00:00
-2026,10,New Mexico,Nevada,moneyline,moneyline_dog,PASS,D,Nevada,350.0,consensus,2026-11-01T15:13:53.519549+00:00,,,420.0,2026-11-01T18:46:05.296473+00:00
+2026,10,New Mexico,Nevada,moneyline,moneyline_dog,PASS,D,Nevada,350.0,consensus,2026-11-01T15:13:53.519549+00:00,,,365.0,2026-11-02T18:25:54.919445+00:00
 2026,10,New Mexico,Nevada,total,total_model,AVOID,D,over,43.5,consensus,2026-11-01T15:13:53.519549+00:00,,,40.5,2026-11-01T18:46:05.296473+00:00
-2026,10,TCU,Arizona,spread,model_gap_late,AVOID,D,Arizona,-8.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-8.5,2026-11-01T15:13:53.519549+00:00
-2026,10,TCU,Arizona,moneyline,moneyline_fav,AVOID,D,Arizona,-345.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-325.0,2026-11-01T18:46:05.296473+00:00
-2026,10,TCU,Arizona,total,total_model,AVOID,D,under,44.5,consensus,2026-11-01T15:13:53.519549+00:00,,,44.5,2026-11-01T15:13:53.519549+00:00
+2026,10,TCU,Arizona,spread,model_gap_late,AVOID,D,Arizona,-8.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-9.0,2026-11-02T18:25:54.919445+00:00
+2026,10,TCU,Arizona,moneyline,moneyline_fav,AVOID,D,Arizona,-345.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-352.0,2026-11-02T18:25:54.919445+00:00
+2026,10,TCU,Arizona,total,total_model,AVOID,D,under,44.5,consensus,2026-11-01T15:13:53.519549+00:00,,,44.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Michigan State,Michigan,spread,model_gap_late,AVOID,D,Michigan State,14.0,consensus,2026-11-01T15:13:53.519549+00:00,,,14.0,2026-11-01T15:13:53.519549+00:00
-2026,10,Michigan State,Michigan,moneyline,moneyline_dog,PASS,D,Michigan State,490.0,consensus,2026-11-01T15:13:53.519549+00:00,,,440.0,2026-11-01T19:51:05.494610+00:00
-2026,10,Michigan State,Michigan,total,total_model,AVOID,D,over,39.5,consensus,2026-11-01T15:13:53.519549+00:00,,,39.5,2026-11-01T15:13:53.519549+00:00
-2026,10,Iowa,Northwestern,spread,model_gap_late,AVOID,D,Iowa,1.5,consensus,2026-11-01T15:13:53.519549+00:00,,,1.5,2026-11-01T15:13:53.519549+00:00
+2026,10,Michigan State,Michigan,moneyline,moneyline_dog,PASS,D,Michigan State,490.0,consensus,2026-11-01T15:13:53.519549+00:00,,,435.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Michigan State,Michigan,total,total_model,AVOID,D,over,39.5,consensus,2026-11-01T15:13:53.519549+00:00,,,40.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Iowa,Northwestern,spread,model_gap_late,AVOID,D,Iowa,1.5,consensus,2026-11-01T15:13:53.519549+00:00,,,2.5,2026-11-02T18:25:54.919445+00:00
 2026,10,Iowa,Northwestern,moneyline,moneyline_fav,AVOID,D,Northwestern,-125.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-125.0,2026-11-01T15:13:53.519549+00:00
 2026,10,Iowa,Northwestern,total,total_model,AVOID,D,over,42.5,consensus,2026-11-01T15:13:53.519549+00:00,,,42.5,2026-11-01T15:13:53.519549+00:00
 2026,10,UCLA,Minnesota,spread,model_gap_late,AVOID,D,Minnesota,6.0,consensus,2026-11-01T15:13:53.519549+00:00,,,6.5,2026-11-01T18:46:05.296473+00:00
-2026,10,UCLA,Minnesota,moneyline,moneyline_dog,PASS,C,Minnesota,180.0,consensus,2026-11-01T15:13:53.519549+00:00,,,195.0,2026-11-01T19:51:05.494610+00:00
-2026,10,UCLA,Minnesota,total,total_model,AVOID,D,over,42.5,consensus,2026-11-01T15:13:53.519549+00:00,,,38.5,2026-11-01T18:46:05.296473+00:00
+2026,10,UCLA,Minnesota,moneyline,moneyline_dog,PASS,C,Minnesota,180.0,consensus,2026-11-01T15:13:53.519549+00:00,,,190.0,2026-11-02T18:25:54.919445+00:00
+2026,10,UCLA,Minnesota,total,total_model,AVOID,D,over,42.5,consensus,2026-11-01T15:13:53.519549+00:00,,,39.5,2026-11-02T18:25:54.919445+00:00
 2026,10,BYU,Utah,spread,model_gap_late,AVOID,D,Utah,-4.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-5.5,2026-11-01T18:46:05.296473+00:00
-2026,10,BYU,Utah,moneyline,moneyline_fav,AVOID,D,Utah,-175.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-195.0,2026-11-01T18:46:05.296473+00:00
-2026,10,BYU,Utah,total,total_model,AVOID,D,over,48.5,consensus,2026-11-01T15:13:53.519549+00:00,,,45.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Texas,Missouri,spread,model_gap_late,AVOID,D,Missouri,3.5,consensus,2026-11-01T15:13:53.519549+00:00,,,3.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Texas,Missouri,moneyline,moneyline_dog,PASS,C,Missouri,136.0,consensus,2026-11-01T15:13:53.519549+00:00,,,128.0,2026-11-01T18:46:05.296473+00:00
+2026,10,BYU,Utah,moneyline,moneyline_fav,AVOID,D,Utah,-175.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-200.0,2026-11-02T18:25:54.919445+00:00
+2026,10,BYU,Utah,total,total_model,AVOID,D,over,48.5,consensus,2026-11-01T15:13:53.519549+00:00,,,46.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Texas,Missouri,spread,model_gap_late,AVOID,D,Missouri,3.5,consensus,2026-11-01T15:13:53.519549+00:00,,,2.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Texas,Missouri,moneyline,moneyline_dog,PASS,C,Missouri,136.0,consensus,2026-11-01T15:13:53.519549+00:00,,,125.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Texas,Missouri,total,total_model,AVOID,D,under,48.5,consensus,2026-11-01T15:13:53.519549+00:00,,,48.5,2026-11-01T15:13:53.519549+00:00
 2026,10,Oregon,Ohio State,spread,model_gap_late,AVOID,D,Ohio State,-10.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-9.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Oregon,Ohio State,moneyline,moneyline_fav,AVOID,D,Ohio State,-395.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-360.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Oregon,Ohio State,moneyline,moneyline_fav,AVOID,D,Ohio State,-395.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-325.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Oregon,Ohio State,total,total_model,AVOID,D,over,45.5,consensus,2026-11-01T15:13:53.519549+00:00,,,47.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Alabama,LSU,spread,model_gap_late,AVOID,D,LSU,-4.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-4.0,2026-11-01T15:13:53.519549+00:00
-2026,10,Alabama,LSU,moneyline,moneyline_fav,AVOID,D,LSU,-176.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-185.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Alabama,LSU,moneyline,moneyline_fav,AVOID,D,LSU,-176.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-190.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Alabama,LSU,total,total_model,AVOID,D,over,52.5,consensus,2026-11-01T15:13:53.519549+00:00,,,52.5,2026-11-01T15:13:53.519549+00:00
 2026,10,Kentucky,Tennessee,spread,model_gap_late,AVOID,D,Tennessee,-5.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-6.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Kentucky,Tennessee,moneyline,moneyline_fav,AVOID,D,Tennessee,-216.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-215.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Kentucky,Tennessee,moneyline,moneyline_fav,AVOID,D,Tennessee,-216.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-240.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Kentucky,Tennessee,total,total_model,AVOID,D,over,50.0,consensus,2026-11-01T15:13:53.519549+00:00,,,50.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Georgia,Ole Miss,spread,model_gap_late,AVOID,D,Ole Miss,3.0,consensus,2026-11-01T15:13:53.519549+00:00,,,3.0,2026-11-01T15:13:53.519549+00:00
-2026,10,Georgia,Ole Miss,moneyline,moneyline_dog,PASS,C,Ole Miss,114.0,consensus,2026-11-01T15:13:53.519549+00:00,,,121.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Georgia,Ole Miss,spread,model_gap_late,AVOID,D,Ole Miss,3.0,consensus,2026-11-01T15:13:53.519549+00:00,,,3.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Georgia,Ole Miss,moneyline,moneyline_dog,PASS,C,Ole Miss,114.0,consensus,2026-11-01T15:13:53.519549+00:00,,,125.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Georgia,Ole Miss,total,total_model,AVOID,D,under,56.5,consensus,2026-11-01T15:13:53.519549+00:00,,,56.5,2026-11-01T15:13:53.519549+00:00
-2026,10,Air Force,Army,spread,model_gap_late,AVOID,D,Army,-5.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-5.2,2026-11-01T18:46:05.296473+00:00
-2026,10,Air Force,Army,moneyline,moneyline_fav,AVOID,D,Army,-205.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-211.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Air Force,Army,total,total_model,AVOID,D,over,50.5,consensus,2026-11-01T15:13:53.519549+00:00,,,49.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Air Force,Army,spread,model_gap_late,AVOID,D,Army,-5.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-5.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Air Force,Army,moneyline,moneyline_fav,AVOID,D,Army,-205.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-170.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Air Force,Army,total,total_model,AVOID,D,over,50.5,consensus,2026-11-01T15:13:53.519549+00:00,,,48.5,2026-11-02T18:25:54.919445+00:00
 2026,10,Miami,Notre Dame,spread,model_gap_late,AVOID,D,Notre Dame,-3.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-3.5,2026-11-01T15:13:53.519549+00:00
 2026,10,Miami,Notre Dame,moneyline,moneyline_fav,AVOID,D,Notre Dame,-170.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-170.0,2026-11-01T15:13:53.519549+00:00
 2026,10,Miami,Notre Dame,total,total_model,AVOID,D,over,55.5,consensus,2026-11-01T15:13:53.519549+00:00,,,57.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Oklahoma,Florida,spread,model_gap_late,AVOID,D,Florida,-5.5,consensus,2026-11-01T15:13:53.519549+00:00,,,-6.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Oklahoma,Florida,moneyline,moneyline_fav,AVOID,D,Florida,-205.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-220.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Oklahoma,Florida,total,total_model,AVOID,D,over,48.5,consensus,2026-11-01T15:13:53.519549+00:00,,,46.5,2026-11-01T18:46:05.296473+00:00
+2026,10,Oklahoma,Florida,moneyline,moneyline_fav,AVOID,D,Florida,-205.0,consensus,2026-11-01T15:13:53.519549+00:00,,,-246.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Oklahoma,Florida,total,total_model,AVOID,D,over,48.5,consensus,2026-11-01T15:13:53.519549+00:00,,,45.5,2026-11-02T18:25:54.919445+00:00
 2026,10,Cincinnati,Houston,spread,model_gap_late,AVOID,D,Houston,-10.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-10.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Cincinnati,Houston,moneyline,moneyline_fav,AVOID,D,Houston,-410.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-410.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Cincinnati,Houston,moneyline,moneyline_fav,AVOID,D,Houston,-410.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-440.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Cincinnati,Houston,total,total_model,AVOID,D,under,62.5,consensus,2026-11-01T18:46:05.296473+00:00,,,62.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Iowa State,Baylor,spread,model_gap_late,AVOID,D,Baylor,-9.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-9.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Iowa State,Baylor,moneyline,moneyline_fav,AVOID,D,Baylor,-340.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-340.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Iowa State,Baylor,spread,model_gap_late,AVOID,D,Baylor,-9.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-9.8,2026-11-02T18:25:54.919445+00:00
+2026,10,Iowa State,Baylor,moneyline,moneyline_fav,AVOID,D,Baylor,-340.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-350.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Iowa State,Baylor,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T18:46:05.296473+00:00,,,51.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Penn State,Washington,spread,model_gap_late,AVOID,D,Washington,-2.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-2.5,2026-11-01T18:46:05.296473+00:00
+2026,10,Penn State,Washington,spread,model_gap_late,AVOID,D,Washington,-2.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-1.5,2026-11-02T18:25:54.919445+00:00
 2026,10,Penn State,Washington,moneyline,moneyline_fav,AVOID,D,Washington,-122.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-122.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Penn State,Washington,total,total_model,AVOID,D,over,43.5,consensus,2026-11-01T18:46:05.296473+00:00,,,43.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Florida State,Boston College,spread,model_gap_late,AVOID,D,Boston College,6.5,consensus,2026-11-01T18:46:05.296473+00:00,,,6.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Florida State,Boston College,moneyline,moneyline_dog,PASS,D,Boston College,198.0,consensus,2026-11-01T18:46:05.296473+00:00,,,198.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Florida State,Boston College,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T18:46:05.296473+00:00,,,51.5,2026-11-01T18:46:05.296473+00:00
+2026,10,Penn State,Washington,total,total_model,AVOID,D,over,43.5,consensus,2026-11-01T18:46:05.296473+00:00,,,44.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Florida State,Boston College,spread,model_gap_late,AVOID,D,Boston College,6.5,consensus,2026-11-01T18:46:05.296473+00:00,,,7.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Florida State,Boston College,moneyline,moneyline_dog,PASS,D,Boston College,198.0,consensus,2026-11-01T18:46:05.296473+00:00,,,215.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Florida State,Boston College,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T18:46:05.296473+00:00,,,52.2,2026-11-02T18:25:54.919445+00:00
 2026,10,Tulsa,Tulane,spread,model_gap_late,AVOID,D,Tulane,3.0,consensus,2026-11-01T18:46:05.296473+00:00,,,3.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Tulsa,Tulane,moneyline,moneyline_dog,PASS,B,Tulane,122.0,consensus,2026-11-01T18:46:05.296473+00:00,,,122.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Tulsa,Tulane,total,total_model,AVOID,D,over,49.0,consensus,2026-11-01T18:46:05.296473+00:00,,,49.0,2026-11-01T18:46:05.296473+00:00
-2026,10,North Carolina,UConn,spread,model_gap_late,AVOID,D,UConn,7.5,consensus,2026-11-01T18:46:05.296473+00:00,,,7.5,2026-11-01T18:46:05.296473+00:00
-2026,10,North Carolina,UConn,moneyline,moneyline_dog,PASS,D,UConn,255.0,consensus,2026-11-01T18:46:05.296473+00:00,,,245.0,2026-11-01T19:51:05.494610+00:00
-2026,10,North Carolina,UConn,total,total_model,AVOID,D,over,53.0,consensus,2026-11-01T18:46:05.296473+00:00,,,53.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Tulsa,Tulane,moneyline,moneyline_dog,PASS,B,Tulane,122.0,consensus,2026-11-01T18:46:05.296473+00:00,,,113.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Tulsa,Tulane,total,total_model,AVOID,D,over,49.0,consensus,2026-11-01T18:46:05.296473+00:00,,,49.5,2026-11-02T18:25:54.919445+00:00
+2026,10,North Carolina,UConn,spread,model_gap_late,AVOID,D,UConn,7.5,consensus,2026-11-01T18:46:05.296473+00:00,,,7.0,2026-11-02T18:25:54.919445+00:00
+2026,10,North Carolina,UConn,moneyline,moneyline_dog,PASS,D,UConn,255.0,consensus,2026-11-01T18:46:05.296473+00:00,,,235.0,2026-11-02T18:25:54.919445+00:00
+2026,10,North Carolina,UConn,total,total_model,AVOID,D,over,53.0,consensus,2026-11-01T18:46:05.296473+00:00,,,53.2,2026-11-02T18:25:54.919445+00:00
 2026,10,Oklahoma State,Kansas State,spread,model_gap_late,AVOID,D,Kansas State,5.5,consensus,2026-11-01T18:46:05.296473+00:00,,,5.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Oklahoma State,Kansas State,moneyline,moneyline_dog,PASS,C,Kansas State,172.0,consensus,2026-11-01T18:46:05.296473+00:00,,,172.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Oklahoma State,Kansas State,total,total_model,AVOID,D,over,61.0,consensus,2026-11-01T18:46:05.296473+00:00,,,61.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Oklahoma State,Kansas State,moneyline,moneyline_dog,PASS,C,Kansas State,172.0,consensus,2026-11-01T18:46:05.296473+00:00,,,161.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Oklahoma State,Kansas State,total,total_model,AVOID,D,over,61.0,consensus,2026-11-01T18:46:05.296473+00:00,,,61.8,2026-11-02T18:25:54.919445+00:00
 2026,10,Clemson,Syracuse,spread,model_gap_late,AVOID,D,Clemson,-1.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-1.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Clemson,Syracuse,total,total_model,AVOID,D,over,50.5,consensus,2026-11-01T18:46:05.296473+00:00,,,50.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Maryland,Purdue,spread,model_gap_late,AVOID,D,Purdue,-6.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-6.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Maryland,Purdue,moneyline,moneyline_fav,AVOID,D,Purdue,-218.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-218.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Maryland,Purdue,total,total_model,AVOID,D,over,56.5,consensus,2026-11-01T18:46:05.296473+00:00,,,56.5,2026-11-01T18:46:05.296473+00:00
+2026,10,Maryland,Purdue,moneyline,moneyline_fav,AVOID,D,Purdue,-218.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-240.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Maryland,Purdue,total,total_model,AVOID,D,over,56.5,consensus,2026-11-01T18:46:05.296473+00:00,,,57.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Rutgers,Wisconsin,spread,model_gap_late,AVOID,D,Rutgers,16.5,consensus,2026-11-01T18:46:05.296473+00:00,,,16.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Rutgers,Wisconsin,moneyline,moneyline_dog,PASS,D,Rutgers,525.0,consensus,2026-11-01T18:46:05.296473+00:00,,,525.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Rutgers,Wisconsin,total,total_model,AVOID,D,over,46.0,consensus,2026-11-01T18:46:05.296473+00:00,,,46.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Duke,NC State,spread,model_gap_late,AVOID,D,NC State,6.0,consensus,2026-11-01T18:46:05.296473+00:00,,,6.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Duke,NC State,moneyline,moneyline_dog,PASS,D,NC State,185.0,consensus,2026-11-01T18:46:05.296473+00:00,,,185.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Rutgers,Wisconsin,moneyline,moneyline_dog,PASS,D,Rutgers,525.0,consensus,2026-11-01T18:46:05.296473+00:00,,,595.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Rutgers,Wisconsin,total,total_model,AVOID,D,over,46.0,consensus,2026-11-01T18:46:05.296473+00:00,,,45.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Duke,NC State,spread,model_gap_late,AVOID,D,NC State,6.0,consensus,2026-11-01T18:46:05.296473+00:00,,,5.8,2026-11-02T18:25:54.919445+00:00
+2026,10,Duke,NC State,moneyline,moneyline_dog,PASS,D,NC State,185.0,consensus,2026-11-01T18:46:05.296473+00:00,,,172.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Duke,NC State,total,total_model,AVOID,D,over,50.5,consensus,2026-11-01T18:46:05.296473+00:00,,,50.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Arkansas,Auburn,spread,model_gap_late,AVOID,D,Auburn,-10.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-10.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Arkansas,Auburn,moneyline,moneyline_fav,AVOID,D,Auburn,-385.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-385.0,2026-11-01T18:46:05.296473+00:00
 2026,10,Arkansas,Auburn,total,total_model,AVOID,D,over,50.5,consensus,2026-11-01T18:46:05.296473+00:00,,,50.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Old Dominion,Coastal Carolina,spread,model_gap_late,AVOID,D,Coastal Carolina,-7.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-7.2,2026-11-01T19:51:05.494610+00:00
-2026,10,Old Dominion,Coastal Carolina,moneyline,moneyline_fav,AVOID,D,Coastal Carolina,-241.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-257.0,2026-11-01T19:51:05.494610+00:00
-2026,10,Old Dominion,Coastal Carolina,total,total_model,AVOID,D,over,45.0,consensus,2026-11-01T18:46:05.296473+00:00,,,45.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Georgia State,App State,spread,model_gap_late,AVOID,D,App State,-3.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-3.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Georgia State,App State,moneyline,moneyline_fav,AVOID,D,App State,-175.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-175.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Georgia State,App State,total,total_model,AVOID,D,under,57.5,consensus,2026-11-01T18:46:05.296473+00:00,,,57.5,2026-11-01T18:46:05.296473+00:00
-2026,10,UL Monroe,Arkansas State,spread,model_gap_late,AVOID,D,Arkansas State,-14.2,consensus,2026-11-01T18:46:05.296473+00:00,,,-14.2,2026-11-01T18:46:05.296473+00:00
-2026,10,UL Monroe,Arkansas State,moneyline,moneyline_fav,AVOID,D,Arkansas State,-682.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-682.0,2026-11-01T18:46:05.296473+00:00
-2026,10,UL Monroe,Arkansas State,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T18:46:05.296473+00:00,,,51.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Delaware,Kennesaw State,spread,model_gap_late,AVOID,D,Kennesaw State,2.2,consensus,2026-11-01T18:46:05.296473+00:00,,,2.2,2026-11-01T18:46:05.296473+00:00
-2026,10,Delaware,Kennesaw State,moneyline,moneyline_dog,PASS,B,Kennesaw State,114.0,consensus,2026-11-01T18:46:05.296473+00:00,,,114.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Delaware,Kennesaw State,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T18:46:05.296473+00:00,,,52.0,2026-11-01T19:51:05.494610+00:00
-2026,10,Texas A&M,South Carolina,spread,model_gap_late,AVOID,D,Texas A&M,7.0,consensus,2026-11-01T18:46:05.296473+00:00,,,7.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Texas A&M,South Carolina,moneyline,moneyline_dog,PASS,D,Texas A&M,220.0,consensus,2026-11-01T18:46:05.296473+00:00,,,220.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Old Dominion,Coastal Carolina,spread,model_gap_late,AVOID,D,Coastal Carolina,-7.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-7.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Old Dominion,Coastal Carolina,moneyline,moneyline_fav,AVOID,D,Coastal Carolina,-241.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-278.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Old Dominion,Coastal Carolina,total,total_model,AVOID,D,over,45.0,consensus,2026-11-01T18:46:05.296473+00:00,,,44.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Georgia State,App State,spread,model_gap_late,AVOID,D,App State,-3.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-4.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Georgia State,App State,moneyline,moneyline_fav,AVOID,D,App State,-175.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-188.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Georgia State,App State,total,total_model,AVOID,D,under,57.5,consensus,2026-11-01T18:46:05.296473+00:00,,,56.5,2026-11-02T18:25:54.919445+00:00
+2026,10,UL Monroe,Arkansas State,spread,model_gap_late,AVOID,D,Arkansas State,-14.2,consensus,2026-11-01T18:46:05.296473+00:00,,,-14.5,2026-11-02T18:25:54.919445+00:00
+2026,10,UL Monroe,Arkansas State,moneyline,moneyline_fav,AVOID,D,Arkansas State,-682.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-675.0,2026-11-02T18:25:54.919445+00:00
+2026,10,UL Monroe,Arkansas State,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T18:46:05.296473+00:00,,,52.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Delaware,Kennesaw State,spread,model_gap_late,AVOID,D,Kennesaw State,2.2,consensus,2026-11-01T18:46:05.296473+00:00,,,2.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Delaware,Kennesaw State,moneyline,moneyline_dog,PASS,B,Kennesaw State,114.0,consensus,2026-11-01T18:46:05.296473+00:00,,,110.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Delaware,Kennesaw State,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T18:46:05.296473+00:00,,,52.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Texas A&M,South Carolina,spread,model_gap_late,AVOID,D,Texas A&M,7.0,consensus,2026-11-01T18:46:05.296473+00:00,,,7.2,2026-11-02T18:25:54.919445+00:00
+2026,10,Texas A&M,South Carolina,moneyline,moneyline_dog,PASS,D,Texas A&M,220.0,consensus,2026-11-01T18:46:05.296473+00:00,,,227.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Texas A&M,South Carolina,total,total_model,AVOID,D,over,51.5,consensus,2026-11-01T18:46:05.296473+00:00,,,51.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Merrimack,Wake Forest,spread,model_gap_late,AVOID,D,Wake Forest,-47.8,consensus,2026-11-01T18:46:05.296473+00:00,,,-47.8,2026-11-01T18:46:05.296473+00:00
 2026,10,Merrimack,Wake Forest,total,total_model,AVOID,D,under,59.0,consensus,2026-11-01T18:46:05.296473+00:00,,,59.0,2026-11-01T18:46:05.296473+00:00
@@ -2553,64 +2553,68 @@ season,week,away,home,market,strategy,tier,grade,side,number,book,issued_utc,res
 2026,10,Marshall,Georgia Southern,moneyline,moneyline_fav,AVOID,D,Georgia Southern,-355.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-355.0,2026-11-01T18:46:05.296473+00:00
 2026,10,Marshall,Georgia Southern,total,total_model,AVOID,D,under,54.5,consensus,2026-11-01T18:46:05.296473+00:00,,,54.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Temple,Navy,spread,model_gap_late,AVOID,D,Navy,-7.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-7.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Temple,Navy,moneyline,moneyline_dog,PASS,D,Temple,230.0,consensus,2026-11-01T18:46:05.296473+00:00,,,215.0,2026-11-01T19:51:05.494610+00:00
+2026,10,Temple,Navy,moneyline,moneyline_dog,PASS,D,Temple,230.0,consensus,2026-11-01T18:46:05.296473+00:00,,,245.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Temple,Navy,total,total_model,AVOID,D,under,52.5,consensus,2026-11-01T18:46:05.296473+00:00,,,52.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Western Kentucky,Middle Tennessee,spread,model_gap_late,AVOID,D,Middle Tennessee,0.0,consensus,2026-11-01T18:46:05.296473+00:00,,,0.0,2026-11-01T18:46:05.296473+00:00
 2026,10,Western Kentucky,Middle Tennessee,total,total_model,AVOID,D,over,53.0,consensus,2026-11-01T18:46:05.296473+00:00,,,53.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Charlotte,UAB,spread,model_gap_late,AVOID,D,UAB,-10.2,consensus,2026-11-01T18:46:05.296473+00:00,,,-10.2,2026-11-01T18:46:05.296473+00:00
-2026,10,Charlotte,UAB,moneyline,moneyline_fav,AVOID,D,UAB,-430.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-430.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Charlotte,UAB,spread,model_gap_late,AVOID,D,UAB,-10.2,consensus,2026-11-01T18:46:05.296473+00:00,,,-10.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Charlotte,UAB,moneyline,moneyline_fav,AVOID,D,UAB,-430.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-440.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Charlotte,UAB,total,total_model,AVOID,D,over,50.5,consensus,2026-11-01T18:46:05.296473+00:00,,,50.5,2026-11-01T18:46:05.296473+00:00
-2026,10,UCF,Kansas,spread,model_gap_late,AVOID,D,Kansas,-3.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-3.0,2026-11-01T18:46:05.296473+00:00
-2026,10,UCF,Kansas,moneyline,moneyline_fav,AVOID,D,Kansas,-150.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-150.0,2026-11-01T18:46:05.296473+00:00
+2026,10,UCF,Kansas,spread,model_gap_late,AVOID,D,Kansas,-3.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-2.5,2026-11-02T18:25:54.919445+00:00
+2026,10,UCF,Kansas,moneyline,moneyline_fav,AVOID,D,Kansas,-150.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-152.0,2026-11-02T18:25:54.919445+00:00
 2026,10,UCF,Kansas,total,total_model,AVOID,D,over,47.5,consensus,2026-11-01T18:46:05.296473+00:00,,,47.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Northern Illinois,San José State,spread,model_gap_late,AVOID,D,San José State,-10.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-10.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Northern Illinois,San José State,moneyline,moneyline_fav,AVOID,D,San José State,-380.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-380.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Northern Illinois,San José State,total,total_model,AVOID,D,under,51.0,consensus,2026-11-01T18:46:05.296473+00:00,,,51.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Northern Illinois,San José State,moneyline,moneyline_fav,AVOID,D,San José State,-380.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-397.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Northern Illinois,San José State,total,total_model,AVOID,D,under,51.0,consensus,2026-11-01T18:46:05.296473+00:00,,,51.5,2026-11-02T18:25:54.919445+00:00
 2026,10,Rice,North Texas,spread,model_gap_late,AVOID,D,North Texas,-16.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-16.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Rice,North Texas,moneyline,moneyline_fav,AVOID,D,North Texas,-950.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-950.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Rice,North Texas,total,total_model,AVOID,D,over,63.5,consensus,2026-11-01T18:46:05.296473+00:00,,,63.5,2026-11-01T18:46:05.296473+00:00
+2026,10,Rice,North Texas,moneyline,moneyline_fav,AVOID,D,North Texas,-950.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-900.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Rice,North Texas,total,total_model,AVOID,D,over,63.5,consensus,2026-11-01T18:46:05.296473+00:00,,,63.8,2026-11-02T18:25:54.919445+00:00
 2026,10,Missouri State,Florida International,spread,model_gap_late,AVOID,D,Florida International,-3.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-3.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Missouri State,Florida International,moneyline,moneyline_fav,AVOID,D,Florida International,-182.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-179.0,2026-11-01T19:51:05.494610+00:00
+2026,10,Missouri State,Florida International,moneyline,moneyline_fav,AVOID,D,Florida International,-182.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-188.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Missouri State,Florida International,total,total_model,AVOID,D,over,48.5,consensus,2026-11-01T18:46:05.296473+00:00,,,48.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Louisiana Tech,Troy,spread,model_gap_late,AVOID,D,Troy,6.2,consensus,2026-11-01T18:46:05.296473+00:00,,,6.2,2026-11-01T18:46:05.296473+00:00
-2026,10,Louisiana Tech,Troy,moneyline,moneyline_dog,PASS,D,Troy,191.0,consensus,2026-11-01T18:46:05.296473+00:00,,,191.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Louisiana Tech,Troy,total,total_model,AVOID,D,over,45.5,consensus,2026-11-01T18:46:05.296473+00:00,,,45.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Vanderbilt,Mississippi State,spread,model_gap_late,AVOID,D,Mississippi State,-2.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-2.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Vanderbilt,Mississippi State,moneyline,moneyline_fav,AVOID,D,Mississippi State,-148.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-140.0,2026-11-01T19:51:05.494610+00:00
-2026,10,Vanderbilt,Mississippi State,total,total_model,AVOID,D,over,48.0,consensus,2026-11-01T18:46:05.296473+00:00,,,48.0,2026-11-01T18:46:05.296473+00:00
-2026,10,South Alabama,Louisiana,spread,model_gap_late,AVOID,D,Louisiana,-7.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-7.5,2026-11-01T18:46:05.296473+00:00
-2026,10,South Alabama,Louisiana,moneyline,moneyline_fav,AVOID,D,Louisiana,-205.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-265.0,2026-11-01T19:51:05.494610+00:00
+2026,10,Louisiana Tech,Troy,spread,model_gap_late,AVOID,D,Troy,6.2,consensus,2026-11-01T18:46:05.296473+00:00,,,6.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Louisiana Tech,Troy,moneyline,moneyline_dog,PASS,D,Troy,191.0,consensus,2026-11-01T18:46:05.296473+00:00,,,176.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Louisiana Tech,Troy,total,total_model,AVOID,D,over,45.5,consensus,2026-11-01T18:46:05.296473+00:00,,,46.5,2026-11-02T18:25:54.919445+00:00
+2026,10,Vanderbilt,Mississippi State,spread,model_gap_late,AVOID,D,Mississippi State,-2.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-2.8,2026-11-02T18:25:54.919445+00:00
+2026,10,Vanderbilt,Mississippi State,moneyline,moneyline_fav,AVOID,D,Mississippi State,-148.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-156.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Vanderbilt,Mississippi State,total,total_model,AVOID,D,over,48.0,consensus,2026-11-01T18:46:05.296473+00:00,,,48.2,2026-11-02T18:25:54.919445+00:00
+2026,10,South Alabama,Louisiana,spread,model_gap_late,AVOID,D,Louisiana,-7.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-8.0,2026-11-02T18:25:54.919445+00:00
+2026,10,South Alabama,Louisiana,moneyline,moneyline_fav,AVOID,D,Louisiana,-205.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-347.0,2026-11-02T18:25:54.919445+00:00
 2026,10,South Alabama,Louisiana,total,total_model,AVOID,D,over,57.5,consensus,2026-11-01T18:46:05.296473+00:00,,,57.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Boise State,Colorado State,spread,model_gap_late,AVOID,D,Colorado State,18.0,consensus,2026-11-01T18:46:05.296473+00:00,,,18.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Boise State,Colorado State,moneyline,moneyline_dog,PASS,D,Colorado State,750.0,consensus,2026-11-01T18:46:05.296473+00:00,,,750.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Boise State,Colorado State,total,total_model,AVOID,D,over,69.5,consensus,2026-11-01T18:46:05.296473+00:00,,,69.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Sam Houston,Jacksonville State,spread,model_gap_late,AVOID,D,Jacksonville State,-16.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-16.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Sam Houston,Jacksonville State,moneyline,moneyline_fav,AVOID,D,Jacksonville State,-625.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-700.0,2026-11-01T19:51:05.494610+00:00
+2026,10,Boise State,Colorado State,moneyline,moneyline_dog,PASS,D,Colorado State,750.0,consensus,2026-11-01T18:46:05.296473+00:00,,,637.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Boise State,Colorado State,total,total_model,AVOID,D,over,69.5,consensus,2026-11-01T18:46:05.296473+00:00,,,69.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Sam Houston,Jacksonville State,spread,model_gap_late,AVOID,D,Jacksonville State,-16.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-16.2,2026-11-02T18:25:54.919445+00:00
+2026,10,Sam Houston,Jacksonville State,moneyline,moneyline_fav,AVOID,D,Jacksonville State,-625.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-825.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Sam Houston,Jacksonville State,total,total_model,AVOID,D,under,48.0,consensus,2026-11-01T18:46:05.296473+00:00,,,48.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Louisville,Georgia Tech,spread,model_gap_late,AVOID,D,Georgia Tech,13.5,consensus,2026-11-01T18:46:05.296473+00:00,,,13.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Louisville,Georgia Tech,moneyline,moneyline_dog,PASS,D,Georgia Tech,440.0,consensus,2026-11-01T18:46:05.296473+00:00,,,440.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Louisville,Georgia Tech,spread,model_gap_late,AVOID,D,Georgia Tech,13.5,consensus,2026-11-01T18:46:05.296473+00:00,,,14.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Louisville,Georgia Tech,moneyline,moneyline_dog,PASS,D,Georgia Tech,440.0,consensus,2026-11-01T18:46:05.296473+00:00,,,457.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Louisville,Georgia Tech,total,total_model,AVOID,D,over,59.5,consensus,2026-11-01T18:46:05.296473+00:00,,,59.5,2026-11-01T18:46:05.296473+00:00
 2026,10,Miami,Notre Dame,moneyline,moneyline_dog,PASS,D,Miami,170.0,consensus,2026-11-01T18:46:05.296473+00:00,,,170.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Colorado,Arizona State,spread,model_gap_late,AVOID,D,Arizona State,-3.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-3.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Colorado,Arizona State,moneyline,moneyline_fav,AVOID,D,Arizona State,-155.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-155.0,2026-11-01T18:46:05.296473+00:00
+2026,10,Colorado,Arizona State,spread,model_gap_late,AVOID,D,Arizona State,-3.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-3.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Colorado,Arizona State,moneyline,moneyline_fav,AVOID,D,Arizona State,-155.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-172.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Colorado,Arizona State,total,total_model,AVOID,D,over,49.0,consensus,2026-11-01T18:46:05.296473+00:00,,,49.0,2026-11-01T18:46:05.296473+00:00
 2026,10,Liberty,New Mexico State,spread,model_gap_late,AVOID,D,New Mexico State,17.0,consensus,2026-11-01T18:46:05.296473+00:00,,,17.0,2026-11-01T18:46:05.296473+00:00
 2026,10,Liberty,New Mexico State,moneyline,moneyline_fav,AVOID,D,Liberty,-500.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-500.0,2026-11-01T18:46:05.296473+00:00
 2026,10,Liberty,New Mexico State,total,total_model,AVOID,D,over,47.0,consensus,2026-11-01T18:46:05.296473+00:00,,,47.0,2026-11-01T18:46:05.296473+00:00
 2026,10,West Virginia,Texas Tech,spread,model_gap_late,AVOID,D,Texas Tech,-17.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-17.0,2026-11-01T18:46:05.296473+00:00
-2026,10,West Virginia,Texas Tech,moneyline,moneyline_fav,AVOID,D,Texas Tech,-800.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-800.0,2026-11-01T18:46:05.296473+00:00
+2026,10,West Virginia,Texas Tech,moneyline,moneyline_fav,AVOID,D,Texas Tech,-800.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-900.0,2026-11-02T18:25:54.919445+00:00
 2026,10,West Virginia,Texas Tech,total,total_model,AVOID,D,under,63.5,consensus,2026-11-01T18:46:05.296473+00:00,,,63.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Fresno State,Utah State,spread,model_gap_late,AVOID,D,Utah State,2.0,consensus,2026-11-01T18:46:05.296473+00:00,,,2.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Fresno State,Utah State,moneyline,moneyline_dog,PASS,D,Utah State,110.0,consensus,2026-11-01T18:46:05.296473+00:00,,,110.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Fresno State,Utah State,total,total_model,AVOID,D,over,41.5,consensus,2026-11-01T18:46:05.296473+00:00,,,41.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Hawai'i,UTEP,spread,model_gap_late,AVOID,D,UTEP,10.0,consensus,2026-11-01T18:46:05.296473+00:00,,,10.0,2026-11-01T18:46:05.296473+00:00
-2026,10,Hawai'i,UTEP,moneyline,moneyline_dog,PASS,D,UTEP,300.0,consensus,2026-11-01T18:46:05.296473+00:00,,,260.0,2026-11-01T19:51:05.494610+00:00
-2026,10,Hawai'i,UTEP,total,total_model,AVOID,D,over,49.5,consensus,2026-11-01T18:46:05.296473+00:00,,,49.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Texas State,Oregon State,spread,model_gap_late,AVOID,D,Texas State,7.5,consensus,2026-11-01T18:46:05.296473+00:00,,,7.5,2026-11-01T18:46:05.296473+00:00
+2026,10,Fresno State,Utah State,spread,model_gap_late,AVOID,D,Utah State,2.0,consensus,2026-11-01T18:46:05.296473+00:00,,,2.2,2026-11-02T18:25:54.919445+00:00
+2026,10,Fresno State,Utah State,moneyline,moneyline_dog,PASS,D,Utah State,110.0,consensus,2026-11-01T18:46:05.296473+00:00,,,118.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Fresno State,Utah State,total,total_model,AVOID,D,over,41.5,consensus,2026-11-01T18:46:05.296473+00:00,,,41.8,2026-11-02T18:25:54.919445+00:00
+2026,10,Hawai'i,UTEP,spread,model_gap_late,AVOID,D,UTEP,10.0,consensus,2026-11-01T18:46:05.296473+00:00,,,9.8,2026-11-02T18:25:54.919445+00:00
+2026,10,Hawai'i,UTEP,moneyline,moneyline_dog,PASS,D,UTEP,300.0,consensus,2026-11-01T18:46:05.296473+00:00,,,282.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Hawai'i,UTEP,total,total_model,AVOID,D,over,49.5,consensus,2026-11-01T18:46:05.296473+00:00,,,49.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Texas State,Oregon State,spread,model_gap_late,AVOID,D,Texas State,7.5,consensus,2026-11-01T18:46:05.296473+00:00,,,7.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Texas State,Oregon State,moneyline,moneyline_dog,PASS,D,Texas State,235.0,consensus,2026-11-01T18:46:05.296473+00:00,,,205.0,2026-11-01T19:51:05.494610+00:00
-2026,10,Texas State,Oregon State,total,total_model,AVOID,D,under,67.5,consensus,2026-11-01T18:46:05.296473+00:00,,,67.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Wyoming,UNLV,spread,model_gap_late,AVOID,D,UNLV,-7.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-7.5,2026-11-01T18:46:05.296473+00:00
+2026,10,Texas State,Oregon State,total,total_model,AVOID,D,under,67.5,consensus,2026-11-01T18:46:05.296473+00:00,,,69.2,2026-11-02T18:25:54.919445+00:00
+2026,10,Wyoming,UNLV,spread,model_gap_late,AVOID,D,UNLV,-7.5,consensus,2026-11-01T18:46:05.296473+00:00,,,-7.0,2026-11-02T18:25:54.919445+00:00
 2026,10,Wyoming,UNLV,moneyline,moneyline_fav,AVOID,D,UNLV,-285.0,consensus,2026-11-01T18:46:05.296473+00:00,,,-250.0,2026-11-01T19:51:05.494610+00:00
-2026,10,Wyoming,UNLV,total,total_model,AVOID,D,under,46.5,consensus,2026-11-01T18:46:05.296473+00:00,,,46.5,2026-11-01T18:46:05.296473+00:00
-2026,10,Marshall,Georgia Southern,moneyline,moneyline_dog,PASS,D,Marshall,292.0,consensus,2026-11-01T19:51:05.494610+00:00,,,292.0,2026-11-01T19:51:05.494610+00:00
-2026,10,Liberty,New Mexico State,moneyline,moneyline_dog,PASS,D,New Mexico State,525.0,consensus,2026-11-01T19:51:05.494610+00:00,,,525.0,2026-11-01T19:51:05.494610+00:00
+2026,10,Wyoming,UNLV,total,total_model,AVOID,D,under,46.5,consensus,2026-11-01T18:46:05.296473+00:00,,,47.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Marshall,Georgia Southern,moneyline,moneyline_dog,PASS,D,Marshall,292.0,consensus,2026-11-01T19:51:05.494610+00:00,,,310.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Liberty,New Mexico State,moneyline,moneyline_dog,PASS,D,New Mexico State,525.0,consensus,2026-11-01T19:51:05.494610+00:00,,,600.0,2026-11-02T18:25:54.919445+00:00
+2026,10,South Florida,East Carolina,moneyline,moneyline_dog,PASS,C,South Florida,105.0,consensus,2026-11-02T18:25:54.919445+00:00,,,105.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Clemson,Syracuse,moneyline,moneyline_fav,AVOID,D,Clemson,-125.0,consensus,2026-11-02T18:25:54.919445+00:00,,,-125.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Arkansas,Auburn,moneyline,moneyline_dog,PASS,D,Arkansas,327.0,consensus,2026-11-02T18:25:54.919445+00:00,,,327.0,2026-11-02T18:25:54.919445+00:00
+2026,10,Iowa,Northwestern,moneyline,moneyline_dog,PASS,D,Iowa,110.0,consensus,2026-11-02T18:25:54.919445+00:00,,,110.0,2026-11-02T18:25:54.919445+00:00
