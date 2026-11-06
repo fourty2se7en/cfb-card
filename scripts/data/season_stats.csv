@@ -1886,69 +1886,69 @@ Florida,SEC,totalYards,3408
 Florida,SEC,totalYardsOpponent,2948
 Florida,SEC,turnovers,11
 Florida,SEC,turnoversOpponent,10
-Florida Atlantic,American Athletic,firstDowns,207
-Florida Atlantic,American Athletic,firstDownsOpponent,170
-Florida Atlantic,American Athletic,fourthDownConversions,17
-Florida Atlantic,American Athletic,fourthDownConversionsOpponent,15
-Florida Atlantic,American Athletic,fourthDowns,27
-Florida Atlantic,American Athletic,fourthDownsOpponent,20
+Florida Atlantic,American Athletic,firstDowns,234
+Florida Atlantic,American Athletic,firstDownsOpponent,194
+Florida Atlantic,American Athletic,fourthDownConversions,19
+Florida Atlantic,American Athletic,fourthDownConversionsOpponent,17
+Florida Atlantic,American Athletic,fourthDowns,30
+Florida Atlantic,American Athletic,fourthDownsOpponent,22
 Florida Atlantic,American Athletic,fumblesLost,4
-Florida Atlantic,American Athletic,fumblesLostOpponent,5
-Florida Atlantic,American Athletic,fumblesRecovered,5
+Florida Atlantic,American Athletic,fumblesLostOpponent,7
+Florida Atlantic,American Athletic,fumblesRecovered,7
 Florida Atlantic,American Athletic,fumblesRecoveredOpponent,4
-Florida Atlantic,American Athletic,games,8
+Florida Atlantic,American Athletic,games,9
 Florida Atlantic,American Athletic,interceptions,5
 Florida Atlantic,American Athletic,interceptionsOpponent,6
 Florida Atlantic,American Athletic,interceptionTDs,0
 Florida Atlantic,American Athletic,interceptionTDsOpponent,0
 Florida Atlantic,American Athletic,interceptionYards,49
 Florida Atlantic,American Athletic,interceptionYardsOpponent,3
-Florida Atlantic,American Athletic,kickReturns,24
-Florida Atlantic,American Athletic,kickReturnsOpponent,8
+Florida Atlantic,American Athletic,kickReturns,27
+Florida Atlantic,American Athletic,kickReturnsOpponent,9
 Florida Atlantic,American Athletic,kickReturnTDs,2
 Florida Atlantic,American Athletic,kickReturnTDsOpponent,0
-Florida Atlantic,American Athletic,kickReturnYards,670
-Florida Atlantic,American Athletic,kickReturnYardsOpponent,157
-Florida Atlantic,American Athletic,netPassingYards,2635
-Florida Atlantic,American Athletic,netPassingYardsOpponent,1703
-Florida Atlantic,American Athletic,passAttempts,337
-Florida Atlantic,American Athletic,passAttemptsOpponent,205
-Florida Atlantic,American Athletic,passCompletions,235
-Florida Atlantic,American Athletic,passCompletionsOpponent,129
+Florida Atlantic,American Athletic,kickReturnYards,721
+Florida Atlantic,American Athletic,kickReturnYardsOpponent,168
+Florida Atlantic,American Athletic,netPassingYards,2859
+Florida Atlantic,American Athletic,netPassingYardsOpponent,1975
+Florida Atlantic,American Athletic,passAttempts,363
+Florida Atlantic,American Athletic,passAttemptsOpponent,242
+Florida Atlantic,American Athletic,passCompletions,253
+Florida Atlantic,American Athletic,passCompletionsOpponent,150
 Florida Atlantic,American Athletic,passesIntercepted,6
 Florida Atlantic,American Athletic,passesInterceptedOpponent,5
-Florida Atlantic,American Athletic,passingTDs,23
-Florida Atlantic,American Athletic,passingTDsOpponent,13
-Florida Atlantic,American Athletic,penalties,58
-Florida Atlantic,American Athletic,penaltiesOpponent,53
-Florida Atlantic,American Athletic,penaltyYards,472
-Florida Atlantic,American Athletic,penaltyYardsOpponent,427
-Florida Atlantic,American Athletic,possessionTime,13205
-Florida Atlantic,American Athletic,possessionTimeOpponent,15595
-Florida Atlantic,American Athletic,puntReturns,8
-Florida Atlantic,American Athletic,puntReturnsOpponent,2
+Florida Atlantic,American Athletic,passingTDs,28
+Florida Atlantic,American Athletic,passingTDsOpponent,16
+Florida Atlantic,American Athletic,penalties,66
+Florida Atlantic,American Athletic,penaltiesOpponent,63
+Florida Atlantic,American Athletic,penaltyYards,538
+Florida Atlantic,American Athletic,penaltyYardsOpponent,507
+Florida Atlantic,American Athletic,possessionTime,14982
+Florida Atlantic,American Athletic,possessionTimeOpponent,17390
+Florida Atlantic,American Athletic,puntReturns,12
+Florida Atlantic,American Athletic,puntReturnsOpponent,4
 Florida Atlantic,American Athletic,puntReturnTDs,2
 Florida Atlantic,American Athletic,puntReturnTDsOpponent,0
-Florida Atlantic,American Athletic,puntReturnYards,222
-Florida Atlantic,American Athletic,puntReturnYardsOpponent,9
-Florida Atlantic,American Athletic,rushingAttempts,282
-Florida Atlantic,American Athletic,rushingAttemptsOpponent,328
-Florida Atlantic,American Athletic,rushingTDs,11
-Florida Atlantic,American Athletic,rushingTDsOpponent,25
-Florida Atlantic,American Athletic,rushingYards,883
-Florida Atlantic,American Athletic,rushingYardsOpponent,2048
-Florida Atlantic,American Athletic,sacks,9
-Florida Atlantic,American Athletic,sacksOpponent,15
-Florida Atlantic,American Athletic,tacklesForLoss,36
-Florida Atlantic,American Athletic,tacklesForLossOpponent,45
-Florida Atlantic,American Athletic,thirdDownConversions,68
-Florida Atlantic,American Athletic,thirdDownConversionsOpponent,44
-Florida Atlantic,American Athletic,thirdDowns,129
-Florida Atlantic,American Athletic,thirdDownsOpponent,105
-Florida Atlantic,American Athletic,totalYards,3518
-Florida Atlantic,American Athletic,totalYardsOpponent,3751
+Florida Atlantic,American Athletic,puntReturnYards,256
+Florida Atlantic,American Athletic,puntReturnYardsOpponent,15
+Florida Atlantic,American Athletic,rushingAttempts,331
+Florida Atlantic,American Athletic,rushingAttemptsOpponent,365
+Florida Atlantic,American Athletic,rushingTDs,14
+Florida Atlantic,American Athletic,rushingTDsOpponent,26
+Florida Atlantic,American Athletic,rushingYards,1222
+Florida Atlantic,American Athletic,rushingYardsOpponent,2195
+Florida Atlantic,American Athletic,sacks,15
+Florida Atlantic,American Athletic,sacksOpponent,16
+Florida Atlantic,American Athletic,tacklesForLoss,47
+Florida Atlantic,American Athletic,tacklesForLossOpponent,54
+Florida Atlantic,American Athletic,thirdDownConversions,75
+Florida Atlantic,American Athletic,thirdDownConversionsOpponent,49
+Florida Atlantic,American Athletic,thirdDowns,145
+Florida Atlantic,American Athletic,thirdDownsOpponent,121
+Florida Atlantic,American Athletic,totalYards,4081
+Florida Atlantic,American Athletic,totalYardsOpponent,4170
 Florida Atlantic,American Athletic,turnovers,9
-Florida Atlantic,American Athletic,turnoversOpponent,11
+Florida Atlantic,American Athletic,turnoversOpponent,13
 Florida International,Conference USA,firstDowns,146
 Florida International,Conference USA,firstDownsOpponent,130
 Florida International,Conference USA,fourthDownConversions,8
@@ -2831,67 +2831,67 @@ Jacksonville State,Conference USA,totalYards,3167
 Jacksonville State,Conference USA,totalYardsOpponent,2643
 Jacksonville State,Conference USA,turnovers,12
 Jacksonville State,Conference USA,turnoversOpponent,7
-James Madison,Sun Belt,firstDowns,191
-James Madison,Sun Belt,firstDownsOpponent,171
-James Madison,Sun Belt,fourthDownConversions,12
-James Madison,Sun Belt,fourthDownConversionsOpponent,6
-James Madison,Sun Belt,fourthDowns,16
-James Madison,Sun Belt,fourthDownsOpponent,19
+James Madison,Sun Belt,firstDowns,218
+James Madison,Sun Belt,firstDownsOpponent,191
+James Madison,Sun Belt,fourthDownConversions,13
+James Madison,Sun Belt,fourthDownConversionsOpponent,7
+James Madison,Sun Belt,fourthDowns,17
+James Madison,Sun Belt,fourthDownsOpponent,22
 James Madison,Sun Belt,fumblesLost,6
 James Madison,Sun Belt,fumblesLostOpponent,6
 James Madison,Sun Belt,fumblesRecovered,6
 James Madison,Sun Belt,fumblesRecoveredOpponent,6
-James Madison,Sun Belt,games,9
+James Madison,Sun Belt,games,10
 James Madison,Sun Belt,interceptions,5
 James Madison,Sun Belt,interceptionsOpponent,7
 James Madison,Sun Belt,interceptionTDs,0
 James Madison,Sun Belt,interceptionTDsOpponent,1
 James Madison,Sun Belt,interceptionYards,26
 James Madison,Sun Belt,interceptionYardsOpponent,66
-James Madison,Sun Belt,kickReturns,14
+James Madison,Sun Belt,kickReturns,16
 James Madison,Sun Belt,kickReturnsOpponent,16
 James Madison,Sun Belt,kickReturnTDs,0
 James Madison,Sun Belt,kickReturnTDsOpponent,0
-James Madison,Sun Belt,kickReturnYards,496
+James Madison,Sun Belt,kickReturnYards,538
 James Madison,Sun Belt,kickReturnYardsOpponent,260
-James Madison,Sun Belt,netPassingYards,2240
-James Madison,Sun Belt,netPassingYardsOpponent,2119
-James Madison,Sun Belt,passAttempts,283
-James Madison,Sun Belt,passAttemptsOpponent,322
-James Madison,Sun Belt,passCompletions,180
-James Madison,Sun Belt,passCompletionsOpponent,184
+James Madison,Sun Belt,netPassingYards,2563
+James Madison,Sun Belt,netPassingYardsOpponent,2385
+James Madison,Sun Belt,passAttempts,314
+James Madison,Sun Belt,passAttemptsOpponent,357
+James Madison,Sun Belt,passCompletions,203
+James Madison,Sun Belt,passCompletionsOpponent,206
 James Madison,Sun Belt,passesIntercepted,7
 James Madison,Sun Belt,passesInterceptedOpponent,5
-James Madison,Sun Belt,passingTDs,23
-James Madison,Sun Belt,passingTDsOpponent,11
-James Madison,Sun Belt,penalties,69
-James Madison,Sun Belt,penaltiesOpponent,81
-James Madison,Sun Belt,penaltyYards,661
-James Madison,Sun Belt,penaltyYardsOpponent,603
-James Madison,Sun Belt,possessionTime,15132
-James Madison,Sun Belt,possessionTimeOpponent,17268
-James Madison,Sun Belt,puntReturns,20
-James Madison,Sun Belt,puntReturnsOpponent,13
+James Madison,Sun Belt,passingTDs,25
+James Madison,Sun Belt,passingTDsOpponent,12
+James Madison,Sun Belt,penalties,78
+James Madison,Sun Belt,penaltiesOpponent,93
+James Madison,Sun Belt,penaltyYards,752
+James Madison,Sun Belt,penaltyYardsOpponent,694
+James Madison,Sun Belt,possessionTime,16947
+James Madison,Sun Belt,possessionTimeOpponent,19053
+James Madison,Sun Belt,puntReturns,21
+James Madison,Sun Belt,puntReturnsOpponent,14
 James Madison,Sun Belt,puntReturnTDs,3
 James Madison,Sun Belt,puntReturnTDsOpponent,0
-James Madison,Sun Belt,puntReturnYards,276
-James Madison,Sun Belt,puntReturnYardsOpponent,58
-James Madison,Sun Belt,rushingAttempts,346
-James Madison,Sun Belt,rushingAttemptsOpponent,318
-James Madison,Sun Belt,rushingTDs,19
-James Madison,Sun Belt,rushingTDsOpponent,7
-James Madison,Sun Belt,rushingYards,1818
-James Madison,Sun Belt,rushingYardsOpponent,1051
-James Madison,Sun Belt,sacks,24
+James Madison,Sun Belt,puntReturnYards,294
+James Madison,Sun Belt,puntReturnYardsOpponent,68
+James Madison,Sun Belt,rushingAttempts,382
+James Madison,Sun Belt,rushingAttemptsOpponent,355
+James Madison,Sun Belt,rushingTDs,23
+James Madison,Sun Belt,rushingTDsOpponent,9
+James Madison,Sun Belt,rushingYards,1993
+James Madison,Sun Belt,rushingYardsOpponent,1139
+James Madison,Sun Belt,sacks,28
 James Madison,Sun Belt,sacksOpponent,10
-James Madison,Sun Belt,tacklesForLoss,56
-James Madison,Sun Belt,tacklesForLossOpponent,30
-James Madison,Sun Belt,thirdDownConversions,45
-James Madison,Sun Belt,thirdDownConversionsOpponent,52
-James Madison,Sun Belt,thirdDowns,122
-James Madison,Sun Belt,thirdDownsOpponent,142
-James Madison,Sun Belt,totalYards,4058
-James Madison,Sun Belt,totalYardsOpponent,3170
+James Madison,Sun Belt,tacklesForLoss,61
+James Madison,Sun Belt,tacklesForLossOpponent,33
+James Madison,Sun Belt,thirdDownConversions,49
+James Madison,Sun Belt,thirdDownConversionsOpponent,55
+James Madison,Sun Belt,thirdDowns,133
+James Madison,Sun Belt,thirdDownsOpponent,156
+James Madison,Sun Belt,totalYards,4556
+James Madison,Sun Belt,totalYardsOpponent,3524
 James Madison,Sun Belt,turnovers,11
 James Madison,Sun Belt,turnoversOpponent,13
 Kansas,Big 12,firstDowns,186
@@ -6356,17 +6356,17 @@ South Carolina,SEC,totalYards,3713
 South Carolina,SEC,totalYardsOpponent,2724
 South Carolina,SEC,turnovers,12
 South Carolina,SEC,turnoversOpponent,6
-Southern Miss,Sun Belt,firstDowns,167
-Southern Miss,Sun Belt,firstDownsOpponent,186
-Southern Miss,Sun Belt,fourthDownConversions,11
-Southern Miss,Sun Belt,fourthDownConversionsOpponent,10
-Southern Miss,Sun Belt,fourthDowns,23
-Southern Miss,Sun Belt,fourthDownsOpponent,19
+Southern Miss,Sun Belt,firstDowns,187
+Southern Miss,Sun Belt,firstDownsOpponent,213
+Southern Miss,Sun Belt,fourthDownConversions,12
+Southern Miss,Sun Belt,fourthDownConversionsOpponent,11
+Southern Miss,Sun Belt,fourthDowns,26
+Southern Miss,Sun Belt,fourthDownsOpponent,20
 Southern Miss,Sun Belt,fumblesLost,2
 Southern Miss,Sun Belt,fumblesLostOpponent,4
 Southern Miss,Sun Belt,fumblesRecovered,4
 Southern Miss,Sun Belt,fumblesRecoveredOpponent,2
-Southern Miss,Sun Belt,games,8
+Southern Miss,Sun Belt,games,9
 Southern Miss,Sun Belt,interceptions,9
 Southern Miss,Sun Belt,interceptionsOpponent,6
 Southern Miss,Sun Belt,interceptionTDs,1
@@ -6374,49 +6374,49 @@ Southern Miss,Sun Belt,interceptionTDsOpponent,2
 Southern Miss,Sun Belt,interceptionYards,3
 Southern Miss,Sun Belt,interceptionYardsOpponent,109
 Southern Miss,Sun Belt,kickReturns,8
-Southern Miss,Sun Belt,kickReturnsOpponent,19
+Southern Miss,Sun Belt,kickReturnsOpponent,21
 Southern Miss,Sun Belt,kickReturnTDs,0
 Southern Miss,Sun Belt,kickReturnTDsOpponent,0
 Southern Miss,Sun Belt,kickReturnYards,155
-Southern Miss,Sun Belt,kickReturnYardsOpponent,363
-Southern Miss,Sun Belt,netPassingYards,1859
-Southern Miss,Sun Belt,netPassingYardsOpponent,1669
-Southern Miss,Sun Belt,passAttempts,282
-Southern Miss,Sun Belt,passAttemptsOpponent,231
-Southern Miss,Sun Belt,passCompletions,164
-Southern Miss,Sun Belt,passCompletionsOpponent,143
+Southern Miss,Sun Belt,kickReturnYardsOpponent,405
+Southern Miss,Sun Belt,netPassingYards,2125
+Southern Miss,Sun Belt,netPassingYardsOpponent,1992
+Southern Miss,Sun Belt,passAttempts,317
+Southern Miss,Sun Belt,passAttemptsOpponent,262
+Southern Miss,Sun Belt,passCompletions,186
+Southern Miss,Sun Belt,passCompletionsOpponent,166
 Southern Miss,Sun Belt,passesIntercepted,6
 Southern Miss,Sun Belt,passesInterceptedOpponent,9
-Southern Miss,Sun Belt,passingTDs,11
-Southern Miss,Sun Belt,passingTDsOpponent,12
-Southern Miss,Sun Belt,penalties,54
-Southern Miss,Sun Belt,penaltiesOpponent,55
-Southern Miss,Sun Belt,penaltyYards,492
-Southern Miss,Sun Belt,penaltyYardsOpponent,524
-Southern Miss,Sun Belt,possessionTime,12439
-Southern Miss,Sun Belt,possessionTimeOpponent,16361
-Southern Miss,Sun Belt,puntReturns,10
-Southern Miss,Sun Belt,puntReturnsOpponent,9
+Southern Miss,Sun Belt,passingTDs,12
+Southern Miss,Sun Belt,passingTDsOpponent,14
+Southern Miss,Sun Belt,penalties,66
+Southern Miss,Sun Belt,penaltiesOpponent,64
+Southern Miss,Sun Belt,penaltyYards,583
+Southern Miss,Sun Belt,penaltyYardsOpponent,615
+Southern Miss,Sun Belt,possessionTime,14224
+Southern Miss,Sun Belt,possessionTimeOpponent,18176
+Southern Miss,Sun Belt,puntReturns,11
+Southern Miss,Sun Belt,puntReturnsOpponent,10
 Southern Miss,Sun Belt,puntReturnTDs,0
 Southern Miss,Sun Belt,puntReturnTDsOpponent,0
-Southern Miss,Sun Belt,puntReturnYards,105
-Southern Miss,Sun Belt,puntReturnYardsOpponent,18
-Southern Miss,Sun Belt,rushingAttempts,280
-Southern Miss,Sun Belt,rushingAttemptsOpponent,374
-Southern Miss,Sun Belt,rushingTDs,17
-Southern Miss,Sun Belt,rushingTDsOpponent,16
-Southern Miss,Sun Belt,rushingYards,1337
-Southern Miss,Sun Belt,rushingYardsOpponent,1787
+Southern Miss,Sun Belt,puntReturnYards,115
+Southern Miss,Sun Belt,puntReturnYardsOpponent,36
+Southern Miss,Sun Belt,rushingAttempts,317
+Southern Miss,Sun Belt,rushingAttemptsOpponent,410
+Southern Miss,Sun Belt,rushingTDs,19
+Southern Miss,Sun Belt,rushingTDsOpponent,20
+Southern Miss,Sun Belt,rushingYards,1425
+Southern Miss,Sun Belt,rushingYardsOpponent,1962
 Southern Miss,Sun Belt,sacks,22
-Southern Miss,Sun Belt,sacksOpponent,15
-Southern Miss,Sun Belt,tacklesForLoss,47
-Southern Miss,Sun Belt,tacklesForLossOpponent,32
-Southern Miss,Sun Belt,thirdDownConversions,34
-Southern Miss,Sun Belt,thirdDownConversionsOpponent,51
-Southern Miss,Sun Belt,thirdDowns,110
-Southern Miss,Sun Belt,thirdDownsOpponent,123
-Southern Miss,Sun Belt,totalYards,3196
-Southern Miss,Sun Belt,totalYardsOpponent,3456
+Southern Miss,Sun Belt,sacksOpponent,19
+Southern Miss,Sun Belt,tacklesForLoss,50
+Southern Miss,Sun Belt,tacklesForLossOpponent,37
+Southern Miss,Sun Belt,thirdDownConversions,37
+Southern Miss,Sun Belt,thirdDownConversionsOpponent,55
+Southern Miss,Sun Belt,thirdDowns,124
+Southern Miss,Sun Belt,thirdDownsOpponent,134
+Southern Miss,Sun Belt,totalYards,3550
+Southern Miss,Sun Belt,totalYardsOpponent,3954
 Southern Miss,Sun Belt,turnovers,11
 Southern Miss,Sun Belt,turnoversOpponent,10
 South Florida,American Athletic,firstDowns,149
@@ -7928,68 +7928,68 @@ UTEP,Mountain West,totalYards,2242
 UTEP,Mountain West,totalYardsOpponent,3169
 UTEP,Mountain West,turnovers,13
 UTEP,Mountain West,turnoversOpponent,9
-UTSA,American Athletic,firstDowns,167
-UTSA,American Athletic,firstDownsOpponent,164
-UTSA,American Athletic,fourthDownConversions,9
-UTSA,American Athletic,fourthDownConversionsOpponent,13
-UTSA,American Athletic,fourthDowns,13
-UTSA,American Athletic,fourthDownsOpponent,24
-UTSA,American Athletic,fumblesLost,2
+UTSA,American Athletic,firstDowns,191
+UTSA,American Athletic,firstDownsOpponent,191
+UTSA,American Athletic,fourthDownConversions,11
+UTSA,American Athletic,fourthDownConversionsOpponent,15
+UTSA,American Athletic,fourthDowns,15
+UTSA,American Athletic,fourthDownsOpponent,27
+UTSA,American Athletic,fumblesLost,4
 UTSA,American Athletic,fumblesLostOpponent,6
 UTSA,American Athletic,fumblesRecovered,6
-UTSA,American Athletic,fumblesRecoveredOpponent,2
-UTSA,American Athletic,games,8
+UTSA,American Athletic,fumblesRecoveredOpponent,4
+UTSA,American Athletic,games,9
 UTSA,American Athletic,interceptions,4
 UTSA,American Athletic,interceptionsOpponent,7
 UTSA,American Athletic,interceptionTDs,1
 UTSA,American Athletic,interceptionTDsOpponent,1
 UTSA,American Athletic,interceptionYards,76
 UTSA,American Athletic,interceptionYardsOpponent,36
-UTSA,American Athletic,kickReturns,12
-UTSA,American Athletic,kickReturnsOpponent,14
+UTSA,American Athletic,kickReturns,13
+UTSA,American Athletic,kickReturnsOpponent,17
 UTSA,American Athletic,kickReturnTDs,1
 UTSA,American Athletic,kickReturnTDsOpponent,1
-UTSA,American Athletic,kickReturnYards,352
-UTSA,American Athletic,kickReturnYardsOpponent,276
-UTSA,American Athletic,netPassingYards,1795
-UTSA,American Athletic,netPassingYardsOpponent,1666
-UTSA,American Athletic,passAttempts,247
-UTSA,American Athletic,passAttemptsOpponent,254
-UTSA,American Athletic,passCompletions,170
-UTSA,American Athletic,passCompletionsOpponent,140
+UTSA,American Athletic,kickReturnYards,363
+UTSA,American Athletic,kickReturnYardsOpponent,327
+UTSA,American Athletic,netPassingYards,2067
+UTSA,American Athletic,netPassingYardsOpponent,1890
+UTSA,American Athletic,passAttempts,284
+UTSA,American Athletic,passAttemptsOpponent,280
+UTSA,American Athletic,passCompletions,191
+UTSA,American Athletic,passCompletionsOpponent,158
 UTSA,American Athletic,passesIntercepted,7
 UTSA,American Athletic,passesInterceptedOpponent,4
-UTSA,American Athletic,passingTDs,11
-UTSA,American Athletic,passingTDsOpponent,9
-UTSA,American Athletic,penalties,65
-UTSA,American Athletic,penaltiesOpponent,69
-UTSA,American Athletic,penaltyYards,644
-UTSA,American Athletic,penaltyYardsOpponent,555
-UTSA,American Athletic,possessionTime,14218
-UTSA,American Athletic,possessionTimeOpponent,14582
-UTSA,American Athletic,puntReturns,14
-UTSA,American Athletic,puntReturnsOpponent,9
+UTSA,American Athletic,passingTDs,14
+UTSA,American Athletic,passingTDsOpponent,14
+UTSA,American Athletic,penalties,75
+UTSA,American Athletic,penaltiesOpponent,77
+UTSA,American Athletic,penaltyYards,724
+UTSA,American Athletic,penaltyYardsOpponent,621
+UTSA,American Athletic,possessionTime,16013
+UTSA,American Athletic,possessionTimeOpponent,16359
+UTSA,American Athletic,puntReturns,16
+UTSA,American Athletic,puntReturnsOpponent,13
 UTSA,American Athletic,puntReturnTDs,0
 UTSA,American Athletic,puntReturnTDsOpponent,0
-UTSA,American Athletic,puntReturnYards,109
-UTSA,American Athletic,puntReturnYardsOpponent,51
-UTSA,American Athletic,rushingAttempts,291
-UTSA,American Athletic,rushingAttemptsOpponent,311
-UTSA,American Athletic,rushingTDs,20
-UTSA,American Athletic,rushingTDsOpponent,14
-UTSA,American Athletic,rushingYards,1477
-UTSA,American Athletic,rushingYardsOpponent,1466
-UTSA,American Athletic,sacks,9
-UTSA,American Athletic,sacksOpponent,10
-UTSA,American Athletic,tacklesForLoss,35
-UTSA,American Athletic,tacklesForLossOpponent,40
-UTSA,American Athletic,thirdDownConversions,47
-UTSA,American Athletic,thirdDownConversionsOpponent,45
-UTSA,American Athletic,thirdDowns,111
-UTSA,American Athletic,thirdDownsOpponent,117
-UTSA,American Athletic,totalYards,3272
-UTSA,American Athletic,totalYardsOpponent,3132
-UTSA,American Athletic,turnovers,6
+UTSA,American Athletic,puntReturnYards,115
+UTSA,American Athletic,puntReturnYardsOpponent,85
+UTSA,American Athletic,rushingAttempts,328
+UTSA,American Athletic,rushingAttemptsOpponent,360
+UTSA,American Athletic,rushingTDs,21
+UTSA,American Athletic,rushingTDsOpponent,17
+UTSA,American Athletic,rushingYards,1624
+UTSA,American Athletic,rushingYardsOpponent,1805
+UTSA,American Athletic,sacks,10
+UTSA,American Athletic,sacksOpponent,16
+UTSA,American Athletic,tacklesForLoss,44
+UTSA,American Athletic,tacklesForLossOpponent,51
+UTSA,American Athletic,thirdDownConversions,52
+UTSA,American Athletic,thirdDownConversionsOpponent,52
+UTSA,American Athletic,thirdDowns,127
+UTSA,American Athletic,thirdDownsOpponent,133
+UTSA,American Athletic,totalYards,3691
+UTSA,American Athletic,totalYardsOpponent,3695
+UTSA,American Athletic,turnovers,8
 UTSA,American Athletic,turnoversOpponent,13
 Vanderbilt,SEC,firstDowns,146
 Vanderbilt,SEC,firstDownsOpponent,165
@@ -11393,68 +11393,68 @@ Houston Christian,Southland,totalYards,2845
 Houston Christian,Southland,totalYardsOpponent,3616
 Houston Christian,Southland,turnovers,11
 Houston Christian,Southland,turnoversOpponent,16
-Howard,MEAC,firstDowns,126
-Howard,MEAC,firstDownsOpponent,174
-Howard,MEAC,fourthDownConversions,9
-Howard,MEAC,fourthDownConversionsOpponent,5
-Howard,MEAC,fourthDowns,16
-Howard,MEAC,fourthDownsOpponent,11
+Howard,MEAC,firstDowns,146
+Howard,MEAC,firstDownsOpponent,197
+Howard,MEAC,fourthDownConversions,10
+Howard,MEAC,fourthDownConversionsOpponent,6
+Howard,MEAC,fourthDowns,17
+Howard,MEAC,fourthDownsOpponent,12
 Howard,MEAC,fumblesLost,5
 Howard,MEAC,fumblesLostOpponent,7
 Howard,MEAC,fumblesRecovered,7
 Howard,MEAC,fumblesRecoveredOpponent,6
-Howard,MEAC,games,9
-Howard,MEAC,interceptions,7
+Howard,MEAC,games,10
+Howard,MEAC,interceptions,8
 Howard,MEAC,interceptionsOpponent,4
 Howard,MEAC,interceptionTDs,1
 Howard,MEAC,interceptionTDsOpponent,1
 Howard,MEAC,interceptionYards,144
 Howard,MEAC,interceptionYardsOpponent,109
-Howard,MEAC,kickReturns,35
-Howard,MEAC,kickReturnsOpponent,26
+Howard,MEAC,kickReturns,39
+Howard,MEAC,kickReturnsOpponent,31
 Howard,MEAC,kickReturnTDs,0
 Howard,MEAC,kickReturnTDsOpponent,0
-Howard,MEAC,kickReturnYards,689
-Howard,MEAC,kickReturnYardsOpponent,577
-Howard,MEAC,netPassingYards,1185
-Howard,MEAC,netPassingYardsOpponent,2179
-Howard,MEAC,passAttempts,251
-Howard,MEAC,passAttemptsOpponent,302
-Howard,MEAC,passCompletions,124
-Howard,MEAC,passCompletionsOpponent,171
+Howard,MEAC,kickReturnYards,773
+Howard,MEAC,kickReturnYardsOpponent,678
+Howard,MEAC,netPassingYards,1418
+Howard,MEAC,netPassingYardsOpponent,2432
+Howard,MEAC,passAttempts,288
+Howard,MEAC,passAttemptsOpponent,337
+Howard,MEAC,passCompletions,143
+Howard,MEAC,passCompletionsOpponent,194
 Howard,MEAC,passesIntercepted,4
-Howard,MEAC,passesInterceptedOpponent,7
-Howard,MEAC,passingTDs,7
-Howard,MEAC,passingTDsOpponent,24
-Howard,MEAC,penalties,72
-Howard,MEAC,penaltiesOpponent,58
-Howard,MEAC,penaltyYards,645
-Howard,MEAC,penaltyYardsOpponent,515
-Howard,MEAC,possessionTime,15465
-Howard,MEAC,possessionTimeOpponent,16935
-Howard,MEAC,puntReturns,13
-Howard,MEAC,puntReturnsOpponent,19
+Howard,MEAC,passesInterceptedOpponent,8
+Howard,MEAC,passingTDs,10
+Howard,MEAC,passingTDsOpponent,25
+Howard,MEAC,penalties,83
+Howard,MEAC,penaltiesOpponent,73
+Howard,MEAC,penaltyYards,760
+Howard,MEAC,penaltyYardsOpponent,656
+Howard,MEAC,possessionTime,17278
+Howard,MEAC,possessionTimeOpponent,18705
+Howard,MEAC,puntReturns,15
+Howard,MEAC,puntReturnsOpponent,22
 Howard,MEAC,puntReturnTDs,0
 Howard,MEAC,puntReturnTDsOpponent,0
-Howard,MEAC,puntReturnYards,43
-Howard,MEAC,puntReturnYardsOpponent,124
-Howard,MEAC,rushingAttempts,305
-Howard,MEAC,rushingAttemptsOpponent,294
-Howard,MEAC,rushingTDs,10
-Howard,MEAC,rushingTDsOpponent,9
-Howard,MEAC,rushingYards,1055
-Howard,MEAC,rushingYardsOpponent,1237
+Howard,MEAC,puntReturnYards,45
+Howard,MEAC,puntReturnYardsOpponent,144
+Howard,MEAC,rushingAttempts,337
+Howard,MEAC,rushingAttemptsOpponent,328
+Howard,MEAC,rushingTDs,11
+Howard,MEAC,rushingTDsOpponent,12
+Howard,MEAC,rushingYards,1204
+Howard,MEAC,rushingYardsOpponent,1463
 Howard,MEAC,sacks,22
-Howard,MEAC,sacksOpponent,31
-Howard,MEAC,tacklesForLoss,43
-Howard,MEAC,tacklesForLossOpponent,75
-Howard,MEAC,thirdDownConversions,40
-Howard,MEAC,thirdDownConversionsOpponent,50
-Howard,MEAC,thirdDowns,132
-Howard,MEAC,thirdDownsOpponent,122
-Howard,MEAC,totalYards,2240
-Howard,MEAC,totalYardsOpponent,3416
-Howard,MEAC,turnovers,12
+Howard,MEAC,sacksOpponent,33
+Howard,MEAC,tacklesForLoss,47
+Howard,MEAC,tacklesForLossOpponent,81
+Howard,MEAC,thirdDownConversions,44
+Howard,MEAC,thirdDownConversionsOpponent,52
+Howard,MEAC,thirdDowns,146
+Howard,MEAC,thirdDownsOpponent,134
+Howard,MEAC,totalYards,2622
+Howard,MEAC,totalYardsOpponent,3895
+Howard,MEAC,turnovers,13
 Howard,MEAC,turnoversOpponent,11
 Idaho,Big Sky,firstDowns,195
 Idaho,Big Sky,firstDownsOpponent,205
@@ -14480,69 +14480,69 @@ SE Louisiana,Southland,totalYards,3011
 SE Louisiana,Southland,totalYardsOpponent,3449
 SE Louisiana,Southland,turnovers,17
 SE Louisiana,Southland,turnoversOpponent,16
-South Carolina State,MEAC,firstDowns,214
-South Carolina State,MEAC,firstDownsOpponent,113
-South Carolina State,MEAC,fourthDownConversions,7
-South Carolina State,MEAC,fourthDownConversionsOpponent,4
-South Carolina State,MEAC,fourthDowns,12
-South Carolina State,MEAC,fourthDownsOpponent,13
+South Carolina State,MEAC,firstDowns,237
+South Carolina State,MEAC,firstDownsOpponent,133
+South Carolina State,MEAC,fourthDownConversions,8
+South Carolina State,MEAC,fourthDownConversionsOpponent,5
+South Carolina State,MEAC,fourthDowns,13
+South Carolina State,MEAC,fourthDownsOpponent,14
 South Carolina State,MEAC,fumblesLost,5
 South Carolina State,MEAC,fumblesLostOpponent,10
 South Carolina State,MEAC,fumblesRecovered,10
 South Carolina State,MEAC,fumblesRecoveredOpponent,5
-South Carolina State,MEAC,games,9
+South Carolina State,MEAC,games,10
 South Carolina State,MEAC,interceptions,5
-South Carolina State,MEAC,interceptionsOpponent,5
+South Carolina State,MEAC,interceptionsOpponent,6
 South Carolina State,MEAC,interceptionTDs,1
 South Carolina State,MEAC,interceptionTDsOpponent,1
 South Carolina State,MEAC,interceptionYards,76
 South Carolina State,MEAC,interceptionYardsOpponent,123
-South Carolina State,MEAC,kickReturns,22
-South Carolina State,MEAC,kickReturnsOpponent,39
+South Carolina State,MEAC,kickReturns,27
+South Carolina State,MEAC,kickReturnsOpponent,43
 South Carolina State,MEAC,kickReturnTDs,0
 South Carolina State,MEAC,kickReturnTDsOpponent,1
-South Carolina State,MEAC,kickReturnYards,424
-South Carolina State,MEAC,kickReturnYardsOpponent,848
-South Carolina State,MEAC,netPassingYards,2079
-South Carolina State,MEAC,netPassingYardsOpponent,1380
-South Carolina State,MEAC,passAttempts,283
-South Carolina State,MEAC,passAttemptsOpponent,247
-South Carolina State,MEAC,passCompletions,171
-South Carolina State,MEAC,passCompletionsOpponent,128
-South Carolina State,MEAC,passesIntercepted,5
+South Carolina State,MEAC,kickReturnYards,525
+South Carolina State,MEAC,kickReturnYardsOpponent,932
+South Carolina State,MEAC,netPassingYards,2332
+South Carolina State,MEAC,netPassingYardsOpponent,1613
+South Carolina State,MEAC,passAttempts,318
+South Carolina State,MEAC,passAttemptsOpponent,284
+South Carolina State,MEAC,passCompletions,194
+South Carolina State,MEAC,passCompletionsOpponent,147
+South Carolina State,MEAC,passesIntercepted,6
 South Carolina State,MEAC,passesInterceptedOpponent,5
-South Carolina State,MEAC,passingTDs,17
-South Carolina State,MEAC,passingTDsOpponent,7
-South Carolina State,MEAC,penalties,78
-South Carolina State,MEAC,penaltiesOpponent,71
-South Carolina State,MEAC,penaltyYards,654
-South Carolina State,MEAC,penaltyYardsOpponent,611
-South Carolina State,MEAC,possessionTime,17691
-South Carolina State,MEAC,possessionTimeOpponent,14662
-South Carolina State,MEAC,puntReturns,12
-South Carolina State,MEAC,puntReturnsOpponent,13
+South Carolina State,MEAC,passingTDs,18
+South Carolina State,MEAC,passingTDsOpponent,10
+South Carolina State,MEAC,penalties,93
+South Carolina State,MEAC,penaltiesOpponent,82
+South Carolina State,MEAC,penaltyYards,795
+South Carolina State,MEAC,penaltyYardsOpponent,726
+South Carolina State,MEAC,possessionTime,19461
+South Carolina State,MEAC,possessionTimeOpponent,16475
+South Carolina State,MEAC,puntReturns,15
+South Carolina State,MEAC,puntReturnsOpponent,15
 South Carolina State,MEAC,puntReturnTDs,1
 South Carolina State,MEAC,puntReturnTDsOpponent,2
-South Carolina State,MEAC,puntReturnYards,65
-South Carolina State,MEAC,puntReturnYardsOpponent,234
-South Carolina State,MEAC,rushingAttempts,343
-South Carolina State,MEAC,rushingAttemptsOpponent,264
-South Carolina State,MEAC,rushingTDs,28
-South Carolina State,MEAC,rushingTDsOpponent,6
-South Carolina State,MEAC,rushingYards,1915
-South Carolina State,MEAC,rushingYardsOpponent,749
-South Carolina State,MEAC,sacks,28
+South Carolina State,MEAC,puntReturnYards,85
+South Carolina State,MEAC,puntReturnYardsOpponent,236
+South Carolina State,MEAC,rushingAttempts,377
+South Carolina State,MEAC,rushingAttemptsOpponent,296
+South Carolina State,MEAC,rushingTDs,31
+South Carolina State,MEAC,rushingTDsOpponent,7
+South Carolina State,MEAC,rushingYards,2141
+South Carolina State,MEAC,rushingYardsOpponent,898
+South Carolina State,MEAC,sacks,30
 South Carolina State,MEAC,sacksOpponent,9
-South Carolina State,MEAC,tacklesForLoss,72
-South Carolina State,MEAC,tacklesForLossOpponent,34
-South Carolina State,MEAC,thirdDownConversions,56
-South Carolina State,MEAC,thirdDownConversionsOpponent,31
-South Carolina State,MEAC,thirdDowns,123
-South Carolina State,MEAC,thirdDownsOpponent,122
-South Carolina State,MEAC,totalYards,3994
-South Carolina State,MEAC,totalYardsOpponent,2129
+South Carolina State,MEAC,tacklesForLoss,78
+South Carolina State,MEAC,tacklesForLossOpponent,38
+South Carolina State,MEAC,thirdDownConversions,58
+South Carolina State,MEAC,thirdDownConversionsOpponent,35
+South Carolina State,MEAC,thirdDowns,135
+South Carolina State,MEAC,thirdDownsOpponent,136
+South Carolina State,MEAC,totalYards,4473
+South Carolina State,MEAC,totalYardsOpponent,2511
 South Carolina State,MEAC,turnovers,10
-South Carolina State,MEAC,turnoversOpponent,15
+South Carolina State,MEAC,turnoversOpponent,16
 South Dakota,MVFC,firstDowns,200
 South Dakota,MVFC,firstDownsOpponent,207
 South Dakota,MVFC,fourthDownConversions,6
