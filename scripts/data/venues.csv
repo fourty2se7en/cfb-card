@@ -389,7 +389,6 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 3730,Franklin Field,52593.0,False,False,Philadelphia,PA,19104,US,America/New_York,39.9501475,-75.1901043,11.71361065,1895.0
 3734,Gayle and Tom Benson Stadium,6000.0,False,False,San Antonio,TX,78209,US,America/Chicago,29.4674787,-98.470014,208.4659576,2008.0
 6153,Hanson Stadium,1100.0,False,False,Forest Grove,OR,97116,US,America/Los_Angeles,45.5197452,-123.1114405,66,2007.0
-3495,Georgia Dome,74228.0,False,False,Atlanta,GA,39901,US,America/New_York,33.7576897,-84.4008285,303.1637268,1992.0
 6274,Audi Field,20000.0,True,False,Washington,DC,20024,US,America/New_York,38.868906,-77.012947,7,2018.0
 7173,TQL Stadium,26000.0,True,False,Cincinnati,OH,45214,US,America/New_York,39.11139,-84.52222,162,2021.0
 3737,Gibbs Stadium,13000.0,True,False,Spartanburg,SC,29303,US,America/New_York,34.9618606,-81.9328915,231.6300049,1996.0
@@ -401,6 +400,7 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 4029,Hale Stadium,10000.0,True,False,Nashville,TN,37209,US,America/Chicago,36.168056,-86.826944,138.4986725,1953.0
 3744,Hancock Stadium,15000.0,False,False,Normal,IL,61761,US,America/Chicago,40.5125091,-88.9967177,242.8722687,1963.0
 3746,Hanson Field,16368.0,False,False,Macomb,IL,61455,US,America/Chicago,40.4683928,-90.6841248,192.8755646,1950.0
+3495,Georgia Dome,74228.0,False,True,Atlanta,GA,39901,US,America/New_York,33.7576897,-84.4008285,303.1637268,1992.0
 3963,Harry Turpin Stadium,15971.0,False,False,Natchitoches,LA,71457,US,America/Chicago,31.747259,-93.0961357,36.58879089,1976.0
 3750,Harvard Stadium,30323.0,False,False,Boston,MA,2134 ,US,America/New_York,42.366704,-71.1267511,1.96428895,1903.0
 3754,High Point Solutions Stadium,52454.0,False,False,Piscataway,NJ,8854 ,US,America/New_York,40.5136754,-74.4655737,8.543146133,1994.0
@@ -498,8 +498,8 @@ id,name,capacity,grass,dome,city,state,zip,countryCode,timezone,latitude,longitu
 3942,Stewart Stadium,17500.0,False,False,Ogden,UT,84408,US,America/Denver,41.1918741,-111.9401391,1451.553711,1966.0
 3944,Strawberry Stadium,7408.0,False,False,Hammond,LA,70401,US,America/Chicago,30.5110264,-90.4685792,13.7104578,1936.0
 5913,Warrior Field at Raabe Stadium,1700.0,False,False,Wauwatosa,WI,53226,US,America/Chicago,43.0494122,-88.0079271,206,2004.0
+3950,Superior Dome,8000.0,False,True,Marquette,MI,70118,US,America/Detroit,46.560589,-87.393741,186.4,1991.0
 5319,SunTrust Park,41084.0,True,False,Atlanta,GA,30339,US,America/New_York,33.890817,-84.467656,289.7,2017.0
-3950,Superior Dome,8000.0,False,False,Marquette,MI,70118,US,America/Detroit,46.560589,-87.393741,186.4,1991.0
 3952,Ted Wright Stadium,7500.0,False,False,Savannah,GA,31404,US,America/New_York,32.0274346,-81.0687492,6.564679146,1967.0
 716,Torero Stadium,6000.0,True,False,San Diego,CA,92111,US,America/Los_Angeles,32.7730674,-117.183721,57.95064545,1961.0
 1400,Toyota Stadium,20500.0,True,False,Frisco,TX,75033,US,America/Chicago,33.154444,-96.835278,181.3815918,2005.0
