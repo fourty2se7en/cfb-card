@@ -2,6 +2,8 @@
 
 College football analysis, same methodology as the NFL card.
 
+**This repo also runs the odds pull for every Season Cards sport** (NBA, NHL, NCAAM, NCAAW, NFL, FBS): see `odds/README.md` and `.github/workflows/odds.yml`. The college football files are under `scripts/`; the all sports odds files are under `odds/`.
+
 ## Setup
 1. Free API key from https://collegefootballdata.com/key
 2. Store it as a repository secret named `CFBD_API_KEY`
