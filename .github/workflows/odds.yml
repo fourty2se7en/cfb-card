@@ -16,6 +16,9 @@ on:
     - cron: "9 14 * * *"
     - cron: "9 17 * * *"
     - cron: "13,43 * * * *"
+  push:                     # editing odds/run.txt starts a run; its first word is the mode (open, props_open, close, status)
+    branches: [main]
+    paths: [odds/run.txt]
   workflow_dispatch:
     inputs:
       mode:
@@ -52,7 +55,9 @@ jobs:
             "9 14 * * *") echo "mode=open" >> "$GITHUB_OUTPUT" ;;
             "9 17 * * *") echo "mode=props_open" >> "$GITHUB_OUTPUT" ;;
             "13,43 * * * *") echo "mode=close" >> "$GITHUB_OUTPUT" ;;
-            *) echo "mode=${{ github.event.inputs.mode || 'status' }}" >> "$GITHUB_OUTPUT" ;;
+            *) if [ "${{ github.event_name }}" = "push" ]; then m=$(head -1 odds/run.txt | cut -d' ' -f1); case "$m" in open|props_open|close|status) ;; *) m=status ;; esac
+                 echo "mode=$m" >> "$GITHUB_OUTPUT"
+               else echo "mode=${{ github.event.inputs.mode || 'status' }}" >> "$GITHUB_OUTPUT"; fi ;;
           esac
 
       - name: Pull
