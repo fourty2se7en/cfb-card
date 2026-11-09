@@ -3,19 +3,19 @@
 # 14,000 in season (odds/pull.py explains the cost and the budget guard).
 #
 # TIMES BELOW ARE UTC. Phoenix is UTC-7 year round.
-#   07:05 Phoenix  open        full game lines, every sport with games in the next 30 hours
-#   10:05 Phoenix  props_open  opening player props (NBA, NHL, NFL, FBS)
-#   every 30 min   close       closing lines for games starting in the next 50 minutes, plus first half or first
-#                              period lines and closing props for those games
-# Scheduled runs can start a few minutes late; the 50 minute window covers that.
+#   07:09 Phoenix  open        full game lines, every sport with games in the next 30 hours
+#   10:09 Phoenix  props_open  opening player props (NBA, NHL, NFL, FBS)
+#   :13 and :43    close       closing lines for games starting in the next 75 minutes (refreshed every run), plus
+#                              first half or first period lines and closing props once per game
+# Off-the-hour minutes, because GitHub starts top-of-hour schedules late when it is busy.
 
 name: odds
 
 on:
   schedule:
-    - cron: "5 14 * * *"
-    - cron: "5 17 * * *"
-    - cron: "*/30 * * * *"
+    - cron: "9 14 * * *"
+    - cron: "9 17 * * *"
+    - cron: "13,43 * * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -49,9 +49,9 @@ jobs:
         id: mode
         run: |
           case "${{ github.event.schedule }}" in
-            "5 14 * * *") echo "mode=open" >> "$GITHUB_OUTPUT" ;;
-            "5 17 * * *") echo "mode=props_open" >> "$GITHUB_OUTPUT" ;;
-            "*/30 * * * *") echo "mode=close" >> "$GITHUB_OUTPUT" ;;
+            "9 14 * * *") echo "mode=open" >> "$GITHUB_OUTPUT" ;;
+            "9 17 * * *") echo "mode=props_open" >> "$GITHUB_OUTPUT" ;;
+            "13,43 * * * *") echo "mode=close" >> "$GITHUB_OUTPUT" ;;
             *) echo "mode=${{ github.event.inputs.mode || 'status' }}" >> "$GITHUB_OUTPUT" ;;
           esac
 

@@ -9,8 +9,8 @@ Modes
               One call per sport, 3 credits. Once per Phoenix day per sport.
   props_open  about 10:05 Phoenix. Player props for every game in the next 30 hours (sports with props). Per game, 1 credit per
               prop market returned, 4 books.
-  close       every 30 minutes. For games starting in the next 50 minutes that have no close yet: full game lines (one call per
-              sport, 3 credits), first half or first period lines per game (1 credit per market returned) and closing props.
+  close       every 30 minutes. Full game lines for games starting in the next 75 minutes (one call per sport, 3 credits, every run,
+              the latest read before tip is the close), plus first half or first period lines and closing props once per game.
   status      prints the credits left (costs nothing: the events endpoint is free).
 
 Cost: 1 credit per market per region (us) per call; markets that come back empty cost nothing; the events list is free.
@@ -34,7 +34,7 @@ PHX = dt.timezone(dt.timedelta(hours=-7))       # Phoenix, no daylight saving
 FULL = 'h2h,spreads,totals'
 PROP_BOOKS = 'draftkings,fanduel,betmgm,williamhill_us'
 RESERVE_ALL, RESERVE_PERIODS, RESERVE_PROPS = 600, 2500, 4000
-CLOSE_WINDOW_MIN = 50
+CLOSE_WINDOW_MIN = 75   # GitHub can start scheduled runs late; full lines refresh every run inside the window
 
 SPORTS = {
     'nba':   dict(key='basketball_nba',        periods='h2h_h1,spreads_h1,totals_h1',
@@ -157,9 +157,10 @@ def run(mode, only=None):
                 if ev: out += rows(ev, 'props_open', sport); S['props_open'][e['id']] = iso(NOW)
             write(sport, 'props_open', out)
         elif mode == 'close':
-            evs = [e for e in events(sport, NOW + dt.timedelta(minutes=2), NOW + dt.timedelta(minutes=CLOSE_WINDOW_MIN)) if e['id'] not in S['closed']]
-            if not evs: continue
-            full(sport, 'close', [e['id'] for e in evs], mode)
+            win = events(sport, NOW + dt.timedelta(minutes=2), NOW + dt.timedelta(minutes=CLOSE_WINDOW_MIN))
+            if not win: continue
+            full(sport, 'close', [e['id'] for e in win], mode)   # every run inside the window; the reader keeps the latest one before tip
+            evs = [e for e in win if e['id'] not in S['closed']]   # period lines and props once per game
             per, pr = [], []
             for e in evs:
                 if cfg['periods'] and ok(RESERVE_PERIODS):
