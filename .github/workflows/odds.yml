@@ -1,0 +1,70 @@
+# The Odds API pull for every Season Cards sport (NBA, NHL, NCAAM, NCAAW, NFL, FBS). Trina, Nov 9 2026.
+# Uses the same ODDS_API_KEY secret as cfb-card.yml. The $30 plan has 20,000 credits a month; this pull is sized at about
+# 14,000 in season (odds/pull.py explains the cost and the budget guard).
+#
+# TIMES BELOW ARE UTC. Phoenix is UTC-7 year round.
+#   07:05 Phoenix  open        full game lines, every sport with games in the next 30 hours
+#   10:05 Phoenix  props_open  opening player props (NBA, NHL, NFL, FBS)
+#   every 30 min   close       closing lines for games starting in the next 50 minutes, plus first half or first
+#                              period lines and closing props for those games
+# Scheduled runs can start a few minutes late; the 50 minute window covers that.
+
+name: odds
+
+on:
+  schedule:
+    - cron: "5 14 * * *"
+    - cron: "5 17 * * *"
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "open, props_open, close or status"
+        required: false
+        default: "status"
+      sports:
+        description: "comma list (nba,nhl,ncaam,ncaaw,nfl,fbs); empty = all"
+        required: false
+        default: ""
+
+concurrency:
+  group: odds
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+
+      - name: Which pull
+        id: mode
+        run: |
+          case "${{ github.event.schedule }}" in
+            "5 14 * * *") echo "mode=open" >> "$GITHUB_OUTPUT" ;;
+            "5 17 * * *") echo "mode=props_open" >> "$GITHUB_OUTPUT" ;;
+            "*/30 * * * *") echo "mode=close" >> "$GITHUB_OUTPUT" ;;
+            *) echo "mode=${{ github.event.inputs.mode || 'status' }}" >> "$GITHUB_OUTPUT" ;;
+          esac
+
+      - name: Pull
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python3 odds/pull.py "${{ steps.mode.outputs.mode }}" "${{ github.event.inputs.sports }}"
+
+      - name: Commit odds
+        run: |
+          git config user.name  "cfb-card-bot"
+          git config user.email "cfb-card-bot@users.noreply.github.com"
+          git add -A odds || true
+          git diff --staged --quiet && exit 0
+          git commit -m "odds ${{ steps.mode.outputs.mode }}: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
