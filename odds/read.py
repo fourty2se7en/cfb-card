@@ -19,6 +19,17 @@ def amer(d): return round((d - 1) * 100) if d >= 2 else round(-100 / (d - 1))
 def med(v): v = [x for x in v if x not in (None, '')]; return st.median(v) if v else None
 
 
+def main_line(rs):
+    """Rows at the line most books post (ties: the one nearest the median), so prices match their line (Nov 12)."""
+    pts = [float(r['point']) for r in rs if r['point'] != '']
+    if not pts: return None, []
+    cnt = defaultdict(int)
+    for x in pts: cnt[x] += 1
+    m = st.median(pts); top = max(cnt.values())
+    pt = min((x for x in cnt if cnt[x] == top), key=lambda x: abs(x - m))
+    return pt, [r for r in rs if r['point'] != '' and float(r['point']) == pt]
+
+
 def load(sport, day):
     rows = []
     for f in sorted(glob.glob(str(ROOT / 'data' / sport / day / '*.csv.gz'))):
@@ -35,10 +46,10 @@ def lines(rs, home, away):
         if mk == 'team_totals':   # Nov 12: team totals (outcome Over or Under, team in the player column)
             tt = out.setdefault('team_totals', {})
             for team, side in ((home, 'home'), (away, 'away')):
-                ov = [x for x in rs if x['market'] == mk and x['player'] == team and x['outcome'] == 'Over' and x['point'] != '']
-                un = [x for x in rs if x['market'] == mk and x['player'] == team and x['outcome'] == 'Under']
+                pt, ov = main_line([x for x in rs if x['market'] == mk and x['player'] == team and x['outcome'] == 'Over'])
+                un = [x for x in rs if x['market'] == mk and x['player'] == team and x['outcome'] == 'Under' and x['point'] != '' and float(x['point']) == pt]
                 if ov:
-                    tt[side] = dict(line=med([float(x['point']) for x in ov]), over_price=amer(st.median([dec(x['price']) for x in ov])),
+                    tt[side] = dict(line=pt, over_price=amer(st.median([dec(x['price']) for x in ov])),
                                     under_price=(amer(st.median([dec(x['price']) for x in un])) if un else None), books=len({x['book'] for x in ov}))
             continue
         base = mk.split('_')[0]; per = mk[len(base) + 1:] or 'game'
@@ -48,15 +59,18 @@ def lines(rs, home, away):
                 p = [dec(r['price']) for r in by.get((mk, team), [])]
                 if p: o[f'ml_{side}'] = amer(st.median(p))
         elif base == 'spreads':
-            pts = [float(r['point']) for r in by.get((mk, home), []) if r['point'] != '']
-            if pts: o['spread_home'] = med(pts); o['spread_home_price'] = amer(st.median([dec(r['price']) for r in by[(mk, home)]]))
-            if pts and by.get((mk, away)): o['spread_away_price'] = amer(st.median([dec(r['price']) for r in by[(mk, away)]]))
+            pt, hs = main_line(by.get((mk, home), []))
+            if hs:
+                o['spread_home'] = pt; o['spread_home_price'] = amer(st.median([dec(r['price']) for r in hs]))
+                aw = [r for r in by.get((mk, away), []) if r['point'] != '' and float(r['point']) == -pt]
+                if aw: o['spread_away_price'] = amer(st.median([dec(r['price']) for r in aw]))
         elif base == 'totals':
-            pts = [float(r['point']) for r in by.get((mk, 'Over'), []) if r['point'] != '']
-            if pts:
-                o['total'] = med(pts)
-                o['over_price'] = amer(st.median([dec(r['price']) for r in by[(mk, 'Over')]]))
-                if by.get((mk, 'Under')): o['under_price'] = amer(st.median([dec(r['price']) for r in by[(mk, 'Under')]]))
+            pt, ovs = main_line(by.get((mk, 'Over'), []))
+            if ovs:
+                o['total'] = pt
+                o['over_price'] = amer(st.median([dec(r['price']) for r in ovs]))
+                uns = [r for r in by.get((mk, 'Under'), []) if r['point'] != '' and float(r['point']) == pt]
+                if uns: o['under_price'] = amer(st.median([dec(r['price']) for r in uns]))
         o['books'] = len({r['book'] for r in rs if r['market'] == mk})
     return out
 
