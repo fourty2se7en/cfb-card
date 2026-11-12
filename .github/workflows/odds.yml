@@ -20,11 +20,15 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "open, props_open, close or status"
+        description: "open, props_open, close, now or status"
         required: false
         default: "status"
       sports:
         description: "comma list (nba,nhl,ncaam,ncaaw,nfl,fbs); empty = all"
+        required: false
+        default: ""
+      periods:
+        description: "1 = with mode now, also period lines and team totals"
         required: false
         default: ""
 
@@ -61,6 +65,7 @@ jobs:
       - name: Pull
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          NOW_PERIODS: ${{ github.event.inputs.periods }}
         run: python3 odds/pull.py "${{ steps.mode.outputs.mode }}" "${{ github.event.inputs.sports }}"
 
       - name: Commit odds

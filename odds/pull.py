@@ -40,7 +40,7 @@ CLOSE_WINDOW_MIN = 75   # GitHub can start scheduled runs late; full lines refre
 SPORTS = {   # Nov 12 (Trina, A27): every game prop market at the close for every sport (own Game props category on the card)
     'nba':   dict(key='basketball_nba',        periods='h2h_h1,spreads_h1,totals_h1,h2h_q1,spreads_q1,totals_q1,team_totals',
                   props='player_points,player_rebounds,player_assists,player_threes,player_points_rebounds_assists'),
-    'nhl':   dict(key='icehockey_nhl',         periods='h2h_p1,spreads_p1,totals_p1,h2h_3_way_p1,team_totals',
+    'nhl':   dict(key='icehockey_nhl',         periods='h2h_p1,spreads_p1,totals_p1,h2h_3_way_p1,h2h_3_way,team_totals',
                   props='player_points,player_shots_on_goal,player_goals,player_total_saves'),
     'ncaam': dict(key='basketball_ncaab',      periods='h2h_h1,spreads_h1,totals_h1,team_totals',
                   props='player_points,player_rebounds,player_assists,player_threes'),

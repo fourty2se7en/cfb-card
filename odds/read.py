@@ -50,6 +50,7 @@ def lines(rs, home, away):
         elif base == 'spreads':
             pts = [float(r['point']) for r in by.get((mk, home), []) if r['point'] != '']
             if pts: o['spread_home'] = med(pts); o['spread_home_price'] = amer(st.median([dec(r['price']) for r in by[(mk, home)]]))
+            if pts and by.get((mk, away)): o['spread_away_price'] = amer(st.median([dec(r['price']) for r in by[(mk, away)]]))
         elif base == 'totals':
             pts = [float(r['point']) for r in by.get((mk, 'Over'), []) if r['point'] != '']
             if pts:
