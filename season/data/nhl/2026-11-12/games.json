@@ -1,1 +1,90 @@
-[]
+[
+ {
+  "id": 2026020309,
+  "away": "CAR",
+  "home": "SEA",
+  "start": "2026-11-12T17:00:00Z",
+  "venue": "Veikkaus Arena",
+  "neutral": true
+ },
+ {
+  "id": 2026020299,
+  "away": "MTL",
+  "home": "BOS",
+  "start": "2026-11-13T00:00:00Z",
+  "venue": "TD Garden",
+  "neutral": false
+ },
+ {
+  "id": 2026020300,
+  "away": "MIN",
+  "home": "TOR",
+  "start": "2026-11-13T00:00:00Z",
+  "venue": "Scotiabank Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020301,
+  "away": "COL",
+  "home": "OTT",
+  "start": "2026-11-13T00:00:00Z",
+  "venue": "Canadian Tire Centre",
+  "neutral": false
+ },
+ {
+  "id": 2026020303,
+  "away": "WSH",
+  "home": "NJD",
+  "start": "2026-11-13T00:00:00Z",
+  "venue": "Prudential Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020304,
+  "away": "TBL",
+  "home": "CBJ",
+  "start": "2026-11-13T00:00:00Z",
+  "venue": "Nationwide Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020302,
+  "away": "DET",
+  "home": "FLA",
+  "start": "2026-11-13T00:30:00Z",
+  "venue": "Amerant Bank Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020305,
+  "away": "BUF",
+  "home": "CHI",
+  "start": "2026-11-13T01:00:00Z",
+  "venue": "United Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020306,
+  "away": "WPG",
+  "home": "DAL",
+  "start": "2026-11-13T01:00:00Z",
+  "venue": "American Airlines Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020307,
+  "away": "STL",
+  "home": "UTA",
+  "start": "2026-11-13T02:00:00Z",
+  "venue": "Delta Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020308,
+  "away": "NYI",
+  "home": "LAK",
+  "start": "2026-11-13T03:00:00Z",
+  "venue": "Crypto.com Arena",
+  "neutral": false
+ }
+]
