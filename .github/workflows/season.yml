@@ -1,0 +1,55 @@
+# Season Cards data loop (Trina A27, Nov 12 2026): odds (The Odds API), ESPN and NHL API files the card runs read.
+# One job runs season/loop.py for up to about 5 h 40 m, then starts the next job itself (workflow_dispatch from GITHUB_TOKEN
+# is allowed to start runs), so pulls keep going even when GitHub skips scheduled runs. The hourly cron only restarts the
+# chain if it ever stops. Times in season/loop.py are Phoenix.
+name: season
+
+on:
+  workflow_dispatch:
+    inputs:
+      once:
+        description: "once = one tick and stop (no chain)"
+        required: false
+        default: ""
+  schedule:
+    - cron: "21 * * * *"
+
+concurrency:
+  group: season
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Skip if another loop finished minutes ago (cron backup only)
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            last=$(git log -1 --format=%ct -- season/state.json 2>/dev/null || echo 0); now=$(date +%s)
+            if [ $((now - last)) -lt 3000 ]; then echo "run=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+          fi
+          echo "run=yes" >> "$GITHUB_OUTPUT"
+      - name: Loop
+        if: steps.gate.outputs.run == 'yes'
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          git config user.name  "cfb-card-bot"
+          git config user.email "cfb-card-bot@users.noreply.github.com"
+          python3 season/loop.py ${{ github.event.inputs.once }}
+      - name: Start the next loop
+        if: steps.gate.outputs.run == 'yes' && github.event.inputs.once != 'once'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run season.yml --ref main

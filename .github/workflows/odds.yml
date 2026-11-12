@@ -12,10 +12,8 @@
 name: odds
 
 on:
-  schedule:
-    - cron: "9 14 * * *"
-    - cron: "9 17 * * *"
-    - cron: "13,43 * * * *"
+  # Nov 12 (A27): the schedule moved to season.yml (season/loop.py), which runs these pulls every 30 minutes without
+  # relying on GitHub's cron. This workflow stays for manual pulls (run.txt or Run workflow).
   push:                     # editing odds/run.txt starts a run; its first word is the mode (open, props_open, close, status)
     branches: [main]
     paths: [odds/run.txt]

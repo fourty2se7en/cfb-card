@@ -32,6 +32,15 @@ def lines(rs, home, away):
     for r in rs: by[(r['market'], r['outcome'])].append(r)
     out = {}
     for mk in sorted({r['market'] for r in rs}):
+        if mk == 'team_totals':   # Nov 12: team totals (outcome Over or Under, team in the player column)
+            tt = out.setdefault('team_totals', {})
+            for team, side in ((home, 'home'), (away, 'away')):
+                ov = [x for x in rs if x['market'] == mk and x['player'] == team and x['outcome'] == 'Over' and x['point'] != '']
+                un = [x for x in rs if x['market'] == mk and x['player'] == team and x['outcome'] == 'Under']
+                if ov:
+                    tt[side] = dict(line=med([float(x['point']) for x in ov]), over_price=amer(st.median([dec(x['price']) for x in ov])),
+                                    under_price=(amer(st.median([dec(x['price']) for x in un])) if un else None), books=len({x['book'] for x in ov}))
+            continue
         base = mk.split('_')[0]; per = mk[len(base) + 1:] or 'game'
         o = out.setdefault(per, {})
         if base == 'h2h':
@@ -77,6 +86,8 @@ def build(sport, day):
         e = dict(event_id=eid, commence=rs[0]['commence'], away=a, home=h)
         if latest('open'): e['open'] = lines(latest('open'), h, a).get('game')
         if latest('close'): e['close'] = lines(latest('close'), h, a).get('game'); e['close_at'] = latest('close')[0]['snap']
+        if latest('now'): e['now'] = lines(latest('now'), h, a).get('game'); e['now_at'] = latest('now')[0]['snap']
+        if latest('now_periods'): e['periods_now'] = {p: v for p, v in lines(latest('now_periods'), h, a).items() if p != 'game'}
         if latest('close_periods'): e['periods_close'] = {p: v for p, v in lines(latest('close_periods'), h, a).items() if p != 'game'}
         if latest('props_open'): e['props_open'] = props(latest('props_open'))
         if latest('close_props'): e['props_close'] = props(latest('close_props'))

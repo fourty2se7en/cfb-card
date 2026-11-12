@@ -1,0 +1,1 @@
+team,conf,div,gp,w,l,ot,pts,ppct,rw,gf,ga,diff,l10,strk,home,road,lgseq,wcseq

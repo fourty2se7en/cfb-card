@@ -11,6 +11,7 @@ Modes
               prop market returned, 4 books.
   close       every 30 minutes. Full game lines for games starting in the next 75 minutes (one call per sport, 3 credits, every run,
               the latest read before tip is the close), plus first half or first period lines and closing props once per game.
+  now         Nov 12 (A28): current lines for a card run (full game lines; periods and team totals with NOW_PERIODS=1).
   status      prints the credits left (costs nothing: the events endpoint is free).
 
 Cost: 1 credit per market per region (us) per call; markets that come back empty cost nothing; the events list is free.
@@ -36,18 +37,18 @@ PROP_BOOKS = 'draftkings,fanduel,betmgm,williamhill_us'
 RESERVE_ALL, RESERVE_PERIODS, RESERVE_PROPS = 600, 2500, 4000
 CLOSE_WINDOW_MIN = 75   # GitHub can start scheduled runs late; full lines refresh every run inside the window
 
-SPORTS = {
-    'nba':   dict(key='basketball_nba',        periods='h2h_h1,spreads_h1,totals_h1',
+SPORTS = {   # Nov 12 (Trina, A27): every game prop market at the close for every sport (own Game props category on the card)
+    'nba':   dict(key='basketball_nba',        periods='h2h_h1,spreads_h1,totals_h1,h2h_q1,spreads_q1,totals_q1,team_totals',
                   props='player_points,player_rebounds,player_assists,player_threes,player_points_rebounds_assists'),
-    'nhl':   dict(key='icehockey_nhl',         periods='h2h_p1,spreads_p1,totals_p1',
-                  props='player_points,player_shots_on_goal,player_total_saves'),
-    'ncaam': dict(key='basketball_ncaab',      periods='spreads_h1,totals_h1',
+    'nhl':   dict(key='icehockey_nhl',         periods='h2h_p1,spreads_p1,totals_p1,h2h_3_way_p1,team_totals',
+                  props='player_points,player_shots_on_goal,player_goals,player_total_saves'),
+    'ncaam': dict(key='basketball_ncaab',      periods='h2h_h1,spreads_h1,totals_h1,team_totals',
                   props='player_points,player_rebounds,player_assists,player_threes'),
-    'ncaaw': dict(key='basketball_wncaab',     periods='h2h_h1,spreads_h1,totals_h1',
+    'ncaaw': dict(key='basketball_wncaab',     periods='h2h_h1,spreads_h1,totals_h1,team_totals',
                   props='player_points,player_rebounds,player_assists,player_threes'),
-    'nfl':   dict(key='americanfootball_nfl',  periods='h2h_h1,spreads_h1,totals_h1',
+    'nfl':   dict(key='americanfootball_nfl',  periods='h2h_h1,spreads_h1,totals_h1,h2h_q1,spreads_q1,totals_q1,team_totals',
                   props='player_pass_yds,player_rush_yds,player_reception_yds,player_receptions,player_pass_tds'),
-    'fbs':   dict(key='americanfootball_ncaaf', periods='h2h_h1,spreads_h1,totals_h1',
+    'fbs':   dict(key='americanfootball_ncaaf', periods='h2h_h1,spreads_h1,totals_h1,team_totals',
                   props='player_pass_yds,player_rush_yds,player_reception_yds'),
 }
 COLS = ['snap', 'kind', 'sport', 'event_id', 'commence', 'away', 'home', 'book', 'market', 'outcome', 'point', 'price', 'player', 'book_update']
@@ -89,7 +90,7 @@ def rows(ev, kind, sport):
     for b in ev.get('bookmakers', []):
         for m in b.get('markets', []):
             for o in m.get('outcomes', []):
-                player = o.get('description', '') if m['key'].startswith('player_') else ''
+                player = o.get('description', '') if (m['key'].startswith('player_') or m['key'] == 'team_totals') else ''   # team name for team totals
                 out.append([iso(NOW), kind, sport, ev['id'], ev['commence_time'], ev['away_team'], ev['home_team'], b['key'], m['key'],
                             o.get('name'), o.get('point', ''), o.get('price'), player, m.get('last_update', b.get('last_update', ''))])
     return out
@@ -158,6 +159,17 @@ def run(mode, only=None):
                 ev = per_event(sport, e['id'], cfg['props'], 'props_open', mode, PROP_BOOKS)
                 if ev: out += rows(ev, 'props_open', sport); S['props_open'][e['id']] = iso(NOW)
             write(sport, 'props_open', out)
+        elif mode == 'now':   # Nov 12 (A28): pick time lines for a card run (texas222 retired); periods and team totals when asked
+            evs = events(sport, NOW + dt.timedelta(minutes=2), NOW + dt.timedelta(hours=30))
+            if not evs: continue
+            full(sport, 'now', [e['id'] for e in evs], mode)
+            if os.environ.get('NOW_PERIODS') == '1' and cfg['periods']:
+                per = []
+                for e in evs:
+                    if not ok(RESERVE_PERIODS): print('  periods skipped: budget guard'); break
+                    ev = per_event(sport, e['id'], cfg['periods'], 'now_periods', mode)
+                    if ev: per += rows(ev, 'now_periods', sport)
+                write(sport, 'now_periods', per)
         elif mode == 'close':
             win = events(sport, NOW + dt.timedelta(minutes=2), NOW + dt.timedelta(minutes=CLOSE_WINDOW_MIN))
             if not win: continue
