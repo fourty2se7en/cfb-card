@@ -78,10 +78,12 @@ def lines(rs, home, away):
 def props(rs):
     out = defaultdict(dict)
     for (pl, mk), grp in group(rs, lambda r: (r['player'], r['market'])).items():
-        pts = [float(r['point']) for r in grp if r['point'] != '']
-        e = dict(line=med(pts), books=len({r['book'] for r in grp}))
+        pt, ov = main_line([r for r in grp if r['outcome'] == 'Over'])   # Nov 12: the line most books post, prices at that line
+        if pt is None: pt, _ = main_line(grp)
+        at = [r for r in grp if r['point'] != '' and float(r['point']) == pt] if pt is not None else grp
+        e = dict(line=pt, books=len({r['book'] for r in at}))
         for side in ('Over', 'Under'):
-            p = [dec(r['price']) for r in grp if r['outcome'] == side]
+            p = [dec(r['price']) for r in at if r['outcome'] == side]
             if p: e[side.lower()] = amer(st.median(p))
         out[pl][mk] = e
     return dict(out)
