@@ -128,9 +128,12 @@ for s in MIN:
                 st, sd = mm.group(1).strip().lower(), mm.group(2)
                 lbl = str(r.get('label', '')).split(',')[0].strip()
                 F = [p for p in picks if p.get('market') == 'Prop' and p.get('result') in ('win', 'loss', 'push') and prop_rule_name(p) == lbl]
-                L = [p for p in F if str(p.get('tier') or p.get('grade') or '').upper() == 'PLAY' and not p.get('held')]
+                L = [p for p in F if not p.get('held')]   # Nov 13 (Trina): every prop pick counts, leans included
                 r['fits'] = rec(F) if F else None
-                if not L: r['real'] = None; r['real_month'] = None
+                if not L:   # Nov 13: no status record = off until 2 positive pick days
+                    if r.get('on'): print(s, r.get('label'), 'turned off: no status record yet')
+                    r['real'] = None; r['real_month'] = None; r['on'] = False
+                    r['pending_on'] = 'No status record yet: turns on after 2 positive pick days'
                 if L:
                     real = rec(L); r['real'] = real; on = real['u'] >= 0; r.pop('pending_on', None)
                     mo = [p for p in L if str(p.get('date'))[:7] == month]; r['real_month'] = rec(mo, 'Nov') if mo else None
