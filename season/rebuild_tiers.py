@@ -94,6 +94,19 @@ def prop_side(p):
     if re.search(r'\bunder\b', r, re.I): return 'Under'
     if re.search(r'\bover\b', r, re.I): return 'Over'
     return ''
+def prop_tier(p):
+    """Nov 13/14: prop tier by edge over the price; old docs fall back to their edge, then PLAY=Solid, LEAN=Lean."""
+    t = str(p.get('tier') or '')
+    if t in ('Strong', 'Solid', 'Lean'): return t
+    e = p.get('edge')
+    try: e = float(str(e).replace('%', '').replace('+', ''))
+    except Exception: e = None
+    if e is not None:
+        return 'Strong' if e >= 5 else 'Solid' if e >= 3 else 'Lean'
+    g = str(p.get('grade') or p.get('tier') or '').upper()
+    return 'Solid' if g == 'PLAY' else 'Lean'
+
+
 def prop_rule_name(p):
     c, sd = prop_cat(p.get('stat'), p.get('rule')), prop_side(p)
     return c + (' · ' + sd if sd else '')
@@ -123,27 +136,41 @@ for s in MIN:
     month = (TODAY or max([str(b.get('date', '')) for b in bt] or ['2026-11']))[:7]
     for r in m['rules']:
         if r.get('market') == 'Prop':
+            # Nov 14 (Trina): prop rules are tracked by tier like game rules; each tier has its own status record and turns on or off on its own
             mm = re.match(r'^(.*?) · (Over|Under)', str(r.get('label', '')))
             if mm:
-                st, sd = mm.group(1).strip().lower(), mm.group(2)
                 lbl = str(r.get('label', '')).split(',')[0].strip()
-                F = [p for p in picks if p.get('market') == 'Prop' and p.get('result') in ('win', 'loss', 'push') and prop_rule_name(p) == lbl]
-                L = [p for p in F if not p.get('held')]   # Nov 13 (Trina): every prop pick counts, leans included
+                F = [p for p in picks if p.get('market') == 'Prop' and p.get('result') in ('win', 'loss', 'push') and prop_rule_name(p) == lbl and not p.get('held')]
+                old = r.get('tiers') or {}
+                rule_was_on = r.get('on') is not False and r.get('real') is not None
+                byt = collections.defaultdict(list)
+                for p in F: byt[prop_tier(p)].append(p)
+                new = {}
+                for t in ('Strong', 'Solid', 'Lean'):
+                    L = byt.get(t, []); o = old.get(t) or {}
+                    v = dict(season=None, month=None, n=len(L), fits=rec(L) if L else None)
+                    if not L:
+                        v.update(real=None, real_month=None, on=False, pending_on='No status record yet: turns on after 2 positive pick days')
+                    else:
+                        real = rec(L); mo = [p for p in L if str(p.get('date'))[:7] == month]
+                        v.update(real=real, real_month=rec(mo, 'Nov') if mo else None)
+                        was = (bool(o.get('on')) and o.get('real') is not None) if o else rule_was_on
+                        on = real['u'] >= 0
+                        if on and not was:
+                            ok, why = two_days(L)
+                            if not ok: on = False; v['pending_on'] = why
+                        if was != on:
+                            print(s, lbl, t, 'status record turns it', 'on' if on else 'off', f"{real['w']}-{real['l']} {real['u']:+.2f}u")
+                            v['switched'] = dict(date=TODAY, to='on' if on else 'off', record=f"{real['w']}-{real['l']} {real['u']:+.2f}u")
+                        elif o.get('switched'): v['switched'] = o['switched']
+                        v['on'] = on
+                    v['basis'] = 'prop tier by edge (Strong 5+, Solid 3 to 5, Lean 1.5 to 3); status record per tier (Trina Nov 14)'
+                    new[t] = v
+                r['tiers'] = new
                 r['fits'] = rec(F) if F else None
-                if not L:   # Nov 13: no status record = off until 2 positive pick days
-                    if r.get('on'): print(s, r.get('label'), 'turned off: no status record yet')
-                    r['real'] = None; r['real_month'] = None; r['on'] = False
-                    r['pending_on'] = 'No status record yet: turns on after 2 positive pick days'
-                if L:
-                    real = rec(L); r['real'] = real; on = real['u'] >= 0; r.pop('pending_on', None)
-                    mo = [p for p in L if str(p.get('date'))[:7] == month]; r['real_month'] = rec(mo, 'Nov') if mo else None
-                    if on and r.get('on') is False:
-                        ok, why = two_days(L)
-                        if not ok: on = False; r['pending_on'] = why
-                    if (r.get('on') is not False) != on:
-                        print(s, r.get('label'), 'status record turns it', 'on' if on else 'off', f"{real['w']}-{real['l']} {real['u']:+.2f}u")
-                        r['switched'] = dict(date=TODAY, to='on' if on else 'off', record=f"{real['w']}-{real['l']} {real['u']:+.2f}u")
-                    r['on'] = on
+                r['real'] = rec(F) if F else None   # whole rule, reference only
+                r['on'] = any(v.get('on') for v in new.values())   # rule shows on when any tier is on
+                r.pop('pending_on', None)
             continue
         keys = r.get('keys') or [r['key']]; old = r.get('tiers') or {}
         new = {t: {k: v for k, v in dict(o).items() if k not in ('real', 'real_month', 'fits', 'pending_on')} for t, o in old.items() if isinstance(o, dict)}   # Nov 13: keep every stored tier
