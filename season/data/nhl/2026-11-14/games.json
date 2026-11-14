@@ -1,0 +1,114 @@
+[
+ {
+  "id": 2026020321,
+  "away": "SEA",
+  "home": "CAR",
+  "start": "2026-11-14T18:00:00Z",
+  "venue": "Veikkaus Arena",
+  "neutral": true
+ },
+ {
+  "id": 2026020312,
+  "away": "WPG",
+  "home": "CHI",
+  "start": "2026-11-14T20:30:00Z",
+  "venue": "United Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020313,
+  "away": "MIN",
+  "home": "BOS",
+  "start": "2026-11-15T00:00:00Z",
+  "venue": "TD Garden",
+  "neutral": false
+ },
+ {
+  "id": 2026020314,
+  "away": "EDM",
+  "home": "TOR",
+  "start": "2026-11-15T00:00:00Z",
+  "venue": "Scotiabank Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020315,
+  "away": "COL",
+  "home": "MTL",
+  "start": "2026-11-15T00:00:00Z",
+  "venue": "Centre Bell",
+  "neutral": false
+ },
+ {
+  "id": 2026020316,
+  "away": "DET",
+  "home": "TBL",
+  "start": "2026-11-15T00:00:00Z",
+  "venue": "Benchmark International Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020317,
+  "away": "OTT",
+  "home": "PIT",
+  "start": "2026-11-15T00:00:00Z",
+  "venue": "PPG Paints Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020318,
+  "away": "NJD",
+  "home": "WSH",
+  "start": "2026-11-15T00:00:00Z",
+  "venue": "Capital One Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020319,
+  "away": "PHI",
+  "home": "CBJ",
+  "start": "2026-11-15T00:00:00Z",
+  "venue": "Nationwide Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020320,
+  "away": "FLA",
+  "home": "STL",
+  "start": "2026-11-15T00:00:00Z",
+  "venue": "Enterprise Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020322,
+  "away": "BUF",
+  "home": "DAL",
+  "start": "2026-11-15T01:00:00Z",
+  "venue": "American Airlines Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020323,
+  "away": "SJS",
+  "home": "UTA",
+  "start": "2026-11-15T02:00:00Z",
+  "venue": "Delta Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020324,
+  "away": "NYI",
+  "home": "ANA",
+  "start": "2026-11-15T03:00:00Z",
+  "venue": "Honda Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020325,
+  "away": "CGY",
+  "home": "LAK",
+  "start": "2026-11-15T03:00:00Z",
+  "venue": "Crypto.com Arena",
+  "neutral": false
+ }
+]
