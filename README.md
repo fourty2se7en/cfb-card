@@ -4,6 +4,10 @@ College football analysis, same methodology as the NFL card.
 
 **This repo also runs the odds pull for every Season Cards sport** (NBA, NHL, NCAAM, NCAAW, NFL, FBS): see `odds/README.md` and `.github/workflows/odds.yml`. The college football files are under `scripts/`; the all sports odds files are under `odds/`.
 
+## Prop write ups (all Season Cards sports)
+    python3 season/prop_writeup.py prop.json [game.json] [--fbs-stats scripts/data/season_stats.csv]
+or `from prop_writeup import build; out = build(prop_doc, game_doc, team_stats)` and write `out['for']`, `out['against']` to the prop doc's `summary` and `out['matchup']` to its `matchup`. For: the player's numbers, the opponent defense against that stat and the model; Against: real data only or "Nothing notable."
+
 ## Setup
 1. Free API key from https://collegefootballdata.com/key
 2. Store it as a repository secret named `CFBD_API_KEY`
