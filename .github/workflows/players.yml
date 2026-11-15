@@ -1,0 +1,51 @@
+# Player and team stat pulls for the Season Cards prop models (Trina, Nov 14 2026, list B115): no Chrome needed for prop data.
+# season/players_pull.py explains every file. TIMES ARE UTC; Phoenix is UTC-7 year round.
+#   16:45 UTC = 9:45 AM Phoenix  daily: all sports with games today (before the 10:35 card runs)
+# On demand: Run workflow (mode, sports, date) or `gh workflow run players.yml -f mode=all`.
+name: players
+
+on:
+  schedule:
+    - cron: "45 16 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "all, nba, nhl, fbs, teams, backfill, build or probe"
+        required: false
+        default: "all"
+      sports:
+        description: "comma list (nba,nhl,ncaam,ncaaw,nfl,fbs); empty = all with games"
+        required: false
+        default: ""
+      date:
+        description: "YYYY-MM-DD Phoenix; empty = today"
+        required: false
+        default: ""
+
+concurrency:
+  group: players
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Pull
+        run: python3 season/players_pull.py "${{ github.event.inputs.mode || 'all' }}" "${{ github.event.inputs.sports }}" "${{ github.event.inputs.date }}"
+      - name: Commit
+        run: |
+          git config user.name  "cfb-card-bot"
+          git config user.email "cfb-card-bot@users.noreply.github.com"
+          git add -A season/data || true
+          git diff --staged --quiet && exit 0
+          git commit -q -m "players ${{ github.event.inputs.mode || 'all' }}: $(date -u +%Y-%m-%dT%H:%MZ)"
+          bash season/push_retry.sh
