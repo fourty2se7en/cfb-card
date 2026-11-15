@@ -1,0 +1,43 @@
+Oklahoma|John Mateer|pass|225/3,189/1,238/2,231/2,155/0,270/1,283/2,244/2,207/2
+Oklahoma|Isaiah Sategna III|rec|76/1,9/0,101/1,81/0,64/0,83/0,164/1,13/0,34/1
+Oklahoma|Rocky Beers|rec|43/1,94/0,34/0,84/1,29/0,45/1,66/1,51/0,72/0
+Oklahoma|Manny Choice|rec|14/1,10/0,98/0,3/0,19/0,21/0
+Oklahoma|Trell Harris|rec|61/1,43/0
+Oklahoma|Ivan Carreon|rec|88/2
+Oklahoma|Hayden Hansen|rec|15/0,49/1,10/0,5/0,5/0,3/1
+Oklahoma|Parker Livingstone|rec|6/0,8/0,20/0,17/0,26/0
+Oklahoma|Jacob Jordan|rec|10/0,3/0,25/0,36/0
+Oklahoma|Jonathan Hatton Jr.|rec|7/0,6/0,15/0,19/0,22/0
+Oklahoma|Lloyd Avant|rec|6/0,13/0,12/0,16/0,1/0,9/0,-2/0,6/0
+Oklahoma|Elijah Thomas|rec|24/0,9/0,5/0,11/0,9/0
+Oklahoma|Mackenzie Alleyne|rec|22/1,18/0,11/0
+Oklahoma|Jack Van Dorselaer|rec|8/0,17/0
+Oklahoma|Lloyd Avant|rush|79/1,35/0,27/0,23/0,72/1,31/0,55/0,25/0,47/0
+Oklahoma|John Mateer|rush|7/0,45/0,17/0,7/0,-6/0,9/0,37/0,29/0,56/0
+Oklahoma|Tory Blaylock|rush|3/0,2/0,10/0,7/0,23/0,71/0,32/0,30/0
+Oklahoma|Jonathan Hatton Jr.|rush|21/0,8/0,14/0,12/0,13/0,-1/0,26/0,7/0
+Oklahoma|Xavier Robinson|rush|30/0,6/0,9/0,5/0
+Oklahoma|Isaiah Sategna III|rush|11/0,6/0,-1/0,24/0,3/0,5/0
+Oklahoma|Ben McCreary|rush|40/0
+Ole Miss|Trinidad Chambliss|pass|336/3,225/2,363/2,298/1,213/3,241/3,250/2,263/2,170/0
+Ole Miss|Deuce Knight|pass|68/0,16/0
+Ole Miss|Deuce Alexander|rec|159/2,76/0,60/1,134/1,74/1,20/0,87/0,59/0
+Ole Miss|Horatio Fields|rec|47/0,66/1,53/0,5/0,19/0,44/1,50/2,73/1,96/0
+Ole Miss|Caleb Odom|rec|66/1,88/0,47/0,29/0,37/1,59/0,34/0,23/0
+Ole Miss|Traylon Ray|rec|30/0,26/0,115/1,17/0,43/0,45/0,13/0,17/0
+Ole Miss|Caleb Cunningham|rec|65/0,28/0,22/0,61/1,55/1
+Ole Miss|Luke Hasz|rec|11/0,6/0,15/0,8/0,7/0,6/0,8/0,28/0
+Ole Miss|Johntay Cook II|rec|12/1,14/0,35/0,13/0,8/0
+Ole Miss|Makhi Frazier|rec|3/0,4/0,16/0,2/0,22/0
+Ole Miss|Samari Reed|rec|21/0,13/0,12/0
+Ole Miss|Dillon Alfred|rec|34/0
+Ole Miss|Kewan Lacy|rec|19/0,-1/0,-2/0,11/0,6/0
+Ole Miss|Michael Smith|rec|12/0,4/1,5/0
+Ole Miss|Kewan Lacy|rush|61/1,87/2,43/1,39/1,122/0,36/0
+Ole Miss|Makhi Frazier|rush|27/0,11/0,42/0,73/0,101/0,47/0,56/0,8/0
+Ole Miss|Trinidad Chambliss|rush|60/1,2/0,2/1,44/2,5/1,14/1,7/0,65/1,-12/0
+Ole Miss|Shekai Mills-Knight|rush|42/1,71/1,52/1
+Ole Miss|JT Lindsey|rush|25/0,3/0,20/0,31/0,7/0,8/0
+Ole Miss|Deuce Knight|rush|27/1,14/0,19/1,5/0
+Ole Miss|Joshua Dye|rush|11/0,15/0,-1/0,13/0
+Ole Miss|Deuce Alexander|rush|4/0,16/0,7/0,6/0
