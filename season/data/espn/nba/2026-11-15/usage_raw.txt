@@ -1,4 +1,4 @@
-ESPN box scores 2026-27 totals, built Nov 15 about 6:38 AM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
+ESPN box scores 2026-27 totals, built Nov 15 about 9:43 AM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
 ATL|0.072,0.075,0.132,0.057|Kingston Flemings(12g),Asa Newell(5g)
 BOS|0.000,0.000,0.000,0.000|
 CHA|0.080,0.057,0.169,0.042|Dennis Schroder(9g),Kon Knueppel(1g)
