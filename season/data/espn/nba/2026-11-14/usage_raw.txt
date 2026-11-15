@@ -1,4 +1,4 @@
-ESPN box scores 2026-27 totals, built Nov 14 about 6:45 PM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
+ESPN box scores 2026-27 totals, built Nov 14 about 11:43 PM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
 BKN|0.000,0.000,0.000,0.000|
 CHI|0.157,0.171,0.075,0.167|Caleb Wilson(10g),Tobe Awaka(4g)
 CLE|0.179,0.204,0.172,0.184|Evan Mobley(12g),Sam Merrill(9g)
