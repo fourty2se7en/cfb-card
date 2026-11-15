@@ -108,6 +108,7 @@ def build(sport, day):
         if latest('close_periods'): e['periods_close'] = {p: v for p, v in lines(latest('close_periods'), h, a).items() if p != 'game'}
         if latest('props_open'): e['props_open'] = props(latest('props_open'))
         if latest('close_props'): e['props_close'] = props(latest('close_props'))
+        if latest('props_now'): e['props_now'] = props(latest('props_now')); e['props_now_at'] = latest('props_now')[0]['snap']   # Nov 14 (B115)
         out[k] = e
     return out
 

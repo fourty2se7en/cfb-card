@@ -1,0 +1,3 @@
+all
+Edit the first word and push to start players.yml (Nov 14, B115): all, teams, nba, nba_raw, nhl, fbs or backfill.
+The second word, if any, is a comma list of sports (nba,nhl,ncaam,ncaaw,nfl,fbs). Card runs can also start it with Run workflow.

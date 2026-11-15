@@ -6,6 +6,8 @@ Every tick (about every 30 minutes, at :13 and :43):
           start within 75 minutes)
   espn    finals for yesterday (once after 02:00), slate, injuries, standings, rankings, transactions (after 06:00, 10:00, 14:00)
   nhl     NHL API team, skater, standings, finals and DraftKings files (after 06:30 and 13:00)
+  players (Nov 14, B115) season/players_pull.py all after 09:15 (team season stats and ranks, NBA, NHL and FBS player logs),
+          and NBA season_raw.txt again after props_open (it needs the prop lines)
 Then commits whatever changed. Times are Phoenix (UTC-7, no daylight saving)."""
 import datetime as dt, json, os, subprocess, sys, time
 from pathlib import Path
@@ -19,7 +21,8 @@ T0 = time.time()
 
 def sh(cmd):
     print('$', ' '.join(cmd), flush=True)
-    r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=1500)
+    try: r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=2400)
+    except subprocess.TimeoutExpired: print('timeout', flush=True); return 1
     print((r.stdout or '')[-1500:], (r.stderr or '')[-800:], flush=True)
     return r.returncode
 
@@ -28,9 +31,7 @@ def commit(msg):
     sh(['git', 'add', '-A', 'odds', 'season/data', 'season/state.json'])
     if subprocess.run(['git', 'diff', '--staged', '--quiet'], cwd=ROOT).returncode == 0: return
     sh(['git', 'commit', '-q', '-m', msg])
-    for _ in range(4):
-        if sh(['git', 'pull', '--rebase', '--autostash', '-q']) == 0 and sh(['git', 'push', '-q']) == 0: return
-        time.sleep(5)
+    sh(['bash', 'season/push_retry.sh'])   # B116 (Nov 14): retries and settles rebase conflicts with odds or players commits
 
 
 def tick():
@@ -47,6 +48,8 @@ def tick():
         if once(k, t): sh(['python3', 'season/espn_pull.py', 'slate', '', day])
     for k, t in (('nhl_am', 6 * 60 + 30), ('nhl_pm', 13 * 60)):
         if once(k, t): sh(['python3', 'season/nhl_pull.py', day])
+    if once('players_am', 9 * 60 + 15): sh(['python3', 'season/players_pull.py', 'all', '', day])
+    if st.get('props_open') == day and once('players_nba_raw', 10 * 60 + 5): sh(['python3', 'season/players_pull.py', 'nba_raw', 'nba', day])
     STATE.write_text(json.dumps(st, indent=1, sort_keys=True))
     commit(f'season data: {now.strftime("%Y-%m-%d %H:%M")} Phoenix')
 

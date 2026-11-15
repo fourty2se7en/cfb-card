@@ -7,6 +7,8 @@
 #   10:09 Phoenix  props_open  opening player props (NBA, NHL, NFL, FBS)
 #   :13 and :43    close       closing lines for games starting in the next 75 minutes (refreshed every run), plus
 #                              first half or first period lines and closing props once per game
+#   on demand      props_now   (Nov 14, B115) rereads props for every game left today, even games read before; then rebuilds
+#                              the NBA season_raw.txt with the new lines (season/players_pull.py nba_raw)
 # Off-the-hour minutes, because GitHub starts top-of-hour schedules late when it is busy.
 
 name: odds
@@ -14,13 +16,13 @@ name: odds
 on:
   # Nov 12 (A27): the schedule moved to season.yml (season/loop.py), which runs these pulls every 30 minutes without
   # relying on GitHub's cron. This workflow stays for manual pulls (run.txt or Run workflow).
-  push:                     # editing odds/run.txt starts a run; its first word is the mode (open, props_open, close, status)
+  push:                     # editing odds/run.txt starts a run; its first word is the mode (open, props_open, props_now, now, close, status)
     branches: [main]
     paths: [odds/run.txt]
   workflow_dispatch:
     inputs:
       mode:
-        description: "open, props_open, close, now or status"
+        description: "open, props_open, props_now, close, now or status"
         required: false
         default: "status"
       sports:
@@ -57,7 +59,7 @@ jobs:
             "9 14 * * *") echo "mode=open" >> "$GITHUB_OUTPUT" ;;
             "9 17 * * *") echo "mode=props_open" >> "$GITHUB_OUTPUT" ;;
             "13,43 * * * *") echo "mode=close" >> "$GITHUB_OUTPUT" ;;
-            *) if [ "${{ github.event_name }}" = "push" ]; then m=$(head -1 odds/run.txt | cut -d' ' -f1); case "$m" in open|props_open|close|status) ;; *) m=status ;; esac
+            *) if [ "${{ github.event_name }}" = "push" ]; then m=$(head -1 odds/run.txt | cut -d' ' -f1); case "$m" in open|props_open|props_now|now|close|status) ;; *) m=status ;; esac
                  echo "mode=$m" >> "$GITHUB_OUTPUT"
                else echo "mode=${{ github.event.inputs.mode || 'status' }}" >> "$GITHUB_OUTPUT"; fi ;;
           esac
@@ -66,13 +68,15 @@ jobs:
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           NOW_PERIODS: ${{ github.event.inputs.periods }}
-        run: python3 odds/pull.py "${{ steps.mode.outputs.mode }}" "${{ github.event.inputs.sports }}"
+        run: |
+          python3 odds/pull.py "${{ steps.mode.outputs.mode }}" "${{ github.event.inputs.sports }}"
+          if [ "${{ steps.mode.outputs.mode }}" = "props_now" ] || [ "${{ steps.mode.outputs.mode }}" = "props_open" ]; then python3 season/players_pull.py nba_raw nba || true; fi
 
       - name: Commit odds
         run: |
           git config user.name  "cfb-card-bot"
           git config user.email "cfb-card-bot@users.noreply.github.com"
-          git add -A odds || true
+          git add -A odds season/data || true
           git diff --staged --quiet && exit 0
           git commit -m "odds ${{ steps.mode.outputs.mode }}: $(date -u +%Y-%m-%dT%H:%MZ)"
-          for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
+          bash season/push_retry.sh   # B116: retries and settles rebase conflicts with the loop commit

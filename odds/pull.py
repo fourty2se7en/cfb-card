@@ -12,6 +12,8 @@ Modes
   close       every 30 minutes. Full game lines for games starting in the next 75 minutes (one call per sport, 3 credits, every run,
               the latest read before tip is the close), plus first half or first period lines and closing props once per game.
   now         Nov 12 (A28): current lines for a card run (full game lines; periods and team totals with NOW_PERIODS=1).
+  props_now   Nov 14 (B115): player props for every game left today (Phoenix day, to 04:00 next morning), even games read
+              before (props_open reads each game once). Same cost as props_open: 1 credit per prop market returned per game.
   status      prints the credits left (costs nothing: the events endpoint is free).
 
 Cost: 1 credit per market per region (us) per call; markets that come back empty cost nothing; the events list is free.
@@ -170,6 +172,16 @@ def run(mode, only=None):
                     ev = per_event(sport, e['id'], cfg['periods'], 'now_periods', mode)
                     if ev: per += rows(ev, 'now_periods', sport)
                 write(sport, 'now_periods', per)
+        elif mode == 'props_now':   # Nov 14 (B115): reread props for every game today (Phoenix), even games already read
+            if not cfg['props']: continue
+            end = (NOW.astimezone(PHX).replace(hour=0, minute=0, second=0) + dt.timedelta(days=1, hours=4)).astimezone(dt.timezone.utc)
+            evs = events(sport, NOW + dt.timedelta(minutes=2), end)
+            out = []
+            for e in evs:
+                if not ok(RESERVE_PROPS): print('  props skipped: budget guard'); break
+                ev = per_event(sport, e['id'], cfg['props'], 'props_now', mode, PROP_BOOKS)
+                if ev: out += rows(ev, 'props_now', sport)
+            write(sport, 'props_now', out)
         elif mode == 'close':
             win = events(sport, NOW + dt.timedelta(minutes=2), NOW + dt.timedelta(minutes=CLOSE_WINDOW_MIN))
             if not win: continue
