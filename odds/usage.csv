@@ -967,3 +967,13 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-15T01:54:29Z,props_now,nhl,event_odds,200,4,15280
 2026-11-15T01:54:29Z,props_now,nhl,event_odds,200,4,15276
 2026-11-15T01:54:29Z,props_now,nhl,event_odds,200,4,15272
+2026-11-15T02:13:00Z,close,nhl,odds,200,3,15269
+2026-11-15T02:13:00Z,close,nhl,event_odds,200,6,15263
+2026-11-15T02:13:00Z,close,nhl,event_odds,200,4,15259
+2026-11-15T02:13:00Z,close,nhl,event_odds,200,6,15253
+2026-11-15T02:13:00Z,close,nhl,event_odds,200,4,15249
+2026-11-15T02:13:00Z,close,ncaam,odds,200,3,15246
+2026-11-15T02:13:00Z,close,ncaam,event_odds,200,4,15242
+2026-11-15T02:13:00Z,close,ncaam,event_odds,200,4,15238
+2026-11-15T02:13:00Z,close,fbs,odds,200,3,15235
+2026-11-15T02:13:00Z,close,fbs,event_odds,200,4,15231
