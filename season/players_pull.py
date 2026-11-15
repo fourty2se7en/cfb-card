@@ -490,7 +490,7 @@ def nhl(day):
         rows = []
         for p in cs.get('skaters', []):
             if p.get('gamesPlayed', 0) < 1: continue
-            lg = [g for g in (j(f'{NHL}/v1/player/{p["playerId"]}/game-log/now') or {}).get('gameLog', []) if g.get('gameTypeId') == 2]
+            lg = [g for g in (j(f'{NHL}/v1/player/{p["playerId"]}/game-log/now') or {}).get('gameLog', []) if g.get('gameTypeId', 2) == 2]
             lg.sort(key=lambda g: g['gameDate'])
             log = [dict(date=g['gameDate'], opp=g.get('opponentAbbrev'), home=g.get('homeRoadFlag') == 'H', sog=g.get('shots', 0), g=g.get('goals', 0), a=g.get('assists', 0),
                         pts=g.get('points', 0), ppp=g.get('powerPlayPoints', 0), toi=g.get('toi')) for g in lg]
@@ -509,7 +509,7 @@ def nhl(day):
         gl = []
         for g in cs.get('goalies', []):
             if g.get('gamesPlayed', 0) < 1: continue
-            lg = sorted([x for x in (j(f'{NHL}/v1/player/{g["playerId"]}/game-log/now') or {}).get('gameLog', []) if x.get('gameTypeId') == 2], key=lambda x: x['gameDate'])
+            lg = sorted([x for x in (j(f'{NHL}/v1/player/{g["playerId"]}/game-log/now') or {}).get('gameLog', []) if x.get('gameTypeId', 2) == 2], key=lambda x: x['gameDate'])
             log = [dict(date=x['gameDate'], opp=x.get('opponentAbbrev'), home=x.get('homeRoadFlag') == 'H', started=bool(x.get('gamesStarted')), sa=x.get('shotsAgainst', 0),
                         ga=x.get('goalsAgainst', 0), saves=(x.get('shotsAgainst', 0) or 0) - (x.get('goalsAgainst', 0) or 0), decision=x.get('decision')) for x in lg]
             st_ = [x for x in log if x['started']]
