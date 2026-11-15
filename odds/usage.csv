@@ -984,3 +984,7 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-15T02:43:00Z,close,fbs,event_odds,200,3,15215
 2026-11-15T02:43:00Z,close,fbs,event_odds,200,4,15211
 2026-11-15T02:43:00Z,close,fbs,event_odds,200,3,15208
+2026-11-15T03:13:00Z,close,nhl,odds,200,3,15205
+2026-11-15T03:13:00Z,close,fbs,odds,200,3,15202
+2026-11-15T03:13:00Z,close,fbs,event_odds,200,4,15198
+2026-11-15T03:13:00Z,close,fbs,event_odds,200,3,15195
