@@ -1,0 +1,3 @@
+ESPN 2025-26 home/road splits per prop stat (avg x games), built Nov 16 about 9:43 AM Phoenix. B2B rows: players with 20+ games in the repo logs, both seasons: group (S = 28+ MPG, O = 15 to 28), b2b games, b2b MPG, b2b PRA per minute, other games, other MPG, other PRA per minute
+B2B|S|819,31.60,0.9082,2997,31.85,0.9041
+B2B|O|1183,23.14,0.7230,4415,22.09,0.7125
