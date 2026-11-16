@@ -5228,67 +5228,67 @@ Ohio State,Big Ten,totalYards,4580
 Ohio State,Big Ten,totalYardsOpponent,2861
 Ohio State,Big Ten,turnovers,13
 Ohio State,Big Ten,turnoversOpponent,12
-Oklahoma,SEC,firstDowns,163
-Oklahoma,SEC,firstDownsOpponent,128
-Oklahoma,SEC,fourthDownConversions,5
+Oklahoma,SEC,firstDowns,182
+Oklahoma,SEC,firstDownsOpponent,147
+Oklahoma,SEC,fourthDownConversions,6
 Oklahoma,SEC,fourthDownConversionsOpponent,9
-Oklahoma,SEC,fourthDowns,10
-Oklahoma,SEC,fourthDownsOpponent,18
+Oklahoma,SEC,fourthDowns,12
+Oklahoma,SEC,fourthDownsOpponent,19
 Oklahoma,SEC,fumblesLost,7
 Oklahoma,SEC,fumblesLostOpponent,4
 Oklahoma,SEC,fumblesRecovered,4
 Oklahoma,SEC,fumblesRecoveredOpponent,7
-Oklahoma,SEC,games,9
+Oklahoma,SEC,games,10
 Oklahoma,SEC,interceptions,8
 Oklahoma,SEC,interceptionsOpponent,9
 Oklahoma,SEC,interceptionTDs,2
 Oklahoma,SEC,interceptionTDsOpponent,1
 Oklahoma,SEC,interceptionYards,109
 Oklahoma,SEC,interceptionYardsOpponent,148
-Oklahoma,SEC,kickReturns,6
-Oklahoma,SEC,kickReturnsOpponent,8
+Oklahoma,SEC,kickReturns,7
+Oklahoma,SEC,kickReturnsOpponent,10
 Oklahoma,SEC,kickReturnTDs,0
 Oklahoma,SEC,kickReturnTDsOpponent,0
-Oklahoma,SEC,kickReturnYards,123
-Oklahoma,SEC,kickReturnYardsOpponent,133
-Oklahoma,SEC,netPassingYards,2048
-Oklahoma,SEC,netPassingYardsOpponent,1536
-Oklahoma,SEC,passAttempts,284
-Oklahoma,SEC,passAttemptsOpponent,219
-Oklahoma,SEC,passCompletions,184
-Oklahoma,SEC,passCompletionsOpponent,133
+Oklahoma,SEC,kickReturnYards,149
+Oklahoma,SEC,kickReturnYardsOpponent,174
+Oklahoma,SEC,netPassingYards,2159
+Oklahoma,SEC,netPassingYardsOpponent,1663
+Oklahoma,SEC,passAttempts,303
+Oklahoma,SEC,passAttemptsOpponent,247
+Oklahoma,SEC,passCompletions,194
+Oklahoma,SEC,passCompletionsOpponent,147
 Oklahoma,SEC,passesIntercepted,9
 Oklahoma,SEC,passesInterceptedOpponent,8
 Oklahoma,SEC,passingTDs,15
-Oklahoma,SEC,passingTDsOpponent,11
-Oklahoma,SEC,penalties,64
-Oklahoma,SEC,penaltiesOpponent,59
-Oklahoma,SEC,penaltyYards,526
-Oklahoma,SEC,penaltyYardsOpponent,514
-Oklahoma,SEC,possessionTime,16761
-Oklahoma,SEC,possessionTimeOpponent,15639
-Oklahoma,SEC,puntReturns,13
+Oklahoma,SEC,passingTDsOpponent,12
+Oklahoma,SEC,penalties,68
+Oklahoma,SEC,penaltiesOpponent,66
+Oklahoma,SEC,penaltyYards,565
+Oklahoma,SEC,penaltyYardsOpponent,561
+Oklahoma,SEC,possessionTime,18952
+Oklahoma,SEC,possessionTimeOpponent,17048
+Oklahoma,SEC,puntReturns,15
 Oklahoma,SEC,puntReturnsOpponent,18
-Oklahoma,SEC,puntReturnTDs,2
+Oklahoma,SEC,puntReturnTDs,3
 Oklahoma,SEC,puntReturnTDsOpponent,0
-Oklahoma,SEC,puntReturnYards,167
+Oklahoma,SEC,puntReturnYards,244
 Oklahoma,SEC,puntReturnYardsOpponent,135
-Oklahoma,SEC,rushingAttempts,309
-Oklahoma,SEC,rushingAttemptsOpponent,303
-Oklahoma,SEC,rushingTDs,3
-Oklahoma,SEC,rushingTDsOpponent,9
-Oklahoma,SEC,rushingYards,998
-Oklahoma,SEC,rushingYardsOpponent,1104
-Oklahoma,SEC,sacks,26
-Oklahoma,SEC,sacksOpponent,21
-Oklahoma,SEC,tacklesForLoss,54
-Oklahoma,SEC,tacklesForLossOpponent,52
-Oklahoma,SEC,thirdDownConversions,52
-Oklahoma,SEC,thirdDownConversionsOpponent,31
-Oklahoma,SEC,thirdDowns,133
-Oklahoma,SEC,thirdDownsOpponent,112
-Oklahoma,SEC,totalYards,3046
-Oklahoma,SEC,totalYardsOpponent,2640
+Oklahoma,SEC,rushingAttempts,358
+Oklahoma,SEC,rushingAttemptsOpponent,334
+Oklahoma,SEC,rushingTDs,5
+Oklahoma,SEC,rushingTDsOpponent,10
+Oklahoma,SEC,rushingYards,1186
+Oklahoma,SEC,rushingYardsOpponent,1283
+Oklahoma,SEC,sacks,28
+Oklahoma,SEC,sacksOpponent,24
+Oklahoma,SEC,tacklesForLoss,60
+Oklahoma,SEC,tacklesForLossOpponent,57
+Oklahoma,SEC,thirdDownConversions,61
+Oklahoma,SEC,thirdDownConversionsOpponent,35
+Oklahoma,SEC,thirdDowns,149
+Oklahoma,SEC,thirdDownsOpponent,124
+Oklahoma,SEC,totalYards,3345
+Oklahoma,SEC,totalYardsOpponent,2946
 Oklahoma,SEC,turnovers,15
 Oklahoma,SEC,turnoversOpponent,13
 Oklahoma State,Big 12,firstDowns,261
@@ -5417,67 +5417,67 @@ Old Dominion,Sun Belt,totalYards,2678
 Old Dominion,Sun Belt,totalYardsOpponent,3389
 Old Dominion,Sun Belt,turnovers,21
 Old Dominion,Sun Belt,turnoversOpponent,19
-Ole Miss,SEC,firstDowns,221
-Ole Miss,SEC,firstDownsOpponent,189
+Ole Miss,SEC,firstDowns,240
+Ole Miss,SEC,firstDownsOpponent,208
 Ole Miss,SEC,fourthDownConversions,8
-Ole Miss,SEC,fourthDownConversionsOpponent,6
-Ole Miss,SEC,fourthDowns,12
-Ole Miss,SEC,fourthDownsOpponent,14
+Ole Miss,SEC,fourthDownConversionsOpponent,7
+Ole Miss,SEC,fourthDowns,13
+Ole Miss,SEC,fourthDownsOpponent,16
 Ole Miss,SEC,fumblesLost,4
 Ole Miss,SEC,fumblesLostOpponent,5
 Ole Miss,SEC,fumblesRecovered,5
 Ole Miss,SEC,fumblesRecoveredOpponent,4
-Ole Miss,SEC,games,9
+Ole Miss,SEC,games,10
 Ole Miss,SEC,interceptions,10
 Ole Miss,SEC,interceptionsOpponent,7
 Ole Miss,SEC,interceptionTDs,0
 Ole Miss,SEC,interceptionTDsOpponent,0
 Ole Miss,SEC,interceptionYards,43
 Ole Miss,SEC,interceptionYardsOpponent,56
-Ole Miss,SEC,kickReturns,8
-Ole Miss,SEC,kickReturnsOpponent,13
+Ole Miss,SEC,kickReturns,10
+Ole Miss,SEC,kickReturnsOpponent,14
 Ole Miss,SEC,kickReturnTDs,0
 Ole Miss,SEC,kickReturnTDsOpponent,0
-Ole Miss,SEC,kickReturnYards,143
-Ole Miss,SEC,kickReturnYardsOpponent,326
-Ole Miss,SEC,netPassingYards,2443
-Ole Miss,SEC,netPassingYardsOpponent,2066
-Ole Miss,SEC,passAttempts,344
-Ole Miss,SEC,passAttemptsOpponent,276
-Ole Miss,SEC,passCompletions,214
-Ole Miss,SEC,passCompletionsOpponent,172
+Ole Miss,SEC,kickReturnYards,184
+Ole Miss,SEC,kickReturnYardsOpponent,352
+Ole Miss,SEC,netPassingYards,2570
+Ole Miss,SEC,netPassingYardsOpponent,2177
+Ole Miss,SEC,passAttempts,372
+Ole Miss,SEC,passAttemptsOpponent,295
+Ole Miss,SEC,passCompletions,228
+Ole Miss,SEC,passCompletionsOpponent,182
 Ole Miss,SEC,passesIntercepted,7
 Ole Miss,SEC,passesInterceptedOpponent,10
-Ole Miss,SEC,passingTDs,18
+Ole Miss,SEC,passingTDs,19
 Ole Miss,SEC,passingTDsOpponent,11
-Ole Miss,SEC,penalties,68
-Ole Miss,SEC,penaltiesOpponent,74
-Ole Miss,SEC,penaltyYards,586
-Ole Miss,SEC,penaltyYardsOpponent,611
-Ole Miss,SEC,possessionTime,14684
-Ole Miss,SEC,possessionTimeOpponent,17716
+Ole Miss,SEC,penalties,75
+Ole Miss,SEC,penaltiesOpponent,78
+Ole Miss,SEC,penaltyYards,633
+Ole Miss,SEC,penaltyYardsOpponent,650
+Ole Miss,SEC,possessionTime,16093
+Ole Miss,SEC,possessionTimeOpponent,19907
 Ole Miss,SEC,puntReturns,9
-Ole Miss,SEC,puntReturnsOpponent,9
+Ole Miss,SEC,puntReturnsOpponent,11
 Ole Miss,SEC,puntReturnTDs,0
-Ole Miss,SEC,puntReturnTDsOpponent,0
+Ole Miss,SEC,puntReturnTDsOpponent,1
 Ole Miss,SEC,puntReturnYards,78
-Ole Miss,SEC,puntReturnYardsOpponent,44
-Ole Miss,SEC,rushingAttempts,300
-Ole Miss,SEC,rushingAttemptsOpponent,348
-Ole Miss,SEC,rushingTDs,18
-Ole Miss,SEC,rushingTDsOpponent,17
-Ole Miss,SEC,rushingYards,1326
-Ole Miss,SEC,rushingYardsOpponent,1486
-Ole Miss,SEC,sacks,18
-Ole Miss,SEC,sacksOpponent,10
-Ole Miss,SEC,tacklesForLoss,57
-Ole Miss,SEC,tacklesForLossOpponent,32
-Ole Miss,SEC,thirdDownConversions,59
-Ole Miss,SEC,thirdDownConversionsOpponent,57
-Ole Miss,SEC,thirdDowns,121
-Ole Miss,SEC,thirdDownsOpponent,130
-Ole Miss,SEC,totalYards,3769
-Ole Miss,SEC,totalYardsOpponent,3552
+Ole Miss,SEC,puntReturnYardsOpponent,121
+Ole Miss,SEC,rushingAttempts,331
+Ole Miss,SEC,rushingAttemptsOpponent,397
+Ole Miss,SEC,rushingTDs,19
+Ole Miss,SEC,rushingTDsOpponent,19
+Ole Miss,SEC,rushingYards,1505
+Ole Miss,SEC,rushingYardsOpponent,1674
+Ole Miss,SEC,sacks,21
+Ole Miss,SEC,sacksOpponent,12
+Ole Miss,SEC,tacklesForLoss,62
+Ole Miss,SEC,tacklesForLossOpponent,38
+Ole Miss,SEC,thirdDownConversions,63
+Ole Miss,SEC,thirdDownConversionsOpponent,66
+Ole Miss,SEC,thirdDowns,133
+Ole Miss,SEC,thirdDownsOpponent,146
+Ole Miss,SEC,totalYards,4075
+Ole Miss,SEC,totalYardsOpponent,3851
 Ole Miss,SEC,turnovers,14
 Ole Miss,SEC,turnoversOpponent,12
 Oregon,Big Ten,firstDowns,201
