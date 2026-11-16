@@ -1,0 +1,18 @@
+[
+ {
+  "id": 2026020331,
+  "away": "MTL",
+  "home": "NYR",
+  "start": "2026-11-17T00:30:00Z",
+  "venue": "Madison Square Garden",
+  "neutral": false
+ },
+ {
+  "id": 2026020332,
+  "away": "VAN",
+  "home": "UTA",
+  "start": "2026-11-17T02:30:00Z",
+  "venue": "Delta Center",
+  "neutral": false
+ }
+]
