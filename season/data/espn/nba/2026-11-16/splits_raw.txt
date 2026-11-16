@@ -1,3 +1,109 @@
-ESPN 2025-26 home/road splits per prop stat (avg x games), built Nov 16 about 9:43 AM Phoenix. B2B rows: players with 20+ games in the repo logs, both seasons: group (S = 28+ MPG, O = 15 to 28), b2b games, b2b MPG, b2b PRA per minute, other games, other MPG, other PRA per minute
+ESPN 2025-26 home/road splits per prop stat (avg x games), built Nov 16 about 10:13 AM Phoenix. B2B rows: players with 20+ games in the repo logs, both seasons: group (S = 28+ MPG, O = 15 to 28), b2b games, b2b MPG, b2b PRA per minute, other games, other MPG, other PRA per minute
+AJ Dybantsa|a2.5:h0.0x0a0.0x0 p16.5:h0.0x0a0.0x0 r5.5:h0.0x0a0.0x0 t1.5:h0.0x0a0.0x0
+Aaron Gordon|a2.5:h3.2x19a2.1x17 p13.5:h14.7x19a17.8x17 r5.5:h5.8x19a5.8x17 t1.5:h1.4x19a2.1x17
+Alex Sarr|p11.5:h16.5x23a16.1x25 r6.5:h6.7x23a8.0x25 t0.5:h0.9x23a1.2x25
+Alperen Sengun|a6.5:h6.3x34a5.9x40 p19.5:h19.8x34a19.8x40 r9.5:h9.4x34a8.2x40 t0.5:h0.5x34a0.6x40
+Amen Thompson|a3.5:h5.2x39a5.4x40 p16.5:h18.9x39a17.6x40 r7.5:h7.3x39a8.2x40
+Andrew Wiggins|a1.5:h2.9x34a2.5x35 p8.5:h15.7x34a15.4x35 r2.5:h4.5x34a5.3x35 t1.5:h1.9x34a2.2x35
+Anfernee Simons|p10.5:h13.0x27a15.5x28 t2.5:h2.4x27a2.9x28
+Anthony Black|a4.5:h3.9x34a3.5x32 p13.5:h15.1x34a14.6x32 r4.5:h3.9x34a3.8x32 t1.5:h1.5x34a1.5x32
+Anthony Davis|a2.5:h2.6x12a3.1x8 p23.5:h21.6x12a18.5x8 r10.5:h11.1x12a11.0x8 t0.5:h0.6x12a0.4x8
+Ayo Dosunmu|a3.5:h3.8x34a3.5x35 p17.5:h14.6x34a15.0x35 r4.5:h3.4x34a3.5x35 t1.5:h1.8x34a1.8x35
+Bam Adebayo|a3.5:h3.3x35a3.0x39 p17.5:h21.8x35a18.2x39 r8.5:h9.3x35a10.5x39
+Bilal Coulibaly|p6.5:h12.8x28a10.7x28 r3.5:h4.5x28a4.2x28
+Bobby Portis|p6.5:h15.1x32a12.3x35 r4.5:h5.9x32a6.8x35 t0.5:h2.6x32a1.5x35
+Brandin Podziemski|a4.5:h4.0x41a3.3x43 p18.5:h14.4x41a13.5x43 r5.5:h4.8x41a5.6x43 t2.5:h1.9x41a1.9x43
+Cam Spencer|a7.5:h5.6x39a5.5x33 p12.5:h11.3x39a10.8x33 r3.5:h2.8x39a2.2x33 t2.5:h2.1x39a1.9x33
+Cameron Boozer|a5.5:h0.0x0a0.0x0 p19.5:h0.0x0a0.0x0 r8.5:h0.0x0a0.0x0 t1.5:h0.0x0a0.0x0
+Cameron Johnson|a1.5:h2.6x29a2.3x25 p12.5:h12.6x29a11.8x25 r3.5:h3.5x29a4.2x25 t1.5:h2.3x29a1.8x25
+Cedric Coward|a3.5:h2.8x34a2.8x28 p15.5:h15.2x34a11.6x28 r7.5:h6.0x34a5.7x28 t1.5:h1.9x34a1.1x28
+Christian Braun|a2.5:h2.7x23a2.7x21 p12.5:h13.3x23a10.5x21 r4.5:h5.0x23a4.6x21 t1.5:h1.1x23a0.8x21
+Collin Gillespie|a3.5:h3.9x42a5.2x40 p10.5:h11.4x42a13.5x40 r2.5:h3.8x42a4.3x40 t2.5:h2.5x42a3.2x40
+Damian Lillard|a4.5:h0.0x0a0.0x0 p20.5:h0.0x0a0.0x0 r3.5:h0.0x0a0.0x0 t2.5:h0.0x0a0.0x0
+Danny Wolf|a2.5:h2.2x30a2.3x27 p8.5:h8.4x30a9.5x27 r5.5:h4.9x30a5.0x27 t1.5:h1.2x30a1.2x27
+Davion Mitchell|a7.5:h5.8x35a7.1x36 p13.5:h9.9x35a9.4x36 r2.5:h2.8x35a2.6x36 t1.5:h1.4x35a1.2x36
+Day'Ron Sharpe|a3.5:h2.7x29a2.0x33 p8.5:h9.0x29a8.5x33 r7.5:h6.4x29a6.9x33
+De'Anthony Melton|a3.5:h2.8x26a2.3x25 p12.5:h12.4x26a12.1x25 r4.5:h3.4x26a3.3x25 t2.5:h1.7x26a1.2x25
+DeMar DeRozan|p10.5:h18.1x39a18.8x38
+Dean Wade|p5.5:h6.4x31a5.2x28 r4.5:h4.6x31a3.7x28 t1.5:h1.3x31a1.1x28
+Deni Avdija|a5.5:h6.9x33a6.4x36 p23.5:h25.2x33a22.6x36 r6.5:h6.9x33a6.5x36 t1.5:h1.7x33a2.0x36
+Derik Queen|a2.5:h4.0x40a3.3x41 p10.5:h13.0x40a10.4x41 r5.5:h7.1x40a7.0x41
+Derrick White|a4.5:h4.9x40a5.9x37 p12.5:h16.8x40a16.1x37 r3.5:h4.3x40a4.5x37 t2.5:h3.0x40a2.5x37
+Desmond Bane|a2.5:h4.3x44a3.8x40 p17.5:h20.9x44a19.4x40 r4.5:h4.3x44a4.0x40 t3.5:h2.2x44a1.9x40
+Devin Booker|a5.5:h6.8x33a5.1x36 p23.5:h24.9x33a25.0x36 r2.5:h3.6x33a4.1x36 t1.5:h1.7x33a1.9x36
+Dillon Brooks|a2.5:h1.8x29a1.9x29 p15.5:h23.2x29a16.9x29 r3.5:h3.8x29a3.4x29 t1.5:h2.6x29a2.0x29
+Donovan Clingan|a1.5:h2.2x40a2.1x38 p10.5:h11.4x40a12.6x38 r11.5:h11.8x40a11.3x38 t0.5:h1.1x40a1.1x38
+Donovan Mitchell|a5.5:h5.0x40a6.1x33 p26.5:h26.8x40a27.0x33 r4.5:h4.3x40a4.4x33 t2.5:h3.2x40a3.1x33
+Draymond Green|a5.5:h5.3x35a5.9x35 p6.5:h8.3x35a8.3x35 r5.5:h5.7x35a5.3x35 t0.5:h1.6x35a1.3x35
+Egor Demin|a2.5:h3.7x26a3.0x26 p9.5:h10.6x26a10.0x26 r2.5:h3.4x26a3.0x26 t1.5:h2.5x26a2.3x26
+Franz Wagner|a6.5:h3.8x20a2.9x16 p21.5:h20.7x20a19.7x16 r6.5:h5.2x20a5.2x16 t1.5:h1.4x20a1.3x16
+Fred VanVleet|a4.5:h0.0x0a0.0x0 p13.5:h0.0x0a0.0x0 r3.5:h0.0x0a0.0x0 t2.5:h0.0x0a0.0x0
+Georges Niang|p7.5:h0.0x0a0.0x0 r2.5:h0.0x0a0.0x0 t1.5:h0.0x0a0.0x0
+Giannis Antetokounmpo|a5.5:h5.8x19a5.1x17 p28.5:h27.3x19a27.9x17 r10.5:h9.8x19a9.7x17 t0.5:h0.3x19a0.6x17
+Gui Santos|p6.5:h9.5x31a9.3x39 r3.5:h3.0x31a4.7x39
+Herbert Jones|p8.5:h9.1x28a8.6x28 r3.5:h3.2x28a3.6x28 t1.5:h1.4x28a1.5x28
+Isaac Okoro|a1.5:h1.9x32a1.3x31 p8.5:h9.2x32a9.3x31 r2.5:h2.8x32a2.7x31 t1.5:h1.2x32a1.1x31
+Jabari Smith Jr.|a1.5:h1.9x38a1.8x39 p14.5:h16.3x38a15.3x39 r6.5:h6.9x38a6.8x39 t1.5:h2.4x38a2.2x39
+Jaden McDaniels|a3.5:h2.5x36a2.9x37 p16.5:h14.8x36a14.9x37 r5.5:h4.3x36a4.2x37 t1.5:h1.4x36a1.5x37
+Jalen Green|a2.5:h2.7x19a3.0x15 p11.5:h18.6x19a19.0x15 r2.5:h3.8x19a3.6x15 t1.5:h2.5x19a2.3x15
+Jalen Smith|a1.5:h1.1x29a1.4x24 p13.5:h10.2x29a10.2x24 r8.5:h7.1x29a6.2x24 t1.5:h1.4x29a1.7x24
+Jalen Suggs|a3.5:h6.1x33a4.7x26 p8.5:h14.9x33a11.9x26 r2.5:h4.1x33a3.7x26 t1.5:h2.3x33a1.8x26
+Jamal Murray|a6.5:h6.6x37a7.4x40 p24.5:h23.7x37a25.9x40 r4.5:h4.3x37a4.4x40 t2.5:h3.2x37a3.2x40
+James Harden|a6.5:h8.5x33a7.5x37 p18.5:h21.9x33a25.1x37 r4.5:h5.0x33a4.6x37 t2.5:h3.0x33a3.1x37
+Jarrett Allen|a1.5:h1.7x25a1.9x31 p14.5:h13.4x25a16.9x31 r9.5:h8.0x25a8.9x31
+Jaylen Brown|a3.5:h4.6x41a5.4x33 p22.5:h26.3x41a29.6x33 r6.5:h6.6x41a6.9x33 t1.5:h1.7x41a2.2x33
+Jaylen Wells|p11.5:h11.7x35a13.4x34 r2.5:h3.3x35a3.0x34 t1.5:h1.8x35a1.9x34
+Jaylon Tyson|a2.5:h2.4x31a2.1x35 p13.5:h13.5x31a12.9x35 r4.5:h5.5x31a4.8x35 t2.5:h2.2x31a1.9x35
+Jayson Tatum|a6.5:h5.0x9a5.7x7 p25.5:h20.8x9a23.0x7 r6.5:h10.7x9a9.1x7 t2.5:h2.7x9a3.3x7
+Jerami Grant|p13.5:h19.4x26a17.8x32 r2.5:h3.5x26a3.4x32 t1.5:h2.6x26a2.2x32
+Jeremiah Fears|a5.5:h3.4x41a3.4x41 p17.5:h13.2x41a15.3x41 r4.5:h4.0x41a3.3x41 t1.5:h0.8x41a1.7x41
+Joel Embiid|a3.5:h4.2x21a3.6x17 p22.5:h27.6x21a25.9x17 r7.5:h7.7x21a7.7x17
+Jonathan Kuminga|a2.5:h2.2x18a2.4x18 p13.5:h12.3x18a12.1x18 r5.5:h6.2x18a5.1x18 t1.5:h0.8x18a1.1x18
+Jordan Goodwin|p8.5:h9.5x35a8.3x37 r4.5:h5.1x35a4.8x37 t1.5:h1.9x35a1.4x37
+Jordan Poole|p10.5:h13.5x22a13.3x17 t1.5:h2.2x22a2.8x17
+Jordan Walsh|p4.5:h5.8x31a5.0x37 r3.5:h4.3x31a3.8x37
+Josh Giddey|a8.5:h8.6x28a9.7x26 p12.5:h16.0x28a18.2x26 r6.5:h7.7x28a9.0x26 t1.5:h1.8x28a2.0x26
+Jrue Holiday|a3.5:h5.5x26a6.5x28 p12.5:h15.7x26a17.0x28 r3.5:h3.8x26a5.4x28 t2.5:h2.5x26a2.8x28
+Julius Randle|a4.5:h5.2x40a4.8x39 p19.5:h21.2x40a21.0x39 r6.5:h7.0x40a6.5x39 t1.5:h1.2x40a1.6x39
+Kevin Durant|a3.5:h4.6x43a4.6x38 p21.5:h23.1x43a27.5x38 r5.5:h5.1x43a5.5x38 t1.5:h2.1x43a2.6x38
+Klay Thompson|p12.5:h11.4x38a12.1x31 t3.5:h2.9x38a3.0x31
+Kyshawn George|a4.5:h3.8x24a5.1x24 p15.5:h15.0x24a14.6x24 r4.5:h4.4x24a5.8x24 t2.5:h2.2x24a1.9x24
+LaMelo Ball|a6.5:h7.5x36a6.8x38 p20.5:h19.8x36a20.7x38 r4.5:h4.5x36a5.1x38 t3.5:h3.6x36a3.9x38
+Luke Kennard|p7.5:h7.6x39a9.1x39 t1.5:h1.2x39a1.8x39
+Matas Buzelis|a2.5:h2.3x40a1.8x37 p15.5:h15.8x40a16.8x37 r5.5:h5.8x40a5.9x37 t2.5:h2.2x40a2.3x37
+Michael Porter Jr.|a1.5:h2.9x25a3.2x27 p21.5:h25.2x25a23.3x27 r6.5:h7.3x25a6.9x27 t3.5:h3.4x25a3.4x27
+Mikel Brown Jr.|a3.5:h0.0x0a0.0x0 p11.5:h0.0x0a0.0x0 r2.5:h0.0x0a0.0x0 t1.5:h0.0x0a0.0x0
+Miles Bridges|a2.5:h3.1x38a3.2x41 p14.5:h17.1x38a17.3x41 r5.5:h5.2x38a6.4x41 t1.5:h1.9x38a2.0x41
+Neemias Queta|a1.5:h2.0x38a1.3x38 p9.5:h10.4x38a10.0x38 r6.5:h8.4x38a8.3x38
+Nikola Jokic|a9.5:h11.2x33a9.9x33 p26.5:h27.6x33a26.9x33 r11.5:h12.6x33a12.8x33 t1.5:h1.5x33a1.9x33
+Noah Clowney|p6.5:h13.7x35a10.6x31 r3.5:h4.3x35a3.9x31
+Norman Powell|a1.5:h3.0x26a2.0x35 p22.5:h23.5x26a19.0x35 r2.5:h3.0x26a3.6x35 t2.5:h2.7x26a2.5x35
+Oso Ighodaro|a2.5:h2.0x43a2.5x41 p5.5:h6.2x43a6.8x41 r4.5:h4.9x43a5.2x41
+Paul George|a3.5:h3.8x20a3.4x18 p18.5:h16.3x20a18.4x18 r4.5:h4.8x20a5.8x18 t2.5:h2.4x20a2.9x18
+Payton Pritchard|a3.5:h4.7x40a5.6x39 p13.5:h15.8x40a18.3x39 r2.5:h3.5x40a4.4x39 t2.5:h2.6x40a2.8x39
+Pelle Larsson|a3.5:h3.6x35a3.2x36 p10.5:h12.5x35a10.3x36 r3.5:h3.5x35a3.5x36 t1.5:h0.9x35a0.8x36
+Peyton Watson|a2.5:h2.5x26a1.7x28 p13.5:h13.5x26a15.6x28 r4.5:h4.8x26a5.0x28 t1.5:h1.5x26a1.5x28
+Reed Sheppard|a2.5:h3.3x41a3.5x41 p10.5:h14.0x41a13.1x41 r1.5:h3.1x41a2.7x41 t2.5:h3.1x41a2.5x41
+Robert Williams III|p6.5:h6.5x31a6.8x29 r6.5:h6.7x31a7.4x29
+Rudy Gobert|p9.5:h11.5x39a10.3x37 r10.5:h11.4x39a11.5x37
+Saddiq Bey|a2.5:h2.6x37a2.5x35 p17.5:h17.8x37a17.5x35 r5.5:h6.1x37a5.0x35 t2.5:h2.0x37a2.2x35
+Sam Hauser|p7.5:h8.3x38a10.1x40 r2.5:h3.3x38a4.4x40 t1.5:h2.3x38a2.8x40
+Sidy Cissoko|a1.5:h1.8x37a1.2x38 p7.5:h5.3x37a4.9x38 r3.5:h2.6x37a1.8x38 t1.5:h0.8x37a0.8x38
+Tari Eason|a1.5:h1.5x31a1.6x29 p10.5:h10.5x31a10.3x29 r6.5:h5.8x31a6.8x29 t1.5:h1.5x31a1.6x29
+Terrence Shannon Jr.|p10.5:h4.6x21a6.5x22 r2.5:h1.1x21a1.2x22 t1.5:h0.6x21a0.9x22
+Toumani Camara|a1.5:h2.4x41a2.4x42 p11.5:h13.9x41a12.8x42 r4.5:h4.9x41a5.4x42 t2.5:h2.8x41a2.5x42
+Trae Young|a8.5:h8.2x8a7.7x7 p19.5:h20.8x8a14.7x7 r2.5:h1.6x8a2.4x7 t2.5:h2.5x8a1.0x7
+Tre Jones|a3.5:h5.3x34a5.5x31 p10.5:h12.4x34a15.9x31 r2.5:h2.8x34a3.5x31
+Trevon Brazile|p4.5:h0.0x0a0.0x0 r3.5:h0.0x0a0.0x0
+Trey Lyles|p5.5:h0.0x0a0.0x0 r4.5:h0.0x0a0.0x0
+Tristan da Silva|a1.5:h1.3x43a1.9x36 p12.5:h10.6x43a8.8x36 r3.5:h3.5x43a3.9x36 t2.5:h1.7x43a1.4x36
+Tyrese Maxey|a5.5:h6.4x37a6.3x37 p25.5:h26.8x37a27.9x37 r3.5:h3.7x37a4.3x37 t2.5:h3.0x37a3.1x37
+VJ Edgecombe|a3.5:h4.3x38a4.1x38 p12.5:h15.2x38a16.9x38 r5.5:h5.7x38a5.8x38 t1.5:h1.7x38a2.3x38
+Wendell Carter Jr.|p10.5:h12.1x42a11.5x38 r8.5:h7.5x42a7.3x38
+Will Richard|p7.5:h5.7x35a6.9x35 r2.5:h2.7x35a2.3x35 t1.5:h0.9x35a1.1x35
+Yaxel Lendeborg|a4.5:h0.0x0a0.0x0 p23.5:h0.0x0a0.0x0 r7.5:h0.0x0a0.0x0 t2.5:h0.0x0a0.0x0
+Yves Missi|p6.5:h5.8x31a5.6x35 r6.5:h6.0x31a5.7x35
+Zach Edey|p8.5:h10.0x4a15.7x7 r7.5:h5.8x4a14.1x7
+Zion Williamson|a3.5:h3.1x29a3.3x33 p22.5:h21.1x29a20.9x33 r5.5:h5.3x29a6.0x33
 B2B|S|819,31.60,0.9082,2997,31.85,0.9041
 B2B|O|1183,23.14,0.7230,4415,22.09,0.7125
