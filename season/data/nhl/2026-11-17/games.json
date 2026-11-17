@@ -1,0 +1,90 @@
+[
+ {
+  "id": 2026020333,
+  "away": "LAK",
+  "home": "BOS",
+  "start": "2026-11-18T00:00:00Z",
+  "venue": "TD Garden",
+  "neutral": false
+ },
+ {
+  "id": 2026020335,
+  "away": "EDM",
+  "home": "FLA",
+  "start": "2026-11-18T00:00:00Z",
+  "venue": "Amerant Bank Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020336,
+  "away": "CBJ",
+  "home": "NYI",
+  "start": "2026-11-18T00:00:00Z",
+  "venue": "UBS Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020337,
+  "away": "BUF",
+  "home": "PHI",
+  "start": "2026-11-18T00:00:00Z",
+  "venue": "Xfinity Mobile Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020341,
+  "away": "OTT",
+  "home": "WPG",
+  "start": "2026-11-18T00:00:00Z",
+  "venue": "Canada Life Centre",
+  "neutral": false
+ },
+ {
+  "id": 2026020334,
+  "away": "WSH",
+  "home": "TBL",
+  "start": "2026-11-18T00:30:00Z",
+  "venue": "Benchmark International Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020338,
+  "away": "TOR",
+  "home": "CHI",
+  "start": "2026-11-18T00:30:00Z",
+  "venue": "United Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020339,
+  "away": "ANA",
+  "home": "STL",
+  "start": "2026-11-18T01:00:00Z",
+  "venue": "Enterprise Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020340,
+  "away": "NSH",
+  "home": "MIN",
+  "start": "2026-11-18T01:00:00Z",
+  "venue": "Grand Casino Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020342,
+  "away": "DAL",
+  "home": "VGK",
+  "start": "2026-11-18T03:00:00Z",
+  "venue": "T-Mobile Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020343,
+  "away": "CGY",
+  "home": "SJS",
+  "start": "2026-11-18T03:00:00Z",
+  "venue": "SAP Center at San Jose",
+  "neutral": false
+ }
+]
