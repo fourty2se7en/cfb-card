@@ -1623,3 +1623,7 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-17T17:37:31Z,now,ncaam,odds,200,3,12519
 2026-11-17T17:37:31Z,now,ncaaw,odds,200,3,12516
 2026-11-17T17:37:31Z,now,fbs,odds,200,3,12513
+2026-11-17T18:13:00Z,close,ncaam,odds,200,3,12510
+2026-11-17T18:13:00Z,close,ncaam,event_odds,200,4,12506
+2026-11-17T18:13:00Z,close,ncaam,event_odds,200,3,12503
+2026-11-17T18:13:00Z,close,ncaaw,odds,200,3,12500
