@@ -1,25 +1,26 @@
 """Rebuild hub meta rules[].tiers for every sport from the hub backtest collection (every game the rule fits).
-Usage: python3 rebuild.py <dl_dir> <out_dir>
+Usage: python3 rebuild_tiers.py <dl_dir> <out_dir>   (set TODAY=YYYY-MM-DD in the environment)
 <dl_dir>/meta/<sport>.json and <dl_dir>/sports/<sport>/backtest/*.json come from ArtifactData list with out_dir.
 Writes <out_dir>/m_<sport>.json = {"rules": [...]} with tiers recomputed, and prints every tier status change.
-Policy (Trina, Nov 11, this season): no pick minimum. Every rule tier (and every prop rule) is on while its REAL picks
-(card plus would-be picks in sports/<sport>/picks, season to date, graded) are green and off while red. The closing line
-replay (backtest) is kept as tiers[t].season for reference only and never turns a tier on (Trina, Nov 13: A36, A37).
-A tier with no status record yet is off (its fits are would-be picks) until it earns 2 positive pick days. No pick minimum.
-Off to on (Trina, Nov 11): the real record must be positive after each of the last 2 days the tier had graded picks
-(not necessarily consecutive calendar days); until then it stays off with pending_on. On to off is immediate when red.
 Needs <dl_dir>/sports/<sport>/picks/*.json (and picks_bg for nfl) as well as the backtest.
 
-Status record (Trina, Nov 11 evening, replaces "real picks = card plus every would-be"): a tier is judged only on the
-picks it showed on the card: its card picks while it was on, plus its would-be picks while it was off (listed under
-Non Active Picks). Fits that never showed (another rule took the game, or the Nov 11 backfill) and prop LEANs are
-tracked as `fits` but never decide on or off. Old card picks count at their meta.retier tier (the Nov 7 one tier
-scale), the same tier the page shows. Units come from the price (the units field only when there is no price).
+Turn on rule (Trina, Nov 16, A58; replaces "off to on needs 2 positive pick days"): every tier of every rule, game or
+prop, in every sport is ON when its status record has at least the sport minimum of graded status picks (MIN below:
+NBA, NHL, NCAAM 20; NFL, FBS, NCAAW 10; pushes count) AND its units are green (above 0). Otherwise it is OFF and logs
+would-be picks, with pending_on saying what is missing. On to off is immediate when units are not green (or if a
+regrade drops the count below the minimum). No CLV condition. A red month stays a watch flag, not a switch.
+The closing line replay (backtest) is kept as tiers[t].season for reference only and never turns a tier on.
+
+Status record (Trina, Nov 11 evening): a tier is judged only on the picks it showed on the card: its card picks while
+it was on, plus its would-be picks while it was off (listed under Non Active Picks). Fits that never showed (another
+rule took the game, or the Nov 11 backfill) are tracked as `fits` but never decide on or off; held props are left out.
+Old card picks count at their meta.retier tier (the Nov 7 one tier scale), the same tier the page shows. Units come
+from the price (the units field only when there is no price).
 Writes per tier: real (status record, season), real_month (status record, this month), fits (every fit),
 season/month (replay), on, pending_on, switched {date, to, record}."""
 import json, glob, math, os, sys, re, collections
 DL, OUT = sys.argv[1], sys.argv[2]
-MIN = {'nba': 20, 'nhl': 20, 'nfl': 4, 'fbs': 3, 'ncaam': 7, 'ncaaw': 7}
+MIN = {'nba': 20, 'nhl': 20, 'nfl': 10, 'fbs': 10, 'ncaam': 20, 'ncaaw': 10}   # A58 (Nov 16): minimum graded status picks to turn on
 def sc(l): return 'Strong' if l >= 4 else ('Solid' if l >= 2 else 'Lean')
 TODAY = os.environ.get('TODAY', '')
 def units(d):
@@ -110,15 +111,14 @@ def prop_tier(p):
 def prop_rule_name(p):
     c, sd = prop_cat(p.get('stat'), p.get('rule')), prop_side(p)
     return c + (' · ' + sd if sd else '')
-def two_days(ps):
-    days = {}
-    for p in sorted(ps, key=lambda x: str(x.get('date'))): days.setdefault(str(p.get('date')), []).append(p)
-    cum = 0; series = []
-    for dt, L in days.items(): cum += sum(units(x) for x in L); series.append(cum)
-    last = series[-2:]
-    good = sum(1 for c in last if c > 0) if len(last) == 2 else (1 if last and last[-1] > 0 else 0)
-    if len(last) == 2 and all(c > 0 for c in last): return True, ''
-    return False, f'Positive after {good} of 2 pick days needed to turn on'
+def turn_on(ps, s):
+    """A58 (Trina, Nov 16): on when the status record has at least MIN[s] graded picks and units above 0."""
+    n = len(ps); m = MIN[s]; u = round(sum(units(x) for x in ps), 2)
+    if n >= m and u > 0: return True, ''
+    if n < m:
+        return False, (f'Green, {n} of {m} picks' if u > 0 else f'{n} of {m} status picks needed to turn on') + (f'; red, needs +{max(0.01, -u):.2f}u' if u <= 0 and n else '')
+    return False, f'Red, needs +{max(0.01, -u):.2f}u'
+BASIS = 'status record: card picks plus would-be picks while off; on with at least {m} graded status picks and units above 0 (Trina Nov 16, A58)'
 def rec(a, label=None):
     o = dict(w=sum(x['result'] == 'win' for x in a), l=sum(x['result'] == 'loss' for x in a), p=sum(x['result'] == 'push' for x in a), u=round(sum(units(x) for x in a), 2))
     if label: o['label'] = label
@@ -150,21 +150,19 @@ for s in MIN:
                     L = byt.get(t, []); o = old.get(t) or {}
                     v = dict(season=None, month=None, n=len(L), fits=rec(L) if L else None)
                     if not L:
-                        v.update(real=None, real_month=None, on=False, pending_on='No status record yet: turns on after 2 positive pick days')
+                        v.update(real=None, real_month=None, on=False, pending_on=f'0 of {MIN[s]} status picks needed to turn on')
                     else:
                         real = rec(L); mo = [p for p in L if str(p.get('date'))[:7] == month]
                         v.update(real=real, real_month=rec(mo, 'Nov') if mo else None)
                         was = (bool(o.get('on')) and o.get('real') is not None) if o else rule_was_on
-                        on = real['u'] >= 0
-                        if on and not was:
-                            ok, why = two_days(L)
-                            if not ok: on = False; v['pending_on'] = why
+                        on, why = turn_on(L, s)   # A58: minimum status picks and green units
+                        if not on: v['pending_on'] = why
                         if was != on:
                             print(s, lbl, t, 'status record turns it', 'on' if on else 'off', f"{real['w']}-{real['l']} {real['u']:+.2f}u")
                             v['switched'] = dict(date=TODAY, to='on' if on else 'off', record=f"{real['w']}-{real['l']} {real['u']:+.2f}u")
                         elif o.get('switched'): v['switched'] = o['switched']
                         v['on'] = on
-                    v['basis'] = 'prop tier by edge (Strong 5+, Solid 3 to 5, Lean 1.5 to 3); status record per tier (Trina Nov 14)'
+                    v['basis'] = f'prop tier by edge (Strong 5+, Solid 3 to 5, Lean 1.5 to 3); status record per tier (Trina Nov 14); on with at least {MIN[s]} graded status picks and units above 0 (Trina Nov 16, A58)'
                     new[t] = v
                 r['tiers'] = new
                 r['fits'] = rec(F) if F else None
@@ -197,19 +195,17 @@ for s in MIN:
             real = rec(rp[t]) if rp.get(t) else None
             mo = [p for p in rp.get(t, []) if str(p.get('date'))[:7] == month]
             v['real'] = real; v['real_month'] = rec(mo, 'Nov') if mo else None; v['fits'] = rec(rf[t]) if rf.get(t) else None
-            v['basis'] = 'status record: card picks plus would-be picks while off; no record yet = off until 2 positive pick days (Trina Nov 11, Nov 13)'
+            v['basis'] = BASIS.format(m=MIN[s])
             o = old.get(t) or {}
             if real is None:   # Nov 13 (A36, A37): no status record, no switch on from the replay
                 v['on'] = False; v['upgraded'] = False; v['downgraded'] = on_rule
-                v['pending_on'] = 'No status record yet: turns on after 2 positive pick days'
+                v['pending_on'] = f'0 of {MIN[s]} status picks needed to turn on'
                 if o.get('on'): print(s, r['key'], t, 'turned off: no status record yet (was on by replay)')
                 continue
             was = bool(o.get('on', False)) and o.get('real') is not None   # a tier turned on by the replay alone has not earned it
-            on = real['u'] >= 0
             v.pop('pending_on', None)
-            if on and not was:
-                ok, why = two_days(rp[t])
-                if not ok: on = False; v['pending_on'] = why
+            on, why = turn_on(rp[t], s)   # A58: minimum status picks and green units
+            if not on: v['pending_on'] = why
             if was != on:
                 print(s, r['key'], t, 'status record turns it', 'on' if on else 'off', f"{real['w']}-{real['l']} {real['u']:+.2f}u")
                 v['switched'] = dict(date=TODAY, to='on' if on else 'off', record=f"{real['w']}-{real['l']} {real['u']:+.2f}u")
@@ -219,7 +215,7 @@ for s in MIN:
         if 'All' in new and not rp.get('All'): new.pop('All')
         for t in ('Strong', 'Solid', 'Lean'):
             if t not in new: new[t] = dict(season=None, month=None, n=0, on=False, upgraded=False, downgraded=on_rule, real=None, real_month=None, fits=None,
-                                         basis='status record: no record yet = off until 2 positive pick days (Trina Nov 13)', pending_on='No status record yet: turns on after 2 positive pick days')
+                                         basis=BASIS.format(m=MIN[s]), pending_on=f'0 of {MIN[s]} status picks needed to turn on')
         r.pop('single_tier', None)
         r['tiers'] = new
     json.dump(dict(rules=m['rules']), open(f'{OUT}/m_{s}.json', 'w'))
