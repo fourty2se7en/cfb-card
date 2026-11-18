@@ -1,0 +1,81 @@
+Akron|Brayden Roggow|pass|45/2,55/0,131/0,194/0,180/1,229/3,234/1,275/0,0/0
+Akron|Cibastian Broughton|pass|111/0,227/4,42/0,232/0,173/2
+Akron|Marcel Williams|rec|38/0,31/0,13/0,83/0,36/0,89/2,42/1,43/0,42/0,85/2
+Akron|Kyan Mason|rec|10/0,2/0,32/0,73/0,26/0,19/0,43/0,129/0,71/0,10/0
+Akron|Miles Burris|rec|7/0,0/1,16/0,15/0,35/0,42/0,54/0,72/0,38/0,55/0
+Akron|Jordan Gant|rec|5/0,20/0,35/0,6/0,27/0,21/0,7/0,18/0,17/0
+Akron|Elijah Alexander|rec|6/1,55/2,9/0,9/0,8/0,20/0,25/0,1/0
+Akron|Conner Cravaack|rec|5/0,13/0,3/0,17/0,11/0,14/0,0/0,43/0,17/0
+Akron|Sean Patrick|rec|11/0,65/1,7/0,8/0,7/0
+Akron|Jean Louis III|rec|-3/0,48/0,49/0
+Akron|Brandon Hills|rec|15/0,26/0,9/0,31/1
+Akron|Gentz Hilburn|rec|21/0,49/0
+Akron|Wyatt Hook|rec|7/0,12/0,14/0,6/0
+Akron|Luke Sivon|rec|30/0
+Akron|Marquese Williams|rec|27/1
+Akron|Jordan Gant|rush|15/0,81/1,11/0,84/1,102/1,117/0,46/1,162/2,112/1,61/0
+Akron|Sean Patrick|rush|33/0,67/0,16/0,48/0,31/0,26/0,4/0,34/0,15/0
+Akron|Cibastian Broughton|rush|82/0,71/0,17/0,20/0,-19/0
+Akron|Marquese Williams|rush|16/0,6/0,17/1,17/0,13/0,22/0,1/0
+Akron|Taven Curry|rush|5/0,3/0,3/0,20/0
+Buffalo|Jason Wright|pass|185/2,60/0,140/1,170/1,171/0,134/2,127/1,358/2,48/1
+Buffalo|Elijah Holmes|pass|189/3,61/0
+Buffalo|Chance Morrow|rec|48/3,170/2,31/0,58/1,90/0,17/0,27/0,39/0,199/2,14/1
+Buffalo|Dwayne Early Jr.|rec|18/0,10/0,30/0,77/0,33/0,24/0,80/0,5/0
+Buffalo|Clint Walker|rec|41/0,5/0,7/0,29/0,28/0,45/2,40/1,30/0
+Buffalo|Jaylen Andrews|rec|28/0,11/0,12/0,26/0,28/0,24/0,18/0,41/0,-1/0
+Buffalo|Patrick Clacks III|rec|15/0,7/0,-4/0,59/1,21/0,5/0,28/0,0/0
+Buffalo|Trevor Wilson|rec|14/0,32/0,6/0
+Buffalo|Jasaiah Gathings|rec|14/0,4/0,3/0,10/0
+Buffalo|Messiah Burch|rush|74/0,16/0,10/0,146/0,106/1,137/1,172/0,184/3,56/0,209/2
+Buffalo|Terrance Shelton Jr.|rush|46/0,29/0,41/0,92/1
+Buffalo|Nino Hill|rush|20/0,64/2,40/0,24/0,22/0,32/0
+Buffalo|Jason Wright|rush|3/0,3/0,95/1,-11/0,20/1,13/0,35/0,4/2,1/0
+Buffalo|James McNeil Jr.|rush|17/0,8/0,80/1,15/0
+Buffalo|Elijah Holmes|rush|17/0,6/0
+Central Michigan|Jadyn Glasser|pass|16/0,8/0,88/0,71/1,42/0,17/0,221/1,175/1,105/0
+Central Michigan|Angel Flores|pass|14/0,57/0,32/0,20/0,78/1,112/0,162/1
+Central Michigan|Langston Lewis|rec|13/0,8/0,22/0,71/1,28/0,74/0,163/1
+Central Michigan|Nasir Williams|rec|11/0,9/0,5/0,6/0,9/0,20/0,57/1,57/0
+Central Michigan|Justin Ruffin Jr.|rec|9/0,18/0,19/0,11/0,11/0,51/0
+Central Michigan|Braylen Naves|rec|5/0,7/0,7/0,56/0,21/0,4/0,16/0
+Central Michigan|Jaden Allen|rec|10/0,56/1,19/0
+Central Michigan|Shawn Foster II|rec|13/0,8/0,53/1,3/0
+Central Michigan|Brock Townsend|rec|37/0,27/0
+Central Michigan|Nick Woodford|rec|15/0,2/0,13/0,5/0,18/0
+Central Michigan|Vaughn Blue|rec|-1/0,29/0,1/0,3/0,19/0
+Central Michigan|Jayden Clerveaux|rec|1/0,8/0,8/0,9/0,1/0
+Central Michigan|Tayte Vanderleest|rec|3/0,24/0
+Central Michigan|Rusty VanWetzinga IV|rec|8/0,8/0,6/0
+Central Michigan|Gavin Spillers|rec|8/0,12/0
+Central Michigan|Collin Payne|rec|6/0,14/0
+Central Michigan|Angel Flores|rush|27/0,122/1,163/2,8/0,154/1,27/0,117/0
+Central Michigan|Jayden Clerveaux|rush|18/0,25/0,81/0,13/0,82/1,20/1,32/0,20/0,100/1
+Central Michigan|Nick Woodford|rush|8/0,0/0,21/0,42/1,27/1,18/0,19/1,123/3,119/0
+Central Michigan|Vaughn Blue|rush|25/0,27/1,55/0,29/0,10/0,16/0,25/0,19/1,9/1
+Central Michigan|Brock Townsend|rush|4/0,3/0,41/1,4/0,12/1,11/0,5/0,1/0,64/0,58/2
+Central Michigan|Jadyn Glasser|rush|-2/0,0/0,-13/0,14/0,19/0,2/1,-13/0,4/0,33/0
+Central Michigan|Nasir Williams|rush|23/1
+Massachusetts|William Watson III|pass|197/3,152/1,160/1,101/1,210/1,205/1,302/1,22/0
+Massachusetts|Logan Inagawa|pass|83/1,168/0,45/0,99/0
+Massachusetts|Aedan McCarthy|pass|11/0,171/0
+Massachusetts|T.Y. Harding|rec|55/0,49/1,73/1,44/0,15/0,91/0,70/0
+Massachusetts|Jabari Lewis|rec|12/0,38/0,102/0,89/0,33/0,10/0,78/1,28/0
+Massachusetts|Kezion Dia-Johnson|rec|17/0,1/0,22/0,79/0,21/0,97/0,3/0
+Massachusetts|Joseph Griffin Jr.|rec|61/1,59/0,14/0,77/0
+Massachusetts|Reece Adkins|rec|8/0,5/0,25/0,9/0,28/0,9/0,31/0,17/0,44/0,33/0
+Massachusetts|Max Dowling|rec|7/0,16/0,9/1,48/1,21/1,10/0,18/0,9/0
+Massachusetts|Drew Alsup|rec|14/0,23/0,35/0
+Massachusetts|Curtis Kimmons IV|rec|9/0,1/0,7/0,8/0,33/1,10/0
+Massachusetts|Elijah Faulkner|rec|23/2,15/0,15/0,9/0,3/0
+Massachusetts|Dallas Elliott|rec|26/0,17/0,5/0,10/0
+Massachusetts|Matt Ogunniyi|rec|20/0
+Massachusetts|Curtis Kimmons IV|rush|78/1,11/0,39/1,61/0,73/1,35/1,4/0,7/0,85/0,33/0
+Massachusetts|Elijah Faulkner|rush|62/0,72/0,61/0,32/0,19/0,31/0,84/1,15/0,24/1,3/0
+Massachusetts|William Watson III|rush|40/0,40/1,2/1,72/2,13/0,11/0,40/2,-9/0
+Massachusetts|Logan Inagawa|rush|7/0,2/0,66/1,40/0
+Massachusetts|T.Y. Harding|rush|13/0,56/1,21/0,5/0
+Massachusetts|Jordan Washington|rush|38/0,16/0
+Massachusetts|Justin Williams-Thomas|rush|15/0,5/0,3/0,12/1,0/0
+Massachusetts|Kezion Dia-Johnson|rush|11/0,1/0,3/1,-4/0,10/0,8/0
+Massachusetts|Justin Lewis|rush|20/0
