@@ -1,4 +1,4 @@
-ESPN 2025-26 home/road splits per prop stat (avg x games), built Nov 18 about 10:13 AM Phoenix. B2B rows: players with 20+ games in the repo logs, both seasons: group (S = 28+ MPG, O = 15 to 28), b2b games, b2b MPG, b2b PRA per minute, other games, other MPG, other PRA per minute
+ESPN 2025-26 home/road splits per prop stat (avg x games), built Nov 18 about 10:35 AM Phoenix. B2B rows: players with 20+ games in the repo logs, both seasons: group (S = 28+ MPG, O = 15 to 28), b2b games, b2b MPG, b2b PRA per minute, other games, other MPG, other PRA per minute
 AJ Dybantsa|a2.5:h0.0x0a0.0x0 p16.5:h0.0x0a0.0x0 r5.5:h0.0x0a0.0x0 t1.5:h0.0x0a0.0x0
 Aaron Gordon|a1.5:h3.2x19a2.1x17 p11.5:h14.7x19a17.8x17 r4.5:h5.8x19a5.8x17 t1.5:h1.4x19a2.1x17
 Aaron Nesmith|p13.5:h14.2x19a13.5x26 r3.5:h5.2x19a3.4x26 t1.5:h2.2x19a2.5x26
@@ -50,14 +50,14 @@ Domantas Sabonis|a5.5:h2.9x9a5.2x10 p13.5:h13.8x9a17.7x10 r12.5:h10.1x9a12.5x10
 Donovan Mitchell|a4.5:h5.0x40a6.1x33 p25.5:h26.8x40a27.0x33 r4.5:h4.3x40a4.4x33 t2.5:h3.2x40a3.1x33
 Draymond Green|a5.5:h5.3x35a5.9x35 p5.5:h8.3x35a8.3x35 r4.5:h5.7x35a5.3x35 t0.5:h1.6x35a1.3x35
 Dyson Daniels|a5.5:h6.3x37a5.6x39 p10.5:h12.5x37a11.3x39 r7.5:h7.2x37a6.5x39
-Egor Demin|a2.5:h3.7x26a3.0x26 p10.5:h10.6x26a10.0x26 r3.5:h3.4x26a3.0x26 t2.5:h2.5x26a2.3x26
+Egor Demin|a2.5:h3.7x26a3.0x26 p11.5:h10.6x26a10.0x26 r3.5:h3.4x26a3.0x26 t2.5:h2.5x26a2.3x26
 Franz Wagner|a6.5:h3.8x20a2.9x16 p25.5:h20.7x20a19.7x16 r6.5:h5.2x20a5.2x16 t1.5:h1.4x20a1.3x16
 Fred VanVleet|a5.5:h0.0x0a0.0x0 p13.5:h0.0x0a0.0x0 r3.5:h0.0x0a0.0x0 t2.5:h0.0x0a0.0x0
 Giannis Antetokounmpo|a6.5:h5.8x19a5.1x17 p29.5:h27.3x19a27.9x17 r11.5:h9.8x19a9.7x17 t0.5:h0.3x19a0.6x17
 Gui Santos|a1.5:h2.0x31a2.7x39 p8.5:h9.5x31a9.3x39 r3.5:h3.0x31a4.7x39 t0.5:h1.4x31a0.9x39
 Herbert Jones|a1.5:h2.2x28a3.3x28 p8.5:h9.1x28a8.6x28 r3.5:h3.2x28a3.6x28 t1.5:h1.4x28a1.5x28
 Immanuel Quickley|a4.5:h5.2x36a6.6x34 p18.5:h14.9x36a18.1x34 r3.5:h3.9x36a4.2x34 t2.5:h2.5x36a2.6x34
-Isaac Okoro|a2.5:h1.9x32a1.3x31 p9.5:h9.2x32a9.3x31 r3.5:h2.8x32a2.7x31 t1.5:h1.2x32a1.1x31
+Isaac Okoro|a1.5:h1.9x32a1.3x31 p9.5:h9.2x32a9.3x31 r3.5:h2.8x32a2.7x31 t1.5:h1.2x32a1.1x31
 Isaiah Hartenstein|a3.5:h3.8x22a3.3x25 p9.5:h8.7x22a9.6x25 r10.5:h9.6x22a9.2x25
 Ivica Zubac|a1.5:h2.2x21a2.2x27 p12.5:h11.8x21a15.9x27 r9.5:h10.1x21a11.0x27
 Ja'Kobe Walter|a1.5:h1.3x38a1.1x34 p12.5:h7.2x38a7.9x34 r3.5:h2.6x38a2.5x34 t2.5:h1.4x38a1.6x34
@@ -93,7 +93,7 @@ Klay Thompson|a1.5:h1.5x38a1.2x31 p14.5:h11.4x38a12.1x31 r1.5:h1.9x38a2.3x31 t3.
 Kyle Kuzma|a2.5:h2.9x35a2.5x34 p11.5:h13.4x35a12.6x34 r4.5:h4.3x35a4.8x34 t1.5:h1.3x35a1.1x34
 Kyrie Irving|a4.5:h0.0x0a0.0x0 p22.5:h0.0x0a0.0x0 r3.5:h0.0x0a0.0x0 t3.5:h0.0x0a0.0x0
 Kyshawn George|a4.5:h3.8x24a5.1x24 p14.5:h15.0x24a14.6x24 r4.5:h4.4x24a5.8x24 t1.5:h2.2x24a1.9x24
-LeBron James|a6.5:h7.1x33a6.8x30 p17.5:h19.2x33a21.2x30 r6.5:h5.6x33a6.2x30 t1.5:h1.3x33a1.2x30
+LeBron James|a6.5:h7.1x33a6.8x30 p16.5:h19.2x33a21.2x30 r6.5:h5.6x33a6.2x30 t1.5:h1.3x33a1.2x30
 Luguentz Dort|a1.5:h1.2x37a1.2x32 p9.5:h7.9x37a8.8x32 r3.5:h3.5x37a3.6x32 t1.5:h1.7x37a2.0x32
 Luka Doncic|a7.5:h8.5x32a7.9x33 p36.5:h33.6x32a32.4x33 r7.5:h7.5x32a7.7x33 t4.5:h4.1x32a3.7x33
 Luke Kennard|p8.5:h7.6x39a9.1x39 t1.5:h1.2x39a1.8x39
@@ -109,7 +109,7 @@ Nikola Jokic|a8.5:h11.2x33a9.9x33 p24.5:h27.6x33a26.9x33 r11.5:h12.6x33a12.8x33 
 Noah Clowney|p7.5:h13.7x35a10.6x31 r3.5:h4.3x35a3.9x31 t0.5:h2.2x35a1.7x31
 Nolan Traore|a4.5:h3.8x29a3.8x27 p13.5:h9.8x29a8.0x27 r2.5:h2.1x29a1.4x27 t1.5:h1.3x29a0.9x27
 Norman Powell|a2.5:h3.0x26a2.0x35 p23.5:h23.5x26a19.0x35 r2.5:h3.0x26a3.6x35 t2.5:h2.7x26a2.5x35
-Onyeka Okongwu|a2.5:h3.2x37a3.0x37 p14.5:h14.5x37a15.9x37 r8.5:h7.9x37a7.3x37 t1.5:h1.9x37a2.0x37
+Onyeka Okongwu|a2.5:h3.2x37a3.0x37 p14.5:h14.5x37a15.9x37 r7.5:h7.9x37a7.3x37 t1.5:h1.9x37a2.0x37
 Oso Ighodaro|a2.5:h2.0x43a2.5x41 p6.5:h6.2x43a6.8x41 r5.5:h4.9x43a5.2x41
 P.J. Washington|a1.5:h1.9x27a1.7x29 p12.5:h13.4x27a14.8x29 r6.5:h6.6x27a7.5x29 t1.5:h1.4x27a1.3x29
 Pascal Siakam|a3.5:h3.9x31a3.5x33 p20.5:h22.9x31a23.8x33 r5.5:h6.6x31a6.3x33 t1.5:h1.5x31a1.8x33
