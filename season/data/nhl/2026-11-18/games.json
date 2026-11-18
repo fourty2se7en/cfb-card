@@ -1,0 +1,26 @@
+[
+ {
+  "id": 2026020344,
+  "away": "BOS",
+  "home": "DET",
+  "start": "2026-11-19T00:30:00Z",
+  "venue": "Little Caesars Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020345,
+  "away": "MTL",
+  "home": "NJD",
+  "start": "2026-11-19T00:30:00Z",
+  "venue": "Prudential Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020346,
+  "away": "COL",
+  "home": "UTA",
+  "start": "2026-11-19T03:00:00Z",
+  "venue": "Delta Center",
+  "neutral": false
+ }
+]
