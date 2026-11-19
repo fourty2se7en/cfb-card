@@ -12,6 +12,7 @@ Modes
   close       every 30 minutes. Full game lines for games starting in the next 75 minutes (one call per sport, 3 credits, every run,
               the latest read before tip is the close), plus first half or first period lines and closing props once per game.
   now         Nov 12 (A28): current lines for a card run (full game lines; periods and team totals with NOW_PERIODS=1).
+              NOW_TODAY=1 (Nov 19, the loop's 13:43 and 15:43 reads): only games left today, Phoenix day to 04:00.
   props_now   Nov 14 (B115): player props for every game left today (Phoenix day, to 04:00 next morning), even games read
               before (props_open reads each game once). Same cost as props_open: 1 credit per prop market returned per game.
   status      prints the credits left (costs nothing: the events endpoint is free).
@@ -162,13 +163,16 @@ def run(mode, only=None):
                 if ev: out += rows(ev, 'props_open', sport); S['props_open'][e['id']] = iso(NOW)
             write(sport, 'props_open', out)
         elif mode == 'now':   # Nov 12 (A28): pick time lines for a card run (texas222 retired); periods and team totals when asked
-            evs = events(sport, NOW + dt.timedelta(minutes=2), NOW + dt.timedelta(hours=30))
+            end = NOW + dt.timedelta(hours=30)
+            if os.environ.get('NOW_TODAY') == '1':   # Nov 19: scheduled loop reads, games left today (Phoenix, to 04:00) only
+                end = (NOW.astimezone(PHX).replace(hour=0, minute=0, second=0) + dt.timedelta(days=1, hours=4)).astimezone(dt.timezone.utc)
+            evs = events(sport, NOW + dt.timedelta(minutes=2), end)
             if not evs: continue
             full(sport, 'now', [e['id'] for e in evs], mode)
             if os.environ.get('NOW_PERIODS') == '1' and cfg['periods']:
                 per = []
                 for e in evs:
-                    if not ok(RESERVE_PERIODS): print('  periods skipped: budget guard'); break
+                    if not ok(int(os.environ.get('NOW_PERIODS_RESERVE') or RESERVE_PERIODS)): print('  periods skipped: budget guard'); break
                     ev = per_event(sport, e['id'], cfg['periods'], 'now_periods', mode)
                     if ev: per += rows(ev, 'now_periods', sport)
                 write(sport, 'now_periods', per)

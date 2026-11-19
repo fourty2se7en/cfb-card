@@ -6,6 +6,8 @@ Every tick (about every 30 minutes, at :13 and :43):
           start within 75 minutes)
   espn    finals for yesterday (once after 02:00), slate, injuries, standings, rankings, transactions (after 06:00, 10:00, 14:00)
   nhl     NHL API team, skater, standings, finals and DraftKings files (after 06:30 and 13:00)
+  now     (Nov 19) about 13:43 and 15:43: current full game lines, period lines and team totals for games left today, only
+          for sports with a game not yet started on the ESPN slate (odds/pull.py now with NOW_PERIODS=1 NOW_TODAY=1)
   players (Nov 14, B115) season/players_pull.py all after 09:15 (team season stats and ranks, NBA, NHL and FBS player logs),
           and NBA season_raw.txt again after props_open (it needs the prop lines)
   grade   (Nov 19) once a day right after the 02:00 finals pull: season/nightly_grade.py grades every sport from the repo
@@ -22,12 +24,24 @@ LIMIT = float(os.environ.get('LOOP_SECONDS', 5 * 3600 + 40 * 60))
 T0 = time.time()
 
 
-def sh(cmd):
+def sh(cmd, env=None):
     print('$', ' '.join(cmd), flush=True)
-    try: r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=2400)
+    try: r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=2400, env=dict(os.environ, **(env or {})))
     except subprocess.TimeoutExpired: print('timeout', flush=True); return 1
     print((r.stdout or '')[-1500:], (r.stderr or '')[-800:], flush=True)
     return r.returncode
+
+
+def sports_today(day):
+    """Sports whose saved ESPN slate for the Phoenix day has a game not yet started (season/espn_pull.py slate)."""
+    import gzip
+    out = []
+    for sp in ('nba', 'nhl', 'ncaam', 'ncaaw', 'nfl', 'fbs'):
+        f = ROOT / 'season' / 'data' / 'espn' / sp / day / 'scoreboard.json.gz'
+        try: ev = json.load(gzip.open(f)).get('events', []) if f.exists() else []
+        except Exception: ev = []
+        if any(e['competitions'][0]['status']['type']['state'] == 'pre' for e in ev): out.append(sp)
+    return out
 
 
 def commit(msg):
@@ -53,6 +67,10 @@ def tick():
         if once(k, t): sh(['python3', 'season/espn_pull.py', 'slate', '', day])
     for k, t in (('nhl_am', 6 * 60 + 30), ('nhl_pm', 13 * 60)):
         if once(k, t): sh(['python3', 'season/nhl_pull.py', day])
+    for k, t in (('now_pm1', 13 * 60 + 43), ('now_pm2', 15 * 60 + 43)):   # Nov 19: fresh lines for the card runs, today's sports only
+        if once(k, t):
+            sp = sports_today(day)
+            if sp: sh(['python3', 'odds/pull.py', 'now', ','.join(sp)], env=dict(NOW_PERIODS='1', NOW_TODAY='1', NOW_PERIODS_RESERVE='5000'))   # periods only while 5,000+ credits are left
     if once('players_am', 9 * 60 + 15): sh(['python3', 'season/players_pull.py', 'all', '', day])
     if st.get('props_open') == day and once('players_nba_raw', 10 * 60 + 5): sh(['python3', 'season/players_pull.py', 'nba_raw', 'nba', day])
     STATE.write_text(json.dumps(st, indent=1, sort_keys=True))

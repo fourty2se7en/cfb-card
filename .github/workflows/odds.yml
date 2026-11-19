@@ -61,15 +61,20 @@ jobs:
             "13,43 * * * *") echo "mode=close" >> "$GITHUB_OUTPUT" ;;
             *) if [ "${{ github.event_name }}" = "push" ]; then m=$(head -1 odds/run.txt | cut -d' ' -f1); case "$m" in open|props_open|props_now|now|close|status) ;; *) m=status ;; esac
                  echo "mode=$m" >> "$GITHUB_OUTPUT"
-               else echo "mode=${{ github.event.inputs.mode || 'status' }}" >> "$GITHUB_OUTPUT"; fi ;;
+                 # Nov 19: run.txt line 1 = "<mode> [sports comma list] [periods]", e.g. "now nba,nhl periods" (see season/RUN_PULLS.md)
+                 sp=$(head -1 odds/run.txt | awk '{print $2}' | grep -E '^[a-z,]+$' | grep -v '^periods$' || true)
+                 pe=$(head -1 odds/run.txt | grep -qw periods && echo 1 || true)
+                 echo "sports=$sp" >> "$GITHUB_OUTPUT"; echo "periods=$pe" >> "$GITHUB_OUTPUT"
+               else echo "mode=${{ github.event.inputs.mode || 'status' }}" >> "$GITHUB_OUTPUT"
+                 echo "sports=${{ github.event.inputs.sports }}" >> "$GITHUB_OUTPUT"; echo "periods=${{ github.event.inputs.periods }}" >> "$GITHUB_OUTPUT"; fi ;;
           esac
 
       - name: Pull
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-          NOW_PERIODS: ${{ github.event.inputs.periods }}
+          NOW_PERIODS: ${{ steps.mode.outputs.periods }}
         run: |
-          python3 odds/pull.py "${{ steps.mode.outputs.mode }}" "${{ github.event.inputs.sports }}"
+          python3 odds/pull.py "${{ steps.mode.outputs.mode }}" "${{ steps.mode.outputs.sports }}"
           if [ "${{ steps.mode.outputs.mode }}" = "props_now" ] || [ "${{ steps.mode.outputs.mode }}" = "props_open" ]; then python3 season/players_pull.py nba_raw nba || true; fi
 
       - name: Commit odds
