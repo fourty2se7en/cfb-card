@@ -16,7 +16,8 @@ it was on, plus its would-be picks while it was off (listed under Non Active Pic
 rule took the game, or the Nov 11 backfill) are tracked as `fits` but never decide on or off; held props are left out.
 Old card picks count at their meta.retier tier (the Nov 7 one tier scale), the same tier the page shows. Units come
 from the price (the units field only when there is no price).
-Writes per tier: real (status record, season), real_month (status record, this month), fits (every fit),
+A64 (Nov 19): picks are graded at the saved close (at_close) before anything is counted; real_month now holds the trailing 3 weeks.
+Writes per tier: real (status record, season), real_month (status record, trailing 3 weeks), fits (every fit),
 season/month (replay), on, pending_on, switched {date, to, record}."""
 import json, glob, math, os, sys, re, collections
 DL, OUT = sys.argv[1], sys.argv[2]
@@ -123,6 +124,98 @@ def rec(a, label=None):
     o = dict(w=sum(x['result'] == 'win' for x in a), l=sum(x['result'] == 'loss' for x in a), p=sum(x['result'] == 'push' for x in a), u=round(sum(units(x) for x in a), 2))
     if label: o['label'] = label
     return o
+
+# A64 (Trina, approved Nov 19): one record graded at the close. Every graded pick with a saved close (close_line,
+# close_price) is graded at that line and price; a pick with no saved close keeps its run line grade. Same logic as the
+# page's closeRes. The trailing 3 weeks (21 days) record replaces the month (watch flag only).
+import datetime as _dt
+def _num(x):
+    try:
+        v = float(str(x).replace('+', '')) if not isinstance(x, (int, float)) else float(x)
+        return v if math.isfinite(v) else None
+    except Exception: return None
+def _tm(x): return re.sub(r'[^A-Z0-9]', '', str('' if x is None else x).upper())
+def _same(x, y):
+    a, b = _tm(x), _tm(y); return bool(a and b) and (a == b or a.startswith(b) or b.startswith(a))
+def _final(p):
+    f = str(p.get('final') or ''); m = re.match(r'^\s*(.+?)\s+(\d+)\s*,\s*(.+?)\s+(\d+)', f)
+    if not m: return None
+    a, h = (m.group(1), int(m.group(2))), (m.group(3), int(m.group(4)))
+    if _same(a[0], p.get('home')) and not _same(a[0], p.get('away')) and _same(h[0], p.get('away')): a, h = h, a
+    o = {'a': a[1], 'h': h[1]}; q = re.search(r'\((?:1P|1H)\s+(\d+)-(\d+)\)', f)
+    if q: o['p1'] = {'a': int(q.group(1)), 'h': int(q.group(2))}
+    return o
+def _pick_tm(p):
+    sd = str(p.get('side') or '')
+    if re.match(r'^away$', sd, re.I): return 'a'
+    if re.match(r'^home$', sd, re.I): return 'h'
+    if sd and not re.match(r'^(over|under)$', sd, re.I):
+        if _same(sd, p.get('away')): return 'a'
+        if _same(sd, p.get('home')): return 'h'
+    pk = _tm(re.sub(r'[+-]?\d.*$|\bPK\b.*$|\bmoneyline\b.*$|\bML\b.*$', '', str(p.get('pick') or ''), flags=re.I))
+    if not pk: return None
+    A, H = _tm(p.get('away')), _tm(p.get('home'))
+    if A and (pk == A or pk.startswith(A) or A.startswith(pk)): return 'a'
+    if H and (pk == H or pk.startswith(H) or H.startswith(pk)): return 'h'
+    return None
+def _ou(t):
+    t = str(t or '')
+    return 'u' if re.search(r'\bunder\b|(^|\s)u\d', t, re.I) else ('o' if re.search(r'\bover\b|(^|\s)o\d', t, re.I) else None)
+def _g(d): return 'win' if d > 0 else ('loss' if d < 0 else 'push')
+def close_grade(p):
+    """(result, price) at the close, or None when the pick has no gradable saved close."""
+    if p.get('result') not in ('win', 'loss', 'push'): return None
+    m = str(p.get('market') or ''); cl = _num(p.get('close_line')); cp = _num(p.get('close_price'))
+    if cp is None and isinstance(p.get('close_line'), str):
+        mm = re.search(r'[+-]\d{3,}', p['close_line'])
+        if mm: cp = float(mm.group(0))
+    r = None
+    if m == 'Moneyline':
+        if cp is None and p.get('close_line') is None: return None
+        r = p['result']
+    else:
+        if cl is None: return None
+        if m == 'Prop':
+            v = _num(p.get('actual'))
+            if v is None: v = _num(p.get('value'))
+            if v is None:
+                f = str(p.get('final') or ''); a = re.match(r'^\s*(\d+(?:\.\d+)?)\s+[A-Za-z]', f); b = re.search(r'\(([^()]*?)\s(\d+(?:\.\d+)?)\)\s*$', f)
+                if a: v = float(a.group(1))
+                elif b and _same(b.group(1), p.get('player')): v = float(b.group(2))
+            sd = prop_side(p)
+            if v is None or not sd: return None
+            r = _g(v - cl if sd == 'Over' else cl - v)
+        else:
+            F = _final(p)
+            if not F: return None
+            if m in ('Spread', 'Puck line'):
+                t = _pick_tm(p)
+                if not t: return None
+                r = _g((F['a'] - F['h'] if t == 'a' else F['h'] - F['a']) + cl)
+            elif m == 'Total' or re.search(r'1st (period|half) total', m, re.I):
+                S0 = F.get('p1') if re.search('1st', m, re.I) else F
+                if not S0: return None
+                ou = _ou(p.get('pick')) or _ou(p.get('side'))
+                if not ou: return None
+                r = _g(S0['a'] + S0['h'] - cl if ou == 'o' else cl - S0['a'] - S0['h'])
+            elif m == 'Team total':
+                tt, o2 = _pick_tm(p), _ou(p.get('pick'))
+                if not tt or not o2: return None
+                sc0 = F['a'] if tt == 'a' else F['h']; r = _g(sc0 - cl if o2 == 'o' else cl - sc0)
+            else: return None
+    return r, (cp if cp is not None else _num(p.get('price')))
+def at_close(p):
+    """A64: the pick as graded for its season record."""
+    c = close_grade(p)
+    if not c: return p
+    q = dict(p); q['run_result'] = p.get('result'); q['result'] = c[0]
+    if c[1] is not None: q['price'] = c[1]
+    q.pop('units', None); q['graded_at'] = 'close'; return q
+WINDOW_DAYS = 21
+def in_window(d, today):
+    try: cut = (_dt.date.fromisoformat(today) - _dt.timedelta(days=WINDOW_DAYS - 1)).isoformat()
+    except Exception: return False
+    return cut <= str(d or '')[:10] <= today
 os.makedirs(OUT, exist_ok=True)
 for s in MIN:
     mp = f'{DL}/meta/{s}.json'
@@ -132,8 +225,9 @@ for s in MIN:
     bt = [b.get('data', b) for b in bt]
     picks = [json.load(open(f)) for f in glob.glob(f'{DL}/sports/{s}/picks/*.json') + (glob.glob(f'{DL}/sports/nfl/picks_bg/*.json') if s == 'nfl' else [])]
     picks = [dict(x.get('data', x), __id=os.path.basename(f)[:-5]) for x, f in zip(picks, glob.glob(f'{DL}/sports/{s}/picks/*.json') + (glob.glob(f'{DL}/sports/nfl/picks_bg/*.json') if s == 'nfl' else []))]
+    picks = [at_close(p) for p in picks]   # A64: one record graded at the close
     RT = m.get('retier') or {}
-    month = (TODAY or max([str(b.get('date', '')) for b in bt] or ['2026-11']))[:7]
+    today = TODAY or max([str(b.get('date', '')) for b in bt] or ['2026-11-01'])   # A64: trailing 3 weeks replaces the month
     for r in m['rules']:
         if r.get('market') == 'Prop':
             # Nov 14 (Trina): prop rules are tracked by tier like game rules; each tier has its own status record and turns on or off on its own
@@ -152,8 +246,8 @@ for s in MIN:
                     if not L:
                         v.update(real=None, real_month=None, on=False, pending_on=f'0 of {MIN[s]} status picks needed to turn on')
                     else:
-                        real = rec(L); mo = [p for p in L if str(p.get('date'))[:7] == month]
-                        v.update(real=real, real_month=rec(mo, 'Nov') if mo else None)
+                        real = rec(L); mo = [p for p in L if in_window(p.get('date'), today)]
+                        v.update(real=real, real_month=rec(mo, 'Last 3 weeks') if mo else None)
                         was = (bool(o.get('on')) and o.get('real') is not None) if o else rule_was_on
                         on, why = turn_on(L, s)   # A58: minimum status picks and green units
                         if not on: v['pending_on'] = why
@@ -181,8 +275,8 @@ for s in MIN:
         if not bt:   # no backtest download: keep the stored replay numbers and statuses
             new = {t: {k: v for k, v in dict(o).items() if k not in ('real', 'real_month', 'fits', 'pending_on')} for t, o in old.items()}
         for t, e in E.items():
-            se = rec(e); n = se['w'] + se['l'] + se['p']; mo = [x for x in e if str(x['date'])[:7] == month]
-            new[t] = dict(new.get(t, {}), season=se, month=rec(mo, 'Nov') if mo else None, n=n)   # Nov 13: replay is reference only, never switches
+            se = rec(e); n = se['w'] + se['l'] + se['p']; mo = [x for x in e if in_window(x.get('date'), today)]
+            new[t] = dict(new.get(t, {}), season=se, month=rec(mo, 'Last 3 weeks') if mo else None, n=n)   # Nov 13: replay is reference only, never switches
         # Nov 11 evening (Trina): the status record decides (card picks, plus would-be picks while the tier was off)
         rp = collections.defaultdict(list); rf = collections.defaultdict(list)
         for p in picks:
@@ -193,8 +287,8 @@ for s in MIN:
             if t not in new: new[t] = dict(season=dict(w=0, l=0, p=0, u=0), month=None, n=0, on=False, upgraded=False, downgraded=False)
         for t, v in new.items():
             real = rec(rp[t]) if rp.get(t) else None
-            mo = [p for p in rp.get(t, []) if str(p.get('date'))[:7] == month]
-            v['real'] = real; v['real_month'] = rec(mo, 'Nov') if mo else None; v['fits'] = rec(rf[t]) if rf.get(t) else None
+            mo = [p for p in rp.get(t, []) if in_window(p.get('date'), today)]
+            v['real'] = real; v['real_month'] = rec(mo, 'Last 3 weeks') if mo else None; v['fits'] = rec(rf[t]) if rf.get(t) else None
             v['basis'] = BASIS.format(m=MIN[s])
             o = old.get(t) or {}
             if real is None:   # Nov 13 (A36, A37): no status record, no switch on from the replay
