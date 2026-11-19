@@ -1,0 +1,136 @@
+0|50|50
+@@LU
+NCCU|1|D. Duor,F,,32,10.0,6.0,0.0;T. Brown,G,,29,10.0,1.0,2.0;T. Mason,F,,28,9.0,5.0,1.0;D. Kane,G,,26,6.0,5.0,4.0;C. Sanon,G,,13,0.0,1.0,0.0;C. Thomas,G,b,25,6.0,5.0,0.0
+ECU|1|K. Watson,F,,36,15.0,4.0,3.0;C. Medley,G,,34,8.0,5.0,6.0;B. Blaine,G,,29,10.0,2.0,0.0;K. Cooper,F,,19,10.0,6.0,1.0;M. Klitschko,C,,10,0.0,4.0,2.0;T. Best,G,b,29,17.0,2.0,6.0
+VMI|1|Tr. Johnson,G,,32,12.0,8.0,3.0;R. Bradley Jr.,G,,31,10.0,7.0,5.0;TJ Johnson,F,,31,18.0,3.0,1.0;P. Narvilas,F,,28,10.0,4.0,0.0;A. Daushvili,F,,26,11.0,7.0,0.0;R. Zilys,G,b,17,0.0,2.0,2.0
+NCAT|1|P. James,G,,34,16.0,3.0,5.0;D. Delgardo III,G,,31,16.0,3.0,3.0;W. Felton,C,,28,5.0,12.0,0.0;M. Webster,F,,12,0.0,4.0,0.0;S. Lancaster,G,,9,3.0,0.0,0.0;S. Simley,F,b,28,14.0,5.0,0.0
+SDSU|1|E. Harrington,G,,33,18.0,2.0,8.0;L. Davis,G,,31,26.0,3.0,3.0;B. Cherry,F,,28,15.0,3.0,2.0;C. Gladden,G,,28,9.0,3.0,3.0;T. Simmons,F,,28,10.0,5.0,0.0;I. Sy,G,b,24,8.0,7.0,4.0
+BCU|1|D. Johnson,F,,37,13.0,4.0,1.0;D. Perez-Rouzan,F,,23,13.0,4.0,2.0;V. Boskovic,F,,23,0.0,1.0,3.0;J. Morris,G,,22,13.0,1.0,1.0;M. Jordan,G,,21,11.0,4.0,0.0;J. Jones,G,b,24,14.0,4.0,5.0
+PENN|1|M. Zanoni,G,,38,13.0,0.0,2.0;TJ Power,F,,38,26.0,8.0,2.0;AJ Levine,G,,33,11.0,3.0,4.0;S. Mohammed,G,,33,21.0,5.0,4.0;A. Gerhart,F,,15,3.0,5.0,1.0;L. Lueth,F,b,22,2.0,4.0,1.0
+IUIN|1|G. Etchison,G,,28,9.0,0.0,3.0;K. Tinsley,F,,26,9.0,6.0,2.0;P. Idiaru,F,,26,6.0,8.0,2.0;P. Heiss,G,,16,1.0,2.0,1.0;R. Hagy,F,,14,2.0,1.0,0.0;B. Smith,G,b,25,14.0,4.0,1.0
+NAVY|1|C. Cole,G,,37,11.0,5.0,5.0;J. Kim,G,,35,9.0,3.0,4.0;J. Ashley Jr.,F,,32,6.0,12.0,1.0;J. Pennick,G,,32,29.0,4.0,2.0;D. Burnett,G,,31,17.0,9.0,1.0;J. Nordin,G,b,14,3.0,0.0,2.0
+TEM|1|D. Ford,G,,37,18.0,2.0,6.0;C. Scott,G,,36,26.0,4.0,1.0;G. Griffiths,G,,32,6.0,8.0,1.0;J. Marsh,G,,18,8.0,1.0,3.0;C. Beam,C,,6,0.0,3.0,0.0;B. Njie,F,b,19,2.0,4.0,0.0
+COFC|1|B. Bradford,G,,33,19.0,8.0,0.0;T. Johnson,G,,33,32.0,0.0,3.0;M. Green,G,,28,15.0,3.0,2.0;E. Ellis,G,,24,2.0,4.0,3.0;B. Pierce,C,,22,4.0,2.0,1.0;X. Abreu,G,b,18,0.0,3.0,0.0
+COLG|1|J. Ahayere,G,,26,9.0,5.0,2.0;A. Alekseyenko,F,,25,15.0,8.0,4.0;P. Jones,G,,24,8.0,4.0,1.0;B. Forrest,G,,21,6.0,0.0,2.0;S. Wright,F,,20,2.0,5.0,0.0;J. Harrington,G,b,21,2.0,0.0,0.0
+USI|1|K. Brown,G,,35,8.0,2.0,0.0;F. Sylla,G,,33,16.0,15.0,1.0;A. Trnka,G,,32,14.0,4.0,4.0;Y. Yamanouchi-Williams,F,,19,10.0,5.0,1.0;J. Dunham,G,,9,0.0,0.0,1.0;J. Smith,G,b,29,14.0,6.0,1.0
+UNCW|1|G. Walsh,F,,31,17.0,6.0,2.0;P. Wessler,C,,26,29.0,7.0,1.0;T. Nelson,F,,20,12.0,3.0,2.0;X. Brown,G,,18,2.0,5.0,4.0;CJ Luster II,G,,16,0.0,1.0,1.0;T. Pettway,G,b,27,8.0,1.0,4.0
+SJU|1|Q. Ellis,G,,32,6.0,6.0,9.0;K. Hall,F,,24,17.0,3.0,4.0;T. Yessoufou,G,,24,15.0,4.0,0.0;R. Prey,F,,21,11.0,8.0,1.0;I. Jackson,G,,20,17.0,3.0,1.0;B. Sane,F,b,16,9.0,6.0,0.0
+KENT|1|C. Willis Jr.,G,,33,26.0,3.0,4.0;J. Sumlin,G,,32,7.0,6.0,0.0;L. Diouf,F,,19,3.0,6.0,2.0;Q. Woidke,G,,17,5.0,2.0,0.0;B. Moss,G,,14,0.0,1.0,0.0;D. Miller,G,b,21,13.0,4.0,1.0
+MARQ|1|A. Stevens,G,,32,16.0,3.0,3.0;R. Parham,F,,32,8.0,6.0,1.0;S. Fru,F,,22,3.0,2.0,0.0;N. James Jr.,G,,18,0.0,0.0,1.0;D. Owens,SF,,12,5.0,2.0,2.0;N. Minessale,G,b,21,5.0,5.0,2.0
+MICH|1|T. McKenney,G,,36,15.0,5.0,4.0;E. Cadeau,G,,34,17.0,7.0,10.0;J.P. Estrella,F,,31,18.0,8.0,2.0;M. Thiam,C,,27,9.0,12.0,1.0;R. Gayle Jr.,G,,25,7.0,4.0,2.0;Q. Costello,F,b,25,15.0,4.0,1.0
+INST|1|K. Gregory,G,,35,15.0,4.0,6.0;M. Mitchell,G,,33,19.0,3.0,1.0;J. Cooper,F,,29,14.0,2.0,6.0;EJ McQuillan,G,,18,0.0,1.0,0.0;A. Calamita,F,,17,5.0,5.0,2.0;C. Puryear,G,b,25,10.0,9.0,1.0
+MILW|1|D. Jovanovich,F,,36,13.0,6.0,1.0;C. Jackson,F,,30,11.0,2.0,2.0;A. Hereford,G,,27,23.0,7.0,6.0;T. Norman,G,,26,10.0,6.0,1.0;Al Amadou,F,,7,2.0,0.0,0.0;N. Malosa,F,b,25,11.0,7.0,1.0
+NORF|1|B. Laster,G,,37,17.0,2.0,1.0;J. Skyers,G,,37,19.0,6.0,3.0;C. Walker,G,,21,5.0,0.0,0.0;J.C. Riley Jr.,F,,20,4.0,3.0,0.0;J. Jones,G,,16,0.0,0.0,0.0;K. Mitchell,G,b,21,6.0,0.0,1.0
+SCST|1|N. Treadwell,G,,19,2.0,1.0,0.0;T. Tindal,F,,18,6.0,3.0,0.0;M. Taylor,G,,15,9.0,3.0,1.0;T. Raymon,F,,15,5.0,3.0,0.0;B. Adams,F,,6,0.0,2.0,0.0;D. Jackson Jr.,PG,b,25,8.0,3.0,4.0
+ODU|1|A. Holiman,G,,34,7.0,0.0,3.0;Z. Wiggins,G,,33,16.0,6.0,2.0;Z. Weluche-Ume,F,,27,10.0,6.0,1.0;B. Benjamin,G,,25,10.0,0.0,1.0;K. Howze,F,,14,9.0,5.0,1.0;J. Nweke,F,b,19,10.0,7.0,0.0
+HC|1|A. Richard,F,,35,3.0,6.0,2.0;T. Wilson,G,,35,20.0,14.0,5.0;K. Hanson,G,,25,5.0,1.0,0.0;C. Hare,F,,18,4.0,2.0,1.0;J. St. Germain III,G,,18,4.0,1.0,1.0;A. Alijosius,G,b,25,17.0,4.0,1.0
+ND|1|B. Shrewsberry,G,,27,7.0,3.0,3.0;B. Koehler,F,,24,16.0,7.0,5.0;E. Roberts,G,,23,36.0,7.0,2.0;L. Duncomb,C,,23,9.0,10.0,2.0;B. Smith,G,,22,2.0,0.0,8.0;J. Sanderson,G,b,16,10.0,4.0,2.0
+SC|1|M. Johnson,G,,25,20.0,3.0,6.0;A. Bieliauskas,F,,24,11.0,3.0,1.0;J. Nečas,F,,23,6.0,2.0,0.0;J. Fernández,F,,21,8.0,4.0,0.0;K. Mincy,G,,16,0.0,0.0,2.0;S. Blakeney,G,b,28,9.0,2.0,1.0
+FUR|1|T. House,G,,30,9.0,5.0,1.0;C. Johnston,F,,29,12.0,10.0,4.0;M. Kell,F,,28,14.0,4.0,0.0;A. Franklin,G,,26,17.0,5.0,1.0;L. Toews,G,,26,9.0,2.0,3.0;C. Elwer,G,b,23,6.0,2.0,0.0
+STBK|1|B. Ndjonga,F,,34,7.0,6.0,2.0;C. O'Connor,G,,31,1.0,5.0,2.0;J. Daughtry,F,,30,14.0,7.0,1.0;M. Ugusuk,G,,30,12.0,3.0,0.0;Ö. Cengiz,G,,28,16.0,2.0,4.0;E. Simmon,G,b,16,4.0,1.0,0.0
+SPU|1|X. Thomas,F,,29,15.0,3.0,0.0;T. Patterson,F,,28,0.0,4.0,0.0;K. Walker,G,,23,6.0,1.0,1.0;E. Perkins,G,,20,0.0,1.0,0.0;J. Noudjihidi,C,,16,2.0,2.0,1.0;B. Eaton,G,b,22,10.0,2.0,2.0
+PRIN|1|J. Hicke,G,,36,12.0,8.0,3.0;D. Davis,G,,33,8.0,3.0,2.0;L. Clark,G,,23,3.0,4.0,2.0;M. Abdullahi,F,,23,6.0,4.0,1.0;J. Huggins,F,,17,4.0,5.0,0.0;C. Kirkpatrick,G,b,26,23.0,2.0,1.0
+JMU|1|A. Myers,G,,29,19.0,4.0,2.0;K.J. Windham,G,,29,9.0,3.0,4.0;P. Fowler,F,,29,2.0,4.0,2.0;B. Lee,G,,28,18.0,2.0,1.0;G. Sundra,F,,28,9.0,11.0,0.0;G. Lattimore,G,b,18,5.0,2.0,2.0
+DEL|1|C. Bailey III,G,,39,13.0,6.0,0.0;K. Nzeh,F,,37,15.0,12.0,1.0;D. Harris-Smith,G,,35,11.0,10.0,6.0;N. Petronio,G,,34,16.0,0.0,2.0;S. Solano,C,,5,0.0,0.0,0.0;J. Brown,G,b,20,3.0,2.0,1.0
+ETSU|1|BJ Ward,G,,34,14.0,4.0,2.0;T. Mason,G,,32,19.0,7.0,4.0;M. Marion,F,,28,6.0,10.0,1.0;J. Cooper,G,,18,2.0,1.0,1.0;K. Campbell,F,,17,4.0,7.0,2.0;T. Hennig,G,b,26,6.0,5.0,4.0
+CAM|1|AJ Wright Jr.,G,,38,5.0,3.0,5.0;R. Inglemon,G,,38,20.0,2.0,1.0;L. Waddles,G,,36,15.0,4.0,1.0;S. Moore,F,,36,5.0,3.0,1.0;N. Kapic,F,,21,8.0,4.0,1.0;C. McAbee,G,b,14,0.0,2.0,0.0
+NJIT|1|D. Bolden,G,,29,9.0,1.0,3.0;V. Vanderstraeten,F,,26,10.0,8.0,0.0;M. Tatum Jr.,G,,21,5.0,3.0,0.0;M. Coffi,F,,19,5.0,2.0,0.0;B. Stores Jr.,G,,18,3.0,2.0,2.0;R. Awad,G,b,21,5.0,1.0,0.0
+VCU|1|N. Lewis,G,,28,12.0,6.0,1.0;B. Harper,G,,26,8.0,3.0,5.0;L. Djokovic,F,,25,15.0,7.0,3.0;B. Jennings,G,,19,6.0,3.0,3.0;M. Belle,F,,16,5.0,9.0,0.0;T. Alston,F,b,19,19.0,7.0,3.0
+W&M|1|J. Baldwin,G,,30,15.0,3.0,4.0;J. McIntosh,G,,22,9.0,3.0,3.0;T. Blassingame,G,,21,7.0,2.0,1.0;E. Connery,G,,18,2.0,2.0,3.0;J. Roland Jr.,F,,10,5.0,0.0,0.0;B. Carter Jr.,F,b,25,21.0,5.0,6.0
+AMER|1|M. Collins,G,,34,23.0,4.0,2.0;J. Iturbe,F,,32,8.0,6.0,1.0;E. Michaels,F,,28,9.0,6.0,2.0;G. Jones,F,,28,7.0,3.0,1.0;M. Mayock,F,,23,3.0,3.0,1.0;W. Nausadis,G,b,18,3.0,2.0,2.0
+DREX|1|L. Lorenzano-White,G,,33,18.0,3.0,1.0;D. Simonovic,F,,32,10.0,1.0,3.0;L. Pittman,G,,24,8.0,0.0,0.0;D. Tingler,G,,21,2.0,1.0,4.0;C. Edomwonyin,F,,9,4.0,3.0,0.0;P. Pagonis,F,b,31,13.0,3.0,4.0
+FAU|1|F. Quinones,G,,39,5.0,5.0,10.0;K. Carlyle,G,,38,21.0,7.0,3.0;J. Harris,F,,26,25.0,8.0,0.0;J. Hamilton,G,,19,21.0,3.0,2.0;T. Ifaola,C,,14,2.0,2.0,0.0;M. Charles,G,b,22,0.0,2.0,4.0
+WGA|1|C. Lewless,G,,33,12.0,2.0,3.0;K. Chime,PF,,29,13.0,13.0,1.0;M. Smith,F,,28,12.0,4.0,3.0;D. Simon,F,,24,10.0,9.0,0.0;J. Dixon,G,,24,8.0,2.0,2.0;L. Hutchinson III,G,b,22,4.0,7.0,2.0
+UNCA|1|M. Mayfield,F,,32,11.0,3.0,1.0;T. Chatman,G,,28,6.0,2.0,3.0;J. Lipkins,G,,27,16.0,5.0,1.0;D. Thomas,F,,22,7.0,3.0,0.0;K. Phipps,G,,17,4.0,5.0,0.0;A. Magassa,F,b,18,2.0,4.0,3.0
+COR|1|Q. Gibson,F,,25,11.0,6.0,1.0;M. Rafiq,G,,22,3.0,1.0,2.0;A. Nimani,G,,18,7.0,0.0,2.0;J. Beccles,G,,18,8.0,0.0,2.0;K. Sepp,F,,16,4.0,1.0,2.0;M. Williams,F,b,18,5.0,2.0,1.0
+SBU|1|A. Fulton,G,,30,14.0,8.0,1.0;B. Bill,C,,28,28.0,6.0,2.0;I. Ermakov,G,,28,9.0,6.0,3.0;T. Au-Duke,G,,27,10.0,1.0,5.0;Z. Philipkoski,G,,27,6.0,7.0,2.0;R. Kalambay,F,b,17,5.0,8.0,1.0
+UML|1|J. Harris,F,,31,9.0,6.0,0.0;V. Okojie,F,,30,13.0,3.0,2.0;C. Jones,G,,29,10.0,4.0,3.0;J. Newton,G,,27,8.0,3.0,1.0;I. Walter,G,,21,5.0,1.0,0.0;J. Cannady,G,b,23,8.0,5.0,4.0
+MASS|1|D. Carbuccia,G,,37,6.0,2.0,7.0;D. Wimbley Jr.,F,,36,9.0,10.0,4.0;J. Clayton,G,,31,17.0,5.0,3.0;J. Wang,F,,31,28.0,9.0,0.0;A. Ahmed,F,,16,0.0,9.0,1.0;D. Clerc,F,b,13,4.0,3.0,0.0
+SHSU|1|E. St. Bernard,F,,32,7.0,10.0,2.0;A. McDowell,G,,31,20.0,2.0,0.0;J. Coleman,G,,28,20.0,4.0,0.0;J. Begg,G,,26,13.0,5.0,2.0;M. Dann,F,,6,0.0,2.0,0.0;Y. Oke,F,b,25,14.0,8.0,0.0
+PEPP|1|E. Haywood,G,,35,18.0,4.0,1.0;P. Majstorovic,F,,31,12.0,4.0,0.0;O. Kanden,F,,27,3.0,1.0,1.0;A. Robinson,F,,18,9.0,9.0,0.0;W. McClendon,G,,9,0.0,2.0,0.0;J. Williamson,G,b,35,21.0,2.0,4.0
+RMU|1|D. Livingston,G,,32,10.0,1.0,2.0;KJ Garris Jr.,G,,32,11.0,3.0,2.0;A. Valentine,G,,29,13.0,1.0,5.0;S. Obenjo,F,,28,2.0,5.0,0.0;E. Cooke III,G,,20,2.0,3.0,1.0;T. Smith,G,b,21,7.0,2.0,1.0
+ARK|1|B. Richmond III,G,,30,16.0,4.0,4.0;C. Bowser,F,,30,12.0,10.0,3.0;J. Wilkinson,G,,28,10.0,3.0,4.0;J. Smith Jr.,G,,24,3.0,5.0,2.0;M. Muurinen,F,,19,2.0,5.0,3.0;D. Thompson,G,b,26,15.0,5.0,7.0
+JXST|1|C. Lockett Jr.,G,,30,5.0,0.0,0.0;J. Stiemke,G,,29,10.0,7.0,2.0;E. Croley,F,,25,6.0,3.0,1.0;L. Horner,G,,14,9.0,0.0,4.0;K. Polk,F,,10,0.0,0.0,0.0;N. Cunningham,F,b,29,13.0,1.0,0.0
+HOU|1|D. Thomas Jr.,G,,28,17.0,0.0,7.0;C. McCarty,F,,23,6.0,7.0,1.0;D. Gillespie,F,,21,7.0,4.0,0.0;J. Tugler,F,,19,4.0,8.0,1.0;M. Miller,G,,19,15.0,4.0,5.0;C. Hadnot II,G,b,21,7.0,2.0,2.0
+VAL|1|R. Chaney,G,,36,12.0,6.0,4.0;C. Hopoi,F,,32,16.0,9.0,0.0;JT Pettigrew,F,,23,15.0,5.0,0.0;J. McNair,G,,18,4.0,2.0,0.0;B. Alocen,G,,15,2.0,1.0,0.0;S. Servilus,G,b,24,3.0,4.0,0.0
+USM|1|J. Gaines-Wyatt,G,,37,28.0,3.0,4.0;A. Igiede,G,,35,8.0,5.0,2.0;B. Weston,G,,35,11.0,8.0,2.0;I. Taveras,G,,26,10.0,9.0,1.0;M. Blank,C,,8,0.0,1.0,0.0;C. Wallace,F,b,30,21.0,6.0,0.0
+SDST|1|EJ Ryans,G,,35,11.0,5.0,4.0;J. Sayler,G,,33,20.0,4.0,1.0;K. Garry,G,,30,21.0,6.0,1.0;D. Kern,F,,27,2.0,6.0,3.0;J. Mekonnen,F,,26,12.0,4.0,0.0;A. Squires,C,b,24,7.0,7.0,0.0
+ORU|1|B. Williams,G,,36,22.0,3.0,1.0;C. Furnish,G,,36,10.0,6.0,5.0;C. Dow,G,,34,8.0,4.0,0.0;L. Gray,F,,28,17.0,2.0,1.0;M. Kilups,G,,25,2.0,5.0,1.0;T. Zorbas,F,b,16,10.0,4.0,0.0
+JKST|1|M. Williams,G,,38,27.0,2.0,5.0;D. McMillian,G,,37,12.0,4.0,1.0;D. Williams,G,,35,5.0,9.0,0.0;C. Brunt,G,,30,10.0,6.0,2.0;N. Williams,F,,23,4.0,2.0,0.0;DJ Davis,G,b,28,11.0,1.0,0.0
+TLSA|1|M. Rigsby,G,,34,8.0,8.0,2.0;C. Loofe,F,,32,17.0,11.0,1.0;J. Lawal,G,,28,18.0,1.0,1.0;K. Williams,G,,28,6.0,2.0,4.0;M. Emory,F,,27,11.0,9.0,2.0;D. Forsythe,G,b,22,18.0,6.0,5.0
+UNT|1|C. Chavis,G,,37,14.0,2.0,2.0;J. Stevenson,G,,34,14.0,3.0,4.0;A. Amkou,G,,28,2.0,3.0,3.0;R. Robinson,F,,27,15.0,4.0,0.0;O. Ndour,F,,25,18.0,2.0,1.0;C. Franklin,G,b,26,3.0,6.0,0.0
+ACU|1|I. Dye,G,,35,11.0,5.0,1.0;W. Marie-Anais,F,,31,16.0,9.0,0.0;E. Boisdur,G,,27,10.0,2.0,4.0;T. Pons,G,,26,7.0,3.0,0.0;Y. Rivera,G,,23,5.0,5.0,0.0;X. Lopez,G,b,18,7.0,1.0,1.0
+SFA|1|C. Green,G,,30,9.0,4.0,3.0;N. Chotikavanic,G,,30,5.0,4.0,0.0;MJ Russell,G,,26,7.0,4.0,0.0;E. Makke,G,,22,21.0,0.0,2.0;E. Daniel,F,,19,1.0,8.0,2.0;G. Alisas,F,b,19,18.0,4.0,1.0
+SCU|1|J. Ensminger,G,,33,2.0,6.0,2.0;S. Gavalyugov,G,,27,10.0,4.0,2.0;B. Longcor III,G,,26,10.0,1.0,0.0;C. Tadjo,F,,24,14.0,8.0,2.0;F. Žugić,G,,22,7.0,2.0,1.0;T. Darlan,G,b,24,16.0,9.0,2.0
+UAPB|1|J. Tatum,G,,30,8.0,1.0,1.0;C. Williamson,F,,26,4.0,3.0,1.0;M. Rich,F,,23,11.0,3.0,0.0;CJ Smith,F,,22,2.0,3.0,0.0;J. Hayes,G,,18,0.0,1.0,1.0;H. Pickett,G,b,20,0.0,1.0,3.0
+UCLA|1|T. Perry,G,,27,11.0,4.0,11.0;J. Petty,G,,24,16.0,2.0,3.0;E. Dailey Jr.,F,,22,13.0,6.0,4.0;N. Kusturica,F,,22,17.0,3.0,3.0;B. Williams,F,,19,6.0,3.0,0.0;A. Robinson,G,b,23,15.0,1.0,5.0
+BOIS|1|D. Wheeler-Thomas,G,,36,23.0,1.0,6.0;D. Butka,F,,33,16.0,7.0,2.0;A. Neto,G,,30,25.0,2.0,5.0;S. Ahrens,F,,29,11.0,5.0,3.0;P. Carmichael,F,,22,11.0,2.0,2.0;J. Bowie,G,b,16,9.0,3.0,2.0
+OAK|1|N. Mashhour,G,,34,28.0,2.0,4.0;C. Fields Jr.,F,,26,17.0,9.0,1.0;W. Marshall IV,G,,24,5.0,3.0,1.0;R. Bradley,G,,15,4.0,1.0,2.0;B. El Shakery,F,,10,6.0,1.0,1.0;C. Thompson,F,b,31,10.0,9.0,2.0
+NEB|1|P. Sandfort,F,,28,22.0,8.0,4.0;B. Frager,F,,22,14.0,4.0,2.0;C. Jacobsen,G,,21,7.0,3.0,5.0;T. Leonhardt,G,,20,0.0,3.0,1.0;B. Kapke,F,,12,7.0,2.0,0.0;D. Wilkinson,F,b,18,19.0,3.0,0.0
+PRST|1|J. Randolph,F,,34,23.0,18.0,2.0;Y. Nikonov,G,,29,14.0,3.0,5.0;E. Skytt,G,,20,2.0,3.0,0.0;KC Ibekwe,C,,17,6.0,1.0,0.0;G. Krianauskas,G,,16,2.0,1.0,1.0;D. Johnson III,G,b,21,4.0,1.0,2.0
+LIN|1|X. Spencer,G,,29,4.0,2.0,0.0;M. Archie,G,,20,7.0,3.0,0.0;M. Diop,F,,19,5.0,5.0,1.0;M. Diouf,F,,18,9.0,5.0,1.0;D. Clay,G,,15,6.0,1.0,1.0;S. Green,G,b,26,12.0,3.0,3.0
+CSU|1|J. Pascarelli,G,,27,21.0,2.0,1.0;C. Booth,F,,26,7.0,3.0,0.0;J. Butler,G,,26,9.0,4.0,7.0;J. Menard,G,,22,8.0,2.0,3.0;K. Jorgensen,F,,13,3.0,1.0,0.0;R. Mbemba,F,b,24,17.0,5.0,1.0
+NEV|1|E. Price,F,,33,7.0,6.0,4.0;V. Weems,G,,32,10.0,2.0,0.0;S. Phipps,G,,29,20.0,6.0,3.0;P. Bandelj,G,,18,3.0,0.0,1.0;S. Majok,C,,9,2.0,2.0,0.0;P. White,G,b,21,9.0,6.0,1.0
+CP|1|C. Ward,G,,29,9.0,5.0,1.0;J. Esso Essis,G,,28,10.0,4.0,2.0;H. Mousa,G,,27,16.0,5.0,1.0;G. Vasilic,G,,21,3.0,3.0,1.0;A. Goode,F,,17,4.0,5.0,1.0;T. Plumtree,F,b,19,13.0,6.0,1.0
+UCSB|1|A. Mahaney,G,,32,12.0,4.0,4.0;M. McGhee IV,G,,27,9.0,4.0,0.0;CJ Shaw,G,,26,20.0,3.0,1.0;M. Little,G,,26,12.0,1.0,3.0;E. Dibami,C,,18,4.0,8.0,0.0;RJ Smith,G,b,23,4.0,5.0,4.0
+GCU|1|D. Darling,G,,24,10.0,3.0,4.0;J. Henley,G,,22,10.0,0.0,3.0;M. Williams,G,,22,12.0,4.0,2.0;B. Barkley,F,,19,16.0,5.0,1.0;E. Demirel,C,,7,0.0,5.0,1.0;T. Holloman,G,b,25,13.0,3.0,6.0
+CHST|1|M. Olafioye,G,,24,4.0,5.0,6.0;M. Robinson,G,,21,4.0,2.0,1.0;B. Kalonji,C,,20,0.0,2.0,2.0;A. Carraway,G,,15,9.0,1.0,1.0;B. Akanmu,F,,7,4.0,1.0,0.0;K. Foman,F,b,28,4.0,10.0,0.0
+CBU|1|T. Coner Jr.,G,,34,13.0,2.0,6.0;J. Muller,G,,31,5.0,1.0,2.0;R. D'Amelio,F,,23,18.0,9.0,2.0;E. Duncan,G,,17,2.0,2.0,0.0;A. Safin,F,,11,0.0,2.0,1.0;J. Stonkus,G,b,33,15.0,1.0,2.0
+MVSU|1|T. Williams,F,,36,6.0,8.0,3.0;C. Cameron,G,,35,12.0,6.0,2.0;M. Anglo,G,,30,8.0,0.0,2.0;G. Martinez,PF,,29,14.0,2.0,0.0;AJ Abrams,G,,13,4.0,0.0,0.0;E. Pippins,PG,b,23,9.0,0.0,4.0
+ORE|1|J. Johnson,G,,21,17.0,2.0,4.0;F. Payne,G,,18,9.0,0.0,5.0;M. Ewin,C,,17,8.0,13.0,3.0;T. Bol Bowen,F,,16,10.0,6.0,4.0;A. Meadow,F,,15,9.0,1.0,0.0;P. Compton,F,b,19,8.0,2.0,1.0
+PAC|1|A. Nyorha,G,,37,9.0,7.0,4.0;G. Ripp,F,,33,0.0,12.0,0.0;J. Pitt,F,,33,20.0,6.0,2.0;J. Winston,G,,26,8.0,2.0,2.0;J. Thompson,F,,22,3.0,2.0,1.0;CJ Jones,G,b,33,17.0,4.0,1.0
+UTSA|1|I. Watts,G,,29,15.0,4.0,1.0;KJ Tenner,G,,27,18.0,5.0,3.0;JJ Kelly,G,,25,2.0,5.0,1.0;P. Turner,G,,17,3.0,3.0,1.0;C. Okpukpara,F,,12,2.0,1.0,1.0;I. Coleman,G,b,23,14.0,7.0,2.0
+LBSU|1|J. Payne,G,,37,18.0,6.0,3.0;M. Adams,G,,30,10.0,3.0,2.0;N. Amenhauser,C,,26,10.0,5.0,1.0;JJ Chaikovsky,F,,20,2.0,1.0,0.0;Y. Sissoko,G,,20,12.0,3.0,2.0;J. Tengan,G,b,26,8.0,2.0,2.0
+SEA|1|W. Heimbrodt,F,,33,18.0,8.0,4.0;J. Yeo,F,,31,6.0,4.0,1.0;T. Boston,G,,29,16.0,2.0,2.0;M. Arington,G,,26,2.0,1.0,2.0;H. Dzellat,C,,23,4.0,5.0,0.0;J. Bailes,G,b,20,8.0,4.0,0.0
+USC|1|J. Cofie,F,,40,13.0,15.0,6.0;R. Rice,G,,39,18.0,5.0,3.0;A. Arenas,G,,38,19.0,7.0,1.0;D. Ratliff,C,,5,0.0,0.0,0.0;A. Ratliff,F,,4,0.0,0.0,1.0;KJ Lewis,G,b,33,16.0,3.0,2.0
+CAL|1|J. Ross,G,,30,7.0,4.0,3.0;N. Indrusaitis,G,,30,13.0,6.0,3.0;J. Wilkins,F,,27,8.0,2.0,1.0;M. Kocanas,C,,24,5.0,3.0,0.0;S. Yeanay,F,,17,14.0,3.0,0.0;M. Cooper,G,b,28,7.0,2.0,0.0
+FDU|1|T. Torain,F,,43,6.0,9.0,2.0;D. Jevtic,G,,33,21.0,8.0,1.0;JR Jacobs,G,,25,9.0,5.0,1.0;R. Johnson,G,,24,4.0,5.0,0.0;P. Stošic,F,,12,0.0,8.0,1.0;B. Agu,F,b,31,18.0,5.0,1.0
+ETAM|1|A. Dodd,G,,38,25.0,8.0,5.0;M. Diakite,F,,36,10.0,6.0,1.0;G. Škorjanc,G,,33,7.0,6.0,3.0;B. Aldridge,F,,27,9.0,6.0,6.0;J. Ford,F,,18,2.0,5.0,0.0;T. Duchamp,F,b,28,8.0,2.0,1.0
+KC|1|A. Diop,F,,28,12.0,16.0,3.0;J. Sicking,F,,24,21.0,5.0,0.0;J. Smith,G,,24,18.0,1.0,5.0;L. Goodwin,G,,23,3.0,2.0,6.0;S. Hartmann,F,,20,12.0,4.0,1.0;M. Samar,G,b,22,6.0,3.0,4.0
+FAMU|1|J. Joseph,G,,34,15.0,6.0,5.0;D. Williford,F,,32,2.0,3.0,0.0;R. Martino Jr.,G,,20,10.0,4.0,0.0;J. Kempson,G,,15,8.0,1.0,1.0;J. Mokweza,C,,10,3.0,3.0,0.0;C. Davis,G,b,26,7.0,4.0,0.0
+DART|1|C. Hiatt,G,,28,11.0,6.0,2.0;C. McNamee,G,,28,10.0,4.0,0.0;L. Williams,G,,28,7.0,4.0,5.0;D. Civello,C,,26,16.0,1.0,3.0;N. Abusara,G,,24,9.0,6.0,3.0;A. Jimenez,G,b,16,9.0,1.0,2.0
+UALB|1|O. Engen,G,,40,18.0,4.0,5.0;T. Jones,G,,38,15.0,2.0,8.0;U. Graham,F,,27,6.0,6.0,1.0;Z. Matulu,G,,25,9.0,6.0,1.0;A. Fall,G,,21,11.0,1.0,0.0;E. Bussing,F,b,25,11.0,3.0,0.0
+UIW|1|D. Goodwin,F,,34,14.0,10.0,1.0;G. Erheriene,F,,29,14.0,11.0,3.0;M. Conner,G,,28,3.0,2.0,9.0;B. McCreesh,G,,19,3.0,3.0,1.0;J. Thomas,G,,17,7.0,1.0,1.0;I. Habib,G,b,30,10.0,2.0,1.0
+UCD|1|B. Fagbemi,G,,31,21.0,3.0,9.0;C. Sevilla,G,,29,18.0,0.0,2.0;J. Stokes,G,,27,10.0,1.0,0.0;I. Chappell,F,,22,10.0,5.0,3.0;O. Suljanovic,F,,11,2.0,4.0,1.0;V. Abosi,F,b,21,12.0,10.0,0.0
+USF|1|S. Wilson,G,,39,13.0,3.0,6.0;C. Davis Jr.,G,,36,16.0,7.0,2.0;M. James,G,,34,16.0,9.0,3.0;Z. High,F,,25,13.0,8.0,3.0;G. Johnson,F,,21,6.0,4.0,0.0;A. Shoshkikj,G,b,25,15.0,6.0,1.0
+JOES|1|K. Myers,G,,36,15.0,4.0,6.0;A. Williford,G,,34,9.0,5.0,4.0;BJ Ranson,G,,32,21.0,2.0,1.0;S. Logan,F,,24,8.0,5.0,1.0;J. Glover-Toscano,G,,13,5.0,2.0,0.0;L. Carey,G,b,20,8.0,4.0,1.0
+LUC|1|G. Grotzinger,G,,28,14.0,6.0,7.0;J. Schofield,C,,22,11.0,8.0,1.0;D. Nessah,G,,20,10.0,4.0,1.0;J. Dawson,G,,13,0.0,0.0,1.0;R. Agarwal,G,,13,5.0,4.0,1.0;C. Jeffrey,G,b,21,7.0,3.0,1.0
+AF|1|G. Best,G,,32,15.0,7.0,4.0;C. Walker,F,,30,15.0,7.0,2.0;K. Sanders,G,,30,25.0,5.0,12.0;L. Hobin,F,,28,26.0,4.0,0.0;J. Hinds,G,,12,2.0,4.0,2.0;E. Greenberg,G,b,20,12.0,4.0,0.0
+VRHS|1|J. Johnson,F,,21,6.0,2.0,0.0;G. Wright,F,,19,4.0,2.0,0.0;R. Hill,F,,19,10.0,4.0,0.0;S. Jones,G,,19,2.0,2.0,1.0;R. Chandler,G,,15,2.0,5.0,0.0;T. Hall,F,b,19,2.0,4.0,0.0
+WOF|1|L. Flynn,G,,23,9.0,3.0,1.0;J. Daniels,G,,22,7.0,0.0,6.0;C. Lowe,G,,21,7.0,2.0,2.0;C. Watley,G,,20,11.0,3.0,2.0;E. Ramsey,C,,11,2.0,6.0,1.0;J. Dawkins,G,b,26,15.0,4.0,2.0
+VUL|1|D. Peterson,G,,40,27.0,3.0,2.0;J. Barr,G,,40,6.0,3.0,1.0;J. Newman,G,,40,7.0,0.0,0.0;M. Diaby,F,,40,14.0,9.0,0.0;R. Bradley,G,,40,14.0,5.0,2.0
+WCU|1|J. Roberts,G,,18,17.0,4.0,2.0;M. Brown,G,,15,12.0,3.0,2.0;S. Dada,F,,14,2.0,7.0,2.0;I. Manning,G,,12,12.0,2.0,3.0;J. Prunty,G,,11,10.0,2.0,2.0;A. McKoy,G,b,19,4.0,3.0,1.0
+THMC|1|P. Mitchell,G,,23,10.0,5.0,1.0;T. Blackmon,G,,22,4.0,3.0,2.0;J. Desimone,G,,21,2.0,0.0,1.0;J. Deloach,G,,19,8.0,0.0,1.0;I. Corson,F,,14,0.0,1.0,1.0;N. Hebert,G,b,14,18.0,1.0,0.0
+UNH|1|R. Zan,F,,22,15.0,5.0,3.0;J. Coleman,G,,21,4.0,1.0,5.0;M. Blackley,G,,20,20.0,2.0,1.0;D. McKenna,F,,17,10.0,5.0,2.0;J. Squire,F,,17,8.0,3.0,1.0;A. Squire,G,b,21,14.0,1.0,4.0
+BOBJ|1|L. Sullivan,G,,28,12.0,0.0,2.0;B. Murray,C,,26,16.0,2.0,0.0;L. Robertson,G,,25,5.0,3.0,1.0;B. Wilkins,G,,18,4.0,3.0,3.0;T. Gearhart,C,,17,2.0,3.0,1.0;MJ Littlejohn,F,b,23,4.0,1.0,0.0
+UPST|1|R. Naugle,G,,22,5.0,4.0,3.0;A. Perotti,F,,18,8.0,8.0,1.0;D. Tubek,F,,16,17.0,7.0,0.0;D. Edmond,F,,13,5.0,2.0,1.0;A. Allen-Johnson,G,,11,7.0,1.0,6.0;Z. Johnson,F,b,30,18.0,7.0,0.0
+GLCC|1|R. Cochran,G,,17,0.0,1.0,2.0;T. Armstrong,G,,17,8.0,2.0,2.0;J. Clark,F,,16,2.0,1.0,0.0;J. Smith,F,,11,0.0,2.0,1.0;J. Christian,C,,8,2.0,0.0,0.0;K. Ward-Sims,F,b,22,10.0,1.0,2.0
+EMU|1|K. Brockhoff,F,,21,25.0,5.0,2.0;M. Habhab,F,,21,17.0,4.0,7.0;B. Green,G,,20,3.0,5.0,5.0;E. Richards,G,,18,19.0,3.0,0.0;J. Fitzpatrick,G,,18,5.0,5.0,2.0;J. Martin,G,b,18,9.0,4.0,1.0
+LMCR|1|L. Raper,G,,30,13.0,6.0,2.0;Y. Mieses,G,,21,2.0,5.0,3.0;N. Long,F,,18,2.0,4.0,0.0;J. Bramao,G,,15,2.0,0.0,1.0;L. Brooks,G,,15,8.0,2.0,0.0;S. Tatum,G,b,26,16.0,4.0,4.0
+UNCG|1|D. Neal,G,,34,26.0,2.0,8.0;C. Grant,G,,33,12.0,13.0,1.0;J. Mani,G,,31,4.0,6.0,1.0;RJ Greer,G,,31,15.0,2.0,0.0;V. Collins Jr.,F,,9,2.0,3.0,0.0;Z. Fitch,F,b,20,3.0,5.0,3.0
+B&SA|1|B. Simmons,G,,36,22.0,1.0,1.0;Z. Little,F,,35,18.0,2.0,0.0;J. Smith,G,,32,7.0,1.0,3.0;M. Vojinovic,F,,25,2.0,1.0,1.0;A. Allatey,C,,18,0.0,0.0,0.0;J. Thompson,F,b,14,0.0,1.0,2.0
+WAG|1|C. Estevez,G,,24,25.0,3.0,1.0;T. Bryant,G,,23,5.0,3.0,10.0;AJ Rodriguez,F,,21,8.0,9.0,0.0;T. Jones,F,,19,16.0,10.0,3.0;Y. Singarè,C,,15,12.0,3.0,0.0;R. Pettis,G,b,21,2.0,6.0,5.0
+OPSU|1|G. Louissaint,C,,31,11.0,9.0,2.0;R. Walker,G,,23,3.0,4.0,2.0;E. Coleman Jr.,F,,22,0.0,6.0,0.0;J. McCrear,F,,19,5.0,4.0,0.0;C. Miller,G,,6,0.0,0.0,0.0;K. Grant-Brown,G,b,20,8.0,1.0,0.0
+ALST|1|M. James,G,,34,13.0,3.0,1.0;P. McMillan IV,G,,29,6.0,2.0,3.0;T. Hampton,F,,23,18.0,7.0,2.0;T. Powell,G,,23,9.0,2.0,0.0;N. Benny,G,,7,0.0,0.0,0.0;D. Bonds,G,b,24,12.0,10.0,0.0
+CTLA|1|J. Braden,G,,22,8.0,3.0,3.0;K. Broussard,F,,19,6.0,1.0,1.0;N. Addison,G,,18,0.0,2.0,0.0;D. Haney,G,,13,11.0,2.0,1.0;B. Evans,C,,11,0.0,3.0,0.0;J. Brown,G,b,22,10.0,2.0,2.0
+LAM|1|M. Collins,G,,25,5.0,5.0,7.0;N. Moretti,G,,21,4.0,7.0,4.0;C. Hinker,F,,16,14.0,5.0,0.0;J. Jones,G,,16,5.0,6.0,6.0;D. Eason,F,,15,14.0,5.0,1.0;M.J. Wardlow,G,b,25,3.0,5.0,5.0
+WPU|1|J. Ayala,F,,24,5.0,6.0,1.0;J. Moran,G,,22,6.0,0.0,1.0;N. Merrick,G,,22,8.0,1.0,0.0;J. Gobel,G,,17,2.0,1.0,0.0;D. Hyde,F,,16,4.0,9.0,0.0;T. Pearson,G,b,19,6.0,1.0,6.0
+RID|1|Ty Bevins,G,,20,9.0,5.0,4.0;B. Baker,G,,19,9.0,2.0,2.0;R. Brisco,F,,19,15.0,8.0,0.0;K. Farmer,G,,17,12.0,4.0,0.0;M. Butler,G,,13,3.0,1.0,4.0;R. Rosa,G,b,27,6.0,6.0,4.0
+FRKL|1|L. Bennie-Powell,G,,27,12.0,2.0,1.0;J. Harrington,G,,26,24.0,3.0,1.0;D. Beverly,F,,25,12.0,4.0,3.0;Z. Moore,G,,19,0.0,0.0,0.0;R. Pearson,G,,15,3.0,0.0,2.0;T. Williams Jr.,G,b,18,4.0,1.0,1.0
+BELL|1|T. Doyle,G,,23,11.0,5.0,3.0;S. Donald,F,,22,12.0,3.0,3.0;E. Harrell,F,,19,11.0,6.0,0.0;K. Goodin,G,,15,5.0,3.0,1.0;G. Whitaker,G,,14,4.0,0.0,0.0;G. Neal,G,b,22,14.0,8.0,1.0
+CKE|1|M. Rice,G,,23,7.0,1.0,2.0;L. Stanovic,G,,22,5.0,1.0,3.0;D. Doyle,F,,21,2.0,7.0,0.0;J. Howard,G,,20,10.0,2.0,1.0;N. Von Stralendorff,F,,17,3.0,0.0,0.0;I. Vukusic,C,b,20,9.0,1.0,0.0
+NIU|1|T. Polite,G,,26,8.0,5.0,1.0;M. Weisbrod,G,,25,14.0,4.0,5.0;D. Douglas Jr.,G,,24,9.0,11.0,0.0;M. Ivanauskas,F,,15,6.0,6.0,0.0;N. Carter-Smith,G,,14,5.0,1.0,0.0;B. Gross,F,b,22,12.0,10.0,2.0
+CBVU|1|A. Binford,F,,31,3.0,2.0,0.0;D. Kramer,G,,31,10.0,5.0,0.0;T. Cook,G,,29,4.0,3.0,5.0;E. Brooks,F,,25,6.0,7.0,3.0;H. Duncan,G,,19,0.0,4.0,2.0;T. Smith,G,b,21,6.0,3.0,2.0
+WKU|1|S. Young,G,,25,7.0,6.0,6.0;E. Erkins-Ford,F,,22,14.0,4.0,0.0;T. Moore,G,,22,12.0,3.0,2.0;A. Boone,G,,17,10.0,5.0,1.0;EJ Walker,F,,14,0.0,4.0,0.0;T. LaBeaux,G,b,18,0.0,2.0,0.0
+FRU|1|T. Knight,G,,25,9.0,0.0,2.0;D. Lewis,G,,21,2.0,0.0,2.0;O. Evans,G,,20,11.0,2.0,3.0;J. Swartz,F,,19,6.0,4.0,2.0;J. Edwards,F,,18,12.0,1.0,0.0;K. Kelley,G,b,17,8.0,0.0,0.0
+WICH|1|D. Battie,F,,21,14.0,5.0,0.0;J. Long,G,,21,6.0,1.0,2.0;K. Giles,G,,17,19.0,2.0,4.0;C. Malonga,C,,16,6.0,5.0,0.0;B. Heard,G,,14,12.0,2.0,0.0;J. Ighovodja,G,b,19,19.0,3.0,3.0
+BING|1|J. Kelsey,G,,32,12.0,8.0,4.0;J. Quigley,G,,31,14.0,1.0,6.0;D. Lilley,C,,29,11.0,19.0,4.0;D. Godfrey,F,,16,9.0,1.0,0.0;J. Blackburn,G,,14,6.0,0.0,0.0;J. Lemond,G,b,32,15.0,4.0,4.0
+MISE|1|J. Gallagher,G,,22,10.0,5.0,1.0;D. Wright,G,,20,2.0,3.0,4.0;E. Stoute,G,,18,16.0,1.0,0.0;D. Orloff,F,,14,2.0,2.0,0.0;D. Fox,G,,13,0.0,2.0,0.0;K. Adebayo,F,b,18,6.0,3.0,0.0
+BCKB|1|E. Jordan,G,,33,7.0,10.0,5.0;K. Welch,G,,26,4.0,3.0,1.0;J. Jeter,G,,25,4.0,1.0,3.0;O. Walter,F,,23,11.0,4.0,0.0;B. Pieper,G,,21,3.0,2.0,0.0;E. Prost,G,b,19,3.0,4.0,1.0
+EIU|1|G. Welch,F,,21,21.0,2.0,0.0;J. Miller,G,,17,0.0,3.0,8.0;D. Ntambwe,F,,16,10.0,5.0,1.0;T. Vogel,C,,15,12.0,9.0,0.0;JT Elder,G,,7,2.0,2.0,0.0;J. Wright,G,b,23,11.0,4.0,9.0
+MAC|1|L. Thompson,F,,25,9.0,1.0,1.0;J. Aguillon,G,,24,6.0,2.0,6.0;K. Holdbrook,G,,22,12.0,5.0,4.0;N. Hamburge,G,,18,9.0,2.0,2.0;L. Davis,G,,16,17.0,1.0,0.0;O. Walther,G,b,23,12.0,0.0,1.0
+STMN|1|H. Tibbits,G,,28,19.0,1.0,5.0;J. Wilkinson,G,,22,15.0,2.0,1.0;T. Franks,G,,22,9.0,4.0,3.0;C. Bjerke,F,,19,5.0,8.0,3.0;J. Lorenz,F,,16,2.0,6.0,3.0;B. Madson,G,b,20,23.0,1.0,4.0
+ERSK|1|M. Peeler,G,,27,3.0,1.0,0.0;N. Castaneda,F,,27,10.0,4.0,3.0;J. Goudelock,G,,26,16.0,4.0,0.0;A. Vergara,G,,25,10.0,2.0,3.0;J. Peeples,G,,19,4.0,0.0,3.0;J. White,G,b,19,7.0,2.0,2.0
+GWEB|1|S. Brown,G,,28,23.0,2.0,4.0;S. Nosakhare,C,,28,0.0,13.0,0.0;M. Pocknett,F,,27,18.0,8.0,2.0;J. Hudson,G,,22,7.0,2.0,1.0;R. Wells,G,,18,10.0,2.0,3.0;A. Talbert,G,b,22,11.0,3.0,1.0
+LNCA|1|V. Munitlak,F,,37,11.0,9.0,1.0;N. Chatelain,F,,36,2.0,9.0,2.0;C. Plantey,G,,35,3.0,1.0,1.0;L. Kalejaiye,G,,32,5.0,1.0,2.0;K. Holmes,G,,28,11.0,0.0,3.0;D. Thomas,F,b,29,8.0,9.0,1.0
+UCI|1|N. Cooper,G,,21,7.0,3.0,1.0;T. Isaac,G,,15,11.0,2.0,2.0;J. Jester Jr.,G,,14,14.0,4.0,1.0;L. Redfield,G,,12,5.0,1.0,0.0;O. Rioux,C,,11,4.0,13.0,0.0;J. Johnson,G,b,19,11.0,3.0,2.0

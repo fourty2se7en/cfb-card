@@ -1,0 +1,211 @@
+USC|Trent Mosley|rec|118/0,104/0,33/0,111/0,45/0,101/0
+Oklahoma|Isaiah Sategna III|rec|76/0,9/0,101/0,81/0,64/0,83/0,164/0,13/0,34/0
+Cincinnati|Gi'Bran Payne|rush|108/0,102/0,32/0,126/0,24/0,26/0,67/0,71/0
+Ole Miss|Caleb Odom|rec|66/0,88/0,47/0,29/0,37/0,59/0,34/0,23/0
+Michigan|JJ Buchanan|rec|126/0,48/0,92/0,130/0,50/0,36/0,57/0,72/0,35/0
+Notre Dame|Micah Gilbert|rec|34/0,47/0,170/0,83/0,34/0,10/0,31/0,21/0,98/0
+Indiana|Charlie Becker|rec|64/0,81/0,127/0,98/0,107/0,52/0,165/0,32/0,149/0
+Iowa State|Omari Hayes|rec|54/0,39/0,8/0,55/0,34/0,18/0,29/0,9/0,28/0
+Missouri|Austin Simmons|pass|252/0,292/0,108/0,295/0,340/0,147/0,339/0,179/0,252/0
+Iowa State|Ty Claiborne|rec|15/0,28/0,5/0,24/0,31/0,21/0,32/0,20/0
+Georgia|London Humphreys|rec|11/0,12/0,19/0,43/0,35/0,16/0
+Missouri|Donovan Olugbode|rec|107/0,121/0,31/0,54/0,94/0,127/0,50/0,40/0
+USC|King Miller|rec|0/0,6/0,0/0,0/0,10/0,12/0,0/0,13/0,8/0
+USC|King Miller|rush|63/0,45/0,128/0,102/0,74/0,81/0,102/0,7/0,78/0
+Virginia|Jekail Middlebrook|rush|64/0,15/0,75/0,23/0,65/0,95/0,59/0,117/0
+Boston College|Javarius Green|rec|74/0,21/0,15/0,22/0,37/0,60/0,57/0,22/0,14/0
+California|Ian Strong|rec|94/0,64/0,48/0,44/0,49/0,97/0,71/0,11/0
+Indiana|Shazz Preston|rec|10/0,39/0,32/0,18/0,24/0,6/0,48/0
+Indiana|Tyler Morris|rec|35/0,14/0,5/0,2/0,26/0,3/0,14/0
+Indiana|Nick Marsh|rec|17/0,71/0,81/0,52/0,120/0,187/0,57/0,25/0,59/0
+Oklahoma|John Mateer|pass|225/0,189/0,238/0,231/0,155/0,270/0,283/0,244/0,207/0
+Oklahoma|John Mateer|rush|7/0,45/0,17/0,7/0,-6/0,9/0,37/0,29/0,56/0
+Notre Dame|Jaden Greathouse|rec|6/0,48/0,36/0,18/0,30/0,125/0,26/0,19/0
+Georgia|Gunner Stockton|pass|202/0,234/0,147/0,171/0,295/0,249/0,272/0,101/0,186/0
+Georgia|Gunner Stockton|rush|0/0,3/0,97/0,0/0,22/0,12/0,26/0,45/0,28/0
+Ole Miss|Horatio Fields|rec|47/0,66/0,53/0,5/0,19/0,44/0,50/0,73/0,96/0
+Indiana|Lee Beebe Jr.|rush|33/0,112/0,50/0,203/0,122/0,31/0,24/0,56/0,84/0
+Ole Miss|Deuce Alexander|rec|159/0,76/0,60/0,134/0,74/0,20/0,87/0,59/0
+Oklahoma|Rocky Beers|rec|43/0,94/0,34/0,84/0,29/0,45/0,66/0,51/0,72/0
+Notre Dame|Nolan James Jr.|rec|67/0,-1/0,7/0,8/0,6/0,0/0,18/0,0/0,36/0
+Notre Dame|Nolan James Jr.|rush|19/0,29/0,121/0,28/0,65/0,73/0,77/0,107/0,52/0
+Kansas|Isaiah Marshall|pass|246/0,168/0,235/0,161/0,333/0,151/0,212/0,210/0
+Kansas|Isaiah Marshall|rush|49/0,23/0,52/0,110/0,21/0,117/0,31/0,125/0
+Georgia|Lawson Luckie|rec|4/0,59/0,5/0,43/0,32/0,41/0,13/0,11/0
+Missouri|Cayden Lee|rec|89/0,120/0,47/0,156/0,110/0,94/0,62/0,78/0,79/0
+Notre Dame|Jonaz Walton|rush|48/0,-1/0,61/0,120/0,181/0,17/0,51/0,37/0
+Notre Dame|Jordan Faison|rec|81/0,54/0,38/0,66/0,132/0,16/0,64/0,46/0,77/0
+Georgia|Talyn Taylor|rec|28/0,31/0,110/0,7/0,43/0,64/0,3/0,140/0
+Oregon|Dakorien Moore|rec|93/0,45/0,54/0,42/0,77/0,36/0,70/0,128/0,56/0
+Kansas|Nik McMillan|rec|130/0,52/0,44/0,30/0,89/0,55/0,66/0,31/0
+California|Chase Hendricks|rec|66/0,31/0,98/0,37/0,35/0,94/0,54/0,83/0,67/0
+Oregon|Evan Stewart|rec|72/0,78/0,72/0,56/0,74/0,71/0,47/0
+Mississippi State|Marquis Johnson|rec|99/0,8/0,29/0,60/0,22/0,26/0,15/0,61/0,56/0
+USC|Waymond Jordan|rush|48/0,67/0,47/0,26/0,41/0,36/0,22/0,48/0
+Missouri|Jamal Roberts|rush|47/0,125/0,128/0,95/0,211/0,222/0,39/0,138/0,66/0
+West Virginia|Prince Strachan|rec|5/0,41/0,121/0,84/0,24/0,70/0
+USC|Jayden Maiava|pass|286/0,349/0,261/0,277/0,326/0,245/0,301/0,257/0,222/0
+Georgia|Nate Frazier|rush|72/0,55/0,75/0,9/0,19/0,67/0,107/0
+Oklahoma|Lloyd Avant|rush|79/0,35/0,27/0,23/0,72/0,31/0,55/0,25/0,47/0
+California|Mason Mini|rec|58/0,38/0,14/0,42/0,19/0,49/0,0/0,6/0
+Oregon|Dylan Raiola|pass|124/0,289/0,43/0,59/0,246/0,336/0,257/0
+Iowa State|Jamal Polite Jr.|rec|20/0,34/0,2/0,12/0,20/0,27/0,171/0,35/0
+Kansas|Keaton Kubecka|rec|8/0,38/0,15/0,6/0,0/0,71/0
+Kansas|Nahzae Cox|rec|47/0,10/0,68/0,42/0,41/0,51/0,145/0,42/0
+West Virginia|TaRon Francis|rec|0/0,169/0
+California|Jaron-Keawe Sagapolutele|pass|271/0,182/0,413/0,119/0,195/0,110/0,265/0,196/0
+Michigan|Savion Hiter|rush|15/0,6/0,62/0,53/0,9/0,78/0,15/0,76/0,17/0
+Kansas|Dylan Edwards|rush|32/0,38/0,89/0,137/0,22/0,57/0,156/0,42/0,22/0
+West Virginia|Amari Latimer|rush|32/0,33/0,1/0,31/0,55/0,14/0,12/0,36/0
+Cincinnati|Cole Tabb|rec|0/0,0/0,43/0,0/0,40/0,51/0,5/0,16/0,34/0
+Cincinnati|Cole Tabb|rush|37/0,72/0,78/0,124/0,19/0,118/0,173/0,131/0,60/0
+Miami|Javian Mallory|rush|31/0,142/0,23/0,30/0,63/0,108/0,47/0,51/0,14/0
+Miami|Daylyn Upshaw|rec|30/0,7/0,22/0,31/0,39/0,91/0,31/0,12/0,27/0
+Georgia|Dwight Phillips Jr.|rush|25/0,4/0,20/0,84/0,27/0,120/0,68/0,67/0,66/0
+Mississippi State|Sanfrisco Magee|rec|35/0,42/0,55/0,76/0,51/0,36/0,65/0,16/0,95/0
+Cincinnati|Gavin Grover|rec|8/0,12/0,59/0,9/0,18/0,4/0,41/0
+USC|Tanook Hines|rec|18/0,33/0,11/0,51/0,82/0,44/0
+Syracuse|Umari Hatcher|rec|147/0,77/0,58/0,152/0,126/0,224/0,103/0,65/0,12/0
+Oregon|Dierre Hill Jr.|rec|6/0,8/0,50/0,105/0,15/0,14/0,11/0,0/0,31/0
+Oregon|Dierre Hill Jr.|rush|36/0,74/0,11/0,63/0,44/0,67/0,83/0,21/0,75/0
+USC|Mark Bowman|rec|15/0,30/0,83/0,32/0,44/0,79/0
+Oregon|Jamari Johnson|rec|57/0,119/0,13/0,35/0,69/0,35/0,42/0
+Virginia|Kameron Courtney|rec|12/0,35/0,30/0,89/0,38/0
+Iowa State|Jaylen Raynor|pass|184/0,117/0,133/0,205/0,264/0,98/0,106/0,309/0,256/0
+Iowa State|Jaylen Raynor|rush|32/0,18/0,60/0,27/0,15/0,14/0,-21/0,48/0,23/0
+Miami|Cooper Barkate|rec|67/0,16/0,13/0,47/0,98/0,28/0,32/0,71/0,75/0
+Auburn|Chas Nimrod|rec|41/0,52/0,95/0,52/0,33/0,60/0,7/0,62/0,38/0
+Ole Miss|Trinidad Chambliss|pass|336/0,225/0,363/0,298/0,213/0,241/0,250/0,263/0,170/0
+Ole Miss|Trinidad Chambliss|rush|60/0,2/0,2/0,44/0,5/0,14/0,7/0,65/0,-12/0
+West Virginia|Michael Hawkins Jr.|pass|132/0,155/0,190/0,132/0,227/0,219/0,464/0,79/0,303/0
+West Virginia|Michael Hawkins Jr.|rush|103/0,96/0,123/0,103/0,149/0,98/0,77/0,87/0,88/0
+West Virginia|Cam Cook|rush|142/0,52/0,123/0,193/0,142/0,141/0,40/0,90/0,149/0
+Alabama|Ryan Coleman-Williams|rec|130/0,43/0,62/0,98/0,43/0,39/0,14/0
+Arizona State|Derek Eusebio|rec|89/0,23/0,48/0,0/0
+Arizona State|Cardae Mack|rec|0/0,0/0,38/0,-3/0,17/0,7/0,47/0,17/0
+Arizona State|Cardae Mack|rush|24/0,2/0,34/0,154/0,27/0,159/0,123/0,80/0
+Virginia|Da'Shawn Martin|rec|47/0,27/0,13/0,26/0,35/0,42/0,35/0,22/0,119/0
+Baylor|Louis Brown IV|rec|62/0,21/0,79/0,23/0,68/0,74/0,18/0,17/0
+Boston College|Bo MacCormack III|rush|40/0,4/0,10/0,35/0,155/0,24/0,105/0
+Kansas|Cam Pickett|rec|6/0,49/0,134/0,4/0,17/0,113/0,37/0
+Kansas|Carson Bruhn|rec|21/0,34/0,10/0,20/0,63/0,9/0,20/0
+Ohio State|Luke Fahey|pass|62/0,141/0,0/0,260/0,360/0
+NC State|Chance Robinson|rec|15/0,7/0,13/0,4/0,53/0,76/0,5/0
+West Virginia|DJ Epps|rec|36/0,112/0,92/0,39/0,114/0,0/0,163/0,8/0
+Syracuse|Steve Angeli|pass|263/0,307/0,161/0,256/0,200/0,263/0
+Northwestern|Nicco Marchiol|pass|0/0,0/0,181/0
+Syracuse|Calvin Russell III|rec|14/0,53/0,86/0,41/0,80/0
+SMU|Yannick Smith|rec|107/0,44/0,50/0,30/0,87/0,24/0,95/0,84/0
+Mississippi State|AJ Swann|pass|97/0,254/0
+Wake Forest|Kam Shanks|rec|55/0,39/0,17/0,51/0,79/0,21/0,49/0
+SMU|Theo Melin Ohrstrom|rec|25/0,43/0,49/0,21/0,27/0,29/0
+Wake Forest|Jack Foley|rec|118/0,54/0,156/0,45/0,22/0,162/0
+Ohio State|Devin McCuin|rec|97/0,5/0,29/0,34/0,80/0,23/0,17/0,84/0
+Nebraska|Jamal Rule|rush|122/0,88/0,119/0,4/0,53/0,5/0,72/0,69/0
+Rutgers|Jourdin Houston|rec|42/0,40/0,27/0,50/0,10/0,15/0,80/0
+Alabama|Keelon Russell|pass|256/0,188/0,320/0,365/0,285/0,185/0,147/0,311/0,206/0
+Vanderbilt|Jared Curtis|pass|60/0,210/0,277/0,199/0,222/0,274/0,247/0,168/0
+Vanderbilt|Jared Curtis|rush|22/0,1/0,64/0,46/0,-2/0,13/0,6/0,22/0
+Nebraska|Isaiah Mozee|rush|31/0,55/0,40/0,23/0,46/0,0/0,28/0,6/0,31/0
+Vanderbilt|Junior Sherrill|rec|70/0,94/0,108/0,95/0,107/0,55/0,99/0,78/0,41/0
+Rutgers|Antwan Raymond|rush|42/0,134/0,122/0,140/0,31/0,29/0,150/0,85/0,56/0
+Alabama|Lotzeir Brooks|rec|23/0,54/0,101/0,78/0,96/0,37/0,26/0,73/0,9/0
+UCF|Landen Chambers|rush|56/0,0/0,62/0,11/0,9/0,1/0,22/0,24/0,40/0
+Oregon State|Jesse Legree|rec|136/0,240/0,100/0,109/0,156/0,191/0,108/0,70/0,99/0
+NC State|Davion Gause|rec|21/0,44/0,7/0,45/0,31/0,51/0,3/0,16/0
+NC State|Davion Gause|rush|37/0,33/0,49/0,69/0,11/0,49/0,104/0,26/0
+Iowa State|Aiden Flora|rec|0/0,3/0,10/0,53/0,0/0,-1/0,15/0,0/0,20/0
+Iowa State|Aiden Flora|rush|45/0,89/0,194/0,54/0,212/0,86/0,36/0,221/0,182/0
+Michigan|Andrew Marsh|rec|15/0,13/0,105/0,106/0,29/0,21/0,20/0,66/0,38/0
+Virginia|Beau Pribula|pass|155/0,162/0,197/0,279/0,168/0,113/0,137/0,158/0,212/0
+Virginia|Beau Pribula|rush|110/0,-8/0,-1/0,24/0,-62/0,34/0,25/0,66/0,7/0
+Auburn|Keshaun Singleton|rec|89/0,42/0,99/0,38/0,54/0,45/0,64/0,2/0,58/0
+Duke|Nate Sheppard|rec|19/0,41/0,2/0,8/0,91/0,98/0,11/0,32/0,4/0
+Duke|Nate Sheppard|rush|227/0,147/0,154/0,116/0,99/0,77/0,55/0,97/0,217/0
+Mississippi State|Anthony Evans III|rec|118/0,121/0,55/0,114/0,166/0,40/0,33/0,19/0,45/0
+NC State|Keenan Jackson|rec|6/0,123/0,102/0,64/0,44/0,61/0,56/0,21/0
+Mississippi State|Fluff Bothwell|rush|52/0,113/0,115/0,122/0,1/0,111/0,49/0,50/0
+Cincinnati|Malachi Henry|rec|87/0,8/0,39/0,4/0,128/0,5/0,63/0,65/0
+Miami|Mark Fletcher Jr.|rush|40/0,105/0,85/0,77/0,66/0,41/0,43/0,57/0
+Miami|Darian Mensah|pass|401/0,252/0,220/0,338/0,227/0,326/0,387/0,274/0,269/0
+Miami|Darian Mensah|rush|5/0,21/0,5/0,21/0,27/0,6/0,-12/0,36/0,28/0
+Auburn|Byrum Brown|pass|259/0,226/0,271/0,140/0,159/0,150/0,160/0,195/0,180/0
+Auburn|Byrum Brown|rush|27/0,88/0,65/0,57/0,107/0,115/0,20/0,5/0,121/0
+Miami|Elija Lofton|rec|14/0,9/0,39/0,38/0,34/0,26/0,28/0,48/0,113/0
+NC State|CJ Bailey|pass|84/0,281/0,275/0,253/0,373/0,241/0,256/0,192/0,123/0
+Syracuse|Ahmad Miller|rush|2/0,78/0,22/0,12/0,123/0,133/0,56/0,101/0
+Syracuse|Daunte Bacheyie|rec|12/0,74/0,34/0,97/0,29/0,41/0,47/0,82/0
+Northwestern|Griffin Wilde|rec|104/0,85/0,56/0,36/0,144/0,57/0,133/0,146/0,52/0
+Duke|Walker Eget|pass|131/0,206/0,202/0,182/0,259/0,249/0,211/0,201/0,208/0
+Cincinnati|JC French IV|pass|77/0,245/0,309/0,165/0,153/0,389/0,172/0,263/0,217/0
+Cincinnati|JC French IV|rush|52/0,52/0,39/0,21/0,29/0,52/0,46/0,-2/0,24/0
+Wake Forest|Gio Lopez|pass|350/0,225/0,312/0,225/0,265/0,303/0,267/0,229/0
+Wake Forest|Gio Lopez|rush|39/0,58/0,-8/0,15/0,88/0,10/0,51/0,64/0
+Georgia Tech|Dalen Penson|rec|73/0,58/0,58/0,52/0,13/0,86/0,88/0,6/0,66/0
+NC State|Victor Snow|rec|5/0,7/0,-1/0,26/0,39/0,19/0,32/0,48/0,17/0
+Georgia Tech|Jordan Allen|rec|113/0,26/0,10/0,64/0,99/0,120/0,85/0,26/0,33/0
+Clemson|Tait Reynolds|pass|22/0,178/0,215/0,106/0,295/0,127/0,153/0,189/0,161/0
+Clemson|Tait Reynolds|rush|-9/0,38/0,26/0,28/0,-22/0,40/0,63/0,85/0,61/0
+Wake Forest|Carlos Hernandez|rec|165/0,88/0,69/0,194/0,87/0,117/0,136/0,89/0
+Auburn|Jeremiah Cobb|rush|53/0,85/0,32/0,58/0,17/0,61/0,14/0,35/0,41/0
+SMU|Yamir Knight|rec|49/0,62/0,70/0,164/0,22/0,51/0,25/0,80/0,103/0
+Ohio State|Bo Jackson|rec|13/0,37/0,0/0,16/0,0/0,3/0,2/0,32/0,42/0
+Ohio State|Bo Jackson|rush|83/0,74/0,73/0,53/0,70/0,107/0,56/0,121/0,48/0
+Ohio State|Jeremiah Smith|rec|151/0,164/0,85/0,217/0,206/0,93/0,68/0,83/0,133/0
+Nebraska|Anthony Colandrea|pass|275/0,222/0,195/0,212/0,238/0,264/0,164/0,255/0,284/0
+Nebraska|Anthony Colandrea|rush|23/0,33/0,19/0,66/0,108/0,47/0,38/0,20/0,27/0
+SMU|Randy Pittman Jr.|rec|75/0,2/0,26/0,27/0,23/0,19/0,27/0,15/0,22/0
+Northwestern|Caleb Komolafe|rec|37/0,27/0,3/0,14/0,0/0,51/0,0/0,30/0,7/0
+Northwestern|Caleb Komolafe|rush|46/0,49/0,7/0,188/0,44/0,67/0,150/0,67/0,25/0
+SMU|Jalen Cooper|rec|71/0,42/0,7/0,125/0,45/0,9/0,37/0,53/0,98/0
+SMU|Kendrick Raphael|rush|75/0,3/0,197/0,98/0,45/0,119/0,104/0,51/0,63/0
+SMU|Kevin Jennings|pass|430/0,337/0,222/0,439/0,160/0,251/0,223/0,352/0,350/0
+SMU|Kevin Jennings|rush|33/0,5/0,35/0,3/0,-7/0,26/0,26/0,-6/0,17/0
+Wake Forest|Ty Clark III|rush|105/0,36/0,3/0,91/0,23/0,17/0,53/0,48/0,40/0
+Georgia Tech|Justice Haynes|rush|64/0,81/0,141/0,107/0,69/0,53/0,33/0,87/0
+Georgia Tech|Trelain Maddox|rush|27/0,11/0,40/0,81/0,96/0,24/0,10/0,36/0
+Nebraska|Jacory Barney Jr.|rec|60/0,115/0,35/0,12/0,11/0,108/0,37/0,65/0,93/0
+Baylor|Tony Livingston|rec|19/0,9/0,3/0,11/0,38/0,27/0,25/0,49/0
+BYU|Bear Bachmeier|pass|198/0,217/0,227/0,62/0,329/0,224/0,257/0,236/0,272/0
+BYU|Bear Bachmeier|rush|30/0,37/0,-3/0,66/0,109/0,45/0,37/0,15/0,59/0
+Baylor|DJ Lagway|pass|333/0,221/0,306/0,256/0,236/0,319/0,229/0
+BYU|Walker Lyons|rec|22/0,22/0,40/0,5/0,61/0,49/0,7/0,49/0,97/0
+Nebraska|Kwazi Gilmer|rec|58/0,39/0,42/0,101/0,147/0,31/0,74/0,53/0,58/0
+Alabama|Rico Scott|rec|21/0,44/0,48/0,27/0,56/0,28/0,54/0,156/0,67/0
+Vanderbilt|Tristen Brown|rec|16/0,9/0,81/0,7/0,17/0,15/0,31/0,52/0
+Nebraska|Nyziah Hunter|rec|17/0,4/0,24/0,12/0,17/0,43/0,17/0,39/0,32/0
+Alabama|Marshall Pritchett|rec|27/0,15/0,60/0,46/0,32/0,39/0,18/0,9/0
+Alabama|Kaleb Edwards|rec|21/0,34/0,44/0,32/0,9/0,8/0,24/0,50/0
+Alabama|Daniel Hill|rec|10/0,12/0,19/0,5/0,0/0,24/0,7/0,17/0,13/0
+Alabama|Daniel Hill|rush|47/0,104/0,59/0,15/0,22/0,15/0,34/0,36/0,15/0
+Rutgers|Clay Thevenin|rush|4/0,36/0,24/0,69/0,47/0,109/0,116/0,30/0,40/0
+Vanderbilt|Sedrick Alexander|rec|4/0,15/0,15/0,13/0,0/0,7/0,40/0,29/0,30/0
+Vanderbilt|Sedrick Alexander|rush|60/0,39/0,53/0,13/0,35/0,13/0,57/0,4/0,59/0
+Texas A&M|Marcel Reed|pass|233/0,163/0,236/0,106/0,170/0,189/0,130/0,163/0,251/0
+Texas A&M|Marcel Reed|rush|20/0,17/0,80/0,-13/0,66/0,-18/0,23/0,23/0,8/0
+Vanderbilt|Makhilyn Young|rush|24/0,38/0,16/0,46/0,10/0,37/0,45/0,-2/0,63/0
+Alabama|Trae'shawn Brown|rush|15/0,22/0,86/0,22/0,66/0,90/0,12/0,11/0,35/0
+Tennessee|Braylon Staley|rec|8/0,20/0,59/0,45/0,8/0,53/0,10/0,56/0,50/0
+Tennessee|George MacIntyre|pass|56/0,6/0,86/0,247/0,197/0,136/0,125/0
+Tennessee|DeSean Bishop|rush|97/0,147/0,42/0,34/0,220/0,138/0,159/0,120/0,109/0
+Tennessee|Dasaahn Brame|rec|7/0,24/0,12/0,87/0,39/0,12/0,3/0
+Texas A&M|Isaiah Horton|rec|76/0,33/0,61/0,43/0,35/0,22/0,10/0,34/0,78/0
+Arizona State|Reed Harris|rec|137/0,189/0,48/0,125/0,91/0,63/0,147/0,4/0,103/0
+Baylor|Gavin Freeman|rec|154/0,104/0,47/0,59/0,115/0,76/0,123/0,114/0,60/0
+BYU|Legend Glasker|rec|65/0,74/0,131/0,9/0,99/0,66/0,54/0,87/0,118/0
+UCF|Tyren Hornes|rec|15/0,21/0,16/0,34/0,25/0,137/0,34/0,32/0
+Texas A&M|KJ Edwards|rush|44/0,22/0,28/0,21/0,66/0,20/0,116/0,43/0,37/0
+Texas A&M|Rueben Owens II|rush|77/0,35/0,74/0,62/0,43/0,13/0,10/0,18/0,137/0
+UCF|Josh Derry|rec|45/0,9/0,24/0,41/0,101/0,84/0,54/0,70/0,143/0
+UCF|Alonza Barnett III|pass|158/0,186/0,133/0,251/0
+UCF|Alonza Barnett III|rush|9/0,13/0,-23/0,36/0
+Tennessee|Mike Matthews|rec|132/0,16/0,41/0,72/0,57/0,78/0,85/0,47/0,38/0
+Baylor|Jadon Porter|rec|77/0,33/0,62/0,10/0,17/0,74/0,6/0
+Arizona State|Jake Fette|pass|13/0,45/0,166/0,187/0
+Arizona State|Jake Fette|rush|-1/0,-12/0,-18/0,26/0
+Arizona State|Omarion Miller|rec|102/0,29/0,18/0,85/0,78/0,58/0,20/0,37/0,64/0
+Boston College|Mason McKenzie|pass|223/0,252/0,173/0,111/0,208/0,295/0,101/0,87/0,166/0
+Boston College|Mason McKenzie|rush|78/0,94/0,53/0,138/0,74/0,7/0,170/0,24/0,38/0
+Nebraska|Luke Lindenmeyer|rec|22/0,16/0,33/0,25/0,20/0,45/0,25/0,61/0,34/0
+BYU|Kyler Kasper|rec|42/0,51/0,23/0,22/0,40/0,66/0,129/0,57/0,43/0
+Notre Dame|CJ Carr|pass|239/0,253/0,234/0,237/0,234/0,181/0,261/0,210/0,319/0

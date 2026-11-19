@@ -1,0 +1,9 @@
+Fairleigh|Butler|+20.5|20%|80%|8%|92%
+Longwood|Saint Joe's|+8.5|26%|74%|13%|87%
+MD-E Shore|High Point|+28.5|42%|58%|23%|77%
+CS Northridge|Wichita State|+14.5|23%|77%|37%|63%
+SE Louisiana|Auburn|+26.5|10%|90%|4%|96%
+Radford|California|+14.5|19%|81%|5%|95%
+NDSU|Saint Mary's|+12.5|28%|72%|28%|72%
+Milwaukee|Santa Clara|+16.5|24%|76%|12%|88%
+Queens|Loyola Marymount|+5.5|26%|74%|25%|75%

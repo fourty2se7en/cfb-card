@@ -1,0 +1,217 @@
+{
+ "updated": "2026-11-13",
+ "policy": "Season Cards status record decides on and off (card picks and would-be picks while off; Trina Nov 11)",
+ "rules": {
+  "points|over": {
+   "on": false,
+   "season": {
+    "w": 46,
+    "l": 41,
+    "p": 4,
+    "u": -2.3,
+    "n": 91
+   },
+   "month": {
+    "w": 22,
+    "l": 20,
+    "p": 1,
+    "u": -1.54,
+    "n": 43,
+    "label": "Nov"
+   },
+   "watch": true,
+   "status_record": {
+    "w": 5,
+    "l": 5,
+    "p": 0,
+    "u": -0.86
+   },
+   "basis": "Season Cards status record (Trina Nov 11)"
+  },
+  "points|under": {
+   "on": true,
+   "season": {
+    "w": 44,
+    "l": 25,
+    "p": 5,
+    "u": 11.78,
+    "n": 74
+   },
+   "month": {
+    "w": 22,
+    "l": 14,
+    "p": 3,
+    "u": 4.15,
+    "n": 39,
+    "label": "Nov"
+   },
+   "watch": false,
+   "status_record": {
+    "w": 25,
+    "l": 15,
+    "p": 2,
+    "u": 5.94
+   },
+   "basis": "Season Cards status record (Trina Nov 11)"
+  },
+  "rebounds|over": {
+   "on": false,
+   "season": {
+    "w": 23,
+    "l": 21,
+    "p": 1,
+    "u": -0.63,
+    "n": 45
+   },
+   "month": {
+    "w": 10,
+    "l": 8,
+    "p": 1,
+    "u": 1.51,
+    "n": 19,
+    "label": "Nov"
+   },
+   "watch": false,
+   "status_record": {
+    "w": 0,
+    "l": 2,
+    "p": 0,
+    "u": -2
+   },
+   "basis": "Season Cards status record (Trina Nov 11)"
+  },
+  "rebounds|under": {
+   "on": false,
+   "season": {
+    "w": 22,
+    "l": 24,
+    "p": 1,
+    "u": -3.38,
+    "n": 47
+   },
+   "month": {
+    "w": 7,
+    "l": 10,
+    "p": 0,
+    "u": -3.05,
+    "n": 17,
+    "label": "Nov"
+   },
+   "watch": true,
+   "status_record": {
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "u": 1.1
+   },
+   "basis": "Season Cards status record (Trina Nov 11)"
+  },
+  "assists|over": {
+   "on": true,
+   "season": {
+    "w": 20,
+    "l": 16,
+    "p": 3,
+    "u": 2.52,
+    "n": 39
+   },
+   "month": {
+    "w": 11,
+    "l": 9,
+    "p": 3,
+    "u": 1.75,
+    "n": 23,
+    "label": "Nov"
+   },
+   "watch": false,
+   "status_record": {
+    "w": 4,
+    "l": 0,
+    "p": 0,
+    "u": 2.93
+   },
+   "basis": "Season Cards status record (Trina Nov 11)"
+  },
+  "assists|under": {
+   "on": false,
+   "season": {
+    "w": 15,
+    "l": 14,
+    "p": 1,
+    "u": -1.47,
+    "n": 30
+   },
+   "month": {
+    "w": 5,
+    "l": 4,
+    "p": 1,
+    "u": 0.41,
+    "n": 10,
+    "label": "Nov"
+   },
+   "watch": false,
+   "status_record": {
+    "w": 1,
+    "l": 1,
+    "p": 0,
+    "u": 0.0
+   },
+   "basis": "Season Cards status record (Trina Nov 11)"
+  },
+  "threes|over": {
+   "on": false,
+   "season": {
+    "w": 6,
+    "l": 5,
+    "p": 0,
+    "u": 3.7,
+    "n": 11
+   },
+   "month": {
+    "w": 4,
+    "l": 3,
+    "p": 0,
+    "u": 2.75,
+    "n": 7,
+    "label": "Nov"
+   },
+   "watch": false,
+   "status_record": null,
+   "basis": "Season Cards status record (Trina Nov 11)"
+  },
+  "threes|under": {
+   "on": true,
+   "season": {
+    "w": 18,
+    "l": 22,
+    "p": 1,
+    "u": -6.37,
+    "n": 41
+   },
+   "month": {
+    "w": 4,
+    "l": 8,
+    "p": 1,
+    "u": -4.56,
+    "n": 13,
+    "label": "Nov"
+   },
+   "watch": true,
+   "status_record": {
+    "w": 3,
+    "l": 2,
+    "p": 0,
+    "u": 1.2
+   },
+   "basis": "Season Cards status record (Trina Nov 11)"
+  }
+ },
+ "log": [
+  "2026-11-08: points|under switched off (season 34-21-4 +7.57u; Nov 12-10-2 -0.06u)",
+  "2026-11-09: points|under switched on (season 38-21-4 +10.85u; Nov 16-10-2 +3.21u)",
+  "2026-11-10: assists|over switched on (season 15-13-3 +0.20u; Nov 6-6-3 -0.57u)",
+  "2026-11-11: assists|over switched off (season 16-15-3 -0.50u; Nov 7-8-3 -1.27u)",
+  "2026-11-12: rebounds|over switched off (season 23-21-1 -0.63u; Nov 10-8-1 +1.51u)",
+  "2026-11-12: assists|over switched on (season 20-16-3 +2.52u; Nov 11-9-3 +1.75u)"
+ ]
+}

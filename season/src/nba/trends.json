@@ -1,0 +1,866 @@
+{
+ "NYK": {
+  "last5": [
+   "W",
+   "W",
+   "L",
+   "L",
+   "W"
+  ],
+  "pf": 109.9,
+  "pa": 104.0,
+  "last5_scores": [
+   109,
+   117,
+   107,
+   104,
+   112
+  ],
+  "last5_allowed": [
+   97,
+   85,
+   115,
+   106,
+   108
+  ],
+  "last5_totals": [
+   206,
+   202,
+   222,
+   210,
+   220
+  ],
+  "last5_margins": [
+   12,
+   32,
+   -8,
+   -2,
+   4
+  ],
+  "last5_opp": [
+   "@ CLE",
+   "vs MIL",
+   "vs CLE",
+   "@ IND",
+   "@ TOR"
+  ],
+  "rest_days": 1,
+  "travel": "same city",
+  "back_to_back": false,
+  "streak": "W1",
+  "history": {
+   "season": {
+    "record": "7-6",
+    "ats": "5-8",
+    "ou": "4-9",
+    "pf": 109.9,
+    "pa": 104.0,
+    "home_away": "4-3 home \u00b7 3-3 road"
+   },
+   "month": {
+    "record": "5-2",
+    "ats": "4-3",
+    "ou": "3-4",
+    "pf": 112.4,
+    "pa": 100.9,
+    "home_away": "3-1 home \u00b7 2-1 road"
+   },
+   "week": null,
+   "last10": {
+    "record": "7-3",
+    "ats": "5-5",
+    "ou": "4-6",
+    "pf": 112.4,
+    "pa": 102.8,
+    "home_away": "4-1 home \u00b7 3-2 road"
+   },
+   "last5": {
+    "record": "3-2",
+    "ats": "3-2",
+    "ou": "2-3",
+    "pf": 109.8,
+    "pa": 102.2,
+    "home_away": "1-1 home \u00b7 2-1 road"
+   }
+  }
+ },
+ "TOR": {
+  "last5": [
+   "W",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "pf": 113.8,
+  "pa": 112.8,
+  "last5_scores": [
+   121,
+   102,
+   93,
+   112,
+   108
+  ],
+  "last5_allowed": [
+   107,
+   118,
+   98,
+   123,
+   112
+  ],
+  "last5_totals": [
+   228,
+   220,
+   191,
+   235,
+   220
+  ],
+  "last5_margins": [
+   14,
+   -16,
+   -5,
+   -11,
+   -4
+  ],
+  "last5_opp": [
+   "@ MIL",
+   "vs MEM",
+   "vs BOS",
+   "@ PHI",
+   "vs NYK"
+  ],
+  "rest_days": 1,
+  "travel": "no travel, home again",
+  "back_to_back": false,
+  "streak": "L4",
+  "history": {
+   "season": {
+    "record": "5-8",
+    "ats": "5-8",
+    "ou": "7-6",
+    "pf": 113.8,
+    "pa": 112.8,
+    "home_away": "2-4 home \u00b7 3-4 road"
+   },
+   "month": {
+    "record": "2-6",
+    "ats": "2-6",
+    "ou": "5-3",
+    "pf": 111.9,
+    "pa": 116.9,
+    "home_away": "0-3 home \u00b7 2-3 road"
+   },
+   "week": null,
+   "last10": {
+    "record": "3-7",
+    "ats": "3-7",
+    "ou": "7-3",
+    "pf": 113.8,
+    "pa": 115.5,
+    "home_away": "1-4 home \u00b7 2-3 road"
+   },
+   "last5": {
+    "record": "1-4",
+    "ats": "1-4",
+    "ou": "2-3",
+    "pf": 107.2,
+    "pa": 111.6,
+    "home_away": "0-3 home \u00b7 1-1 road"
+   }
+  }
+ },
+ "DET": {
+  "last5": [
+   "L",
+   "L",
+   "W",
+   "W",
+   "L"
+  ],
+  "pf": 115.7,
+  "pa": 110.2,
+  "last5_scores": [
+   106,
+   116,
+   122,
+   144,
+   117
+  ],
+  "last5_allowed": [
+   112,
+   121,
+   111,
+   140,
+   137
+  ],
+  "last5_totals": [
+   218,
+   237,
+   233,
+   284,
+   254
+  ],
+  "last5_margins": [
+   -6,
+   -5,
+   11,
+   4,
+   -20
+  ],
+  "last5_opp": [
+   "vs PHI",
+   "vs LAL",
+   "vs WAS",
+   "@ WAS",
+   "@ MIA"
+  ],
+  "rest_days": 2,
+  "travel": "traveled from MIA",
+  "back_to_back": false,
+  "streak": "L1",
+  "history": {
+   "season": {
+    "record": "8-4",
+    "ats": "7-5",
+    "ou": "7-5",
+    "pf": 115.7,
+    "pa": 110.2,
+    "home_away": "3-2 home \u00b7 5-2 road"
+   },
+   "month": {
+    "record": "3-3",
+    "ats": "2-4",
+    "ou": "5-1",
+    "pf": 121.5,
+    "pa": 118.7,
+    "home_away": "1-2 home \u00b7 2-1 road"
+   },
+   "week": null,
+   "last10": {
+    "record": "6-4",
+    "ats": "5-5",
+    "ou": "5-5",
+    "pf": 113.9,
+    "pa": 109.9,
+    "home_away": "2-2 home \u00b7 4-2 road"
+   },
+   "last5": {
+    "record": "2-3",
+    "ats": "1-4",
+    "ou": "4-1",
+    "pf": 121.0,
+    "pa": 124.2,
+    "home_away": "1-2 home \u00b7 1-1 road"
+   }
+  }
+ },
+ "SAS": {
+  "last5": [
+   "W",
+   "W",
+   "W",
+   "W",
+   "W"
+  ],
+  "pf": 118.8,
+  "pa": 105.9,
+  "last5_scores": [
+   125,
+   122,
+   124,
+   123,
+   110
+  ],
+  "last5_allowed": [
+   103,
+   96,
+   119,
+   85,
+   102
+  ],
+  "last5_totals": [
+   228,
+   218,
+   243,
+   208,
+   212
+  ],
+  "last5_margins": [
+   22,
+   26,
+   5,
+   38,
+   8
+  ],
+  "last5_opp": [
+   "@ POR",
+   "@ PHX",
+   "@ CHI",
+   "vs GSW",
+   "@ UTA"
+  ],
+  "rest_days": 1,
+  "travel": "traveled from UTA",
+  "back_to_back": false,
+  "streak": "W12",
+  "history": {
+   "season": {
+    "record": "12-2",
+    "ats": "7-7",
+    "ou": "4-10",
+    "pf": 118.8,
+    "pa": 105.9,
+    "home_away": "5-2 home \u00b7 7-0 road"
+   },
+   "month": {
+    "record": "8-0",
+    "ats": "5-3",
+    "ou": "2-6",
+    "pf": 119.9,
+    "pa": 102.8,
+    "home_away": "3-0 home \u00b7 5-0 road"
+   },
+   "week": null,
+   "last10": {
+    "record": "10-0",
+    "ats": "5-5",
+    "ou": "3-7",
+    "pf": 119.7,
+    "pa": 104.4,
+    "home_away": "4-0 home \u00b7 6-0 road"
+   },
+   "last5": {
+    "record": "5-0",
+    "ats": "4-1",
+    "ou": "1-4",
+    "pf": 120.8,
+    "pa": 101.0,
+    "home_away": "1-0 home \u00b7 4-0 road"
+   }
+  }
+ },
+ "POR": {
+  "last5": [
+   "L",
+   "W",
+   "W",
+   "W",
+   "L"
+  ],
+  "pf": 117.9,
+  "pa": 111.4,
+  "last5_scores": [
+   103,
+   123,
+   118,
+   120,
+   98
+  ],
+  "last5_allowed": [
+   125,
+   103,
+   108,
+   107,
+   106
+  ],
+  "last5_totals": [
+   228,
+   226,
+   226,
+   227,
+   204
+  ],
+  "last5_margins": [
+   -22,
+   20,
+   10,
+   13,
+   -8
+  ],
+  "last5_opp": [
+   "vs SAS",
+   "vs OKC",
+   "vs OKC",
+   "@ SAC",
+   "@ MIN"
+  ],
+  "rest_days": 0,
+  "travel": "same city",
+  "back_to_back": true,
+  "streak": "L1",
+  "history": {
+   "season": {
+    "record": "9-4",
+    "ats": "8-5",
+    "ou": "5-8",
+    "pf": 117.9,
+    "pa": 111.4,
+    "home_away": "3-2 home \u00b7 6-2 road"
+   },
+   "month": {
+    "record": "5-3",
+    "ats": "5-3",
+    "ou": "3-5",
+    "pf": 116.2,
+    "pa": 112.8,
+    "home_away": "2-1 home \u00b7 3-2 road"
+   },
+   "week": {
+    "record": "0-1",
+    "ats": "0-1",
+    "ou": "0-1",
+    "pf": 98.0,
+    "pa": 106.0,
+    "home_away": "0-0 home \u00b7 0-1 road"
+   },
+   "last10": {
+    "record": "6-4",
+    "ats": "6-4",
+    "ou": "3-7",
+    "pf": 114.5,
+    "pa": 111.6,
+    "home_away": "2-2 home \u00b7 4-2 road"
+   },
+   "last5": {
+    "record": "3-2",
+    "ats": "3-2",
+    "ou": "1-4",
+    "pf": 112.4,
+    "pa": 109.8,
+    "home_away": "2-1 home \u00b7 1-1 road"
+   }
+  }
+ },
+ "MIN": {
+  "last5": [
+   "W",
+   "W",
+   "W",
+   "L",
+   "W"
+  ],
+  "pf": 117.4,
+  "pa": 106.1,
+  "last5_scores": [
+   115,
+   115,
+   133,
+   106,
+   106
+  ],
+  "last5_allowed": [
+   109,
+   100,
+   94,
+   117,
+   98
+  ],
+  "last5_totals": [
+   224,
+   215,
+   227,
+   223,
+   204
+  ],
+  "last5_margins": [
+   6,
+   15,
+   39,
+   -11,
+   8
+  ],
+  "last5_opp": [
+   "@ NOP",
+   "vs UTA",
+   "vs DAL",
+   "vs CHI",
+   "vs POR"
+  ],
+  "rest_days": 0,
+  "travel": "no travel, home again",
+  "back_to_back": true,
+  "streak": "W1",
+  "history": {
+   "season": {
+    "record": "10-4",
+    "ats": "12-2",
+    "ou": "6-8",
+    "pf": 117.4,
+    "pa": 106.1,
+    "home_away": "6-2 home \u00b7 4-2 road"
+   },
+   "month": {
+    "record": "6-1",
+    "ats": "6-1",
+    "ou": "2-5",
+    "pf": 114.9,
+    "pa": 103.6,
+    "home_away": "4-1 home \u00b7 2-0 road"
+   },
+   "week": {
+    "record": "1-0",
+    "ats": "1-0",
+    "ou": "0-1",
+    "pf": 106.0,
+    "pa": 98.0,
+    "home_away": "1-0 home \u00b7 0-0 road"
+   },
+   "last10": {
+    "record": "7-3",
+    "ats": "8-2",
+    "ou": "5-5",
+    "pf": 115.6,
+    "pa": 106.6,
+    "home_away": "5-2 home \u00b7 2-1 road"
+   },
+   "last5": {
+    "record": "4-1",
+    "ats": "4-1",
+    "ou": "1-4",
+    "pf": 115.0,
+    "pa": 103.6,
+    "home_away": "3-1 home \u00b7 1-0 road"
+   }
+  }
+ },
+ "UTA": {
+  "last5": [
+   "L",
+   "L",
+   "L",
+   "L",
+   "L"
+  ],
+  "pf": 107.1,
+  "pa": 118.0,
+  "last5_scores": [
+   100,
+   109,
+   108,
+   118,
+   102
+  ],
+  "last5_allowed": [
+   115,
+   115,
+   123,
+   125,
+   110
+  ],
+  "last5_totals": [
+   215,
+   224,
+   231,
+   243,
+   212
+  ],
+  "last5_margins": [
+   -15,
+   -6,
+   -15,
+   -7,
+   -8
+  ],
+  "last5_opp": [
+   "@ MIN",
+   "vs MIA",
+   "vs ORL",
+   "@ HOU",
+   "vs SAS"
+  ],
+  "rest_days": 1,
+  "travel": "traveled from UTA",
+  "back_to_back": false,
+  "streak": "L12",
+  "history": {
+   "season": {
+    "record": "1-13",
+    "ats": "3-11",
+    "ou": "4-10",
+    "pf": 107.1,
+    "pa": 118.0,
+    "home_away": "1-7 home \u00b7 0-6 road"
+   },
+   "month": {
+    "record": "0-8",
+    "ats": "2-6",
+    "ou": "3-5",
+    "pf": 105.9,
+    "pa": 117.4,
+    "home_away": "0-3 home \u00b7 0-5 road"
+   },
+   "week": null,
+   "last10": {
+    "record": "0-10",
+    "ats": "3-7",
+    "ou": "3-7",
+    "pf": 104.8,
+    "pa": 116.8,
+    "home_away": "0-5 home \u00b7 0-5 road"
+   },
+   "last5": {
+    "record": "0-5",
+    "ats": "2-3",
+    "ou": "2-3",
+    "pf": 107.4,
+    "pa": 117.6,
+    "home_away": "0-3 home \u00b7 0-2 road"
+   }
+  }
+ },
+ "LAC": {
+  "last5": [
+   "L",
+   "W",
+   "L",
+   "W",
+   "W"
+  ],
+  "pf": 112.3,
+  "pa": 116.5,
+  "last5_scores": [
+   116,
+   139,
+   110,
+   113,
+   113
+  ],
+  "last5_allowed": [
+   117,
+   123,
+   133,
+   112,
+   105
+  ],
+  "last5_totals": [
+   233,
+   262,
+   243,
+   225,
+   218
+  ],
+  "last5_margins": [
+   -1,
+   16,
+   -23,
+   1,
+   8
+  ],
+  "last5_opp": [
+   "vs MIA",
+   "vs NOP",
+   "@ PHX",
+   "vs OKC",
+   "vs CHA"
+  ],
+  "rest_days": 1,
+  "travel": "no travel, home again",
+  "back_to_back": false,
+  "streak": "W2",
+  "history": {
+   "season": {
+    "record": "4-8",
+    "ats": "7-5",
+    "ou": "8-4",
+    "pf": 112.3,
+    "pa": 116.5,
+    "home_away": "4-3 home \u00b7 0-5 road"
+   },
+   "month": {
+    "record": "3-4",
+    "ats": "4-3",
+    "ou": "6-1",
+    "pf": 117.3,
+    "pa": 119.9,
+    "home_away": "3-2 home \u00b7 0-2 road"
+   },
+   "week": null,
+   "last10": {
+    "record": "3-7",
+    "ats": "5-5",
+    "ou": "7-3",
+    "pf": 111.0,
+    "pa": 117.7,
+    "home_away": "3-3 home \u00b7 0-4 road"
+   },
+   "last5": {
+    "record": "3-2",
+    "ats": "4-1",
+    "ou": "4-1",
+    "pf": 118.2,
+    "pa": 118.0,
+    "home_away": "3-1 home \u00b7 0-1 road"
+   }
+  }
+ },
+ "CHA": {
+  "last5": [
+   "L",
+   "L",
+   "W",
+   "L",
+   "L"
+  ],
+  "pf": 99.1,
+  "pa": 109.8,
+  "last5_scores": [
+   104,
+   80,
+   124,
+   96,
+   105
+  ],
+  "last5_allowed": [
+   114,
+   119,
+   112,
+   101,
+   113
+  ],
+  "last5_totals": [
+   218,
+   199,
+   236,
+   197,
+   218
+  ],
+  "last5_margins": [
+   -10,
+   -39,
+   12,
+   -5,
+   -8
+  ],
+  "last5_opp": [
+   "@ BKN",
+   "vs BOS",
+   "vs CLE",
+   "@ PHX",
+   "@ LAC"
+  ],
+  "rest_days": 1,
+  "travel": "traveled from LAC",
+  "back_to_back": false,
+  "streak": "L2",
+  "history": {
+   "season": {
+    "record": "4-9",
+    "ats": "5-8",
+    "ou": "5-8",
+    "pf": 99.1,
+    "pa": 109.8,
+    "home_away": "3-4 home \u00b7 1-5 road"
+   },
+   "month": {
+    "record": "1-5",
+    "ats": "2-4",
+    "ou": "4-2",
+    "pf": 100.0,
+    "pa": 113.8,
+    "home_away": "1-2 home \u00b7 0-3 road"
+   },
+   "week": null,
+   "last10": {
+    "record": "2-8",
+    "ats": "3-7",
+    "ou": "5-5",
+    "pf": 98.2,
+    "pa": 108.7,
+    "home_away": "2-3 home \u00b7 0-5 road"
+   },
+   "last5": {
+    "record": "1-4",
+    "ats": "2-3",
+    "ou": "3-2",
+    "pf": 101.8,
+    "pa": 111.8,
+    "home_away": "1-1 home \u00b7 0-3 road"
+   }
+  }
+ },
+ "LAL": {
+  "last5": [
+   "W",
+   "W",
+   "W",
+   "W",
+   "W"
+  ],
+  "pf": 122.8,
+  "pa": 114.9,
+  "last5_scores": [
+   124,
+   121,
+   124,
+   123,
+   131
+  ],
+  "last5_allowed": [
+   118,
+   116,
+   114,
+   112,
+   123
+  ],
+  "last5_totals": [
+   242,
+   237,
+   238,
+   235,
+   254
+  ],
+  "last5_margins": [
+   6,
+   5,
+   10,
+   11,
+   8
+  ],
+  "last5_opp": [
+   "vs POR",
+   "@ DET",
+   "@ ATL",
+   "@ MIL",
+   "@ PHX"
+  ],
+  "rest_days": 1,
+  "travel": "traveled from PHX",
+  "back_to_back": false,
+  "streak": "W8",
+  "history": {
+   "season": {
+    "record": "12-2",
+    "ats": "10-4",
+    "ou": "10-4",
+    "pf": 122.8,
+    "pa": 114.9,
+    "home_away": "5-1 home \u00b7 7-1 road"
+   },
+   "month": {
+    "record": "8-0",
+    "ats": "7-1",
+    "ou": "7-1",
+    "pf": 126.0,
+    "pa": 116.0,
+    "home_away": "3-0 home \u00b7 5-0 road"
+   },
+   "week": null,
+   "last10": {
+    "record": "9-1",
+    "ats": "8-2",
+    "ou": "7-3",
+    "pf": 120.6,
+    "pa": 112.7,
+    "home_away": "3-0 home \u00b7 6-1 road"
+   },
+   "last5": {
+    "record": "5-0",
+    "ats": "4-1",
+    "ou": "5-0",
+    "pf": 124.6,
+    "pa": 116.6,
+    "home_away": "1-0 home \u00b7 4-0 road"
+   }
+  }
+ }
+}

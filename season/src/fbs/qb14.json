@@ -1,0 +1,212 @@
+{
+ "Ohio State": {
+  "starter": "Luke Fahey",
+  "depth": "QB2",
+  "status": "Confirmed",
+  "qb1": "Julian Sayin",
+  "why": "Julian Sayin is listed OUT on the Big Ten initial availability report for Northwestern; no injury type was released. Freshman Luke Fahey has started the last two games.",
+  "timeline": "Short term; Ohio State has not given a return date.",
+  "starts": "2 starts, 0-2 (L 18-30 USC, L 28-41 Oregon); 57 of 88, 620 yards, 3 TD, 1 INT; 360 yards on 36 of 50 at Oregon",
+  "starter_season": "Sayin: 7 starts, 6-1, 2,007 yards, 19 TD, 4 INT",
+  "src": "Big Ten availability report via ABC6 and Yahoo Sports (Nov 12 to 13); ESPN box scores"
+ },
+ "Northwestern": {
+  "starter": "Nicco Marchiol",
+  "depth": "QB2",
+  "status": "Confirmed",
+  "qb1": "Aidan Chiles",
+  "why": "Aidan Chiles is listed OUT on the Big Ten initial availability report; he has not played since the Oct 31 loss at Oregon. No injury type released.",
+  "timeline": "Out a second straight game; no return date given.",
+  "starts": "1 start, 0-1 (L 10-24 Iowa); 24 of 32, 181 yards, 1 TD, 0 INT",
+  "starter_season": "Chiles: 8 starts, 6-2, 1,898 yards, 13 TD, 1 INT",
+  "src": "Big Ten availability report via ABC6 and Yahoo Sports; ESPN box scores"
+ },
+ "Michigan": {
+  "starter": "Tommy Carr",
+  "depth": "QB2",
+  "status": "Expected",
+  "qb1": "Bryce Underwood",
+  "why": "Benched, not injured: Bryce Underwood lost the job after early season struggles; ESPN's Pete Thamel reports Carr is expected to start at Oregon with Underwood also expected to play.",
+  "timeline": "Coaching decision. ESPN (Thamel, Nov 10) expects Underwood to also play; On3 via RotoWire (Nov 10) says Underwood stays on the bench. Treat Underwood snaps as possible, not certain.",
+  "starts": "3 starts, 1-2 (W 28-21 Rutgers, L 6-15 Michigan State); 56 of 85, 571 yards, 1 TD, 3 INT",
+  "starter_season": "Underwood: 6 starts, 4-2, 924 yards, 5 TD, 6 INT",
+  "src": "ESPN (Nov 10); On3 via RotoWire (Nov 10); ESPN box scores"
+ },
+ "Wisconsin": {
+  "starter": "Ryan Hopkins",
+  "depth": "QB2",
+  "status": "Confirmed",
+  "qb1": "Colton Joseph",
+  "why": "Colton Joseph has an undisclosed injury and was benched in the second half at Iowa; freshman Ryan Hopkins made his first start Nov 7. Joseph was available only in an emergency role last week.",
+  "timeline": "Fickell named Hopkins the starter for Maryland on Nov 9 (ESPN); still the starter on Nov 13 (National Football Post). Joseph, still dealing with an undisclosed injury, stays in the offensive plan, so both may play.",
+  "starts": "1 start, 1-0 (W 31-10 Rutgers); 18 of 24, 241 yards, 3 TD, 0 INT",
+  "starter_season": "Joseph: 8 starts, 5-3, 1,346 yards, 11 TD, 5 INT",
+  "src": "ESPN (Nov 9), National Football Post (Nov 13); ESPN box scores"
+ },
+ "Florida": {
+  "starter": "Tramell Jones Jr.",
+  "depth": "QB2",
+  "status": "Expected",
+  "qb1": "Aaron Philo",
+  "why": "Aaron Philo was hurt the week before Texas (injury not disclosed), then was pulled at Georgia after two interceptions; Tramell Jones Jr. started at Oklahoma.",
+  "timeline": "Coaching decision with an injury in the background; no return date for Philo.",
+  "starts": "3 starts, 1-2 (incl. W 27-24 at Texas, L 7-23 Oklahoma); 50 of 82, 460 yards, 2 TD, 3 INT",
+  "starter_season": "Philo: 6 starts, 4-2, 1,341 yards, 9 TD, 3 INT",
+  "src": "ClutchPoints citing CBS Sports (Nov 5); ESPN box scores"
+ },
+ "Texas Tech": {
+  "starter": "Thomas Castellanos",
+  "depth": "QB2",
+  "status": "Confirmed",
+  "qb1": "Will Hammond",
+  "why": "Benched, not injured: Will Hammond (6-0 to start) was benched after a 227 yard, 1 INT loss to Cincinnati; Castellanos is listed QB1 on the depth chart.",
+  "timeline": "Coaching decision; Castellanos is the starter going forward.",
+  "starts": "2 starts, 2-0 (W 34-26 Arizona, W 53-48 West Virginia); 29 of 51, 506 yards, 7 TD, 0 INT, plus 117 rushing yards vs Arizona",
+  "starter_season": "Hammond: 7 starts, 6-1, 1,561 yards, 6 TD, 6 INT",
+  "src": "ClutchPoints citing On3 (Nov 1); ESPN box scores"
+ },
+ "Arizona State": {
+  "starter": "Jake Fette",
+  "depth": "QB3",
+  "status": "Expected",
+  "qb1": "Cutter Boley",
+  "why": "Cutter Boley was benched in October and Mikey Keene hurt his knee against Kansas State; freshman Jake Fette has started the last two games and coach Kenny Dillingham said he has earned the job.",
+  "timeline": "Keene knee injury, no return date; Boley benched.",
+  "starts": "2 starts, 1-1 (L 20-27 BYU, W 20-10 Colorado); 35 of 61, 353 yards, 3 TD, 0 INT",
+  "starter_season": "Boley: 5 starts, 3-2, 1,229 yards, 12 TD, 3 INT",
+  "src": "Field Level Media (Nov 5), Arizona Sports; ESPN box scores; Odds API posted Fette props"
+ },
+ "UCF": {
+  "starter": "Alonza Barnett III",
+  "depth": "QB1",
+  "status": "Expected",
+  "qb1": "Alonza Barnett III",
+  "why": "Barnett III is UCF's No. 1 when healthy: he missed five games with a hamstring injury from Sept 12, returned Nov 7. Keyone Jenkins (6 starts) aggravated an ankle injury vs Baylor and was questionable.",
+  "timeline": "Barnett listed back and healthy, no designation (Nov 13 report); Jenkins questionable, freshman Rocco Marriott next if both sit.",
+  "starts": "3 starts, 2-1 (incl. W 33-32 at Kansas); 49 of 80, 595 yards, 4 TD, 2 INT",
+  "starter_season": "Jenkins: 6 starts, 3-3, 1,139 yards, 10 TD, 4 INT",
+  "src": "Sports Illustrated UCF availability breakdown (Nov 13); Field Level Media (Nov 5); ESPN box scores"
+ },
+ "Kansas State": {
+  "starter": "Blake Barnett",
+  "depth": "QB3",
+  "status": "Expected",
+  "qb1": "Avery Johnson",
+  "why": "Avery Johnson has missed four straight games with an injury K-State has not described; coach Chris Klein said Nov 3 there is only an outside chance he returns this season. Jacob Knuth started once, Blake Barnett the last two.",
+  "timeline": "Johnson likely out for the season.",
+  "starts": "2 starts, 0-2 (L 24-27 OT Colorado, L 28-66 Oklahoma State); 25 of 45, 330 yards, 4 TD, 2 INT",
+  "starter_season": "Johnson: 6 starts, 4-2, 1,301 yards, 10 TD, 3 INT",
+  "src": "KCTV5 (Nov 3); ESPN box scores"
+ },
+ "Mississippi State": {
+  "starter": "AJ Swann",
+  "depth": "QB3",
+  "status": "Expected",
+  "qb1": "Kamario Taylor",
+  "why": "Kamario Taylor is out for the season after foot surgery (hurt vs Oklahoma). AJ Swann led the last game; freshman Billy Puckett also started twice.",
+  "timeline": "Taylor out for season, expected full recovery for 2027.",
+  "starts": "2 starts, 0-2 (L 3-31 Texas, L 23-25 Vanderbilt); 35 of 51, 351 yards, 2 TD, 1 INT",
+  "starter_season": "Taylor: 5 starts, 4-1, 1,450 yards, 17 TD, 4 INT",
+  "src": "WLOX (Oct 27); ESPN box scores; Odds API posted Swann props"
+ },
+ "Wake Forest": {
+  "starter": "Gio Lopez",
+  "depth": "QB1",
+  "status": "Expected",
+  "qb1": "Gio Lopez",
+  "why": "Lopez sat out the Merrimack game as a precaution with a lower body injury not viewed as long term; ESPN reported he should be available to start at SMU.",
+  "timeline": "Coach Jake Dickert on Nov 9: he will be ready to go Saturday (Yahoo Sports, Nov 12). No official designation; Steele Pizzella is the fallback.",
+  "starts": "QB1: 8 starts, 7-1, 2,176 yards, 18 TD, 1 INT; Steele Pizzella started once (W 77-0 Merrimack, 432 yards)",
+  "starter_season": "",
+  "src": "Yahoo Sports (Nov 12) quoting Jake Dickert; ClutchPoints citing ESPN (Nov 7); Odds API posted Lopez props"
+ },
+ "Boise State": {
+  "starter": "Maddux Madsen",
+  "depth": "QB1",
+  "status": "Expected",
+  "qb1": "Maddux Madsen",
+  "why": "Madsen hurt his knee in the Nov 1 win over Texas State and missed Colorado State; Max Cutforth started Nov 7 (W 64-38, 16 of 19, 317 yards, 4 TD). Madsen was listed questionable on the initial Pac-12 report but practiced this week; coach Spencer Danielson said the team feels really good about where he is.",
+  "timeline": "Questionable on the Pac-12 report, expected to start; the gameday report decides. Cutforth is the fallback.",
+  "starts": "Madsen: 8 starts, 7-1, 1,681 yards, 15 TD, 1 INT",
+  "starter_season": "",
+  "src": "ESPN (Nov 11, Pac-12 availability report); ClutchPoints citing ESPN (Nov 6); ESPN box scores"
+ },
+ "James Madison": {
+  "starter": "JC Evans",
+  "depth": "QB2",
+  "status": "Expected",
+  "qb1": "Camden Coleman",
+  "why": "No official reason: Coleman (8 starts) did not play at Southern Miss after two overtime losses with three interceptions; he was not on an injury report. JC Evans started and JMU won 54-23.",
+  "timeline": "Unclear; JMU has not said whether this is a benching or an injury.",
+  "starts": "2 starts, 2-0 (W 54-23 Southern Miss); 26 of 35, 312 yards, 2 TD, 0 INT",
+  "starter_season": "Coleman: 8 starts, 6-2, 1,685 yards, 16 TD, 4 INT",
+  "src": "Heavy (Nov 6); ESPN box scores"
+ },
+ "Air Force": {
+  "starter": "Evan Medders",
+  "depth": "QB2",
+  "status": "Expected",
+  "qb1": "Liam Szarka",
+  "why": "Liam Szarka is out for the season with a lower leg injury (Covers, Oct 5). Air Force rarely throws; Medders led the passing in the Nov 8 win over Army.",
+  "timeline": "Szarka out for season.",
+  "starts": "1 game leading the passing, 1-0 (W 24-21 Army); 6 of 8, 84 yards, 1 TD",
+  "starter_season": "Szarka: 3 starts, 2-1",
+  "src": "Covers injury report (Oct 5); ESPN box scores"
+ },
+ "Rutgers": {
+  "starter": "AJ Surace",
+  "depth": "QB2",
+  "status": "Expected",
+  "qb1": "Dylan Lonergan",
+  "why": "Dylan Lonergan was hurt in September (Rutgers started Surace in his place, Sept 8) and Surace has led the last games; Lonergan's current status was not found in news at run time.",
+  "timeline": "Not reported.",
+  "starts": "5 starts, 0-5; 48 of 91, 706 yards, 6 TD, 5 INT",
+  "starter_season": "Lonergan: 4 starts, 2-2, 999 yards, 10 TD, 6 INT",
+  "src": "ESPN and Field Level Media (Sept 8); ESPN box scores"
+ },
+ "Texas Tech_note": {},
+ "Utah State": {
+  "starter": "McCae Hillstead",
+  "depth": "QB1",
+  "status": "Expected",
+  "qb1": "McCae Hillstead",
+  "why": "Hillstead was named Utah State's 2026 starter in April; Grady Brosterhous started six games while Hillstead was not the starter earlier this season (reason not found in news at run time). Hillstead has started the last three.",
+  "timeline": "Settled as the starter for now.",
+  "starts": "3 starts, 2-1 (W 31-14 Colorado State, W 17-10 Fresno State); 41 of 66, 468 yards, 3 TD, 3 INT",
+  "starter_season": "Brosterhous: 6 starts, 2-4, 1,053 yards, 7 TD, 5 INT",
+  "src": "Utah State Athletics (Apr 20), theScore; ESPN box scores"
+ },
+ "Kennesaw State": {
+  "starter": "Landon Varnes",
+  "depth": "QB2",
+  "status": "Expected",
+  "qb1": "Rickie Collins",
+  "why": "Varnes replaced Rickie Collins during the Nov 7 game and threw the winning 63 yard touchdown in a 42-40 win over Delaware; Collins (5 of 7 that day) has not been reported injured. Kennesaw State has not named a starter publicly at run time.",
+  "timeline": "Unclear; check the gameday report.",
+  "starts": "1 start, 1-0 (W 42-40 Delaware); 19 of 37, 254 yards, 1 TD, 1 INT",
+  "starter_season": "Collins: 8 starts, 2-6, 1,632 yards, 7 TD, 6 INT",
+  "src": "AP via yourvalley.net (Nov 7); ESPN box scores"
+ },
+ "Rice": {
+  "starter": "Gael Ochoa",
+  "depth": "QB2",
+  "status": "Questionable",
+  "qb1": "Jacurri Brown",
+  "why": "Freshman Gael Ochoa led Rice's last game (8 of 13, 172 yards at North Texas); Jacurri Brown started five games (0-5). No news on the change was found at run time.",
+  "timeline": "Unknown; Rice runs an option-heavy offense with few passes either way.",
+  "starts": "1 start, 0-1 (L 23-52 North Texas); 8 of 13, 172 yards, 1 TD, 1 INT",
+  "starter_season": "Brown: 5 starts, 0-5, 413 yards, 2 TD, 2 INT",
+  "src": "ESPN box scores; no news found"
+ },
+ "Oregon State": {
+  "starter": "Maalik Murphy",
+  "depth": "QB2",
+  "status": "Expected",
+  "qb1": "Braden Atkinson",
+  "why": "Injury: Braden Atkinson hurt his hand in the 42-21 loss to Texas State; he was listed doubtful on the initial Pac-12 availability report and ESPN's Pete Thamel reported him ruled out for Boise State. Senior Maalik Murphy relieved him in that game.",
+  "timeline": "Short term hand injury, no return date reported. The Pac-12 gameday report decides; Murphy is the likely starter.",
+  "starts": "0 starts this season; in relief vs Texas State 5 of 7, 75 yards, 0 TD, 1 INT (about 5% of team attempts)",
+  "starter_season": "Atkinson: 9 starts, 5-4, 3,169 yards (leads the nation), 25 TD, 3 INT",
+  "src": "ESPN (Nov 11, initial Pac-12 report: Atkinson doubtful, Madsen questionable); KATU citing ESPN's Pete Thamel (Nov 12); RotoWire (not expected to play)"
+ }
+}

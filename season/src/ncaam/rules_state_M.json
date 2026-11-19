@@ -1,0 +1,991 @@
+{
+ "rules": {
+  "ROAD1DAY_FADE": {
+   "on": true,
+   "variant": "lowered",
+   "backtest": {
+    "w": 220,
+    "l": 178,
+    "p": 1,
+    "u": 22.0,
+    "pos": 2
+   },
+   "season": {
+    "w": 3,
+    "l": 2,
+    "p": 0,
+    "n": 5,
+    "pct": 0.6,
+    "u": 0.73,
+    "be": 0.5238095238095238
+   },
+   "source": "approved",
+   "note": "Approved Nov 2, 2026. Home team ATS when the road team is on 1 day rest and the home team has 2+ days. Mostly fires in March.",
+   "last14": {
+    "w": 3,
+    "l": 2,
+    "p": 0,
+    "n": 5,
+    "pct": 0.6,
+    "u": 0.73,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   },
+   "since": "2026-11-02",
+   "month": {
+    "w": 3,
+    "l": 2,
+    "p": 0,
+    "n": 5,
+    "pct": 0.6,
+    "u": 0.73,
+    "be": 0.5238095238095238
+   }
+  },
+  "EARLY_UNDER_OPEN": {
+   "on": false,
+   "variant": "lowered",
+   "backtest": {
+    "w": 911,
+    "l": 804,
+    "p": 7,
+    "u": 24.2,
+    "pos": 2
+   },
+   "season": {
+    "w": 71,
+    "l": 62,
+    "p": 0,
+    "n": 133,
+    "pct": 0.5338345864661654,
+    "u": 2.55,
+    "be": 0.5238095238095238
+   },
+   "source": "approved",
+   "note": "Approved Nov 3, 2026. Nov and Dec only: under when the efficiency model total is 4+ below the opening total. Backtest graded at the open: Nov -7.8u, Dec +32.0u. Bet early, before the total moves. Held on through Nov 8, 2026 (Trina): one night is noise. From Nov 9 the automatic switch decides on or off from week 1 results.",
+   "last14": {
+    "w": 71,
+    "l": 62,
+    "p": 0,
+    "n": 133,
+    "pct": 0.5338345864661654,
+    "u": 2.55,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   },
+   "since": "2026-11-14",
+   "auto_off": false,
+   "month": {
+    "w": 71,
+    "l": 62,
+    "p": 0,
+    "n": 133,
+    "pct": 0.5338345864661654,
+    "u": 2.55,
+    "be": 0.5238095238095238
+   },
+   "hold_ended": "2026-11-08",
+   "switched": {
+    "date": "2026-11-14",
+    "to": "on",
+    "record": "71-62, +2.55u"
+   }
+  },
+  "EARLY_OVER_OPEN": {
+   "on": false,
+   "variant": "lowered",
+   "backtest": {
+    "w": 89,
+    "l": 60,
+    "p": 0,
+    "u": 20.9,
+    "pos": 2
+   },
+   "season": {
+    "w": 29,
+    "l": 43,
+    "p": 0,
+    "n": 72,
+    "pct": 0.4027777777777778,
+    "u": -16.64,
+    "be": 0.5238095238095238
+   },
+   "source": "policy",
+   "note": "Failed the stricter bar (149 picks, 2 of 3 seasons). Tracked by the re-check. Season Cards policy (Nov 6): turns on automatically when season and month are green.",
+   "last14": {
+    "w": 29,
+    "l": 43,
+    "p": 0,
+    "n": 72,
+    "pct": 0.4027777777777778,
+    "u": -16.64,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   },
+   "since": "2026-11-03",
+   "month": {
+    "w": 29,
+    "l": 43,
+    "p": 0,
+    "n": 72,
+    "pct": 0.4027777777777778,
+    "u": -16.64,
+    "be": 0.5238095238095238
+   }
+  },
+  "EFF_SPREAD": {
+   "on": false,
+   "variant": "lowered",
+   "backtest": {
+    "w": 2347,
+    "l": 2413,
+    "p": 22,
+    "u": -279.4,
+    "pos": 0
+   },
+   "season": {
+    "w": 187,
+    "l": 185,
+    "p": 0,
+    "n": 372,
+    "pct": 0.5026881720430108,
+    "u": -15.0,
+    "be": 0.5238095238095238
+   },
+   "source": "policy",
+   "note": "Failed: efficiency model edge 3+ at the close lost every season. Tracked by the re-check. Season Cards policy (Nov 6): turns on automatically when season and month are green.",
+   "last14": {
+    "w": 187,
+    "l": 185,
+    "p": 0,
+    "n": 372,
+    "pct": 0.5026881720430108,
+    "u": -15.0,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   },
+   "since": "2026-11-03",
+   "month": {
+    "w": 187,
+    "l": 185,
+    "p": 0,
+    "n": 372,
+    "pct": 0.5026881720430108,
+    "u": -15.0,
+    "be": 0.5238095238095238
+   }
+  },
+  "EFF_OVER": {
+   "on": false,
+   "variant": "lowered",
+   "backtest": {
+    "w": 1518,
+    "l": 1595,
+    "p": 4,
+    "u": -215.0,
+    "pos": 0
+   },
+   "season": {
+    "w": 47,
+    "l": 61,
+    "p": 0,
+    "n": 108,
+    "pct": 0.4351851851851852,
+    "u": -18.27,
+    "be": 0.5238095238095238
+   },
+   "source": "policy",
+   "note": "Failed: lost every season. Tracked by the re-check. Season Cards policy (Nov 6): turns on automatically when season and month are green.",
+   "last14": {
+    "w": 47,
+    "l": 61,
+    "p": 0,
+    "n": 108,
+    "pct": 0.4351851851851852,
+    "u": -18.27,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   },
+   "since": "2026-11-03",
+   "month": {
+    "w": 47,
+    "l": 61,
+    "p": 0,
+    "n": 108,
+    "pct": 0.4351851851851852,
+    "u": -18.27,
+    "be": 0.5238095238095238
+   }
+  },
+  "FAV_ML_2": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-02",
+   "split_from": "FAV_ML lowered (Nov 13, B91)",
+   "note": "Separate rule from FAV_ML (lowered version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "u": 0.0,
+    "pos": 0,
+    "note": "no 3 season backtest for this separate rule yet"
+   },
+   "season": {
+    "w": 16,
+    "l": 21,
+    "p": 0,
+    "n": 37,
+    "pct": 0.43243243243243246,
+    "u": -9.81,
+    "be": 0.5854395542247844
+   },
+   "month": {
+    "w": 16,
+    "l": 21,
+    "p": 0,
+    "n": 37,
+    "pct": 0.43243243243243246,
+    "u": -9.81,
+    "be": 0.5854395542247844
+   },
+   "last14": {
+    "w": 16,
+    "l": 21,
+    "p": 0,
+    "n": 37,
+    "pct": 0.43243243243243246,
+    "u": -9.81,
+    "be": 0.5854395542247844
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "FAV_ML_3": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-02",
+   "split_from": "FAV_ML strict (Nov 13, B91)",
+   "note": "Separate rule from FAV_ML (strict version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 395,
+    "l": 286,
+    "p": 0,
+    "u": -35.3,
+    "pos": 0
+   },
+   "season": {
+    "w": 6,
+    "l": 11,
+    "p": 0,
+    "n": 17,
+    "pct": 0.35294117647058826,
+    "u": -6.78,
+    "be": 0.5863074998576712
+   },
+   "month": {
+    "w": 6,
+    "l": 11,
+    "p": 0,
+    "n": 17,
+    "pct": 0.35294117647058826,
+    "u": -6.78,
+    "be": 0.5863074998576712
+   },
+   "last14": {
+    "w": 6,
+    "l": 11,
+    "p": 0,
+    "n": 17,
+    "pct": 0.35294117647058826,
+    "u": -6.78,
+    "be": 0.5863074998576712
+   },
+   "source": "policy",
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "DOG_ML_1": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-14",
+   "split_from": "DOG_ML lowered (Nov 13, B91)",
+   "note": "Separate rule from DOG_ML (lowered version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "u": 0.0,
+    "pos": 0,
+    "note": "no 3 season backtest for this separate rule yet"
+   },
+   "season": {
+    "w": 18,
+    "l": 10,
+    "p": 0,
+    "n": 28,
+    "pct": 0.6428571428571429,
+    "u": 12.01,
+    "be": 0.44722734567331013
+   },
+   "month": {
+    "w": 18,
+    "l": 10,
+    "p": 0,
+    "n": 28,
+    "pct": 0.6428571428571429,
+    "u": 12.01,
+    "be": 0.44722734567331013
+   },
+   "last14": {
+    "w": 18,
+    "l": 10,
+    "p": 0,
+    "n": 28,
+    "pct": 0.6428571428571429,
+    "u": 12.01,
+    "be": 0.44722734567331013
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   },
+   "auto_off": false,
+   "switched": {
+    "date": "2026-11-14",
+    "to": "on",
+    "record": "18-10, +12.01u"
+   }
+  },
+  "DOG_ML_MOVE": {
+   "on": true,
+   "variant": "lowered",
+   "since": "2026-11-06",
+   "split_from": "DOG_ML strict (Nov 13, B91)",
+   "note": "Separate rule from DOG_ML (strict version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 300,
+    "l": 447,
+    "p": 0,
+    "u": -42.2,
+    "pos": 0
+   },
+   "season": {
+    "w": 9,
+    "l": 6,
+    "p": 0,
+    "n": 15,
+    "pct": 0.6,
+    "u": 5.28,
+    "be": 0.43033389486121665
+   },
+   "month": {
+    "w": 9,
+    "l": 6,
+    "p": 0,
+    "n": 15,
+    "pct": 0.6,
+    "u": 5.28,
+    "be": 0.43033389486121665
+   },
+   "last14": {
+    "w": 9,
+    "l": 6,
+    "p": 0,
+    "n": 15,
+    "pct": 0.6,
+    "u": 5.28,
+    "be": 0.43033389486121665
+   },
+   "switched": {
+    "date": "2026-11-06",
+    "to": "on",
+    "record": "2-1, +2.20u",
+    "by": "Trina"
+   },
+   "auto_off": false,
+   "source": "policy",
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "SPREAD_MOVE_05": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-02",
+   "split_from": "SPREAD_MOVE lowered (Nov 13, B91)",
+   "note": "Separate rule from SPREAD_MOVE (lowered version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "u": 0.0,
+    "pos": 0,
+    "note": "no 3 season backtest for this separate rule yet"
+   },
+   "season": {
+    "w": 207,
+    "l": 195,
+    "p": 0,
+    "n": 402,
+    "pct": 0.5149253731343284,
+    "u": -6.82,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 207,
+    "l": 195,
+    "p": 0,
+    "n": 402,
+    "pct": 0.5149253731343284,
+    "u": -6.82,
+    "be": 0.5238095238095238
+   },
+   "last14": {
+    "w": 207,
+    "l": 195,
+    "p": 0,
+    "n": 402,
+    "pct": 0.5149253731343284,
+    "u": -6.82,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "SPREAD_MOVE_1": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-02",
+   "split_from": "SPREAD_MOVE strict (Nov 13, B91)",
+   "note": "Separate rule from SPREAD_MOVE (strict version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 3514,
+    "l": 3537,
+    "p": 28,
+    "u": -342.5,
+    "pos": 0
+   },
+   "season": {
+    "w": 194,
+    "l": 187,
+    "p": 0,
+    "n": 381,
+    "pct": 0.5091863517060368,
+    "u": -10.64,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 194,
+    "l": 187,
+    "p": 0,
+    "n": 381,
+    "pct": 0.5091863517060368,
+    "u": -10.64,
+    "be": 0.5238095238095238
+   },
+   "last14": {
+    "w": 194,
+    "l": 187,
+    "p": 0,
+    "n": 381,
+    "pct": 0.5091863517060368,
+    "u": -10.64,
+    "be": 0.5238095238095238
+   },
+   "source": "policy",
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "UNDER_DROP_ANY": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-10",
+   "split_from": "UNDER_DROP lowered (Nov 13, B91)",
+   "note": "Separate rule from UNDER_DROP (lowered version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "u": 0.0,
+    "pos": 0,
+    "note": "no 3 season backtest for this separate rule yet"
+   },
+   "season": {
+    "w": 106,
+    "l": 98,
+    "p": 0,
+    "n": 204,
+    "pct": 0.5196078431372549,
+    "u": -1.64,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 106,
+    "l": 98,
+    "p": 0,
+    "n": 204,
+    "pct": 0.5196078431372549,
+    "u": -1.64,
+    "be": 0.5238095238095238
+   },
+   "last14": {
+    "w": 106,
+    "l": 98,
+    "p": 0,
+    "n": 204,
+    "pct": 0.5196078431372549,
+    "u": -1.64,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "UNDER_DROP_2": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-10",
+   "split_from": "UNDER_DROP strict (Nov 13, B91)",
+   "note": "Separate rule from UNDER_DROP (strict version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "u": 0.0,
+    "pos": 0,
+    "note": "no 3 season backtest for this separate rule yet"
+   },
+   "season": {
+    "w": 66,
+    "l": 65,
+    "p": 0,
+    "n": 131,
+    "pct": 0.5038167938931297,
+    "u": -5.0,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 66,
+    "l": 65,
+    "p": 0,
+    "n": 131,
+    "pct": 0.5038167938931297,
+    "u": -5.0,
+    "be": 0.5238095238095238
+   },
+   "last14": {
+    "w": 66,
+    "l": 65,
+    "p": 0,
+    "n": 131,
+    "pct": 0.5038167938931297,
+    "u": -5.0,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "UNDER_DROP_BAND": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-10",
+   "split_from": "UNDER_DROP band (Nov 13, B91)",
+   "note": "Separate rule from UNDER_DROP (band version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 1218,
+    "l": 1147,
+    "p": 8,
+    "u": -39.7,
+    "pos": 1
+   },
+   "season": {
+    "w": 7,
+    "l": 10,
+    "p": 0,
+    "n": 17,
+    "pct": 0.4117647058823529,
+    "u": -3.64,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 7,
+    "l": 10,
+    "p": 0,
+    "n": 17,
+    "pct": 0.4117647058823529,
+    "u": -3.64,
+    "be": 0.5238095238095238
+   },
+   "last14": {
+    "w": 7,
+    "l": 10,
+    "p": 0,
+    "n": 17,
+    "pct": 0.4117647058823529,
+    "u": -3.64,
+    "be": 0.5238095238095238
+   },
+   "switched": {
+    "date": "2026-11-09",
+    "to": "off",
+    "record": "5-7, -2.45u (band)",
+    "by": "Trina: let the 7 pick minimum decide"
+   },
+   "auto_off": true,
+   "source": "trina",
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "OVER_ANY": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-02",
+   "split_from": "OVER lowered (Nov 13, B91)",
+   "note": "Separate rule from OVER (lowered version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "u": 0.0,
+    "pos": 0,
+    "note": "no 3 season backtest for this separate rule yet"
+   },
+   "season": {
+    "w": 114,
+    "l": 146,
+    "p": 0,
+    "n": 260,
+    "pct": 0.43846153846153846,
+    "u": -42.36,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 114,
+    "l": 146,
+    "p": 0,
+    "n": 260,
+    "pct": 0.43846153846153846,
+    "u": -42.36,
+    "be": 0.5238095238095238
+   },
+   "last14": {
+    "w": 114,
+    "l": 146,
+    "p": 0,
+    "n": 260,
+    "pct": 0.43846153846153846,
+    "u": -42.36,
+    "be": 0.5238095238095238
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  },
+  "OVER_2": {
+   "on": false,
+   "variant": "lowered",
+   "since": "2026-11-02",
+   "split_from": "OVER strict (Nov 13, B91)",
+   "note": "Separate rule from OVER (strict version), Trina Nov 13 (A39).",
+   "backtest": {
+    "w": 1314,
+    "l": 1272,
+    "p": 8,
+    "u": -77.5,
+    "pos": 1
+   },
+   "season": {
+    "w": 79,
+    "l": 102,
+    "p": 0,
+    "n": 181,
+    "pct": 0.43646408839779005,
+    "u": -30.18,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 79,
+    "l": 102,
+    "p": 0,
+    "n": 181,
+    "pct": 0.43646408839779005,
+    "u": -30.18,
+    "be": 0.5238095238095238
+   },
+   "last14": {
+    "w": 79,
+    "l": 102,
+    "p": 0,
+    "n": 181,
+    "pct": 0.43646408839779005,
+    "u": -30.18,
+    "be": 0.5238095238095238
+   },
+   "source": "policy",
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 0,
+     "l": 0,
+     "p": 0,
+     "n": 0,
+     "pct": null,
+     "u": 0,
+     "be": null
+    }
+   }
+  }
+ },
+ "log": [
+  {
+   "date": "2026-11-02",
+   "change": "Starting settings from the 2023-24 to 2025-26 backtest: FAV_ML off (strict), DOG_ML off (strict), SPREAD_MOVE off (strict), UNDER_DROP off (strict), OVER off (strict)"
+  },
+  {
+   "date": "2026-11-02",
+   "change": "ROAD1DAY_FADE added and live: approved by Trina (backtest 220-178, +22.0u, 2 of 3 seasons)"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EARLY_UNDER_OPEN added and live: approved by Trina (backtest 911-804, +24.2u, 2 of 3 seasons, graded at the opener)"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EARLY_OVER_OPEN added for tracking only (failed backtest): backtest 89-60, +20.9u, 2 of 3 seasons"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EFF_SPREAD added for tracking only (failed backtest): backtest 2347-2413, -279.4u, 0 of 3 seasons"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EFF_OVER added for tracking only (failed backtest): backtest 1518-1595, -215.0u, 0 of 3 seasons"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EARLY_UNDER_OPEN off: 22 picks, -1.00u"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EARLY_UNDER_OPEN back on and held on through Nov 8 (Trina). Automatic switch resumes Nov 9 using week 1 results."
+  },
+  {
+   "date": "2026-11-06",
+   "change": "Season Cards rule status policy applied (Trina): rules that failed the backtest turn on automatically when season and month are green"
+  },
+  {
+   "date": "2026-11-06",
+   "change": "DOG_ML on (Trina): season 2-1, +2.20u"
+  },
+  {
+   "date": "2026-11-06",
+   "change": "UNDER_DROP moved to lowered: season -4.64u vs -8.45u, month -4.64u vs -8.45u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "UNDER_DROP moved to strict: season -13.00u vs -13.73u, month -13.00u vs -13.73u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "EARLY_UNDER_OPEN off: season 36-33, -0.27u, Nov 36-33 -0.27u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "Policy (Trina): season to date decides; month is a watch; two red months in a row switch a rule off after the first full week of the next month"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "UNDER_DROP on as the band version (Trina, A12): total dropped 4.5 to 6.5 at both books. 3 season backtest 199 picks +16.7u, positive 3 of 3. Season so far 5-7, -2.45u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "Pick minimum 7 (1/4 of a 31 game season, Trina). UNDER_DROP band held on through Nov 12 pending Trina, since 5-7 -2.45u would switch it off."
+  },
+  {
+   "date": "2026-11-09",
+   "change": "UNDER_DROP (band) off: 7 pick minimum, season 5-7 -2.45u (Trina)"
+  },
+  {
+   "date": "2026-11-11",
+   "change": "EARLY_UNDER_OPEN on (season green): season 52-45, +2.27u"
+  },
+  {
+   "date": "2026-11-14",
+   "change": "EARLY_UNDER_OPEN on (season green): season 71-62, +2.55u"
+  },
+  {
+   "date": "2026-11-14",
+   "change": "DOG_ML_1 on (season green): season 18-10, +12.01u"
+  }
+ ],
+ "updated": "2026-11-14",
+ "recheck_note": "544 games played this season through 2026-11-14.",
+ "warnings": [],
+ "policy": {
+  "off_min": 7,
+  "month_min": 5,
+  "on_min": 0,
+  "set": "2026-11-09",
+  "text": "Season Cards policy (Trina, Nov 9, 2026): season to date decides. A rule switches off at 20+ season picks with negative season units, and back on when season units are green. The current month is a watch only. Two completed months in a row in the red (5+ picks each) also switch a rule off, after the first full week of the next month. Holds Trina sets still apply.",
+  "month_role": "watch",
+  "two_red_months": true,
+  "pick_min_basis": "1/4 of a 31 game season"
+ },
+ "switch_log": [
+  {
+   "date": "2026-11-11",
+   "change": "EARLY_UNDER_OPEN re-check switch on not applied: rule status follows hub meta real-pick tiers (Trina, Nov 11); main chat rebuilds tiers"
+  }
+ ]
+}

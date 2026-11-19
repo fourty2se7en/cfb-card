@@ -1,0 +1,216 @@
+
+## a. Favorite moneyline by price band
+Fav ML shorter than -500, every favorite                            5-2, -1.3u 71.4% be 87.6% | Sep     2-0, +0.3u | Oct     2-2, -1.7u | Nov     1-0, +0.1u | last 3 wk     1-0, +0.1u
+Fav ML shorter than -500, signals agree                                       -   -   be  0.0% | Sep              - | Oct              - | Nov              - | last 3 wk              -
+Fav ML -500 to -301, every favorite                                20-8, -2.7u 71.4% be 79.4% | Sep     6-5, -3.3u | Oct     8-2, +0.2u | Nov     6-1, +0.4u | last 3 wk     7-2, -0.3u
+Fav ML -500 to -301, signals agree                                   3-2, -1.2u 60.0% be 80.1% | Sep     1-1, -0.7u | Oct     2-1, -0.5u | Nov              - | last 3 wk     1-1, -0.7u
+Fav ML -300 to -201, every favorite                                24-6, +3.9u 80.0% be 70.6% | Sep     9-3, +0.7u | Oct     7-3, +0.0u | Nov     8-0, +3.2u | last 3 wk    11-1, +3.5u QUALIFIES
+Fav ML -300 to -201, signals agree                                   8-0, +3.3u 100.0% be 70.6% | Sep     3-0, +1.2u | Oct     3-0, +1.3u | Nov     2-0, +0.8u | last 3 wk     4-0, +1.7u QUALIFIES
+Fav ML -200 to -100, every favorite                             44-26-1, +3.1u 62.9% be 60.3% | Sep    15-8, +2.4u | Oct 19-15-1, -2.6u | Nov    10-3, +3.3u | last 3 wk    16-5, +5.1u QUALIFIES
+Fav ML -200 to -100, signals agree                                15-8-1, +2.3u 65.2% be 60.3% | Sep     4-2, +0.7u | Oct   8-4-1, +1.6u | Nov     3-2, -0.1u | last 3 wk     5-2, +1.2u QUALIFIES
+Fav ML -200 to -100, signal lead 1                                   2-3, -1.8u 40.0% be 61.5% | Sep     1-2, -1.3u | Oct     0-1, -1.0u | Nov     1-0, +0.6u | last 3 wk     1-0, +0.6u
+Fav ML -200 to -100, signal lead 2                                   6-1, +3.4u 85.7% be 57.6% | Sep     2-0, +1.5u | Oct     4-0, +2.9u | Nov     0-1, -1.0u | last 3 wk     0-1, -1.0u QUALIFIES  WARN last 3 wk negative
+Fav ML -200 to -100, signal lead 3+                                7-4-1, +0.6u 63.6% be 61.5% | Sep     1-0, +0.6u | Oct   4-3-1, -0.3u | Nov     2-1, +0.4u | last 3 wk     4-1, +1.6u QUALIFIES
+
+## b. Underdog moneyline from +100
+Dog ML +100 to +150, every underdog                              21-32-1, -5.4u 39.6% be 43.7% | Sep    6-12, -4.7u | Oct 13-14-1, +2.8u | Nov     2-6, -3.5u | last 3 wk    4-12, -6.9u
+Dog ML +100 to +150, signals on the dog                             8-17, -6.8u 32.0% be 43.6% | Sep     3-8, -4.4u | Oct     4-7, -1.8u | Nov     1-2, -0.6u | last 3 wk     2-5, -2.4u
+Dog ML +100 to +150, signals on the dog + reason                    7-10, -0.8u 41.2% be 43.6% | Sep     2-4, -1.4u | Oct     4-4, +1.2u | Nov     1-2, -0.6u | last 3 wk     2-4, -1.4u
+Dog ML +151 to +200, every underdog                                 8-22, -8.2u 26.7% be 36.2% | Sep     5-5, +3.7u | Oct    2-10, -6.5u | Nov     1-7, -5.4u | last 3 wk    2-10, -6.8u
+Dog ML +151 to +200, signals on the dog                             5-12, -3.2u 29.4% be 36.5% | Sep     4-2, +5.1u | Oct     1-5, -3.3u | Nov     0-5, -5.0u | last 3 wk     1-6, -4.3u
+Dog ML +151 to +200, signals on the dog + reason                    5-11, -2.2u 31.2% be 36.4% | Sep     4-2, +5.1u | Oct     1-4, -2.3u | Nov     0-5, -5.0u | last 3 wk     1-6, -4.3u
+Dog ML +201 to +300, every underdog                                 4-18, -7.7u 18.2% be 28.4% | Sep     1-8, -5.5u | Oct     2-5, +0.1u | Nov     1-5, -2.3u | last 3 wk     1-6, -3.3u
+Dog ML +201 to +300, signals on the dog                             4-13, -2.7u 23.5% be 28.4% | Sep     1-5, -2.5u | Oct     2-4, +1.1u | Nov     1-4, -1.3u | last 3 wk     1-4, -1.3u
+Dog ML +201 to +300, signals on the dog + reason                    4-13, -2.7u 23.5% be 28.4% | Sep     1-5, -2.5u | Oct     2-4, +1.1u | Nov     1-4, -1.3u | last 3 wk     1-4, -1.3u
+Dog ML +301 to +500, every underdog                                 6-12, +9.0u 33.3% be 22.2% | Sep    4-3, +10.4u | Oct     2-4, +3.6u | Nov     0-5, -5.0u | last 3 wk     1-5, -1.2u QUALIFIES  WARN last 3 wk negative
+Dog ML +301 to +500, signals on the dog                             3-10, +0.3u 23.1% be 22.1% | Sep     2-2, +4.5u | Oct     1-3, +0.8u | Nov     0-5, -5.0u | last 3 wk     0-5, -5.0u QUALIFIES  WARN last 3 wk negative
+Dog ML +301 to +500, signals on the dog + reason                    3-10, +0.3u 23.1% be 22.1% | Sep     2-2, +4.5u | Oct     1-3, +0.8u | Nov     0-5, -5.0u | last 3 wk     0-5, -5.0u QUALIFIES  WARN last 3 wk negative
+Dog ML +501 and up, every underdog                                   1-3, +3.0u 25.0% be 14.5% | Sep     0-1, -1.0u | Oct     1-1, +5.0u | Nov     0-1, -1.0u | last 3 wk     0-1, -1.0u
+Dog ML +501 and up, signals on the dog                               1-3, +3.0u 25.0% be 14.5% | Sep     0-1, -1.0u | Oct     1-1, +5.0u | Nov     0-1, -1.0u | last 3 wk     0-1, -1.0u
+Dog ML +501 and up, signals on the dog + reason                      1-3, +3.0u 25.0% be 14.5% | Sep     0-1, -1.0u | Oct     1-1, +5.0u | Nov     0-1, -1.0u | last 3 wk     0-1, -1.0u
+Dog ML +100 to +200, every underdog                             29-54-1, -13.6u 34.9% be 41.0% | Sep   11-17, -1.0u | Oct 15-24-1, -3.7u | Nov    3-13, -8.9u | last 3 wk   6-22, -13.7u
+Dog ML +100 to +200, signals on the dog                           13-29, -10.1u 31.0% be 40.7% | Sep    7-10, +0.7u | Oct    5-12, -5.1u | Nov     1-7, -5.6u | last 3 wk    3-11, -6.7u
+Dog ML +100 to +200, signals on the dog + reason                   12-21, -3.1u 36.4% be 40.1% | Sep     6-6, +3.7u | Oct     5-8, -1.1u | Nov     1-7, -5.6u | last 3 wk    3-10, -5.7u
+Dog ML +100 to +300, every underdog                             33-72-1, -21.3u 31.4% be 38.4% | Sep   12-25, -6.5u | Oct 17-29-1, -3.6u | Nov   4-18, -11.2u | last 3 wk   7-28, -17.0u
+Dog ML +100 to +300, signals on the dog                           17-42, -12.7u 28.8% be 37.1% | Sep    8-15, -1.8u | Oct    7-16, -4.0u | Nov    2-11, -6.9u | last 3 wk    4-15, -8.0u
+Dog ML +100 to +300, signals on the dog + reason                   16-34, -5.7u 32.0% be 36.1% | Sep    7-11, +1.2u | Oct    7-12, +0.0u | Nov    2-11, -6.9u | last 3 wk    4-14, -7.0u
+Dog ML +100 and up, every underdog                               40-87-1, -9.3u 31.5% be 35.3% | Sep   16-29, +3.0u | Oct 20-34-1, +5.0u | Nov   4-24, -17.2u | last 3 wk   8-34, -19.2u
+Dog ML +100 and up, signals on the dog                             21-55, -9.5u 27.6% be 33.4% | Sep   10-18, +1.6u | Oct    9-20, +1.8u | Nov   2-17, -12.9u | last 3 wk   4-21, -14.0u
+Dog ML +100 and up, signals on the dog + reason                    20-47, -2.5u 29.9% be 32.1% | Sep    9-14, +4.6u | Oct    9-16, +5.8u | Nov   2-17, -12.9u | last 3 wk   4-20, -13.0u
+
+## c. Underdog spread, signals on the dog
+Dog spread, signals on the dog                                   37-39-5, -5.1u 48.7% be 52.1% | Sep 14-14-2, -1.3u | Oct 17-11-3, +4.6u | Nov    6-14, -8.4u | last 3 wk   8-18, -10.4u
+  ... with an_experts                                            19-21-3, -3.9u 47.5% be 52.4% | Sep   8-8-1, -0.8u | Oct  10-5-2, +4.0u | Nov     1-8, -7.1u | last 3 wk     3-9, -6.1u
+  ... with an_model                                               2-10-1, -8.3u 16.7% be 51.7% | Sep   1-4-1, -3.2u | Oct     1-2, -1.2u | Nov     0-4, -4.0u | last 3 wk     0-5, -5.0u
+  ... with big_money                                             15-17-2, -3.4u 46.9% be 52.1% | Sep  8-10-1, -2.8u | Oct   5-3-1, +1.5u | Nov     2-4, -2.1u | last 3 wk     4-5, -1.2u
+  ... with bye                                                       1-1, +0.0u 50.0% be 50.6% | Sep              - | Oct     1-0, +1.0u | Nov     0-1, -1.0u | last 3 wk     1-1, +0.0u
+  ... with div_dog                                                 17-10, +5.8u 63.0% be 51.8% | Sep     6-3, +2.6u | Oct    10-3, +6.4u | Nov     1-4, -3.1u | last 3 wk     2-5, -3.1u QUALIFIES  WARN last 3 wk negative
+  ... with expert_any                                               15-9, +4.7u 62.5% be 52.2% | Sep     4-1, +2.6u | Oct     8-1, +6.2u | Nov     3-7, -4.1u | last 3 wk     3-7, -4.1u QUALIFIES  WARN last 3 wk negative
+  ... with expert_follow                                            15-8, +5.7u 65.2% be 52.2% | Sep     4-0, +3.6u | Oct     8-1, +6.2u | Nov     3-7, -4.1u | last 3 wk     3-7, -4.1u QUALIFIES  WARN last 3 wk negative
+  ... with fade_public                                           20-19-2, -1.2u 51.3% be 52.4% | Sep   8-6-1, +1.1u | Oct   8-5-1, +2.1u | Nov     4-8, -4.3u | last 3 wk    4-10, -6.3u
+  ... with form                                                    0-0-1, +0.0u   -   be  0.0% | Sep              - | Oct   0-0-1, +0.0u | Nov              - | last 3 wk              -
+  ... with home_field                                            11-19-2, -8.9u 36.7% be 52.0% | Sep     3-7, -4.4u | Oct   6-7-2, -1.3u | Nov     2-5, -3.2u | last 3 wk     3-8, -5.2u
+  ... with line_move                                              12-6-1, +5.3u 66.7% be 51.6% | Sep   3-2-1, +0.9u | Oct     7-2, +4.5u | Nov     2-2, -0.0u | last 3 wk     3-3, -0.0u QUALIFIES  WARN last 3 wk negative
+  ... with money_vs_tickets                                      10-13-2, -4.1u 43.5% be 52.1% | Sep   7-9-1, -2.7u | Oct   2-2-1, -0.3u | Nov     1-2, -1.1u | last 3 wk     1-2, -1.1u
+  ... with pr_fade                                               32-28-3, +1.3u 53.3% be 52.1% | Sep  11-9-1, +0.9u | Oct  15-7-2, +6.8u | Nov    6-12, -6.4u | last 3 wk    8-14, -6.4u QUALIFIES  WARN last 3 wk negative
+  ... with pro_systems                                           14-12-1, +0.6u 53.8% be 52.2% | Sep     7-5, +1.4u | Oct   6-2-1, +3.4u | Nov     1-5, -4.1u | last 3 wk     1-5, -4.1u QUALIFIES  WARN last 3 wk negative
+  ... with projection                                            10-14-3, -5.0u 41.7% be 52.2% | Sep   3-6-1, -3.3u | Oct   6-4-2, +1.4u | Nov     1-4, -3.1u | last 3 wk     1-5, -4.1u
+  ... with qb_change                                               2-6-1, -4.2u 25.0% be 52.2% | Sep     0-4, -4.0u | Oct   2-1-1, +0.8u | Nov     0-1, -1.0u | last 3 wk     0-1, -1.0u
+  ... with rest_edge                                                 2-2, -0.2u 50.0% be 52.7% | Sep              - | Oct     1-1, -0.2u | Nov     1-1, +0.0u | last 3 wk     1-1, +0.0u
+  ... with rlm                                                     9-5-1, +3.5u 64.3% be 51.7% | Sep   2-1-1, +0.8u | Oct     6-2, +3.6u | Nov     1-2, -1.0u | last 3 wk     2-3, -1.0u QUALIFIES  WARN last 3 wk negative
+  ... with sharp_action                                          16-17-4, -2.4u 48.5% be 52.3% | Sep   7-5-2, +1.3u | Oct   9-6-2, +2.3u | Nov     0-6, -6.0u | last 3 wk     1-8, -7.0u
+  ... with tnf_home                                                  1-1, +0.0u 50.0% be 49.8% | Sep              - | Oct     1-0, +1.0u | Nov     0-1, -1.0u | last 3 wk     0-1, -1.0u
+  ... with track_record                                              0-1, -1.0u  0.0% be 52.8% | Sep              - | Oct     0-1, -1.0u | Nov              - | last 3 wk              -
+  ... with travel                                                    3-3, -0.1u 50.0% be 51.8% | Sep              - | Oct     3-1, +1.9u | Nov     0-2, -2.0u | last 3 wk     1-2, -1.0u
+Dog spread, signals on the dog + a tested reason                 35-32-3, +0.2u 52.2% be 52.1% | Sep 13-10-1, +1.8u | Oct  16-8-2, +6.8u | Nov    6-14, -8.4u | last 3 wk    8-17, -9.4u QUALIFIES  WARN last 3 wk negative
+
+## d. Spread on the signal side
+Signal side spread, lead 1                                         7-18, -11.7u 28.0% be 52.5% | Sep     3-7, -4.4u | Oct     3-7, -4.2u | Nov     1-4, -3.2u | last 3 wk     2-9, -7.2u
+Signal side spread, lead 2                                        16-9-1, +6.0u 64.0% be 51.8% | Sep     3-6, -3.3u | Oct   8-2-1, +5.6u | Nov     5-1, +3.7u | last 3 wk     6-1, +4.6u QUALIFIES
+Signal side spread, lead 3                                        13-8-2, +4.0u 61.9% be 52.1% | Sep   6-1-1, +4.5u | Oct   3-4-1, -1.3u | Nov     4-3, +0.7u | last 3 wk     4-3, +0.7u QUALIFIES
+Signal side spread, lead 4                                         5-3-3, +1.5u 62.5% be 52.1% | Sep   3-1-2, +1.7u | Oct   2-2-1, -0.2u | Nov              - | last 3 wk              - QUALIFIES
+Signal side spread, lead 5                                           7-9, -2.6u 43.8% be 52.5% | Sep     1-1, -0.1u | Oct     6-3, +2.5u | Nov     0-5, -5.0u | last 3 wk     2-7, -5.1u
+Signal side spread, lead 6+                                          9-8, +0.1u 52.9% be 52.2% | Sep     4-2, +1.6u | Oct     5-2, +2.5u | Nov     0-4, -4.0u | last 3 wk     1-4, -3.0u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 1+                                      57-55-6, -2.8u 50.9% be 52.2% | Sep 20-18-3, +0.0u | Oct 27-20-3, +5.0u | Nov   10-17, -7.8u | last 3 wk  15-24, -10.0u
+Signal side spread, lead 1+, favorite                           20-16-1, +2.3u 55.6% be 52.4% | Sep   6-4-1, +1.4u | Oct    10-9, +0.4u | Nov     4-3, +0.6u | last 3 wk     7-6, +0.4u QUALIFIES
+Signal side spread, lead 1+, underdog                            37-39-5, -5.1u 48.7% be 52.1% | Sep 14-14-2, -1.3u | Oct 17-11-3, +4.6u | Nov    6-14, -8.4u | last 3 wk   8-18, -10.4u
+Signal side spread, lead 1+, line 0 to 3                         22-23-3, -2.8u 48.9% be 52.3% | Sep   5-9-2, -4.6u | Oct  13-8-1, +4.1u | Nov     4-6, -2.3u | last 3 wk     7-9, -2.5u
+Signal side spread, lead 1+, line 3.5 to 6.5                       22-19, +1.2u 53.7% be 51.9% | Sep    12-4, +7.0u | Oct     7-9, -2.4u | Nov     3-6, -3.3u | last 3 wk     5-9, -4.4u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 1+, line 7 to 9.5                         9-9-3, -1.0u 50.0% be 52.7% | Sep   3-3-1, -0.4u | Oct   4-2-2, +1.5u | Nov     2-4, -2.1u | last 3 wk     2-4, -2.1u
+Signal side spread, lead 1+, line 10+                                4-4, -0.3u 50.0% be 52.1% | Sep     0-2, -2.0u | Oct     3-1, +1.7u | Nov     1-1, -0.0u | last 3 wk     1-2, -1.0u
+Signal side spread, lead 2+                                      50-37-6, +8.9u 57.5% be 52.1% | Sep 17-11-3, +4.4u | Oct 24-13-3, +9.2u | Nov    9-13, -4.6u | last 3 wk   13-15, -2.8u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 2+, favorite                           15-10-1, +3.8u 60.0% be 52.1% | Sep   4-1-1, +2.6u | Oct     8-6, +1.5u | Nov     3-3, -0.3u | last 3 wk     5-4, +0.6u QUALIFIES
+Signal side spread, lead 2+, underdog                            35-27-5, +5.1u 56.5% be 52.1% | Sep 13-10-2, +1.7u | Oct  16-7-3, +7.7u | Nov    6-10, -4.4u | last 3 wk    8-11, -3.4u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 2+, line 0 to 3                         20-15-3, +3.5u 57.1% be 52.1% | Sep   4-5-2, -1.4u | Oct  13-5-1, +7.1u | Nov     3-5, -2.2u | last 3 wk     6-6, -0.3u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 2+, line 3.5 to 6.5                       18-14, +2.6u 56.2% be 51.8% | Sep    10-3, +6.2u | Oct     5-5, -0.3u | Nov     3-6, -3.3u | last 3 wk     4-6, -2.3u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 2+, line 7 to 9.5                         9-5-3, +3.0u 64.3% be 52.9% | Sep   3-1-1, +1.6u | Oct   4-2-2, +1.5u | Nov     2-2, -0.1u | last 3 wk     2-2, -0.1u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 2+, line 10+                                3-3, -0.2u 50.0% be 52.1% | Sep     0-2, -2.0u | Oct     2-1, +0.8u | Nov     1-0, +1.0u | last 3 wk     1-1, -0.0u
+Signal side spread, lead 3+                                      34-28-5, +2.9u 54.8% be 52.2% | Sep  14-5-3, +7.6u | Oct 16-11-2, +3.6u | Nov    4-12, -8.3u | last 3 wk    7-14, -7.4u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 3+, favorite                             8-7-1, +0.3u 53.3% be 52.1% | Sep   2-0-1, +1.8u | Oct     4-5, -1.4u | Nov     2-2, -0.2u | last 3 wk     4-3, +0.7u QUALIFIES
+Signal side spread, lead 3+, underdog                            26-21-4, +2.6u 55.3% be 52.3% | Sep  12-5-2, +5.8u | Oct  12-6-2, +5.0u | Nov    2-10, -8.1u | last 3 wk    3-11, -8.1u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 3+, line 0 to 3                         12-10-3, +1.0u 54.5% be 52.2% | Sep   2-2-2, -0.2u | Oct   7-4-1, +2.5u | Nov     3-4, -1.2u | last 3 wk     5-5, -0.3u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 3+, line 3.5 to 6.5                       14-13, -0.1u 51.9% be 51.9% | Sep     9-2, +6.2u | Oct     4-5, -1.2u | Nov     1-6, -5.1u | last 3 wk     2-6, -4.1u
+Signal side spread, lead 3+, line 7 to 9.5                         6-3-2, +2.2u 66.7% be 53.2% | Sep   3-0-1, +2.6u | Oct   3-1-1, +1.6u | Nov     0-2, -2.0u | last 3 wk     0-2, -2.0u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 3+, line 10+                                2-2, -0.2u 50.0% be 52.6% | Sep     0-1, -1.0u | Oct     2-1, +0.8u | Nov              - | last 3 wk     0-1, -1.0u
+Signal side spread, lead 4+                                      21-20-3, -1.0u 51.2% be 52.3% | Sep   8-4-2, +3.1u | Oct  13-7-1, +4.9u | Nov     0-9, -9.0u | last 3 wk    3-11, -8.1u
+Signal side spread, lead 4+, favorite                               4-7, -3.4u 36.4% be 52.1% | Sep     1-0, +0.9u | Oct     3-5, -2.3u | Nov     0-2, -2.0u | last 3 wk     2-3, -1.1u
+Signal side spread, lead 4+, underdog                            17-13-3, +2.4u 56.7% be 52.4% | Sep   7-4-2, +2.2u | Oct  10-2-1, +7.1u | Nov     0-7, -7.0u | last 3 wk     1-8, -7.0u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 4+, line 0 to 3                           5-6-2, -1.4u 45.5% be 52.5% | Sep   0-1-1, -1.0u | Oct   5-2-1, +2.6u | Nov     0-3, -3.0u | last 3 wk     2-4, -2.1u
+Signal side spread, lead 4+, line 3.5 to 6.5                       10-10, -0.9u 50.0% be 52.0% | Sep     6-2, +3.3u | Oct     4-4, -0.2u | Nov     0-4, -4.0u | last 3 wk     1-4, -3.0u
+Signal side spread, lead 4+, line 7 to 9.5                         4-2-1, +1.5u 66.7% be 53.0% | Sep   2-0-1, +1.8u | Oct     2-0, +1.7u | Nov     0-2, -2.0u | last 3 wk     0-2, -2.0u QUALIFIES  WARN last 3 wk negative
+Signal side spread, lead 4+, line 10+                                2-2, -0.2u 50.0% be 52.6% | Sep     0-1, -1.0u | Oct     2-1, +0.8u | Nov              - | last 3 wk     0-1, -1.0u
+
+## e. Totals
+Always over                                                        70-66, -1.9u 51.5% be 52.3% | Sep   23-25, -4.0u | Oct   33-26, +4.4u | Nov   14-15, -2.2u | last 3 wk   23-20, +1.0u
+Always under                                                      66-70, -10.1u 48.5% be 52.4% | Sep   25-23, -0.3u | Oct   26-33, -9.4u | Nov   15-14, -0.4u | last 3 wk   20-23, -4.9u
+Total score, lead 1+                                               65-65, -5.7u 50.0% be 52.3% | Sep   23-23, -2.0u | Oct   29-26, +0.5u | Nov   13-16, -4.2u | last 3 wk   18-24, -7.8u
+Total score, lead 2+                                               53-52, -3.7u 50.5% be 52.4% | Sep   19-16, +1.4u | Oct   24-23, -1.2u | Nov   10-13, -3.9u | last 3 wk   12-19, -8.2u
+Total score, lead 3+                                               45-35, +5.9u 56.2% be 52.4% | Sep   15-10, +3.6u | Oct   23-16, +4.9u | Nov     7-9, -2.6u | last 3 wk    9-15, -7.0u QUALIFIES  WARN last 3 wk negative
+Total: an_experts alone (Over)                                       3-5, -2.4u 37.5% be 53.1% | Sep     2-4, -2.3u | Oct     1-1, -0.1u | Nov              - | last 3 wk              -
+Total: an_experts alone (Under)                                    19-18, -0.9u 51.4% be 52.6% | Sep     8-9, -1.8u | Oct     7-6, +0.4u | Nov     4-3, +0.5u | last 3 wk     6-5, +0.3u
+Total: an_experts alone (either)                                   22-23, -3.3u 48.9% be 52.7% | Sep   10-13, -4.1u | Oct     8-7, +0.3u | Nov     4-3, +0.5u | last 3 wk     6-5, +0.3u
+Total: an_model alone (Over)                                        5-11, -6.4u 31.2% be 52.3% | Sep     0-3, -3.0u | Oct     3-5, -2.2u | Nov     2-3, -1.2u | last 3 wk     2-4, -2.2u
+Total: an_model alone (Under)                                      11-10, +0.1u 52.4% be 52.2% | Sep     0-3, -3.0u | Oct     6-5, +0.5u | Nov     5-2, +2.6u | last 3 wk     6-2, +3.5u QUALIFIES
+Total: an_model alone (either)                                     16-21, -6.3u 43.2% be 52.3% | Sep     0-6, -6.0u | Oct    9-10, -1.7u | Nov     7-5, +1.4u | last 3 wk     8-6, +1.3u
+Total: big_money alone (Over)                                      24-24, -2.3u 50.0% be 52.4% | Sep   12-10, +0.8u | Oct     9-7, +1.2u | Nov     3-7, -4.4u | last 3 wk    5-11, -6.6u
+Total: big_money alone (Under)                                      13-6, +6.1u 68.4% be 52.1% | Sep     4-3, +0.8u | Oct     5-2, +2.5u | Nov     4-1, +2.7u | last 3 wk     4-1, +2.7u QUALIFIES
+Total: big_money alone (either)                                    37-30, +3.7u 55.2% be 52.3% | Sep   16-13, +1.6u | Oct    14-9, +3.7u | Nov     7-8, -1.6u | last 3 wk    9-12, -3.9u QUALIFIES  WARN last 3 wk negative
+Total: div_under alone (Under)                                     20-22, -3.6u 47.6% be 52.4% | Sep     7-6, +0.5u | Oct    7-13, -6.6u | Nov     6-3, +2.5u | last 3 wk     7-7, -0.6u
+Total: div_under alone (either)                                    20-22, -3.6u 47.6% be 52.4% | Sep     7-6, +0.5u | Oct    7-13, -6.6u | Nov     6-3, +2.5u | last 3 wk     7-7, -0.6u
+Total: dome_over alone (Over)                                      19-19, -1.5u 50.0% be 52.0% | Sep     7-8, -1.6u | Oct    10-8, +1.2u | Nov     2-3, -1.1u | last 3 wk     5-6, -1.4u
+Total: dome_over alone (either)                                    19-19, -1.5u 50.0% be 52.0% | Sep     7-8, -1.6u | Oct    10-8, +1.2u | Nov     2-3, -1.1u | last 3 wk     5-6, -1.4u
+Total: expert_any alone (Over)                                       2-4, -2.2u 33.3% be 53.4% | Sep     0-1, -1.0u | Oct     2-2, -0.2u | Nov     0-1, -1.0u | last 3 wk     1-1, -0.2u
+Total: expert_any alone (Under)                                      4-5, -1.4u 44.4% be 52.7% | Sep     0-1, -1.0u | Oct     0-1, -1.0u | Nov     4-3, +0.6u | last 3 wk     4-3, +0.6u
+Total: expert_any alone (either)                                     6-9, -3.6u 40.0% be 53.0% | Sep     0-2, -2.0u | Oct     2-3, -1.2u | Nov     4-4, -0.4u | last 3 wk     5-4, +0.5u
+Total: fade_public alone (Over)                                     10-6, +3.0u 62.5% be 52.3% | Sep    10-5, +4.0u | Oct              - | Nov     0-1, -1.0u | last 3 wk     0-1, -1.0u QUALIFIES  WARN last 3 wk negative
+Total: fade_public alone (Under)                                   12-11, +0.1u 52.2% be 52.3% | Sep     1-0, +1.0u | Oct     9-8, +0.4u | Nov     2-3, -1.2u | last 3 wk     2-3, -1.2u
+Total: fade_public alone (either)                                  22-17, +3.2u 56.4% be 52.3% | Sep    11-5, +5.0u | Oct     9-8, +0.4u | Nov     2-4, -2.2u | last 3 wk     2-4, -2.2u QUALIFIES  WARN last 3 wk negative
+Total: money_vs_tickets alone (Over)                               17-21, -5.6u 44.7% be 52.4% | Sep   10-10, -1.0u | Oct     7-6, +0.4u | Nov     0-5, -5.0u | last 3 wk     2-8, -6.3u
+Total: money_vs_tickets alone (Under)                                9-3, +5.2u 75.0% be 52.3% | Sep     2-0, +1.9u | Oct     5-2, +2.5u | Nov     2-1, +0.8u | last 3 wk     2-1, +0.8u QUALIFIES
+Total: money_vs_tickets alone (either)                             26-24, -0.4u 52.0% be 52.4% | Sep   12-10, +0.9u | Oct    12-8, +3.0u | Nov     2-6, -4.2u | last 3 wk     4-9, -5.4u
+Total: moved_down alone (Under)                                    26-22, +1.7u 54.2% be 52.3% | Sep     4-5, -1.3u | Oct   15-10, +3.6u | Nov     7-7, -0.6u | last 3 wk    8-10, -2.8u QUALIFIES  WARN last 3 wk negative
+Total: moved_down alone (either)                                   26-22, +1.7u 54.2% be 52.3% | Sep     4-5, -1.3u | Oct   15-10, +3.6u | Nov     7-7, -0.6u | last 3 wk    8-10, -2.8u QUALIFIES  WARN last 3 wk negative
+Total: moved_up alone (Over)                                       12-11, -0.2u 52.2% be 52.7% | Sep     2-3, -1.3u | Oct     7-4, +2.4u | Nov     3-4, -1.3u | last 3 wk     5-6, -1.5u
+Total: moved_up alone (either)                                     12-11, -0.2u 52.2% be 52.7% | Sep     2-3, -1.3u | Oct     7-4, +2.4u | Nov     3-4, -1.3u | last 3 wk     5-6, -1.5u
+Total: pro_systems alone (Under)                                   14-10, +2.8u 58.3% be 52.4% | Sep     5-2, +2.6u | Oct     6-6, -0.5u | Nov     3-2, +0.7u | last 3 wk     4-3, +0.5u QUALIFIES
+Total: pro_systems alone (either)                                  14-10, +2.8u 58.3% be 52.4% | Sep     5-2, +2.6u | Oct     6-6, -0.5u | Nov     3-2, +0.7u | last 3 wk     4-3, +0.5u QUALIFIES
+Total: projection alone (Over)                                     36-33, -0.1u 52.2% be 52.4% | Sep   13-13, -1.2u | Oct   17-12, +3.6u | Nov     6-8, -2.6u | last 3 wk    11-8, +2.0u
+Total: projection alone (Under)                                    33-34, -4.3u 49.3% be 52.6% | Sep   12-10, +0.8u | Oct   14-16, -3.4u | Nov     7-8, -1.7u | last 3 wk   12-12, -1.3u
+Total: projection alone (either)                                   69-67, -4.4u 50.7% be 52.5% | Sep   25-23, -0.3u | Oct   31-28, +0.2u | Nov   13-16, -4.3u | last 3 wk   23-20, +0.8u
+Total: sharp_action alone (Over)                                   31-30, -1.8u 50.8% be 52.3% | Sep   17-17, -1.5u | Oct     9-8, +0.2u | Nov     5-5, -0.5u | last 3 wk     6-8, -2.7u
+Total: sharp_action alone (Under)                                  30-28, -0.6u 51.7% be 52.5% | Sep     5-3, +1.6u | Oct   16-16, -1.5u | Nov     9-9, -0.8u | last 3 wk   11-14, -4.1u
+Total: sharp_action alone (either)                                 61-58, -2.5u 51.3% be 52.4% | Sep   22-20, +0.1u | Oct   25-24, -1.3u | Nov   14-14, -1.3u | last 3 wk   17-22, -6.8u
+Total: tnf_under alone (Under)                                       4-5, -1.3u 44.4% be 52.3% | Sep     1-2, -1.0u | Oct     2-2, -0.2u | Nov     1-1, -0.1u | last 3 wk     1-2, -1.1u
+Total: tnf_under alone (either)                                      4-5, -1.3u 44.4% be 52.3% | Sep     1-2, -1.0u | Oct     2-2, -0.2u | Nov     1-1, -0.1u | last 3 wk     1-2, -1.1u
+Total: wind alone (Under)                                          15-11, +2.7u 57.7% be 52.5% | Sep     6-4, +1.4u | Oct     5-5, -0.4u | Nov     4-2, +1.7u | last 3 wk     4-2, +1.7u QUALIFIES
+Total: wind alone (either)                                         15-11, +2.7u 57.7% be 52.5% | Sep     6-4, +1.4u | Oct     5-5, -0.4u | Nov     4-2, +1.7u | last 3 wk     4-2, +1.7u QUALIFIES
+Money vs tickets or PRO on one side only                           30-25, +2.4u 54.5% be 52.4% | Sep    13-9, +2.8u | Oct    13-9, +2.9u | Nov     4-7, -3.3u | last 3 wk     5-9, -4.5u QUALIFIES  WARN last 3 wk negative
+Money vs tickets or PRO on one side only, nothing against          26-19, +4.8u 57.8% be 52.4% | Sep    12-7, +3.9u | Oct    11-9, +1.2u | Nov     3-3, -0.2u | last 3 wk     4-5, -1.4u QUALIFIES  WARN last 3 wk negative
+Money vs tickets on one side only                                  26-24, -0.4u 52.0% be 52.4% | Sep   12-10, +0.9u | Oct    12-8, +3.0u | Nov     2-6, -4.2u | last 3 wk     4-9, -5.4u
+Money vs tickets on one side only, nothing against                 22-16, +4.0u 57.9% be 52.5% | Sep    11-6, +3.9u | Oct     9-7, +1.2u | Nov     2-3, -1.2u | last 3 wk     4-6, -2.4u QUALIFIES  WARN last 3 wk negative
+PRO on one side only                                               14-10, +2.8u 58.3% be 52.4% | Sep     5-2, +2.6u | Oct     6-6, -0.5u | Nov     3-2, +0.7u | last 3 wk     4-3, +0.5u QUALIFIES
+PRO on one side only, nothing against                                8-7, +0.4u 53.3% be 52.2% | Sep     2-2, -0.1u | Oct     4-4, -0.3u | Nov     2-1, +0.8u | last 3 wk     2-1, +0.8u QUALIFIES
+PRO or big money on one side only                                  39-30, +5.6u 56.5% be 52.3% | Sep   16-11, +3.6u | Oct   15-10, +3.7u | Nov     8-9, -1.8u | last 3 wk    9-12, -3.9u QUALIFIES  WARN last 3 wk negative
+PRO or big money on one side only, nothing against                 32-21, +8.3u 60.4% be 52.3% | Sep    15-7, +6.7u | Oct    13-9, +2.9u | Nov     4-5, -1.3u | last 3 wk     5-7, -2.5u QUALIFIES  WARN last 3 wk negative
+
+## e2. Over totals with signals
+Over when the total score leans over by 1+                         33-32, -2.0u 50.8% be 52.2% | Sep   17-19, -3.6u | Oct    12-7, +4.0u | Nov     4-6, -2.4u | last 3 wk     7-9, -2.7u
+Over when the total score leans over by 2+                         25-26, -3.3u 49.0% be 52.3% | Sep   13-14, -2.2u | Oct     9-7, +1.2u | Nov     3-5, -2.3u | last 3 wk     4-8, -4.5u
+Over when the total score leans over by 3+                         19-15, +2.2u 55.9% be 52.5% | Sep    11-8, +1.9u | Oct     8-4, +3.3u | Nov     0-3, -3.0u | last 3 wk     1-6, -5.2u QUALIFIES  WARN last 3 wk negative
+Over with money vs tickets or PRO on the over only                 15-16, -2.5u 48.4% be 52.5% | Sep    10-7, +2.0u | Oct     5-4, +0.6u | Nov     0-5, -5.0u | last 3 wk     1-7, -6.2u
+Over with PRO or big money on the over only                        22-19, +0.8u 53.7% be 52.4% | Sep    12-7, +3.8u | Oct     7-5, +1.3u | Nov     3-7, -4.4u | last 3 wk    4-10, -6.5u QUALIFIES  WARN last 3 wk negative
+Over with sharp action on the over only                            31-30, -1.8u 50.8% be 52.3% | Sep   17-17, -1.5u | Oct     9-8, +0.2u | Nov     5-5, -0.5u | last 3 wk     6-8, -2.7u
+Over with dome on the over only                                    19-19, -1.5u 50.0% be 52.0% | Sep     7-8, -1.6u | Oct    10-8, +1.2u | Nov     2-3, -1.1u | last 3 wk     5-6, -1.4u
+Over with total moved up on the over only                          12-11, -0.2u 52.2% be 52.7% | Sep     2-3, -1.3u | Oct     7-4, +2.4u | Nov     3-4, -1.3u | last 3 wk     5-6, -1.5u
+
+## f. Every side signal on its own
+an_experts (spread)                                              48-48-3, -4.5u 50.0% be 52.5% | Sep 20-16-1, +2.1u | Oct 23-22-2, -1.2u | Nov    5-10, -5.4u | last 3 wk   11-14, -3.7u
+an_experts (ML -300 to +300)                                     37-40-1, -7.2u 48.1% be 49.5% | Sep   14-16, -3.1u | Oct 20-17-1, +1.0u | Nov     3-7, -5.1u | last 3 wk    10-9, -1.3u
+an_model (spread)                                               10-21-1, -12.0u 32.3% be 51.9% | Sep   3-8-1, -5.4u | Oct     5-8, -3.4u | Nov     2-5, -3.2u | last 3 wk     3-6, -3.2u
+an_model (ML -300 to +300)                                          8-18, -9.9u 30.8% be 44.8% | Sep     3-8, -4.9u | Oct     4-7, -2.5u | Nov     1-3, -2.5u | last 3 wk     2-4, -2.9u
+big_money (spread)                                               30-30-4, -2.7u 50.0% be 52.1% | Sep 13-15-2, -3.2u | Oct  14-9-2, +3.8u | Nov     3-6, -3.2u | last 3 wk     9-9, -0.4u
+big_money (ML -300 to +300)                                      27-23-1, +2.0u 54.0% be 49.6% | Sep   11-13, -1.4u | Oct  13-5-1, +6.1u | Nov     3-5, -2.8u | last 3 wk    10-6, +1.9u QUALIFIES
+bye (spread)                                                        10-4, +5.1u 71.4% be 52.6% | Sep              - | Oct     4-2, +1.7u | Nov     6-2, +3.4u | last 3 wk     8-4, +3.3u QUALIFIES
+bye (ML -300 to +300)                                                9-1, +4.9u 90.0% be 59.2% | Sep              - | Oct     4-0, +3.4u | Nov     5-1, +1.5u | last 3 wk     8-1, +4.3u QUALIFIES
+cold_opp (spread)                                                14-10-3, +2.7u 58.3% be 52.5% | Sep              - | Oct   7-8-3, -1.5u | Nov     7-2, +4.2u | last 3 wk     9-3, +5.2u QUALIFIES
+cold_opp (ML -300 to +300)                                          12-5, +1.8u 70.6% be 63.2% | Sep              - | Oct     7-4, +0.6u | Nov     5-1, +1.3u | last 3 wk     7-2, +1.3u QUALIFIES
+div_dog (spread)                                                   24-18, +4.2u 57.1% be 52.0% | Sep     8-5, +2.4u | Oct    15-5, +8.9u | Nov     1-8, -7.1u | last 3 wk    4-10, -6.3u QUALIFIES  WARN last 3 wk negative
+div_dog (ML -300 to +300)                                        16-20-1, +5.3u 44.4% be 39.1% | Sep     6-6, +3.9u | Oct  10-7-1, +8.4u | Nov     0-7, -7.0u | last 3 wk    2-10, -7.0u QUALIFIES  WARN last 3 wk negative
+expert_any (spread)                                              48-37-3, +6.7u 56.5% be 52.3% | Sep 17-12-2, +3.2u | Oct 21-15-1, +4.2u | Nov   10-10, -0.7u | last 3 wk   11-12, -1.7u QUALIFIES  WARN last 3 wk negative
+expert_any (ML -300 to +300)                                     39-27-1, +8.6u 59.1% be 52.4% | Sep    16-7, +7.7u | Oct 15-12-1, +0.5u | Nov     8-8, +0.4u | last 3 wk    10-8, +1.5u QUALIFIES
+expert_follow (spread)                                            24-12, +10.2u 66.7% be 51.9% | Sep     6-1, +4.5u | Oct    13-3, +9.1u | Nov     5-8, -3.3u | last 3 wk     6-8, -2.3u QUALIFIES  WARN last 3 wk negative
+expert_follow (ML -300 to +300)                                  17-13-1, +8.7u 56.7% be 44.1% | Sep     5-1, +7.0u | Oct   7-5-1, +2.9u | Nov     5-7, -1.1u | last 3 wk     6-7, -0.5u QUALIFIES  WARN last 3 wk negative
+fade_public (spread)                                             30-25-2, +2.0u 54.5% be 52.4% | Sep  14-6-1, +6.6u | Oct  12-8-1, +2.8u | Nov    4-11, -7.3u | last 3 wk    6-13, -7.5u QUALIFIES  WARN last 3 wk negative
+fade_public (ML -300 to +300)                                     11-29, -16.6u 27.5% be 42.7% | Sep     5-9, -4.3u | Oct     6-9, -1.4u | Nov   0-11, -11.0u | last 3 wk   2-13, -11.7u
+form (spread)                                                    29-30-3, -3.7u 49.2% be 52.6% | Sep              - | Oct 14-24-3, -11.2u | Nov    15-6, +7.5u | last 3 wk   19-11, +6.2u
+form (ML -300 to +300)                                           27-16-1, +0.5u 62.8% be 59.3% | Sep              - | Oct 13-14-1, -5.2u | Nov    14-2, +5.7u | last 3 wk    18-5, +5.1u QUALIFIES
+home_field (spread)                                             56-68-5, -17.0u 45.2% be 52.4% | Sep 24-20-2, +1.6u | Oct 18-34-3, -17.2u | Nov   14-14, -1.4u | last 3 wk   17-24, -8.5u
+home_field (ML -300 to +300)                                    47-51-1, -15.1u 48.0% be 52.9% | Sep   21-13, +2.5u | Oct 16-27-1, -12.0u | Nov   10-11, -5.6u | last 3 wk   14-18, -9.6u
+hot_streak (spread)                                                11-12, -2.0u 47.8% be 52.6% | Sep              - | Oct    5-10, -5.4u | Nov     6-2, +3.4u | last 3 wk     7-6, +0.3u
+hot_streak (ML -300 to +300)                                        10-8, -1.5u 55.6% be 56.2% | Sep              - | Oct     3-7, -4.3u | Nov     7-1, +2.8u | last 3 wk     7-5, -1.2u
+intl_fav (spread)                                                  3-3-1, -0.4u 50.0% be 54.1% | Sep   0-1-1, -1.0u | Oct     2-2, -0.3u | Nov     1-0, +0.8u | last 3 wk     2-0, +1.7u
+intl_fav (ML -300 to +300)                                           4-2, +0.2u 66.7% be 64.2% | Sep     1-1, -0.4u | Oct     2-1, +0.0u | Nov     1-0, +0.6u | last 3 wk     2-0, +1.2u QUALIFIES
+line_move (spread)                                              32-41-3, -11.6u 43.8% be 52.1% | Sep  7-11-1, -4.5u | Oct 20-20-2, -1.7u | Nov    5-10, -5.4u | last 3 wk   10-15, -5.7u
+line_move (ML -300 to +300)                                      26-29-1, -4.9u 47.3% be 52.2% | Sep     5-8, -1.5u | Oct 15-16-1, -4.4u | Nov     6-5, +1.0u | last 3 wk    11-9, +0.7u
+money_vs_tickets (spread)                                        17-24-4, -8.6u 41.5% be 52.1% | Sep 11-14-3, -4.0u | Oct   5-7-1, -2.5u | Nov     1-3, -2.1u | last 3 wk     3-5, -2.2u
+money_vs_tickets (ML -300 to +300)                               16-19-1, -5.2u 45.7% be 49.4% | Sep   10-12, -1.5u | Oct   5-4-1, -1.1u | Nov     1-3, -2.6u | last 3 wk     4-3, -1.0u
+pr_fade (spread)                                                 50-42-4, +4.3u 54.3% be 51.9% | Sep 15-12-2, +1.6u | Oct 27-14-2, +11.2u | Nov    8-16, -8.5u | last 3 wk   15-18, -3.8u QUALIFIES  WARN last 3 wk negative
+pr_fade (ML -300 to +300)                                        29-46-1, -6.5u 38.7% be 40.9% | Sep    8-15, -1.8u | Oct 16-18-1, +2.4u | Nov    5-13, -7.1u | last 3 wk   10-16, -4.7u
+pro_systems (spread)                                             20-15-1, +3.0u 57.1% be 52.3% | Sep     9-5, +3.1u | Oct   8-5-1, +2.1u | Nov     3-5, -2.3u | last 3 wk     3-6, -3.3u QUALIFIES  WARN last 3 wk negative
+pro_systems (ML -300 to +300)                                     9-17-1, -1.2u 34.6% be 37.6% | Sep     6-5, +4.6u | Oct   2-6-1, -0.9u | Nov     1-6, -4.9u | last 3 wk     1-7, -5.9u
+projection (spread)                                              65-65-6, -6.0u 50.0% be 52.5% | Sep 21-24-3, -5.1u | Oct 29-27-3, -0.6u | Nov   15-14, -0.3u | last 3 wk   21-22, -2.8u
+projection (ML -300 to +300)                                     58-47-1, +3.9u 55.2% be 51.8% | Sep   20-17, +0.3u | Oct 26-21-1, +5.0u | Nov    12-9, -1.3u | last 3 wk   18-15, -3.2u QUALIFIES  WARN last 3 wk negative
+qb_change (spread)                                               19-23-3, -5.9u 45.2% be 52.5% | Sep  6-14-1, -8.8u | Oct   9-8-2, +0.5u | Nov     4-1, +2.4u | last 3 wk     5-3, +1.4u
+qb_change (ML -300 to +300)                                        19-16, -2.3u 54.3% be 56.6% | Sep    5-10, -7.6u | Oct    11-6, +3.7u | Nov     3-0, +1.5u | last 3 wk     4-1, +1.2u
+rest_edge (spread)                                                11-5-2, +4.9u 68.8% be 52.5% | Sep   5-0-1, +4.3u | Oct   4-3-1, +0.6u | Nov     2-2, +0.0u | last 3 wk     4-2, +1.8u QUALIFIES
+rest_edge (ML -300 to +300)                                         10-4, +3.5u 71.4% be 56.1% | Sep     3-0, +1.2u | Oct     5-3, +0.3u | Nov     2-1, +2.0u | last 3 wk     4-1, +3.0u QUALIFIES
+rlm (spread)                                                     14-11-1, +2.1u 56.0% be 51.8% | Sep   2-1-1, +0.8u | Oct    11-6, +4.3u | Nov     1-4, -3.0u | last 3 wk     4-6, -2.2u QUALIFIES  WARN last 3 wk negative
+rlm (ML -300 to +300)                                            10-11-1, +0.3u 47.6% be 45.1% | Sep     1-2, +0.0u | Oct   7-7-1, -0.9u | Nov     2-2, +1.1u | last 3 wk     5-3, +2.5u QUALIFIES
+sharp_action (spread)                                            48-52-5, -8.8u 48.0% be 52.7% | Sep 19-15-3, +2.0u | Oct 20-25-2, -6.7u | Nov    9-12, -4.1u | last 3 wk   13-20, -8.3u
+sharp_action (ML -300 to +300)                                  39-42-1, -11.1u 48.1% be 52.8% | Sep   14-14, -2.4u | Oct 16-22-1, -7.4u | Nov     9-6, -1.2u | last 3 wk   13-12, -3.8u
+tnf_home (spread)                                                    5-3, +1.8u 62.5% be 51.2% | Sep     1-1, -0.0u | Oct     3-1, +1.9u | Nov     1-1, -0.1u | last 3 wk     2-1, +0.8u QUALIFIES
+tnf_home (ML -300 to +300)                                           5-1, +3.1u 83.3% be 59.3% | Sep     1-1, -0.6u | Oct     3-0, +3.2u | Nov     1-0, +0.5u | last 3 wk     2-0, +1.2u QUALIFIES
+track_record (spread)                                            20-23-1, -4.8u 46.5% be 52.4% | Sep   4-9-1, -5.6u | Oct    8-10, -2.5u | Nov     8-4, +3.3u | last 3 wk    11-5, +5.2u
+track_record (ML -300 to +300)                                      16-8, +0.9u 66.7% be 61.9% | Sep     4-2, -0.3u | Oct     8-3, +1.7u | Nov     4-3, -0.5u | last 3 wk     7-3, +1.1u QUALIFIES
+travel (spread)                                                  13-10-1, +1.9u 56.5% be 52.3% | Sep   6-1-1, +4.3u | Oct     7-4, +2.6u | Nov     0-5, -5.0u | last 3 wk     2-5, -3.1u QUALIFIES  WARN last 3 wk negative
+travel (ML -300 to +300)                                            8-11, -5.2u 42.1% be 51.5% | Sep     4-1, +1.2u | Oct     4-5, -1.4u | Nov     0-5, -5.0u | last 3 wk     2-5, -3.1u

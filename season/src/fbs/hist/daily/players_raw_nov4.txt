@@ -1,0 +1,41 @@
+Sacramento State|Isaiah Ene|rush|44/1,22/0,18/0,36/0,21/0,46/0,59/0,57/0,107/2
+Sacramento State|Matt Coleman|rush|-5/0
+Sacramento State|Onterrio Smith Jr.|rec|86/0,20/0,66/0,37/1,31/0,37/0,37/0,36/0,40/0
+Sacramento State|Matt Coleman|rec|44/0,141/3,47/0,95/0,42/0,85/1,19/0,19/1,0/0
+Sacramento State|Raiden Brown|rec|43/0,4/0,11/0,30/0,61/0,13/0,20/0,36/0
+Eastern Michigan|Amareon Blue|rush|55/0,81/1,40/0,9/0,58/1,66/1,6/0,23/0,67/0
+Eastern Michigan|Braydon Bennett|rush|27/1,20/0,56/0,17/0,33/0,42/1,50/0,13/0,22/0
+Eastern Michigan|Joey Mattord|rush|8/0,10/0,3/0,36/0,48/0,54/1,73/0,9/0,24/0
+Eastern Michigan|Benson Prosper|rec|81/0,30/0,109/1,31/0,50/0,39/0,6/0
+Eastern Michigan|Nick Devereaux|rec|73/1,24/0,8/0,38/1,28/0
+Eastern Michigan|Joshua Long|rec|44/0,34/0,4/0,14/0,35/0,37/1,114/0,84/1,17/0
+Eastern Michigan|Amareon Blue|rec|22/0,12/0,3/0,9/0
+Eastern Michigan|Harold Mack|rec|14/0,72/1,49/0,80/1,49/0,36/1,37/1,30/0
+Eastern Michigan|Joey Mattord|rec|-1/0,19/0,5/0,10/0,22/0,24/0,29/0,55/1
+Massachusetts|Elijah Faulkner|rush|62/0,72/0,61/0,32/0,19/0,31/0,84/1,15/0
+Massachusetts|Elijah Faulkner|rec|23/2,15/0,15/0,9/0
+Toledo|John Alan Richter|pass|196/2,252/3,429/4,284/3,201/1,203/0,288/1,391/3
+Toledo|John Alan Richter|rush|-19/0,1/0,12/0,2/0,4/0,-5/1
+Toledo|Adjatay Dabbs|rec|101/2,34/1,88/0,62/1,82/0,35/0,66/1,124/2
+Toledo|Bryson Hammer|rec|49/0,37/0,67/0,133/2,12/0,69/0,107/0
+Toledo|Daryl Barnett Jr.|rec|28/0,20/0,47/1,35/0,34/1,28/0,7/0,41/1
+Ball State|Keldric Luster|pass|89/0,256/3,93/0,224/2,209/1,195/1,234/2
+Ball State|Keldric Luster|rush|10/0,14/0,42/0,-12/0,10/0,125/1,68/1
+Ball State|TJ Horton|rush|4/0,125/1,79/2,3/0,90/1,10/1,81/2,33/2
+Ball State|Jamarion McDougle|rec|16/0,52/0,9/0,58/0,28/1,38/0,63/1
+Ball State|Donovan Hamilton|rec|11/0,40/0,19/0,80/1,70/0,53/0,37/0
+Ball State|TJ Horton|rec|6/0,-4/0,10/0,-2/0,12/0,-5/0
+Sacramento State|Jackson Sharman|pass|247/4,150/0,238/1,221/0,145/1,69/0,187/2,117/0
+Sacramento State|Jackson Sharman|rush|1/0,-8/0,5/0,-24/0,0/0,-5/0,-19/0,-8/0
+Sacramento State|Isaiah Ene|rec|17/0,8/0,23/0,12/0,14/0,10/0
+Central Michigan|Jadyn Glasser|pass|16/0,8/0,88/0,71/1,42/0,17/0,221/1
+Central Michigan|Vaughn Blue|rush|25/0,27/1,55/0,29/0,10/0,16/0,25/0
+Central Michigan|Jayden Clerveaux|rush|18/0,25/0,81/0,13/0,82/1,20/1,32/0
+Central Michigan|Jadyn Glasser|rush|-2/0,0/0,-13/0,14/0,19/0,2/1,-13/0
+Central Michigan|Jayden Clerveaux|rec|1/0,8/0,8/0
+Central Michigan|Vaughn Blue|rec|-1/0,29/0,1/0
+Eastern Michigan|Braydon Bennett|rec|22/0,27/0,28/0,15/0
+Eastern Michigan|Benson Prosper|rush|-6/0,3/0
+Sacramento State|Raiden Brown|rush|24/0,-10/0
+Ball State|Jamarion McDougle|rush|3/0,12/0
+Eastern Michigan|Harold Mack|rush|7/0,2/0

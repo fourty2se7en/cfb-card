@@ -1,0 +1,206 @@
+
+## a. Favourite moneyline by price band
+Fav ML shorter than -500, every favourite                        4-2      66.7%   -1.4u be 87.2% | Sep 4-0 100.0%  +0.6u | Oct 0-2  0.0%  -2.0u 
+Fav ML shorter than -500, signals agree                           0 picks
+Fav ML -500 to -301, every favourite                            14-7      66.7%   -3.1u be 78.9% | Sep 7-6 53.8%  -4.1u | Oct 7-1 87.5%  +0.9u 
+Fav ML -500 to -301, signals agree                               3-2      60.0%   -1.2u be 80.1% | Sep 1-1 50.0%  -0.7u | Oct 2-1 66.7%  -0.5u 
+Fav ML -300 to -201, every favourite                            16-6      72.7%   +0.7u be 70.2% | Sep 11-4 73.3%  +0.5u | Oct 5-2 71.4%  +0.2u QUALIFIES
+Fav ML -300 to -201, signals agree                               6-0      100.0%   +2.5u be 70.5% | Sep 3-0 100.0%  +1.2u | Oct 3-0 100.0%  +1.3u QUALIFIES
+Fav ML -200 to -100, every favourite                            34-23 -1  59.6%   -0.1u be 60.0% | Sep 19-13 59.4%  -0.3u | Oct 15-10 60.0%  +0.1u 
+Fav ML -200 to -100, signals agree                              12-6  -1  66.7%   +2.4u be 60.1% | Sep 4-4 50.0%  -1.3u | Oct 8-2 80.0%  +3.6u QUALIFIES
+Fav ML -200 to -100, signal lead 1                               1-3      25.0%   -2.3u be 60.8% | Sep 1-3 25.0%  -2.3u | Oct 0-0   - %  +0.0u 
+Fav ML -200 to -100, signal lead 2                               6-0      100.0%   +4.4u be 57.9% | Sep 2-0 100.0%  +1.5u | Oct 4-0 100.0%  +2.9u QUALIFIES
+Fav ML -200 to -100, signal lead 3+                              5-3  -1  62.5%   +0.3u be 61.4% | Sep 1-1 50.0%  -0.4u | Oct 4-2 66.7%  +0.7u QUALIFIES
+
+## b. Underdog moneyline from +100
+Dog ML +100 to +150, every underdog                             19-26 -1  42.2%   -1.9u be 43.8% | Sep 10-14 41.7%  -1.7u | Oct 9-12 42.9%  -0.2u 
+Dog ML +100 to +150, signals on the dog                          7-15     31.8%   -6.2u be 43.7% | Sep 4-10 28.6%  -5.1u | Oct 3-5 37.5%  -1.1u 
+Dog ML +100 to +150, signals on the dog + reason                 6-8      42.9%   -0.2u be 43.8% | Sep 3-5 37.5%  -1.1u | Oct 3-3 50.0%  +0.9u 
+Dog ML +151 to +200, every underdog                              7-15     31.8%   -2.7u be 36.0% | Sep 6-9 40.0%  +1.6u | Oct 1-6 14.3%  -4.3u 
+Dog ML +151 to +200, signals on the dog                          5-7      41.7%   +1.8u be 36.1% | Sep 4-5 44.4%  +2.1u | Oct 1-2 33.3%  -0.3u QUALIFIES
+Dog ML +151 to +200, signals on the dog + reason                 5-6      45.5%   +2.8u be 35.9% | Sep 4-4 50.0%  +3.1u | Oct 1-2 33.3%  -0.3u QUALIFIES
+Dog ML +201 to +300, every underdog                              3-13     18.8%   -5.4u be 28.1% | Sep 2-9 18.2%  -3.8u | Oct 1-4 20.0%  -1.6u 
+Dog ML +201 to +300, signals on the dog                          3-9      25.0%   -1.4u be 28.3% | Sep 2-6 25.0%  -0.8u | Oct 1-3 25.0%  -0.6u 
+Dog ML +201 to +300, signals on the dog + reason                 3-9      25.0%   -1.4u be 28.3% | Sep 2-6 25.0%  -0.8u | Oct 1-3 25.0%  -0.6u 
+Dog ML +301 to +500, every underdog                              6-7      46.2%  +14.0u be 22.4% | Sep 4-4 50.0%  +9.4u | Oct 2-3 40.0%  +4.6u QUALIFIES
+Dog ML +301 to +500, signals on the dog                          3-5      37.5%   +5.3u be 22.3% | Sep 2-3 40.0%  +3.5u | Oct 1-2 33.3%  +1.8u QUALIFIES
+Dog ML +301 to +500, signals on the dog + reason                 3-5      37.5%   +5.3u be 22.3% | Sep 2-3 40.0%  +3.5u | Oct 1-2 33.3%  +1.8u QUALIFIES
+Dog ML +501 and up, every underdog                               1-2      33.3%   +4.0u be 14.6% | Sep 0-2  0.0%  -2.0u | Oct 1-0 100.0%  +6.0u 
+Dog ML +501 and up, signals on the dog                           1-2      33.3%   +4.0u be 14.6% | Sep 0-2  0.0%  -2.0u | Oct 1-0 100.0%  +6.0u 
+Dog ML +501 and up, signals on the dog + reason                  1-2      33.3%   +4.0u be 14.6% | Sep 0-2  0.0%  -2.0u | Oct 1-0 100.0%  +6.0u 
+Dog ML +100 to +200, every underdog                             26-41 -1  38.8%   -4.7u be 41.2% | Sep 16-23 41.0%  -0.1u | Oct 10-18 35.7%  -4.5u 
+Dog ML +100 to +200, signals on the dog                         12-22     35.3%   -4.5u be 41.0% | Sep 8-15 34.8%  -3.0u | Oct 4-7 36.4%  -1.4u 
+Dog ML +100 to +200, signals on the dog + reason                11-14     44.0%   +2.5u be 40.3% | Sep 7-9 43.8%  +2.0u | Oct 4-5 44.4%  +0.6u QUALIFIES
+Dog ML +100 to +300, every underdog                             29-54 -1  34.9%  -10.0u be 38.7% | Sep 18-32 36.0%  -3.9u | Oct 11-22 33.3%  -6.1u 
+Dog ML +100 to +300, signals on the dog                         15-31     32.6%   -5.8u be 37.7% | Sep 10-21 32.3%  -3.8u | Oct 5-10 33.3%  -2.0u 
+Dog ML +100 to +300, signals on the dog + reason                14-23     37.8%   +1.2u be 36.4% | Sep 9-15 37.5%  +1.2u | Oct 5-8 38.5%  -0.0u QUALIFIES
+Dog ML +100 and up, every underdog                              36-63 -1  36.4%   +7.9u be 35.8% | Sep 22-38 36.7%  +3.5u | Oct 14-25 35.9%  +4.4u QUALIFIES
+Dog ML +100 and up, signals on the dog                          19-38     33.3%   +3.4u be 34.3% | Sep 12-26 31.6%  -2.3u | Oct 7-12 36.8%  +5.8u 
+Dog ML +100 and up, signals on the dog + reason                 18-30     37.5%  +10.4u be 32.7% | Sep 11-20 35.5%  +2.7u | Oct 7-10 41.2%  +7.8u QUALIFIES
+
+## c. Underdog spread, signals on the dog
+Dog spread, signals on the dog                                  31-25 -5  55.4%   +3.3u be 52.2% | Sep 20-17 54.1%  +1.2u | Oct 11-8 57.9%  +2.1u QUALIFIES
+  ... with an_experts                                           18-13 -3  58.1%   +3.2u be 52.5% | Sep 10-9 52.6%  -0.1u | Oct 8-4 66.7%  +3.3u QUALIFIES
+  ... with an_model                                              2-6  -1  25.0%   -4.3u be 52.1% | Sep 1-5 16.7%  -4.2u | Oct 1-1 50.0%  -0.2u 
+  ... with big_money                                            13-13 -2  50.0%   -1.3u be 52.2% | Sep 10-11 47.6%  -2.1u | Oct 3-2 60.0%  +0.8u 
+  ... with bye                                                   1-0      100.0%   +1.0u be 50.0% | Sep 0-0   - %  +0.0u | Oct 1-0 100.0%  +1.0u 
+  ... with div_dog                                              16-6      72.7%   +8.9u be 51.6% | Sep 10-3 76.9%  +6.3u | Oct 6-3 66.7%  +2.6u QUALIFIES
+  ... with expert_any                                           12-2      85.7%   +8.8u be 52.6% | Sep 7-1 87.5%  +5.3u | Oct 5-1 83.3%  +3.5u QUALIFIES
+  ... with expert_follow                                        12-1      92.3%   +9.8u be 52.6% | Sep 7-0 100.0%  +6.3u | Oct 5-1 83.3%  +3.5u QUALIFIES
+  ... with fade_public                                          16-11 -2  59.3%   +3.2u be 52.7% | Sep 11-6 64.7%  +3.8u | Oct 5-5 50.0%  -0.6u QUALIFIES
+  ... with form                                                  0-0  -1   nan%   +0.0u be  nan% | Sep 0-0  nan%  +0.0u | Oct 0-0   - %  +0.0u 
+  ... with home_field                                            9-14 -2  39.1%   -5.7u be 52.0% | Sep 5-8 38.5%  -3.4u | Oct 4-6 40.0%  -2.3u 
+  ... with line_move                                            10-4  -1  71.4%   +5.3u be 51.7% | Sep 5-3 62.5%  +1.7u | Oct 5-1 83.3%  +3.6u QUALIFIES
+  ... with money_vs_tickets                                      9-11 -2  45.0%   -3.0u be 52.2% | Sep 9-10 47.4%  -2.0u | Oct 0-1  0.0%  -1.0u 
+  ... with pr_fade                                              26-16 -3  61.9%   +7.7u be 52.2% | Sep 16-11 59.3%  +3.5u | Oct 10-5 66.7%  +4.2u QUALIFIES
+  ... with pro_systems                                          13-7  -1  65.0%   +4.8u be 52.4% | Sep 9-6 60.0%  +2.2u | Oct 4-1 80.0%  +2.6u QUALIFIES
+  ... with projection                                            9-10 -3  47.4%   -1.9u be 52.4% | Sep 6-6 50.0%  -0.5u | Oct 3-4 42.9%  -1.4u 
+  ... with qb_change                                             2-5  -1  28.6%   -3.2u be 52.2% | Sep 1-5 16.7%  -4.1u | Oct 1-0 100.0%  +1.0u 
+  ... with rest_edge                                             1-1      50.0%   -0.2u be 53.7% | Sep 1-0 100.0%  +0.8u | Oct 0-1  0.0%  -1.0u 
+  ... with rlm                                                   8-3  -1  72.7%   +4.5u be 51.7% | Sep 3-2 60.0%  +0.8u | Oct 5-1 83.3%  +3.6u QUALIFIES
+  ... with sharp_action                                         16-11 -4  59.3%   +3.6u be 52.2% | Sep 11-6 64.7%  +4.0u | Oct 5-5 50.0%  -0.4u QUALIFIES
+  ... with tnf_home                                              1-0      100.0%   +1.0u be 50.0% | Sep 1-0 100.0%  +1.0u | Oct 0-0   - %  +0.0u 
+  ... with track_record                                          0-1       0.0%   -1.0u be 52.8% | Sep 0-0   - %  +0.0u | Oct 0-1  0.0%  -1.0u 
+  ... with travel                                                3-1      75.0%   +1.9u be 50.8% | Sep 1-1 50.0%  +0.0u | Oct 2-0 100.0%  +1.9u 
+Dog spread, signals on the dog + a tested reason                29-18 -3  61.7%   +8.6u be 52.1% | Sep 19-12 61.3%  +5.3u | Oct 10-6 62.5%  +3.2u QUALIFIES
+
+## d. Spread on the signal side
+Signal side spread, lead 1                                       6-14     30.0%   -8.6u be 52.5% | Sep 4-9 30.8%  -5.4u | Oct 2-5 28.6%  -3.1u 
+Signal side spread, lead 2                                      11-8  -1  57.9%   +2.3u be 51.8% | Sep 4-6 40.0%  -2.3u | Oct 7-2 77.8%  +4.6u QUALIFIES
+Signal side spread, lead 3                                       9-5  -2  64.3%   +3.3u be 52.4% | Sep 7-3 70.0%  +3.5u | Oct 2-2 50.0%  -0.3u QUALIFIES
+Signal side spread, lead 4                                       5-3  -3  62.5%   +1.5u be 52.1% | Sep 3-1 75.0%  +1.7u | Oct 2-2 50.0%  -0.2u QUALIFIES
+Signal side spread, lead 5                                       7-4      63.6%   +2.4u be 52.3% | Sep 1-2 33.3%  -1.1u | Oct 6-2 75.0%  +3.5u QUALIFIES
+Signal side spread, lead 6+                                      9-4      69.2%   +4.1u be 52.1% | Sep 7-2 77.8%  +4.3u | Oct 2-2 50.0%  -0.2u QUALIFIES
+Signal side spread, lead 1+                                     47-38 -6  55.3%   +5.0u be 52.2% | Sep 26-23 53.1%  +0.5u | Oct 21-15 58.3%  +4.4u QUALIFIES
+Signal side spread, lead 1+, favourite                          16-13 -1  55.2%   +1.7u be 52.2% | Sep 6-6 50.0%  -0.6u | Oct 10-7 58.8%  +2.4u QUALIFIES
+Signal side spread, lead 1+, underdog                           31-25 -5  55.4%   +3.3u be 52.2% | Sep 20-17 54.1%  +1.2u | Oct 11-8 57.9%  +2.1u QUALIFIES
+Signal side spread, lead 1+, line 0 to 3                        18-17 -3  51.4%   -0.4u be 52.2% | Sep 7-12 36.8%  -5.7u | Oct 11-5 68.8%  +5.3u 
+Signal side spread, lead 1+, line 3.5 to 6.5                    19-13     59.4%   +4.5u be 51.8% | Sep 13-6 68.4%  +6.0u | Oct 6-7 46.2%  -1.4u QUALIFIES
+Signal side spread, lead 1+, line 7 to 9.5                       7-5  -3  58.3%   +1.1u be 53.3% | Sep 4-3 57.1%  +0.6u | Oct 3-2 60.0%  +0.6u QUALIFIES
+Signal side spread, lead 1+, line 10+                            3-3      50.0%   -0.3u be 52.3% | Sep 2-2 50.0%  -0.2u | Oct 1-1 50.0%  -0.0u 
+Signal side spread, lead 2+                                     41-24 -6  63.1%  +13.6u be 52.1% | Sep 22-14 61.1%  +6.0u | Oct 19-10 65.5%  +7.6u QUALIFIES
+Signal side spread, lead 2+, favourite                          12-7  -1  63.2%   +4.1u be 51.9% | Sep 4-2 66.7%  +1.6u | Oct 8-5 61.5%  +2.5u QUALIFIES
+Signal side spread, lead 2+, underdog                           29-17 -5  63.0%   +9.4u be 52.2% | Sep 18-12 60.0%  +4.4u | Oct 11-5 68.8%  +5.1u QUALIFIES
+Signal side spread, lead 2+, line 0 to 3                        17-10 -3  63.0%   +5.7u be 52.1% | Sep 6-7 46.2%  -1.6u | Oct 11-3 78.6%  +7.3u QUALIFIES
+Signal side spread, lead 2+, line 3.5 to 6.5                    15-8      65.2%   +5.9u be 51.5% | Sep 11-4 73.3%  +6.2u | Oct 4-4 50.0%  -0.3u QUALIFIES
+Signal side spread, lead 2+, line 7 to 9.5                       7-3  -3  70.0%   +3.1u be 53.3% | Sep 4-1 80.0%  +2.6u | Oct 3-2 60.0%  +0.6u QUALIFIES
+Signal side spread, lead 2+, line 10+                            2-3      40.0%   -1.2u be 52.3% | Sep 1-2 33.3%  -1.1u | Oct 1-1 50.0%  -0.0u 
+Signal side spread, lead 3+                                     30-16 -5  65.2%  +11.2u be 52.2% | Sep 18-8 69.2%  +8.3u | Oct 12-8 60.0%  +2.9u QUALIFIES
+Signal side spread, lead 3+, favourite                           6-5  -1  54.5%   +0.5u be 51.7% | Sep 2-1 66.7%  +0.8u | Oct 4-4 50.0%  -0.4u QUALIFIES
+Signal side spread, lead 3+, underdog                           24-11 -4  68.6%  +10.8u be 52.4% | Sep 16-7 69.6%  +7.5u | Oct 8-4 66.7%  +3.3u QUALIFIES
+Signal side spread, lead 3+, line 0 to 3                         9-6  -3  60.0%   +2.2u be 52.4% | Sep 4-4 50.0%  -0.4u | Oct 5-2 71.4%  +2.6u QUALIFIES
+Signal side spread, lead 3+, line 3.5 to 6.5                    13-7      65.0%   +5.0u be 51.6% | Sep 10-3 76.9%  +6.2u | Oct 3-4 42.9%  -1.2u QUALIFIES
+Signal side spread, lead 3+, line 7 to 9.5                       6-1  -2  85.7%   +4.2u be 53.4% | Sep 3-0 100.0%  +2.6u | Oct 3-1 75.0%  +1.6u QUALIFIES
+Signal side spread, lead 3+, line 10+                            2-2      50.0%   -0.2u be 52.6% | Sep 1-1 50.0%  -0.1u | Oct 1-1 50.0%  -0.0u 
+Signal side spread, lead 4+                                     21-11 -3  65.6%   +8.0u be 52.2% | Sep 11-5 68.8%  +4.8u | Oct 10-6 62.5%  +3.2u QUALIFIES
+Signal side spread, lead 4+, favourite                           4-5      44.4%   -1.4u be 51.6% | Sep 1-1 50.0%  -0.1u | Oct 3-4 42.9%  -1.3u 
+Signal side spread, lead 4+, underdog                           17-6  -3  73.9%   +9.4u be 52.4% | Sep 10-4 71.4%  +4.9u | Oct 7-2 77.8%  +4.4u QUALIFIES
+Signal side spread, lead 4+, line 0 to 3                         5-3  -2  62.5%   +1.6u be 52.3% | Sep 1-2 33.3%  -1.2u | Oct 4-1 80.0%  +2.7u QUALIFIES
+Signal side spread, lead 4+, line 3.5 to 6.5                    10-6      62.5%   +3.1u be 51.7% | Sep 7-2 77.8%  +4.3u | Oct 3-4 42.9%  -1.2u QUALIFIES
+Signal side spread, lead 4+, line 7 to 9.5                       4-0  -1  100.0%   +3.5u be 53.3% | Sep 2-0 100.0%  +1.8u | Oct 2-0 100.0%  +1.7u QUALIFIES
+Signal side spread, lead 4+, line 10+                            2-2      50.0%   -0.2u be 52.6% | Sep 1-1 50.0%  -0.1u | Oct 1-1 50.0%  -0.0u 
+
+## e. Totals
+Always over                                                     56-51     52.3%   +0.3u be 52.3% | Sep 32-32 50.0%  -2.8u | Oct 24-19 55.8%  +3.2u QUALIFIES
+Always under                                                    51-56     47.7%   -9.7u be 52.5% | Sep 32-32 50.0%  -3.0u | Oct 19-24 44.2%  -6.7u 
+Total score, lead 1+                                            53-49     52.0%   -0.5u be 52.2% | Sep 31-30 50.8%  -1.7u | Oct 22-19 53.7%  +1.1u 
+Total score, lead 2+                                            43-40     51.8%   -0.8u be 52.3% | Sep 27-23 54.0%  +1.7u | Oct 16-17 48.5%  -2.5u 
+Total score, lead 3+                                            38-26     59.4%   +8.5u be 52.4% | Sep 23-13 63.9%  +7.9u | Oct 15-13 53.6%  +0.6u QUALIFIES
+Total: an_experts alone (Over)                                   3-5      37.5%   -2.4u be 53.1% | Sep 2-4 33.3%  -2.3u | Oct 1-1 50.0%  -0.1u 
+Total: an_experts alone (Under)                                 15-15     50.0%   -1.4u be 52.6% | Sep 9-11 45.0%  -2.9u | Oct 6-4 60.0%  +1.5u 
+Total: an_experts alone (either)                                18-20     47.4%   -3.8u be 52.7% | Sep 11-15 42.3%  -5.2u | Oct 7-5 58.3%  +1.4u 
+Total: an_model alone (Over)                                     3-8      27.3%   -5.2u be 52.0% | Sep 0-4  0.0%  -4.0u | Oct 3-4 42.9%  -1.2u 
+Total: an_model alone (Under)                                    6-8      42.9%   -2.5u be 52.4% | Sep 2-6 25.0%  -4.2u | Oct 4-2 66.7%  +1.7u 
+Total: an_model alone (either)                                   9-16     36.0%   -7.7u be 52.2% | Sep 2-10 16.7%  -8.2u | Oct 7-6 53.8%  +0.5u 
+Total: big_money alone (Over)                                   21-17     55.3%   +2.0u be 52.3% | Sep 15-11 57.7%  +2.6u | Oct 6-6 50.0%  -0.5u QUALIFIES
+Total: big_money alone (Under)                                   9-5      64.3%   +3.3u be 52.1% | Sep 6-3 66.7%  +2.6u | Oct 3-2 60.0%  +0.7u QUALIFIES
+Total: big_money alone (either)                                 30-22     57.7%   +5.4u be 52.3% | Sep 21-14 60.0%  +5.2u | Oct 9-8 52.9%  +0.2u QUALIFIES
+Total: div_under alone (Under)                                  14-19     42.4%   -6.1u be 52.4% | Sep 7-10 41.2%  -3.5u | Oct 7-9 43.8%  -2.6u 
+Total: div_under alone (either)                                 14-19     42.4%   -6.1u be 52.4% | Sep 7-10 41.2%  -3.5u | Oct 7-9 43.8%  -2.6u 
+Total: dome_over alone (Over)                                   17-16     51.5%   -0.4u be 52.1% | Sep 10-9 52.6%  +0.2u | Oct 7-7 50.0%  -0.5u 
+Total: dome_over alone (either)                                 17-16     51.5%   -0.4u be 52.1% | Sep 10-9 52.6%  +0.2u | Oct 7-7 50.0%  -0.5u 
+Total: expert_any alone (Over)                                   2-3      40.0%   -1.2u be 53.1% | Sep 0-1  0.0%  -1.0u | Oct 2-2 50.0%  -0.2u 
+Total: expert_any alone (Under)                                  0-2       0.0%   -2.0u be 52.4% | Sep 0-1  0.0%  -1.0u | Oct 0-1  0.0%  -1.0u 
+Total: expert_any alone (either)                                 2-5      28.6%   -3.2u be 52.9% | Sep 0-2  0.0%  -2.0u | Oct 2-3 40.0%  -1.2u 
+Total: fade_public alone (Over)                                 10-5      66.7%   +4.0u be 52.4% | Sep 10-5 66.7%  +4.0u | Oct 0-0   - %  +0.0u QUALIFIES
+Total: fade_public alone (Under)                                10-8      55.6%   +1.3u be 52.3% | Sep 1-0 100.0%  +1.0u | Oct 9-8 52.9%  +0.4u QUALIFIES
+Total: fade_public alone (either)                               20-13     60.6%   +5.3u be 52.3% | Sep 11-5 68.8%  +5.0u | Oct 9-8 52.9%  +0.4u QUALIFIES
+Total: money_vs_tickets alone (Over)                            17-16     51.5%   -0.6u be 52.3% | Sep 12-11 52.2%  -0.2u | Oct 5-5 50.0%  -0.4u 
+Total: money_vs_tickets alone (Under)                            7-2      77.8%   +4.4u be 52.2% | Sep 4-0 100.0%  +3.7u | Oct 3-2 60.0%  +0.7u QUALIFIES
+Total: money_vs_tickets alone (either)                          24-18     57.1%   +3.8u be 52.3% | Sep 16-11 59.3%  +3.5u | Oct 8-7 53.3%  +0.3u QUALIFIES
+Total: moved_down alone (Under)                                 19-15     55.9%   +2.3u be 52.3% | Sep 8-8 50.0%  -0.7u | Oct 11-7 61.1%  +3.0u QUALIFIES
+Total: moved_down alone (either)                                19-15     55.9%   +2.3u be 52.3% | Sep 8-8 50.0%  -0.7u | Oct 11-7 61.1%  +3.0u QUALIFIES
+Total: moved_up alone (Over)                                     9-7      56.2%   +1.1u be 52.5% | Sep 4-4 50.0%  -0.4u | Oct 5-3 62.5%  +1.5u QUALIFIES
+Total: moved_up alone (either)                                   9-7      56.2%   +1.1u be 52.5% | Sep 4-4 50.0%  -0.4u | Oct 5-3 62.5%  +1.5u QUALIFIES
+Total: pro_systems alone (Under)                                11-8      57.9%   +2.1u be 52.3% | Sep 5-4 55.6%  +0.6u | Oct 6-4 60.0%  +1.5u QUALIFIES
+Total: pro_systems alone (either)                               11-8      57.9%   +2.1u be 52.3% | Sep 5-4 55.6%  +0.6u | Oct 6-4 60.0%  +1.5u QUALIFIES
+Total: projection alone (Over)                                  30-25     54.5%   +2.4u be 52.4% | Sep 16-18 47.1%  -3.5u | Oct 14-7 66.7%  +5.9u QUALIFIES
+Total: projection alone (Under)                                 26-26     50.0%   -2.6u be 52.6% | Sep 14-16 46.7%  -3.4u | Oct 12-10 54.5%  +0.8u 
+Total: projection alone (either)                                56-51     52.3%   -0.1u be 52.5% | Sep 30-34 46.9%  -6.8u | Oct 26-17 60.5%  +6.7u 
+Total: sharp_action alone (Over)                                26-25     51.0%   -1.3u be 52.3% | Sep 21-20 51.2%  -0.8u | Oct 5-5 50.0%  -0.5u 
+Total: sharp_action alone (Under)                               21-19     52.5%   +0.2u be 52.5% | Sep 9-5 64.3%  +3.3u | Oct 12-14 46.2%  -3.1u QUALIFIES
+Total: sharp_action alone (either)                              47-44     51.6%   -1.2u be 52.3% | Sep 30-25 54.5%  +2.4u | Oct 17-19 47.2%  -3.6u 
+Total: tnf_under alone (Under)                                   3-4      42.9%   -1.2u be 51.9% | Sep 1-3 25.0%  -2.0u | Oct 2-1 66.7%  +0.8u 
+Total: tnf_under alone (either)                                  3-4      42.9%   -1.2u be 51.9% | Sep 1-3 25.0%  -2.0u | Oct 2-1 66.7%  +0.8u 
+Total: wind alone (Under)                                        6-6      50.0%   -0.6u be 52.6% | Sep 6-6 50.0%  -0.6u | Oct 0-0   - %  +0.0u 
+Total: wind alone (either)                                       6-6      50.0%   -0.6u be 52.6% | Sep 6-6 50.0%  -0.6u | Oct 0-0   - %  +0.0u 
+Money vs tickets or PRO on one side only                        26-18     59.1%   +5.7u be 52.3% | Sep 17-12 58.6%  +3.5u | Oct 9-6 60.0%  +2.2u QUALIFIES
+Money vs tickets or PRO on one side only, nothing against       23-16     59.0%   +5.0u be 52.3% | Sep 15-10 60.0%  +3.6u | Oct 8-6 57.1%  +1.4u QUALIFIES
+Money vs tickets on one side only                               24-18     57.1%   +3.8u be 52.3% | Sep 16-11 59.3%  +3.5u | Oct 8-7 53.3%  +0.3u QUALIFIES
+Money vs tickets on one side only, nothing against              21-13     61.8%   +6.1u be 52.3% | Sep 14-7 66.7%  +5.7u | Oct 7-6 53.8%  +0.4u QUALIFIES
+PRO on one side only                                            11-8      57.9%   +2.1u be 52.3% | Sep 5-4 55.6%  +0.6u | Oct 6-4 60.0%  +1.5u QUALIFIES
+PRO on one side only, nothing against                            6-6      50.0%   -0.4u be 52.2% | Sep 2-4 33.3%  -2.1u | Oct 4-2 66.7%  +1.7u 
+PRO or big money on one side only                               31-21     59.6%   +7.3u be 52.3% | Sep 21-14 60.0%  +5.2u | Oct 10-7 58.8%  +2.1u QUALIFIES
+PRO or big money on one side only, nothing against              28-16     63.6%   +9.6u be 52.3% | Sep 19-10 65.5%  +7.4u | Oct 9-6 60.0%  +2.3u QUALIFIES
+
+## f. Every side signal on its own
+an_experts (spread)                                             43-38 -3  53.1%   +0.9u be 52.5% | Sep 25-23 52.1%  -0.7u | Oct 18-15 54.5%  +1.6u QUALIFIES
+an_experts (ML -300 to +300)                                    34-33 -1  50.7%   -2.1u be 50.4% | Sep 19-22 46.3%  -5.6u | Oct 15-11 57.7%  +3.5u 
+an_model (spread)                                                8-16 -1  33.3%   -8.8u be 52.0% | Sep 5-12 29.4%  -7.7u | Oct 3-4 42.9%  -1.2u 
+an_model (ML -300 to +300)                                       7-15     31.8%   -7.4u be 44.7% | Sep 5-11 31.2%  -4.9u | Oct 2-4 33.3%  -2.5u 
+big_money (spread)                                              27-24 -4  52.9%   +0.6u be 52.1% | Sep 18-17 51.4%  -0.9u | Oct 9-7 56.2%  +1.5u QUALIFIES
+big_money (ML -300 to +300)                                     24-18 -1  57.1%   +4.7u be 50.0% | Sep 15-15 50.0%  +1.0u | Oct 9-3 75.0%  +3.7u QUALIFIES
+bye (spread)                                                     4-2      66.7%   +1.7u be 52.5% | Sep 0-0   - %  +0.0u | Oct 4-2 66.7%  +1.7u QUALIFIES
+bye (ML -300 to +300)                                            4-0      100.0%   +3.4u be 56.8% | Sep 0-0   - %  +0.0u | Oct 4-0 100.0%  +3.4u 
+cold_opp (spread)                                                7-8  -3  46.7%   -1.5u be 52.4% | Sep 1-2 33.3%  -1.1u | Oct 6-6 50.0%  -0.4u 
+cold_opp (ML -300 to +300)                                       7-4      63.6%   +0.6u be 61.2% | Sep 2-0 100.0%  +1.9u | Oct 5-4 55.6%  -1.4u QUALIFIES
+div_dog (spread)                                                23-10     69.7%  +11.3u be 51.9% | Sep 12-5 70.6%  +6.2u | Oct 11-5 68.8%  +5.2u QUALIFIES
+div_dog (ML -300 to +300)                                       16-13 -1  55.2%  +12.3u be 38.9% | Sep 9-7 56.2%  +7.9u | Oct 7-6 53.8%  +4.4u QUALIFIES
+expert_any (spread)                                             38-27 -3  58.5%   +7.4u be 52.4% | Sep 22-18 55.0%  +1.6u | Oct 16-9 64.0%  +5.7u QUALIFIES
+expert_any (ML -300 to +300)                                    31-19 -1  62.0%   +8.2u be 54.3% | Sep 19-13 59.4%  +3.8u | Oct 12-6 66.7%  +4.4u QUALIFIES
+expert_follow (spread)                                          19-4      82.6%  +13.5u be 52.0% | Sep 9-2 81.8%  +6.2u | Oct 10-2 83.3%  +7.4u QUALIFIES
+expert_follow (ML -300 to +300)                                 12-6  -1  66.7%   +9.8u be 45.1% | Sep 6-3 66.7%  +5.9u | Oct 6-3 66.7%  +3.9u QUALIFIES
+fade_public (spread)                                            26-14 -2  65.0%   +9.4u be 52.4% | Sep 17-7 70.8%  +8.3u | Oct 9-7 56.2%  +1.1u QUALIFIES
+fade_public (ML -300 to +300)                                   11-18     37.9%   -5.6u be 44.3% | Sep 6-10 37.5%  -2.5u | Oct 5-8 38.5%  -3.1u 
+form (spread)                                                   14-24 -3  36.8%  -11.2u be 52.5% | Sep 4-4 50.0%  -0.3u | Oct 10-20 33.3% -10.9u 
+form (ML -300 to +300)                                          13-14 -1  48.1%   -5.2u be 56.3% | Sep 4-2 66.7%  +1.6u | Oct 9-12 42.9%  -6.9u 
+home_field (spread)                                             42-54 -5  43.8%  -15.6u be 52.3% | Sep 30-27 52.6%  +0.2u | Oct 12-27 30.8% -15.8u 
+home_field (ML -300 to +300)                                    37-40 -1  48.1%   -9.5u be 52.7% | Sep 26-19 57.8%  +1.9u | Oct 11-21 34.4% -11.5u 
+hot_streak (spread)                                              5-10     33.3%   -5.4u be 52.6% | Sep 1-2 33.3%  -1.0u | Oct 4-8 33.3%  -4.3u 
+hot_streak (ML -300 to +300)                                     3-7      30.0%   -4.3u be 51.2% | Sep 1-0 100.0%  +0.6u | Oct 2-7 22.2%  -4.9u 
+intl_fav (spread)                                                2-3  -1  40.0%   -1.3u be 54.0% | Sep 1-1 50.0%  -0.2u | Oct 1-2 33.3%  -1.1u 
+intl_fav (ML -300 to +300)                                       3-2      60.0%   -0.4u be 64.2% | Sep 2-1 66.7%  +0.0u | Oct 1-1 50.0%  -0.4u 
+line_move (spread)                                              27-31 -3  46.6%   -6.2u be 52.1% | Sep 10-16 38.5%  -6.8u | Oct 17-15 53.1%  +0.7u 
+line_move (ML -300 to +300)                                     20-24 -1  45.5%   -5.9u be 52.2% | Sep 8-11 42.1%  -2.4u | Oct 12-13 48.0%  -3.6u 
+money_vs_tickets (spread)                                       16-21 -4  43.2%   -6.4u be 52.1% | Sep 13-15 46.4%  -3.3u | Oct 3-6 33.3%  -3.2u 
+money_vs_tickets (ML -300 to +300)                              15-16 -1  48.4%   -2.6u be 49.8% | Sep 11-14 44.0%  -2.6u | Oct 4-2 66.7%  -0.0u 
+pr_fade (spread)                                                42-26 -4  61.8%  +12.8u be 51.9% | Sep 21-15 58.3%  +4.0u | Oct 21-11 65.6%  +8.8u QUALIFIES
+pr_fade (ML -300 to +300)                                       24-33 -1  42.1%   +0.6u be 41.1% | Sep 11-20 35.5%  -1.3u | Oct 13-13 50.0%  +1.9u QUALIFIES
+pro_systems (spread)                                            17-10 -1  63.0%   +5.3u be 52.6% | Sep 11-6 64.7%  +3.9u | Oct 6-4 60.0%  +1.3u QUALIFIES
+pro_systems (ML -300 to +300)                                    8-11 -1  42.1%   +3.7u be 37.4% | Sep 7-7 50.0%  +5.3u | Oct 1-4 20.0%  -1.6u QUALIFIES
+projection (spread)                                             50-51 -6  49.5%   -5.7u be 52.5% | Sep 31-28 52.5%  -0.0u | Oct 19-23 45.2%  -5.7u 
+projection (ML -300 to +300)                                    46-38 -1  54.8%   +5.2u be 51.3% | Sep 30-21 58.8%  +7.9u | Oct 16-17 48.5%  -2.7u QUALIFIES
+qb_change (spread)                                              15-22 -3  40.5%   -8.3u be 52.4% | Sep 6-19 24.0% -13.8u | Oct 9-3 75.0%  +5.5u 
+qb_change (ML -300 to +300)                                     16-16     50.0%   -3.8u be 55.6% | Sep 7-15 31.8% -11.5u | Oct 9-1 90.0%  +7.7u 
+rest_edge (spread)                                               9-3  -2  75.0%   +4.9u be 52.8% | Sep 6-0 100.0%  +5.1u | Oct 3-3 50.0%  -0.2u QUALIFIES
+rest_edge (ML -300 to +300)                                      8-3      72.7%   +1.5u be 60.2% | Sep 5-0 100.0%  +2.8u | Oct 3-3 50.0%  -1.3u QUALIFIES
+rlm (spread)                                                    13-7  -1  65.0%   +5.2u be 51.6% | Sep 3-2 60.0%  +0.8u | Oct 10-5 66.7%  +4.3u QUALIFIES
+rlm (ML -300 to +300)                                            8-9  -1  47.1%   -0.9u be 43.9% | Sep 1-4 20.0%  -2.0u | Oct 7-5 58.3%  +1.1u 
+sharp_action (spread)                                           39-40 -5  49.4%   -4.7u be 52.6% | Sep 24-21 53.3%  +0.5u | Oct 15-19 44.1%  -5.3u 
+sharp_action (ML -300 to +300)                                  30-36 -1  45.5%   -9.9u be 51.9% | Sep 17-21 44.7%  -6.7u | Oct 13-15 46.4%  -3.2u 
+tnf_home (spread)                                                4-2      66.7%   +1.9u be 51.3% | Sep 2-1 66.7%  +1.0u | Oct 2-1 66.7%  +0.9u QUALIFIES
+tnf_home (ML -300 to +300)                                       4-1      80.0%   +2.6u be 58.1% | Sep 2-1 66.7%  +0.7u | Oct 2-0 100.0%  +1.9u QUALIFIES
+track_record (spread)                                           12-19 -1  38.7%   -8.1u be 52.4% | Sep 6-12 33.3%  -6.7u | Oct 6-7 46.2%  -1.4u 
+track_record (ML -300 to +300)                                  12-5      70.6%   +1.5u be 64.5% | Sep 6-4 60.0%  -0.5u | Oct 6-1 85.7%  +2.0u QUALIFIES
+travel (spread)                                                 13-5  -1  72.2%   +6.9u be 52.0% | Sep 8-2 80.0%  +5.2u | Oct 5-3 62.5%  +1.7u QUALIFIES
+travel (ML -300 to +300)                                         8-6      57.1%   -0.2u be 53.4% | Sep 5-3 62.5%  +0.3u | Oct 3-3 50.0%  -0.6u 

@@ -1,0 +1,229 @@
+{
+ "_about": "texas222 1H lines read Wed Nov 11 ~1:25 PM Phoenix (preview run); quarters and 2H not posted yet.",
+ "games": {
+  "WAS@NYG": {
+   "1H": {
+    "spread": {
+     "away": "+½ -120",
+     "home": "-½ +100"
+    },
+    "total": {
+     "over": "20½ -105",
+     "under": "20½ -115"
+    },
+    "moneyline": {
+     "away": "+100",
+     "home": "-120"
+    }
+   }
+  },
+  "NE@DET": {
+   "1H": {
+    "spread": {
+     "away": "+½ -105",
+     "home": "-½ -115"
+    },
+    "total": {
+     "over": "26½ -110",
+     "under": "26½ -110"
+    },
+    "moneyline": {
+     "away": "+120",
+     "home": "-140"
+    }
+   }
+  },
+  "BUF@NYJ": {
+   "1H": {
+    "spread": {
+     "away": "-6 -110",
+     "home": "+6 -110"
+    },
+    "total": {
+     "over": "26½ -105",
+     "under": "26½ -115"
+    },
+    "moneyline": {
+     "away": "-295",
+     "home": "+235"
+    }
+   }
+  },
+  "JAX@TEN": {
+   "1H": {
+    "spread": {
+     "away": "-6½ -120",
+     "home": "+6½ +100"
+    },
+    "total": {
+     "over": "23½ -110",
+     "under": "23½ -110"
+    },
+    "moneyline": {
+     "away": "-375",
+     "home": "+290"
+    }
+   }
+  },
+  "MIA@IND": {
+   "1H": {
+    "spread": {
+     "away": "+2½ -105",
+     "home": "-2½ -115"
+    },
+    "total": {
+     "over": "19½ -115",
+     "under": "19½ -105"
+    },
+    "moneyline": {
+     "away": "+145",
+     "home": "-165"
+    }
+   }
+  },
+  "KC@ATL": {
+   "1H": {
+    "spread": {
+     "away": "-2½ -115",
+     "home": "+2½ -105"
+    },
+    "total": {
+     "over": "23 -110",
+     "under": "23 -110"
+    },
+    "moneyline": {
+     "away": "-155",
+     "home": "+135"
+    }
+   }
+  },
+  "HOU@CLE": {
+   "1H": {
+    "spread": {
+     "away": "-3 -115",
+     "home": "+3 -105"
+    },
+    "total": {
+     "over": "20 -105",
+     "under": "20 -115"
+    },
+    "moneyline": {
+     "away": "-185",
+     "home": "+155"
+    }
+   }
+  },
+  "CAR@NO": {
+   "1H": {
+    "spread": {
+     "away": "+½ -115",
+     "home": "-½ -105"
+    },
+    "total": {
+     "over": "24 -110",
+     "under": "24 -110"
+    },
+    "moneyline": {
+     "away": "+105",
+     "home": "-125"
+    }
+   }
+  },
+  "MIN@GB": {
+   "1H": {
+    "spread": {
+     "away": "+1½ -110",
+     "home": "-1½ -110"
+    },
+    "total": {
+     "over": "20½ -110",
+     "under": "20½ -110"
+    },
+    "moneyline": {
+     "away": "+125",
+     "home": "-145"
+    }
+   }
+  },
+  "SEA@LV": {
+   "1H": {
+    "spread": {
+     "away": "-3½ -110",
+     "home": "+3½ -110"
+    },
+    "total": {
+     "over": "20½ +100",
+     "under": "20½ -120"
+    },
+    "moneyline": {
+     "away": "-230",
+     "home": "+185"
+    }
+   }
+  },
+  "LA@ARI": {
+   "1H": {
+    "spread": {
+     "away": "-4½ -115",
+     "home": "+4½ -105"
+    },
+    "total": {
+     "over": "19½ -120",
+     "under": "19½ +100"
+    },
+    "moneyline": {
+     "away": "-305",
+     "home": "+240"
+    }
+   }
+  },
+  "SF@DAL": {
+   "1H": {
+    "spread": {
+     "away": "-3 -115",
+     "home": "+3 -105"
+    },
+    "total": {
+     "over": "27½ -115",
+     "under": "27½ -105"
+    },
+    "moneyline": {
+     "away": "-170",
+     "home": "+145"
+    }
+   }
+  },
+  "PIT@CIN": {
+   "1H": {
+    "spread": {
+     "away": "+2½ -110",
+     "home": "-2½ -110"
+    },
+    "total": {
+     "over": "24 -115",
+     "under": "24 -105"
+    },
+    "moneyline": {
+     "away": "+135",
+     "home": "-155"
+    }
+   }
+  },
+  "LAC@BAL": {
+   "1H": {
+    "spread": {
+     "away": "+3 -115",
+     "home": "-3 -105"
+    },
+    "total": {
+     "over": "19½ -115",
+     "under": "19½ -105"
+    },
+    "moneyline": {
+     "away": "+155",
+     "home": "-180"
+    }
+   }
+  }
+ }
+}

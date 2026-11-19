@@ -1,0 +1,56 @@
+401918685|16:00|WOF|GASO|24|27|0|||3-1,2-0,1-1|1-2,1-0,0-2|Wofford Terriers|Georgia Southern Eagles
+401917186|16:00|RID|YALE|13|12|0|||1-1,0-0,1-1|3-0,2-0,1-0|Rider Broncs|Yale Bulldogs
+401923416|17:00|MVSU|TNST|26|20|0|||0-4,0-0,0-4|1-2,1-0,0-2|Mississippi Valley State Devilettes|Tennessee State Lady Tigers
+401918857|17:00|MSST|BUF|23|14|0|||3-0,2-0,1-0|2-1,2-0,0-1|Mississippi State Bulldogs|Buffalo Bulls
+401913747|17:00|CHSO|PITT|6|2|0|||0-3,0-0,0-3|3-0,3-0,0-0|Charleston Southern Buccaneers|Pittsburgh Panthers
+401909672|17:00|CTON|WIN||6|0||||2-1,2-0,0-1|Clinton Golden Bears|Winthrop Eagles
+401906034|17:00|PROV|BC|4|2|0|||1-2,1-2,0-0|1-2,1-1,0-1|Providence Friars|Boston College Eagles
+401918433|18:00|TAR|TEX|30|23|0||6|2-1,2-0,0-1|3-0,3-0,0-0|Tarleton State Texans|Texas Longhorns
+401923183|18:00|DEP|ND|4|2|1||13|4-0,4-0,0-0|3-0,2-0,0-0|DePaul Blue Demons|Notre Dame Fighting Irish
+401929175|18:00|CCSU|MASS|19|14|0|||0-4,0-2,0-2|1-2,0-1,1-1|Central Connecticut Blue Devils|Massachusetts Minutewomen
+401927096|18:00|UPST|UNCG|6|24|0|||3-1,2-0,1-1|3-1,2-0,1-1|South Carolina Upstate Spartans|UNC Greensboro Spartans
+401920025|18:00|AF|NAVY|44|22|0|||2-1,2-1,0-0|1-2,0-0,1-2|Air Force Falcons|Navy Midshipmen
+401918808|18:00|UND|DETM|47|45|0|||1-2,1-1,0-1|2-2,1-0,1-2|North Dakota Fighting Hawks|Detroit Mercy Titans
+401916195|18:00|SAC|NIA|9|13|0|||3-1,1-0,2-1|0-4,0-2,0-2|Sacramento State Hornets|Niagara Purple Eagles
+401915765|18:00|DUQ|KENT|3|14|0|||2-1,2-0,0-1|0-2,0-1,0-1|Duquesne Dukes|Kent State Golden Flashes
+401913788|18:00|NJIT|DART|1|12|0|||4-0,2-0,2-0|2-1,2-0,0-1|NJIT Highlanders|Dartmouth Big Green
+401912980|18:00|UGA|OHIO|23|14|0|||4-0,4-0,0-0|2-0,2-0,0-0|Georgia Lady Bulldogs|Ohio Bobcats
+401911768|18:30|BING|SBU|1|3|0|||2-2,0-0,2-2|2-0,2-0,0-0|Binghamton Bearcats|St. Bonaventure Bonnies
+401906983|19:00|MINN|KSU|7|8|1|18||3-0,2-0,1-0|4-0,4-0,0-0|Minnesota Golden Gophers|Kansas State Wildcats
+401929011|19:00|FUR|CAM|24|10|0|||2-2,2-0,0-2|0-4,0-2,0-2|Furman Paladins|Campbell Fighting Camels
+401928015|19:00|ERKA|SIUE||20|0||||3-1,3-0,0-1|Eureka Red Devils|SIU Edwardsville Cougars
+401926101|19:00|WRNR|JAX||46|0||||1-2,0-0,1-2|Warner Royals|Jacksonville Dolphins
+401926033|19:00|FAU|FGCU|62|46|0|||2-2,2-0,0-1|2-1,2-0,0-1|Florida Atlantic Owls|Florida Gulf Coast Eagles
+401920337|19:00|SCST|HPU|16|6|0|||1-2,1-2,0-0|4-0,2-0,2-0|South Carolina State Lady Bulldogs|High Point Panthers
+401919693|19:00|ILST|SLU|18|3|0|||4-0,3-0,1-0|2-1,2-0,0-1|Illinois State Redbirds|Saint Louis Billikens
+401919681|19:00|EVAN|EIU|18|20|0|||0-3,0-0,0-3|0-4,0-0,0-4|Evansville Purple Aces|Eastern Illinois Panthers
+401918888|19:00|WIS|GB|7|45|0|||4-0,4-0,0-0|1-2,1-0,0-2|Wisconsin Badgers|Green Bay Phoenix
+401918519|19:00|UNF|CARK|46|30|0|||3-1,2-0,1-1|2-1,1-0,1-1|North Florida Ospreys|Central Arkansas Sugar Bears
+401916213|19:00|BU|QUIN|22|13|0|||1-2,1-1,0-1|1-3,1-1,0-2|Boston University Terriers|Quinnipiac Bobcats
+401916164|19:00|BUCK|MSM|22|13|0|||0-3,0-1,0-2|0-4,0-2,0-2|Bucknell Bison|Mount St. Mary's Mountaineers
+401915776|19:00|URI|SJU|3|4|0|||2-2,0-0,1-1|3-0,3-0,0-0|Rhode Island Rams|St. John's Red Storm
+401911756|19:00|MILW|LUC|45|3|0|||1-3,1-0,0-3|2-1,2-0,0-1|Milwaukee Panthers|Loyola Chicago Ramblers
+401911494|19:00|QUC|GWEB|46|6|0|||1-2,1-0,0-2|1-1,0-1,1-0|Queens University Royals|Gardner-Webb Runnin' Bulldogs
+401928281|20:00|NAU|FRES|5|21|0|||0-2,0-1,0-1|2-1,2-0,0-1|Northern Arizona Lumberjacks|Fresno State Bulldogs
+401926995|20:00|SHSU|UNCO|11|5|0|||2-1,2-0,0-1|2-1,2-0,0-1|Sam Houston Bearkats|Northern Colorado Bears
+401925803|20:00|UIW|UNT|25|62|0|||1-2,0-0,1-2|2-1,2-0,0-1|Incarnate Word Cardinals|North Texas Mean Green
+401923476|20:00|YSU|COLO|45|8|0|||2-1,2-0,0-1|3-0,2-0,1-0|Youngstown State Penguins|Colorado Buffaloes
+401923002|20:00|HCU|WEB|25|5|0|||1-3,1-1,0-2|2-0,2-0,0-0|Houston Christian Huskies|Weber State Wildcats
+401921079|20:00|NCCU|GMU|16|3|0|||2-3,2-0,0-3|2-2,2-0,0-2|North Carolina Central Eagles|George Mason Patriots
+401918610|20:00|ALST|UTEP|26|44|0|||1-2,1-0,0-2|2-1,2-1,0-0|Alabama State Lady Hornets|UTEP Miners
+401916153|20:00|UNM|BYU|44|8|0|||1-2,1-1,0-1|4-0,4-0,0-0|New Mexico Lobos|BYU Cougars
+401913875|20:00|UCR|WICH|9|62|0|||1-2,1-0,0-2|0-3,0-1,0-2|UC Riverside Highlanders|Wichita State Shockers
+401906066|20:00|CAL|UCSB|2|9|0|||4-0,3-0,0-0|3-0,2-0,1-0|California Golden Bears|UC Santa Barbara Gauchos
+401923332|20:30|LSUS|UTA||30|0||||1-2,1-1,0-1|LSU Shreveport Pilots|UT Arlington Mavericks
+401918725|20:30|STMN|ARMY|47|22|0|||2-1,2-0,0-1|3-0,2-0,1-0|St. Thomas Tommies|Army Black Knights
+401906091|21:00|UNC|PENN|2|12|0|23||1-2,1-0,0-0|4-0,2-0,2-0|North Carolina Tar Heels|Pennsylvania Quakers
+401920267|21:00|NEV|UVU|44|9|0|||1-2,1-1,0-1|1-1,1-1,0-0|Nevada Wolf Pack|Utah Valley Wolverines
+401906965|21:30|NEB|KU|7|8|1|25||3-0,3-0,0-0|3-0,3-0,0-0|Nebraska Cornhuskers|Kansas Jayhawks
+401919943|22:00|AKR|MERC|14|19|0|||0-3,0-1,0-2|1-3,1-0,0-3|Akron Zips|Mercyhurst Lakers
+401919667|22:00|BRAD|BELL|18|46|0|||1-2,1-0,0-2|1-3,1-0,0-3|Bradley Braves|Bellarmine Knights
+401917702|22:00|CSUN|USD|9|29|0|||1-1,1-0,0-1|2-1,1-0,1-0|Cal State Northridge Matadors|San Diego Toreros
+401913666|22:30|LIU|GW|19|3|0|||0-4,0-0,0-4|2-1,2-0,0-1|Long Island University Sharks|George Washington Revolutionaries
+401919647|23:00|NORF|HAMP|16|10|0|||1-3,1-3,0-0|1-2,1-0,0-2|Norfolk State Spartans|Hampton Lady Pirates
+401918715|23:00|NU|APP|7|27|1|||1-3,1-1,0-1|3-0,1-0,2-0|Northwestern Wildcats|App State Mountaineers
+401913776|00:00|COLG|UNH|22|1|0|||1-1,1-1,0-0|2-2,1-1,1-1|Colgate Raiders|New Hampshire Wildcats
+401917703|01:00|LBSU|PORT|9|29|0|||0-2,0-1,0-1|2-2,2-0,0-2|Long Beach State Beach|Portland Pilots

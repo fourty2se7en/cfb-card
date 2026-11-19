@@ -1,0 +1,56 @@
+{
+ "fbs": {
+  "games_played": 562,
+  "rules": {
+   "dog_spread": {
+    "on": false,
+    "season": "76-55-1 +14.16u",
+    "nov": "7-10 -3.63u",
+    "n": 132
+   },
+   "one_sided": {
+    "on": false,
+    "season": "81-61 +12.71u",
+    "nov": "12-15 -4.08u",
+    "n": 142
+   },
+   "dog_ml": {
+    "on": true,
+    "season": "23-20 +16.21u",
+    "nov": "4-6 +0.90u",
+    "n": 43
+   },
+   "fav_ml": {
+    "on": false,
+    "season": "52-24 +11.67u",
+    "nov": "6-5 -0.50u",
+    "n": 76
+   },
+   "strong_spread": {
+    "on": true,
+    "season": "56-39-2 +11.96u",
+    "nov": "6-5 +0.46u",
+    "n": 97
+   }
+  },
+  "docs": 490
+ },
+ "fcs": {
+  "games_played": 527,
+  "rules": {
+   "fcs_dog_ml": {
+    "on": false,
+    "season": "33-49 -1.87u",
+    "nov": "1-9 -7.10u",
+    "n": 82
+   },
+   "fcs_dog_spread": {
+    "on": false,
+    "season": "97-67-2 +21.27u",
+    "nov": "5-12 -7.45u",
+    "n": 166
+   }
+  },
+  "docs": 248
+ }
+}

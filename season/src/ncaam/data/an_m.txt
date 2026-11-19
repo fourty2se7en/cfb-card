@@ -1,0 +1,38 @@
+Quinnipiac|Central Conn|-4.5||||
+Colgate|Delaware|+1.5||||
+Harvard|American U|+1.5||||
+Louisville|Memphis|-6.5|58%|42%|48%|52%
+Niagara|Iowa State|+38.5|61%|39%|41%|59%
+Boise State|Nebraska|+7.5|57%|43%|23%|77%
+Dartmouth|Boston U|+2.5||||
+Norfolk State|Georgia State|+11.5||||
+New Hampshire|Boston Col|+23.5|75%|25%|98%|2%
+Princeton|Rhode Island|+7.5||||
+CS Bakersfield|NDSU|+5.5||||
+Washington|Utah|+2.5||||
+Albany|Holy Cross|-2.5||||
+William & Mary|Michigan|+29.5|56%|44%|65%|35%
+SC State|Charleston|+16.5||||
+Temple|La Salle|+1.5||||
+Missouri|Marquette|-1.5||||
+Texas|Baylor|-4.5|69%|31%|55%|45%
+Creighton|Iowa|+3.5||||
+High Point|Saint Louis|+6.5||||
+IPFW|E. Illinois|-3.5||||
+Cleveland St|Alabama A&M|+3.5||||
+Mercyhurst|JMU|+15.5||||
+Chicago St|Loyola Marymount|+15.5||||
+Idaho State|Seattle|+15.5|68%|32%|48%|52%
+N. Mexico St|San Diego State|+11.5||||
+Air Force|Pacific|+11.5||||
+W. Michigan|Southern Indiana|-6.5||||
+New Haven|Penn State|+23.5||||
+Pepperdine|Oregon|+16.5|45%|55%|67%|33%
+Canisius|Buffalo|+15.5||||
+Cal Poly|Montana St|+7.5||||
+AR-Pine Bluff|USC|+41.5|55%|45%|37%|63%
+Syracuse|St. John's|+10.5|64%|36%|63%|37%
+Coastal Car|Wisconsin|+29.5||||
+Florida A&M|UTEP|+19.5||||
+Texas St|UTSA|-5.5||||
+Alabama St|San Jose St|+10.5||||

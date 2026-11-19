@@ -1,0 +1,11 @@
+# Nov 10, 2026 ~3:05 PM Phoenix. MAC posts no availability report (getsomemaction.com, none found); RotoBaller CFB news showed no items for these six teams.
+# texas222 player props posted today (source props); ESPN box score usage in qb_usage.txt.
+Western Michigan|Broc Lowry|QB|AVAILABLE|props|2026-11-10
+Akron|Cibastian Broughton|QB|AVAILABLE|props|2026-11-10
+Akron|Brayden Roggow|QB|QUESTIONABLE|props|2026-11-10
+Kent State|Dru DeShields|QB|AVAILABLE|props|2026-11-10
+Bowling Green|Jay Kastantin|QB|AVAILABLE|props|2026-11-10
+Ohio|Nick Poulos|QB|AVAILABLE|props|2026-11-10
+Miami (OH)|Caleb Heavner|QB|AVAILABLE|props|2026-11-10
+Ohio|Nick Poulos|QB|AVAILABLE|news|2026-11-08
+Miami (OH)|Caleb Heavner|QB|AVAILABLE|news|2026-11-08

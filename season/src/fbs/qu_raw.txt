@@ -1,0 +1,128 @@
+2|Byrum Brown|0.94|Byrum Brown
+5|Ryder Burton|0.97|Ryder Burton
+6|Jared Hollins|0.66|Bishop Davenport
+8|KJ Jackson|0.91|KJ Jackson
+9|Cutter Boley|0.56|Jake Fette
+12|Noah Fifita|0.95|Noah Fifita
+16|Jackson Sharman|0.77|Brian Salazar Jr.
+21|Jayden Denegal|0.64|Stone Saunders
+23|Luke Weaver|0.78|Daniel Rolovich
+24|Davis Warren|0.96|Davis Warren
+25|Jaron-Keawe Sagapolutele|0.68|Jaron-Keawe Sagapolutele
+26|Nico Iamaleava|0.49|Ty Dieffenbach
+30|Jayden Maiava|0.95|Jayden Maiava
+36|Hauss Hejny|0.50|Hauss Hejny
+38|Isaac Wilson|0.61|Isaac Wilson
+41|Kalieb Osborne|0.95|Kalieb Osborne
+48|Nick Minicucci|0.67|Nick Minicucci
+52|Ashton Daniels|0.98|Ashton Daniels
+55|Caden Creel|0.98|Caden Creel
+57|Aaron Philo|0.58|Tramell Jones Jr.
+58|Michael Van Buren Jr.|0.83|Luke Kromenhoek
+59|Alberto Mendoza|0.84|Alberto Mendoza
+61|Gunner Stockton|0.83|Gunner Stockton
+62|Micah Alejado|0.97|Micah Alejado
+66|Jaylen Raynor|0.91|Jaylen Raynor
+68|Maddux Madsen|0.87|Max Cutforth
+77|Aidan Chiles|0.85|Nicco Marchiol
+84|Josh Hoover|0.89|Josh Hoover
+87|CJ Carr|0.91|CJ Carr
+96|Kenny Minchey|0.99|Kenny Minchey
+97|Lincoln Kienholz|0.96|Lincoln Kienholz
+98|Brock Glenn|0.57|Brock Glenn
+99|Sam Leavitt|0.87|Sam Leavitt
+103|Mason McKenzie|0.94|Mason McKenzie
+113|William Watson III|0.70|William Watson III
+120|Malik Washington|0.97|Malik Washington
+127|Alessio Milivojevic|0.85|Alessio Milivojevic
+130|Bryce Underwood|0.56|Tommy Carr
+135|Drake Lindsey|0.97|Drake Lindsey
+142|Austin Simmons|0.94|Austin Simmons
+145|Trinidad Chambliss|0.96|Trinidad Chambliss
+150|Walker Eget|0.87|Walker Eget
+151|Emory Williams|0.51|Emory Williams
+152|CJ Bailey|0.92|CJ Bailey
+153|Billy Edwards Jr.|0.98|Billy Edwards Jr.
+154|Gio Lopez|0.84|Steele Pizzella
+158|Anthony Colandrea|0.95|Anthony Colandrea
+164|Dylan Lonergan|0.52|AJ Surace
+166|Trey Hedden|0.56|Trey Hedden
+167|Toa Fa'avae|0.74|Toa Fa'avae
+183|Steve Angeli|0.62|Steve Angeli
+194|Julian Sayin|0.64|Luke Fahey
+197|Drew Mestemaker|0.97|Drew Mestemaker
+201|John Mateer|0.99|John Mateer
+202|Baylor Hayes|0.78|Baylor Hayes
+204|Braden Atkinson|0.94|Braden Atkinson
+213|Rocco Becht|0.94|Rocco Becht
+218|Ajani Sheppard|0.71|Jaxon Smolik
+221|Mason Heintschel|0.47|Holden Geriner
+228|Tait Reynolds|0.86|Tait Reynolds
+235|Marcus Stokes|0.96|Marcus Stokes
+238|Jared Curtis|0.80|Jared Curtis
+239|DJ Lagway|0.79|DJ Lagway
+242|Jacurri Brown|0.70|Gael Ochoa
+245|Marcel Reed|0.93|Marcel Reed
+248|Conner Weigman|0.97|Conner Weigman
+249|Tayven Jackson|0.93|Tayven Jackson
+251|Arch Manning|0.96|Arch Manning
+252|Bear Bachmeier|0.98|Bear Bachmeier
+254|Devon Dampier|0.92|Devon Dampier
+256|Camden Coleman|0.77|JC Evans
+258|Beau Pribula|0.83|Beau Pribula
+259|Ethan Grunkemeyer|0.95|Ethan Grunkemeyer
+264|Demond Williams Jr.|0.69|Demond Williams Jr.
+265|Caden Pinnick|0.57|Owen Eshelman
+275|Colton Joseph|0.83|Ryan Hopkins
+276|Carlos Del Rio-Wilson|0.52|Zion Turner
+277|Michael Hawkins Jr.|0.97|Michael Hawkins Jr.
+278|Jayden Mandal|0.98|Jayden Mandal
+290|Max Johnson|0.85|Max Johnson
+309|Lunch Winfield|0.95|Lunch Winfield
+324|Deuce Bailey|0.96|Deuce Bailey
+326|Brad Jackson|0.96|Brad Jackson
+328|Grady Brosterhous|0.70|McCae Hillstead
+333|Keelon Russell|0.98|Keelon Russell
+338|Rickie Collins|0.78|Landon Varnes
+344|Kamario Taylor|0.56|AJ Swann
+356|Katin Houser|0.90|Katin Houser
+2005|Liam Szarka|0.49|Evan Medders
+2026|Malachi Singleton|0.89|Malachi Singleton
+2032|Trey Owens|1.00|Trey Owens
+2050|Keldric Luster|0.86|Keldric Luster
+2084|Jason Wright|0.79|Jason Wright
+2116|Keyone Jenkins|0.64|Alonza Barnett III
+2117|Jadyn Glasser|0.47|Jadyn Glasser
+2132|JC French IV|0.97|JC French IV
+2226|Caden Veltkamp|0.94|Caden Veltkamp
+2229|JJ Kohl|0.93|JJ Kohl
+2247|Cameran Brown|0.63|Ayden Pereira
+2294|Hank Brown|0.73|Hank Brown
+2305|Isaiah Marshall|0.83|Isaiah Marshall
+2306|Avery Johnson|0.63|Blake Barnett
+2335|Deshawn Purdie|0.90|Deshawn Purdie
+2348|Blake Baker|0.64|Blake Baker
+2390|Darian Mensah|0.91|Darian Mensah
+2393|Roman Gagliano|0.99|Roman Gagliano
+2429|Conner Harrell|0.51|Conner Harrell
+2433|Aidan Armenta|0.73|Aidan Armenta
+2439|Jackson Arnold|0.95|Jackson Arnold
+2440|AJ Bianco|0.40|AJ Bianco
+2449|Nathan Hayes|0.97|Nathan Hayes
+2459|Taron Dickens|0.94|Taron Dickens
+2483|Dylan Raiola|0.56|Dylan Raiola
+2509|Ryan Browne|0.95|Ryan Browne
+2534|Landyn Locke|0.84|Landyn Locke
+2567|Kevin Jennings|0.94|Kevin Jennings
+2572|Landry Lyddy|0.63|John White
+2579|LaNorris Sellers|0.93|LaNorris Sellers
+2623|Henry Belin IV|0.60|Henry Belin IV
+2628|Jaden Craig|1.00|Jaden Craig
+2633|George MacIntyre|0.53|George MacIntyre
+2636|Owen McCown|0.98|Owen McCown
+2638|EJ Colson Jr.|0.50|Raymond Moore III
+2641|Will Hammond|0.78|Thomas Castellanos
+2649|John Alan Richter|0.98|John Alan Richter
+2653|Goose Crowder|0.70|Tucker Kilcrease
+2655|Trace Johnson|0.48|Trace Johnson
+2751|Tyler Hughes|0.96|Tyler Hughes

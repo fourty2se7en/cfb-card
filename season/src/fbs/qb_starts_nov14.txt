@@ -1,0 +1,46 @@
+# ESPN box scores (browser pull Nov 14 ~1 AM Phoenix): starts = led team in pass attempts (8+); record and passing in those games
+James Madison|Evans:2st 2-0 26/35 312y 2t 0i, Coleman:8st 6-2 140/228 1685y 16t 4i|L:10-29 TROY L21-24 Coleman 14/25 175/Evans 8/10 72; 11-06 USM W54-23 Evans 19/26 251
+Wisconsin|Joseph:8st 5-3 104/187 1346y 11t 5i, Hopkins:1st 1-0 18/24 241y 3t 0i|L:10-31 IOWA L0-30 Joseph 5/14 90/Hopkins 8/13 93; 11-07 RUTG W31-10 Hopkins 18/24 241
+Syracuse|Angeli:6st 3-3 116/212 1450y 8t 6i, Odom:1st 1-0 27/37 335y 5t 2i, Nelson:2st 0-2 42/68 532y 3t 2i|L:10-31 SMU W30-27 Angeli 21/34 200; 11-07 CLEM L13-18 Angeli 18/40 263
+Northwestern|Chiles:8st 6-2 139/202 1898y 13t 1i, Marchiol:1st 0-1 24/32 181y 1t 0i|L:10-31 ORE L26-34 Chiles 22/38 281; 11-08 IOWA L10-24 Marchiol 24/32 181
+Ohio State|Sayin:7st 6-1 131/192 2007y 19t 4i, Fahey:2st 0-2 57/88 620y 3t 1i|L:10-31 USC L18-30 Fahey 21/38 260; 11-07 ORE L28-41 Fahey 36/50 360
+Wake Forest|Lopez:8st 7-1 153/228 2176y 18t 1i, Pizzella:1st 1-0 23/28 432y 3t 0i|L:10-31 UVA W51-7 Lopez 13/21 229; 11-07 MRMK W77-0 Pizzella 23/28 432
+Rutgers|Lonergan:4st 2-2 69/117 999y 10t 6i, Surace:5st 0-5 48/91 706y 6t 5i|L:10-31 MICH L21-28 Surace 3/12 123; 11-07 WIS L10-31 Surace 14/24 161
+East Carolina|Griffis:5st 2-3 66/121 754y 4t 5i, Williams:4st 3-1 81/121 785y 9t 2i|L:10-31 TEM W17-9 Griffis 17/30 130; 11-07 USF W20-17 Williams 19/27 175/Griffis 7/11 48
+Temple|Sheppard:7st 2-5 82/134 1197y 8t 3i, Smolik:2st 0-2 22/42 232y 3t 2i|L:10-31 ECU L9-17 Sheppard 11/20 118; 11-07 NAVY L35-42 Smolik 12/26 173
+Kansas State|Johnson:6st 4-2 118/187 1301y 10t 3i, Knuth:1st 0-1 26/41 194y 1t 0i, Barnett:2st 0-2 25/45 330y 4t 2i|L:10-31 COLO L24-27 Barnett 18/28 224; 11-07 OKST L28-66 Barnett 7/17 106/Duff 10/17 94
+Kennesaw State|Collins:8st 2-6 160/229 1632y 7t 6i, Varnes:1st 1-0 19/37 254y 1t 1i|L:10-28 MTSU W44-28 Collins 16/19 206; 11-07 DEL W42-40 Varnes 19/37 254/Collins 5/7 55
+Delaware|Minicucci:6st 4-2 142/216 1861y 16t 4i, Streeter:1st 0-1, Washington Jr.:1st 0-1, Bell:1st 0-1 22/36 306y 2t 1i|L:10-27 WKU W35-21 Minicucci 32/38 414; 11-07 KENN L40-42 Minicucci 35/54 408
+New Mexico State|Hedden:4st 1-3 75/126 1037y 7t 5i, Damante:5st 2-3 66/116 595y 5t 4i|L:10-29 JXST L0-24 Damante 7/20 23; 11-08 LIB L14-30 Hedden 19/29 256
+Missouri State|Locklear:5st 1-4 71/108 788y 4t 2i, Belin IV:4st 2-2 85/128 1052y 6t 4i|L:10-28 SHSU W24-3 Belin 12/18 184; 11-07 FIU L20-23 Belin 19/36 231
+Tennessee|Brandon:4st 3-1 58/93 697y 7t 0i, MacIntyre:5st 4-1 72/107 791y 1t 3i|L:10-24 SC L24-27 MacIntyre 16/23 136; 11-07 UK W34-6 MacIntyre 9/14 125
+California|Sagapolutele:6st 2-4 144/219 1446y 9t 5i, Brousseau:3st 1-2 65/104 602y 3t 0i|L:10-24 SMU L20-59 Sagapolutele 27/37 265; 10-31 NCSU L10-31 Sagapolutele 29/45 196
+Georgia State|Brown:6st 4-2 102/156 1291y 13t 5i, Pereira:3st 1-2 42/73 478y 7t 2i|L:10-31 CCU L20-31 Pereira 20/37 200; 11-07 APP W39-23 Pereira 10/17 115
+Western Kentucky|Tisdale Jr.:3st 1-2 73/104 821y 4t 1i, Glenn:6st 2-4 101/180 938y 5t 4i|L:10-27 DEL L21-35 Glenn 25/37 224/Tisdale 1/5 21; 11-07 MTSU L42-51 Glenn 13/23 152/Tisdale 11/13 107
+Michigan|Underwood:6st 4-2 72/124 924y 5t 6i, Carr:3st 1-2 56/85 571y 1t 3i|L:10-31 RUTG W28-21 Carr 22/27 266; 11-08 MSU L6-15 Carr 14/26 138
+Oregon|Moore:3st 2-1 61/89 849y 9t 0i, Raiola:5st 3-2 99/156 1171y 7t 2i, Thomas:1st 1-0 9/20 54y 0t 1i|L:10-31 NU W34-26 Raiola 22/31 336; 11-07 OSU W41-28 Raiola 25/40 257
+Nevada|Jones:4st 2-2 53/89 654y 3t 2i, Bianco:4st 0-4 49/98 483y 2t 3i, Duncan:1st 1-0 18/29 178y 2t 0i|L:10-31 UCLA L0-27 Bianco 6/13 71/Duncan 1/8 36; 11-07 UNM L3-31 Bianco 14/31 106
+Mississippi State|Taylor:5st 4-1 102/154 1450y 17t 4i, Puckett:2st 0-2 33/50 279y 1t 2i, Swann:2st 0-2 35/51 351y 2t 1i|L:10-31 TEX L3-31 Swann 12/15 97/Puckett 3/10 22; 11-07 VAN L23-25 Swann 23/36 254
+Tulane|Semonza:5st 2-3 64/119 804y 4t 2i, Johnson:4st 2-2 74/120 783y 2t 5i|L:10-30 CLT W38-31 Johnson 28/36 284; 11-07 TLSA L10-60 Johnson 11/19 69/Bruno 4/6 43
+Rice|Brown:5st 0-5 35/71 413y 2t 2i, Ochoa:1st 0-1 8/13 172y 1t 1i|L:10-24 FAU L49-51 Ochoa 2/5 80; 11-07 UNT L23-52 Ochoa 8/13 172
+Southern Miss|Hampton:2st 1-1 31/50 326y 2t 3i, Lyddy:6st 2-4 110/192 1255y 8t 4i, White:1st 0-1 22/35 266y 1t 0i|L:10-31 ULM W35-21 Lyddy 15/30 130; 11-06 JMU L23-54 White 22/35 266
+Louisiana Tech|Baker:7st 6-1 122/167 1504y 14t 1i, Kukuk:2st 1-1 41/66 408y 1t 1i|L:10-31 USA W35-20 Baker 10/16 167; 11-07 TROY W41-17 Baker 16/19 177/Kukuk 8/10 68
+Arizona State|Boley:5st 3-2 99/158 1229y 12t 3i, Keene:2st 1-1 35/54 416y 2t 0i, Fette:2st 1-1 35/61 353y 3t 0i|L:10-31 BYU L20-27 Fette 22/42 166; 11-08 COLO W20-10 Fette 13/19 187
+UCF|Barnett III:3st 2-1 49/80 595y 4t 2i, Jenkins:6st 3-3 118/176 1139y 10t 4i|L:10-30 BAY L9-41 Jenkins 14/21 82/Barnett 8/16 133; 11-07 KU W33-32 Barnett 18/31 251
+Washington|Williams Jr.:6st 3-3 129/196 1499y 10t 4i, Brown:3st 2-1 68/96 689y 6t 3i|L:11-01 NEB W17-10 Brown 19/30 136/Williams 7/13 99; 11-07 PSU L25-28 Williams 19/33 172
+Marshall|Del Rio-Wilson:5st 3-2 84/135 978y 5t 2i, Turner:4st 2-2 55/95 607y 2t 2i|L:10-31 ODU W36-23 Del Rio-Wilson 3/9 66/Turner 4/8 53; 11-07 GASO L13-49 Turner 11/26 141
+Boise State|Madsen:8st 7-1 148/222 1681y 15t 1i, Cutforth:1st 1-0 16/19 317y 4t 0i|L:11-01 TXST W46-45 Madsen 24/33 236/Cutforth 8/13 131; 11-07 CSU W64-38 Cutforth 16/19 317
+Florida|Philo:6st 4-2 105/149 1341y 9t 3i, Jones Jr.:3st 1-2 50/82 460y 2t 3i|L:10-31 UGA L8-27 Jones 18/25 172/Philo 5/7 26; 11-08 OU L7-23 Jones 10/22 133
+Baylor|Lagway:7st 4-3 145/270 1900y 15t 4i, Bennett:2st 2-0 45/60 567y 6t 2i|L:10-30 UCF W41-9 Lagway 16/25 319; 11-07 ISU W42-31 Lagway 16/28 229
+San José State|Weaver:7st 3-4 148/232 1719y 11t 8i, Rolovich:2st 2-0 28/50 424y 2t 0i, McDaniel:1st 0-1 6/13 48y|L:10-31 UNM L16-21 Weaver 16/23 190; 11-07 NIU W30-19 Rolovich 16/27 231
+Air Force|Szarka:3st 2-1 16/33 277y 1t 4i, Medders:1st 1-0 6/8 84y 1t 0i|L:10-31 CONN W35-26 (no passer 8+); 11-08 ARMY W24-21 Medders 6/8 84
+South Alabama|Davenport:3st 1-2 56/81 660y 3t 1i, Hollins:6st 3-3 82/156 1195y 9t 4i|L:10-31 LT L20-35 Hollins 14/31 192; 11-07 UL L26-28 Davenport 16/22 210
+Tulsa|Hayes:7st 4-3 148/228 1681y 14t 2i, Williams II:2st 1-1 34/58 340y 3t 0i|L:10-24 ARMY L35-38 Hayes 23/34 262; 11-07 TULN W60-10 Hayes 26/33 338
+Iowa|Brown:8st 6-2 125/190 1316y 9t 4i, Hecklinski:1st 1-0 14/19 202y 3t 0i|L:10-31 WIS W30-0 Brown 20/24 222; 11-08 NU W24-10 Brown 16/21 126
+New Mexico|Moga:1st 1-0 13/17 116y 1t 0i, Fa'avae:8st 7-1 68/113 998y 7t 7i|L:10-31 SJSU W21-16 Fa'avae 9/14 101; 11-07 NEV W31-3 Fa'avae 14/20 150
+Texas Tech|Hammond:7st 6-1 139/205 1561y 6t 6i, Castellanos:2st 2-0 29/51 506y 7t 0i|L:10-31 ARIZ W34-26 Castellanos 11/24 144; 11-08 WVU W53-48 Castellanos 18/27 362
+Utah State|Hillstead:3st 2-1 41/66 468y 3t 3i, Brosterhous:6st 2-4 94/165 1053y 7t 5i|L:10-31 CSU W31-14 Hillstead 17/22 173; 11-08 FRES W17-10 Hillstead 9/14 117
+San Diego State|Denegal:6st 2-4 76/141 787y 6t 5i, Saunders:3st 2-1 41/65 532y 2t 3i|L:10-24 CSU L49-56 Saunders 23/33 369; 10-31 WSU W26-20 Saunders 12/21 102
+UTEP|Colson Jr.:6st 1-5 60/93 600y 7t 5i, Moore III:3st 0-3 44/72 436y 3t 0i|L:10-31 NDSU L7-31 Colson 11/16 59/Moore 4/6 32; 11-08 HAW L14-17 Moore 9/18 109
+Colorado State|Hejny:5st 3-2 98/149 1311y 15t 2i, Farrar:4st 0-4 85/137 881y 5t 2i|L:10-31 USU L14-31 Hejny 19/30 186; 11-07 BOIS L38-64 Hejny 14/25 253/Farrar 4/8 53
+Washington State|Pinnick:6st 1-5 110/178 952y 3t 5i, Eshelman:3st 0-3 83/131 779y 2t 3i|L:10-24 BOIS L10-31 Eshelman 21/40 191; 10-31 SDSU L20-26 Eshelman 30/42 299

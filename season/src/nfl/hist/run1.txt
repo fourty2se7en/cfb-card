@@ -1,0 +1,150 @@
+107 games, weeks 1 - 7
+openers: spread {'confirmed': 42, 'none': 24, 'disagree': 21, 'direction': 20}  total {'none': 39, 'direction': 28, 'confirmed': 25, 'disagree': 15}
+
+## a. Favourite moneyline by price band
+Fav ML shorter than -500, every favourite                    4-2      66.7%   -1.4u be 87.2% | W1-4 4-0 100.0%  +0.6u | W5-7 0-2  0.0%  -2.0u 
+Fav ML shorter than -500, signals agree                       0 picks
+Fav ML -500 to -301, every favourite                        14-7      66.7%   -3.1u be 78.9% | W1-4 7-6 53.8%  -4.1u | W5-7 7-1 87.5%  +0.9u 
+Fav ML -500 to -301, signals agree                           3-1      75.0%   -0.2u be 79.3% | W1-4 1-0 100.0%  +0.3u | W5-7 2-1 66.7%  -0.5u 
+Fav ML -300 to -201, every favourite                        16-6      72.7%   +0.7u be 70.2% | W1-4 11-4 73.3%  +0.5u | W5-7 5-2 71.4%  +0.2u COUNTS
+Fav ML -300 to -201, signals agree                           6-0      100.0%   +2.5u be 70.6% | W1-4 3-0 100.0%  +1.2u | W5-7 3-0 100.0%  +1.3u COUNTS
+Fav ML -200 to -100, every favourite                        34-23 -1  59.6%   -0.1u be 60.0% | W1-4 19-13 59.4%  -0.3u | W5-7 15-10 60.0%  +0.1u 
+Fav ML -200 to -100, signals agree                          12-6  -1  66.7%   +2.4u be 60.0% | W1-4 5-4 55.6%  -0.3u | W5-7 7-2 77.8%  +2.7u 
+Fav ML -200 to -100, signal lead 1                           1-3      25.0%   -2.3u be 60.8% | W1-4 1-3 25.0%  -2.3u | W5-7 0-0   - %  +0.0u 
+Fav ML -200 to -100, signal lead 2                           5-0  -1  100.0%   +3.7u be 57.6% | W1-4 2-0 100.0%  +1.7u | W5-7 3-0 100.0%  +2.0u COUNTS
+Fav ML -200 to -100, signal lead 3+                          6-3      66.7%   +1.0u be 61.0% | W1-4 2-1 66.7%  +0.3u | W5-7 4-2 66.7%  +0.7u COUNTS
+
+## b. Underdog moneyline from +100
+Dog ML +100 to +150, every underdog                         19-26 -1  42.2%   -1.9u be 43.8% | W1-4 10-14 41.7%  -1.7u | W5-7 9-12 42.9%  -0.2u 
+Dog ML +100 to +150, signals on the dog                      5-15     25.0%   -8.9u be 43.8% | W1-4 4-10 28.6%  -5.1u | W5-7 1-5 16.7%  -3.8u 
+Dog ML +100 to +150, signals on the dog + reason             5-9      35.7%   -2.9u be 44.2% | W1-4 4-6 40.0%  -1.1u | W5-7 1-3 25.0%  -1.8u 
+Dog ML +151 to +200, every underdog                          7-15     31.8%   -2.7u be 36.0% | W1-4 6-9 40.0%  +1.6u | W5-7 1-6 14.3%  -4.3u 
+Dog ML +151 to +200, signals on the dog                      5-7      41.7%   +1.8u be 36.2% | W1-4 4-5 44.4%  +2.1u | W5-7 1-2 33.3%  -0.3u 
+Dog ML +151 to +200, signals on the dog + reason             5-6      45.5%   +2.8u be 36.0% | W1-4 4-4 50.0%  +3.1u | W5-7 1-2 33.3%  -0.3u 
+Dog ML +201 to +300, every underdog                          3-13     18.8%   -5.4u be 28.1% | W1-4 2-9 18.2%  -3.8u | W5-7 1-4 20.0%  -1.6u 
+Dog ML +201 to +300, signals on the dog                      3-9      25.0%   -1.4u be 28.3% | W1-4 2-6 25.0%  -0.8u | W5-7 1-3 25.0%  -0.6u 
+Dog ML +201 to +300, signals on the dog + reason             3-9      25.0%   -1.4u be 28.3% | W1-4 2-6 25.0%  -0.8u | W5-7 1-3 25.0%  -0.6u 
+Dog ML +301 to +500, every underdog                          6-7      46.2%  +14.0u be 22.4% | W1-4 4-4 50.0%  +9.4u | W5-7 2-3 40.0%  +4.6u COUNTS
+Dog ML +301 to +500, signals on the dog                      4-5      44.4%   +9.1u be 22.1% | W1-4 3-3 50.0%  +7.2u | W5-7 1-2 33.3%  +1.8u COUNTS
+Dog ML +301 to +500, signals on the dog + reason             4-5      44.4%   +9.1u be 22.1% | W1-4 3-3 50.0%  +7.2u | W5-7 1-2 33.3%  +1.8u COUNTS
+Dog ML +501 and up, every underdog                           1-2      33.3%   +4.0u be 14.6% | W1-4 0-2  0.0%  -2.0u | W5-7 1-0 100.0%  +6.0u 
+Dog ML +501 and up, signals on the dog                       1-2      33.3%   +4.0u be 14.6% | W1-4 0-2  0.0%  -2.0u | W5-7 1-0 100.0%  +6.0u 
+Dog ML +501 and up, signals on the dog + reason              1-2      33.3%   +4.0u be 14.6% | W1-4 0-2  0.0%  -2.0u | W5-7 1-0 100.0%  +6.0u 
+Dog ML +100 to +200, every underdog                         26-41 -1  38.8%   -4.7u be 41.2% | W1-4 16-23 41.0%  -0.1u | W5-7 10-18 35.7%  -4.5u 
+Dog ML +100 to +200, signals on the dog                     10-22     31.2%   -7.2u be 41.0% | W1-4 8-15 34.8%  -3.0u | W5-7 2-7 22.2%  -4.1u 
+Dog ML +100 to +200, signals on the dog + reason            10-15     40.0%   -0.2u be 40.6% | W1-4 8-10 44.4%  +2.0u | W5-7 2-5 28.6%  -2.1u 
+Dog ML +100 to +300, every underdog                         29-54 -1  34.9%  -10.0u be 38.7% | W1-4 18-32 36.0%  -3.9u | W5-7 11-22 33.3%  -6.1u 
+Dog ML +100 to +300, signals on the dog                     13-31     29.5%   -8.5u be 37.5% | W1-4 10-21 32.3%  -3.8u | W5-7 3-10 23.1%  -4.7u 
+Dog ML +100 to +300, signals on the dog + reason            13-24     35.1%   -1.5u be 36.6% | W1-4 10-16 38.5%  +1.2u | W5-7 3-8 27.3%  -2.7u 
+Dog ML +100 and up, every underdog                          36-63 -1  36.4%   +7.9u be 35.8% | W1-4 22-38 36.7%  +3.5u | W5-7 14-25 35.9%  +4.4u COUNTS
+Dog ML +100 and up, signals on the dog                      18-38     32.1%   +4.5u be 33.8% | W1-4 13-26 33.3%  +1.4u | W5-7 5-12 29.4%  +3.1u COUNTS
+Dog ML +100 and up, signals on the dog + reason             18-31     36.7%  +11.5u be 32.6% | W1-4 13-21 38.2%  +6.4u | W5-7 5-10 33.3%  +5.1u COUNTS
+
+## c. Underdog spread, signals on the dog
+Dog spread, signals on the dog                              30-25 -5  54.5%   +2.3u be 52.3% | W1-4 21-17 55.3%  +2.2u | W5-7 9-8 52.9%  +0.1u COUNTS
+  ... with an_experts                                       18-13 -3  58.1%   +3.2u be 52.5% | W1-4 11-9 55.0%  +0.9u | W5-7 7-4 63.6%  +2.3u COUNTS
+  ... with an_model                                          2-6  -1  25.0%   -4.3u be 52.1% | W1-4 1-5 16.7%  -4.2u | W5-7 1-1 50.0%  -0.2u 
+  ... with big_money                                        12-13 -2  48.0%   -2.3u be 52.3% | W1-4 10-11 47.6%  -2.1u | W5-7 2-2 50.0%  -0.2u 
+  ... with bye                                               1-0      100.0%   +1.0u be 50.0% | W1-4 0-0   - %  +0.0u | W5-7 1-0 100.0%  +1.0u 
+  ... with div_dog                                          15-7      68.2%   +6.9u be 51.8% | W1-4 10-3 76.9%  +6.3u | W5-7 5-4 55.6%  +0.6u COUNTS
+  ... with expert_any                                       13-2      86.7%   +9.8u be 52.5% | W1-4 8-1 88.9%  +6.3u | W5-7 5-1 83.3%  +3.5u COUNTS
+  ... with expert_follow                                    13-2      86.7%   +9.8u be 52.5% | W1-4 8-1 88.9%  +6.3u | W5-7 5-1 83.3%  +3.5u COUNTS
+  ... with fade_public                                      17-11 -2  60.7%   +4.1u be 52.6% | W1-4 12-6 66.7%  +4.8u | W5-7 5-5 50.0%  -0.6u 
+  ... with form                                               0 picks
+  ... with home_field                                        7-14 -2  33.3%   -7.6u be 52.2% | W1-4 5-8 38.5%  -3.4u | W5-7 2-6 25.0%  -4.3u 
+  ... with line_move                                         7-3  -1  70.0%   +3.5u be 51.4% | W1-4 7-3 70.0%  +3.5u | W5-7 0-0   - %  +0.0u 
+  ... with money_vs_tickets                                  9-11 -2  45.0%   -3.0u be 52.2% | W1-4 9-10 47.4%  -2.0u | W5-7 0-1  0.0%  -1.0u 
+  ... with pr_fade                                          24-15 -3  61.5%   +6.7u be 52.3% | W1-4 16-11 59.3%  +3.5u | W5-7 8-4 66.7%  +3.3u COUNTS
+  ... with pro_systems                                      13-7  -1  65.0%   +4.8u be 52.4% | W1-4 9-6 60.0%  +2.2u | W5-7 4-1 80.0%  +2.6u COUNTS
+  ... with projection                                        9-11 -3  45.0%   -2.9u be 52.4% | W1-4 6-6 50.0%  -0.5u | W5-7 3-5 37.5%  -2.4u 
+  ... with qb_change                                         1-5  -1  16.7%   -4.1u be 52.5% | W1-4 1-5 16.7%  -4.1u | W5-7 0-0   - %  +0.0u 
+  ... with rest_edge                                         1-1      50.0%   -0.2u be 53.7% | W1-4 1-0 100.0%  +0.8u | W5-7 0-1  0.0%  -1.0u 
+  ... with rlm                                               5-1      83.3%   +3.7u be 51.5% | W1-4 5-1 83.3%  +3.7u | W5-7 0-0   - %  +0.0u 
+  ... with sharp_action                                     16-12 -4  57.1%   +2.6u be 52.2% | W1-4 11-6 64.7%  +4.0u | W5-7 5-6 45.5%  -1.4u 
+  ... with tnf_home                                          1-0      100.0%   +1.0u be 50.0% | W1-4 1-0 100.0%  +1.0u | W5-7 0-0   - %  +0.0u 
+  ... with track_record                                      0-1       0.0%   -1.0u be 52.8% | W1-4 0-0   - %  +0.0u | W5-7 0-1  0.0%  -1.0u 
+  ... with travel                                            2-1      66.7%   +0.9u be 50.9% | W1-4 1-1 50.0%  +0.0u | W5-7 1-0 100.0%  +0.9u 
+
+## d. Spread on the signal side
+Signal side spread, lead 1                                   6-14     30.0%   -8.6u be 52.5% | W1-4 5-9 35.7%  -4.5u | W5-7 1-5 16.7%  -4.1u 
+Signal side spread, lead 2                                   9-9  -2  50.0%   -0.7u be 52.0% | W1-4 4-6 40.0%  -2.2u | W5-7 5-3 62.5%  +1.5u 
+Signal side spread, lead 3                                  13-5  -2  72.2%   +7.0u be 52.3% | W1-4 6-2 75.0%  +3.6u | W5-7 7-3 70.0%  +3.3u COUNTS
+Signal side spread, lead 4                                   5-2  -2  71.4%   +2.5u be 51.8% | W1-4 4-1 80.0%  +2.5u | W5-7 1-1 50.0%  -0.0u 
+Signal side spread, lead 5                                   5-3      62.5%   +1.6u be 52.3% | W1-4 3-2 60.0%  +0.7u | W5-7 2-1 66.7%  +0.9u COUNTS
+Signal side spread, lead 6+                                  8-4      66.7%   +3.2u be 52.3% | W1-4 6-2 75.0%  +3.4u | W5-7 2-2 50.0%  -0.2u 
+Signal side spread, lead 1+                                 46-37 -6  55.4%   +4.9u be 52.2% | W1-4 28-22 56.0%  +3.5u | W5-7 18-15 54.5%  +1.4u COUNTS
+Signal side spread, lead 1+, favourite                      16-12 -1  57.1%   +2.6u be 52.2% | W1-4 7-5 58.3%  +1.4u | W5-7 9-7 56.2%  +1.2u COUNTS
+Signal side spread, lead 1+, underdog                       30-25 -5  54.5%   +2.3u be 52.3% | W1-4 21-17 55.3%  +2.2u | W5-7 9-8 52.9%  +0.1u COUNTS
+Signal side spread, lead 1+, line 0 to 3                    16-17 -3  48.5%   -2.4u be 52.3% | W1-4 8-12 40.0%  -4.7u | W5-7 8-5 61.5%  +2.3u 
+Signal side spread, lead 1+, line 3.5 to 6.5                19-13     59.4%   +4.5u be 51.9% | W1-4 13-6 68.4%  +6.0u | W5-7 6-7 46.2%  -1.5u 
+Signal side spread, lead 1+, line 7 to 9.5                   8-4  -3  66.7%   +3.1u be 53.0% | W1-4 5-2 71.4%  +2.5u | W5-7 3-2 60.0%  +0.6u COUNTS
+Signal side spread, lead 1+, line 10+                        3-3      50.0%   -0.3u be 52.3% | W1-4 2-2 50.0%  -0.2u | W5-7 1-1 50.0%  -0.0u 
+Signal side spread, lead 2+                                 40-23 -6  63.5%  +13.5u be 52.2% | W1-4 23-13 63.9%  +8.0u | W5-7 17-10 63.0%  +5.5u COUNTS
+Signal side spread, lead 3+                                 31-14 -4  68.9%  +14.2u be 52.2% | W1-4 19-7 73.1% +10.2u | W5-7 12-7 63.2%  +4.0u COUNTS
+Signal side spread, lead 4+                                 18-9  -2  66.7%   +7.3u be 52.1% | W1-4 13-5 72.2%  +6.6u | W5-7 5-4 55.6%  +0.7u COUNTS
+
+## e. Totals
+Always over                                                 56-51     52.3%   +0.3u be 52.3% | W1-4 32-32 50.0%  -2.8u | W5-7 24-19 55.8%  +3.2u 
+Always under                                                51-56     47.7%   -9.7u be 52.5% | W1-4 32-32 50.0%  -3.0u | W5-7 19-24 44.2%  -6.7u 
+Card total score, lead 1+                                   53-48     52.5%   +0.5u be 52.3% | W1-4 31-28 52.5%  +0.3u | W5-7 22-20 52.4%  +0.1u COUNTS
+Card total score, lead 2+                                   44-40     52.4%   +0.2u be 52.3% | W1-4 28-22 56.0%  +3.7u | W5-7 16-18 47.1%  -3.5u 
+Card total score, lead 3+                                   32-23     58.2%   +6.2u be 52.4% | W1-4 19-13 59.4%  +4.3u | W5-7 13-10 56.5%  +1.9u COUNTS
+Total: an_experts_t alone (Over)                             3-5      37.5%   -2.4u be 53.1% | W1-4 2-4 33.3%  -2.3u | W5-7 1-1 50.0%  -0.1u 
+Total: an_experts_t alone (Under)                           15-15     50.0%   -1.4u be 52.6% | W1-4 9-11 45.0%  -2.9u | W5-7 6-4 60.0%  +1.5u 
+Total: an_experts_t alone (either)                          18-20     47.4%   -3.8u be 52.7% | W1-4 11-15 42.3%  -5.2u | W5-7 7-5 58.3%  +1.4u 
+Total: an_model_t alone (Over)                               3-8      27.3%   -5.2u be 52.0% | W1-4 0-4  0.0%  -4.0u | W5-7 3-4 42.9%  -1.2u 
+Total: an_model_t alone (Under)                              6-8      42.9%   -2.5u be 52.4% | W1-4 2-6 25.0%  -4.2u | W5-7 4-2 66.7%  +1.7u 
+Total: an_model_t alone (either)                             9-16     36.0%   -7.7u be 52.2% | W1-4 2-10 16.7%  -8.2u | W5-7 7-6 53.8%  +0.5u 
+Total: big_money_t alone (Over)                             21-17     55.3%   +2.0u be 52.3% | W1-4 15-11 57.7%  +2.6u | W5-7 6-6 50.0%  -0.5u 
+Total: big_money_t alone (Under)                             9-5      64.3%   +3.3u be 52.1% | W1-4 6-3 66.7%  +2.6u | W5-7 3-2 60.0%  +0.7u COUNTS
+Total: big_money_t alone (either)                           30-22     57.7%   +5.4u be 52.3% | W1-4 21-14 60.0%  +5.2u | W5-7 9-8 52.9%  +0.2u COUNTS
+Total: div_under alone (Under)                              14-19     42.4%   -6.1u be 52.4% | W1-4 7-10 41.2%  -3.5u | W5-7 7-9 43.8%  -2.6u 
+Total: div_under alone (either)                             14-19     42.4%   -6.1u be 52.4% | W1-4 7-10 41.2%  -3.5u | W5-7 7-9 43.8%  -2.6u 
+Total: dome_over alone (Over)                               17-16     51.5%   -0.4u be 52.1% | W1-4 10-9 52.6%  +0.2u | W5-7 7-7 50.0%  -0.5u 
+Total: dome_over alone (either)                             17-16     51.5%   -0.4u be 52.1% | W1-4 10-9 52.6%  +0.2u | W5-7 7-7 50.0%  -0.5u 
+Total: expert_any_t alone (Over)                             2-3      40.0%   -1.2u be 53.1% | W1-4 0-1  0.0%  -1.0u | W5-7 2-2 50.0%  -0.2u 
+Total: expert_any_t alone (Under)                            0-2       0.0%   -2.0u be 52.4% | W1-4 0-1  0.0%  -1.0u | W5-7 0-1  0.0%  -1.0u 
+Total: expert_any_t alone (either)                           2-5      28.6%   -3.2u be 52.9% | W1-4 0-2  0.0%  -2.0u | W5-7 2-3 40.0%  -1.2u 
+Total: fade_public alone (Over)                             10-5      66.7%   +4.0u be 52.4% | W1-4 10-5 66.7%  +4.0u | W5-7 0-0   - %  +0.0u 
+Total: fade_public alone (Under)                            10-8      55.6%   +1.3u be 52.3% | W1-4 1-0 100.0%  +1.0u | W5-7 9-8 52.9%  +0.4u COUNTS
+Total: fade_public alone (either)                           20-13     60.6%   +5.3u be 52.3% | W1-4 11-5 68.8%  +5.0u | W5-7 9-8 52.9%  +0.4u COUNTS
+Total: money_vs_tickets alone (Over)                        17-16     51.5%   -0.6u be 52.3% | W1-4 12-11 52.2%  -0.2u | W5-7 5-5 50.0%  -0.4u 
+Total: money_vs_tickets alone (Under)                        7-2      77.8%   +4.4u be 52.2% | W1-4 4-0 100.0%  +3.7u | W5-7 3-2 60.0%  +0.7u COUNTS
+Total: money_vs_tickets alone (either)                      24-18     57.1%   +3.8u be 52.3% | W1-4 16-11 59.3%  +3.5u | W5-7 8-7 53.3%  +0.3u COUNTS
+Total: moved_down alone (Under)                              8-7      53.3%   +0.3u be 52.2% | W1-4 4-3 57.1%  +0.7u | W5-7 4-4 50.0%  -0.4u 
+Total: moved_down alone (either)                             8-7      53.3%   +0.3u be 52.2% | W1-4 4-3 57.1%  +0.7u | W5-7 4-4 50.0%  -0.4u 
+Total: moved_up alone (Over)                                 6-5      54.5%   +0.5u be 52.3% | W1-4 3-2 60.0%  +0.8u | W5-7 3-3 50.0%  -0.2u 
+Total: moved_up alone (either)                               6-5      54.5%   +0.5u be 52.3% | W1-4 3-2 60.0%  +0.8u | W5-7 3-3 50.0%  -0.2u 
+Total: pro_systems_t alone (Under)                          11-8      57.9%   +2.1u be 52.3% | W1-4 5-4 55.6%  +0.6u | W5-7 6-4 60.0%  +1.5u COUNTS
+Total: pro_systems_t alone (either)                         11-8      57.9%   +2.1u be 52.3% | W1-4 5-4 55.6%  +0.6u | W5-7 6-4 60.0%  +1.5u COUNTS
+Total: projection_t alone (Over)                            30-25     54.5%   +2.4u be 52.4% | W1-4 16-18 47.1%  -3.5u | W5-7 14-7 66.7%  +5.9u 
+Total: projection_t alone (Under)                           26-26     50.0%   -2.6u be 52.6% | W1-4 14-16 46.7%  -3.4u | W5-7 12-10 54.5%  +0.8u 
+Total: projection_t alone (either)                          56-51     52.3%   -0.1u be 52.5% | W1-4 30-34 46.9%  -6.8u | W5-7 26-17 60.5%  +6.7u 
+Total: sharp_action alone (Over)                            26-25     51.0%   -1.3u be 52.3% | W1-4 21-20 51.2%  -0.8u | W5-7 5-5 50.0%  -0.5u 
+Total: sharp_action alone (Under)                           21-19     52.5%   +0.2u be 52.5% | W1-4 9-5 64.3%  +3.3u | W5-7 12-14 46.2%  -3.1u 
+Total: sharp_action alone (either)                          47-44     51.6%   -1.2u be 52.3% | W1-4 30-25 54.5%  +2.4u | W5-7 17-19 47.2%  -3.6u 
+Total: tnf_under alone (Under)                               3-4      42.9%   -1.2u be 51.9% | W1-4 1-3 25.0%  -2.0u | W5-7 2-1 66.7%  +0.8u 
+Total: tnf_under alone (either)                              3-4      42.9%   -1.2u be 51.9% | W1-4 1-3 25.0%  -2.0u | W5-7 2-1 66.7%  +0.8u 
+Total: wind alone (Under)                                    6-6      50.0%   -0.6u be 52.6% | W1-4 6-6 50.0%  -0.6u | W5-7 0-0   - %  +0.0u 
+Total: wind alone (either)                                   6-6      50.0%   -0.6u be 52.6% | W1-4 6-6 50.0%  -0.6u | W5-7 0-0   - %  +0.0u 
+Money vs tickets or PRO on one side only, alone             26-18     59.1%   +5.7u be 52.3% | W1-4 17-12 58.6%  +3.5u | W5-7 9-6 60.0%  +2.2u COUNTS
+Money vs tickets or PRO on one side only, with no other total signal against  23-15     60.5%   +6.0u be 52.3% | W1-4 15-9 62.5%  +4.6u | W5-7 8-6 57.1%  +1.4u COUNTS
+Money vs tickets or PRO on one side only, with another total signal agreeing  24-18     57.1%   +3.8u be 52.3% | W1-4 16-12 57.1%  +2.6u | W5-7 8-6 57.1%  +1.3u COUNTS
+
+## f. Every side signal on its own (the side it names, regardless of the rest)
+an_experts (spread)                                         43-38 -3  53.1%   +0.9u be 52.5% | W1-4 25-23 52.1%  -0.7u | W5-7 18-15 54.5%  +1.6u 
+an_experts (ML -300 to +300)                                34-33 -1  50.7%   -2.1u be 50.4% | W1-4 19-22 46.3%  -5.6u | W5-7 15-11 57.7%  +3.5u 
+an_model (spread)                                            8-16 -1  33.3%   -8.8u be 52.0% | W1-4 5-12 29.4%  -7.7u | W5-7 3-4 42.9%  -1.2u 
+an_model (ML -300 to +300)                                   7-15     31.8%   -7.4u be 44.7% | W1-4 5-11 31.2%  -4.9u | W5-7 2-4 33.3%  -2.5u 
+big_money (spread)                                          27-24 -4  52.9%   +0.6u be 52.1% | W1-4 18-17 51.4%  -0.9u | W5-7 9-7 56.2%  +1.5u 
+big_money (ML -300 to +300)                                 24-18 -1  57.1%   +4.7u be 50.0% | W1-4 15-15 50.0%  +1.0u | W5-7 9-3 75.0%  +3.7u COUNTS
+bye (spread)                                                 4-2      66.7%   +1.7u be 52.5% | W1-4 0-0   - %  +0.0u | W5-7 4-2 66.7%  +1.7u 
+bye (ML -300 to +300)                                        4-0      100.0%   +3.4u be 56.8% | W1-4 0-0   - %  +0.0u | W5-7 4-0 100.0%  +3.4u 
+cold_opp (spread)                                            7-8  -3  46.7%   -1.5u be 52.4% | W1-4 1-2 33.3%  -1.1u | W5-7 6-6 50.0%  -0.4u 
+cold_opp (ML -300 to +300)                                   7-4      63.6%   +0.6u be 61.2% | W1-4 2-0 100.0%  +1.9u | W5-7 5-4 55.6%  -1.4u 
+div_dog (spread)                                            23-10     69.7%  +11.3u be 51.9% | W1-4 12-5 70.6%  +6.2u | W5-7 11-5 68.8%  +5.2u COUNTS
+div_dog (ML -300 to +300)                                   16-13 -1  55.2%  +12.3u be 38.9% | W1-4 9-7 56.2%  +7.9u | W5-7 7-6 53.8%  +4.4u COUNTS
+expert_any (spread)                                         38-27 -3  58.5%   +7.4u be 52.4% | W1-4 22-18 55.0%  +1.6u | W5-7 16-9 64.0%  +5.7u COUNTS
+expert_any (ML -300 to +300)                                31-19 -1  62.0%   +8.2u be 54.3% | W1-4 19-13 59.4%  +3.8u | W5-7 12-6 66.7%  +4.4u COUNTS
+expert_follow (spread)                                      38-27 -3  58.5%   +7.4u be 52.4% | W1-4 22-18 55.0%  +1.6u | W5-7 16-9 64.0%  +5.7u COUNTS
+expert_follow (ML -300 to +300)                             31-19 -1  62.0%   +8.2u be 54.3% | W1-4 19-13 59.4%  +3.8u | W5-7 12-6 66.7%  +4.4u COUNTS

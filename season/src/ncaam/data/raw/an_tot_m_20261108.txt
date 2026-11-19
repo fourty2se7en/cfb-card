@@ -1,0 +1,29 @@
+Iona|St. John's|o143.5~u143.5|63~37|59~41
+Arkansas|Virginia|o158.5~u158.5|57~43|68~32
+Princeton|Siena|o149.5~u149.5|57~43|56~44
+Manhattan|Maine|o137.5~u137.5|74~26|65~35
+Sacred Heart|New Hampshire|o143.5~u143.5|68~32|52~48
+Marist|UMass Lowell|o144.5~u144.5|66~34|60~40
+Fairfield|Bryant U|o142.5~u142.5|70~30|58~42
+SE Missouri|S. Carolina|o144.5~u144.5|66~34|68~32
+Quinnipiac|Vermont|o137.5~u137.5||
+Central Conn|Dartmouth|o139.5~u139.5||
+Green Bay|St. Thomas|o151.5~u151.5|62~38|63~37
+Butler|Boise State|o151.5~u151.5|59~41|81~19
+Merrimack|Albany|o132.5~u132.5||
+Campbell|W. Michigan|o148.5~u148.5|70~30|71~29
+Brown|Lehigh|o135.5~u135.5||
+Idaho State|Air Force|o156.5~u156.5|46~54|40~60
+W. Kentucky|Tenn Tech|o159.5~u159.5|47~53|56~44
+Southern U|Drake|o149.5~u149.5||
+Rider|Binghamton|o139.5~u139.5||
+St. Peter's|N.J.I.T.|o131.5~u131.5||
+Saint Mary's|Nevada|o142.5~u142.5|70~30|75~25
+Richmond|Temple|o151.5~u151.5||
+NDSU|CS Bakersfield|o155.5~u155.5|16~84|4~96
+Norfolk State|William & Mary|o157.5~u157.5||
+Incarnate Word|UTEP|o142.5~u142.5||
+Pittsburgh|Penn State|o154.5~u154.5|54~46|72~28
+Houston|California|o145.5~u145.5||
+UT-Arlington|Hawaii|o150.5~u150.5||
+Wichita State|USC|o156.5~u156.5||

@@ -1,0 +1,1 @@
+# DraftKings props via Action Network retired Nov 12 (A28): props come from odds_props.txt (The Odds API median). GAME|PLAYER|STAT|Over|Under

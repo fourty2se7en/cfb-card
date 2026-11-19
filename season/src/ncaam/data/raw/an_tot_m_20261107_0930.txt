@@ -1,0 +1,49 @@
+Morehead St|Louisville|o149.5~u149.5|74~26|80~20
+North Dakota|Winthrop|o159.5~u159.5|62~38|82~18
+NC A&T|Ohio|o161.5~u161.5|53~47|55~45
+UNC Wilmington|E. Carolina|o149.5~u149.5|69~31|74~26
+Colgate|Drexel|o146.5~u146.5|69~31|43~57
+Lamar|Ab Christian|o142.5~u142.5|86~14|98~2
+Toledo|Marshall|o154.5~u154.5|57~43|53~47
+CS Fullerton|South Dakota|o168.5~u168.5|35~65|46~54
+LBSU|Montana St|o147.5~u147.5|80~20|77~23
+NC Central|Longwood|o147.5~u147.5|76~24|77~23
+VCU|Memphis|o158.5~u158.5|60~40|69~31
+Colorado|San Diego State|o155.5~u155.5|66~34|15~85
+Long Island|La Salle|o144.5~u144.5|71~29|81~19
+Oakland|UCSB|o151.5~u151.5|64~36|63~37
+Lafayette|Saint Joe's|o146.5~u146.5|83~17|85~15
+Monmouth|Rhode Island|o144.5~u144.5|80~20|81~19
+Samford|UNLV|o156.5~u156.5|67~33|78~22
+Omaha|Utah State|o148.5~u148.5|70~30|85~15
+Washington St|High Point|o153.5~u153.5||
+TN-Martin|IUIN|o156.5~u156.5|30~70|75~25
+SIU-Edwardsville|Lipscomb|o143.5~u143.5||
+N. Iowa|Furman|o148.5~u148.5||
+Bellarmine|Miami (OH)|o159.5~u159.5||
+Old Dominion|Bucknell|o144.5~u144.5|28~72|5~95
+N. Mexico St|Gonzaga|o148.5~u148.5|95~5|99~1
+VMI|UTSA|o161.5~u161.5||
+W. Carolina|UNC Asheville|o149.5~u149.5||
+Prairie View|UT Grande Valley|o149.5~u149.5||
+N. Arizona|New Mexico|o154.5~u154.5||
+Hampton|G Washington|o145.5~u145.5||
+Morgan State|Niagara|o150.5~u150.5||
+Providence|Nebraska|o155.5~u155.5||
+St. Bonaventure|Canisius|o147.5~u147.5||
+N. Illinois|Dayton|o151.5~u151.5||
+Hou Christian|W. Illinois|o139.5~u139.5||
+Mercer|Davidson|o150.5~u150.5||
+Denver|UC Riverside|o154.5~u154.5||
+Maryland|Georgetown|o147.5~u147.5||
+Central State|Duquesne|||
+B-Cookman|Grand Canyon|o152.5~u152.5||
+Evansville|Southern Indiana|o143.5~u143.5||
+NW State|Murray State|o153.5~u153.5||
+Pacific|Bradley|o142.5~u142.5||
+SE Louisiana|Ark-Little Rock|o147.5~u147.5||
+Utah Valley|Weber State|o153.5~u153.5||
+Fresno State|UCSD|o152.5~u152.5||
+Portland State|Seattle|o143.5~u143.5||
+Sac State|Santa Clara|o163.5~u163.5||
+San Jose St|UC Irvine|o144.5~u144.5||

@@ -1,0 +1,11 @@
+WMU|Jalen Buckley|rushing|121
+OHIO|Nick Poulos|passingyards|193
+OHIO|Nick Poulos|passingtouchdowns|1
+OHIO|Riley Neer|receivingyards|74
+OHIO|Preston Bowman|receivingyards|50
+OHIO|Dom Dorwart|receivingyards|21
+M-OH|Caleb Heavner|passingyards|39
+M-OH|Caleb Heavner|passingtouchdowns|0
+M-OH|Caleb Heavner|rushingyards|-9
+M-OH|Rodney Nelson|rushingyards|38
+M-OH|Damarion Witten|receivingyards|23

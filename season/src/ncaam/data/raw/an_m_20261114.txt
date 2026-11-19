@@ -1,0 +1,65 @@
+UNC Greensboro|Cornell|+7.5||||
+Tulane|Akron|+13.5|63|37|75|25
+Bradley|George Mason|+10.5|34|66|23|77
+Drexel|Maine|-4.5||||
+St. Thomas|Army|-8.5||||
+Montana|North Dakota|-1.5||||
+Marshall|Youngstown St|-1.5||||
+Stonehill|Texas Tech|+37.5|72|28|71|29
+Loyola (IL)|Colorado St|+8.5||||
+Wofford|Queens|+7.5||||
+Rice|SFA|+8.5||||
+Coppin St|S. Florida|+24.5||||
+Miami (OH)|Evansville|-9.5||||
+Citadel|North Florida|+3.5||||
+N. Illinois|Bellarmine|+1.5||||
+Gardner-Webb|S. Carolina|+23.5|62|38|60|40
+Shenandoah|Radford|||||
+Jackson St|Winthrop|+7.5||||
+Wyoming|Denver|-4.5||||
+LSU|Gonzaga|+6.5|21|79|24|76
+C. Michigan|N Kentucky|+1.5||||
+Delaware St|E. Carolina|+16.5||||
+N. Colorado|SD State|+3.5||||
+Hampton|Navy|+1.5||||
+Air Force|Pacific|+13.5||||
+Longwood|Old Dominion|+6.5||||
+Toledo|Detroit|-9.5||||
+UNC Asheville|G Tech|+16.5||||
+Southern Utah|Wake Forest|+18.5|52|48|34|66
+Lafayette|St. Bonaventure|+15.5||||
+Montreat|UNC Wilmington|||||
+USC Upstate|Campbell|+8.5||||
+N. Iowa|Oakland|+1.5||||
+Utah Tech|California|+15.5||||
+Morgan State|Loyola (MD)|+1.5||||
+Manhattan|Le Moyne|+2.5||||
+Colorado|Providence|+9.5||||
+Lincoln (CA)|Weber State|||||
+S. Alabama|North Texas|+8.5||||
+UC Riverside|Fresno State|+5.5||||
+Penn|Saint Joe's|+4.5||||
+N.J.I.T.|Fairfield|+11.5||||
+West Georgia|Charleston So|+3.5||||
+Brown|Siena|+8.5||||
+UAB|Jax State|-2.5||||
+Rider|Villanova|+36.5||||
+Washington|Utah|+2.5||||
+Portland State|San Francisco|+9.5||||
+Lipscomb|W. Carolina|+3.5||||
+Austin Peay|Wichita State|+12.5||||
+Louisiana|UNC Wilmington|||||
+UT Grande Valley|UT-Arlington|+4.5||||
+Howard|Davidson|+9.5||||
+Cincinnati|Dayton|-7.5||||
+IUIN|Morehead St|-2.5||||
+Binghamton|Duquesne|+14.5||||
+UMBC|Towson|+9.5||||
+UC Davis|Sac State|+3.5||||
+UL Monroe|Grand Canyon|+31.5||||
+LA Tech|Nicholls St|+1.5||||
+NW State|Ark-Little Rock|+8.5||||
+Furman|Belmont|+2.5||||
+Idaho State|Seattle|+15.5||||
+Utah Valley|Nevada|+10.5||||
+New Mexico|Santa Clara|+2.5||||

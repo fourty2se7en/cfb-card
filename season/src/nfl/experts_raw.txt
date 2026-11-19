@@ -1,0 +1,72 @@
+# Action Network expert picks, game pages. Week 10 game day read Sun Nov 15 ~7:20 AM Phoenix. game slug|name|last 30d W-L-P|pick. Props, team totals, quarters and halves dropped. WAS@NYG (played) dropped.
+patriots-lions|Mike McNamara|75-78-1|DET -148
+patriots-lions|Kody Malstrom|56-58-3|NE +3-115
+patriots-lions|Anthony Dabbundo|42-50-0|Over 50.5-110
+patriots-lions|Doug Ziefel|378-320-9|DET -2.5-113
+patriots-lions|Jeremiah Rose|53-53-1|NE +132
+patriots-lions|Sandy Plashkes|105-119-5|DET -2.5-112
+patriots-lions|Brandon Anderson|34-95-1|DET -2.5-111
+patriots-lions|Brian Bitler|76-85-0|NE +2.5+111
+patriots-lions|Frank Ammirante|75-67-0|Over 49.5-105
+patriots-lions|Action Pod NFL Picks|38-112-1|DET -2.5-120
+patriots-lions|Adam Kaufman|282-238-17|DET -2.5-113
+patriots-lions|John Feltman|83-68-2|DET -2.5-135
+patriots-lions|Kendra Middleton|14-20-0|DET -2.5-115
+patriots-lions|Kev Mahserejian|12-14-0|Under 51-113
+texans-browns|Doug Kezirian|5-7-0|HOU -4.5-115
+texans-browns|Action Pod NFL Picks|38-112-1|HOU -4.5-110
+jaguars-titans|Kody Malstrom|56-58-3|TEN +10.5+100
+jaguars-titans|Sandy Plashkes|105-119-5|Under 46.5-114
+jaguars-titans|Brian Bitler|76-85-0|TEN +10.5+100
+jaguars-titans|Brandon Kravitz|70-78-1|TEN +10-108
+vikings-packers|Mike McNamara|75-78-1|GB -3-110
+vikings-packers|Frank Ammirante|75-67-0|Under 42.5-115
+vikings-packers|John Feltman|83-68-2|MIN +3.5-115
+vikings-packers|Wags Wins|300-278-2|MIN +3.5-127
+dolphins-colts|Doug Ziefel|378-320-9|Under 40.5+100
+dolphins-colts|Doug Kezirian|5-7-0|IND -3.5-115
+dolphins-colts|Brandon Anderson|34-95-1|IND -3.5-110
+dolphins-colts|Brian Bitler|76-85-0|IND -4.5+102
+dolphins-colts|Action Pod NFL Picks|38-112-1|IND -3.5-118
+dolphins-colts|Kev Mahserejian|12-14-0|Over 38-110
+bills-jets|Sean Zerillo|153-142-1|Under 51.8-108
+bills-jets|Kody Malstrom|56-58-3|Over 50.5-110
+bills-jets|Doug Ziefel|378-320-9|Over 51.5+100
+bills-jets|Sandy Plashkes|105-119-5|NYJ +8-110
+bills-jets|Brandon Anderson|34-95-1|NYJ +376
+bills-jets|Brian Bitler|76-85-0|NYJ +7.5+102
+bills-jets|Action Pod NFL Picks|38-112-1|NYJ +350
+bills-jets|John Feltman|83-68-2|NYJ +8.5-120
+bills-jets|Kendra Middleton|14-20-0|Under 50.5+108
+bills-jets|Kev Mahserejian|12-14-0|NYJ +8.5-109
+panthers-saints|Ryan Minion|257-293-8|CAR +120
+panthers-saints|Sandy Plashkes|105-119-5|CAR +2-105
+panthers-saints|Kev Mahserejian|12-14-0|CAR +120
+chiefs-falcons|Kody Malstrom|56-58-3|Under 47.5-115
+chiefs-falcons|Doug Ziefel|378-320-9|ATL +3.5-114
+chiefs-falcons|Picks Office|0-0-0|Over 47.5-105
+chiefs-falcons|Action Pod NFL Picks|38-112-1|ATL +3.5-110
+chiefs-falcons|Kendra Middleton|14-20-0|KC -3-120
+chiefs-falcons|Kev Mahserejian|12-14-0|Over 45.5-110
+rams-cardinals|Kody Malstrom|56-58-3|Over 38.5-111
+rams-cardinals|Anthony Dabbundo|42-50-0|Under 45-110
+rams-cardinals|Doug Ziefel|378-320-9|Under 46-113
+rams-cardinals|Doug Kezirian|5-7-0|Under 39.5-111
+seahawks-raiders|Mike McNamara|75-78-1|LV +6.5-110
+seahawks-raiders|Brandon Kravitz|70-78-1|LV +6.5+104
+seahawks-raiders|Action Pod NFL Picks|38-112-1|LV +6.5-108
+49ers-cowboys|Mike McNamara|75-78-1|DAL +4.5-118
+49ers-cowboys|Sean Zerillo|153-142-1|DAL +4.5-113
+49ers-cowboys|Kody Malstrom|56-58-3|Under 56.5-110
+49ers-cowboys|Ryan Minion|257-293-8|DAL +4.5-110
+49ers-cowboys|Brandon Kravitz|70-78-1|DAL +4.5-108
+49ers-cowboys|John Feltman|83-68-2|DAL +4.5-120
+49ers-cowboys|Kendra Middleton|14-20-0|Under 56.5-111
+steelers-bengals|Kody Malstrom|56-58-3|Under 50-110
+steelers-bengals|Anthony Dabbundo|42-50-0|PIT +3.5-110
+steelers-bengals|Brandon Anderson|34-95-1|PIT +3.5-108
+steelers-bengals|Brian Bitler|76-85-0|PIT +3.5-102
+steelers-bengals|Brandon Kravitz|70-78-1|PIT +3.5-108
+steelers-bengals|Frank Ammirante|75-67-0|PIT +3.5-112
+steelers-bengals|Action Pod NFL Picks|38-112-1|PIT +3.5-110
+chargers-ravens|Kody Malstrom|56-58-3|Over 38-118

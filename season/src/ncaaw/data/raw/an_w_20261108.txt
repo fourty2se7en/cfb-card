@@ -1,0 +1,7 @@
+# Action Network NCAAW public betting, read Nov 8 2026 about 9:35 AM Phoenix: 6 games with an open, no ticket or money splits, sharp report empty. AN lists SC @ UNC and UK @ NCSU (ESPN: UNC @ SC and UK @ NCSU, neutral). Best odds then: ALA -17.5, WVU -6.5, IOWA +14.5, UK -5.5, SC -13.5, USU +46.5.
+ALA|TULN|-16.5|N/A|N/A|N/A|N/A
+WVU|GT|-7.5|N/A|N/A|N/A|N/A
+IOWA|CONN|+10.5|N/A|N/A|N/A|N/A
+UK|NCSU|-5.5|N/A|N/A|N/A|N/A
+SC|UNC|-13.5|N/A|N/A|N/A|N/A
+USU|USC|+38.5|N/A|N/A|N/A|N/A

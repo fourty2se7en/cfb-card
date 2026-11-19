@@ -1,0 +1,7 @@
+115~Collin Wilson~_Collin1~84-63-1 (+11.7u) last 30 days~USF +6.5~spread_home~game~6.5~-110~1.1
+115~Doug Ziefel~Dziefel7~119-90-4 (+14.2u) last 30 days~USF +5.5~spread_home~game~5.5~-110~0.55
+115~Duck~Joshua_Nunn~90-81 (+4.5u) last 30 days~MEM -5.5~spread_away~game~-5.5~-120~1
+115~Mike Calabrese~Breese~31-58-1 (-33.5u) last 30 days~MEM -3.5~spread_away~game~-3.5~-110~3
+115~BBOC: 6th Gear~BBOC6thGear~16-21-1 (-5.0u) last 30 days~MEM -3.5~spread_away~game~-3.5~-112~1
+117~Kody Malstrom~kmalstrom~27-29-1 (-3.0u) last 30 days~UL -10~spread_away~game~-10~-110~0.55
+117~Road to CFB~RoadtoCFB~30-24 (+3.6u) last 30 days~Under 49.5~under~game~49.5~-110~1.1

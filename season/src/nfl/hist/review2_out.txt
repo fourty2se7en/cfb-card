@@ -1,0 +1,69 @@
+107 games, weeks 1-7. Months: Sep = weeks 1-4, Oct = weeks 5-7. Last 3 weeks = [np.int64(5), np.int64(6), np.int64(7)].
+Openers: Action Network and DraftKings agree on 80 spreads and 70 totals.
+RLM fires (AN+DK): 21  (week-of): 10
+
+## Rule versions, AN+DK openers (the card as specified)
+  Favourite moneyline -200 to -100
+    signals agree, lead 1+                                       12-6-1 +2.4u  66.7% be 60.1% | Sep      4-2 +0.7u | Oct    8-4-1 +1.6u | last 3 wk    8-2-1 +3.6u QUALIFIES
+    signals agree, lead 2+                                       11-3-1 +4.7u  78.6% be 59.9% | Sep      3-0 +2.0u | Oct    8-3-1 +2.6u | last 3 wk    8-2-1 +3.6u QUALIFIES
+    signals agree, lead 3+                                        5-3-1 +0.3u  62.5% be 61.4% | Sep      1-0 +0.6u | Oct    4-3-1 -0.3u | last 3 wk    4-2-1 +0.7u QUALIFIES
+  Spread on the signal side
+    lead 2+                                                    41-24-6 +13.6u  63.1% be 52.1% | Sep  17-11-3 +4.4u | Oct  24-13-3 +9.2u | last 3 wk  19-10-1 +7.6u QUALIFIES
+    lead 3+                                                    30-16-5 +11.2u  65.2% be 52.2% | Sep   14-5-3 +7.6u | Oct  16-11-2 +3.6u | last 3 wk   12-8-1 +2.9u QUALIFIES
+    lead 4+                                                     21-11-3 +8.0u  65.6% be 52.2% | Sep    8-4-2 +3.1u | Oct   13-7-1 +4.9u | last 3 wk     10-6 +3.2u QUALIFIES
+  Underdog spread
+    signals on the dog + tested reason                          29-18-3 +8.6u  61.7% be 52.1% | Sep  13-10-1 +1.8u | Oct   16-8-2 +6.8u | last 3 wk   10-6-1 +3.2u QUALIFIES
+    signals on the dog, lead 2+                                 29-17-5 +9.4u  63.0% be 52.2% | Sep  13-10-2 +1.7u | Oct   16-7-3 +7.7u | last 3 wk   11-5-1 +5.1u QUALIFIES
+    signals on the dog + reason, lead 2+                       27-14-3 +10.7u  65.9% be 52.1% | Sep   12-8-1 +2.9u | Oct   15-6-2 +7.8u | last 3 wk   10-4-1 +5.2u QUALIFIES
+  Underdog moneyline +100 to +200
+    signals on the dog + reason                                   11-14 +2.5u  44.0% be 40.3% | Sep      6-6 +3.7u | Oct      5-8 -1.1u | last 3 wk      4-5 +0.6u QUALIFIES
+    signals on the dog + reason, lead 2+                          10-11 +3.7u  47.6% be 40.6% | Sep      5-5 +2.9u | Oct      5-6 +0.9u | last 3 wk      4-3 +2.6u QUALIFIES
+    signals on the dog, lead 3+                                    8-12 -0.6u  40.0% be 41.4% | Sep      5-5 +2.2u | Oct      3-7 -2.8u | last 3 wk      2-3 -0.1u 
+  Total, one-sided
+    money vs tickets or PRO on one side                           26-18 +5.7u  59.1% be 52.3% | Sep     13-9 +2.8u | Oct     13-9 +2.9u | last 3 wk      9-6 +2.2u QUALIFIES
+    ... with nothing scored against                               23-16 +5.0u  59.0% be 52.3% | Sep     12-7 +3.9u | Oct     11-9 +1.2u | last 3 wk      8-6 +1.4u QUALIFIES
+    PRO or big money on one side                                  31-21 +7.3u  59.6% be 52.3% | Sep    16-11 +3.6u | Oct    15-10 +3.7u | last 3 wk     10-7 +2.1u QUALIFIES
+    PRO or big money, nothing against                             28-16 +9.6u  63.6% be 52.3% | Sep     15-7 +6.7u | Oct     13-9 +2.9u | last 3 wk      9-6 +2.3u QUALIFIES
+  Over totals with signals
+    total score leans over by 1+                                  30-27 +0.4u  52.6% be 52.2% | Sep    17-19 -3.6u | Oct     13-8 +4.0u | last 3 wk      9-5 +3.3u QUALIFIES
+    leans over by 2+                                              22-22 -2.0u  50.0% be 52.3% | Sep    13-14 -2.2u | Oct      9-8 +0.2u | last 3 wk      5-5 -0.5u 
+    leans over by 3+                                              19-12 +5.2u  61.3% be 52.4% | Sep     11-8 +1.9u | Oct      8-4 +3.3u | last 3 wk      4-3 +0.6u QUALIFIES
+    money vs tickets or PRO on the over only                      15-11 +2.5u  57.7% be 52.4% | Sep     10-7 +2.0u | Oct      5-4 +0.6u | last 3 wk      3-3 -0.3u QUALIFIES  WARN last 3 wk negative
+    PRO or big money on the over only                             19-12 +5.2u  61.3% be 52.4% | Sep     12-7 +3.8u | Oct      7-5 +1.3u | last 3 wk      4-4 -0.4u QUALIFIES  WARN last 3 wk negative
+
+## Same rule versions with the week-of opener instead (comparison only)
+  Favourite moneyline -200 to -100
+    signals agree, lead 1+                                       12-6-1 +2.4u  66.7% be 60.0% | Sep      5-2 +1.7u | Oct    7-4-1 +0.7u | last 3 wk    7-2-1 +2.7u QUALIFIES
+    signals agree, lead 2+                                       11-3-1 +4.7u  78.6% be 59.8% | Sep      4-0 +3.0u | Oct    7-3-1 +1.7u | last 3 wk    7-2-1 +2.7u QUALIFIES
+    signals agree, lead 3+                                          6-3 +1.0u  66.7% be 61.0% | Sep      2-0 +1.3u | Oct      4-3 -0.3u | last 3 wk      4-2 +0.7u QUALIFIES
+  Spread on the signal side
+    lead 2+                                                    40-23-6 +13.5u  63.5% be 52.2% | Sep  18-11-3 +5.4u | Oct  22-12-3 +8.1u | last 3 wk  17-10-1 +5.5u QUALIFIES
+    lead 3+                                                    31-14-4 +14.2u  68.9% be 52.2% | Sep   15-5-2 +8.5u | Oct   16-9-2 +5.7u | last 3 wk   12-7-1 +4.0u QUALIFIES
+    lead 4+                                                      18-9-2 +7.3u  66.7% be 52.1% | Sep   10-4-1 +4.9u | Oct    8-5-1 +2.4u | last 3 wk      5-4 +0.7u QUALIFIES
+  Underdog spread
+    signals on the dog + tested reason                          29-18-3 +8.4u  61.7% be 52.2% | Sep  15-10-1 +3.7u | Oct   14-8-2 +4.8u | last 3 wk    8-6-1 +1.3u QUALIFIES
+    signals on the dog, lead 2+                                 27-16-5 +8.5u  62.8% be 52.3% | Sep  13-10-2 +1.7u | Oct   14-6-3 +6.7u | last 3 wk    9-5-1 +3.1u QUALIFIES
+    signals on the dog + reason, lead 2+                       26-13-3 +10.6u  66.7% be 52.2% | Sep   13-8-1 +3.7u | Oct   13-5-2 +6.9u | last 3 wk    8-4-1 +3.3u QUALIFIES
+  Underdog moneyline +100 to +200
+    signals on the dog + reason                                   10-14 +0.8u  41.7% be 40.6% | Sep      7-6 +4.7u | Oct      3-8 -3.8u | last 3 wk      2-5 -2.1u QUALIFIES  WARN last 3 wk negative
+    signals on the dog + reason, lead 2+                           9-10 +3.0u  47.4% be 41.0% | Sep      6-5 +3.9u | Oct      3-5 -0.8u | last 3 wk      2-3 -0.1u QUALIFIES  WARN last 3 wk negative
+    signals on the dog, lead 3+                                    8-11 +0.4u  42.1% be 41.6% | Sep      5-5 +2.2u | Oct      3-6 -1.8u | last 3 wk      2-3 -0.1u QUALIFIES  WARN last 3 wk negative
+
+## Reverse line movement alone (spread)
+  RLM, AN+DK opener                                              13-7-1 +5.2u  65.0% be 51.6% | Sep    2-1-1 +0.8u | Oct     11-6 +4.3u | last 3 wk     10-5 +4.3u QUALIFIES
+  RLM, week-of opener                                               8-2 +5.4u  80.0% be 51.6% | Sep      6-1 +4.5u | Oct      2-1 +0.9u | last 3 wk      1-1 -0.1u QUALIFIES  WARN last 3 wk negative
+
+## Pick-time check: game-day morning lines from the old card (107 of 107 games), graded at -110 (moneyline at the closing price)
+  Fav ML lead 1+ (morning price band)                            16-6-1 +4.6u  72.7% be 61.1% | Sep      5-2 +1.1u | Oct   11-4-1 +3.5u | last 3 wk   11-2-1 +5.5u QUALIFIES
+  Fav ML lead 2+ (morning price band)                            12-3-1 +5.2u  80.0% be 60.5% | Sep      4-0 +2.4u | Oct    8-3-1 +2.9u | last 3 wk    8-2-1 +3.9u QUALIFIES
+  Spread lead 2+                                               41-26-4 +11.3u  61.2% be 52.4% | Sep  18-13-1 +3.4u | Oct  23-13-3 +7.9u | last 3 wk  18-10-1 +6.4u QUALIFIES
+  Spread lead 3+                                                30-18-3 +9.3u  62.5% be 52.4% | Sep   15-7-1 +6.6u | Oct  15-11-2 +2.6u | last 3 wk   11-8-1 +2.0u QUALIFIES
+  Dog spread + reason                                           29-19-2 +7.4u  60.4% be 52.4% | Sep    13-11 +0.8u | Oct   16-8-2 +6.5u | last 3 wk   10-6-1 +3.1u QUALIFIES
+  Dog ML + reason (morning price band)                            11-14 +1.5u  44.0% be 41.6% | Sep      5-8 -0.3u | Oct      6-6 +1.8u | last 3 wk      4-3 +2.6u QUALIFIES
+  Total MvT or PRO one side                                       26-18 +5.6u  59.1% be 52.4% | Sep     13-9 +2.8u | Oct     13-9 +2.8u | last 3 wk      9-6 +2.2u QUALIFIES
+  Total PRO or BM one side                                        31-21 +7.2u  59.6% be 52.4% | Sep    16-11 +3.5u | Oct    15-10 +3.6u | last 3 wk     10-7 +2.1u QUALIFIES
+
+## Full re-check test suite (season, month, last 3 weeks)
+full suite written to review2_suite.txt; 102 test lines qualify of 194
+
+wrote review2_versions.csv

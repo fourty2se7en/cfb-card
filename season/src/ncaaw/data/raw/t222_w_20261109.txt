@@ -1,0 +1,5 @@
+menu|t222 time|team|spread price|total price|ml
+W|4p|PENN STATE (W)|+4.5-105|o145+105|
+W|4p|DAYTON (W)|-4.5-125|u145-135|
+W|7p|OREGON (W)|-9.5-125|o137.5-115|
+W|7p|GRAND CANYON (W)|+9.5-105|u137.5-115|

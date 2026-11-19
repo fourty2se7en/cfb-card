@@ -1,0 +1,496 @@
+{
+  "background_collection": "picks_bg",
+  "how": [
+    "Betting signals score each side: sharp action, big money, PRO systems, money vs tickets, fade the public, reverse line move.",
+    "A pick is made only when the game fits a rule that is on, checked in order: favourite moneyline, then spread, then total.",
+    "Props are graded by stat and side (PASS, RUSH, REC, Over or Under) with a PLAY or LEAN edge; only rules that are on reach the card.",
+    "Every other prop is graded in the background so a rule can be promoted later."
+  ],
+  "notes": "Price limits are locked: favourite moneyline no longer than -200, underdog +100 to +200. Game rules turn off at 20+ picks with negative season units and move to their stricter version after 30+ picks when it does better. Warnings: total_one_sided is negative over the last 3 weeks (6-9, -3.5u); total_one_sided is negative in Nov (2-5, -3.2u). Prop changes Nov 2: RUSH Over PLAY demoted (4-16, -12.5u); REC Over PLAY demoted (23-27, -6.4u); REC Under PLAY demoted (10-12, -3.1u); REC Under LEAN promoted (150-120, +13.8u). Nov 6 policy (Trina, Nov 5): active rules must be green season to date and this month. Switched: Total, money vs tickets or PRO systems on one side only off.",
+  "policy": {
+    "month_min": 5,
+    "off_min": 20,
+    "on_min": 0,
+    "text": [
+      "A rule is active only while its season to date and this month are both in the green (positive units).",
+      "Timing is unchanged: a rule can only switch off once it has 20+ season picks. The month counts once it has 5+ picks.",
+      "A rule turns off when its season units go negative, or this month goes negative on 5+ picks.",
+      "An inactive rule keeps being graded on every game it fits and turns back on when season and month are both green."
+    ]
+  },
+  "prop_lean_tracking": false,
+  "rules": [
+    {
+      "desc": "Signals favour the favourite by 1+ and its moneyline is -200 to -100.",
+      "every_game": "14-7-1 +2.72u",
+      "key": "fav_ml",
+      "keys": [
+        "fav_ml"
+      ],
+      "label": "Favourite moneyline -200 to -100, signals agree by 1+",
+      "last_3_weeks": "6-1 +3.4u",
+      "market": "Moneyline",
+      "month": {
+        "l": 1,
+        "label": "Nov",
+        "p": 0,
+        "u": 0.4,
+        "w": 2
+      },
+      "on": true,
+      "season": {
+        "l": 7,
+        "p": 1,
+        "u": 2.72,
+        "w": 14
+      },
+      "version": "lowered"
+    },
+    {
+      "desc": "Spread on the signal side when the signal lead is 2+.",
+      "every_game": "36-23-5 +10.01u",
+      "key": "spread",
+      "keys": [
+        "spread"
+      ],
+      "label": "Spread, signal lead 2+",
+      "last_3_weeks": "15-8 +5.9u",
+      "market": "Spread",
+      "month": {
+        "l": 3,
+        "label": "Nov",
+        "p": 0,
+        "u": 1.7,
+        "w": 5
+      },
+      "on": true,
+      "season": {
+        "l": 23,
+        "p": 5,
+        "u": 10.01,
+        "w": 36
+      },
+      "version": "lowered"
+    },
+    {
+      "back_on": "Back on when season and month are both green.",
+      "desc": "Money vs tickets or PRO systems sit on one side of the total only.",
+      "every_game": "28-23 +2.58u",
+      "key": "total_one_sided",
+      "keys": [
+        "total_one_sided"
+      ],
+      "label": "Total, money vs tickets or PRO systems on one side only",
+      "last_3_weeks": "6-9 -3.5u",
+      "market": "Total",
+      "month": {
+        "l": 5,
+        "label": "Nov",
+        "p": 0,
+        "u": -3.2,
+        "w": 2
+      },
+      "on": false,
+      "season": {
+        "l": 23,
+        "p": 0,
+        "u": 2.58,
+        "w": 28
+      },
+      "switched": "Off Nov 6: November 2-5, -3.2u on 7 picks",
+      "version": "lowered"
+    },
+    {
+      "back_on": "Re-tested weekly by the re-check.",
+      "desc": "Underdog moneyline +100 to +200 with a reason qualifies alone (11-14, +2.5u) but October is -1.1u, and after the spread rule it never fires.",
+      "key": "dog_ml",
+      "keys": [
+        "dog_ml"
+      ],
+      "label": "Underdog moneyline",
+      "market": "Moneyline",
+      "on": false,
+      "switched": "Never on"
+    },
+    {
+      "back_on": "Re-tested weekly by the re-check.",
+      "desc": "Underdog spread with a reason qualifies alone (29-18-3, +8.6u), but after the spread rule the leftover games go 2-4.",
+      "key": "dog_spread",
+      "keys": [
+        "dog_spread"
+      ],
+      "label": "Underdog spread",
+      "market": "Spread",
+      "on": false,
+      "switched": "Never on"
+    },
+    {
+      "back_on": "Re-tested weekly by the re-check.",
+      "desc": "Over when signals lean over by 3+ fails the pick-time check (5-5 on morning lines).",
+      "key": "over",
+      "keys": [
+        "over"
+      ],
+      "label": "Overs",
+      "market": "Total",
+      "on": false,
+      "switched": "Never on"
+    },
+    {
+      "be": 0.529,
+      "desc": "Passing yards over with a model edge of 3+ (record and rate agree, 4+ games).",
+      "every_game": "2-4 -2.22u",
+      "key": "PASS Over PLAY",
+      "keys": [
+        "PASS Over PLAY"
+      ],
+      "label": "Prop: PASS Over, edge 3+",
+      "last_3_weeks": "1-2 -1.12u",
+      "market": "Prop",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 0.88,
+        "w": 1
+      },
+      "on": true,
+      "on_min": 30,
+      "season": {
+        "l": 4,
+        "p": 0,
+        "u": -2.22,
+        "w": 2
+      },
+      "tier": "PLAY"
+    },
+    {
+      "back_on": "On at 30+ season picks with season and month green, win % above break-even and the last 3 weeks not losing.",
+      "be": 0.5283,
+      "desc": "Passing yards over with a model edge of 1.5+.",
+      "every_game": "25-23 -0.68u",
+      "key": "PASS Over LEAN",
+      "keys": [
+        "PASS Over LEAN"
+      ],
+      "label": "Prop: PASS Over, edge 1.5+",
+      "last_3_weeks": "5-6 -1.54u",
+      "market": "Prop",
+      "month": {
+        "l": 2,
+        "label": "Nov",
+        "p": 0,
+        "u": 1.56,
+        "w": 4
+      },
+      "on": false,
+      "on_min": 30,
+      "season": {
+        "l": 23,
+        "p": 0,
+        "u": -0.68,
+        "w": 25
+      },
+      "switched": "Never on",
+      "tier": "LEAN"
+    },
+    {
+      "be": 0.5275,
+      "desc": "Passing yards under with a model edge of 3+ (record and rate agree, 4+ games).",
+      "every_game": "0-3 -3.00u",
+      "key": "PASS Under PLAY",
+      "keys": [
+        "PASS Under PLAY"
+      ],
+      "label": "Prop: PASS Under, edge 3+",
+      "last_3_weeks": "0-3 -3.00u",
+      "market": "Prop",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 0,
+        "w": 0
+      },
+      "on": true,
+      "on_min": 30,
+      "season": {
+        "l": 3,
+        "p": 0,
+        "u": -3,
+        "w": 0
+      },
+      "tier": "PLAY"
+    },
+    {
+      "back_on": "On at 30+ season picks with season and month green, win % above break-even and the last 3 weeks not losing.",
+      "be": 0.5281,
+      "desc": "Passing yards under with a model edge of 1.5+.",
+      "every_game": "22-31 -11.32u",
+      "key": "PASS Under LEAN",
+      "keys": [
+        "PASS Under LEAN"
+      ],
+      "label": "Prop: PASS Under, edge 1.5+",
+      "last_3_weeks": "4-11 -7.40u",
+      "market": "Prop",
+      "month": {
+        "l": 3,
+        "label": "Nov",
+        "p": 0,
+        "u": -1.21,
+        "w": 2
+      },
+      "on": false,
+      "on_min": 30,
+      "season": {
+        "l": 31,
+        "p": 0,
+        "u": -11.32,
+        "w": 22
+      },
+      "switched": "Never on",
+      "tier": "LEAN"
+    },
+    {
+      "back_on": "On at 30+ season picks with season and month green, win % above break-even and the last 3 weeks not losing.",
+      "be": 0.5294,
+      "desc": "Rushing yards over with a model edge of 3+ (record and rate agree, 4+ games).",
+      "every_game": "4-17 -13.55u",
+      "key": "RUSH Over PLAY",
+      "keys": [
+        "RUSH Over PLAY"
+      ],
+      "label": "Prop: RUSH Over, edge 3+",
+      "last_3_weeks": "3-15 -12.42u",
+      "market": "Prop",
+      "month": {
+        "l": 7,
+        "label": "Nov",
+        "p": 0,
+        "u": -7,
+        "w": 0
+      },
+      "on": false,
+      "on_min": 30,
+      "season": {
+        "l": 17,
+        "p": 0,
+        "u": -13.55,
+        "w": 4
+      },
+      "switched": "Off Nov 2",
+      "tier": "PLAY"
+    },
+    {
+      "back_on": "On at 30+ season picks with season and month green, win % above break-even and the last 3 weeks not losing.",
+      "be": 0.5254,
+      "desc": "Rushing yards over with a model edge of 1.5+.",
+      "every_game": "66-114 -55.01u",
+      "key": "RUSH Over LEAN",
+      "keys": [
+        "RUSH Over LEAN"
+      ],
+      "label": "Prop: RUSH Over, edge 1.5+",
+      "last_3_weeks": "16-35 -20.69u",
+      "market": "Prop",
+      "month": {
+        "l": 15,
+        "label": "Nov",
+        "p": 0,
+        "u": -11.4,
+        "w": 4
+      },
+      "on": false,
+      "on_min": 30,
+      "season": {
+        "l": 114,
+        "p": 0,
+        "u": -55.01,
+        "w": 66
+      },
+      "switched": "Never on",
+      "tier": "LEAN"
+    },
+    {
+      "be": 0.5263,
+      "desc": "Rushing yards under with a model edge of 3+ (record and rate agree, 4+ games).",
+      "every_game": "7-6 +0.29u",
+      "key": "RUSH Under PLAY",
+      "keys": [
+        "RUSH Under PLAY"
+      ],
+      "label": "Prop: RUSH Under, edge 3+",
+      "last_3_weeks": "3-5 -2.33u",
+      "market": "Prop",
+      "month": {
+        "l": 3,
+        "label": "Nov",
+        "p": 0,
+        "u": -3,
+        "w": 0
+      },
+      "on": true,
+      "on_min": 30,
+      "season": {
+        "l": 6,
+        "p": 0,
+        "u": 0.29,
+        "w": 7
+      },
+      "tier": "PLAY",
+      "watch": "trending down: watch for demotion"
+    },
+    {
+      "back_on": "On at 30+ season picks with season and month green, win % above break-even and the last 3 weeks not losing.",
+      "be": 0.5298,
+      "desc": "Rushing yards under with a model edge of 1.5+.",
+      "every_game": "77-72 -3.37u",
+      "key": "RUSH Under LEAN",
+      "keys": [
+        "RUSH Under LEAN"
+      ],
+      "label": "Prop: RUSH Under, edge 1.5+",
+      "last_3_weeks": "23-28 -7.48u",
+      "market": "Prop",
+      "month": {
+        "l": 7,
+        "label": "Nov",
+        "p": 0,
+        "u": -2.55,
+        "w": 5
+      },
+      "on": false,
+      "on_min": 30,
+      "season": {
+        "l": 72,
+        "p": 0,
+        "u": -3.37,
+        "w": 77
+      },
+      "switched": "Never on",
+      "tier": "LEAN"
+    },
+    {
+      "back_on": "On at 30+ season picks with season and month green, win % above break-even and the last 3 weeks not losing.",
+      "be": 0.5267,
+      "desc": "Receiving yards over with a model edge of 3+ (record and rate agree, 4+ games).",
+      "every_game": "24-30 -8.45u",
+      "key": "REC Over PLAY",
+      "keys": [
+        "REC Over PLAY"
+      ],
+      "label": "Prop: REC Over, edge 3+",
+      "last_3_weeks": "21-26 -7.14u",
+      "market": "Prop",
+      "month": {
+        "l": 8,
+        "label": "Nov",
+        "p": 0,
+        "u": -3.58,
+        "w": 5
+      },
+      "on": false,
+      "on_min": 30,
+      "season": {
+        "l": 30,
+        "p": 0,
+        "u": -8.45,
+        "w": 24
+      },
+      "switched": "Off Nov 2",
+      "tier": "PLAY"
+    },
+    {
+      "back_on": "On at 30+ season picks with season and month green, win % above break-even and the last 3 weeks not losing.",
+      "be": 0.5264,
+      "desc": "Receiving yards over with a model edge of 1.5+.",
+      "every_game": "214-233 -39.52u",
+      "key": "REC Over LEAN",
+      "keys": [
+        "REC Over LEAN"
+      ],
+      "label": "Prop: REC Over, edge 1.5+",
+      "last_3_weeks": "65-61 -2.68u",
+      "market": "Prop",
+      "month": {
+        "l": 18,
+        "label": "Nov",
+        "p": 0,
+        "u": 2.11,
+        "w": 22
+      },
+      "on": false,
+      "on_min": 30,
+      "season": {
+        "l": 233,
+        "p": 0,
+        "u": -39.52,
+        "w": 214
+      },
+      "switched": "Never on",
+      "tier": "LEAN"
+    },
+    {
+      "back_on": "On at 30+ season picks with season and month green, win % above break-even and the last 3 weeks not losing.",
+      "be": 0.5277,
+      "desc": "Receiving yards under with a model edge of 3+ (record and rate agree, 4+ games).",
+      "every_game": "10-12 -3.07u",
+      "key": "REC Under PLAY",
+      "keys": [
+        "REC Under PLAY"
+      ],
+      "label": "Prop: REC Under, edge 3+",
+      "last_3_weeks": "10-12 -3.07u",
+      "market": "Prop",
+      "month": {
+        "l": 6,
+        "label": "Nov",
+        "p": 0,
+        "u": -3.28,
+        "w": 3
+      },
+      "on": false,
+      "on_min": 30,
+      "season": {
+        "l": 12,
+        "p": 0,
+        "u": -3.07,
+        "w": 10
+      },
+      "switched": "Off Nov 2",
+      "tier": "PLAY"
+    },
+    {
+      "be": 0.5286,
+      "desc": "Receiving yards under with a model edge of 1.5+.",
+      "every_game": "157-121 +19.05u",
+      "key": "REC Under LEAN",
+      "keys": [
+        "REC Under LEAN"
+      ],
+      "label": "Prop: REC Under, edge 1.5+",
+      "last_3_weeks": "52-34 +12.25u",
+      "market": "Prop",
+      "month": {
+        "l": 11,
+        "label": "Nov",
+        "p": 0,
+        "u": 5.11,
+        "w": 18
+      },
+      "note": "Promoted Nov 2.",
+      "on": true,
+      "on_min": 30,
+      "season": {
+        "l": 121,
+        "p": 0,
+        "u": 19.05,
+        "w": 157
+      },
+      "tier": "LEAN"
+    }
+  ],
+  "sport": "nfl",
+  "updated": "2026-11-05"
+}

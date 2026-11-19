@@ -1,0 +1,7 @@
+# Nov 12, 2026 ~3:55 PM Phoenix. American and Sun Belt post no availability report found; RotoBaller/news search found no items for Memphis, Louisiana, UL Monroe.
+# Props source = The Odds API player props posted today (texas222 retired Nov 12). ESPN box score usage in qb_usage.txt and qu_raw6.txt.
+Memphis|Marcus Stokes|QB|AVAILABLE|props|2026-11-12
+Louisiana|Lunch Winfield|QB|AVAILABLE|props|2026-11-12
+UL Monroe|Aidan Armenta|QB|AVAILABLE|props|2026-11-12
+South Florida|Michael Van Buren Jr.|QB|OUT|news|2026-11-06
+South Florida|Luke Kromenhoek|QB|AVAILABLE|news|2026-11-06

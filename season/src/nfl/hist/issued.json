@@ -1,0 +1,502 @@
+{
+ "2026-10-29_CAR-GB_total": {
+  "pick": "Over 47",
+  "price": -105,
+  "tier": "Thin",
+  "market": "Total",
+  "line": 47,
+  "rule": null,
+  "rule_label": null,
+  "issued": "2026-10-29T12:59:21.184372-07:00"
+ },
+ "2026-10-29_CAR-GB_side": {
+  "pick": "CAR ML",
+  "price": 160,
+  "tier": "Solid",
+  "market": "Moneyline",
+  "line": null,
+  "rule": null,
+  "rule_label": null,
+  "issued": "2026-10-29T14:04:28.351513-07:00"
+ },
+ "2026-11-01_BAL-BUF_side": {
+  "pick": "BAL +3",
+  "price": 100,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 3.0,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_BAL-BUF_total": {
+  "pick": "Over 55",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 55.0,
+  "rule": "total_one_sided",
+  "rule_label": "Total, money vs tickets or PRO systems on one side only",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_MIN-DET_side": {
+  "pick": "DET ML",
+  "price": -190,
+  "tier": "Strong",
+  "market": "Moneyline",
+  "line": null,
+  "rule": "fav_ml",
+  "rule_label": "Favourite moneyline -200 to -100, signals agree by 1+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_IND-JAX_total": {
+  "pick": "Under 46.5",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 46.5,
+  "rule": "total_one_sided",
+  "rule_label": "Total, money vs tickets or PRO systems on one side only",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_LV-NYJ_side": {
+  "pick": "NYJ ML",
+  "price": -135,
+  "tier": "Strong",
+  "market": "Moneyline",
+  "line": null,
+  "rule": "fav_ml",
+  "rule_label": "Favourite moneyline -200 to -100, signals agree by 1+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_CLE-PIT_side": {
+  "pick": "CLE +3.5",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 3.5,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_ATL-TB_side": {
+  "pick": "TB ML",
+  "price": -135,
+  "tier": "Strong",
+  "market": "Moneyline",
+  "line": null,
+  "rule": "fav_ml",
+  "rule_label": "Favourite moneyline -200 to -100, signals agree by 1+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_ATL-TB_total": {
+  "pick": "Under 43",
+  "price": -105,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 43.0,
+  "rule": "total_one_sided",
+  "rule_label": "Total, money vs tickets or PRO systems on one side only",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_LAC-LA_side": {
+  "pick": "LAC +6.5",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 6.5,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_LAC-LA_total": {
+  "pick": "Under 45.5",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 45.5,
+  "rule": "total_one_sided",
+  "rule_label": "Total, money vs tickets or PRO systems on one side only",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_NE-MIA_side": {
+  "pick": "MIA +7",
+  "price": -118,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 7.0,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_NE-MIA_total": {
+  "pick": "Under 41",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 41.0,
+  "rule": "total_one_sided",
+  "rule_label": "Total, money vs tickets or PRO systems on one side only",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_PHI-WAS_side": {
+  "pick": "WAS -6",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": -6.0,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_TEN-CIN_side": {
+  "pick": "TEN +13",
+  "price": -115,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 13.0,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_ARI-DAL_side": {
+  "pick": "ARI +7",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 7.0,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_CLE-PIT_total": {
+  "pick": "Over 39",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 39.0,
+  "rule": "total_one_sided",
+  "rule_label": "Total, money vs tickets or PRO systems on one side only",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-01_PHI-WAS_total": {
+  "pick": "Over 40",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 40.0,
+  "rule": "total_one_sided",
+  "rule_label": "Total, money vs tickets or PRO systems on one side only",
+  "issued": "2026-11-01T08:52:05.323302-07:00"
+ },
+ "2026-11-02_CHI-SEA_side": {
+  "pick": "CHI +3",
+  "price": 100,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 3.0,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-02T13:57:00.824476-07:00"
+ },
+ "2026-11-08_DEN-CAR_side": {
+  "pick": "CAR +2.5",
+  "price": 100,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 2.5,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_DAL-IND_side": {
+  "pick": "IND +4.5",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 4.5,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_NYJ-KC_side": {
+  "pick": "NYJ +9.5",
+  "price": -115,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 9.5,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_DET-MIA_side": {
+  "pick": "MIA +6.5",
+  "price": -115,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 6.5,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_DET-MIA_total": {
+  "pick": "Over 50",
+  "price": -110,
+  "tier": "Thin",
+  "market": "Total",
+  "line": 50.0,
+  "rule": "over",
+  "rule_label": "Over when the over signal score beats the under by 3+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_CLE-NO_side": {
+  "pick": "NO ML",
+  "price": -195,
+  "tier": "Strong",
+  "market": "Moneyline",
+  "line": null,
+  "rule": "fav_ml",
+  "rule_label": "Favourite moneyline -200 to -100, signals agree by 1+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_LA-WAS_side": {
+  "pick": "WAS +4.5",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 4.5,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_GB-NE_side": {
+  "pick": "NE ML",
+  "price": -175,
+  "tier": "Strong",
+  "market": "Moneyline",
+  "line": null,
+  "rule": "fav_ml",
+  "rule_label": "Favourite moneyline -200 to -100, signals agree by 1+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_ARI-SEA_side": {
+  "pick": "ARI +8",
+  "price": -105,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 8.0,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-08_TB-CHI_side": {
+  "pick": "TB +6",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 6.0,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-08T09:30:14.550889-07:00"
+ },
+ "2026-11-12_WAS-NYG_side": {
+  "pick": "WAS +1.5",
+  "price": -108,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 1.5,
+  "rule": "spread",
+  "rule_label": "Spread, signal lead 2+",
+  "issued": "2026-11-12T15:35:16.605885-07:00"
+ },
+ "2026-11-12_WAS-NYG_total": {
+  "pick": "Under 41",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 41.0,
+  "rule": "total_one_sided",
+  "rule_label": "Total, money vs tickets or PRO systems on one side only",
+  "issued": "2026-11-12T15:35:16.605885-07:00"
+ },
+ "2026-11-15_NE-DET_side": {
+  "pick": "DET ML",
+  "price": -145,
+  "tier": "Strong",
+  "market": "Moneyline",
+  "line": null,
+  "rule": "fav_ml",
+  "rule_label": "FG Favorite ML Lead 2+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_NE-DET_total": {
+  "pick": "Over 50.5",
+  "price": -113,
+  "tier": "Thin",
+  "market": "Total",
+  "line": 50.5,
+  "rule": "over",
+  "rule_label": "FG Over Lead 4+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_KC-ATL_side": {
+  "pick": "ATL +3",
+  "price": -102,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 3.0,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_KC-ATL_total": {
+  "pick": "Over 47.5",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 47.5,
+  "rule": "total_one_sided_mt",
+  "rule_label": "FG One-Sided Total Money vs Tickets",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_HOU-CLE_side": {
+  "pick": "CLE +4.5",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 4.5,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_HOU-CLE_total": {
+  "pick": "Under 40.5",
+  "price": -108,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 40.5,
+  "rule": "total_one_sided",
+  "rule_label": "FG One-Sided Total PRO or Big Money",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_MIN-GB_side": {
+  "pick": "MIN +2.5",
+  "price": 100,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 2.5,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_MIN-GB_total": {
+  "pick": "Over 42",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 42.0,
+  "rule": "total_one_sided_mt",
+  "rule_label": "FG One-Sided Total Money vs Tickets",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_MIA-IND_side": {
+  "pick": "MIA +4.5",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 4.5,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_MIA-IND_total": {
+  "pick": "Under 37.5",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 37.5,
+  "rule": "total_one_sided",
+  "rule_label": "FG One-Sided Total PRO or Big Money",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_BUF-NYJ_side": {
+  "pick": "NYJ +7.5",
+  "price": -109,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 7.5,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_JAX-TEN_side": {
+  "pick": "TEN +10.5",
+  "price": -105,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 10.5,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_JAX-TEN_total": {
+  "pick": "Under 46.5",
+  "price": -111,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 46.5,
+  "rule": "total_one_sided_mt",
+  "rule_label": "FG One-Sided Total Money vs Tickets",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_LA-ARI_side": {
+  "pick": "ARI +10",
+  "price": -111,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 10.0,
+  "rule": "spread_l2",
+  "rule_label": "FG Spread Lead 2",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_SEA-LV_side": {
+  "pick": "LV +6.5",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 6.5,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_SF-DAL_side": {
+  "pick": "DAL +4",
+  "price": -109,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 4.0,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_PIT-CIN_side": {
+  "pick": "PIT +3.5",
+  "price": -110,
+  "tier": "Strong",
+  "market": "Spread",
+  "line": 3.5,
+  "rule": "spread",
+  "rule_label": "FG Spread Lead 3+",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ },
+ "2026-11-15_PIT-CIN_total": {
+  "pick": "Under 49.5",
+  "price": -110,
+  "tier": "Solid",
+  "market": "Total",
+  "line": 49.5,
+  "rule": "total_one_sided",
+  "rule_label": "FG One-Sided Total PRO or Big Money",
+  "issued": "2026-11-15T06:46:35.610354-07:00"
+ }
+}

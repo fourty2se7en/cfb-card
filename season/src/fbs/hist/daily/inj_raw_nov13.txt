@@ -1,0 +1,11 @@
+# Nov 13, 2026 ~3:35 PM Phoenix. Conference availability pages did not load (theacc.com error page); QB status from news plus Odds API props posted today and ESPN box score usage.
+Florida State|Ashton Daniels|QB|AVAILABLE|props|2026-11-13
+Houston|Conner Weigman|QB|AVAILABLE|props|2026-11-13
+Illinois|Katin Houser|QB|AVAILABLE|props|2026-11-13
+Colorado|Isaac Wilson|QB|AVAILABLE|props|2026-11-13
+Colorado|Isaac Wilson|QB|AVAILABLE|news|2026-09-26
+UCLA|Ty Dieffenbach|QB|AVAILABLE|props|2026-11-13
+UCLA|Ty Dieffenbach|QB|AVAILABLE|news|2026-10-13
+UCLA|Nico Iamaleava|QB|OUT|news|2026-10-13
+Pittsburgh|Holden Geriner|QB|AVAILABLE|news|2026-11-06
+Pittsburgh|Mason Heintschel|QB|OUT|news|2026-11-06

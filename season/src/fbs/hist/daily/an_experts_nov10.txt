@@ -1,0 +1,28 @@
+289943|103|Stuck|Stuckey2|AKR +14.5|spread_home|game|14.5|-117|0.4|33-32-1 (+2.3u) last_month
+289943|103|Kody Malstrom|kmalstrom|WMU -13.5|spread_away|game|-13.5|-116|0.58|26-29-1 (-3.5u) last_month
+289943|103|Duck|Joshua_Nunn|WMU -13.5|spread_away|game|-13.5|-120|0.6|87-79 (+3.8u) last_month
+289943|103|Collin Whitchurch|cowhitchurch|WMU -13.5|spread_away|game|-13.5|-106|0.53|46-34 (+5.8u) last_month
+289943|103|Brian Bitler|BrianBitlerWins|AKR +14|spread_home|game|14|-105|3|20-26 (-21.1u) last_month
+289943|103|Dan Gaspar|MrTuttle05|C.Broughton u32.5 Rush Yds|custom|game|32.5|-114|1.14|61-42-10 (+14.5u) last_month
+289943|103|Dan Gaspar|MrTuttle05|A.Chenault u5.5 Recs|custom|game|5.5|-140|1.4|61-42-10 (+14.5u) last_month
+289943|103|Anders|AndersPicks|AKR +14.5|spread_home|game|14.5|-110|1.1|5-5 (+2.1u) last_month
+289943|103|Wags Wins|wagsischasing|Over 47.5|over|game|47.5|-115|1.73|52-51 (-3.3u) last_month
+289944|101|Stuck|Stuckey2|KENT +5.5|spread_away|game|5.5|-110|0.45|33-32-1 (+2.3u) last_month
+289944|101|Doug Ziefel|Dziefel7|Over 44.5|over|game|44.5|-115|0.57|118-90-4 (+13.7u) last_month
+289944|101|Duck|Joshua_Nunn|Under 43.5|under|game|43.5|-105|0.53|87-79 (+3.8u) last_month
+289944|101|Brian Bitler|BrianBitlerWins|Under 44.5|under|game|44.5|-110|3|20-26 (-21.1u) last_month
+289944|101|Brian Bitler|BrianBitlerWins|KENT +5.5|spread_away|game|5.5|-100|3|20-26 (-21.1u) last_month
+289944|101|Dan Gaspar|MrTuttle05|J.Kastantin o15.5 Rush Yds|custom|game|15.5|-114|1.14|61-42-10 (+14.5u) last_month
+289944|101|Allan Lem|allanlemdfs|Under 43.5|under|game|43.5|-110|0.55|5-2 (+1.4u) last_month
+289944|101|Road to CFB|RoadtoCFB|KENT +6|spread_away|game|6|-108|1.08|29-22 (+4.8u) last_month
+289944|101|Scott Rickenbach|scott_rickenbach|BGSU -4.5|spread_home|game|-4.5|-110|1|22-17-1 (+1.8u) last_month
+289944|101|John Feltman|johnfeltmanli_|BGSU u25.5|home_under|game|25.5|-125|1.25|54-41-1 (+6.5u) last_month
+289944|101|John Feltman|johnfeltmanli_|KENT +5.5|spread_away|game|5.5|-110|1.1|54-41-1 (+6.5u) last_month
+289944|101|Wags Wins|wagsischasing|Under 45.5|under|game|45.5|-120|1.5|52-51 (-3.3u) last_month
+289945|105|Collin Whitchurch|cowhitchurch|OHIO -108|ml_away|game|-108|-108|0.54|46-34 (+5.8u) last_month
+289945|105|Dan Gaspar|MrTuttle05|C.Ross o1.5 Recs|custom|game|1.5|170|0.59|61-42-10 (+14.5u) last_month
+289945|105|Dan Gaspar|MrTuttle05|C.Heavner o21.5 Pass Att|custom|game|21.5|-115|1.15|61-42-10 (+14.5u) last_month
+289945|105|Dan Gaspar|MrTuttle05|D.Dorwart u49.5 Rec Yds|custom|game|49.5|-114|1.14|61-42-10 (+14.5u) last_month
+289945|105|Colby Marchio|ColbyMBets|M-OH +1.5|spread_home|game|1.5|-108|1.1|3-3 (-0.4u) last_month
+289945|105|Road to CFB|RoadtoCFB|OHIO -113|ml_away|game|-113|-113|1.13|29-22 (+4.8u) last_month
+289945|105|Scott Rickenbach|scott_rickenbach|M-OH +1.5|spread_home|game|1.5|-120|1|22-17-1 (+1.8u) last_month

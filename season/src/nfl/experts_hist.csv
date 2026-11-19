@@ -1,0 +1,824 @@
+first_seen_utc,season,week,game,name,market,side,line,pick,result,final,source
+2026-09-04T23:50:16+00:00,2026,1,NE@SEA,Jared Dubin (CBS Sports),spread,SEA,-3.5,SEA -3.5,loss,"NE 10, SEA 13",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NE@SEA,Ryan Wilson (CBS Sports),spread,SEA,-3.5,SEA -3.5,loss,"NE 10, SEA 13",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NE@SEA,Micah Roberts (CBS Sports/SportsLine),spread,SEA,-4.5,SEA -4.5,loss,"NE 10, SEA 13",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NE@SEA,Matt Severance (CBS Sports/SportsLine),total,under,45.5,Under 45.5,win,"NE 10, SEA 13",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NE@SEA,Jason Logan (Covers),spread,SEA,-3.5,SEA -3.5,loss,"NE 10, SEA 13",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NE@SEA,Julian Edlow (DraftKings Network),spread,SEA,-3.5,SEA -3.5,loss,"NE 10, SEA 13",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,SF@LA,Jared Dubin (CBS Sports),spread,LA,-3.5,LA -3.5,loss,"SF 27, LA 7",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,SF@LA,Ryan Wilson (CBS Sports),spread,LA,-3.5,LA -3.5,loss,"SF 27, LA 7",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,SF@LA,Tyler Sullivan (CBS Sports),spread,SF,3.5,SF +3.5,win,"SF 27, LA 7",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,SF@LA,Jason Logan (Covers),total,under,48.5,Under 48.5,win,"SF 27, LA 7",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,CHI@CAR,Jared Dubin (CBS Sports),spread,CHI,-2.5,CHI -2.5,win,"CHI 59, CAR 37",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,CHI@CAR,Ryan Wilson (CBS Sports),spread,CHI,-2.5,CHI -2.5,win,"CHI 59, CAR 37",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,CHI@CAR,Tyler Sullivan (CBS Sports),spread,CHI,-2.5,CHI -2.5,win,"CHI 59, CAR 37",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,CHI@CAR,Jason Logan (Covers),spread,CHI,-2.5,CHI -2.5,win,"CHI 59, CAR 37",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,TB@CIN,Jared Dubin (CBS Sports),spread,TB,3.5,TB +3.5,loss,"TB 27, CIN 33",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,TB@CIN,Ryan Wilson (CBS Sports),spread,TB,3.5,TB +3.5,loss,"TB 27, CIN 33",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,TB@CIN,Tyler Sullivan (CBS Sports),spread,CIN,-3.5,CIN -3.5,win,"TB 27, CIN 33",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NO@DET,Jared Dubin (CBS Sports),spread,DET,-7.0,DET -7,loss,"NO 30, DET 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NO@DET,Ryan Wilson (CBS Sports),spread,NO,7.0,NO +7,win,"NO 30, DET 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NO@DET,Tyler Sullivan (CBS Sports),spread,DET,-7.0,DET -7,loss,"NO 30, DET 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NO@DET,Julian Edlow (DraftKings Network),total,over,48.5,Over 48.5,win,"NO 30, DET 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,BUF@HOU,Jared Dubin (CBS Sports),spread,HOU,1.5,HOU +1.5,loss,"BUF 36, HOU 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,BUF@HOU,Ryan Wilson (CBS Sports),spread,BUF,-1.5,BUF -1.5,win,"BUF 36, HOU 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,BUF@HOU,Tyler Sullivan (CBS Sports),spread,HOU,1.5,HOU +1.5,loss,"BUF 36, HOU 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,BUF@HOU,Eric Cohen (SportsLine),spread,HOU,1.5,"HOU +1.5, Texans 23 Bills 20",loss,"BUF 36, HOU 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,BUF@HOU,Jason Logan (Covers),total,over,45.5,Over 45.5,win,"BUF 36, HOU 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,BAL@IND,Jared Dubin (CBS Sports),spread,BAL,-3.5,BAL -3.5,win,"BAL 41, IND 23",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,BAL@IND,Ryan Wilson (CBS Sports),spread,BAL,-3.5,BAL -3.5,win,"BAL 41, IND 23",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,BAL@IND,Tyler Sullivan (CBS Sports),spread,IND,3.5,IND +3.5,loss,"BAL 41, IND 23",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,CLE@JAX,Jared Dubin (CBS Sports),spread,JAX,-7.5,JAX -7.5,win,"CLE 10, JAX 34",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,CLE@JAX,Ryan Wilson (CBS Sports),spread,CLE,7.5,CLE +7.5,loss,"CLE 10, JAX 34",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,CLE@JAX,Tyler Sullivan (CBS Sports),spread,JAX,-7.5,JAX -7.5,win,"CLE 10, JAX 34",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,ATL@PIT,Jared Dubin (CBS Sports),spread,PIT,-3.0,PIT -3,win,"ATL 13, PIT 20",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,ATL@PIT,Ryan Wilson (CBS Sports),spread,PIT,-3.0,PIT -3,win,"ATL 13, PIT 20",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,ATL@PIT,Tyler Sullivan (CBS Sports),spread,PIT,-3.0,PIT -3,win,"ATL 13, PIT 20",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NYJ@TEN,Jared Dubin (CBS Sports),spread,TEN,-1.5,TEN -1.5,loss,"NYJ 23, TEN 10",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NYJ@TEN,Ryan Wilson (CBS Sports),spread,TEN,-1.5,TEN -1.5,loss,"NYJ 23, TEN 10",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,NYJ@TEN,Tyler Sullivan (CBS Sports),spread,NYJ,1.5,NYJ +1.5,win,"NYJ 23, TEN 10",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,ARI@LAC,Jared Dubin (CBS Sports),spread,LAC,-10.5,LAC -10.5,loss,"ARI 26, LAC 14",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,ARI@LAC,Ryan Wilson (CBS Sports),spread,ARI,10.5,ARI +10.5,win,"ARI 26, LAC 14",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,ARI@LAC,Tyler Sullivan (CBS Sports),spread,ARI,10.5,ARI +10.5,win,"ARI 26, LAC 14",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,MIA@LV,Jared Dubin (CBS Sports),spread,LV,-3.5,LV -3.5,win,"MIA 13, LV 27",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,MIA@LV,Ryan Wilson (CBS Sports),spread,LV,-3.5,LV -3.5,win,"MIA 13, LV 27",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,MIA@LV,Tyler Sullivan (CBS Sports),spread,MIA,3.5,MIA +3.5,loss,"MIA 13, LV 27",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,GB@MIN,Jared Dubin (CBS Sports),spread,GB,1.5,GB +1.5,loss,"GB 22, MIN 39",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,GB@MIN,Ryan Wilson (CBS Sports),spread,MIN,-1.5,MIN -1.5,win,"GB 22, MIN 39",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,GB@MIN,Tyler Sullivan (CBS Sports),spread,MIN,-1.5,MIN -1.5,win,"GB 22, MIN 39",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,GB@MIN,Jason Logan (Covers),total,under,44.5,Under 44.5,loss,"GB 22, MIN 39",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,WAS@PHI,Jared Dubin (CBS Sports),spread,PHI,-4.5,PHI -4.5,loss,"WAS 22, PHI 24",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,WAS@PHI,Ryan Wilson (CBS Sports),spread,PHI,-4.5,PHI -4.5,loss,"WAS 22, PHI 24",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,WAS@PHI,Tyler Sullivan (CBS Sports),spread,PHI,-4.5,PHI -4.5,loss,"WAS 22, PHI 24",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,DAL@NYG,Jared Dubin (CBS Sports),spread,DAL,-2.5,DAL -2.5,loss,"DAL 20, NYG 28",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,DAL@NYG,Ryan Wilson (CBS Sports),spread,NYG,2.5,NYG +2.5,win,"DAL 20, NYG 28",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,DAL@NYG,Tyler Sullivan (CBS Sports),spread,NYG,2.5,NYG +2.5,win,"DAL 20, NYG 28",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,DAL@NYG,Jason Logan (Covers),total,over,48.5,Over 48.5,loss,"DAL 20, NYG 28",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,DEN@KC,Jared Dubin (CBS Sports),spread,DEN,2.5,DEN +2.5,loss,"DEN 10, KC 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,DEN@KC,Ryan Wilson (CBS Sports),spread,DEN,2.5,DEN +2.5,loss,"DEN 10, KC 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,DEN@KC,Tyler Sullivan (CBS Sports),spread,DEN,2.5,DEN +2.5,loss,"DEN 10, KC 31",nfl-card repo
+2026-09-04T23:50:16+00:00,2026,1,DEN@KC,Jason Logan (Covers),total,under,42.5,Under 42.5,win,"DEN 10, KC 31",nfl-card repo
+2026-09-16T03:18:22+00:00,2026,2,WAS@DAL,Eric Cohen (SportsLine),moneyline,DAL,,"Cowboys 34, Commanders 26",win,"WAS 20, DAL 37",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CAR@ATL,Pete Prisco (CBS Sports),spread,ATL,2.5,ATL +2.5,loss,"CAR 34, ATL 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CAR@ATL,Jared Dubin (CBS Sports),spread,CAR,-2.5,CAR -2.5,win,"CAR 34, ATL 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CAR@ATL,Ryan Wilson (CBS Sports),spread,CAR,-2.5,CAR -2.5,win,"CAR 34, ATL 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CAR@ATL,John Breech (CBS Sports),spread,CAR,-2.5,CAR -2.5,win,"CAR 34, ATL 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CAR@ATL,Tyler Sullivan (CBS Sports),spread,CAR,-2.5,CAR -2.5,win,"CAR 34, ATL 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CAR@ATL,Dave Richard (CBS Sports),spread,CAR,-2.5,CAR -2.5,win,"CAR 34, ATL 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CAR@ATL,Jamey Eisenberg (CBS Sports),spread,CAR,-2.5,CAR -2.5,win,"CAR 34, ATL 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NO@BAL,Pete Prisco (CBS Sports),spread,BAL,-8.5,BAL -8.5,loss,"NO 24, BAL 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NO@BAL,Jared Dubin (CBS Sports),spread,NO,8.5,NO +8.5,win,"NO 24, BAL 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NO@BAL,Ryan Wilson (CBS Sports),spread,NO,8.5,NO +8.5,win,"NO 24, BAL 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NO@BAL,John Breech (CBS Sports),spread,NO,8.5,NO +8.5,win,"NO 24, BAL 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NO@BAL,Tyler Sullivan (CBS Sports),spread,BAL,-8.5,BAL -8.5,loss,"NO 24, BAL 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NO@BAL,Dave Richard (CBS Sports),spread,NO,8.5,NO +8.5,win,"NO 24, BAL 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NO@BAL,Jamey Eisenberg (CBS Sports),spread,NO,8.5,NO +8.5,win,"NO 24, BAL 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NO@BAL,Jordan Dajani (CBS Sports),spread,NO,8.5,NO +8.5,win,"NO 24, BAL 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIN@CHI,Pete Prisco (CBS Sports),spread,CHI,-5.5,CHI -5.5,loss,"MIN 9, CHI 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIN@CHI,Jared Dubin (CBS Sports),spread,MIN,5.5,MIN +5.5,win,"MIN 9, CHI 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIN@CHI,Ryan Wilson (CBS Sports),spread,MIN,5.5,MIN +5.5,win,"MIN 9, CHI 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIN@CHI,John Breech (CBS Sports),spread,MIN,5.5,MIN +5.5,win,"MIN 9, CHI 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIN@CHI,Tyler Sullivan (CBS Sports),spread,CHI,-5.5,CHI -5.5,loss,"MIN 9, CHI 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIN@CHI,Dave Richard (CBS Sports),spread,MIN,5.5,MIN +5.5,win,"MIN 9, CHI 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIN@CHI,Jamey Eisenberg (CBS Sports),spread,MIN,5.5,MIN +5.5,win,"MIN 9, CHI 3",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CIN@HOU,Pete Prisco (CBS Sports),spread,HOU,-2.5,HOU -2.5,loss,"CIN 20, HOU 6",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CIN@HOU,Jared Dubin (CBS Sports),spread,HOU,-2.5,HOU -2.5,loss,"CIN 20, HOU 6",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CIN@HOU,Ryan Wilson (CBS Sports),spread,CIN,2.5,CIN +2.5,win,"CIN 20, HOU 6",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CIN@HOU,John Breech (CBS Sports),spread,CIN,2.5,CIN +2.5,win,"CIN 20, HOU 6",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CIN@HOU,Tyler Sullivan (CBS Sports),spread,CIN,2.5,CIN +2.5,win,"CIN 20, HOU 6",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CIN@HOU,Dave Richard (CBS Sports),spread,CIN,2.5,CIN +2.5,win,"CIN 20, HOU 6",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CIN@HOU,Jamey Eisenberg (CBS Sports),spread,CIN,2.5,CIN +2.5,win,"CIN 20, HOU 6",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PIT@NE,Pete Prisco (CBS Sports),spread,NE,-5.5,NE -5.5,win,"PIT 3, NE 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PIT@NE,Jared Dubin (CBS Sports),spread,NE,-5.5,NE -5.5,win,"PIT 3, NE 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PIT@NE,Ryan Wilson (CBS Sports),spread,PIT,5.5,PIT +5.5,loss,"PIT 3, NE 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PIT@NE,John Breech (CBS Sports),spread,NE,-5.5,NE -5.5,win,"PIT 3, NE 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PIT@NE,Tyler Sullivan (CBS Sports),spread,NE,-5.5,NE -5.5,win,"PIT 3, NE 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PIT@NE,Dave Richard (CBS Sports),spread,PIT,5.5,PIT +5.5,loss,"PIT 3, NE 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PIT@NE,Jamey Eisenberg (CBS Sports),spread,PIT,5.5,PIT +5.5,loss,"PIT 3, NE 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,GB@NYJ,Pete Prisco (CBS Sports),spread,GB,-3.5,GB -3.5,loss,"GB 20, NYJ 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,GB@NYJ,Jared Dubin (CBS Sports),spread,GB,-3.5,GB -3.5,loss,"GB 20, NYJ 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,GB@NYJ,Ryan Wilson (CBS Sports),spread,GB,-3.5,GB -3.5,loss,"GB 20, NYJ 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,GB@NYJ,John Breech (CBS Sports),spread,NYJ,3.5,NYJ +3.5,win,"GB 20, NYJ 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,GB@NYJ,Tyler Sullivan (CBS Sports),spread,NYJ,3.5,NYJ +3.5,win,"GB 20, NYJ 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,GB@NYJ,Dave Richard (CBS Sports),spread,NYJ,3.5,NYJ +3.5,win,"GB 20, NYJ 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,GB@NYJ,Jamey Eisenberg (CBS Sports),spread,NYJ,3.5,NYJ +3.5,win,"GB 20, NYJ 17",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CLE@TB,Pete Prisco (CBS Sports),spread,TB,-8.5,TB -8.5,loss,"CLE 23, TB 19",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CLE@TB,Jared Dubin (CBS Sports),spread,TB,-8.5,TB -8.5,loss,"CLE 23, TB 19",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CLE@TB,Ryan Wilson (CBS Sports),spread,TB,-8.5,TB -8.5,loss,"CLE 23, TB 19",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CLE@TB,John Breech (CBS Sports),spread,TB,-8.5,TB -8.5,loss,"CLE 23, TB 19",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CLE@TB,Tyler Sullivan (CBS Sports),spread,TB,-8.5,TB -8.5,loss,"CLE 23, TB 19",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CLE@TB,Dave Richard (CBS Sports),spread,TB,-8.5,TB -8.5,loss,"CLE 23, TB 19",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,CLE@TB,Jamey Eisenberg (CBS Sports),spread,TB,-8.5,TB -8.5,loss,"CLE 23, TB 19",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PHI@TEN,Pete Prisco (CBS Sports),spread,PHI,-7.0,PHI -7,loss,"PHI 24, TEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PHI@TEN,Jared Dubin (CBS Sports),spread,PHI,-7.0,PHI -7,loss,"PHI 24, TEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PHI@TEN,Ryan Wilson (CBS Sports),spread,PHI,-7.0,PHI -7,loss,"PHI 24, TEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PHI@TEN,John Breech (CBS Sports),spread,PHI,-7.0,PHI -7,loss,"PHI 24, TEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PHI@TEN,Tyler Sullivan (CBS Sports),spread,PHI,-7.0,PHI -7,loss,"PHI 24, TEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PHI@TEN,Dave Richard (CBS Sports),spread,PHI,-7.0,PHI -7,loss,"PHI 24, TEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,PHI@TEN,Jamey Eisenberg (CBS Sports),spread,PHI,-7.0,PHI -7,loss,"PHI 24, TEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,JAX@DEN,Pete Prisco (CBS Sports),spread,JAX,2.5,JAX +2.5,loss,"JAX 13, DEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,JAX@DEN,Jared Dubin (CBS Sports),spread,DEN,-2.5,DEN -2.5,win,"JAX 13, DEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,JAX@DEN,Ryan Wilson (CBS Sports),spread,JAX,2.5,JAX +2.5,loss,"JAX 13, DEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,JAX@DEN,John Breech (CBS Sports),spread,DEN,-2.5,DEN -2.5,win,"JAX 13, DEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,JAX@DEN,Tyler Sullivan (CBS Sports),spread,JAX,2.5,JAX +2.5,loss,"JAX 13, DEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,JAX@DEN,Dave Richard (CBS Sports),spread,JAX,2.5,JAX +2.5,loss,"JAX 13, DEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,JAX@DEN,Jamey Eisenberg (CBS Sports),spread,JAX,2.5,JAX +2.5,loss,"JAX 13, DEN 20",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,LV@LAC,Pete Prisco (CBS Sports),spread,LAC,-7.0,LAC -7,loss,"LV 26, LAC 14",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,LV@LAC,Jared Dubin (CBS Sports),spread,LAC,-7.0,LAC -7,loss,"LV 26, LAC 14",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,LV@LAC,Ryan Wilson (CBS Sports),spread,LV,7.0,LV +7,win,"LV 26, LAC 14",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,LV@LAC,John Breech (CBS Sports),spread,LAC,-7.0,LAC -7,loss,"LV 26, LAC 14",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,LV@LAC,Tyler Sullivan (CBS Sports),spread,LAC,-7.0,LAC -7,loss,"LV 26, LAC 14",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,LV@LAC,Dave Richard (CBS Sports),spread,LV,7.0,LV +7,win,"LV 26, LAC 14",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,LV@LAC,Jamey Eisenberg (CBS Sports),spread,LV,7.0,LV +7,win,"LV 26, LAC 14",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,SEA@ARI,Pete Prisco (CBS Sports),spread,SEA,-4.5,SEA -4.5,win,"SEA 31, ARI 7",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,SEA@ARI,Jared Dubin (CBS Sports),spread,SEA,-4.5,SEA -4.5,win,"SEA 31, ARI 7",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,SEA@ARI,Ryan Wilson (CBS Sports),spread,SEA,-4.5,SEA -4.5,win,"SEA 31, ARI 7",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,SEA@ARI,John Breech (CBS Sports),spread,ARI,4.5,ARI +4.5,loss,"SEA 31, ARI 7",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,SEA@ARI,Tyler Sullivan (CBS Sports),spread,SEA,-4.5,SEA -4.5,win,"SEA 31, ARI 7",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,SEA@ARI,Dave Richard (CBS Sports),spread,SEA,-4.5,SEA -4.5,win,"SEA 31, ARI 7",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,SEA@ARI,Jamey Eisenberg (CBS Sports),spread,ARI,4.5,ARI +4.5,loss,"SEA 31, ARI 7",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,WAS@DAL,Pete Prisco (CBS Sports),spread,DAL,-3.5,DAL -3.5,win,"WAS 20, DAL 37",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,WAS@DAL,Jared Dubin (CBS Sports),spread,DAL,-3.5,DAL -3.5,win,"WAS 20, DAL 37",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,WAS@DAL,Ryan Wilson (CBS Sports),spread,WAS,3.5,WAS +3.5,loss,"WAS 20, DAL 37",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,WAS@DAL,John Breech (CBS Sports),spread,DAL,-3.5,DAL -3.5,win,"WAS 20, DAL 37",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,WAS@DAL,Tyler Sullivan (CBS Sports),spread,WAS,3.5,WAS +3.5,loss,"WAS 20, DAL 37",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,WAS@DAL,Dave Richard (CBS Sports),spread,WAS,3.5,WAS +3.5,loss,"WAS 20, DAL 37",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,WAS@DAL,Jamey Eisenberg (CBS Sports),spread,DAL,-3.5,DAL -3.5,win,"WAS 20, DAL 37",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIA@SF,Pete Prisco (CBS Sports),spread,SF,-13.5,SF -13.5,win,"MIA 13, SF 35",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIA@SF,Jared Dubin (CBS Sports),spread,MIA,13.5,MIA +13.5,loss,"MIA 13, SF 35",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIA@SF,Ryan Wilson (CBS Sports),spread,MIA,13.5,MIA +13.5,loss,"MIA 13, SF 35",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIA@SF,John Breech (CBS Sports),spread,SF,-13.5,SF -13.5,win,"MIA 13, SF 35",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIA@SF,Tyler Sullivan (CBS Sports),spread,SF,-13.5,SF -13.5,win,"MIA 13, SF 35",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIA@SF,Dave Richard (CBS Sports),spread,MIA,13.5,MIA +13.5,loss,"MIA 13, SF 35",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,MIA@SF,Jamey Eisenberg (CBS Sports),spread,SF,-13.5,SF -13.5,win,"MIA 13, SF 35",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,IND@KC,Pete Prisco (CBS Sports),spread,KC,-6.5,KC -6.5,loss,"IND 30, KC 33",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,IND@KC,Jared Dubin (CBS Sports),spread,IND,6.5,IND +6.5,win,"IND 30, KC 33",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,IND@KC,Ryan Wilson (CBS Sports),spread,IND,6.5,IND +6.5,win,"IND 30, KC 33",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,IND@KC,John Breech (CBS Sports),spread,KC,-6.5,KC -6.5,loss,"IND 30, KC 33",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,IND@KC,Tyler Sullivan (CBS Sports),spread,KC,-6.5,KC -6.5,loss,"IND 30, KC 33",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,IND@KC,Dave Richard (CBS Sports),spread,IND,6.5,IND +6.5,win,"IND 30, KC 33",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,IND@KC,Jamey Eisenberg (CBS Sports),spread,IND,6.5,IND +6.5,win,"IND 30, KC 33",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NYG@LA,Pete Prisco (CBS Sports),spread,LA,-7.0,LA -7,win,"NYG 6, LA 28",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NYG@LA,Jared Dubin (CBS Sports),spread,LA,-7.0,LA -7,win,"NYG 6, LA 28",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NYG@LA,Ryan Wilson (CBS Sports),spread,NYG,7.0,NYG +7,loss,"NYG 6, LA 28",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NYG@LA,John Breech (CBS Sports),spread,NYG,7.0,NYG +7,loss,"NYG 6, LA 28",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NYG@LA,Tyler Sullivan (CBS Sports),spread,LA,-7.0,LA -7,win,"NYG 6, LA 28",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NYG@LA,Dave Richard (CBS Sports),spread,NYG,7.0,NYG +7,loss,"NYG 6, LA 28",nfl-card repo
+2026-09-18T19:48:58+00:00,2026,2,NYG@LA,Jamey Eisenberg (CBS Sports),spread,NYG,7.0,NYG +7,loss,"NYG 6, LA 28",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,ATL@GB,Peter Dewey (Sports Illustrated),spread,GB,-7.0,GB -7,loss,"ATL 35, GB 14",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,ATL@GB,Iain MacMillan (Sports Illustrated),spread,ATL,6.5,ATL +6.5,win,"ATL 35, GB 14",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,ATL@GB,Jason Logan (Covers),spread,ATL,7.5,ATL +7.5,win,"ATL 35, GB 14",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,ATL@GB,Jason Logan (Covers),total,under,44.5,Under 44.5,loss,"ATL 35, GB 14",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,ATL@GB,Zachary Cohen (VSiN),spread,ATL,6.5,ATL +6.5,win,"ATL 35, GB 14",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,LAC@BUF,Iain MacMillan (Sports Illustrated),total,over,49.5,Over 49.5,loss,"LAC 16, BUF 24",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,CAR@CLE,Ryan Gilbert (Sports Illustrated),total,over,42.5,Over 42.5,loss,"CAR 18, CLE 21",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,CAR@CLE,Iain MacMillan (Sports Illustrated),total,over,42.0,Over 42,loss,"CAR 18, CLE 21",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,CAR@CLE,Jason Logan (Covers),total,over,41.5,Over 41.5,loss,"CAR 18, CLE 21",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,CAR@CLE,Eric Cohen (SportsLine),moneyline,CAR,,Panthers to win outright,loss,"CAR 18, CLE 21",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,NYJ@DET,Ryan Gilbert (Sports Illustrated),spread,NYJ,6.5,NYJ +6.5,loss,"NYJ 24, DET 31",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,NYJ@DET,Iain MacMillan (Sports Illustrated),spread,DET,-6.5,DET -6.5,win,"NYJ 24, DET 31",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,NYJ@DET,Ed Scimia (Covers),spread,DET,-6.5,DET -6.5,win,"NYJ 24, DET 31",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,NYJ@DET,Ed Scimia (Covers),total,under,48.5,Under 48.5,loss,"NYJ 24, DET 31",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,HOU@IND,Ryan Gilbert (Sports Illustrated),total,over,43.5,Over 43.5,loss,"HOU 17, IND 19",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,HOU@IND,Iain MacMillan (Sports Illustrated),spread,HOU,-2.5,HOU -2.5,loss,"HOU 17, IND 19",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,NE@JAX,Peter Dewey (Sports Illustrated),spread,NE,3.0,NE +3,loss,"NE 6, JAX 35",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,NE@JAX,Iain MacMillan (Sports Illustrated),spread,JAX,-2.5,JAX -2.5,win,"NE 6, JAX 35",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,NE@JAX,Jason Logan (Covers),spread,JAX,-2.5,JAX -2.5,win,"NE 6, JAX 35",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,KC@MIA,Ryan Gilbert (Sports Illustrated),spread,KC,-11.5,KC -11.5,win,"KC 24, MIA 10",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,KC@MIA,Iain MacMillan (Sports Illustrated),total,over,45.5,Over 45.5,loss,"KC 24, MIA 10",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,TEN@NYG,Ryan Gilbert (Sports Illustrated),total,under,40.5,Under 40.5,win,"TEN 7, NYG 12",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,TEN@NYG,Iain MacMillan (Sports Illustrated),moneyline,TEN,,TEN +162 moneyline,loss,"TEN 7, NYG 12",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,CIN@PIT,Ryan Gilbert (Sports Illustrated),total,under,42.5,Under 42.5,loss,"CIN 27, PIT 30",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,CIN@PIT,Iain MacMillan (Sports Illustrated),total,under,42.5,Under 42.5,loss,"CIN 27, PIT 30",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,CIN@PIT,Quinn Allen (Covers),spread,CIN,-3.5,CIN -3.5,loss,"CIN 27, PIT 30",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,CIN@PIT,Quinn Allen (Covers),total,under,42.5,Under 42.5,loss,"CIN 27, PIT 30",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,SEA@WAS,Peter Dewey (Sports Illustrated),spread,SEA,-7.0,SEA -7,loss,"SEA 31, WAS 33",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,SEA@WAS,Iain MacMillan (Sports Illustrated),spread,SEA,-6.5,SEA -6.5,loss,"SEA 31, WAS 33",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,SEA@WAS,Jason Logan (Covers),spread,WAS,7.5,WAS +7.5,win,"SEA 31, WAS 33",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,ARI@SF,Ryan Gilbert (Sports Illustrated),spread,SF,-8.5,SF -8.5,loss,"ARI 30, SF 36",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,ARI@SF,Iain MacMillan (Sports Illustrated),spread,SF,-7.5,SF -7.5,loss,"ARI 30, SF 36",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,MIN@TB,Iain MacMillan (Sports Illustrated),total,under,43.5,Under 43.5,win,"MIN 23, TB 16",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,BAL@DAL,Iain MacMillan (Sports Illustrated),spread,BAL,-3.0,BAL -3,push,"BAL 34, DAL 31",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,BAL@DAL,Neil Parker (Covers),spread,DAL,2.5,DAL +2.5,loss,"BAL 34, DAL 31",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,BAL@DAL,Neil Parker (Covers),total,over,52.5,Over 52.5,win,"BAL 34, DAL 31",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,LV@NO,Iain MacMillan (Sports Illustrated),total,under,43.5,Under 43.5,loss,"LV 35, NO 27",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,LV@NO,Geoff Clark (Covers),spread,NO,-3.5,NO -3.5,loss,"LV 35, NO 27",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,LV@NO,Geoff Clark (Covers),total,over,43.5,Over 43.5,win,"LV 35, NO 27",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,LA@DEN,Iain MacMillan (Sports Illustrated),spread,LA,-2.5,LA -2.5,loss,"LA 26, DEN 30",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,LA@DEN,Gary Pearson (Sportsbook Review),total,under,45.5,Under 45.5,loss,"LA 26, DEN 30",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,PHI@CHI,Iain MacMillan (Sports Illustrated),spread,CHI,3.5,CHI +3.5,win,"PHI 7, CHI 27",nfl-card repo
+2026-09-22T23:41:35+00:00,2026,3,PHI@CHI,Gary Pearson (Sportsbook Review),spread,PHI,-3.5,PHI -3.5,loss,"PHI 7, CHI 27",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,LAC@BUF,Owen O'Brien (CBS Sports),total,over,50.5,Over 50.5,loss,"LAC 16, BUF 24",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,LAC@BUF,Jason Logan (Covers),spread,LAC,7.5,LAC +7.5,loss,"LAC 16, BUF 24",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,CAR@CLE,Owen O'Brien (CBS Sports),spread,CLE,3.0,CLE +3,win,"CAR 18, CLE 21",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,CAR@CLE,Steve Makinen (VSiN),spread,CLE,2.5,CLE +2.5,win,"CAR 18, CLE 21",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,NYJ@DET,Steve Makinen (VSiN),spread,DET,-6.5,DET -6.5,win,"NYJ 24, DET 31",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,HOU@IND,Steve Makinen (VSiN),spread,IND,1.5,IND +1.5,win,"HOU 17, IND 19",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,NE@JAX,Owen O'Brien (CBS Sports),spread,NE,3.0,NE +3,loss,"NE 6, JAX 35",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,KC@MIA,Steve Makinen (VSiN),spread,MIA,10.5,MIA +10.5,loss,"KC 24, MIA 10",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,TEN@NYG,Owen O'Brien (CBS Sports),spread,TEN,3.0,TEN +3,loss,"TEN 7, NYG 12",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,SEA@WAS,Owen O'Brien (CBS Sports),spread,SEA,-6.5,SEA -6.5,loss,"SEA 31, WAS 33",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,ARI@SF,Owen O'Brien (CBS Sports),spread,ARI,8.5,ARI +8.5,win,"ARI 30, SF 36",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,ARI@SF,Steve Makinen (VSiN),spread,ARI,8.5,ARI +8.5,win,"ARI 30, SF 36",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,MIN@TB,Steve Makinen (VSiN),spread,TB,1.5,TB +1.5,loss,"MIN 23, TB 16",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,MIN@TB,Jason Logan (Covers),spread,TB,1.5,TB +1.5,loss,"MIN 23, TB 16",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,BAL@DAL,Steve Makinen (VSiN),total,over,52.5,Over 52.5,win,"BAL 34, DAL 31",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,LV@NO,Jason Logan (Covers),spread,LV,3.5,LV +3.5,win,"LV 35, NO 27",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,LA@DEN,Owen O'Brien (CBS Sports),spread,LA,-2.5,LA -2.5,loss,"LA 26, DEN 30",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,LA@DEN,Steve Makinen (VSiN),spread,DEN,2.5,DEN +2.5,win,"LA 26, DEN 30",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,PHI@CHI,Owen O'Brien (CBS Sports),total,under,44.5,Under 44.5,win,"PHI 7, CHI 27",nfl-card repo
+2026-09-25T23:11:48+00:00,2026,3,PHI@CHI,Steve Makinen (VSiN),spread,CHI,4.5,CHI +4.5,win,"PHI 7, CHI 27",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,PIT@CLE,Chris Vasile (Covers),spread,PIT,-2.5,PIT -2.5,loss,"PIT 24, CLE 27",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,PIT@CLE,John Breech (CBS Sports),spread,CLE,2.5,CLE +2.5,win,"PIT 24, CLE 27",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,IND@WAS,Chris Vasile (Covers),spread,WAS,3.5,WAS +3.5,loss,"IND 30, WAS 13",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,TEN@BAL,Chris Vasile (Covers),spread,TEN,11.5,TEN +11.5,win,"TEN 18, BAL 24",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,NE@BUF,Chris Vasile (Covers),spread,BUF,-6.5,BUF -6.5,loss,"NE 29, BUF 26",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,NYJ@CHI,Chris Vasile (Covers),spread,NYJ,3.5,NYJ +3.5,loss,"NYJ 12, CHI 23",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,JAX@CIN,Chris Vasile (Covers),spread,CIN,-2.5,CIN -2.5,loss,"JAX 22, CIN 17",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,JAX@CIN,John Breech (CBS Sports),spread,CIN,-2.5,CIN -2.5,loss,"JAX 22, CIN 17",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,DAL@HOU,Chris Vasile (Covers),spread,DAL,2.5,DAL +2.5,win,"DAL 34, HOU 30",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,DAL@HOU,John Breech (CBS Sports),spread,HOU,-2.5,HOU -2.5,loss,"DAL 34, HOU 30",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,ARI@NYG,Chris Vasile (Covers),spread,ARI,-1.5,ARI -1.5,loss,"ARI 24, NYG 36",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,ARI@NYG,Peter Dewey (Sports Illustrated),moneyline,ARI,,ARI moneyline,loss,"ARI 24, NYG 36",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,LA@PHI,Chris Vasile (Covers),spread,PHI,3.5,PHI +3.5,loss,"LA 24, PHI 20",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,GB@TB,Chris Vasile (Covers),spread,GB,-3.5,GB -3.5,loss,"GB 17, TB 14",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,MIA@MIN,Chris Vasile (Covers),spread,MIA,10.5,MIA +10.5,win,"MIA 10, MIN 15",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,KC@LV,Chris Vasile (Covers),spread,LV,4.5,LV +4.5,win,"KC 30, LV 27",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,KC@LV,John Breech (CBS Sports),spread,KC,-4.5,KC -4.5,loss,"KC 30, LV 27",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,LAC@SEA,Chris Vasile (Covers),spread,LAC,7.5,LAC +7.5,win,"LAC 23, SEA 30",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,DEN@SF,Chris Vasile (Covers),spread,SF,-2.5,SF -2.5,win,"DEN 14, SF 24",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,DET@CAR,Chris Vasile (Covers),spread,DET,-3.5,DET -3.5,loss,"DET 26, CAR 32",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,ATL@NO,Chris Vasile (Covers),spread,ATL,2.5,ATL +2.5,win,"ATL 45, NO 24",nfl-card repo
+2026-09-29T22:34:10+00:00,2026,4,ATL@NO,John Breech (CBS Sports),spread,ATL,2.5,ATL +2.5,win,"ATL 45, NO 24",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,IND@WAS,Jordan Dajani (CBS Sports),spread,IND,-3.5,IND -3.5,win,"IND 30, WAS 13",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,IND@WAS,Jared Dubin (CBS Sports),spread,WAS,3.5,WAS +3.5,loss,"IND 30, WAS 13",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,NE@BUF,Jordan Dajani (CBS Sports),spread,BUF,-7.0,BUF -7,loss,"NE 29, BUF 26",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,NE@BUF,Steve Makinen (VSiN),spread,NE,6.5,NE +6.5,win,"NE 29, BUF 26",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,JAX@CIN,Jordan Dajani (CBS Sports),spread,CIN,-2.5,CIN -2.5,loss,"JAX 22, CIN 17",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,JAX@CIN,Jared Dubin (CBS Sports),spread,JAX,2.5,JAX +2.5,win,"JAX 22, CIN 17",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,JAX@CIN,Steve Makinen (VSiN),spread,CIN,-2.5,CIN -2.5,loss,"JAX 22, CIN 17",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,DAL@HOU,Jordan Dajani (CBS Sports),spread,HOU,-2.5,HOU -2.5,loss,"DAL 34, HOU 30",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,DAL@HOU,Jared Dubin (CBS Sports),spread,HOU,-2.5,HOU -2.5,loss,"DAL 34, HOU 30",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,ARI@NYG,Steve Makinen (VSiN),spread,NYG,2.5,NYG +2.5,win,"ARI 24, NYG 36",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,LA@PHI,Jordan Dajani (CBS Sports),spread,LA,-3.5,LA -3.5,win,"LA 24, PHI 20",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,LA@PHI,Jared Dubin (CBS Sports),spread,LA,-3.0,LA -3,win,"LA 24, PHI 20",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,MIA@MIN,Jordan Dajani (CBS Sports),spread,MIN,-10.5,MIN -10.5,loss,"MIA 10, MIN 15",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,MIA@MIN,Steve Makinen (VSiN),spread,MIA,10.5,MIA +10.5,win,"MIA 10, MIN 15",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,KC@LV,Jordan Dajani (CBS Sports),spread,LV,4.5,LV +4.5,win,"KC 30, LV 27",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,KC@LV,Steve Makinen (VSiN),total,under,47.5,Under 47.5,loss,"KC 30, LV 27",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,LAC@SEA,Steve Makinen (VSiN),spread,LAC,7.0,LAC +7,push,"LAC 23, SEA 30",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,DEN@SF,Jordan Dajani (CBS Sports),spread,DEN,3.0,DEN +3,loss,"DEN 14, SF 24",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,DEN@SF,Jared Dubin (CBS Sports),spread,SF,-3.0,SF -3,win,"DEN 14, SF 24",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,DEN@SF,Steve Makinen (VSiN),spread,SF,-3.0,SF -3,win,"DEN 14, SF 24",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,DET@CAR,Jordan Dajani (CBS Sports),spread,DET,-3.5,DET -3.5,loss,"DET 26, CAR 32",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,DET@CAR,Jared Dubin (CBS Sports),spread,DET,-3.5,DET -3.5,loss,"DET 26, CAR 32",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,DET@CAR,Steve Makinen (VSiN),spread,CAR,3.5,CAR +3.5,win,"DET 26, CAR 32",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,ATL@NO,Jordan Dajani (CBS Sports),spread,NO,-3.0,NO -3,loss,"ATL 45, NO 24",nfl-card repo
+2026-10-02T16:40:33+00:00,2026,4,ATL@NO,Steve Makinen (VSiN),spread,ATL,2.5,ATL +2.5,win,"ATL 45, NO 24",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,TB@DAL,Tyler Sullivan (CBS Sports),spread,DAL,-8.5,DAL -8.5,loss,"TB 24, DAL 16",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,TB@DAL,Sascha Paruk (SportsBettingDime),spread,DAL,-9.5,DAL -9.5,loss,"TB 24, DAL 16",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,PHI@JAX,Tyler Sullivan (CBS Sports),spread,JAX,-6.5,JAX -6.5,loss,"PHI 17, JAX 19",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,PHI@JAX,Sascha Paruk (SportsBettingDime),spread,JAX,-4.5,JAX -4.5,loss,"PHI 17, JAX 19",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,CHI@GB,Tyler Sullivan (CBS Sports),spread,CHI,-2.5,CHI -2.5,loss,"CHI 7, GB 31",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,CHI@GB,Jason Logan (Covers),spread,GB,3.0,GB +3,win,"CHI 7, GB 31",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,CHI@GB,Sascha Paruk (SportsBettingDime),spread,GB,1.5,GB +1.5,win,"CHI 7, GB 31",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,CIN@MIA,Tyler Sullivan (CBS Sports),spread,CIN,-7.5,CIN -7.5,loss,"CIN 31, MIA 24",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,CIN@MIA,Sascha Paruk (SportsBettingDime),spread,CIN,-7.5,CIN -7.5,loss,"CIN 31, MIA 24",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,LV@NE,Tyler Sullivan (CBS Sports),spread,LV,3.5,LV +3.5,loss,"LV 17, NE 45",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,LV@NE,Sascha Paruk (SportsBettingDime),spread,LV,3.5,LV +3.5,loss,"LV 17, NE 45",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,MIN@NO,Tyler Sullivan (CBS Sports),spread,MIN,-1.5,MIN -1.5,win,"MIN 23, NO 13",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,MIN@NO,Sascha Paruk (SportsBettingDime),spread,MIN,-1.5,MIN -1.5,win,"MIN 23, NO 13",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,CLE@NYJ,Tyler Sullivan (CBS Sports),spread,NYJ,-2.5,NYJ -2.5,win,"CLE 12, NYJ 17",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,CLE@NYJ,Jason Logan (Covers),spread,CLE,2.5,CLE +2.5,loss,"CLE 12, NYJ 17",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,CLE@NYJ,Sascha Paruk (SportsBettingDime),spread,CLE,1.5,CLE +1.5,loss,"CLE 12, NYJ 17",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,IND@PIT,Tyler Sullivan (CBS Sports),spread,PIT,-2.5,PIT -2.5,win,"IND 22, PIT 34",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,IND@PIT,Sascha Paruk (SportsBettingDime),spread,IND,2.5,IND +2.5,loss,"IND 22, PIT 34",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,HOU@TEN,Tyler Sullivan (CBS Sports),spread,HOU,-7.0,HOU -7,win,"HOU 26, TEN 3",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,HOU@TEN,Sascha Paruk (SportsBettingDime),spread,HOU,-6.5,HOU -6.5,win,"HOU 26, TEN 3",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,NYG@WAS,Tyler Sullivan (CBS Sports),spread,NYG,3.5,NYG +3.5,win,"NYG 27, WAS 27",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,NYG@WAS,Sascha Paruk (SportsBettingDime),spread,WAS,-2.5,WAS -2.5,loss,"NYG 27, WAS 27",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,DEN@LAC,Tyler Sullivan (CBS Sports),spread,DEN,-3.5,DEN -3.5,win,"DEN 23, LAC 17",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,DEN@LAC,Sascha Paruk (SportsBettingDime),spread,DEN,-3.5,DEN -3.5,win,"DEN 23, LAC 17",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,DET@ARI,Tyler Sullivan (CBS Sports),spread,ARI,4.5,ARI +4.5,loss,"DET 45, ARI 21",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,DET@ARI,Sascha Paruk (SportsBettingDime),spread,DET,-5.5,DET -5.5,win,"DET 45, ARI 21",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,SF@SEA,Tyler Sullivan (CBS Sports),spread,SEA,-3.0,SEA -3,loss,"SF 32, SEA 29",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,SF@SEA,Sascha Paruk (SportsBettingDime),spread,SEA,-2.5,SEA -2.5,loss,"SF 32, SEA 29",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,BAL@ATL,Tyler Sullivan (CBS Sports),spread,ATL,-2.5,ATL -2.5,loss,"BAL 30, ATL 23",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,BAL@ATL,Jason Logan (Covers),spread,BAL,3.5,BAL +3.5,win,"BAL 30, ATL 23",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,BAL@ATL,Sascha Paruk (SportsBettingDime),spread,BAL,-3.5,BAL -3.5,win,"BAL 30, ATL 23",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,BUF@LA,Tyler Sullivan (CBS Sports),spread,LA,-2.5,LA -2.5,loss,"BUF 37, LA 34",nfl-card repo
+2026-10-07T18:52:15+00:00,2026,5,BUF@LA,Sascha Paruk (SportsBettingDime),spread,BUF,2.5,BUF +2.5,win,"BUF 37, LA 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,PHI@JAX,Jared Dubin (CBS Sports),spread,PHI,6.5,PHI +6.5,win,"PHI 17, JAX 19",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,PHI@JAX,Ryan Wilson (CBS Sports),spread,JAX,-6.5,JAX -6.5,loss,"PHI 17, JAX 19",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,PHI@JAX,John Breech (CBS Sports),spread,JAX,-6.5,JAX -6.5,loss,"PHI 17, JAX 19",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,PHI@JAX,Dave Richard (CBS Sports),spread,JAX,-6.5,JAX -6.5,loss,"PHI 17, JAX 19",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,PHI@JAX,Jamey Eisenberg (CBS Sports),spread,JAX,-6.5,JAX -6.5,loss,"PHI 17, JAX 19",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,PHI@JAX,Pete Prisco (CBS Sports),spread,JAX,-7.0,JAX -7,loss,"PHI 17, JAX 19",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,PHI@JAX,Jordan Dajani (CBS Sports),spread,JAX,-7.0,JAX -7,loss,"PHI 17, JAX 19",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CHI@GB,Ryan Wilson (CBS Sports),spread,CHI,-3.0,CHI -3,loss,"CHI 7, GB 31",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CHI@GB,John Breech (CBS Sports),spread,CHI,-3.0,CHI -3,loss,"CHI 7, GB 31",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CHI@GB,Dave Richard (CBS Sports),spread,CHI,-3.0,CHI -3,loss,"CHI 7, GB 31",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CHI@GB,Jamey Eisenberg (CBS Sports),spread,GB,3.0,GB +3,win,"CHI 7, GB 31",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CHI@GB,Pete Prisco (CBS Sports),spread,GB,3.0,GB +3,win,"CHI 7, GB 31",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CHI@GB,Jordan Dajani (CBS Sports),spread,GB,3.0,GB +3,win,"CHI 7, GB 31",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CIN@MIA,Jared Dubin (CBS Sports),spread,CIN,-7.5,CIN -7.5,loss,"CIN 31, MIA 24",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CIN@MIA,Ryan Wilson (CBS Sports),spread,CIN,-7.5,CIN -7.5,loss,"CIN 31, MIA 24",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CIN@MIA,John Breech (CBS Sports),spread,CIN,-7.5,CIN -7.5,loss,"CIN 31, MIA 24",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CIN@MIA,Dave Richard (CBS Sports),spread,MIA,7.5,MIA +7.5,win,"CIN 31, MIA 24",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CIN@MIA,Jamey Eisenberg (CBS Sports),spread,CIN,-7.5,CIN -7.5,loss,"CIN 31, MIA 24",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CIN@MIA,Pete Prisco (CBS Sports),spread,CIN,-7.0,CIN -7,push,"CIN 31, MIA 24",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,LV@NE,Jared Dubin (CBS Sports),spread,LV,3.5,LV +3.5,loss,"LV 17, NE 45",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,LV@NE,Ryan Wilson (CBS Sports),spread,NE,-3.5,NE -3.5,win,"LV 17, NE 45",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,LV@NE,John Breech (CBS Sports),spread,NE,-3.5,NE -3.5,win,"LV 17, NE 45",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,LV@NE,Dave Richard (CBS Sports),spread,NE,-3.5,NE -3.5,win,"LV 17, NE 45",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,LV@NE,Jamey Eisenberg (CBS Sports),spread,NE,-3.5,NE -3.5,win,"LV 17, NE 45",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,LV@NE,Pete Prisco (CBS Sports),spread,NE,-3.5,NE -3.5,win,"LV 17, NE 45",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,MIN@NO,Jared Dubin (CBS Sports),spread,MIN,-2.0,MIN -2,win,"MIN 23, NO 13",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,MIN@NO,Ryan Wilson (CBS Sports),spread,MIN,-2.0,MIN -2,win,"MIN 23, NO 13",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,MIN@NO,John Breech (CBS Sports),spread,MIN,-2.0,MIN -2,win,"MIN 23, NO 13",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,MIN@NO,Dave Richard (CBS Sports),spread,NO,2.0,NO +2,loss,"MIN 23, NO 13",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,MIN@NO,Jamey Eisenberg (CBS Sports),spread,MIN,-2.0,MIN -2,win,"MIN 23, NO 13",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,MIN@NO,Pete Prisco (CBS Sports),spread,MIN,-1.5,MIN -1.5,win,"MIN 23, NO 13",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CLE@NYJ,Jared Dubin (CBS Sports),spread,NYJ,-2.5,NYJ -2.5,win,"CLE 12, NYJ 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CLE@NYJ,Ryan Wilson (CBS Sports),spread,CLE,2.5,CLE +2.5,loss,"CLE 12, NYJ 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CLE@NYJ,John Breech (CBS Sports),spread,CLE,2.5,CLE +2.5,loss,"CLE 12, NYJ 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CLE@NYJ,Dave Richard (CBS Sports),spread,CLE,2.5,CLE +2.5,loss,"CLE 12, NYJ 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CLE@NYJ,Jamey Eisenberg (CBS Sports),spread,CLE,2.5,CLE +2.5,loss,"CLE 12, NYJ 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,CLE@NYJ,Pete Prisco (CBS Sports),spread,NYJ,-2.5,NYJ -2.5,win,"CLE 12, NYJ 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,IND@PIT,Jared Dubin (CBS Sports),spread,IND,2.5,IND +2.5,loss,"IND 22, PIT 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,IND@PIT,Ryan Wilson (CBS Sports),spread,PIT,-2.5,PIT -2.5,win,"IND 22, PIT 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,IND@PIT,John Breech (CBS Sports),spread,IND,2.5,IND +2.5,loss,"IND 22, PIT 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,IND@PIT,Dave Richard (CBS Sports),spread,PIT,-2.5,PIT -2.5,win,"IND 22, PIT 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,IND@PIT,Jamey Eisenberg (CBS Sports),spread,PIT,-2.5,PIT -2.5,win,"IND 22, PIT 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,IND@PIT,Pete Prisco (CBS Sports),spread,PIT,-2.5,PIT -2.5,win,"IND 22, PIT 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,IND@PIT,Jordan Dajani (CBS Sports),spread,PIT,-2.5,PIT -2.5,win,"IND 22, PIT 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,HOU@TEN,Jared Dubin (CBS Sports),spread,HOU,-7.0,HOU -7,win,"HOU 26, TEN 3",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,HOU@TEN,Ryan Wilson (CBS Sports),spread,HOU,-7.0,HOU -7,win,"HOU 26, TEN 3",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,HOU@TEN,John Breech (CBS Sports),spread,TEN,7.0,TEN +7,loss,"HOU 26, TEN 3",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,HOU@TEN,Dave Richard (CBS Sports),spread,TEN,7.0,TEN +7,loss,"HOU 26, TEN 3",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,HOU@TEN,Jamey Eisenberg (CBS Sports),spread,HOU,-7.0,HOU -7,win,"HOU 26, TEN 3",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,HOU@TEN,Pete Prisco (CBS Sports),spread,TEN,7.0,TEN +7,loss,"HOU 26, TEN 3",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,NYG@WAS,Jared Dubin (CBS Sports),spread,WAS,-3.5,WAS -3.5,loss,"NYG 27, WAS 27",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,NYG@WAS,Ryan Wilson (CBS Sports),spread,NYG,3.5,NYG +3.5,win,"NYG 27, WAS 27",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,NYG@WAS,John Breech (CBS Sports),spread,NYG,3.5,NYG +3.5,win,"NYG 27, WAS 27",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,NYG@WAS,Dave Richard (CBS Sports),spread,WAS,-3.5,WAS -3.5,loss,"NYG 27, WAS 27",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,NYG@WAS,Jamey Eisenberg (CBS Sports),spread,NYG,3.5,NYG +3.5,win,"NYG 27, WAS 27",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,NYG@WAS,Pete Prisco (CBS Sports),spread,NYG,3.0,NYG +3,win,"NYG 27, WAS 27",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DEN@LAC,Jared Dubin (CBS Sports),spread,LAC,3.5,LAC +3.5,loss,"DEN 23, LAC 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DEN@LAC,Ryan Wilson (CBS Sports),spread,DEN,-3.5,DEN -3.5,win,"DEN 23, LAC 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DEN@LAC,John Breech (CBS Sports),spread,DEN,-3.5,DEN -3.5,win,"DEN 23, LAC 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DEN@LAC,Dave Richard (CBS Sports),spread,DEN,-3.5,DEN -3.5,win,"DEN 23, LAC 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DEN@LAC,Jamey Eisenberg (CBS Sports),spread,DEN,-3.5,DEN -3.5,win,"DEN 23, LAC 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DEN@LAC,Pete Prisco (CBS Sports),spread,LAC,3.5,LAC +3.5,loss,"DEN 23, LAC 17",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DET@ARI,Jared Dubin (CBS Sports),spread,DET,-4.5,DET -4.5,win,"DET 45, ARI 21",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DET@ARI,Ryan Wilson (CBS Sports),spread,ARI,4.5,ARI +4.5,loss,"DET 45, ARI 21",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DET@ARI,John Breech (CBS Sports),spread,DET,-4.5,DET -4.5,win,"DET 45, ARI 21",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DET@ARI,Dave Richard (CBS Sports),spread,DET,-4.5,DET -4.5,win,"DET 45, ARI 21",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DET@ARI,Jamey Eisenberg (CBS Sports),spread,DET,-4.5,DET -4.5,win,"DET 45, ARI 21",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,DET@ARI,Pete Prisco (CBS Sports),spread,DET,-4.5,DET -4.5,win,"DET 45, ARI 21",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,SF@SEA,Jared Dubin (CBS Sports),spread,SEA,-3.0,SEA -3,loss,"SF 32, SEA 29",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,SF@SEA,Ryan Wilson (CBS Sports),spread,SEA,-3.0,SEA -3,loss,"SF 32, SEA 29",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,SF@SEA,John Breech (CBS Sports),spread,SF,3.0,SF +3,win,"SF 32, SEA 29",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,SF@SEA,Dave Richard (CBS Sports),spread,SEA,-3.0,SEA -3,loss,"SF 32, SEA 29",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,SF@SEA,Jamey Eisenberg (CBS Sports),spread,SF,3.0,SF +3,win,"SF 32, SEA 29",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,SF@SEA,Pete Prisco (CBS Sports),spread,SEA,-2.5,SEA -2.5,loss,"SF 32, SEA 29",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,SF@SEA,Jordan Dajani (CBS Sports),spread,SF,2.5,SF +2.5,win,"SF 32, SEA 29",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BAL@ATL,Jared Dubin (CBS Sports),spread,ATL,-3.0,ATL -3,loss,"BAL 30, ATL 23",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BAL@ATL,Ryan Wilson (CBS Sports),spread,ATL,-3.0,ATL -3,loss,"BAL 30, ATL 23",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BAL@ATL,John Breech (CBS Sports),spread,ATL,-3.0,ATL -3,loss,"BAL 30, ATL 23",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BAL@ATL,Dave Richard (CBS Sports),spread,ATL,-3.0,ATL -3,loss,"BAL 30, ATL 23",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BAL@ATL,Jamey Eisenberg (CBS Sports),spread,ATL,-3.0,ATL -3,loss,"BAL 30, ATL 23",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BAL@ATL,Pete Prisco (CBS Sports),spread,BAL,-2.5,BAL -2.5,win,"BAL 30, ATL 23",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BAL@ATL,Jordan Dajani (CBS Sports),spread,ATL,-3.5,ATL -3.5,loss,"BAL 30, ATL 23",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BUF@LA,Jared Dubin (CBS Sports),spread,LA,-2.5,LA -2.5,loss,"BUF 37, LA 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BUF@LA,Ryan Wilson (CBS Sports),spread,BUF,2.5,BUF +2.5,win,"BUF 37, LA 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BUF@LA,John Breech (CBS Sports),spread,LA,-2.5,LA -2.5,loss,"BUF 37, LA 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BUF@LA,Dave Richard (CBS Sports),spread,LA,-2.5,LA -2.5,loss,"BUF 37, LA 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BUF@LA,Jamey Eisenberg (CBS Sports),spread,LA,-2.5,LA -2.5,loss,"BUF 37, LA 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BUF@LA,Pete Prisco (CBS Sports),spread,BUF,2.5,BUF +2.5,win,"BUF 37, LA 34",nfl-card repo
+2026-10-09T22:31:58+00:00,2026,5,BUF@LA,Jordan Dajani (CBS Sports),spread,BUF,3.0,BUF +3,win,"BUF 37, LA 34",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,SEA@DEN,Jason Logan (Covers),spread,DEN,2.5,DEN +2.5,win,"SEA 14, DEN 17",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,SEA@DEN,Jason Logan (Covers),total,under,42.5,Under 42.5,win,"SEA 14, DEN 17",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,SEA@DEN,Iain MacMillan (Sports Illustrated),total,under,41.5,Under 41.5,win,"SEA 14, DEN 17",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,HOU@JAX,Iain MacMillan (Sports Illustrated),spread,HOU,3.0,HOU +3,win,"HOU 34, JAX 31",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,CHI@ATL,Iain MacMillan (Sports Illustrated),spread,CHI,-3.0,CHI -3,win,"CHI 31, ATL 23",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,BAL@CLE,Iain MacMillan (Sports Illustrated),spread,BAL,-4.5,BAL -4.5,loss,"BAL 10, CLE 13",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,TEN@IND,Iain MacMillan (Sports Illustrated),moneyline,TEN,,TEN +270,win,"TEN 26, IND 20",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,NYJ@NE,Jason Logan (Covers),spread,NYJ,7.0,NYJ +7,push,"NYJ 19, NE 26",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,NYJ@NE,Iain MacMillan (Sports Illustrated),spread,NYJ,7.5,NYJ +7.5,win,"NYJ 19, NE 26",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,NO@NYG,Iain MacMillan (Sports Illustrated),spread,NO,-1.0,NO -1,win,"NO 34, NYG 27",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,CAR@PHI,Iain MacMillan (Sports Illustrated),moneyline,CAR,,CAR +104,win,"CAR 25, PHI 14",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,PIT@TB,Jason Logan (Covers),total,under,40.5,Under 40.5,loss,"PIT 26, TB 19",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,PIT@TB,Iain MacMillan (Sports Illustrated),total,under,40.5,Under 40.5,loss,"PIT 26, TB 19",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,ARI@LA,Iain MacMillan (Sports Illustrated),spread,ARI,13.5,ARI +13.5,win,"ARI 18, LA 16",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,LAC@KC,Jason Logan (Covers),spread,KC,-7.5,KC -7.5,win,"LAC 6, KC 22",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,LAC@KC,Iain MacMillan (Sports Illustrated),total,over,41.5,Over 41.5,loss,"LAC 6, KC 22",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,BUF@LV,Iain MacMillan (Sports Illustrated),spread,BUF,-6.0,BUF -6,loss,"BUF 33, LV 30",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,DAL@GB,Jason Logan (Covers),spread,GB,1.5,GB +1.5,win,"DAL 13, GB 23",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,DAL@GB,Iain MacMillan (Sports Illustrated),total,over,52.5,Over 52.5,loss,"DAL 13, GB 23",nfl-card repo
+2026-10-13T23:03:16+00:00,2026,6,WAS@SF,Iain MacMillan (Sports Illustrated),spread,SF,-7.5,SF -7.5,loss,"WAS 17, SF 23",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,SEA@DEN,Brandon Kravitz (Action Network),spread,DEN,2.5,DEN +2.5,win,"SEA 14, DEN 17",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,SEA@DEN,Adam Kaufman (Action Network),spread,SEA,-2.5,SEA -2.5,loss,"SEA 14, DEN 17",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,SEA@DEN,Mike McNamara (Action Network),spread,DEN,3.0,DEN +3,win,"SEA 14, DEN 17",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,SEA@DEN,Doug Ziefel (Action Network),spread,DEN,3.5,DEN +3.5,win,"SEA 14, DEN 17",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,HOU@JAX,Adam Kaufman (Action Network),spread,HOU,3.0,HOU +3,win,"HOU 34, JAX 31",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,HOU@JAX,Sandy Plashkes (Action Network),spread,HOU,2.5,HOU +2.5,win,"HOU 34, JAX 31",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,HOU@JAX,Brandon Kravitz (Action Network),spread,HOU,2.5,HOU +2.5,win,"HOU 34, JAX 31",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,HOU@JAX,Doug Ziefel (Action Network),total,under,43.5,Under 43.5,loss,"HOU 34, JAX 31",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,CHI@ATL,Doug Ziefel (Action Network),total,over,47.5,Over 47.5,win,"CHI 31, ATL 23",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,BAL@CLE,Doug Ziefel (Action Network),spread,BAL,-4.5,BAL -4.5,loss,"BAL 10, CLE 13",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,BAL@CLE,Brandon Anderson (Action Network),spread,BAL,-3.0,BAL -3,loss,"BAL 10, CLE 13",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,TEN@IND,Kendra Middleton (Action Network),spread,TEN,7.0,TEN +7,win,"TEN 26, IND 20",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,TEN@IND,Doug Ziefel (Action Network),spread,IND,-6.5,IND -6.5,loss,"TEN 26, IND 20",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,NYJ@NE,Doug Ziefel (Action Network),spread,NYJ,7.5,NYJ +7.5,win,"NYJ 19, NE 26",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,NO@NYG,Sandy Plashkes (Action Network),moneyline,NO,,NO -114,win,"NO 34, NYG 27",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,NO@NYG,Doug Ziefel (Action Network),total,over,44.5,Over 44.5,win,"NO 34, NYG 27",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,CAR@PHI,Brandon Kravitz (Action Network),moneyline,CAR,,CAR -102,win,"CAR 25, PHI 14",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,CAR@PHI,Adam Kaufman (Action Network),moneyline,CAR,,CAR -102,win,"CAR 25, PHI 14",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,CAR@PHI,Frank Ammirante (Action Network),spread,CAR,1.5,CAR +1.5,win,"CAR 25, PHI 14",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,CAR@PHI,Sandy Plashkes (Action Network),moneyline,PHI,,PHI -114,loss,"CAR 25, PHI 14",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,CAR@PHI,Doug Ziefel (Action Network),moneyline,CAR,,CAR +108,win,"CAR 25, PHI 14",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,PIT@TB,Nick Giffen (Action Network),total,under,39.5,Under 39.5,loss,"PIT 26, TB 19",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,ARI@LA,Kendra Middleton (Action Network),total,under,52.0,Under 52,win,"ARI 18, LA 16",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,LAC@KC,Nick Giffen (Action Network),spread,LAC,8.5,LAC +8.5,loss,"LAC 6, KC 22",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,LAC@KC,Sandy Plashkes (Action Network),spread,LAC,8.5,LAC +8.5,loss,"LAC 6, KC 22",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,LAC@KC,Doug Ziefel (Action Network),total,under,42.5,Under 42.5,win,"LAC 6, KC 22",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,BUF@LV,Brandon Kravitz (Action Network),moneyline,LV,,LV +217,loss,"BUF 33, LV 30",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,BUF@LV,Brandon Kravitz (Action Network),spread,LV,6.0,LV +6,win,"BUF 33, LV 30",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,DAL@GB,Adam Kaufman (Action Network),moneyline,DAL,,DAL +105,loss,"DAL 13, GB 23",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,DAL@GB,Mike McNamara (Action Network),moneyline,DAL,,DAL -105,loss,"DAL 13, GB 23",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,DAL@GB,Brandon Kravitz (Action Network),moneyline,GB,,GB -105,win,"DAL 13, GB 23",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,DAL@GB,Doug Ziefel (Action Network),total,over,52.5,Over 52.5,loss,"DAL 13, GB 23",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,WAS@SF,Adam Kaufman (Action Network),spread,SF,-7.5,SF -7.5,loss,"WAS 17, SF 23",nfl-card repo
+2026-10-15T03:17:52+00:00,2026,6,WAS@SF,Brandon Anderson (Action Network),spread,SF,-7.0,SF -7,loss,"WAS 17, SF 23",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,HOU@JAX,Kev Mahserejian (Action Network),moneyline,HOU,,HOU +124,win,"HOU 34, JAX 31",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,CHI@ATL,Doug Ziefel (Action Network),spread,CHI,-3.0,CHI -3,win,"CHI 31, ATL 23",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,CHI@ATL,Kody Malstrom (Action Network),total,under,51.5,Under 51.5,loss,"CHI 31, ATL 23",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,CHI@ATL,Kev Mahserejian (Action Network),total,over,51.5,Over 51.5,win,"CHI 31, ATL 23",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,BAL@CLE,Brandon Kravitz (Action Network),spread,CLE,5.5,CLE +5.5,win,"BAL 10, CLE 13",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,TEN@IND,Kody Malstrom (Action Network),spread,TEN,7.0,TEN +7,win,"TEN 26, IND 20",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,NYJ@NE,Matt Moore (Action Network),spread,NYJ,7.0,NYJ +7,push,"NYJ 19, NE 26",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,NYJ@NE,Kody Malstrom (Action Network),spread,NYJ,7.5,NYJ +7.5,win,"NYJ 19, NE 26",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,NO@NYG,Matt Moore (Action Network),spread,NYG,0.0,NYG PK,loss,"NO 34, NYG 27",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,NO@NYG,Ryan Minion (Action Network),total,over,44.5,Over 44.5,win,"NO 34, NYG 27",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,CAR@PHI,Ryan Minion (Action Network),moneyline,CAR,,CAR +100,win,"CAR 25, PHI 14",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,CAR@PHI,Austin Pendergrass (Action Network),moneyline,CAR,,CAR -154,win,"CAR 25, PHI 14",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,CAR@PHI,Kev Mahserejian (Action Network),spread,PHI,3.5,PHI +3.5,loss,"CAR 25, PHI 14",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,PIT@TB,Matt Moore (Action Network),spread,TB,2.5,TB +2.5,loss,"PIT 26, TB 19",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,PIT@TB,Kev Mahserejian (Action Network),total,under,39.0,Under 39,loss,"PIT 26, TB 19",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,ARI@LA,Matt Moore (Action Network),spread,ARI,12.5,ARI +12.5,win,"ARI 18, LA 16",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,ARI@LA,Doug Kezirian (Action Network),spread,LA,-12.5,LA -12.5,loss,"ARI 18, LA 16",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,LAC@KC,Matt Moore (Action Network),spread,LAC,7.5,LAC +7.5,loss,"LAC 6, KC 22",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,LAC@KC,Kody Malstrom (Action Network),total,over,41.5,Over 41.5,loss,"LAC 6, KC 22",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,BUF@LV,Mike McNamara (Action Network),spread,LV,5.5,LV +5.5,win,"BUF 33, LV 30",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,BUF@LV,Matt Moore (Action Network),spread,LV,5.5,LV +5.5,win,"BUF 33, LV 30",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,BUF@LV,Kody Malstrom (Action Network),spread,LV,6.0,LV +6,win,"BUF 33, LV 30",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,DAL@GB,Kody Malstrom (Action Network),total,under,53.5,Under 53.5,win,"DAL 13, GB 23",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,DAL@GB,Doug Kezirian (Action Network),total,over,53.0,Over 53,loss,"DAL 13, GB 23",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,WAS@SF,Kody Malstrom (Action Network),total,under,52.0,Under 52,win,"WAS 17, SF 23",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,WAS@SF,Ryan Minion (Action Network),spread,WAS,7.5,WAS +7.5,win,"WAS 17, SF 23",nfl-card repo
+2026-10-18T12:12:25+00:00,2026,6,WAS@SF,Doug Kezirian (Action Network),spread,SF,-7.5,SF -7.5,loss,"WAS 17, SF 23",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,NE@CHI,Mike McNamara (Action Network),spread,CHI,-2.5,CHI -2.5,win,"NE 24, CHI 30",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,NE@CHI,Doug Ziefel (Action Network),total,over,50.5,Over 50.5,win,"NE 24, CHI 30",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,NE@CHI,Frank Ammirante (Action Network),total,over,50.5,Over 50.5,win,"NE 24, CHI 30",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,NE@CHI,Nick Giffen (Action Network),total,over,50.5,Over 50.5,win,"NE 24, CHI 30",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,NE@CHI,Iain MacMillan (Sports Illustrated),total,under,50.5,Under 50.5,loss,"NE 24, CHI 30",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,PIT@NO,Anthony Dabbundo (Action Network),spread,PIT,-2.5,PIT -2.5,win,"PIT 16, NO 10",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,PIT@NO,Doug Ziefel (Action Network),spread,NO,3.5,NO +3.5,loss,"PIT 16, NO 10",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,PIT@NO,Brandon Kravitz (Action Network),spread,NO,3.5,NO +3.5,loss,"PIT 16, NO 10",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,PIT@NO,Iain MacMillan (Sports Illustrated),spread,PIT,-3.0,PIT -3,win,"PIT 16, NO 10",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,SF@ATL,Doug Ziefel (Action Network),spread,SF,-3.5,SF -3.5,loss,"SF 20, ATL 29",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,SF@ATL,Ryan Minion (Action Network),spread,ATL,3.5,ATL +3.5,win,"SF 20, ATL 29",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,SF@ATL,Frank Ammirante (Action Network),spread,ATL,3.5,ATL +3.5,win,"SF 20, ATL 29",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,SF@ATL,Iain MacMillan (Sports Illustrated),spread,SF,-3.0,SF -3,loss,"SF 20, ATL 29",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,CIN@BAL,Doug Ziefel (Action Network),total,under,51.5,Under 51.5,win,"CIN 35, BAL 13",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,CIN@BAL,Iain MacMillan (Sports Illustrated),spread,CIN,3.0,CIN +3,win,"CIN 35, BAL 13",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,TB@CAR,Iain MacMillan (Sports Illustrated),moneyline,TB,,TB +154,win,"TB 43, CAR 13",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,NYG@HOU,Doug Ziefel (Action Network),spread,HOU,-9.5,HOU -9.5,loss,"NYG 27, HOU 21",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,NYG@HOU,Iain MacMillan (Sports Illustrated),spread,HOU,-9.5,HOU -9.5,loss,"NYG 27, HOU 21",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,IND@MIN,Iain MacMillan (Sports Illustrated),spread,MIN,-5.5,MIN -5.5,win,"IND 10, MIN 16",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,MIA@NYJ,Frank Ammirante (Action Network),spread,MIA,5.5,MIA +5.5,win,"MIA 28, NYJ 25",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,MIA@NYJ,Iain MacMillan (Sports Illustrated),spread,MIA,5.5,MIA +5.5,win,"MIA 28, NYJ 25",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,CLE@TEN,Iain MacMillan (Sports Illustrated),spread,CLE,-1.5,CLE -1.5,win,"CLE 27, TEN 24",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,DEN@ARI,Iain MacMillan (Sports Illustrated),spread,DEN,-4.5,DEN -4.5,win,"DEN 30, ARI 16",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,GB@DET,Doug Ziefel (Action Network),spread,GB,3.5,GB +3.5,win,"GB 17, DET 20",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,GB@DET,Iain MacMillan (Sports Illustrated),spread,DET,-3.0,DET -3,push,"GB 17, DET 20",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,LA@LV,Doug Ziefel (Action Network),total,over,47.5,Over 47.5,win,"LA 35, LV 21",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,LA@LV,Brandon Kravitz (Action Network),spread,LV,5.0,LV +5,loss,"LA 35, LV 21",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,LA@LV,Frank Ammirante (Action Network),spread,LV,4.5,LV +4.5,loss,"LA 35, LV 21",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,LA@LV,Iain MacMillan (Sports Illustrated),spread,LA,-4.5,LA -4.5,win,"LA 35, LV 21",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,KC@SEA,Anthony Dabbundo (Action Network),total,under,43.0,Under 43,win,"KC 3, SEA 20",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,KC@SEA,Brandon Anderson (Action Network),total,under,44.5,Under 44.5,win,"KC 3, SEA 20",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,KC@SEA,Brandon Kravitz (Action Network),spread,KC,2.5,KC +2.5,loss,"KC 3, SEA 20",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,KC@SEA,Nick Griffith (Action Network),spread,SEA,-2.0,SEA -2,win,"KC 3, SEA 20",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,KC@SEA,Iain MacMillan (Sports Illustrated),moneyline,KC,,KC +120,loss,"KC 3, SEA 20",nfl-card repo
+2026-10-20T22:33:06+00:00,2026,7,DAL@PHI,Iain MacMillan (Sports Illustrated),spread,PHI,5.0,PHI +5,loss,"DAL 38, PHI 21",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,PIT@NO,Kody Malstrom (Action Network),total,over,44.0,Over 44,loss,"PIT 16, NO 10",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,SF@ATL,Nick Giffen (Action Network),total,over,50.0,Over 50,loss,"SF 20, ATL 29",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,CIN@BAL,Kody Malstrom (Action Network),total,over,48.0,Over 48,push,"CIN 35, BAL 13",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,TB@CAR,Kody Malstrom (Action Network),total,under,45.0,Under 45,loss,"TB 43, CAR 13",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,TB@CAR,Ryan Minion (Action Network),spread,CAR,-3.0,CAR -3,loss,"TB 43, CAR 13",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,NYG@HOU,Kody Malstrom (Action Network),total,under,44.0,Under 44,loss,"NYG 27, HOU 21",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,NYG@HOU,Anthony Dabbundo (Action Network),spread,HOU,-10.5,HOU -10.5,loss,"NYG 27, HOU 21",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,NYG@HOU,Nick Giffen (Action Network),spread,HOU,-10.5,HOU -10.5,loss,"NYG 27, HOU 21",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,IND@MIN,Anthony Dabbundo (Action Network),spread,MIN,-6.5,MIN -6.5,loss,"IND 10, MIN 16",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,IND@MIN,Brandon Kravitz (Action Network),total,under,41.5,Under 41.5,win,"IND 10, MIN 16",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,CLE@TEN,Anthony Dabbundo (Action Network),total,under,37.5,Under 37.5,loss,"CLE 27, TEN 24",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,GB@DET,Brandon Kravitz (Action Network),spread,DET,-3.0,DET -3,push,"GB 17, DET 20",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,LA@LV,Kev Mahserejian (Action Network),spread,LA,-4.5,LA -4.5,win,"LA 35, LV 21",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,KC@SEA,Mike McNamara (Action Network),spread,SEA,-2.5,SEA -2.5,win,"KC 3, SEA 20",nfl-card repo
+2026-10-23T22:18:24+00:00,2026,7,KC@SEA,Sandy Plashkes (Action Network),spread,SEA,-2.5,SEA -2.5,win,"KC 3, SEA 20",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CAR@GB,Doug Ziefel (Action Network),total,under,48.5,Under 48.5,win,"CAR 19, GB 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CAR@GB,Chris Vasile (Covers),spread,CAR,3.5,CAR +3.5,loss,"CAR 19, GB 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CAR@GB,Iain MacMillan (Sports Illustrated),spread,GB,-3.5,GB -3.5,win,"CAR 19, GB 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CAR@GB,Mike Spector (Sportsbook Review),moneyline,GB,,GB -230,win,"CAR 19, GB 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,BAL@BUF,Brandon Kravitz (Action Network),spread,BAL,3.5,BAL +3.5,loss,"BAL 10, BUF 36",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,BAL@BUF,John Feltman (Action Network),spread,BAL,3.5,BAL +3.5,loss,"BAL 10, BUF 36",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,BAL@BUF,Chris Vasile (Covers),spread,BAL,3.5,BAL +3.5,loss,"BAL 10, BUF 36",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,BAL@BUF,Iain MacMillan (Sports Illustrated),spread,BAL,3.5,BAL +3.5,loss,"BAL 10, BUF 36",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,BAL@BUF,Mike Spector (Sportsbook Review),moneyline,BUF,,BUF -190,win,"BAL 10, BUF 36",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,TEN@CIN,Chris Vasile (Covers),spread,CIN,-10.5,CIN -10.5,loss,"TEN 36, CIN 43",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,TEN@CIN,Iain MacMillan (Sports Illustrated),spread,CIN,-10.0,CIN -10,loss,"TEN 36, CIN 43",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,TEN@CIN,Mike Spector (Sportsbook Review),moneyline,CIN,,CIN -600,win,"TEN 36, CIN 43",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,ARI@DAL,Chris Vasile (Covers),spread,ARI,6.5,ARI +6.5,win,"ARI 33, DAL 30",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,ARI@DAL,Iain MacMillan (Sports Illustrated),total,over,54.5,Over 54.5,win,"ARI 33, DAL 30",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,ARI@DAL,Mike Spector (Sportsbook Review),moneyline,DAL,,DAL -285,loss,"ARI 33, DAL 30",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,MIN@DET,Doug Ziefel (Action Network),spread,DET,-3.0,DET -3,win,"MIN 15, DET 19",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,MIN@DET,Chris Vasile (Covers),spread,MIN,3.5,MIN +3.5,loss,"MIN 15, DET 19",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,MIN@DET,Iain MacMillan (Sports Illustrated),spread,DET,-3.5,DET -3.5,win,"MIN 15, DET 19",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,MIN@DET,Mike Spector (Sportsbook Review),moneyline,DET,,DET -164,win,"MIN 15, DET 19",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,IND@JAX,Chris Vasile (Covers),spread,JAX,-7.5,JAX -7.5,win,"IND 7, JAX 42",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,IND@JAX,Iain MacMillan (Sports Illustrated),spread,JAX,-7.5,JAX -7.5,win,"IND 7, JAX 42",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,IND@JAX,Mike Spector (Sportsbook Review),moneyline,JAX,,JAX -375,win,"IND 7, JAX 42",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LV@NYJ,John Feltman (Action Network),moneyline,NYJ,,NYJ -120,loss,"LV 38, NYJ 33",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LV@NYJ,Chris Vasile (Covers),spread,LV,1.5,LV +1.5,win,"LV 38, NYJ 33",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LV@NYJ,Iain MacMillan (Sports Illustrated),moneyline,NYJ,,NYJ -108,loss,"LV 38, NYJ 33",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LV@NYJ,Mike Spector (Sportsbook Review),moneyline,LV,,LV -108,win,"LV 38, NYJ 33",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CLE@PIT,Brandon Kravitz (Action Network),spread,CLE,3.5,CLE +3.5,loss,"CLE 6, PIT 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CLE@PIT,Chris Vasile (Covers),spread,CLE,3.5,CLE +3.5,loss,"CLE 6, PIT 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CLE@PIT,Iain MacMillan (Sports Illustrated),spread,CLE,3.5,CLE +3.5,loss,"CLE 6, PIT 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CLE@PIT,Mike Spector (Sportsbook Review),moneyline,CLE,,CLE +160,loss,"CLE 6, PIT 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,ATL@TB,Mike McNamara (Action Network),spread,TB,-2.0,TB -2,win,"ATL 0, TB 16",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,ATL@TB,Anthony Dabbundo (Action Network),spread,TB,-1.5,TB -1.5,win,"ATL 0, TB 16",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,ATL@TB,Chris Vasile (Covers),spread,ATL,2.5,ATL +2.5,loss,"ATL 0, TB 16",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,ATL@TB,Iain MacMillan (Sports Illustrated),spread,TB,-1.5,TB -1.5,win,"ATL 0, TB 16",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,ATL@TB,Mike Spector (Sportsbook Review),moneyline,TB,,TB -130,win,"ATL 0, TB 16",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LAC@LA,Doug Ziefel (Action Network),total,under,44.5,Under 44.5,win,"LAC 9, LA 24",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LAC@LA,Sandy Plashkes (Action Network),spread,LAC,7.5,LAC +7.5,loss,"LAC 9, LA 24",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LAC@LA,Chris Vasile (Covers),spread,LA,-6.5,LA -6.5,win,"LAC 9, LA 24",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LAC@LA,Iain MacMillan (Sports Illustrated),spread,LA,-6.5,LA -6.5,win,"LAC 9, LA 24",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,LAC@LA,Mike Spector (Sportsbook Review),moneyline,LA,,LA -325,win,"LAC 9, LA 24",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,KC@DEN,Matt Moore (Action Network),moneyline,DEN,,DEN +105,win,"KC 24, DEN 28",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,KC@DEN,Anthony Dabbundo (Action Network),total,under,41.5,Under 41.5,loss,"KC 24, DEN 28",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,KC@DEN,Brandon Anderson (Action Network),total,under,42.5,Under 42.5,loss,"KC 24, DEN 28",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,KC@DEN,Chris Vasile (Covers),spread,KC,-1.5,KC -1.5,loss,"KC 24, DEN 28",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,KC@DEN,Iain MacMillan (Sports Illustrated),spread,KC,-1.5,KC -1.5,loss,"KC 24, DEN 28",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,KC@DEN,Mike Spector (Sportsbook Review),moneyline,DEN,,DEN +105,win,"KC 24, DEN 28",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,NE@MIA,Chris Vasile (Covers),spread,MIA,7.5,MIA +7.5,win,"NE 24, MIA 19",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,NE@MIA,Iain MacMillan (Sports Illustrated),spread,NE,-7.5,NE -7.5,loss,"NE 24, MIA 19",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,NE@MIA,Mike Spector (Sportsbook Review),moneyline,MIA,,MIA +300,loss,"NE 24, MIA 19",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,PHI@WAS,Anthony Dabbundo (Action Network),moneyline,WAS,,WAS -195,win,"PHI 10, WAS 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,PHI@WAS,Doug Ziefel (Action Network),total,over,40.0,Over 40,loss,"PHI 10, WAS 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,PHI@WAS,Chris Vasile (Covers),spread,WAS,-3.5,WAS -3.5,win,"PHI 10, WAS 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,PHI@WAS,Iain MacMillan (Sports Illustrated),spread,PHI,4.5,PHI +4.5,loss,"PHI 10, WAS 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,PHI@WAS,Mike Spector (Sportsbook Review),moneyline,WAS,,WAS -190,win,"PHI 10, WAS 27",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CHI@SEA,Mike McNamara (Action Network),spread,CHI,3.0,CHI +3,win,"CHI 34, SEA 17",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CHI@SEA,Doug Ziefel (Action Network),spread,CHI,3.5,CHI +3.5,win,"CHI 34, SEA 17",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CHI@SEA,Chris Vasile (Covers),spread,CHI,3.5,CHI +3.5,win,"CHI 34, SEA 17",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CHI@SEA,Iain MacMillan (Sports Illustrated),moneyline,CHI,,CHI +148,win,"CHI 34, SEA 17",nfl-card repo
+2026-10-27T22:43:18+00:00,2026,8,CHI@SEA,Mike Spector (Sportsbook Review),moneyline,CHI,,CHI +145,win,"CHI 34, SEA 17",nfl-card repo
+2026-10-29T21:03:55+00:00,2026,8,CAR@GB,Mike McNamara (Action Network),total,under,47.0,Under 47-110,win,"CAR 19, GB 27",Action Network
+2026-10-29T21:03:55+00:00,2026,8,CAR@GB,Kody Malstrom (Action Network),spread,CAR,4.5,CAR +4.5-116,loss,"CAR 19, GB 27",Action Network
+2026-10-29T21:03:55+00:00,2026,8,CAR@GB,Brandon Anderson (Action Network),spread,GB,-3.5,GB -3.5-110,win,"CAR 19, GB 27",Action Network
+2026-10-29T21:03:55+00:00,2026,8,CAR@GB,John Feltman (Action Network),spread,CAR,3.5,CAR +3.5-105,loss,"CAR 19, GB 27",Action Network
+2026-10-29T21:03:55+00:00,2026,8,LV@NYJ,Mike McNamara (Action Network),moneyline,LV,,LV +105,win,"LV 38, NYJ 33",Action Network
+2026-10-29T21:03:55+00:00,2026,8,LV@NYJ,Anthony Dabbundo (Action Network),moneyline,NYJ,,NYJ -120,loss,"LV 38, NYJ 33",Action Network
+2026-10-29T21:03:55+00:00,2026,8,LV@NYJ,Brandon Kravitz (Action Network),spread,NYJ,-1.5,NYJ -1.5-102,loss,"LV 38, NYJ 33",Action Network
+2026-10-29T21:03:55+00:00,2026,8,ARI@DAL,Kody Malstrom (Action Network),total,under,55.0,Under 55-116,loss,"ARI 33, DAL 30",Action Network
+2026-10-29T21:03:55+00:00,2026,8,ARI@DAL,Brandon Kravitz (Action Network),spread,ARI,7.0,ARI +7-101,win,"ARI 33, DAL 30",Action Network
+2026-10-29T21:03:55+00:00,2026,8,ATL@TB,Kody Malstrom (Action Network),total,over,44.0,Over 44-114,loss,"ATL 0, TB 16",Action Network
+2026-10-29T21:03:55+00:00,2026,8,IND@JAX,Kody Malstrom (Action Network),spread,IND,10.5,IND +10.5-113,loss,"IND 7, JAX 42",Action Network
+2026-10-29T21:03:55+00:00,2026,8,IND@JAX,Brandon Kravitz (Action Network),spread,JAX,-7.5,JAC -7.5-102,win,"IND 7, JAX 42",Action Network
+2026-10-29T21:03:55+00:00,2026,8,BAL@BUF,Anthony Dabbundo (Action Network),spread,BAL,3.5,BAL +3.5-115,loss,"BAL 10, BUF 36",Action Network
+2026-10-29T21:03:55+00:00,2026,8,MIN@DET,Kody Malstrom (Action Network),spread,MIN,3.5,MIN +3.5-112,loss,"MIN 15, DET 19",Action Network
+2026-10-29T21:03:55+00:00,2026,8,TEN@CIN,Kody Malstrom (Action Network),total,under,47.0,Under 47-110,loss,"TEN 36, CIN 43",Action Network
+2026-10-29T21:03:55+00:00,2026,8,TEN@CIN,Anthony Dabbundo (Action Network),spread,CIN,-10.5,CIN -10.5-118,loss,"TEN 36, CIN 43",Action Network
+2026-10-29T21:03:55+00:00,2026,8,LAC@LA,Kendra Middleton (Action Network),spread,LAC,6.5,LAC +6.5-102,loss,"LAC 9, LA 24",Action Network
+2026-10-29T21:03:55+00:00,2026,8,KC@DEN,Mike McNamara (Action Network),spread,DEN,1.5,DEN +1.5-115,win,"KC 24, DEN 28",Action Network
+2026-10-29T21:03:55+00:00,2026,8,KC@DEN,Nick Griffith (Action Network),moneyline,DEN,,DEN +103,win,"KC 24, DEN 28",Action Network
+2026-10-29T21:03:55+00:00,2026,8,PHI@WAS,Kody Malstrom (Action Network),total,over,39.5,Over 39.5-110,loss,"PHI 10, WAS 27",Action Network
+2026-10-29T21:03:55+00:00,2026,8,PHI@WAS,Doug Kezirian (Action Network),spread,WAS,-5.5,WAS -5.5-110,win,"PHI 10, WAS 27",Action Network
+2026-10-29T21:03:55+00:00,2026,8,CHI@SEA,Doug Kezirian (Action Network),spread,SEA,-3.0,SEA -3-113,loss,"CHI 34, SEA 17",Action Network
+2026-10-29T21:18:55+00:00,2026,8,CAR@GB,Jordan Dajani (CBS Sports),spread,GB,-3.5,GB -3.5,win,"CAR 19, GB 27",cbssports.com
+2026-10-29T21:18:55+00:00,2026,8,CAR@GB,Jared Dubin (CBS Sports),spread,GB,-3.5,GB -3.5,win,"CAR 19, GB 27",cbssports.com
+2026-10-29T21:18:55+00:00,2026,8,ATL@TB,Steve Makinen (VSiN),spread,ATL,2.5,ATL +2.5,loss,"ATL 0, TB 16",vsin.com
+2026-10-29T21:18:55+00:00,2026,8,BAL@BUF,Steve Makinen (VSiN),spread,BAL,3.0,BAL +3,loss,"BAL 10, BUF 36",vsin.com
+2026-10-29T21:18:55+00:00,2026,8,TEN@CIN,Steve Makinen (VSiN),spread,CIN,-11.5,CIN -11.5,loss,"TEN 36, CIN 43",vsin.com
+2026-10-29T21:18:55+00:00,2026,8,CLE@PIT,Steve Makinen (VSiN),spread,PIT,-3.5,PIT -3.5,win,"CLE 6, PIT 27",vsin.com
+2026-10-29T21:18:55+00:00,2026,8,LAC@LA,Steve Makinen (VSiN),spread,LAC,6.5,LAC +6.5,loss,"LAC 9, LA 24",vsin.com
+2026-10-29T21:18:55+00:00,2026,8,KC@DEN,Steve Makinen (VSiN),spread,KC,-1.5,KC -1.5,loss,"KC 24, DEN 28",vsin.com
+2026-10-29T21:18:55+00:00,2026,8,NE@MIA,Steve Makinen (VSiN),spread,NE,-7.0,NE -7,loss,"NE 24, MIA 19",vsin.com
+2026-10-29T21:18:55+00:00,2026,8,PHI@WAS,Steve Makinen (VSiN),spread,PHI,6.0,PHI +6,loss,"PHI 10, WAS 27",vsin.com
+2026-10-30T22:19:42+00:00,2026,8,LV@NYJ,Kev Mahserejian (Action Network),spread,NYJ,-1.5,NYJ -1.5-110,loss,"LV 38, NYJ 33",Action Network
+2026-10-30T22:19:42+00:00,2026,8,ATL@TB,Kev Mahserejian (Action Network),total,under,44.0,Under 44-108,win,"ATL 0, TB 16",Action Network
+2026-10-30T22:19:42+00:00,2026,8,CLE@PIT,Kev Mahserejian (Action Network),spread,PIT,-3.5,PIT -3.5-106,win,"CLE 6, PIT 27",Action Network
+2026-10-30T22:19:42+00:00,2026,8,IND@JAX,Anthony Dabbundo (Action Network),spread,IND,10.5,IND +10.5-120,loss,"IND 7, JAX 42",Action Network
+2026-10-30T22:19:42+00:00,2026,8,KC@DEN,Kev Mahserejian (Action Network),total,over,40.5,Over 40.5-111,win,"KC 24, DEN 28",Action Network
+2026-10-30T22:19:42+00:00,2026,8,PHI@WAS,Kev Mahserejian (Action Network),spread,WAS,-6.5,WAS -6.5-110,win,"PHI 10, WAS 27",Action Network
+2026-11-01T04:35:50+00:00,2026,8,LV@NYJ,Sandy Plashkes (Action Network),moneyline,NYJ,,NYJ -120,loss,"LV 38, NYJ 33",Action Network
+2026-11-01T04:35:50+00:00,2026,8,ARI@DAL,Frank Ammirante (Action Network),spread,ARI,7.0,ARI +7-110,win,"ARI 33, DAL 30",Action Network
+2026-11-01T04:35:50+00:00,2026,8,ATL@TB,Brandon Anderson (Action Network),total,under,45.5,Under 45.5-110,win,"ATL 0, TB 16",Action Network
+2026-11-01T04:35:50+00:00,2026,8,CLE@PIT,Sandy Plashkes (Action Network),spread,CLE,3.5,CLE +3.5-106,loss,"CLE 6, PIT 27",Action Network
+2026-11-01T04:35:50+00:00,2026,8,IND@JAX,Frank Ammirante (Action Network),spread,JAX,-10.0,JAC -10-105,win,"IND 7, JAX 42",Action Network
+2026-11-01T04:35:50+00:00,2026,8,BAL@BUF,Sandy Plashkes (Action Network),spread,BAL,3.5,BAL +3.5-118,loss,"BAL 10, BUF 36",Action Network
+2026-11-01T04:35:50+00:00,2026,8,MIN@DET,Sandy Plashkes (Action Network),spread,DET,-3.0,DET -3-114,win,"MIN 15, DET 19",Action Network
+2026-11-01T04:35:50+00:00,2026,8,MIN@DET,Brandon Anderson (Action Network),spread,DET,-3.0,DET -3-115,win,"MIN 15, DET 19",Action Network
+2026-11-01T04:35:50+00:00,2026,8,MIN@DET,Frank Ammirante (Action Network),spread,DET,-3.0,DET -3-120,win,"MIN 15, DET 19",Action Network
+2026-11-01T04:35:50+00:00,2026,8,MIN@DET,Kendra Middleton (Action Network),spread,DET,-3.0,DET -3-120,win,"MIN 15, DET 19",Action Network
+2026-11-01T04:35:50+00:00,2026,8,TEN@CIN,Frank Ammirante (Action Network),spread,CIN,-12.5,CIN -12.5-110,loss,"TEN 36, CIN 43",Action Network
+2026-11-01T04:35:50+00:00,2026,8,NE@MIA,Frank Ammirante (Action Network),spread,MIA,7.0,MIA +7-115,win,"NE 24, MIA 19",Action Network
+2026-11-01T04:35:50+00:00,2026,8,PHI@WAS,Brandon Anderson (Action Network),spread,PHI,6.0,PHI +6-106,loss,"PHI 10, WAS 27",Action Network
+2026-11-02T15:24:30+00:00,2026,8,CHI@SEA,Sean Zerillo (Action Network),total,under,46.5,Under 46.5-104,loss,"CHI 34, SEA 17",Action Network
+2026-11-02T15:24:30+00:00,2026,8,CHI@SEA,Matt Moore (Action Network),spread,CHI,3.0,CHI +3-102,win,"CHI 34, SEA 17",Action Network
+2026-11-02T15:24:30+00:00,2026,8,CHI@SEA,Frank Ammirante (Action Network),total,under,46.5,Under 46.5-110,loss,"CHI 34, SEA 17",Action Network
+2026-11-03T14:46:53+00:00,2026,9,CAR@GB,Jordan Dajani (CBS Sports),spread,GB,-3.5,GB -3.5,pending,,cbssports.com
+2026-11-03T14:46:53+00:00,2026,9,CAR@GB,Jared Dubin (CBS Sports),spread,GB,-3.5,GB -3.5,pending,,cbssports.com
+2026-11-03T14:46:53+00:00,2026,9,ATL@TB,Steve Makinen (VSiN),spread,ATL,2.5,ATL +2.5,pending,,vsin.com
+2026-11-03T14:46:53+00:00,2026,9,BAL@BUF,Steve Makinen (VSiN),spread,BAL,3.0,BAL +3,pending,,vsin.com
+2026-11-03T14:46:53+00:00,2026,9,TEN@CIN,Steve Makinen (VSiN),spread,CIN,-11.5,CIN -11.5,pending,,vsin.com
+2026-11-03T14:46:53+00:00,2026,9,CLE@PIT,Steve Makinen (VSiN),spread,PIT,-3.5,PIT -3.5,pending,,vsin.com
+2026-11-03T14:46:53+00:00,2026,9,LAC@LA,Steve Makinen (VSiN),spread,LAC,6.5,LAC +6.5,pending,,vsin.com
+2026-11-03T14:46:53+00:00,2026,9,KC@DEN,Steve Makinen (VSiN),spread,KC,-1.5,KC -1.5,pending,,vsin.com
+2026-11-03T14:46:53+00:00,2026,9,NE@MIA,Steve Makinen (VSiN),spread,NE,-7.0,NE -7,pending,,vsin.com
+2026-11-03T14:46:53+00:00,2026,9,PHI@WAS,Steve Makinen (VSiN),spread,PHI,6.0,PHI +6,pending,,vsin.com
+2026-11-05T18:31:28+00:00,2026,9,JAX@BAL,Brian Bitler (Action Network),total,under,39.5,Under 39.5-105,loss,"JAX 33, BAL 10",Action Network
+2026-11-05T18:31:28+00:00,2026,9,JAX@BAL,The Pick Don (Action Network),total,under,39.5,Under 39.5-108,loss,"JAX 33, BAL 10",Action Network
+2026-11-05T18:31:28+00:00,2026,9,JAX@BAL,Wags Wins (Action Network),total,under,40.0,Under 40-115,loss,"JAX 33, BAL 10",Action Network
+2026-11-05T18:31:28+00:00,2026,9,CIN@ATL,Kody Malstrom (Action Network),total,under,53.5,Under 53.5-115,win,"CIN 34, ATL 17",Action Network
+2026-11-05T18:31:28+00:00,2026,9,CIN@ATL,John Feltman (Action Network),total,over,52.0,Over 52-110,loss,"CIN 34, ATL 17",Action Network
+2026-11-05T18:31:28+00:00,2026,9,DEN@CAR,Ryan Minion (Action Network),moneyline,CAR,,CAR +140,loss,"DEN 26, CAR 21",Action Network
+2026-11-05T18:31:28+00:00,2026,9,DET@MIA,Kody Malstrom (Action Network),total,under,51.0,Under 51-116,win,"DET 19, MIA 9",Action Network
+2026-11-05T18:31:28+00:00,2026,9,LA@WAS,Anthony Dabbundo (Action Network),total,under,48.0,Under 48-109,win,"LA 20, WAS 13",Action Network
+2026-11-05T18:31:28+00:00,2026,9,LA@WAS,Doug Kezirian (Action Network),total,under,48.0,Under 48-110,win,"LA 20, WAS 13",Action Network
+2026-11-05T18:31:28+00:00,2026,9,DAL@IND,Kody Malstrom (Action Network),total,under,52.5,Under 52.5-115,win,"DAL 27, IND 23",Action Network
+2026-11-05T18:31:28+00:00,2026,9,LV@SF,Kody Malstrom (Action Network),total,under,53.0,Under 53-113,loss,"LV 17, SF 38",Action Network
+2026-11-05T18:31:28+00:00,2026,9,LV@SF,Brandon Kravitz (Action Network),total,over,52.5,Over 52.5-108,win,"LV 17, SF 38",Action Network
+2026-11-05T18:31:28+00:00,2026,9,GB@NE,Anthony Dabbundo (Action Network),total,under,45.5,Under 45.5-105,loss,"GB 45, NE 27",Action Network
+2026-11-05T18:31:28+00:00,2026,9,TB@CHI,Doug Ziefel (Action Network),total,over,47.5,Over 47.5-105,win,"TB 24, CHI 27",Action Network
+2026-11-05T18:31:28+00:00,2026,9,TB@CHI,Brandon Kravitz (Action Network),total,under,46.5,Under 46.5+100,loss,"TB 24, CHI 27",Action Network
+2026-11-05T18:31:28+00:00,2026,9,BUF@MIN,Kody Malstrom (Action Network),total,under,45.5,Under 45.5-106,win,"BUF 23, MIN 6",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYJ@KC,Sean Zerillo (Action Network),spread,NYJ,10.0,NYJ +10-115,loss,"NYJ 12, KC 35",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYJ@KC,Kody Malstrom (Action Network),spread,NYJ,10.0,NYJ +10-112,loss,"NYJ 12, KC 35",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYJ@KC,Anthony Dabbundo (Action Network),spread,NYJ,9.5,NYJ +9.5-105,loss,"NYJ 12, KC 35",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYJ@KC,Ryan Minion (Action Network),spread,KC,-9.5,KC -9.5-110,win,"NYJ 12, KC 35",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYJ@KC,Doug Kezirian (Action Network),spread,NYJ,10.0,NYJ +10-112,loss,"NYJ 12, KC 35",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYJ@KC,Brandon Anderson (Action Network),spread,NYJ,10.0,NYJ +10-110,loss,"NYJ 12, KC 35",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYJ@KC,John Feltman (Action Network),spread,NYJ,10.0,NYJ +10-125,loss,"NYJ 12, KC 35",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYG@PHI,Sean Zerillo (Action Network),total,under,38.5,Under 38.5-108,win,"NYG 19, PHI 11",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYG@PHI,Brian Bitler (Action Network),spread,PHI,3.0,PHI +3-110,loss,"NYG 19, PHI 11",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYG@PHI,Frank Ammirante (Action Network),spread,PHI,3.0,PHI +3+100,loss,"NYG 19, PHI 11",Action Network
+2026-11-08T16:28:22+00:00,2026,9,NYG@PHI,Nick Giffen (Action Network),total,under,38.5,Under 38.5-104,win,"NYG 19, PHI 11",Action Network
+2026-11-08T16:28:22+00:00,2026,9,HOU@LAC,Anthony Dabbundo (Action Network),spread,HOU,-4.5,HOU -4.5-115,win,"HOU 44, LAC 22",Action Network
+2026-11-08T16:28:22+00:00,2026,9,HOU@LAC,Brandon Anderson (Action Network),total,under,41.0,Under 41-108,loss,"HOU 44, LAC 22",Action Network
+2026-11-08T16:28:22+00:00,2026,9,HOU@LAC,Kev Mahserejian (Action Network),total,over,40.5,Over 40.5-111,win,"HOU 44, LAC 22",Action Network
+2026-11-08T16:28:22+00:00,2026,9,GB@NE,Mike McNamara (Action Network),spread,GB,3.5,GB +3.5-118,win,"GB 45, NE 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,GB@NE,Kody Malstrom (Action Network),spread,GB,3.5,GB +3.5-112,win,"GB 45, NE 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,GB@NE,Doug Ziefel (Action Network),spread,NE,-2.5,NE -2.5-115,loss,"GB 45, NE 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,GB@NE,Frank Ammirante (Action Network),total,under,44.5,Under 44.5-115,loss,"GB 45, NE 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,GB@NE,Kendra Middleton (Action Network),spread,GB,3.5,GB +3.5-115,win,"GB 45, NE 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,GB@NE,Kev Mahserejian (Action Network),moneyline,GB,,GB +147,win,"GB 45, NE 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,BUF@MIN,Mike McNamara (Action Network),spread,MIN,3.5,MIN +3.5-115,loss,"BUF 23, MIN 6",Action Network
+2026-11-08T16:28:22+00:00,2026,9,BUF@MIN,Doug Ziefel (Action Network),spread,BUF,-3.5,BUF -3.5+100,win,"BUF 23, MIN 6",Action Network
+2026-11-08T16:28:22+00:00,2026,9,BUF@MIN,Ryan Minion (Action Network),spread,MIN,3.5,MIN +3.5-119,loss,"BUF 23, MIN 6",Action Network
+2026-11-08T16:28:22+00:00,2026,9,BUF@MIN,Frank Ammirante (Action Network),spread,MIN,3.0,MIN +3+100,loss,"BUF 23, MIN 6",Action Network
+2026-11-08T16:28:22+00:00,2026,9,TB@CHI,Anthony Dabbundo (Action Network),spread,TB,6.5,TB +6.5-110,win,"TB 24, CHI 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,TB@CHI,Collin Whitchurch (Action Network),spread,CHI,-6.0,CHI -6-105,loss,"TB 24, CHI 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,TB@CHI,Brian Bitler (Action Network),total,under,47.5,Under 47.5+104,loss,"TB 24, CHI 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,TB@CHI,Frank Ammirante (Action Network),spread,TB,6.0,TB +6-110,win,"TB 24, CHI 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,TB@CHI,Kendra Middleton (Action Network),spread,CHI,-6.0,CHI -6-110,loss,"TB 24, CHI 27",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DEN@CAR,Sean Zerillo (Action Network),spread,CAR,3.0,CAR +3-124,loss,"DEN 26, CAR 21",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DEN@CAR,Doug Ziefel (Action Network),spread,DEN,-2.5,DEN -2.5-115,win,"DEN 26, CAR 21",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DEN@CAR,Sandy Plashkes (Action Network),spread,CAR,3.0,CAR +3-112,loss,"DEN 26, CAR 21",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DEN@CAR,Brandon Kravitz (Action Network),spread,CAR,3.0,CAR +3-110,loss,"DEN 26, CAR 21",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DEN@CAR,Frank Ammirante (Action Network),spread,CAR,2.5,CAR +2.5+100,loss,"DEN 26, CAR 21",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DEN@CAR,Kev Mahserejian (Action Network),total,over,44.5,Over 44.5-110,win,"DEN 26, CAR 21",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DET@MIA,Mike McNamara (Action Network),spread,MIA,7.0,MIA +7-110,loss,"DET 19, MIA 9",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DET@MIA,Sean Zerillo (Action Network),total,over,50.5,Over 50.5+104,loss,"DET 19, MIA 9",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DET@MIA,Sandy Plashkes (Action Network),spread,MIA,6.5,MIA +6.5-102,loss,"DET 19, MIA 9",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DET@MIA,Brian Bitler (Action Network),spread,MIA,6.5,MIA +6.5-104,loss,"DET 19, MIA 9",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DET@MIA,Frank Ammirante (Action Network),spread,MIA,6.5,MIA +6.5-105,loss,"DET 19, MIA 9",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DET@MIA,Alex Hinton (Action Network),spread,DET,-7.0,DET -7-115,win,"DET 19, MIA 9",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DET@MIA,Kev Mahserejian (Action Network),total,over,50.0,Over 50-115,loss,"DET 19, MIA 9",Action Network
+2026-11-08T16:28:22+00:00,2026,9,CLE@NO,Doug Ziefel (Action Network),spread,NO,-2.5,NO -2.5-118,loss,"CLE 22, NO 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,CLE@NO,Doug Kezirian (Action Network),spread,NO,-3.0,NO -3-113,loss,"CLE 22, NO 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,CLE@NO,Brandon Kravitz (Action Network),spread,NO,-3.0,NO -3-105,loss,"CLE 22, NO 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,CLE@NO,Frank Ammirante (Action Network),spread,NO,-3.5,NO -3.5+100,loss,"CLE 22, NO 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,CLE@NO,Kev Mahserejian (Action Network),moneyline,CLE,,CLE +148,loss,"CLE 22, NO 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,LA@WAS,Sean Zerillo (Action Network),spread,WAS,5.5,WAS +5.5-113,loss,"LA 20, WAS 13",Action Network
+2026-11-08T16:28:22+00:00,2026,9,LA@WAS,Doug Ziefel (Action Network),spread,WAS,5.5,WAS +5.5-112,loss,"LA 20, WAS 13",Action Network
+2026-11-08T16:28:22+00:00,2026,9,LA@WAS,Ryan Minion (Action Network),spread,WAS,5.0,WAS +5-112,loss,"LA 20, WAS 13",Action Network
+2026-11-08T16:28:22+00:00,2026,9,LA@WAS,Brandon Kravitz (Action Network),spread,WAS,6.0,WAS +6-110,loss,"LA 20, WAS 13",Action Network
+2026-11-08T16:28:22+00:00,2026,9,LA@WAS,Frank Ammirante (Action Network),spread,LA,-4.5,LA -4.5-112,win,"LA 20, WAS 13",Action Network
+2026-11-08T16:28:22+00:00,2026,9,LA@WAS,Kev Mahserejian (Action Network),total,under,47.5,Under 47.5-109,win,"LA 20, WAS 13",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DAL@IND,Sean Zerillo (Action Network),total,under,51.5,Under 51.5-102,win,"DAL 27, IND 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DAL@IND,Brian Bitler (Action Network),spread,IND,4.5,IND +4.5-102,win,"DAL 27, IND 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DAL@IND,Frank Ammirante (Action Network),spread,DAL,-5.5,DAL -5.5-105,loss,"DAL 27, IND 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,DAL@IND,Kev Mahserejian (Action Network),total,over,51.5,Over 51.5-110,loss,"DAL 27, IND 23",Action Network
+2026-11-08T16:28:22+00:00,2026,9,LV@SF,Frank Ammirante (Action Network),spread,SF,-10.0,SF -10-110,win,"LV 17, SF 38",Action Network
+2026-11-08T16:28:22+00:00,2026,9,ARI@SEA,Sandy Plashkes (Action Network),spread,SEA,-7.0,SEA -7-125,win,"ARI 3, SEA 17",Action Network
+2026-11-08T16:28:22+00:00,2026,9,ARI@SEA,Brandon Anderson (Action Network),spread,SEA,-8.5,SEA -8.5-108,win,"ARI 3, SEA 17",Action Network
+2026-11-08T16:28:22+00:00,2026,9,ARI@SEA,Brian Bitler (Action Network),spread,SEA,-8.5,SEA -8.5+100,win,"ARI 3, SEA 17",Action Network
+2026-11-08T16:28:22+00:00,2026,9,ARI@SEA,Brandon Kravitz (Action Network),spread,SEA,-8.0,SEA -8-105,win,"ARI 3, SEA 17",Action Network
+2026-11-08T16:28:22+00:00,2026,9,ARI@SEA,Frank Ammirante (Action Network),spread,ARI,8.5,ARI +8.5-115,loss,"ARI 3, SEA 17",Action Network
+2026-11-08T16:28:22+00:00,2026,9,ARI@SEA,Kendra Middleton (Action Network),spread,ARI,9.5,ARI +9.5-113,loss,"ARI 3, SEA 17",Action Network
+2026-11-09T23:22:13+00:00,2026,9,BUF@MIN,Stuck (Action Network),spread,MIN,3.5,MIN +3.5-120,loss,"BUF 23, MIN 6",Action Network
+2026-11-09T23:22:13+00:00,2026,9,BUF@MIN,Anthony Dabbundo (Action Network),spread,MIN,3.0,MIN +3+100,loss,"BUF 23, MIN 6",Action Network
+2026-11-09T23:22:13+00:00,2026,9,BUF@MIN,The Degenerates (Action Network),spread,BUF,-3.0,BUF -3-115,win,"BUF 23, MIN 6",Action Network
+2026-11-09T23:22:13+00:00,2026,9,BUF@MIN,Brian Bitler (Action Network),total,under,44.5,Under 44.5+102,win,"BUF 23, MIN 6",Action Network
+2026-11-09T23:22:13+00:00,2026,9,BUF@MIN,Scott Rickenbach (Action Network),total,over,44.5,Over 44.5-108,loss,"BUF 23, MIN 6",Action Network
+2026-11-09T23:22:13+00:00,2026,9,BUF@MIN,Andrew A (Action Network),moneyline,MIN,,MIN +150,loss,"BUF 23, MIN 6",Action Network
+2026-11-10T21:55:21+00:00,2026,10,WAS@NYG,Doug Ziefel (Action Network),total,under,43.5,Under 43.5-115,loss,"WAS 24, NYG 21",Action Network
+2026-11-10T21:55:21+00:00,2026,10,NE@DET,Doug Ziefel (Action Network),spread,DET,-2.5,DET -2.5-113,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,NE@DET,Jeremiah Rose (Action Network),moneyline,NE,,NE +132,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,JAX@TEN,Brandon Kravitz (Action Network),spread,TEN,10.0,TEN +10-108,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,MIA@IND,Doug Ziefel (Action Network),total,under,40.5,Under 40.5+100,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,MIA@IND,Brandon Kravitz (Action Network),spread,IND,-3.5,IND -3.5-102,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,BUF@NYJ,Doug Ziefel (Action Network),total,over,51.5,Over 51.5+100,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,KC@ATL,Doug Ziefel (Action Network),spread,ATL,3.5,ATL +3.5-114,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,LA@ARI,Anthony Dabbundo (Action Network),total,under,45.0,Under 45-110,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,LA@ARI,Doug Ziefel (Action Network),total,under,46.0,Under 46-113,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,SF@DAL,Mike McNamara (Action Network),spread,DAL,4.5,DAL +4.5-118,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,SF@DAL,Brandon Kravitz (Action Network),spread,DAL,4.5,DAL +4.5-108,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,PIT@CIN,Brandon Kravitz (Action Network),spread,PIT,3.5,PIT +3.5-108,pending,,Action Network
+2026-11-10T21:55:21+00:00,2026,10,CAR@GB,Jordan Dajani (CBS Sports),spread,GB,-3.5,GB -3.5,pending,,cbssports.com
+2026-11-10T21:55:21+00:00,2026,10,CAR@GB,Jared Dubin (CBS Sports),spread,GB,-3.5,GB -3.5,pending,,cbssports.com
+2026-11-10T21:55:21+00:00,2026,10,ATL@TB,Steve Makinen (VSiN),spread,ATL,2.5,ATL +2.5,pending,,vsin.com
+2026-11-10T21:55:21+00:00,2026,10,BAL@BUF,Steve Makinen (VSiN),spread,BAL,3.0,BAL +3,pending,,vsin.com
+2026-11-10T21:55:21+00:00,2026,10,TEN@CIN,Steve Makinen (VSiN),spread,CIN,-11.5,CIN -11.5,pending,,vsin.com
+2026-11-10T21:55:21+00:00,2026,10,CLE@PIT,Steve Makinen (VSiN),spread,PIT,-3.5,PIT -3.5,pending,,vsin.com
+2026-11-10T21:55:21+00:00,2026,10,LAC@LA,Steve Makinen (VSiN),spread,LAC,6.5,LAC +6.5,pending,,vsin.com
+2026-11-10T21:55:21+00:00,2026,10,KC@DEN,Steve Makinen (VSiN),spread,KC,-1.5,KC -1.5,pending,,vsin.com
+2026-11-10T21:55:21+00:00,2026,10,NE@MIA,Steve Makinen (VSiN),spread,NE,-7.0,NE -7,pending,,vsin.com
+2026-11-10T21:55:21+00:00,2026,10,PHI@WAS,Steve Makinen (VSiN),spread,PHI,6.0,PHI +6,pending,,vsin.com
+2026-11-11T20:21:36+00:00,2026,10,NE@DET,John Feltman (Action Network),spread,DET,-2.5,DET -2.5-135,pending,,Action Network
+2026-11-11T20:21:36+00:00,2026,10,MIN@GB,John Feltman (Action Network),spread,MIN,3.5,MIN +3.5-115,pending,,Action Network
+2026-11-11T20:21:36+00:00,2026,10,PIT@CIN,Anthony Dabbundo (Action Network),spread,PIT,3.5,PIT +3.5-110,pending,,Action Network
+2026-11-11T20:21:36+00:00,2026,10,WAS@NYG,Joe Osborne (Covers),spread,WAS,2.5,WAS +2.5 (early lean),win,"WAS 24, NYG 21",covers.com
+2026-11-11T20:21:36+00:00,2026,10,WAS@NYG,Joe Osborne (Covers),total,over,42.5,Over 42.5 (early lean),win,"WAS 24, NYG 21",covers.com
+2026-11-11T20:21:36+00:00,2026,10,WAS@NYG,Peter Dewey (SI),moneyline,NYG,-125.0,NYG ML -125,loss,"WAS 24, NYG 21",si.com
+2026-11-12T22:32:19+00:00,2026,10,WAS@NYG,Kody Malstrom (Action Network),spread,NYG,-1.5,NYG -1.5-108,loss,"WAS 24, NYG 21",Action Network
+2026-11-12T22:32:19+00:00,2026,10,WAS@NYG,Anthony Dabbundo (Action Network),spread,WAS,2.5,WAS +2.5-110,win,"WAS 24, NYG 21",Action Network
+2026-11-12T22:32:19+00:00,2026,10,WAS@NYG,Ryan Minion (Action Network),moneyline,WAS,,WAS +120,win,"WAS 24, NYG 21",Action Network
+2026-11-12T22:32:19+00:00,2026,10,WAS@NYG,Brian Bitler (Action Network),total,under,40.5,Under 40.5+106,loss,"WAS 24, NYG 21",Action Network
+2026-11-12T22:32:19+00:00,2026,10,WAS@NYG,Brandon Kravitz (Action Network),moneyline,NYG,,NYG -122,loss,"WAS 24, NYG 21",Action Network
+2026-11-12T22:32:19+00:00,2026,10,WAS@NYG,Kendra Middleton (Action Network),spread,NYG,-1.5,NYG -1.5-106,loss,"WAS 24, NYG 21",Action Network
+2026-11-12T22:32:19+00:00,2026,10,LAC@BAL,Kody Malstrom (Action Network),total,over,38.0,Over 38-118,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,PIT@CIN,Kody Malstrom (Action Network),total,under,50.0,Under 50-110,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,NE@DET,Kody Malstrom (Action Network),spread,NE,3.0,NE +3-115,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,NE@DET,Anthony Dabbundo (Action Network),total,over,50.5,Over 50.5-110,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,NE@DET,Kendra Middleton (Action Network),spread,DET,-2.5,DET -2.5-115,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,NE@DET,Kev Mahserejian (Action Network),total,under,51.0,Under 51-113,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,JAX@TEN,Kody Malstrom (Action Network),spread,TEN,10.5,TEN +10.5+100,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,MIN@GB,Mike McNamara (Action Network),spread,GB,-3.0,GB -3-110,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,MIA@IND,Doug Kezirian (Action Network),spread,IND,-3.5,IND -3.5-115,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,MIA@IND,Kev Mahserejian (Action Network),total,over,38.0,Over 38-110,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,BUF@NYJ,Kody Malstrom (Action Network),total,over,50.5,Over 50.5-110,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,BUF@NYJ,Kendra Middleton (Action Network),total,under,50.5,Under 50.5+108,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,BUF@NYJ,Kev Mahserejian (Action Network),spread,NYJ,8.5,NYJ +8.5-109,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,CAR@NO,Kev Mahserejian (Action Network),moneyline,CAR,,CAR +120,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,SF@DAL,Kody Malstrom (Action Network),total,under,56.5,Under 56.5-110,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,HOU@CLE,Doug Kezirian (Action Network),spread,HOU,-4.5,HOU -4.5-115,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,KC@ATL,Kody Malstrom (Action Network),total,under,47.5,Under 47.5-115,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,KC@ATL,Kendra Middleton (Action Network),spread,KC,-3.0,KC -3-120,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,KC@ATL,Kev Mahserejian (Action Network),total,over,45.5,Over 45.5-110,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,LA@ARI,Kody Malstrom (Action Network),total,over,38.5,Over 38.5-111,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,LA@ARI,Doug Kezirian (Action Network),total,under,39.5,Under 39.5-111,pending,,Action Network
+2026-11-12T22:32:19+00:00,2026,10,SEA@LV,Brandon Kravitz (Action Network),spread,LV,6.5,LV +6.5+104,pending,,Action Network
+2026-11-13T22:18:21+00:00,2026,10,CAR@NO,Ryan Minion (Action Network),moneyline,CAR,,CAR +120,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,NE@DET,Mike McNamara (Action Network),moneyline,DET,,DET -148,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,NE@DET,Sandy Plashkes (Action Network),spread,DET,-2.5,DET -2.5-112,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,NE@DET,Brandon Anderson (Action Network),spread,DET,-2.5,DET -2.5-111,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,NE@DET,Brian Bitler (Action Network),spread,NE,2.5,NE +2.5+111,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,NE@DET,Frank Ammirante (Action Network),total,over,49.5,Over 49.5-105,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,NE@DET,Adam Kaufman (Action Network),spread,DET,-2.5,DET -2.5-113,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,JAX@TEN,Sandy Plashkes (Action Network),total,under,46.5,Under 46.5-114,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,JAX@TEN,Brian Bitler (Action Network),spread,TEN,10.5,TEN +10.5+100,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,MIN@GB,Frank Ammirante (Action Network),total,under,42.5,Under 42.5-115,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,MIN@GB,Wags Wins (Action Network),spread,MIN,3.5,MIN +3.5-127,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,MIA@IND,Brandon Anderson (Action Network),spread,IND,-3.5,IND -3.5-110,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,MIA@IND,Brian Bitler (Action Network),spread,IND,-4.5,IND -4.5+102,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,BUF@NYJ,Sean Zerillo (Action Network),total,under,51.8,Under 51.8-108,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,BUF@NYJ,Sandy Plashkes (Action Network),spread,NYJ,8.0,NYJ +8-110,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,BUF@NYJ,Brandon Anderson (Action Network),moneyline,NYJ,,NYJ +376,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,BUF@NYJ,Brian Bitler (Action Network),spread,NYJ,7.5,NYJ +7.5+102,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,BUF@NYJ,John Feltman (Action Network),spread,NYJ,8.5,NYJ +8.5-120,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,CAR@NO,Sandy Plashkes (Action Network),spread,CAR,2.0,CAR +2-105,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,KC@ATL,Picks Office (Action Network),total,over,47.5,Over 47.5-105,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,SEA@LV,Mike McNamara (Action Network),spread,LV,6.5,LV +6.5-110,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,SF@DAL,Sean Zerillo (Action Network),spread,DAL,4.5,DAL +4.5-113,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,SF@DAL,Ryan Minion (Action Network),spread,DAL,4.5,DAL +4.5-110,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,SF@DAL,John Feltman (Action Network),spread,DAL,4.5,DAL +4.5-120,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,SF@DAL,Kendra Middleton (Action Network),total,under,56.5,Under 56.5-111,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,PIT@CIN,Brandon Anderson (Action Network),spread,PIT,3.5,PIT +3.5-108,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,PIT@CIN,Brian Bitler (Action Network),spread,PIT,3.5,PIT +3.5-102,pending,,Action Network
+2026-11-15T13:45:49+00:00,2026,10,PIT@CIN,Frank Ammirante (Action Network),spread,PIT,3.5,PIT +3.5-112,pending,,Action Network

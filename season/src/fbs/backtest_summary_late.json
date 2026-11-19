@@ -1,0 +1,38 @@
+{
+ "fbs": {
+  "games_played": 5,
+  "rules": {
+   "dog_spread": {
+    "on": true,
+    "season": "1-2 -1.09u",
+    "nov": "1-2 -1.09u",
+    "n": 3
+   },
+   "one_sided": {
+    "on": true,
+    "season": "0-1 -1.00u",
+    "nov": "0-1 -1.00u",
+    "n": 1
+   },
+   "dog_ml": {
+    "on": true,
+    "season": "0-1 -1.00u",
+    "nov": "0-1 -1.00u",
+    "n": 1
+   },
+   "fav_ml": {
+    "on": true,
+    "season": "1-1 -0.15u",
+    "nov": "1-1 -0.15u",
+    "n": 2
+   },
+   "strong_spread": {
+    "on": true,
+    "season": "1-0 +0.91u",
+    "nov": "1-0 +0.91u",
+    "n": 1
+   }
+  },
+  "docs": 8
+ }
+}

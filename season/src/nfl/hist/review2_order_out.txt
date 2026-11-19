@@ -1,0 +1,66 @@
+
+## Same games (dog with a reason, +100 to +200): spread vs moneyline
+  as spread                                                       20-12 +6.7u  62.5% be 51.8% | Sep      9-5 +3.2u | Oct     11-7 +3.5u | last 3 wk      8-5 +2.7u QUALIFIES
+  as moneyline                                                    17-15 +9.8u  53.1% be 40.7% | Sep      8-6 +6.1u | Oct      9-9 +3.7u | last 3 wk      7-6 +3.5u QUALIFIES
+
+## LOWERED side rules in order, closing lines
+  fav_ml lead 1+                                                 12-6-1 +2.4u  66.7% be 60.1% | Sep      4-2 +0.7u | Oct    8-4-1 +1.6u | last 3 wk    8-2-1 +3.6u QUALIFIES
+  spread lead 2+                                                31-20-5 +8.3u  60.8% be 52.3% | Sep  15-11-2 +2.6u | Oct   16-9-3 +5.7u | last 3 wk   11-7-1 +3.1u QUALIFIES
+  dog spread + reason                                               2-4 -2.2u  33.3% be 52.4% | Sep      1-2 -1.1u | Oct      1-2 -1.1u | last 3 wk      0-2 -2.0u 
+  dog ML + reason                                                     -         0.0% be  0.0% | Sep        -       | Oct        -       | last 3 wk        -       
+  all side rules                                                45-30-6 +8.5u  60.0% be 54.2% | Sep  20-15-2 +2.2u | Oct  25-15-4 +6.2u | last 3 wk  19-11-2 +4.7u QUALIFIES
+
+## STRICT side rules in order, closing lines
+  fav_ml lead 2+                                                 11-3-1 +4.7u  78.6% be 59.9% | Sep      3-0 +2.0u | Oct    8-3-1 +2.6u | last 3 wk    8-2-1 +3.6u QUALIFIES
+  spread lead 3+                                               26-12-4 +11.6u  68.4% be 52.4% | Sep   14-5-2 +7.6u | Oct   12-7-2 +4.0u | last 3 wk    8-5-1 +2.3u QUALIFIES
+  dog spread + reason, lead 2+                                    4-5-1 -1.2u  44.4% be 51.2% | Sep      1-4 -3.0u | Oct    3-1-1 +1.9u | last 3 wk      2-1 +1.0u 
+  dog ML + reason, lead 2+                                            -         0.0% be  0.0% | Sep        -       | Oct        -       | last 3 wk        -       
+  all side rules                                               41-20-6 +15.1u  67.2% be 53.9% | Sep   18-9-2 +6.6u | Oct  23-11-4 +8.5u | last 3 wk   18-8-2 +6.9u QUALIFIES
+
+## LOWERED total rules in order, closing lines
+  one-sided MvT or PRO                                            26-18 +5.7u  59.1% be 52.3% | Sep     13-9 +2.8u | Oct     13-9 +2.9u | last 3 wk      9-6 +2.2u QUALIFIES
+  over lean 3+                                                      6-4 +1.5u  60.0% be 52.1% | Sep      2-3 -1.2u | Oct      4-1 +2.7u | last 3 wk      2-1 +0.8u QUALIFIES
+  all total rules                                                 32-22 +7.3u  59.3% be 52.3% | Sep    15-12 +1.7u | Oct    17-10 +5.6u | last 3 wk     11-7 +3.1u QUALIFIES
+
+## STRICT total rules in order, closing lines
+  one-sided PRO or BM, nothing against                            28-16 +9.6u  63.6% be 52.3% | Sep     15-7 +6.7u | Oct     13-9 +2.9u | last 3 wk      9-6 +2.3u QUALIFIES
+  over lean 3+                                                      3-4 -1.2u  42.9% be 52.2% | Sep      1-3 -2.1u | Oct      2-1 +0.9u | last 3 wk      1-1 -0.0u 
+  all total rules                                                 31-20 +8.4u  60.8% be 52.3% | Sep    16-10 +4.5u | Oct    15-10 +3.9u | last 3 wk     10-7 +2.2u QUALIFIES
+
+## LOWERED side rules in order, morning lines
+  fav_ml lead 1+                                                 16-6-1 +4.6u  72.7% be 61.1% | Sep      5-2 +1.1u | Oct   11-4-1 +3.5u | last 3 wk   11-2-1 +5.5u QUALIFIES
+  spread lead 2+                                                30-21-4 +6.3u  58.8% be 52.4% | Sep  15-12-1 +1.6u | Oct   15-9-3 +4.6u | last 3 wk   10-7-1 +2.1u QUALIFIES
+  dog spread + reason                                               2-4 -2.2u  33.3% be 52.4% | Sep      1-2 -1.1u | Oct      1-2 -1.1u | last 3 wk      0-2 -2.0u 
+  dog ML + reason                                                     -         0.0% be  0.0% | Sep        -       | Oct        -       | last 3 wk        -       
+  all side rules                                                48-31-5 +8.7u  60.8% be 54.8% | Sep  21-16-1 +1.6u | Oct  27-15-4 +7.1u | last 3 wk  21-11-2 +5.6u QUALIFIES
+
+## STRICT side rules in order, morning lines
+  fav_ml lead 2+                                                 12-3-1 +5.2u  80.0% be 60.5% | Sep      4-0 +2.4u | Oct    8-3-1 +2.9u | last 3 wk    8-2-1 +3.9u QUALIFIES
+  spread lead 3+                                               26-13-3 +10.6u  66.7% be 52.4% | Sep   14-6-1 +6.7u | Oct   12-7-2 +3.9u | last 3 wk    8-5-1 +2.3u QUALIFIES
+  dog spread + reason, lead 2+                                    4-5-1 -1.4u  44.4% be 52.4% | Sep      1-4 -3.1u | Oct    3-1-1 +1.7u | last 3 wk      2-1 +0.8u 
+  dog ML + reason, lead 2+                                            -         0.0% be  0.0% | Sep        -       | Oct        -       | last 3 wk        -       
+  all side rules                                               42-21-5 +14.5u  66.7% be 54.3% | Sep  19-10-1 +6.0u | Oct  23-11-4 +8.5u | last 3 wk   18-8-2 +7.0u QUALIFIES
+
+## LOWERED total rules in order, morning lines
+  one-sided MvT or PRO                                            26-18 +5.6u  59.1% be 52.4% | Sep     13-9 +2.8u | Oct     13-9 +2.8u | last 3 wk      9-6 +2.2u QUALIFIES
+  over lean 3+                                                      5-5 -0.5u  50.0% be 52.4% | Sep      1-4 -3.1u | Oct      4-1 +2.6u | last 3 wk      2-1 +0.8u 
+  all total rules                                                 31-23 +5.2u  57.4% be 52.4% | Sep    14-13 -0.3u | Oct    17-10 +5.5u | last 3 wk     11-7 +3.0u QUALIFIES
+
+## STRICT total rules in order, morning lines
+  one-sided PRO or BM, nothing against                            28-16 +9.5u  63.6% be 52.4% | Sep     15-7 +6.6u | Oct     13-9 +2.8u | last 3 wk      9-6 +2.2u QUALIFIES
+  over lean 3+                                                      2-5 -3.2u  28.6% be 52.4% | Sep      0-4 -4.0u | Oct      2-1 +0.8u | last 3 wk      1-1 -0.1u 
+  all total rules                                                 30-21 +6.3u  58.8% be 52.4% | Sep    15-11 +2.6u | Oct    15-10 +3.6u | last 3 wk     10-7 +2.1u QUALIFIES
+
+## OPTION B (underdog moneyline before spreads), LOWERED, closing lines
+  fav_ml lead 1+                                                 12-6-1 +2.4u  66.7% be 60.1% | Sep      4-2 +0.7u | Oct    8-4-1 +1.6u | last 3 wk    8-2-1 +3.6u QUALIFIES
+  dog ML + reason                                                 11-14 +2.5u  44.0% be 40.3% | Sep      6-6 +3.7u | Oct      5-8 -1.1u | last 3 wk      4-5 +0.6u QUALIFIES
+  spread lead 2+                                                18-12-5 +4.0u  60.0% be 52.8% | Sep    9-7-2 +1.2u | Oct    9-5-3 +2.9u | last 3 wk    6-5-1 +0.2u QUALIFIES
+  dog spread + reason                                               1-1 -0.1u  50.0% be 52.2% | Sep      0-1 -1.0u | Oct      1-0 +0.9u | last 3 wk        -       
+  all side rules                                                42-33-6 +8.9u  56.0% be 50.4% | Sep  19-16-2 +4.6u | Oct  23-17-4 +4.3u | last 3 wk  18-12-2 +4.5u QUALIFIES
+
+## OPTION B (underdog moneyline before spreads), LOWERED, morning lines
+  fav_ml lead 1+                                                 16-6-1 +4.6u  72.7% be 61.1% | Sep      5-2 +1.1u | Oct   11-4-1 +3.5u | last 3 wk   11-2-1 +5.5u QUALIFIES
+  dog ML + reason                                                 11-14 +1.5u  44.0% be 41.6% | Sep      5-8 -0.3u | Oct      6-6 +1.8u | last 3 wk      4-3 +2.6u QUALIFIES
+  spread lead 2+                                                17-12-4 +3.5u  58.6% be 52.4% | Sep    9-7-1 +1.2u | Oct    8-5-3 +2.3u | last 3 wk    6-5-1 +0.5u QUALIFIES
+  dog spread + reason                                               1-2 -1.1u  33.3% be 52.4% | Sep      0-1 -1.0u | Oct      1-1 -0.1u | last 3 wk      0-1 -1.0u 
+  all side rules                                                45-34-5 +8.4u  57.0% be 51.4% | Sep  19-18-1 +0.9u | Oct  26-16-4 +7.5u | last 3 wk  21-11-2 +7.5u QUALIFIES

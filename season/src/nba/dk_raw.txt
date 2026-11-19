@@ -1,0 +1,6 @@
+The Odds API median of books, open vs latest read, 2026-11-17. AWAY-HOME|away spread open|away spread now|total open|total now
+NYK-TOR|-3|-2.5|215.5|215.5
+DET-SAS|9.5|9.5|222.5|221.5
+POR-MIN|2|2.5|227.5|226
+UTA-LAC|6.5|6.5|225.5|225.5
+CHA-LAL|7.5|7|220.5|223

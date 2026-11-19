@@ -1,0 +1,2197 @@
+{
+"pulled_at": "2026-11-14T00:58:00-07:00",
+"games": {
+"Duke-Miami": {
+"picks": [
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Duke +14",
+"market": "Spread",
+"side": "Duke",
+"line": "14",
+"price": "-108",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Brandon Kravitz",
+"platform": "Action Network",
+"pick": "Duke +13.5",
+"market": "Spread",
+"side": "Duke",
+"line": "13.5",
+"price": "-100",
+"units": "1u",
+"record": "9-15 (-2.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BKPicks"
+},
+{
+"name": "Alex Hinton",
+"platform": "Action Network",
+"pick": "Over 54.5",
+"market": "Total",
+"side": "Over",
+"line": "54.5",
+"price": "-111",
+"units": "1u",
+"record": "28-23 (+4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/AlHinton_23"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Miami -12.5",
+"market": "Spread",
+"side": "Miami",
+"line": "-12.5",
+"price": "-120",
+"units": "1.8u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"WakeForest-SMU": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "SMU -1",
+"market": "Spread",
+"side": "SMU",
+"line": "-1",
+"price": "-110",
+"units": "1.1u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Under 62.5",
+"market": "Total",
+"side": "Under",
+"line": "62.5",
+"price": "-106",
+"units": "1.06u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "SMU +1",
+"market": "Spread",
+"side": "SMU",
+"line": "1",
+"price": "-110",
+"units": "0.5u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "SMU ML +107",
+"market": "Moneyline",
+"side": "SMU",
+"line": "107",
+"price": "+107",
+"units": "0.47u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "SMU -1",
+"market": "Spread",
+"side": "SMU",
+"line": "-1",
+"price": "-110",
+"units": "0.55u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+},
+{
+"name": "Mike Calabrese",
+"platform": "Action Network",
+"pick": "SMU -1",
+"market": "Spread",
+"side": "SMU",
+"line": "-1",
+"price": "-110",
+"units": "1.1u",
+"record": "35-58-1 (-14.6u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Breese"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Under 60.5",
+"market": "Total",
+"side": "Under",
+"line": "60.5",
+"price": "-110",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "SMU ML -115",
+"market": "Moneyline",
+"side": "SMU",
+"line": "-115",
+"price": "-115",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Brandon Kravitz",
+"platform": "Action Network",
+"pick": "SMU +2.5",
+"market": "Spread",
+"side": "SMU",
+"line": "2.5",
+"price": "-101",
+"units": "1.01u",
+"record": "9-15 (-2.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BKPicks"
+},
+{
+"name": "Colby Marchio",
+"platform": "Action Network",
+"pick": "SMU +1.5",
+"market": "Spread",
+"side": "SMU",
+"line": "1.5",
+"price": "-110",
+"units": "1.1u",
+"record": "5-5 (-1.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/ColbyMBets"
+},
+{
+"name": "Alex Hinton",
+"platform": "Action Network",
+"pick": "SMU -1",
+"market": "Spread",
+"side": "SMU",
+"line": "-1",
+"price": "-110",
+"units": "1u",
+"record": "28-23 (+4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/AlHinton_23"
+},
+{
+"name": "Alex Hinton",
+"platform": "Action Network",
+"pick": "Over 60.5",
+"market": "Total",
+"side": "Over",
+"line": "60.5",
+"price": "-110",
+"units": "1u",
+"record": "28-23 (+4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/AlHinton_23"
+},
+{
+"name": "Nick Griffith",
+"platform": "Action Network",
+"pick": "SMU -1",
+"market": "Spread",
+"side": "SMU",
+"line": "-1",
+"price": "-110",
+"units": "1.1u",
+"record": "4-9 (-6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/NickGriffith"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "SMU +1",
+"market": "Spread",
+"side": "SMU",
+"line": "1",
+"price": "-110",
+"units": "1.1u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+}
+]
+},
+"Northwestern-OhioState": {
+"picks": [
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "Ohio State -13.5",
+"market": "Spread",
+"side": "Ohio State",
+"line": "-13.5",
+"price": "-115",
+"units": "0.4u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+}
+]
+},
+"JamesMadison-UConn": {
+"picks": [
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "James Madison -3.5",
+"market": "Spread",
+"side": "James Madison",
+"line": "-3.5",
+"price": "-120",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Sandy Plashkes",
+"platform": "Action Network",
+"pick": "Under 58",
+"market": "Total",
+"side": "Under",
+"line": "58",
+"price": "-110",
+"units": "1.1u",
+"record": "39-27-1 (+19.7u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/sandyplashkes"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "UConn ML +164",
+"market": "Moneyline",
+"side": "UConn",
+"line": "164",
+"price": "+164",
+"units": "0.61u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+}
+]
+},
+"Syracuse-NCState": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "NC State +3",
+"market": "Spread",
+"side": "NC State",
+"line": "3",
+"price": "-110",
+"units": "0.55u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Brandon Kravitz",
+"platform": "Action Network",
+"pick": "Syracuse -1.5",
+"market": "Spread",
+"side": "Syracuse",
+"line": "-1.5",
+"price": "-110",
+"units": "1.1u",
+"record": "9-15 (-2.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BKPicks"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Syracuse ML -138",
+"market": "Moneyline",
+"side": "Syracuse",
+"line": "-138",
+"price": "-138",
+"units": "1.38u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"GeorgiaTech-Clemson": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Under 49.5",
+"market": "Total",
+"side": "Under",
+"line": "49.5",
+"price": "-115",
+"units": "1.15u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "Georgia Tech +13.5",
+"market": "Spread",
+"side": "Georgia Tech",
+"line": "13.5",
+"price": "-110",
+"units": "0.55u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Under 48.5",
+"market": "Total",
+"side": "Under",
+"line": "48.5",
+"price": "-110",
+"units": "1.65u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"Nebraska-Rutgers": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Nebraska -12.5",
+"market": "Spread",
+"side": "Nebraska",
+"line": "-12.5",
+"price": "-110",
+"units": "0.55u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+}
+]
+},
+"Alabama-Vanderbilt": {
+"picks": [
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "Vanderbilt +17.5",
+"market": "Spread",
+"side": "Vanderbilt",
+"line": "17.5",
+"price": "-110",
+"units": "0.5u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Vanderbilt +17.5",
+"market": "Spread",
+"side": "Vanderbilt",
+"line": "17.5",
+"price": "-118",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "Vanderbilt +17.5",
+"market": "Spread",
+"side": "Vanderbilt",
+"line": "17.5",
+"price": "-110",
+"units": "1.1u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Vanderbilt +15.5",
+"market": "Spread",
+"side": "Vanderbilt",
+"line": "15.5",
+"price": "-120",
+"units": "1.5u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"ArkansasState-CoastalCarolina": {
+"picks": [
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Under 51.5",
+"market": "Total",
+"side": "Under",
+"line": "51.5",
+"price": "-110",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Under 52.5",
+"market": "Total",
+"side": "Under",
+"line": "52.5",
+"price": "-112",
+"units": "0.56u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Coastal Carolina ML -111",
+"market": "Moneyline",
+"side": "Coastal Carolina",
+"line": "-111",
+"price": "-111",
+"units": "1.39u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"UAB-Temple": {
+"picks": [
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Under 51.5",
+"market": "Total",
+"side": "Under",
+"line": "51.5",
+"price": "-112",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Mike Calabrese",
+"platform": "Action Network",
+"pick": "UAB ML +120",
+"market": "Moneyline",
+"side": "UAB",
+"line": "120",
+"price": "+120",
+"units": "1u",
+"record": "35-58-1 (-14.6u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Breese"
+},
+{
+"name": "BBOC: 6th Gear",
+"platform": "Action Network",
+"pick": "UAB ML +114",
+"market": "Moneyline",
+"side": "UAB",
+"line": "114",
+"price": "+114",
+"units": "0.88u",
+"record": "17-21-1 (-4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC6thGear"
+}
+]
+},
+"KennesawState-SamHouston": {
+"picks": [
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "Under 47.5",
+"market": "Total",
+"side": "Under",
+"line": "47.5",
+"price": "-110",
+"units": "0.55u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Over 44.5",
+"market": "Total",
+"side": "Over",
+"line": "44.5",
+"price": "-120",
+"units": "1.8u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"Tennessee-TexasAM": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Over 41",
+"market": "Total",
+"side": "Over",
+"line": "41",
+"price": "-112",
+"units": "1.12u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Tennessee -2.5",
+"market": "Spread",
+"side": "Tennessee",
+"line": "-2.5",
+"price": "-114",
+"units": "0.57u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+}
+]
+},
+"Kansas-WestVirginia": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Kansas +3",
+"market": "Spread",
+"side": "Kansas",
+"line": "3",
+"price": "-110",
+"units": "0.55u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "West Virginia -3",
+"market": "Spread",
+"side": "West Virginia",
+"line": "-3",
+"price": "-104",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "West Virginia -2.5",
+"market": "Spread",
+"side": "West Virginia",
+"line": "-2.5",
+"price": "-115",
+"units": "0.57u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+}
+]
+},
+"JacksonvilleState-WesternKentucky": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Jacksonville State -7",
+"market": "Spread",
+"side": "Jacksonville State",
+"line": "-7",
+"price": "-109",
+"units": "0.55u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Western Kentucky +7.5",
+"market": "Spread",
+"side": "Western Kentucky",
+"line": "7.5",
+"price": "-115",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Western Kentucky +7.5",
+"market": "Spread",
+"side": "Western Kentucky",
+"line": "7.5",
+"price": "-114",
+"units": "0.57u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+}
+]
+},
+"BostonCollege-NotreDame": {
+"picks": [
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "Boston College +30",
+"market": "Spread",
+"side": "Boston College",
+"line": "30",
+"price": "-110",
+"units": "0.5u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "Boston College +29.5",
+"market": "Spread",
+"side": "Boston College",
+"line": "29.5",
+"price": "-110",
+"units": "1.1u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+}
+]
+},
+"USC-Indiana": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Over 49.5",
+"market": "Total",
+"side": "Over",
+"line": "49.5",
+"price": "-115",
+"units": "1.15u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "Over 49.5",
+"market": "Total",
+"side": "Over",
+"line": "49.5",
+"price": "+100",
+"units": "0.5u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Over 50.5",
+"market": "Total",
+"side": "Over",
+"line": "50.5",
+"price": "-110",
+"units": "0.55u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+},
+{
+"name": "Mike Calabrese",
+"platform": "Action Network",
+"pick": "USC +7.5",
+"market": "Spread",
+"side": "USC",
+"line": "7.5",
+"price": "-112",
+"units": "2.24u",
+"record": "35-58-1 (-14.6u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Breese"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Over 50.5",
+"market": "Total",
+"side": "Over",
+"line": "50.5",
+"price": "-110",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Indiana -8",
+"market": "Spread",
+"side": "Indiana",
+"line": "-8",
+"price": "-110",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Brandon Kravitz",
+"platform": "Action Network",
+"pick": "USC ML +270",
+"market": "Moneyline",
+"side": "USC",
+"line": "270",
+"price": "+270",
+"units": "0.37u",
+"record": "9-15 (-2.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BKPicks"
+},
+{
+"name": "BBOC: 6th Gear",
+"platform": "Action Network",
+"pick": "USC +8.5",
+"market": "Spread",
+"side": "USC",
+"line": "8.5",
+"price": "-110",
+"units": "1u",
+"record": "17-21-1 (-4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC6thGear"
+}
+]
+},
+"California-Virginia": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Virginia -9.5",
+"market": "Spread",
+"side": "Virginia",
+"line": "-9.5",
+"price": "-115",
+"units": "0.57u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Virginia -10.5",
+"market": "Spread",
+"side": "Virginia",
+"line": "-10.5",
+"price": "-110",
+"units": "1.1u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"MiddleTennessee-Liberty": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Liberty -20",
+"market": "Spread",
+"side": "Liberty",
+"line": "-20",
+"price": "-108",
+"units": "0.54u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Road to CFB",
+"platform": "Action Network",
+"pick": "Liberty -21",
+"market": "Spread",
+"side": "Liberty",
+"line": "-21",
+"price": "-108",
+"units": "1.08u",
+"record": "30-25 (+2.5u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/RoadtoCFB"
+}
+]
+},
+"Missouri-Georgia": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Georgia -14",
+"market": "Spread",
+"side": "Georgia",
+"line": "-14",
+"price": "-112",
+"units": "1.12u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Georgia -13.5",
+"market": "Spread",
+"side": "Georgia",
+"line": "-13.5",
+"price": "-104",
+"units": "0.5u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Georgia -16.5",
+"market": "Spread",
+"side": "Georgia",
+"line": "-16.5",
+"price": "-108",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Over 47.5",
+"market": "Total",
+"side": "Over",
+"line": "47.5",
+"price": "-110",
+"units": "1.1u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"Nevada-NorthernIllinois": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Nevada -6.5",
+"market": "Spread",
+"side": "Nevada",
+"line": "-6.5",
+"price": "-118",
+"units": "0.59u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "Northern Illinois +7.5",
+"market": "Spread",
+"side": "Northern Illinois",
+"line": "7.5",
+"price": "-110",
+"units": "0.55u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Mike Calabrese",
+"platform": "Action Network",
+"pick": "Northern Illinois ML +245",
+"market": "Moneyline",
+"side": "Northern Illinois",
+"line": "245",
+"price": "+245",
+"units": "1u",
+"record": "35-58-1 (-14.6u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Breese"
+},
+{
+"name": "BBOC: 6th Gear",
+"platform": "Action Network",
+"pick": "Northern Illinois ML +225",
+"market": "Moneyline",
+"side": "Northern Illinois",
+"line": "225",
+"price": "+225",
+"units": "0.44u",
+"record": "17-21-1 (-4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC6thGear"
+}
+]
+},
+"FresnoState-TexasState": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Fresno State +10",
+"market": "Spread",
+"side": "Fresno State",
+"line": "10",
+"price": "-118",
+"units": "0.59u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Sandy Plashkes",
+"platform": "Action Network",
+"pick": "Under 60.5",
+"market": "Total",
+"side": "Under",
+"line": "60.5",
+"price": "-110",
+"units": "1.65u",
+"record": "39-27-1 (+19.7u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/sandyplashkes"
+},
+{
+"name": "Babs .",
+"platform": "Action Network",
+"pick": "Texas State -9.5",
+"market": "Spread",
+"side": "Texas State",
+"line": "-9.5",
+"price": "-108",
+"units": "1.33u",
+"record": "10-6 (+3.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Theotherbabs"
+}
+]
+},
+"Auburn-MississippiState": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Mississippi State +2.5",
+"market": "Spread",
+"side": "Mississippi State",
+"line": "2.5",
+"price": "+101",
+"units": "1u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Mississippi State +3",
+"market": "Spread",
+"side": "Mississippi State",
+"line": "3",
+"price": "-110",
+"units": "0.55u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "Auburn -2.5",
+"market": "Spread",
+"side": "Auburn",
+"line": "-2.5",
+"price": "-120",
+"units": "0.6u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Mississippi State +3.5",
+"market": "Spread",
+"side": "Mississippi State",
+"line": "3.5",
+"price": "-130",
+"units": "1.63u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"OleMiss-Oklahoma": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Oklahoma +1.5",
+"market": "Spread",
+"side": "Oklahoma",
+"line": "1.5",
+"price": "-115",
+"units": "1.15u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "Oklahoma +1",
+"market": "Spread",
+"side": "Oklahoma",
+"line": "1",
+"price": "-109",
+"units": "0.5u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "Mike McNamara",
+"platform": "Action Network",
+"pick": "Oklahoma +1",
+"market": "Spread",
+"side": "Oklahoma",
+"line": "1",
+"price": "-110",
+"units": "0.4u",
+"record": "30-34 (-1.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/mikemcnamara33"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Oklahoma ML -106",
+"market": "Moneyline",
+"side": "Oklahoma",
+"line": "-106",
+"price": "-106",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Brandon Kravitz",
+"platform": "Action Network",
+"pick": "Oklahoma +2.5",
+"market": "Spread",
+"side": "Oklahoma",
+"line": "2.5",
+"price": "-105",
+"units": "1.05u",
+"record": "9-15 (-2.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BKPicks"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "Oklahoma +1",
+"market": "Spread",
+"side": "Oklahoma",
+"line": "1",
+"price": "-109",
+"units": "1.09u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Oklahoma -2.5",
+"market": "Spread",
+"side": "Oklahoma",
+"line": "-2.5",
+"price": "-105",
+"units": "1.31u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Oklahoma ML -130",
+"market": "Moneyline",
+"side": "Oklahoma",
+"line": "-130",
+"price": "-130",
+"units": "1.3u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"Tulane-Rice": {
+"picks": [
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "Rice ML -126",
+"market": "Moneyline",
+"side": "Rice",
+"line": "-126",
+"price": "-126",
+"units": "0.5u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Tulane +3",
+"market": "Spread",
+"side": "Tulane",
+"line": "3",
+"price": "-109",
+"units": "0.55u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Rice ML -118",
+"market": "Moneyline",
+"side": "Rice",
+"line": "-118",
+"price": "-118",
+"units": "1.1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Rice ML -135",
+"market": "Moneyline",
+"side": "Rice",
+"line": "-135",
+"price": "-135",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "BBOC: 6th Gear",
+"platform": "Action Network",
+"pick": "Rice -1.5",
+"market": "Spread",
+"side": "Rice",
+"line": "-1.5",
+"price": "-110",
+"units": "1u",
+"record": "17-21-1 (-4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC6thGear"
+}
+]
+},
+"Washington-MichiganState": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Washington -3",
+"market": "Spread",
+"side": "Washington",
+"line": "-3",
+"price": "-110",
+"units": "0.55u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Road to CFB",
+"platform": "Action Network",
+"pick": "Under 44.5",
+"market": "Total",
+"side": "Under",
+"line": "44.5",
+"price": "-118",
+"units": "1.18u",
+"record": "30-25 (+2.5u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/RoadtoCFB"
+}
+]
+},
+"ArizonaState-UCF": {
+"picks": [
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Over 48.5",
+"market": "Total",
+"side": "Over",
+"line": "48.5",
+"price": "-108",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Over 47.5",
+"market": "Total",
+"side": "Over",
+"line": "47.5",
+"price": "-109",
+"units": "0.55u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+},
+{
+"name": "Brandon Kravitz",
+"platform": "Action Network",
+"pick": "UCF +3.5",
+"market": "Spread",
+"side": "UCF",
+"line": "3.5",
+"price": "+115",
+"units": "1u",
+"record": "9-15 (-2.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BKPicks"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Under 48.5",
+"market": "Total",
+"side": "Under",
+"line": "48.5",
+"price": "-120",
+"units": "1.2u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"OregonState-BoiseState": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Boise State -13.5",
+"market": "Spread",
+"side": "Boise State",
+"line": "-13.5",
+"price": "-115",
+"units": "1.73u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Colby Marchio",
+"platform": "Action Network",
+"pick": "Boise State -13.5",
+"market": "Spread",
+"side": "Boise State",
+"line": "-13.5",
+"price": "-125",
+"units": "1.25u",
+"record": "5-5 (-1.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/ColbyMBets"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "Over 67",
+"market": "Total",
+"side": "Over",
+"line": "67",
+"price": "-110",
+"units": "1.1u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Over 62.5",
+"market": "Total",
+"side": "Over",
+"line": "62.5",
+"price": "-115",
+"units": "1.44u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"AppState-Marshall": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Marshall +1.5",
+"market": "Spread",
+"side": "Marshall",
+"line": "1.5",
+"price": "-108",
+"units": "1.08u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Marshall +1.5",
+"market": "Spread",
+"side": "Marshall",
+"line": "1.5",
+"price": "-109",
+"units": "0.55u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+}
+]
+},
+"Florida-Kentucky": {
+"picks": [
+{
+"name": "Brandon Kravitz",
+"platform": "Action Network",
+"pick": "Kentucky -3.5",
+"market": "Spread",
+"side": "Kentucky",
+"line": "-3.5",
+"price": "+113",
+"units": "0.96u",
+"record": "9-15 (-2.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BKPicks"
+},
+{
+"name": "Colby Marchio",
+"platform": "Action Network",
+"pick": "Florida +4",
+"market": "Spread",
+"side": "Florida",
+"line": "4",
+"price": "-115",
+"units": "1.15u",
+"record": "5-5 (-1.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/ColbyMBets"
+},
+{
+"name": "Wags Wins",
+"platform": "Action Network",
+"pick": "Florida +3.5",
+"market": "Spread",
+"side": "Florida",
+"line": "3.5",
+"price": "-125",
+"units": "1.25u",
+"record": "54-52 (-2.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/wagsischasing"
+}
+]
+},
+"Baylor-BYU": {
+"picks": [
+{
+"name": "Ryan Minion",
+"platform": "Action Network",
+"pick": "BYU -6.5",
+"market": "Spread",
+"side": "BYU",
+"line": "-6.5",
+"price": "-130",
+"units": "1.3u",
+"record": "39-45-3 (-6.4u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/VegasMinion"
+},
+{
+"name": "Brandon Kravitz",
+"platform": "Action Network",
+"pick": "BYU -6.5",
+"market": "Spread",
+"side": "BYU",
+"line": "-6.5",
+"price": "-115",
+"units": "1.15u",
+"record": "9-15 (-2.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BKPicks"
+},
+{
+"name": "Colby Marchio",
+"platform": "Action Network",
+"pick": "Baylor +8",
+"market": "Spread",
+"side": "Baylor",
+"line": "8",
+"price": "-115",
+"units": "1.15u",
+"record": "5-5 (-1.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/ColbyMBets"
+}
+]
+},
+"Minnesota-PennState": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Over 42.5",
+"market": "Total",
+"side": "Over",
+"line": "42.5",
+"price": "-110",
+"units": "1.1u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "Penn State -8.5",
+"market": "Spread",
+"side": "Penn State",
+"line": "-8.5",
+"price": "-110",
+"units": "0.5u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Penn State -8.5",
+"market": "Spread",
+"side": "Penn State",
+"line": "-8.5",
+"price": "-110",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Over 41.5",
+"market": "Total",
+"side": "Over",
+"line": "41.5",
+"price": "-111",
+"units": "0.56u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Penn State -9.5",
+"market": "Spread",
+"side": "Penn State",
+"line": "-9.5",
+"price": "-112",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Babs .",
+"platform": "Action Network",
+"pick": "Penn State -8.5",
+"market": "Spread",
+"side": "Penn State",
+"line": "-8.5",
+"price": "-109",
+"units": "1.33u",
+"record": "10-6 (+3.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Theotherbabs"
+}
+]
+},
+"SanJoseState-AirForce": {
+"picks": [
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Under 49.5",
+"market": "Total",
+"side": "Under",
+"line": "49.5",
+"price": "-112",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "BBOC: 6th Gear",
+"platform": "Action Network",
+"pick": "Under 48",
+"market": "Total",
+"side": "Under",
+"line": "48",
+"price": "-112",
+"units": "1u",
+"record": "17-21-1 (-4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC6thGear"
+}
+]
+},
+"Louisville-NorthCarolina": {
+"picks": [
+{
+"name": "Mike McNamara",
+"platform": "Action Network",
+"pick": "North Carolina +3.5",
+"market": "Spread",
+"side": "North Carolina",
+"line": "3.5",
+"price": "-110",
+"units": "0.4u",
+"record": "30-34 (-1.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/mikemcnamara33"
+},
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Louisville -3",
+"market": "Spread",
+"side": "Louisville",
+"line": "-3",
+"price": "-115",
+"units": "0.57u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+}
+]
+},
+"Troy-SouthAlabama": {
+"picks": [
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Over 55.5",
+"market": "Total",
+"side": "Over",
+"line": "55.5",
+"price": "-108",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Over 55.5",
+"market": "Total",
+"side": "Over",
+"line": "55.5",
+"price": "-110",
+"units": "0.55u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+}
+]
+},
+"FloridaAtlantic-Tulsa": {
+"picks": [
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Tulsa -3.5",
+"market": "Spread",
+"side": "Tulsa",
+"line": "-3.5",
+"price": "-115",
+"units": "1.15u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+}
+]
+},
+"Purdue-Iowa": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Over 46.5",
+"market": "Total",
+"side": "Over",
+"line": "46.5",
+"price": "-112",
+"units": "1.12u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "Purdue +17.5",
+"market": "Spread",
+"side": "Purdue",
+"line": "17.5",
+"price": "-110",
+"units": "0.3u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "Over 47.5",
+"market": "Total",
+"side": "Over",
+"line": "47.5",
+"price": "-107",
+"units": "0.54u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Over 47.5",
+"market": "Total",
+"side": "Over",
+"line": "47.5",
+"price": "-110",
+"units": "0.55u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+},
+{
+"name": "Babs .",
+"platform": "Action Network",
+"pick": "Iowa -16.5",
+"market": "Spread",
+"side": "Iowa",
+"line": "-16.5",
+"price": "-115",
+"units": "1.33u",
+"record": "10-6 (+3.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Theotherbabs"
+}
+]
+},
+"Stanford-VirginiaTech": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Over 57.5",
+"market": "Total",
+"side": "Over",
+"line": "57.5",
+"price": "-110",
+"units": "0.55u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Collin Whitchurch",
+"platform": "Action Network",
+"pick": "Over 57.5",
+"market": "Total",
+"side": "Over",
+"line": "57.5",
+"price": "-115",
+"units": "0.57u",
+"record": "46-35 (+5.2u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/cowhitchurch"
+}
+]
+},
+"Texas-LSU": {
+"picks": [
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "LSU -3.5",
+"market": "Spread",
+"side": "LSU",
+"line": "-3.5",
+"price": "-109",
+"units": "0.5u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "Mike McNamara",
+"platform": "Action Network",
+"pick": "LSU ML -192",
+"market": "Moneyline",
+"side": "LSU",
+"line": "-192",
+"price": "-192",
+"units": "0.5u",
+"record": "30-34 (-1.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/mikemcnamara33"
+},
+{
+"name": "Ryan Minion",
+"platform": "Action Network",
+"pick": "LSU -3",
+"market": "Spread",
+"side": "LSU",
+"line": "-3",
+"price": "-110",
+"units": "1.1u",
+"record": "39-45-3 (-6.4u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/VegasMinion"
+},
+{
+"name": "Sandy Plashkes",
+"platform": "Action Network",
+"pick": "LSU -4",
+"market": "Spread",
+"side": "LSU",
+"line": "-4",
+"price": "-110",
+"units": "2.75u",
+"record": "39-27-1 (+19.7u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/sandyplashkes"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "LSU -4",
+"market": "Spread",
+"side": "LSU",
+"line": "-4",
+"price": "-112",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "Texas +4.5",
+"market": "Spread",
+"side": "Texas",
+"line": "4.5",
+"price": "-120",
+"units": "1.2u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+}
+]
+},
+"UNLV-NewMexico": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "New Mexico -14",
+"market": "Spread",
+"side": "New Mexico",
+"line": "-14",
+"price": "-113",
+"units": "0.56u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+}
+]
+},
+"SouthCarolina-Arkansas": {
+"picks": [
+{
+"name": "Collin Wilson",
+"platform": "Action Network",
+"pick": "Arkansas +7",
+"market": "Spread",
+"side": "Arkansas",
+"line": "7",
+"price": "-108",
+"units": "1.08u",
+"record": "87-65-1 (+12.0u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/_Collin1"
+},
+{
+"name": "Stuck",
+"platform": "Action Network",
+"pick": "Arkansas +7.5",
+"market": "Spread",
+"side": "Arkansas",
+"line": "7.5",
+"price": "-110",
+"units": "0.5u",
+"record": "37-35-1 (+2.3u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Stuckey2"
+},
+{
+"name": "Mike McNamara",
+"platform": "Action Network",
+"pick": "Arkansas +7.5",
+"market": "Spread",
+"side": "Arkansas",
+"line": "7.5",
+"price": "-112",
+"units": "0.22u",
+"record": "30-34 (-1.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/mikemcnamara33"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Arkansas +7.5",
+"market": "Spread",
+"side": "Arkansas",
+"line": "7.5",
+"price": "-108",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "Arkansas +8",
+"market": "Spread",
+"side": "Arkansas",
+"line": "8",
+"price": "-110",
+"units": "0.88u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+}
+]
+},
+"NorthTexas-UTSA": {
+"picks": [
+{
+"name": "Mike Calabrese",
+"platform": "Action Network",
+"pick": "Over 75.5",
+"market": "Total",
+"side": "Over",
+"line": "75.5",
+"price": "-115",
+"units": "3u",
+"record": "35-58-1 (-14.6u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Breese"
+},
+{
+"name": "BBOC: 6th Gear",
+"platform": "Action Network",
+"pick": "Over 75.5",
+"market": "Total",
+"side": "Over",
+"line": "75.5",
+"price": "-105",
+"units": "1u",
+"record": "17-21-1 (-4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC6thGear"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "Over 77.5",
+"market": "Total",
+"side": "Over",
+"line": "77.5",
+"price": "-110",
+"units": "1.1u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+}
+]
+},
+"UtahState-SanDiegoState": {
+"picks": [
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Utah State -2.5",
+"market": "Spread",
+"side": "Utah State",
+"line": "-2.5",
+"price": "-118",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Over 43.5",
+"market": "Total",
+"side": "Over",
+"line": "43.5",
+"price": "-105",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+}
+]
+},
+"TexasTech-OklahomaState": {
+"picks": [
+{
+"name": "Mike McNamara",
+"platform": "Action Network",
+"pick": "Oklahoma State ML -102",
+"market": "Moneyline",
+"side": "Oklahoma State",
+"line": "-102",
+"price": "-102",
+"units": "0.4u",
+"record": "30-34 (-1.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/mikemcnamara33"
+},
+{
+"name": "Mike McNamara",
+"platform": "Action Network",
+"pick": "Oklahoma State -2.5",
+"market": "Spread",
+"side": "Oklahoma State",
+"line": "-2.5",
+"price": "-110",
+"units": "0.4u",
+"record": "30-34 (-1.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/mikemcnamara33"
+},
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Texas Tech +3.5",
+"market": "Spread",
+"side": "Texas Tech",
+"line": "3.5",
+"price": "-104",
+"units": "0.52u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "Over 72.5",
+"market": "Total",
+"side": "Over",
+"line": "72.5",
+"price": "-108",
+"units": "0.54u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Ryan Minion",
+"platform": "Action Network",
+"pick": "Oklahoma State -2.5",
+"market": "Spread",
+"side": "Oklahoma State",
+"line": "-2.5",
+"price": "-115",
+"units": "1.15u",
+"record": "39-45-3 (-6.4u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/VegasMinion"
+},
+{
+"name": "Alex Hinton",
+"platform": "Action Network",
+"pick": "Over 73.5",
+"market": "Total",
+"side": "Over",
+"line": "73.5",
+"price": "-108",
+"units": "1u",
+"record": "28-23 (+4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/AlHinton_23"
+},
+{
+"name": "John Feltman",
+"platform": "Action Network",
+"pick": "Oklahoma State -2.5",
+"market": "Spread",
+"side": "Oklahoma State",
+"line": "-2.5",
+"price": "-130",
+"units": "1.3u",
+"record": "56-43-1 (+6.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/johnfeltmanli_"
+}
+]
+},
+"Wyoming-UTEP": {
+"picks": [
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Under 43.5",
+"market": "Total",
+"side": "Under",
+"line": "43.5",
+"price": "-110",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Sandy Plashkes",
+"platform": "Action Network",
+"pick": "UTEP +7.5",
+"market": "Spread",
+"side": "UTEP",
+"line": "7.5",
+"price": "-110",
+"units": "1.1u",
+"record": "39-27-1 (+19.7u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/sandyplashkes"
+},
+{
+"name": "Mike Calabrese",
+"platform": "Action Network",
+"pick": "Wyoming -7.5",
+"market": "Spread",
+"side": "Wyoming",
+"line": "-7.5",
+"price": "-108",
+"units": "1.08u",
+"record": "35-58-1 (-14.6u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Breese"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "UTEP +8.5",
+"market": "Spread",
+"side": "UTEP",
+"line": "8.5",
+"price": "-112",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+},
+{
+"name": "BBOC: 6th Gear",
+"platform": "Action Network",
+"pick": "Wyoming -7.5",
+"market": "Spread",
+"side": "Wyoming",
+"line": "-7.5",
+"price": "-105",
+"units": "1u",
+"record": "17-21-1 (-4.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC6thGear"
+}
+]
+},
+"Utah-Arizona": {
+"picks": [
+{
+"name": "Mike McNamara",
+"platform": "Action Network",
+"pick": "Arizona +2.5",
+"market": "Spread",
+"side": "Arizona",
+"line": "2.5",
+"price": "-110",
+"units": "0.4u",
+"record": "30-34 (-1.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/mikemcnamara33"
+},
+{
+"name": "Mike McNamara",
+"platform": "Action Network",
+"pick": "Arizona ML +110",
+"market": "Moneyline",
+"side": "Arizona",
+"line": "110",
+"price": "+110",
+"units": "0.25u",
+"record": "30-34 (-1.9u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/mikemcnamara33"
+},
+{
+"name": "Doug Ziefel",
+"platform": "Action Network",
+"pick": "Utah -2.5",
+"market": "Spread",
+"side": "Utah",
+"line": "-2.5",
+"price": "-110",
+"units": "0.55u",
+"record": "124-95-4 (+13.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Dziefel7"
+},
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Utah ML -130",
+"market": "Moneyline",
+"side": "Utah",
+"line": "-130",
+"price": "-130",
+"units": "1.1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Big Bets On Campus (CFB)",
+"platform": "Action Network",
+"pick": "Arizona +2.5",
+"market": "Spread",
+"side": "Arizona",
+"line": "2.5",
+"price": "-105",
+"units": "1u",
+"record": "37-45-3 (-10.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/BBOC_CFB"
+}
+]
+},
+"ColoradoState-WashingtonState": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "Colorado State +10.5",
+"market": "Spread",
+"side": "Colorado State",
+"line": "10.5",
+"price": "-115",
+"units": "0.57u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+}
+]
+},
+"NorthDakotaState-Hawaii": {
+"picks": [
+{
+"name": "Kody Malstrom",
+"platform": "Action Network",
+"pick": "North Dakota State -6.5",
+"market": "Spread",
+"side": "North Dakota State",
+"line": "-6.5",
+"price": "-110",
+"units": "0.55u",
+"record": "28-30-1 (-3.1u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/kmalstrom"
+},
+{
+"name": "Duck",
+"platform": "Action Network",
+"pick": "Under 41.5",
+"market": "Total",
+"side": "Under",
+"line": "41.5",
+"price": "-110",
+"units": "1u",
+"record": "94-80 (+7.8u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Joshua_Nunn"
+},
+{
+"name": "Mike Calabrese",
+"platform": "Action Network",
+"pick": "North Dakota State -6",
+"market": "Spread",
+"side": "North Dakota State",
+"line": "-6",
+"price": "-109",
+"units": "1.09u",
+"record": "35-58-1 (-14.6u) last 30 days",
+"url": "https://www.actionnetwork.com/picks/profile/Breese"
+}
+]
+}
+}
+}

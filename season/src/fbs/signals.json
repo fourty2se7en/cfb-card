@@ -1,0 +1,1435 @@
+{
+ "_about": "Signal points for the CFB card. Every number here is the single source; model.py reads it. 'bt' = walk-forward backtest vs consensus closing spread or total, FBS vs FBS regular season. Thresholds chosen on 2017-2022, checked on 2023-2025. Run 2026-10-29 from the cfb-card repo cache (games/lines/talent 2016-2025). Break-even at -110 is 52.4%.",
+ "point_rule": "2 points: both halves above 52.4% and the full-sample 95% interval above 50%. 1 point: both halves above 51%. 0: anything else (shown, not scored). Signals with no historical data cannot be tested; Action Network signals keep the NHL card's points, injuries and weather are shown and logged but score 0 until a season of logged results exists. Action Network signals use one season (2026 weeks 1-8) split in halves, so their points are provisional and are re-checked by the Results tab's Signal check.",
+ "side": {
+  "sharp_action": {
+   "pts": 2,
+   "label": "Sharp action",
+   "status": "failed",
+   "bt": "Spread: 51.4% weeks 1-4 (146), 49.7% weeks 5-8 (185), 50.5% all, -12.2 units. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "rlm": {
+   "pts": 2,
+   "label": "Reverse line movement",
+   "status": "failed",
+   "min_move": 1.0,
+   "bt": "Spread moved 1+ toward a side with under 50% of tickets: 50.6% weeks 1-4 (77), 59.0% weeks 5-8 (78), 54.8% all (47 to 63). First half fails. Line moves alone, 2021-2025 CFBD openers vs close: following a 1+ move 49.0% train, 50.4% test (2,098); the value is all in the opener, which the card cannot get."
+  },
+  "big_money": {
+   "pts": 1,
+   "label": "Big money",
+   "status": "failed",
+   "bt": "Spread 47.9% / 48.0% (73). Moneyline -10.4u / +36.1u. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "pro_systems": {
+   "pts": 1,
+   "label": "PRO systems",
+   "status": "validated",
+   "bt": "Spread 54.2% weeks 1-4 (24), 52.5% weeks 5-8 (40), 53.1% all (64), +0.9 units. Small sample. On the moneyline PRO systems lost (38.3%, -9.4u), so it scores on the spread only. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "money_vs_tickets": {
+   "pts": 1,
+   "label": "Money vs tickets",
+   "status": "failed",
+   "gap": 10,
+   "bt": "Spread 48.1% / 45.8% (138). Moneyline -10.7u / +76.8u, driven by a few long shots. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "fade_public": {
+   "pts": 1,
+   "label": "Fade the public",
+   "status": "failed",
+   "max_tickets": 35,
+   "bt": "Spread 42.0% / 57.3% (177). Moneyline -21.6u / +16.0u. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "short_week": {
+   "pts": 1,
+   "label": "Rest: opponent had less time off",
+   "status": "validated",
+   "bt": "Opponent on 6 days rest or less, team on 7+: 52.4% train (521), 52.5% test (297), 52.4% all (818), interval 49.0 to 55.9. Re-tested Nov 2, 2026 (rest_bt.py): this counts days between game dates in UTC, so most hits are normal Saturday-to-Saturday weeks where this week's kickoff is earlier in the day than last week's, not true short weeks. Real calendar days: FBS 52.0% (179 games, 2017-2025), FBS true short week (5 days or less) 50.0% (22): no edge. Kept as measured, renamed to say what it measures."
+  },
+  "last_season": {
+   "pts": 1,
+   "label": "Track record: last season overrated",
+   "status": "validated",
+   "gap": 0.4,
+   "bt": "Backing the team whose last-season win% is 0.40+ LOWER: 52.2% train (1,072), 51.8% test (463), 52.1% all (1,535). The market overrates last season's record."
+  },
+  "conf_strength": {
+   "pts": 0,
+   "label": "Conference strength",
+   "status": "failed",
+   "gap": 6,
+   "bt": "Stronger conference by 6+ pts in non-conference games: 53.6% train (336), 49.3% test (203). 10+ pts: 56.7% train, 48.3% test. Did not hold up out of sample. Shown, not scored."
+  },
+  "venue_split": {
+   "pts": 0,
+   "label": "Home/road split",
+   "status": "failed",
+   "gap": 0.25,
+   "bt": "Home team's home win% vs road team's road win% (regressed 4 games), gap 0.25+: 49.0% train, 51.4% test. Shown, not scored."
+  },
+  "home_field": {
+   "pts": 0,
+   "label": "Home field",
+   "status": "failed",
+   "bt": "Home side, non-neutral: 49.5% train, 50.0% test (6,129). The line already prices it."
+  },
+  "bye": {
+   "pts": 0,
+   "label": "Rest: off a bye",
+   "status": "failed",
+   "bt": "Off a bye vs normal rest: 50.9% train, 50.3% test."
+  },
+  "travel": {
+   "pts": 0,
+   "label": "Travel: opponent crossed 2+ time zones",
+   "status": "failed",
+   "bt": "48.9% train, 55.3% test (235). Inconsistent between halves."
+  },
+  "hot_streak": {
+   "pts": 0,
+   "label": "Hot streak W3+",
+   "status": "failed",
+   "bt": "52.6% train, 49.8% test."
+  },
+  "cold_opp": {
+   "pts": 0,
+   "label": "Opponent cold streak L3+",
+   "status": "failed",
+   "bt": "51.0% train, 51.4% test. Just short of the 1-point bar."
+  },
+  "form_pd": {
+   "pts": 0,
+   "label": "Point differential gap 7+",
+   "status": "failed",
+   "bt": "49.8% train, 49.6% test."
+  },
+  "talent": {
+   "pts": 0,
+   "label": "Talent gap 100+",
+   "status": "failed",
+   "bt": "51.0% train, 49.6% test. Talent is already inside the ratings."
+  },
+  "projection": {
+   "pts": 0,
+   "label": "Card projection side",
+   "status": "failed",
+   "bt": "The repo backtest (model_state.json backtest) shows the model does not beat the closing line and does worse as the gap grows. Shown, not scored."
+  },
+  "qb_out": {
+   "pts": 0,
+   "label": "Key injury: opposing QB1 out",
+   "status": "failed",
+   "bt": "Opposing QB1 (season leader in pass attempts, 60%+ share, 2+ games) threw no passes: opponent covered 52.5% in 2024-25 (221), 47.5% in 2026 (59). ESPN box scores for 2,329 games. The market prices a known QB absence."
+  },
+  "ml_experts": {
+   "pts": 1,
+   "label": "Top experts (moneyline)",
+   "status": "validated",
+   "market": "ml",
+   "bt": "AN top experts on the moneyline (-300 to +300): 13-7 weeks 1-4 (+4.2u), 12-9 weeks 5-8 (+47.4u), 25-16 all (+51.6u). Small sample; one long shot carries most of the units. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "spread_experts": {
+   "pts": 0,
+   "label": "Top experts (spread)",
+   "status": "failed",
+   "bt": "51.5% / 46.1% (203)."
+  },
+  "spread_model": {
+   "pts": 0,
+   "label": "AN model projection (spread)",
+   "status": "failed",
+   "bt": "48.5% / 52.9% (84)."
+  },
+  "ml_pro": {
+   "pts": 1,
+   "label": "PRO systems (moneyline)",
+   "status": "failed",
+   "bt": "Moneyline 7-12 weeks 1-4, 11-17 weeks 5-8, 38.3%, -9.4 units (47)."
+  },
+  "ml_model": {
+   "pts": 0,
+   "label": "AN model projection (moneyline)",
+   "status": "failed",
+   "bt": "Moneyline 15-14 (-3.8u) weeks 1-4, 23-21 (+5.8u) weeks 5-8; first half loses."
+  }
+ },
+ "total": {
+  "sharp_action": {
+   "pts": 2,
+   "label": "Sharp action",
+   "status": "failed",
+   "bt": "Totals 48.2% weeks 1-4 (195), 57.7% weeks 5-8 (208), 53.1% all. First half fails. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "fade_public": {
+   "pts": 0,
+   "label": "Fade the public",
+   "status": "failed",
+   "min_tickets": 75,
+   "bt": "Fading 75%+ of tickets: 36.0% / 54.8% (173). Following the heavy public side won 64% in weeks 1-4. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29. Rule review Oct 29, 2026: fading 75%+ went 78-94 (45%), so it scores 0 and is shown only."
+  },
+  "money_vs_tickets": {
+   "pts": 1,
+   "label": "Money vs tickets",
+   "status": "failed",
+   "gap": 10,
+   "bt": "50.0% / 61.1% (112). Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "moved_down": {
+   "pts": 0,
+   "pts_public_under": 0,
+   "label": "Total moved down",
+   "status": "failed",
+   "min_move": 1.5,
+   "bt": "AN 2026: 51.9% / 51.7% (170). Larger test, CFBD openers 2021-2025 vs close: down 1.5+ under 54.8% 2021-22, 48.5% 2023-25 (1,148). Fails out of sample. Rule review Oct 29, 2026: 73-77 (49%) in 2026, scores 0 and is shown only."
+  },
+  "fade_recent": {
+   "pts": 2,
+   "label": "Recent scoring overreaction (fade)",
+   "status": "validated",
+   "gap": 10,
+   "bt": "Both teams' last 3 games average 10+ points off the total: betting AGAINST that direction hit 55.9% train (374), 54.7% test (148), 55.6% all (522), interval 51.3 to 59.8. Following it lost."
+  },
+  "projection": {
+   "pts": 0,
+   "label": "Card total projection",
+   "status": "failed",
+   "bt": "Totals model barely beats the league average (project note 4.4). Shown, not scored."
+  },
+  "weather": {
+   "pts": 0,
+   "label": "Weather (wind 15+ mph or rain 60%+)",
+   "status": "failed",
+   "bt": "Open-Meteo actual weather at kickoff, 6,133 outdoor FBS games 2017-2025: wind 15+ mph under 57.1% train, 50.0% test (394); rain 1mm+ under 59.8% train, 50.0% test (523). The market caught up after 2022."
+  },
+  "conf_game_under": {
+   "pts": 0,
+   "label": "Conference game under",
+   "status": "failed",
+   "bt": "52.1% train, 48.7% test."
+  },
+  "pro_systems": {
+   "pts": 1,
+   "label": "PRO systems (total)",
+   "status": "validated",
+   "bt": "66.7% weeks 1-4 (33), 52.9% weeks 5-8 (17), 62.0% all (50). Small sample. Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "top_experts": {
+   "pts": 1,
+   "label": "Top experts (total)",
+   "status": "validated",
+   "bt": "51.6% weeks 1-4 (62), 55.4% weeks 5-8 (56), 53.4% all (118). Action Network 2026 weeks 1-8 (444 FBS games), splits and signals as shown on AN's past-week pages, graded against the CFBD consensus closing line. One season only, split weeks 1-4 / 5-8. Read 2026-10-29."
+  },
+  "big_money": {
+   "pts": 0,
+   "label": "Big money (total)",
+   "status": "failed",
+   "bt": "48.6% / 72.4% (64)."
+  },
+  "model_proj": {
+   "pts": 0,
+   "label": "AN model projection (total)",
+   "status": "failed",
+   "bt": "52.5% / 42.2% (85)."
+  }
+ },
+ "tiers": {
+  "Strong": 5,
+  "Solid": 3
+ },
+ "ml_floor": -300,
+ "ml_floor_why": "Moneyline is eligible only between -300 and +300. Shorter favorites take the spread, and so do long underdogs: on a big underdog's moneyline almost no tickets and a lopsided share of money are normal, so the fade-the-public and money-vs-tickets points fire on nearly every one and would push +700 longshots to the top.",
+ "ml_ceiling": 300,
+ "validated_on": "2026-10-29",
+ "scoring": "Picks come from rules, not from adding up points. The signal points still decide which side the signals favor (the side with more points), but a pick is made only when that side meets one of the rules below, each tested against every game played this season. Games that meet no rule show No pick. Tier = the rule's evidence: Strong rules held up in both halves of the season, Solid rules only in the later half. The re-check after each college week updates the rules and their records.",
+ "rules_fbs": {
+  "_about": "FBS pick rules. Set Oct 29, 2026 from the 2026 weeks 1-8 tests (claude/cfb-pick-method-variants-fav-dog-spread-total.md). Evaluated season to date, by month and over the last 3 weeks (NBA-card method, approved Oct 30, 2026).",
+  "order": [
+   "dog_ml",
+   "dog_ml_rlm",
+   "fav_ml",
+   "fav_ml_2",
+   "dog_spread",
+   "dog_spread_rlm",
+   "strong_spread",
+   "strong_spread_6"
+  ],
+  "side": {
+   "fav_ml": {
+    "on": true,
+    "label": "FG Favorite ML Lead 1",
+    "tier": "Strong",
+    "min": -200,
+    "max": -100,
+    "text": "The signals pick the favorite by a lead under 2 points and its moneyline is -200 to -100 (a lead of 2+ goes to FG Favorite ML Lead 2+).",
+    "version": "Signals favor the favorite, lead 1 (under 2)",
+    "records": {
+     "Season": {
+      "w": 20,
+      "l": 9,
+      "p": 0,
+      "n": 29,
+      "units": 5.15,
+      "pct": 69.0,
+      "be": 59.4
+     },
+     "Aug": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Sep": {
+      "w": 8,
+      "l": 0,
+      "p": 0,
+      "n": 8,
+      "units": 5.67,
+      "pct": 100.0,
+      "be": 58.8
+     },
+     "Oct": {
+      "w": 10,
+      "l": 4,
+      "p": 0,
+      "n": 14,
+      "units": 2.99,
+      "pct": 71.4,
+      "be": 60.0
+     },
+     "Nov": {
+      "w": 2,
+      "l": 5,
+      "p": 0,
+      "n": 7,
+      "units": -3.51,
+      "pct": 28.6,
+      "be": 58.8
+     },
+     "Last 3 wks (9-11)": {
+      "w": 4,
+      "l": 5,
+      "p": 0,
+      "n": 9,
+      "units": -2.28,
+      "pct": 44.4,
+      "be": 59.5
+     }
+    },
+    "record_text": "Season: 20-9 69.0% +5.2u | Sep: 8-0 100.0% +5.7u | Oct: 10-4 71.4% +3.0u | Nov: 2-5 28.6% -3.5u | Last 3 wks (9-11): 4-5 44.4% -2.3u",
+    "switched": "Back on 2026-11-10: Season: 52-24 68.4% +11.7u (season only policy, Trina Nov 9; FBS minimum 3 picks)",
+    "alt_retired": {
+     "version": "Signals lead 2+",
+     "params": {
+      "min_lead": 2
+     },
+     "cur_params": {
+      "min_lead": 1
+     },
+     "note": "Nov 14 (B91, Trina A39): the other version is its own rule now; no version switching"
+    },
+    "lead_below": 2
+   },
+   "dog_ml": {
+    "on": true,
+    "label": "FG Underdog ML Last Season Only",
+    "tier": "Strong",
+    "min": 100,
+    "max": 200,
+    "reasons": [
+     "last_season"
+    ],
+    "text": "The signals pick the underdog at +100 to +200 because the market overrates last season, with no line move toward it against the tickets (a line move goes to FG Underdog ML Line Move).",
+    "version": "Last season, no line move",
+    "records": {
+     "Season": {
+      "w": 6,
+      "l": 5,
+      "p": 0,
+      "n": 11,
+      "units": 4.22,
+      "pct": 54.5,
+      "be": 39.7
+     },
+     "Aug": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Sep": {
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "n": 2,
+      "units": -2.0,
+      "pct": 0.0,
+      "be": 39.3
+     },
+     "Oct": {
+      "w": 6,
+      "l": 1,
+      "p": 0,
+      "n": 7,
+      "units": 8.22,
+      "pct": 85.7,
+      "be": 40.2
+     },
+     "Nov": {
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "n": 2,
+      "units": -2.0,
+      "pct": 0.0,
+      "be": 38.0
+     },
+     "Last 3 wks (9-11)": {
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "n": 2,
+      "units": -2.0,
+      "pct": 0.0,
+      "be": 38.0
+     }
+    },
+    "record_text": "Season: 6-5 54.5% +4.2u | Sep: 0-2 0.0% -2.0u | Oct: 6-1 85.7% +8.2u | Nov: 0-2 0.0% -2.0u | Last 3 wks (9-11): 0-2 0.0% -2.0u",
+    "alt_retired": {
+     "version": "Line move toward it only",
+     "params": {
+      "reasons": [
+       "rlm"
+      ]
+     },
+     "cur_params": {
+      "reasons": [
+       "rlm",
+       "last_season"
+      ]
+     },
+     "note": "Nov 14 (B91, Trina A39): the other version is its own rule now; no version switching"
+    },
+    "not_reasons": [
+     "rlm"
+    ]
+   },
+   "dog_spread": {
+    "on": true,
+    "label": "FG Underdog Spread Last Season Only",
+    "tier": "Strong",
+    "reasons": [
+     "last_season"
+    ],
+    "text": "The signals pick the underdog because the market overrates last season, with no line move toward it against the tickets (a line move goes to FG Underdog Spread Line Move).",
+    "version": "Last season, no line move",
+    "records": {
+     "Season": {
+      "w": 26,
+      "l": 19,
+      "p": 0,
+      "n": 45,
+      "units": 4.64,
+      "pct": 57.8,
+      "be": 52.4
+     },
+     "Aug": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Sep": {
+      "w": 6,
+      "l": 9,
+      "p": 0,
+      "n": 15,
+      "units": -3.55,
+      "pct": 40.0,
+      "be": 52.4
+     },
+     "Oct": {
+      "w": 18,
+      "l": 5,
+      "p": 0,
+      "n": 23,
+      "units": 11.36,
+      "pct": 78.3,
+      "be": 52.4
+     },
+     "Nov": {
+      "w": 2,
+      "l": 5,
+      "p": 0,
+      "n": 7,
+      "units": -3.18,
+      "pct": 28.6,
+      "be": 52.4
+     },
+     "Last 3 wks (9-11)": {
+      "w": 4,
+      "l": 6,
+      "p": 0,
+      "n": 10,
+      "units": -2.36,
+      "pct": 40.0,
+      "be": 52.4
+     }
+    },
+    "record_text": "Season: 26-19 57.8% +4.6u | Sep: 6-9 40.0% -3.5u | Oct: 18-5 78.3% +11.4u | Nov: 2-5 28.6% -3.2u | Last 3 wks (9-11): 4-6 40.0% -2.4u",
+    "switched": "Back on 2026-11-10: Season: 76-55 58.0% +14.1u (season only policy, Trina Nov 9; FBS minimum 3 picks)",
+    "tiers_off": [
+     "Solid"
+    ],
+    "alt_retired": {
+     "version": "Line move toward it only",
+     "params": {
+      "reasons": [
+       "rlm"
+      ]
+     },
+     "cur_params": {
+      "reasons": [
+       "rlm",
+       "last_season"
+      ]
+     },
+     "note": "Nov 14 (B91, Trina A39): the other version is its own rule now; no version switching"
+    },
+    "not_reasons": [
+     "rlm"
+    ]
+   },
+   "strong_spread": {
+    "on": true,
+    "label": "FG Strong Spread Lead 5",
+    "tier": "Strong",
+    "min_lead": 5,
+    "text": "Side signals lead by 5 points but under 6 (6+ goes to FG Strong Spread Lead 6+).",
+    "version": "Lead 5 (under 6)",
+    "records": {
+     "Season": {
+      "w": 31,
+      "l": 20,
+      "p": 0,
+      "n": 51,
+      "units": 8.18,
+      "pct": 60.8,
+      "be": 52.4
+     },
+     "Aug": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Sep": {
+      "w": 10,
+      "l": 8,
+      "p": 0,
+      "n": 18,
+      "units": 1.09,
+      "pct": 55.6,
+      "be": 52.4
+     },
+     "Oct": {
+      "w": 16,
+      "l": 9,
+      "p": 0,
+      "n": 25,
+      "units": 5.55,
+      "pct": 64.0,
+      "be": 52.4
+     },
+     "Nov": {
+      "w": 5,
+      "l": 3,
+      "p": 0,
+      "n": 8,
+      "units": 1.55,
+      "pct": 62.5,
+      "be": 52.4
+     },
+     "Last 3 wks (9-11)": {
+      "w": 8,
+      "l": 3,
+      "p": 0,
+      "n": 11,
+      "units": 4.27,
+      "pct": 72.7,
+      "be": 52.4
+     }
+    },
+    "record_text": "Season: 31-20 60.8% +8.2u | Sep: 10-8 55.6% +1.1u | Oct: 16-9 64.0% +5.5u | Nov: 5-3 62.5% +1.6u | Last 3 wks (9-11): 8-3 72.7% +4.3u",
+    "alt_retired": {
+     "version": "Lead 6+",
+     "params": {
+      "min_lead": 6
+     },
+     "cur_params": {
+      "min_lead": 5
+     },
+     "note": "Nov 14 (B91, Trina A39): the other version is its own rule now; no version switching"
+    },
+    "lead_below": 6
+   },
+   "fbs_fav_vs_fcs": {
+    "on": true,
+    "kind": "fbs_vs_fcs",
+    "label": "FG FBS Favorite vs FCS",
+    "tier": "Lean",
+    "min_week": 11,
+    "text": "FBS vs FCS game in week 11 or later: take the FBS team against the spread when it is the favorite. No other FBS rule picks these games.",
+    "version": "Week 11+, any line",
+    "records": {},
+    "record_text": "2017 to 2025, week 11+: 31-18, +10.2u at the consensus close (positive in 5 of 8 seasons; SEC 18-8). 2026: no games yet.",
+    "switched": "2026-11-09: on by Trina (below the backtest bar: 49 games)"
+   },
+   "dog_ml_rlm": {
+    "on": true,
+    "label": "FG Underdog ML Line Move",
+    "tier": "Strong",
+    "min": 100,
+    "max": 200,
+    "reasons": [
+     "rlm"
+    ],
+    "text": "The signals pick the underdog, its moneyline is +100 to +200, and the line moved toward it against the tickets (reverse line movement).",
+    "version": "Line move toward it only",
+    "base": "dog_ml",
+    "records": {
+     "Season": {
+      "w": 17,
+      "l": 18,
+      "p": 0,
+      "n": 35,
+      "units": 8.99,
+      "pct": 48.6,
+      "be": 39.5
+     },
+     "Aug": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Sep": {
+      "w": 6,
+      "l": 7,
+      "p": 0,
+      "n": 13,
+      "units": 2.27,
+      "pct": 46.2,
+      "be": 39.3
+     },
+     "Oct": {
+      "w": 7,
+      "l": 4,
+      "p": 0,
+      "n": 11,
+      "units": 6.82,
+      "pct": 63.6,
+      "be": 40.5
+     },
+     "Nov": {
+      "w": 4,
+      "l": 7,
+      "p": 0,
+      "n": 11,
+      "units": -0.1,
+      "pct": 36.4,
+      "be": 38.7
+     },
+     "Last 3 wks (9-11)": {
+      "w": 4,
+      "l": 7,
+      "p": 0,
+      "n": 11,
+      "units": -0.1,
+      "pct": 36.4,
+      "be": 38.7
+     }
+    },
+    "record_text": "Season: 17-18 48.6% +9.0u | Sep: 6-7 46.2% +2.3u | Oct: 7-4 63.6% +6.8u | Nov: 4-7 36.4% -0.1u | Last 3 wks (9-11): 4-7 36.4% -0.1u"
+   },
+   "fav_ml_2": {
+    "on": true,
+    "label": "FG Favorite ML Lead 2+",
+    "tier": "Strong",
+    "min": -200,
+    "max": -100,
+    "text": "The signals favor the favorite by 2+ points and its moneyline is -200 to -100.",
+    "version": "Signals lead 2+",
+    "switched": "Back on 2026-11-10: Season: 52-24 68.4% +11.7u (season only policy, Trina Nov 9; FBS minimum 3 picks)",
+    "min_lead": 2,
+    "base": "fav_ml",
+    "records": {
+     "Season": {
+      "w": 37,
+      "l": 24,
+      "p": 0,
+      "n": 61,
+      "units": 1.28,
+      "pct": 60.7,
+      "be": 59.8
+     },
+     "Aug": {
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "n": 1,
+      "units": 0.54,
+      "pct": 100.0,
+      "be": 65.0
+     },
+     "Sep": {
+      "w": 9,
+      "l": 7,
+      "p": 0,
+      "n": 16,
+      "units": -1.11,
+      "pct": 56.2,
+      "be": 60.8
+     },
+     "Oct": {
+      "w": 18,
+      "l": 8,
+      "p": 0,
+      "n": 26,
+      "units": 4.09,
+      "pct": 69.2,
+      "be": 59.5
+     },
+     "Nov": {
+      "w": 9,
+      "l": 9,
+      "p": 0,
+      "n": 18,
+      "units": -2.24,
+      "pct": 50.0,
+      "be": 59.1
+     },
+     "Last 3 wks (9-11)": {
+      "w": 13,
+      "l": 11,
+      "p": 0,
+      "n": 24,
+      "units": -1.19,
+      "pct": 54.2,
+      "be": 58.9
+     }
+    },
+    "record_text": "Season: 37-24 60.7% +1.3u | Aug: 1-0 100.0% +0.5u | Sep: 9-7 56.2% -1.1u | Oct: 18-8 69.2% +4.1u | Nov: 9-9 50.0% -2.2u | Last 3 wks (9-11): 13-11 54.2% -1.2u"
+   },
+   "dog_spread_rlm": {
+    "on": true,
+    "label": "FG Underdog Spread Line Move",
+    "tier": "Strong",
+    "reasons": [
+     "rlm"
+    ],
+    "text": "The signals pick the underdog and the line moved toward it against the tickets (reverse line movement).",
+    "version": "Line move toward it only",
+    "switched": "Back on 2026-11-10: Season: 76-55 58.0% +14.1u (season only policy, Trina Nov 9; FBS minimum 3 picks)",
+    "tiers_off": [
+     "Solid"
+    ],
+    "base": "dog_spread",
+    "records": {
+     "Season": {
+      "w": 51,
+      "l": 45,
+      "p": 1,
+      "n": 96,
+      "units": 1.36,
+      "pct": 53.1,
+      "be": 52.4
+     },
+     "Aug": {
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "n": 1,
+      "units": -1.0,
+      "pct": 0.0,
+      "be": 52.4
+     },
+     "Sep": {
+      "w": 21,
+      "l": 14,
+      "p": 1,
+      "n": 35,
+      "units": 5.09,
+      "pct": 60.0,
+      "be": 52.4
+     },
+     "Oct": {
+      "w": 24,
+      "l": 16,
+      "p": 0,
+      "n": 40,
+      "units": 5.82,
+      "pct": 60.0,
+      "be": 52.4
+     },
+     "Nov": {
+      "w": 6,
+      "l": 14,
+      "p": 0,
+      "n": 20,
+      "units": -8.55,
+      "pct": 30.0,
+      "be": 52.4
+     },
+     "Last 3 wks (9-11)": {
+      "w": 8,
+      "l": 15,
+      "p": 0,
+      "n": 23,
+      "units": -7.73,
+      "pct": 34.8,
+      "be": 52.4
+     }
+    },
+    "record_text": "Season: 51-45 53.1% +1.4u | Aug: 0-1 0.0% -1.0u | Sep: 21-14 60.0% +5.1u | Oct: 24-16 60.0% +5.8u | Nov: 6-14 30.0% -8.6u | Last 3 wks (9-11): 8-15 34.8% -7.7u"
+   },
+   "strong_spread_6": {
+    "on": true,
+    "label": "FG Strong Spread Lead 6+",
+    "tier": "Strong",
+    "min_lead": 6,
+    "text": "The side signals lead by 6+ points.",
+    "version": "Lead 6+",
+    "base": "strong_spread",
+    "records": {
+     "Season": {
+      "w": 28,
+      "l": 25,
+      "p": 2,
+      "n": 53,
+      "units": 0.45,
+      "pct": 52.8,
+      "be": 52.4
+     },
+     "Aug": {
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "n": 2,
+      "units": -2.0,
+      "pct": 0.0,
+      "be": 52.4
+     },
+     "Sep": {
+      "w": 16,
+      "l": 8,
+      "p": 1,
+      "n": 24,
+      "units": 6.55,
+      "pct": 66.7,
+      "be": 52.4
+     },
+     "Oct": {
+      "w": 8,
+      "l": 7,
+      "p": 1,
+      "n": 15,
+      "units": 0.27,
+      "pct": 53.3,
+      "be": 52.4
+     },
+     "Nov": {
+      "w": 4,
+      "l": 8,
+      "p": 0,
+      "n": 12,
+      "units": -4.36,
+      "pct": 33.3,
+      "be": 52.4
+     },
+     "Last 3 wks (9-11)": {
+      "w": 5,
+      "l": 8,
+      "p": 0,
+      "n": 13,
+      "units": -3.45,
+      "pct": 38.5,
+      "be": 52.4
+     }
+    },
+    "record_text": "Season: 28-25 52.8% +0.5u | Aug: 0-2 0.0% -2.0u | Sep: 16-8 66.7% +6.5u | Oct: 8-7 53.3% +0.3u | Nov: 4-8 33.3% -4.4u | Last 3 wks (9-11): 5-8 38.5% -3.5u"
+   }
+  },
+  "total": {
+   "one_sided": {
+    "on": true,
+    "label": "FG Two-Signal Total",
+    "tier": "Strong",
+    "keys": [
+     "money_vs_tickets",
+     "pro_systems",
+     "sharp_action"
+    ],
+    "text": "At least two of money vs tickets, PRO systems and sharp action sit on one side of the total, and none of them on the other.",
+    "min_keys": 2,
+    "version": "Two of money vs tickets, PRO, sharp action",
+    "records": {
+     "Season": {
+      "w": 91,
+      "l": 69,
+      "p": 0,
+      "n": 160,
+      "units": 13.73,
+      "pct": 56.9,
+      "be": 52.4
+     },
+     "Aug": {
+      "w": 2,
+      "l": 2,
+      "p": 0,
+      "n": 4,
+      "units": -0.18,
+      "pct": 50.0,
+      "be": 52.4
+     },
+     "Sep": {
+      "w": 25,
+      "l": 21,
+      "p": 0,
+      "n": 46,
+      "units": 1.73,
+      "pct": 54.3,
+      "be": 52.4
+     },
+     "Oct": {
+      "w": 42,
+      "l": 23,
+      "p": 0,
+      "n": 65,
+      "units": 15.18,
+      "pct": 64.6,
+      "be": 52.4
+     },
+     "Nov": {
+      "w": 22,
+      "l": 23,
+      "p": 0,
+      "n": 45,
+      "units": -3.0,
+      "pct": 48.9,
+      "be": 52.4
+     },
+     "Last 3 wks (9-11)": {
+      "w": 31,
+      "l": 32,
+      "p": 0,
+      "n": 63,
+      "units": -3.82,
+      "pct": 49.2,
+      "be": 52.4
+     }
+    },
+    "record_text": "Season: 91-69 56.9% +13.7u | Aug: 2-2 50.0% -0.2u | Sep: 25-21 54.3% +1.7u | Oct: 42-23 64.6% +15.2u | Nov: 22-23 48.9% -3.0u | Last 3 wks (9-11): 31-32 49.2% -3.8u",
+    "switched": "Back on 2026-11-10: Season: 81-61 57.0% +12.6u (season only policy, Trina Nov 9; FBS minimum 3 picks)",
+    "tiers_off": [
+     "Lean"
+    ],
+    "alt_retired": {
+     "version": "Money vs tickets or PRO",
+     "params": {
+      "keys": [
+       "money_vs_tickets",
+       "pro_systems"
+      ],
+      "min_keys": 1
+     },
+     "cur_params": {
+      "keys": [
+       "money_vs_tickets",
+       "pro_systems",
+       "sharp_action"
+      ],
+      "min_keys": 2
+     },
+     "note": "Nov 14 (B91): own rule one_sided_1"
+    }
+   },
+   "one_sided_1": {
+    "on": true,
+    "label": "FG One-Signal Total",
+    "tier": "Strong",
+    "keys": [
+     "money_vs_tickets",
+     "pro_systems"
+    ],
+    "text": "Exactly one signal: money vs tickets or PRO systems on one side of the total, neither on the other, and the game does not fit FG Two-Signal Total.",
+    "min_keys": 1,
+    "version": "Exactly one signal: money vs tickets or PRO, and the Two-Signal Total does not fit",
+    "switched": "Back on 2026-11-10: Season: 81-61 57.0% +12.6u (season only policy, Trina Nov 9; FBS minimum 3 picks)",
+    "tiers_off": [
+     "Lean"
+    ],
+    "base": "one_sided",
+    "records": {
+     "Season": {
+      "w": 34,
+      "l": 30,
+      "p": 1,
+      "n": 64,
+      "units": 0.91,
+      "pct": 53.1,
+      "be": 52.4
+     },
+     "Aug": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Sep": {
+      "w": 13,
+      "l": 10,
+      "p": 0,
+      "n": 23,
+      "units": 1.82,
+      "pct": 56.5,
+      "be": 52.4
+     },
+     "Oct": {
+      "w": 11,
+      "l": 16,
+      "p": 1,
+      "n": 27,
+      "units": -6.0,
+      "pct": 40.7,
+      "be": 52.4
+     },
+     "Nov": {
+      "w": 10,
+      "l": 4,
+      "p": 0,
+      "n": 14,
+      "units": 5.09,
+      "pct": 71.4,
+      "be": 52.4
+     },
+     "Last 3 wks (9-11)": {
+      "w": 16,
+      "l": 8,
+      "p": 1,
+      "n": 24,
+      "units": 6.55,
+      "pct": 66.7,
+      "be": 52.4
+     }
+    },
+    "record_text": "Season: 34-30 53.1% +0.9u | Sep: 13-10 56.5% +1.8u | Oct: 11-16 40.7% -6.0u | Nov: 10-4 71.4% +5.1u | Last 3 wks (9-11): 16-8 66.7% +6.5u",
+    "not_if": "one_sided"
+   }
+  },
+  "records": {},
+  "checked": "2026-11-15",
+  "extra": [
+   "fbs_fav_vs_fcs"
+  ]
+ },
+ "rules_fcs": {
+  "_about": "FCS pick rules, set Oct 29, 2026 from the FCS-only backtest (fcs_bt.py: FCS vs FCS regular season, 2022-2023 train, 2024-2025 test, 2026 check). FCS favorites lost against the spread every season, so FCS backs underdogs only. Re-checked weekly on FCS games only. Evaluated season to date, by month and over the last 3 weeks (NBA-card method, approved Oct 30, 2026).",
+  "order": [
+   "fcs_dog_ml",
+   "fcs_dog_spread"
+  ],
+  "side": {
+   "fcs_dog_ml": {
+    "on": false,
+    "kind": "dog_reasons",
+    "market": "Moneyline",
+    "label": "FCS underdog moneyline",
+    "tier": "Solid",
+    "min": 100,
+    "max": 200,
+    "reasons": [
+     "short_week",
+     "last_season",
+     "better_record"
+    ],
+    "last_gap": 0.4,
+    "min_games": 3,
+    "min_reasons_any_line": 2,
+    "max_line_one_reason": 14,
+    "text": "Underdog moneyline +100 to +200 with two or more reasons, or one reason and a line of +14 or less. Reasons: opponent had less time off since its last game, market overrates last season's record, better record this season. Price from texas222, else DraftKings.",
+    "version": "2 reasons, or 1 reason at +14 or less",
+    "alt": {
+     "version": "2+ reasons",
+     "params": {
+      "max_line_one_reason": -1
+     },
+     "cur_params": {
+      "max_line_one_reason": 14
+     }
+    },
+    "records": {
+     "Season": {
+      "w": 33,
+      "l": 49,
+      "p": 0,
+      "n": 82,
+      "units": -1.87,
+      "pct": 40.2,
+      "be": 42.6
+     },
+     "Aug": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Sep": {
+      "w": 8,
+      "l": 10,
+      "p": 0,
+      "n": 18,
+      "units": 1.87,
+      "pct": 44.4,
+      "be": 42.4
+     },
+     "Oct": {
+      "w": 24,
+      "l": 30,
+      "p": 0,
+      "n": 54,
+      "units": 3.36,
+      "pct": 44.4,
+      "be": 43.0
+     },
+     "Nov": {
+      "w": 1,
+      "l": 9,
+      "p": 0,
+      "n": 10,
+      "units": -7.1,
+      "pct": 10.0,
+      "be": 41.0
+     },
+     "Last 3 wks (8-10)": {
+      "w": 14,
+      "l": 24,
+      "p": 0,
+      "n": 38,
+      "units": -4.53,
+      "pct": 36.8,
+      "be": 43.1
+     },
+     "2022-25 (ref)": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     }
+    },
+    "record_text": "Season: 33-49 40.2% -1.9u | Sep: 8-10 44.4% +1.9u | Oct: 24-30 44.4% +3.4u | Nov: 1-9 10.0% -7.1u | Last 3 wks (8-10): 14-24 36.8% -4.5u",
+    "switched": "Off 2026-11-08: season 33-49 40.2% -1.9u"
+   },
+   "fcs_dog_spread": {
+    "on": false,
+    "kind": "dog_reasons",
+    "market": "Spread",
+    "label": "FCS underdog spread",
+    "tier": "Solid",
+    "reasons": [
+     "short_week",
+     "last_season",
+     "better_record"
+    ],
+    "last_gap": 0.4,
+    "min_games": 3,
+    "min_reasons_any_line": 2,
+    "max_line_one_reason": 14,
+    "text": "Underdog spread with two or more reasons, or one reason and a line of +14 or less. Reasons: opponent had less time off since its last game, market overrates last season's record, better record this season.",
+    "version": "2 reasons, or 1 reason at +14 or less",
+    "alt": {
+     "version": "2+ reasons",
+     "params": {
+      "max_line_one_reason": -1
+     },
+     "cur_params": {
+      "max_line_one_reason": 14
+     }
+    },
+    "records": {
+     "Season": {
+      "w": 97,
+      "l": 67,
+      "p": 2,
+      "n": 164,
+      "units": 21.18,
+      "pct": 59.1,
+      "be": 52.4
+     },
+     "Aug": {
+      "w": 3,
+      "l": 1,
+      "p": 0,
+      "n": 4,
+      "units": 1.73,
+      "pct": 75.0,
+      "be": 52.4
+     },
+     "Sep": {
+      "w": 18,
+      "l": 15,
+      "p": 0,
+      "n": 33,
+      "units": 1.36,
+      "pct": 54.5,
+      "be": 52.4
+     },
+     "Oct": {
+      "w": 71,
+      "l": 39,
+      "p": 2,
+      "n": 110,
+      "units": 25.55,
+      "pct": 64.5,
+      "be": 52.4
+     },
+     "Nov": {
+      "w": 5,
+      "l": 12,
+      "p": 0,
+      "n": 17,
+      "units": -7.45,
+      "pct": 29.4,
+      "be": 52.4
+     },
+     "Last 3 wks (8-10)": {
+      "w": 34,
+      "l": 31,
+      "p": 2,
+      "n": 65,
+      "units": -0.09,
+      "pct": 52.3,
+      "be": 52.4
+     },
+     "2022-25 (ref)": {
+      "w": 398,
+      "l": 297,
+      "p": 9,
+      "n": 695,
+      "units": 64.82,
+      "pct": 57.3,
+      "be": 52.4
+     }
+    },
+    "record_text": "Season: 97-67 59.1% +21.2u | Aug: 3-1 75.0% +1.7u | Sep: 18-15 54.5% +1.4u | Oct: 71-39 64.5% +25.6u | Nov: 5-12 29.4% -7.5u | Last 3 wks (8-10): 34-31 52.3% -0.1u | 2022-25 (ref): 398-297 57.3% +64.8u",
+    "switched": "Off 2026-11-08: Nov 5-12 29.4% -7.5u on 17 picks"
+   }
+  },
+  "total": {
+   "one_sided": {
+    "on": false,
+    "label": "One-sided total",
+    "tier": "Solid",
+    "keys": [
+     "money_vs_tickets",
+     "pro_systems"
+    ],
+    "text": "Retired for FCS: Action Network rarely lists FCS games and no FCS total test qualified (fade recent scoring 16-18 this season).",
+    "records": {
+     "Season": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Aug": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Sep": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Oct": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "Last 3 wks (6-8)": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     },
+     "2022-25 (ref)": {
+      "w": 0,
+      "l": 0,
+      "p": 0,
+      "n": 0,
+      "units": 0,
+      "pct": null,
+      "be": null
+     }
+    },
+    "record_text": "",
+    "retired": true
+   }
+  },
+  "records": {},
+  "checked": "2026-11-08"
+ },
+ "recheck_policy": {
+  "when": "Sunday, after Saturday's games are final, before the week's first card. Reruns every test on all games played in each division.",
+  "evaluation": "Season to date, a column per month, and the last 3 weeks as an early warning, per division. CFBD consensus close; moneylines at the cleaned median (quotes under 100 or over 5000 dropped, medians in decimal odds); spreads and totals at -110 unless the book's price is known.",
+  "qualify": {
+   "min_picks": 5,
+   "text": "A version qualifies at 5+ picks with positive units and a win % above break-even, season to date."
+  },
+  "off": {
+   "min_picks": 3,
+   "text": "Season Cards policy (Trina, Nov 9, 2026): season to date decides. A rule switches off once it has the FBS pick minimum (3 graded picks, one quarter of a 12 game season) and its season units are negative; it turns back on when season units are green. The current month is a watch only (a red month on 5+ picks is reported, never switches). Two red months in a row switch a rule off from December (first check Dec 14)."
+  },
+  "switch": {
+   "min_picks": 30,
+   "text": "A rule moves to its other version only after 30+ picks, when that version wins at least as often, makes more units, and is positive for the season and the current month."
+  },
+  "tier": "Rule standing (rule_tier): Strong when the current version qualifies season to date, else Solid. Per pick tier is the signal lead (Strong 4+, Solid 2 to 3, Lean 0 to 1 or behind).",
+  "warning": "Any rule negative over the last 3 weeks is reported as a warning; a red month on 5+ picks is reported as Watch (no change made).",
+  "locked": {
+   "fav_ml": [
+    "min",
+    "max"
+   ],
+   "dog_ml": [
+    "min",
+    "max"
+   ],
+   "fcs_dog_ml": [
+    "min",
+    "max"
+   ],
+   "_why": "Price limits set by Trina: favorite moneyline no longer than -200; underdog moneyline +100 to +200."
+  },
+  "picktime": "Winning versions are also graded at the card's logged morning lines (hist/pickinputs) when available, else at the CFBD opener as a proxy, so a rule that only works at the close is visible.",
+  "month_min": 5,
+  "month_role": "watch"
+ },
+ "changelog": [
+  {
+   "date": "2026-10-29",
+   "div": "both",
+   "change": "Rule-based picks replace tier-by-lead picks. Fade the public (totals) and total moved down set to 0 points.",
+   "why": "2026 weeks 1-8 FBS tests: tier by lead did not win more; fade public on totals 78-94; moved down 73-77."
+  },
+  {
+   "date": "2026-10-29",
+   "div": "fcs",
+   "change": "FCS gets its own rules: underdog spread (Strong) and underdog moneyline +100 to +200 (Solid), both needing a reason (opponent short week, last season overrated, better record this season); no FCS favorites, no FCS totals. FCS moneyline from texas222, else DraftKings.",
+   "why": "FCS-only backtest 2022-2026 (2,761 games): favorites 48.5% / 47.0% / 43.7% against the spread; underdogs with a reason 57.8% / 56.9% / 62.4%."
+  },
+  {
+   "date": "2026-10-30",
+   "div": "both",
+   "change": "NBA-card evaluation: halves test dropped; season to date, by month and last 3 weeks; qualify at 5+ picks. FBS underdog spread now takes a line move or last season overrated; FBS total now needs two of money vs tickets, PRO systems and sharp action on one side. Each rule carries a stricter other version (switch after 30+ picks).",
+   "why": "Approved by Trina Oct 30, 2026. Season to date: underdog spread 65-43 +16.1u (was 43-30 +9.1u); two-signal total 60-37 +17.6u (was 78-59 +11.9u)."
+  },
+  {
+   "date": "2026-11-02",
+   "div": "FBS and FCS",
+   "change": "Rest signal renamed from 'opponent on a short week' to 'opponent had less time off'. Same definition, same points, same picks.",
+   "why": "Most hits were normal Saturday-to-Saturday weeks with an earlier kickoff. Re-test with real calendar days found no edge in FBS (52.0%, 179 games) and too few true short weeks to measure (22). In FCS the measured version still wins (underdogs 44-24 this season), so it stays."
+  },
+  {
+   "date": "2026-11-06",
+   "div": "both",
+   "change": "Season Cards rule status: a rule is active only while green season to date and this month (month counts at 5+ picks; off only at 20+ season picks). Tier Strong now means qualifies season to date and the month is positive or under 5 picks. November graded for the first time: no switches.",
+   "why": "Trina's policy, Nov 6, 2026 (season-cards skill)."
+  },
+  {
+   "date": "2026-11-07",
+   "div": "fbs",
+   "change": "Two-signal total (one_sided) switched OFF by the Season Cards rule status policy: November 2-3 -1.18u on 5 picks after the Nov 6 games (season 71-49 +15.6u). Back on when season and month are both green.",
+   "why": "Season Cards rule status policy (Nov 6): a rule is active only while season and this month are both green; off once it has 20+ season picks and the month is negative on 5+ picks."
+  },
+  {
+   "date": "2026-11-08",
+   "div": "fbs",
+   "change": "Favorite moneyline switched OFF: Nov 6-5 54.5% -0.5u | Underdog spread switched OFF: Nov 7-10 41.2% -3.6u",
+   "why": "Sunday re-check (ruleeval.py), recheck_policy"
+  },
+  {
+   "date": "2026-11-08",
+   "div": "fcs",
+   "change": "FCS underdog moneyline switched OFF: season 33-49 40.2% -1.9u | FCS underdog spread switched OFF: Nov 5-12 29.4% -7.5u",
+   "why": "Sunday re-check (ruleeval.py), recheck_policy"
+  },
+  {
+   "date": "2026-11-09",
+   "div": "fbs",
+   "change": "New rule: FBS favorite vs FCS, week 11+ (spread). On.",
+   "why": "Trina, Nov 9. 2017 to 2025 week 11+: 31-18 +10.2u; below the backtest bar (49 games)."
+  },
+  {
+   "date": "2026-11-10",
+   "div": "fbs",
+   "change": "Season only policy applied (Trina, Nov 9): Favorite moneyline ON (Season: 52-24 68.4% +11.7u); Underdog spread ON (Season: 76-55 58.0% +14.1u); Two-signal total ON (Season: 81-61 57.0% +12.6u). Tiers kept off: Underdog spread Solid, Two-signal total Lean (would-be picks). ruleeval.py now switches by season only at the FBS minimum of 3 picks; the month is a watch.",
+   "why": "Season Cards rule status policy, Nov 9 (B13, B14, B21, B23)"
+  },
+  {
+   "date": "2026-11-14",
+   "change": "B91 (Trina A39, Nov 13): each rule with two versions is now two separate FG rules with their own tiers and status records: dog_ml_rlm, fav_ml_2, dog_spread_rlm, strong_spread_6, one_sided_1. No version switching. New rules have no status record, so every tier is off and logs would-be picks until it earns 2 green pick days.",
+   "div": "fbs",
+   "why": "Trina A39 (Nov 13): rules run independently; each earns its own status record."
+  },
+  {
+   "date": "2026-11-14",
+   "div": "fbs",
+   "change": "A48 (Trina): split rules non overlapping. fav_ml lead under 2, strong_spread lead 5 to under 6, dog_ml and dog_spread last season with no line move, one_sided_1 never fits a game the Two-Signal Total fits.",
+   "why": ""
+  }
+ ]
+}

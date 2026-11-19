@@ -1,0 +1,1195 @@
+{
+ "_read": "inj_merge.py: 84 report items, latest 2026-11-14. Confirmed = official conference report or two sources agree.",
+ "_prop_hold": {
+  "Mitch Griffis": "held back: East Carolina has split QB snaps (Griffis 126 attempts, Emory Williams 117, ESPN); his log includes games of 0 and -1 yards off the bench, so the season projection does not describe a full start",
+  "Luke Fahey": "held back: new starter for Ohio State (Sayin out); 4 game log includes relief appearances (62, 141, 0 yards), so the season projection does not describe a full start",
+  "Tramell Jones Jr.": "held back: Florida QB role changed (Philo questionable); log mixes relief and starts",
+  "Tommy Carr": "held back: Michigan QB role changed; 4 game log of 23, 47, 167, 266 yards mixes relief and starts",
+  "George MacIntyre": "held back: Tennessee QB role uncertain; 6 game log includes relief appearances (6, 56, 86 yards)",
+  "Thomas Castellanos": "held back: Texas Tech QB role changed; 5 game log includes relief appearances (0, 8, 10, 27 yards)",
+  "Hank Brown": "held back: Iowa QB status contested (Covers lists out, texas222 posts his props)"
+ },
+ "Ohio State": [
+  {
+   "player": "Luke Fahey",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "official AVAILABLE (2026-11-13); props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Julian Sayin (64%), last game passer Luke Fahey",
+   "role_change": true,
+   "qb_status": "Confirmed"
+  },
+  {
+   "player": "Julian Sayin",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-13",
+   "qb1": true,
+   "note": "official OUT (2026-11-13); ESPN: QB1 by attempts Julian Sayin (64%), last game passer Luke Fahey",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Ja'Kobi Jackson",
+   "pos": "RB",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Deshawn Stewart",
+   "pos": "S",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Brennen Schramm",
+   "pos": "WR",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Jaxon Powell",
+   "pos": "OL",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Maxence LeBlanc",
+   "pos": "TE",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Brandon Inniss",
+   "pos": "WR",
+   "status": "QUESTIONABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official QUESTIONABLE (2026-11-12)"
+  },
+  {
+   "player": "Phillip Bell",
+   "pos": "WR",
+   "status": "QUESTIONABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official QUESTIONABLE (2026-11-12)"
+  },
+  {
+   "player": "Terry Moore",
+   "pos": "S",
+   "status": "QUESTIONABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official QUESTIONABLE (2026-11-12)"
+  },
+  {
+   "player": "Brock Boyd",
+   "pos": "WR",
+   "status": "QUESTIONABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official QUESTIONABLE (2026-11-12)"
+  },
+  {
+   "player": "Eli Lee",
+   "pos": "LB",
+   "status": "QUESTIONABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official QUESTIONABLE (2026-11-12)"
+  },
+  {
+   "player": "Deontae Armstrong",
+   "pos": "OL",
+   "status": "QUESTIONABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official QUESTIONABLE (2026-11-12)"
+  },
+  {
+   "player": "Max Riley",
+   "pos": "OL",
+   "status": "QUESTIONABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official QUESTIONABLE (2026-11-12)"
+  }
+ ],
+ "Northwestern": [
+  {
+   "player": "Nicco Marchiol",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "official AVAILABLE (2026-11-13); props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Aidan Chiles (85%), last game passer Nicco Marchiol",
+   "role_change": true,
+   "qb_status": "Confirmed"
+  },
+  {
+   "player": "Aidan Chiles",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-13",
+   "qb1": true,
+   "note": "official OUT (2026-11-13); ESPN: QB1 by attempts Aidan Chiles (85%), last game passer Nicco Marchiol",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Josh Fussell",
+   "pos": "DB",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Daniel Anderson",
+   "pos": "RB",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Max Mohring",
+   "pos": "LB",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Jason Reynolds II",
+   "pos": "LB",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Qayvier Johnson",
+   "pos": "LB",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Ezomo Oratokhai",
+   "pos": "OL",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  },
+  {
+   "player": "Chris Petrucci",
+   "pos": "TE",
+   "status": "OUT",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "official OUT (2026-11-12)"
+  }
+ ],
+ "Michigan": [
+  {
+   "player": "Tommy Carr",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Bryce Underwood (56%), last game passer Tommy Carr",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Bryce Underwood",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Bryce Underwood (56%), last game passer Tommy Carr",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Wisconsin": [
+  {
+   "player": "Ryan Hopkins",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Colton Joseph (83%), last game passer Ryan Hopkins",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Colton Joseph",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": true,
+   "note": "news OUT (2026-11-13); ESPN: QB1 by attempts Colton Joseph (83%), last game passer Ryan Hopkins",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Florida": [
+  {
+   "player": "Tramell Jones Jr.",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Aaron Philo (58%), last game passer Tramell Jones Jr.",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Aaron Philo",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news OUT (2026-11-13); ESPN: QB1 by attempts Aaron Philo (58%), last game passer Tramell Jones Jr.",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Texas Tech": [
+  {
+   "player": "Thomas Castellanos",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Will Hammond (78%), last game passer Thomas Castellanos",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Will Hammond",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": true,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Will Hammond (78%), last game passer Thomas Castellanos",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Arizona State": [
+  {
+   "player": "Jake Fette",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": true,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Cutter Boley (56%), last game passer Jake Fette",
+   "role_change": true,
+   "qb_status": "Confirmed"
+  },
+  {
+   "player": "Cutter Boley",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news OUT (2026-11-13); ESPN: QB1 by attempts Cutter Boley (56%), last game passer Jake Fette",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "UCF": [
+  {
+   "player": "Alonza Barnett III",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": true,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Keyone Jenkins (64%), last game passer Alonza Barnett III",
+   "role_change": true,
+   "qb_status": "Confirmed"
+  }
+ ],
+ "Kansas State": [
+  {
+   "player": "Blake Barnett",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Avery Johnson (63%), last game passer Blake Barnett",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Avery Johnson",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": true,
+   "note": "news OUT (2026-11-13); ESPN: QB1 by attempts Avery Johnson (63%), last game passer Blake Barnett",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Mississippi State": [
+  {
+   "player": "AJ Swann",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": true,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Kamario Taylor (56%), last game passer AJ Swann",
+   "role_change": true,
+   "qb_status": "Confirmed"
+  },
+  {
+   "player": "Kamario Taylor",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news OUT (2026-11-13); ESPN: QB1 by attempts Kamario Taylor (56%), last game passer AJ Swann",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Wake Forest": [
+  {
+   "player": "Gio Lopez",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": true,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "news AVAILABLE (2026-11-13); props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Gio Lopez (84%), last game passer Steele Pizzella",
+   "role_change": true,
+   "qb_status": "Confirmed"
+  }
+ ],
+ "Boise State": [
+  {
+   "player": "Maddux Madsen",
+   "pos": "QB",
+   "status": "QUESTIONABLE",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-11",
+   "qb1": true,
+   "note": "official QUESTIONABLE (2026-11-11); news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Maddux Madsen (87%), last game passer Max Cutforth",
+   "role_change": true,
+   "qb_status": "Questionable"
+  }
+ ],
+ "James Madison": [
+  {
+   "player": "JC Evans",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Camden Coleman (77%), last game passer JC Evans",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Camden Coleman",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": true,
+   "note": "news OUT (2026-11-13); ESPN: QB1 by attempts Camden Coleman (77%), last game passer JC Evans",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Air Force": [
+  {
+   "player": "Evan Medders",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Liam Szarka (49%), last game passer Evan Medders",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Liam Szarka",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news OUT (2026-11-13); ESPN: QB1 by attempts Liam Szarka (49%), last game passer Evan Medders",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Rutgers": [
+  {
+   "player": "AJ Surace",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-13); ESPN: QB1 by attempts Dylan Lonergan (52%), last game passer AJ Surace",
+   "role_change": true,
+   "qb_status": "Expected"
+  },
+  {
+   "player": "Dylan Lonergan",
+   "pos": "QB",
+   "status": "OUT",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-13",
+   "qb1": false,
+   "note": "news OUT (2026-11-13); ESPN: QB1 by attempts Dylan Lonergan (52%), last game passer AJ Surace",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Missouri": [
+  {
+   "player": "Austin Simmons",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Austin Simmons (94%), last game passer Austin Simmons",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Oklahoma": [
+  {
+   "player": "John Mateer",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts John Mateer (99%), last game passer John Mateer",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Georgia": [
+  {
+   "player": "Gunner Stockton",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Gunner Stockton (83%), last game passer Gunner Stockton",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Kansas": [
+  {
+   "player": "Isaiah Marshall",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Isaiah Marshall (83%), last game passer Isaiah Marshall",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "USC": [
+  {
+   "player": "Jayden Maiava",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Jayden Maiava (95%), last game passer Jayden Maiava",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Oregon": [
+  {
+   "player": "Dylan Raiola",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": false,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Dylan Raiola (56%), last game passer Dylan Raiola",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "California": [
+  {
+   "player": "Jaron-Keawe Sagapolutele",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Jaron-Keawe Sagapolutele (68%), last game passer Jaron-Keawe Sagapolutele",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Iowa State": [
+  {
+   "player": "Jaylen Raynor",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Jaylen Raynor (91%), last game passer Jaylen Raynor",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Ole Miss": [
+  {
+   "player": "Trinidad Chambliss",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Trinidad Chambliss (96%), last game passer Trinidad Chambliss",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "West Virginia": [
+  {
+   "player": "Michael Hawkins Jr.",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Michael Hawkins Jr. (97%), last game passer Michael Hawkins Jr.",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Syracuse": [
+  {
+   "player": "Steve Angeli",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Steve Angeli (62%), last game passer Steve Angeli",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Alabama": [
+  {
+   "player": "Keelon Russell",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Keelon Russell (98%), last game passer Keelon Russell",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Vanderbilt": [
+  {
+   "player": "Jared Curtis",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Jared Curtis (80%), last game passer Jared Curtis",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Virginia": [
+  {
+   "player": "Beau Pribula",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Beau Pribula (83%), last game passer Beau Pribula",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Miami": [
+  {
+   "player": "Darian Mensah",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Darian Mensah (91%), last game passer Darian Mensah",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Auburn": [
+  {
+   "player": "Byrum Brown",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Byrum Brown (94%), last game passer Byrum Brown",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "NC State": [
+  {
+   "player": "CJ Bailey",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts CJ Bailey (92%), last game passer CJ Bailey",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Duke": [
+  {
+   "player": "Walker Eget",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Walker Eget (87%), last game passer Walker Eget",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Cincinnati": [
+  {
+   "player": "JC French IV",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts JC French IV (97%), last game passer JC French IV",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Clemson": [
+  {
+   "player": "Tait Reynolds",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Tait Reynolds (86%), last game passer Tait Reynolds",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Nebraska": [
+  {
+   "player": "Anthony Colandrea",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Anthony Colandrea (95%), last game passer Anthony Colandrea",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "SMU": [
+  {
+   "player": "Kevin Jennings",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Kevin Jennings (94%), last game passer Kevin Jennings",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "BYU": [
+  {
+   "player": "Bear Bachmeier",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Bear Bachmeier (98%), last game passer Bear Bachmeier",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Baylor": [
+  {
+   "player": "DJ Lagway",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts DJ Lagway (79%), last game passer DJ Lagway",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Texas A&M": [
+  {
+   "player": "Marcel Reed",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Marcel Reed (93%), last game passer Marcel Reed",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Tennessee": [
+  {
+   "player": "George MacIntyre",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": false,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts George MacIntyre (53%), last game passer George MacIntyre",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Boston College": [
+  {
+   "player": "Mason McKenzie",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts Mason McKenzie (94%), last game passer Mason McKenzie",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Notre Dame": [
+  {
+   "player": "CJ Carr",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "props",
+   "date": "2026-11-14",
+   "qb1": true,
+   "note": "props AVAILABLE (2026-11-14); ESPN: QB1 by attempts CJ Carr (91%), last game passer CJ Carr",
+   "role_change": true,
+   "qb_status": "Expected"
+  }
+ ],
+ "Oregon State": [
+  {
+   "player": "Braden Atkinson",
+   "pos": "QB",
+   "status": "DOUBTFUL",
+   "confirmed": true,
+   "source": "official",
+   "date": "2026-11-11",
+   "qb1": true,
+   "note": "official DOUBTFUL (2026-11-11); news OUT (2026-11-12); ESPN: QB1 by attempts Braden Atkinson (94%), last game passer Braden Atkinson",
+   "role_change": true,
+   "qb_status": "Questionable"
+  },
+  {
+   "player": "Maalik Murphy",
+   "pos": "QB",
+   "status": "AVAILABLE",
+   "confirmed": false,
+   "source": "news",
+   "date": "2026-11-12",
+   "qb1": false,
+   "note": "news AVAILABLE (2026-11-12); ESPN: QB1 by attempts Braden Atkinson (94%), last game passer Braden Atkinson",
+   "role_change": false,
+   "qb_status": "Expected"
+  }
+ ],
+ "South Alabama": [
+  {
+   "player": "Jared Hollins",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Bishop Davenport led the last game, not QB1 Jared Hollins; no report found"
+  }
+ ],
+ "Sacramento State": [
+  {
+   "player": "Jackson Sharman",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Brian Salazar Jr. led the last game, not QB1 Jackson Sharman; no report found"
+  }
+ ],
+ "San Diego State": [
+  {
+   "player": "Jayden Denegal",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Stone Saunders led the last game, not QB1 Jayden Denegal; no report found"
+  }
+ ],
+ "San Jos\u00e9 State": [
+  {
+   "player": "Luke Weaver",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Daniel Rolovich led the last game, not QB1 Luke Weaver; no report found"
+  }
+ ],
+ "UCLA": [
+  {
+   "player": "Nico Iamaleava",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Ty Dieffenbach led the last game, not QB1 Nico Iamaleava; no report found"
+  }
+ ],
+ "South Florida": [
+  {
+   "player": "Michael Van Buren Jr.",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Luke Kromenhoek led the last game, not QB1 Michael Van Buren Jr.; no report found"
+  }
+ ],
+ "Temple": [
+  {
+   "player": "Ajani Sheppard",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Jaxon Smolik led the last game, not QB1 Ajani Sheppard; no report found"
+  }
+ ],
+ "Pittsburgh": [
+  {
+   "player": "Mason Heintschel",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Holden Geriner led the last game, not QB1 Mason Heintschel; no report found"
+  }
+ ],
+ "Rice": [
+  {
+   "player": "Jacurri Brown",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Gael Ochoa led the last game, not QB1 Jacurri Brown; no report found"
+  }
+ ],
+ "Washington State": [
+  {
+   "player": "Caden Pinnick",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Owen Eshelman led the last game, not QB1 Caden Pinnick; no report found"
+  }
+ ],
+ "Marshall": [
+  {
+   "player": "Carlos Del Rio-Wilson",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Zion Turner led the last game, not QB1 Carlos Del Rio-Wilson; no report found"
+  }
+ ],
+ "Utah State": [
+  {
+   "player": "Grady Brosterhous",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: McCae Hillstead led the last game, not QB1 Grady Brosterhous; no report found"
+  }
+ ],
+ "Kennesaw State": [
+  {
+   "player": "Rickie Collins",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Landon Varnes led the last game, not QB1 Rickie Collins; no report found"
+  }
+ ],
+ "Georgia State": [
+  {
+   "player": "Cameran Brown",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Ayden Pereira led the last game, not QB1 Cameran Brown; no report found"
+  }
+ ],
+ "Southern Miss": [
+  {
+   "player": "Landry Lyddy",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: John White led the last game, not QB1 Landry Lyddy; no report found"
+  }
+ ],
+ "UTEP": [
+  {
+   "player": "EJ Colson Jr.",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Raymond Moore III led the last game, not QB1 EJ Colson Jr.; no report found"
+  }
+ ],
+ "Troy": [
+  {
+   "player": "Goose Crowder",
+   "pos": "QB",
+   "status": "UNREPORTED",
+   "confirmed": false,
+   "source": "espn",
+   "date": "2026-11-14",
+   "qb1": true,
+   "role_change": true,
+   "note": "ESPN: Tucker Kilcrease led the last game, not QB1 Goose Crowder; no report found"
+  }
+ ]
+}

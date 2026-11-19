@@ -1,0 +1,18 @@
+Wofford|Tennessee|+27.5|13%|87%|39%|61%
+Hampton|G Tech|+14.5|27%|73%|77%|23%
+Wagner|Boston Col|+16.5|27%|73%|12%|88%
+Manhattan|Kentucky|+30.5|24%|76%|30%|70%
+Holy Cross|Rhode Island|+17.5|49%|51%|49%|51%
+Coppin St|VA Tech|+29.5|20%|80%|78%|22%
+Stetson|S. Carolina|+15.5|20%|80%|18%|82%
+IPFW|Duquesne|+10.5|37%|63%|51%|49%
+Drexel|Virginia|+26.5|19%|81%|52%|48%
+Sam Houston|Alabama|+25.5|12%|88%|11%|89%
+New Orleans|LSU|+20.5|20%|80%|37%|63%
+SD State|K State|+11.5|31%|69%|32%|68%
+Cleveland St|Missouri|+23.5|30%|70%|19%|81%
+Lipscomb|Iowa|+18.5|27%|73%|14%|86%
+Alabama St|Texas A&M|+27.5|44%|56%|35%|65%
+AR-Pine Bluff|Arkansas|+40.5|47%|53%|46%|54%
+N. Arizona|UNLV|+20.5|37%|63%|79%|21%
+CS Fullerton|San Diego State|+15.5|34%|66%|51%|49%

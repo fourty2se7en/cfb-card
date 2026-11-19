@@ -1,0 +1,339 @@
+{
+  "how": [
+    "Signals score each side from line moves at both books, the model projection, rest, home court, form and average margin.",
+    "A pick is made only when the game fits a rule that is on.",
+    "Rules were set from the 2023-24 to 2025-26 backtest and approved by Trina.",
+    "Picks grade Thin early in the season while ratings lean on last season."
+  ],
+  "notes": "Nov 02: Starting settings from the 2023-24 to 2025-26 backtest: FAV_ML off (strict), DOG_ML on (strict), SPREAD_MOVE off (strict), UNDER_DROP on (lowered), OVER on (strict). Nov 02: MODEL_EDGE added and live: approved by Trina (backtest 1643-1452, +41.6u, 2 of 3 seasons). Nov 02: NEUTRAL_UNDER added and live: approved by Trina (backtest 515-403, +65.2u, 3 of 3 seasons). Nov 02: OVER (strict) confirmed live by Trina. Nov 03: EARLY_UNDER_OPEN added and live: backtest 219-158, +41.1u, 3 of 3 seasons. Nov 03: EARLY_OVER_OPEN added and live: backtest 233-173, +38.8u, 3 of 3 seasons. Nov 03: EFF_SPREAD added and live: backtest 1029-804, +131.5u, 3 of 3 seasons. Nov 03: EFF_OVER added and live: backtest 510-420, +43.6u, 3 of 3 seasons. Nov 03: All NCAAW rules frozen through Nov 8 (Trina): no automatic switches until after week 1. Records keep updating.. 24 games played this season through 2026-11-05. Nov 6: rules that failed the backtest now turn on automatically when green (Trina). Nov 6: graded Nov 5 card 4-3 (+0.49u). Re-check 31 games played. EFF_SPREAD (13-16, -4.18u) and MODEL_EDGE (13-14, -2.18u) are red past 20 picks and turn off Nov 9 unless green; SPREAD_MOVE (14-9, +3.73u) turns on Nov 9 if still green.",
+  "policy": {
+    "freeze_until": "2026-11-08",
+    "month_min": 5,
+    "off_min": 20,
+    "on_min": 0,
+    "text": [
+      "A rule is active only while its season to date and this month are both in the green (positive units).",
+      "Timing is unchanged: a rule can only switch off once it has 20+ season picks. The month counts once it has 5+ picks.",
+      "A rule turns off when its season units go negative, or this month goes negative on 5+ picks.",
+      "An inactive rule keeps being graded on every game it fits and turns back on when season and month are both green."
+    ]
+  },
+  "prop_lean_tracking": false,
+  "rules": [
+    {
+      "back_on": "Back on when season and month are both green (first possible switch Nov 9).",
+      "backtest": "72-57 -9.4u, positive in 1 of 3 seasons",
+      "card": "0-0 +0.00u",
+      "desc": "Favourite -200 to -100 with a signal lead of 2+ (3+ strict).",
+      "every_game": "0-0 +0.00u",
+      "hold_until": "2026-11-08",
+      "key": "FAV_ML",
+      "keys": [
+        "FAV_ML"
+      ],
+      "label": "Favourite moneyline",
+      "market": "Moneyline",
+      "month": null,
+      "note": "Failed the backtest (needs positive units over three seasons and in 2 of 3). Trina, Nov 6 2026: turns on automatically when season and month are green (first possible switch Nov 9, after the freeze).",
+      "on": false,
+      "season": {
+        "l": 0,
+        "p": 0,
+        "u": 0,
+        "w": 0
+      },
+      "switched": "Off since Nov 2",
+      "version": "strict"
+    },
+    {
+      "backtest": "54-67 +11.4u, positive in 2 of 3 seasons",
+      "card": "0-0 +0.00u",
+      "desc": "Underdog +100 to +200 with the signals on it.",
+      "every_game": "0-0 +0.00u",
+      "hold_until": "2026-11-08",
+      "key": "DOG_ML",
+      "keys": [
+        "DOG_ML"
+      ],
+      "label": "Underdog moneyline",
+      "market": "Moneyline",
+      "month": null,
+      "note": "Passed the backtest: positive over three seasons and in 2 of 3.",
+      "on": true,
+      "season": {
+        "l": 0,
+        "p": 0,
+        "u": 0,
+        "w": 0
+      },
+      "version": "strict"
+    },
+    {
+      "back_on": "Green now: turns on Nov 9 when the freeze ends, if still green.",
+      "backtest": "790-852-4 -133.8u, positive in 0 of 3 seasons",
+      "card": "0-0 +0.00u",
+      "desc": "Spread on the side the line moved toward at both books with under 50% of tickets.",
+      "every_game": "14-9 +3.73u",
+      "hold_until": "2026-11-08",
+      "key": "SPREAD_MOVE",
+      "keys": [
+        "SPREAD_MOVE"
+      ],
+      "label": "Spread line move",
+      "market": "Spread",
+      "month": {
+        "l": 9,
+        "label": "Nov",
+        "p": 0,
+        "u": 3.73,
+        "w": 14
+      },
+      "note": "Failed the backtest (needs positive units over three seasons and in 2 of 3). Trina, Nov 6 2026: turns on automatically when season and month are green (first possible switch Nov 9, after the freeze).",
+      "on": false,
+      "season": {
+        "l": 9,
+        "p": 0,
+        "u": 3.73,
+        "w": 14
+      },
+      "switched": "Off since Nov 2",
+      "version": "strict"
+    },
+    {
+      "backtest": "351-307 +12.1u, positive in 3 of 3 seasons",
+      "card": "1-1 -0.09u",
+      "desc": "Under when the total dropped at both books.",
+      "every_game": "1-2 -1.09u",
+      "hold_until": "2026-11-08",
+      "key": "UNDER_DROP",
+      "keys": [
+        "UNDER_DROP"
+      ],
+      "label": "Under on a dropping total",
+      "market": "Total",
+      "month": {
+        "l": 2,
+        "label": "Nov",
+        "p": 0,
+        "u": -1.09,
+        "w": 1
+      },
+      "note": "Passed the backtest: positive over three seasons and in 3 of 3.",
+      "on": true,
+      "season": {
+        "l": 2,
+        "p": 0,
+        "u": -1.09,
+        "w": 1
+      },
+      "version": "lowered"
+    },
+    {
+      "backtest": "195-176-1 +1.3u, positive in 2 of 3 seasons",
+      "card": "1-0 +0.83u",
+      "desc": "Over when the total rose at both books.",
+      "every_game": "2-0 +1.82u",
+      "hold_until": "2026-11-08",
+      "key": "OVER",
+      "keys": [
+        "OVER"
+      ],
+      "label": "Over on a rising total",
+      "market": "Total",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 1.82,
+        "w": 2
+      },
+      "note": "Passed the backtest: positive over three seasons and in 2 of 3. Thin: +1.3u on 371 picks, close to break-even. Kept live: approved by Trina Nov 2, 2026.",
+      "on": true,
+      "season": {
+        "l": 0,
+        "p": 0,
+        "u": 1.82,
+        "w": 2
+      },
+      "version": "strict"
+    },
+    {
+      "backtest": "1643-1452-7 +41.6u, positive in 2 of 3 seasons",
+      "card": "6-6 -0.55u",
+      "desc": "Side ATS when the projection beats the spread by 3+ points.",
+      "every_game": "13-14 -2.18u",
+      "hold_until": "2026-11-08",
+      "key": "MODEL_EDGE",
+      "keys": [
+        "MODEL_EDGE"
+      ],
+      "label": "Model edge 3+ vs spread",
+      "market": "Spread",
+      "month": {
+        "l": 14,
+        "label": "Nov",
+        "p": 0,
+        "u": -2.18,
+        "w": 13
+      },
+      "note": "Approved Nov 2, 2026. Side ATS when the projection beats the spread by 3+ points. Early season ratings lean on last season, so picks grade LOW.",
+      "on": true,
+      "season": {
+        "l": 14,
+        "p": 0,
+        "u": -2.18,
+        "w": 13
+      },
+      "version": "lowered",
+      "watch": "Red at 27 picks (-2.18u): turns off Nov 9 when the freeze ends unless it gets back to green."
+    },
+    {
+      "backtest": "515-403-2 +65.2u, positive in 3 of 3 seasons",
+      "card": "0-4 -4.00u",
+      "desc": "Under at a neutral site.",
+      "every_game": "0-4 -4.00u",
+      "hold_until": "2026-11-08",
+      "key": "NEUTRAL_UNDER",
+      "keys": [
+        "NEUTRAL_UNDER"
+      ],
+      "label": "Under at a neutral site",
+      "market": "Total",
+      "month": {
+        "l": 4,
+        "label": "Nov",
+        "p": 0,
+        "u": -4,
+        "w": 0
+      },
+      "note": "Approved Nov 2, 2026. Under at neutral sites; strongest in March.",
+      "on": true,
+      "season": {
+        "l": 4,
+        "p": 0,
+        "u": -4,
+        "w": 0
+      },
+      "version": "lowered"
+    },
+    {
+      "backtest": "219-158 +41.1u, positive in 3 of 3 seasons",
+      "card": "0-0 +0.00u",
+      "desc": "Nov and Dec only: under when the efficiency model total is 4+ below the opening total.",
+      "every_game": "4-3 +0.64u",
+      "hold_until": "2026-11-08",
+      "key": "EARLY_UNDER_OPEN",
+      "keys": [
+        "EARLY_UNDER_OPEN"
+      ],
+      "label": "Early season under vs the opener",
+      "market": "Total",
+      "month": {
+        "l": 3,
+        "label": "Nov",
+        "p": 0,
+        "u": 0.64,
+        "w": 4
+      },
+      "note": "Live Nov 3, 2026 (same rule as the men). Nov and Dec only: under when the efficiency model total is 4+ below the opening total. Positive all three seasons.",
+      "on": true,
+      "season": {
+        "l": 3,
+        "p": 0,
+        "u": 0.64,
+        "w": 4
+      },
+      "version": "lowered"
+    },
+    {
+      "backtest": "233-173 +38.8u, positive in 3 of 3 seasons",
+      "card": "0-0 +0.00u",
+      "desc": "Nov and Dec only: over when the efficiency model total is 4+ above the opening total.",
+      "every_game": "1-1 -0.09u",
+      "hold_until": "2026-11-08",
+      "key": "EARLY_OVER_OPEN",
+      "keys": [
+        "EARLY_OVER_OPEN"
+      ],
+      "label": "Early season over vs the opener",
+      "market": "Total",
+      "month": {
+        "l": 1,
+        "label": "Nov",
+        "p": 0,
+        "u": -0.09,
+        "w": 1
+      },
+      "note": "Live Nov 3, 2026. Nov and Dec only: over when the efficiency model total is 4+ above the opening total. Positive all three seasons.",
+      "on": true,
+      "season": {
+        "l": 1,
+        "p": 0,
+        "u": -0.09,
+        "w": 1
+      },
+      "version": "lowered"
+    },
+    {
+      "backtest": "1029-804-8 +131.5u, positive in 3 of 3 seasons",
+      "card": "3-3 -0.35u",
+      "desc": "Side ATS when the efficiency model margin beats the spread by 3+.",
+      "every_game": "13-16 -4.18u",
+      "hold_until": "2026-11-08",
+      "key": "EFF_SPREAD",
+      "keys": [
+        "EFF_SPREAD"
+      ],
+      "label": "Efficiency model edge 3+ vs spread",
+      "market": "Spread",
+      "month": {
+        "l": 16,
+        "label": "Nov",
+        "p": 0,
+        "u": -4.18,
+        "w": 13
+      },
+      "note": "Live Nov 3, 2026. Side ATS when the efficiency model margin beats the spread by 3+. Positive all three seasons (2023-24 +97.4u, 2024-25 +11.1u, 2025-26 +23.0u).",
+      "on": true,
+      "season": {
+        "l": 16,
+        "p": 0,
+        "u": -4.18,
+        "w": 13
+      },
+      "version": "lowered",
+      "watch": "Red at 29 picks (-4.18u): turns off Nov 9 when the freeze ends unless it gets back to green."
+    },
+    {
+      "backtest": "510-420-1 +43.6u, positive in 3 of 3 seasons",
+      "card": "0-0 +0.00u",
+      "desc": "Over when the efficiency model total is 3+ above the posted total.",
+      "every_game": "2-1 +0.82u",
+      "hold_until": "2026-11-08",
+      "key": "EFF_OVER",
+      "keys": [
+        "EFF_OVER"
+      ],
+      "label": "Efficiency model total 3+ over",
+      "market": "Total",
+      "month": {
+        "l": 1,
+        "label": "Nov",
+        "p": 0,
+        "u": 0.82,
+        "w": 2
+      },
+      "note": "Live Nov 3, 2026. Over when the efficiency model total is 3+ above the posted total. Positive all three seasons; most of the profit comes in Nov and Dec.",
+      "on": true,
+      "season": {
+        "l": 1,
+        "p": 0,
+        "u": 0.82,
+        "w": 2
+      },
+      "version": "lowered"
+    }
+  ],
+  "sport": "ncaaw",
+  "updated": "2026-11-06"
+}

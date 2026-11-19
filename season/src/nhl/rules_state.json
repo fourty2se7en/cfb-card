@@ -1,0 +1,101 @@
+{
+ "as_of": "2026-11-14",
+ "run": "2026-11-15",
+ "approved": "2026-10-30",
+ "rules": {
+  "ML1": {
+   "status": "on",
+   "version": "base",
+   "label": "Signal side with a lead of 2+, price within limits",
+   "market": "Moneyline",
+   "record": [
+    97,
+    67,
+    0,
+    7.98
+   ]
+  },
+  "PL1": {
+   "status": "on",
+   "version": "base",
+   "label": "Puck line of the team with Action Network Sharp Action on its moneyline",
+   "market": "Puck line",
+   "record": [
+    142,
+    110,
+    0,
+    3.85
+   ]
+  },
+  "TOT1": {
+   "status": "on",
+   "version": "base",
+   "label": "Over in Atlantic vs Pacific games or when the division signal is 2 points",
+   "market": "Total",
+   "record": [
+    22,
+    17,
+    0,
+    2.77
+   ]
+  },
+  "TOT2": {
+   "status": "on",
+   "version": "base",
+   "label": "Take the other side when the totals signals lean one way by 2+ points (season replay 122-92-3 +21.6u)",
+   "market": "Total",
+   "record": [
+    132,
+    104,
+    3,
+    18.85
+   ]
+  },
+  "P1O": {
+   "status": "on",
+   "version": "base",
+   "label": "1st period Over 1.5 when the totals rule (TOT2) takes the Over (season replay at SBR close 123-74 +16.2u)",
+   "market": "1st period total",
+   "record": [
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "changes": [],
+ "warnings": [
+  "Watch: ML1 is down -2.4u this month on 47 picks (watch only; the season decides).",
+  "Watch: PL1 is down -5.7u this month on 85 picks (watch only; the season decides).",
+  "Watch: TOT1 is down -3.2u this month on 5 picks (watch only; the season decides)."
+ ],
+ "history": [
+  {
+   "date": "2026-11-10",
+   "changes": [
+    "ML1 switched ON (season only policy, Nov 9): season 84-60, +3.55u is green; this month 11-16, -6.85u is a watch only.",
+    "PL1 switched ON (season only policy, Nov 9): season 120-95, +5.66u is green; this month 25-23, -3.91u is a watch only. Its Solid tier stays off (turned off Nov 9): those picks are would-be picks."
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "changes": [
+    "ML1 switched OFF under the Nov 6 policy: November 6-6, -0.65u on 12 picks (season 79-50, +9.75u). Back on when season and month are both green."
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "changes": [
+    "PL1 switched OFF (this month 14-13, -2.90u on 27 picks). Picks are still tracked."
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "changes": [
+    "ML1 switched ON (season only policy, Nov 9): season 84-60, +3.55u is green; this month 11-16, -6.85u is a watch only.",
+    "PL1 switched ON (season only policy, Nov 9): season 120-95, +5.66u is green; this month 25-23, -3.91u is a watch only."
+   ]
+  }
+ ]
+}

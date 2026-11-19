@@ -1,0 +1,29 @@
+401924646|Iona Gaels^6f2c3e^2-0/2-0/0-0|St. John's Red Storm^d10000^1-0/1-0/0-0|Madison Square Garden, New York NY
+401920424|Arkansas Razorbacks^a32136^1-0/1-0/0-0|Virginia Cavaliers^232d4b^2-0/2-0/0-0|Capital One Arena, Washington DC
+401924734|Princeton Tigers^000000^2-0/2-0/0-0|Siena Saints^037961^0-1/0-0/0-1|MVP Arena, Albany NY
+401921820|Southeast Missouri State Redhawks^c8102e^2-0/2-0/0-0|South Carolina Gamecocks^73000a^1-0/1-0/0-0|Colonial Life Arena, Columbia SC
+401921687|Marist Red Foxes^e53730^1-1/1-1/0-0|UMass Lowell River Hawks^00529C^2-0/1-0/1-0|Kennedy Family Athletic Complex, Lowell MA
+401921685|Sacred Heart Pioneers^a40012^1-1/1-1/0-0|New Hampshire Wildcats^004990^2-0/0-0/2-0|Lundholm Gymnasium, Durham NH
+401921684|Manhattan Jaspers^4f8537^0-2/0-1/0-1|Maine Black Bears^127dbe^1-1/0-0/1-1|Skip Chappelle Court in Memorial Gymnasium, Orono ME
+401921683|Fairfield Stags^000000^0-1/0-1/0-0|Bryant Bulldogs^000000^1-1/1-0/0-1|Chace Athletic Center, Smithfield RI
+401920692|Quinnipiac Bobcats^041B43^1-1/1-0/0-1|Vermont Catamounts^154734^1-1/0-0/1-1|Patrick Gymnasium, Burlington VT
+401920739|Campbell Fighting Camels^000000^0-1/0-0/0-1|Western Michigan Broncos^532e1f^1-1/1-0/0-1|University Arena (MI), Kalamazoo MI
+401920233|Central Connecticut Blue Devils^1B49A2^0-2/0-0/0-2|Dartmouth Big Green^005730^2-0/1-0/1-0|Leede Arena, Hanover NH
+401920843|Green Bay Phoenix^006633^1-1/1-0/0-1|St. Thomas Tommies^000000^1-1/0-0/1-1|Lee & Penny Anderson Arena, Saint Paul MN
+401921686|Merrimack Warriors^2f4f93^0-2/0-1/0-0|UAlbany Great Danes^3D2777^2-0/1-0/1-0|Broadview Center, Albany NY
+401911306|Brown Bears^411e09^0-2/0-2/0-0|Lehigh Mountain Hawks^6c2b2a^1-1/1-0/0-1|Stabler Arena, Bethlehem PA
+401927362|Southern Jaguars^004B97^0-2/0-0/0-2|Drake Bulldogs^005596^1-0/1-0/0-0|Knapp Center, Des Moines IA
+401911335|Idaho State Bengals^ef8c00^0-2/0-0/0-2|Air Force Falcons^003594^1-1/1-0/0-1|Clune Arena, Colorado Springs CO
+401926215|Western Kentucky Hilltoppers^e13a3e^2-0/2-0/0-0|Tennessee Tech Golden Eagles^5A4099^1-1/1-0/0-1|Hooper Eblen Center, Cookeville TN
+401902277|Butler Bulldogs^0d1361^2-0/2-0/0-0|Boise State Broncos^0033a0^1-0/1-0/0-0|ExtraMile Arena, Boise ID
+401920865|Saint Peter's Peacocks^004CC2^0-2/0-1/0-1|NJIT Highlanders^EE3024^0-2/0-0/0-2|Joel & Diane Bloom Wellness and Events Center, Newark NJ
+401911274|Rider Broncs^a80532^0-2/0-1/0-1|Binghamton Bearcats^00614A^1-1/0-0/1-1|Events Center (Binghamton), Binghamton NY
+401911453|Saint Mary's Gaels^d80024^2-0/2-0/0-0|Nevada Wolf Pack^041e42^1-0/1-0/0-0|Tahoe Blue Event Center, Stateline NV
+401925894|Norfolk State Spartans^0c8968^2-0/2-0/0-0|William & Mary Tribe^115740^1-0/1-0/0-0|Kaplan Arena, Williamsburg VA
+401911238|Richmond Spiders^9e0712^2-0/2-0/0-0|Temple Owls^a41e35^1-0/1-0/0-0|The Palestra, Philadelphia PA
+401920134|North Dakota State Bison^01402A^1-2/1-0/0-2|Cal State Bakersfield Roadrunners^003BAB^1-0/1-0/0-0|Icardo Center, Bakersfield CA
+401929352|Incarnate Word Cardinals^000000^0-2/0-1/0-1|UTEP Miners^ff8200^0-1/0-0/0-0|Don Haskins Center, El Paso TX
+401909707|Pittsburgh Panthers^003594^2-0/2-0/0-0|Penn State Nittany Lions^061440^2-0/2-0/0-0|The Palestra, Philadelphia PA
+401918053|Houston Cougars^c8102e^1-0/1-0/0-0|California Golden Bears^041e42^2-0/2-0/0-0|Tahoe Blue Event Center, Stateline NV
+401929002|UT Arlington Mavericks^004b7c^2-0/1-0/0-0|Hawai'i Rainbow Warriors^005737^2-0/2-0/0-0|Stan Sheriff Center, Honolulu HI
+401919029|USC Trojans^9d2235^1-0/1-0/0-0|Wichita State Shockers^ffcd00^1-0/1-0/0-0|Tahoe Blue Event Center, Stateline NV

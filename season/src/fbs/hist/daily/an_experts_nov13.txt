@@ -1,0 +1,31 @@
+119~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~Under 10.5 (1Q)~under~firstquarter~10.5~-114~0.57
+119~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~C.Hicks o49.5 Rec Yds~custom~game~49.5~-105~0.53
+119~Brian Bitler ~BrianBitlerWins~21-26 (-18.1u) last 30 days~Under 51.5~under~game~51.5~111~3
+119~Brandon Kravitz~BKPicks~9-14 (-1.9u) last 30 days~PITT -3.5~spread_home~game~-3.5~102~1
+119~Colby Marchio~ColbyMBets~4-4 (-0.6u) last 30 days~PITT -160~ml_home~game~-160~-160~1.6
+121~Collin Wilson~_Collin1~84-64-1 (+10.6u) last 30 days~UCLA -10~spread_home~game~-10~-112~1.12
+121~Mike McNamara~mikemcnamara33~29-34 (-2.3u) last 30 days~ILL +10~spread_away~game~10~-110~0.44
+121~Kody Malstrom~kmalstrom~28-29-1 (-2.5u) last 30 days~UCLA -9.5~spread_home~game~-9.5~-115~0.57
+121~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~H.Clement o3.5 Recs~custom~game~3.5~-135~0.68
+121~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~A.Woods u49.5 Rush Yds~custom~game~49.5~-115~0.57
+121~Duck~Joshua_Nunn~91-79 (+6.7u) last 30 days~ILL +10~spread_away~game~10~-113~1
+121~Ryan Minion~VegasMinion~38-45-3 (-7.4u) last 30 days~UCLA -6.5 (1H)~spread_home~firsthalf~-6.5~-115~1.15
+121~Brian Bitler ~BrianBitlerWins~21-26 (-18.1u) last 30 days~ILL +9.5~spread_away~game~9.5~-105~3
+121~Road to CFB~RoadtoCFB~29-25 (+1.5u) last 30 days~UCLA -6.5 (1H)~spread_home~firsthalf~-6.5~-110~1.1
+123~Collin Wilson~_Collin1~84-64-1 (+10.6u) last 30 days~COLO +10~spread_home~game~10~-112~1.12
+123~Collin Wilson~_Collin1~84-64-1 (+10.6u) last 30 days~Over 48.5~over~game~48.5~-110~1.1
+123~Stuck 🚨~Stuckey2~36-35-1 (+2.0u) last 30 days~COLO +10.5~spread_home~game~10.5~-120~0.4
+123~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~COLO +11~spread_home~game~11~-113~0.56
+123~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~P.Overmyer u4.5 Recs~custom~game~4.5~100~0.5
+123~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~T.Walker o39.5 Rec Yds~custom~game~39.5~-114~0.57
+123~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~R.Sanford o12.5 Rush Att~custom~game~12.5~-115~0.57
+123~Doug Ziefel~Dziefel7~119-91-4 (+13.6u) last 30 days~C.Weigman o29.5 Rush Yds~custom~game~29.5~-115~0.57
+123~Brian Bitler ~BrianBitlerWins~21-26 (-18.1u) last 30 days~COLO +9.5~spread_home~game~9.5~-110~3
+123~Dan Gaspar~MrTuttle05~66-46-12 (+15.7u) last 30 days~J.Smith o7.5 Rush Att~custom~game~7.5~100~1
+123~Dan Gaspar~MrTuttle05~66-46-12 (+15.7u) last 30 days~K.Young u2.5 Recs~custom~game~2.5~-115~1.15
+123~Dan Gaspar~MrTuttle05~66-46-12 (+15.7u) last 30 days~M.Hughes o12.5 Rush Att~custom~game~12.5~-110~1.1
+123~Dan Gaspar~MrTuttle05~66-46-12 (+15.7u) last 30 days~R.Young o11.5 Rush Att~custom~game~11.5~105~0.95
+123~Dan Gaspar~MrTuttle05~66-46-12 (+15.7u) last 30 days~P.Overmyer u4.5 Recs~custom~game~4.5~100~1
+123~Big Bets On Campus (CFB)~BBOC_CFB~36-45-3 (-11.0u) last 30 days~COLO +9.5~spread_home~game~9.5~-110~1
+123~John Feltman~johnfeltmanli_~55-43-1 (+5.1u) last 30 days~Over 50.5~over~game~50.5~-120~1.2
+123~Wags Wins~wagsischasing~53-52 (-3.4u) last 30 days~COLO +10.5~spread_home~game~10.5~-120~1.5

@@ -1,0 +1,72 @@
+{
+ "_about": "QB status per team. qb1_out true only when two sources agree. Updated Wed Nov 11 for the trade deadline (transactions.json). SEA: Darnold ruled out, Lock starts (FOX 13 Seattle Nov 9 plus seahawks.com). BAL: Lamar Jackson out, Jacoby Brissett (traded from ARI Nov 6) starts (NFL.com Nov 9, Minter; ClutchPoints). ARI: Minshew to IR (elbow), rookie Carson Beck starts (Washington Post Nov 10, azfamily Nov 11). MIN: Kirk Cousins acquired from LV Nov 10, expected starter over Murray (hamstring) (CBS Minnesota Nov 10, NFL.com and Heavy Nov 11). LV: Cousins traded, Fernando Mendoza starts (NFL.com Nov 10, DK Network Nov 10). MIA: Malik Willis to IR (groin), Kyle McCord starts (ESPN and Yahoo Nov 10). pts_off: points off the team in the model (default signals.json qb_out_pts 3.0, the fitted QB change value); MIN uses the trade rule in transactions.py (new starter better rated than the starter he replaces, half credit in his first week). Nov 12: WAS Daniels and NYG McCarthy confirmed for Thursday (official report plus team and Field Level Media news). Nov 13: MIN Cousins named by two sources (CBS Minnesota, NFL Network Rapoport), status Confirmed; SEA Lock Questionable (elbow, oblique).",
+ "PHI": {
+  "qb1": "Jalen Hurts",
+  "qb1_out": true,
+  "starter": "Tanner McKee",
+  "note": "out for the season, blood clots (notes.json Oct 27; McKee started the Oct 26 Monday game). McKee Questionable (rib, limited) on the Week 9 report"
+ },
+ "BAL": {
+  "qb1": "Lamar Jackson",
+  "qb1_out": true,
+  "starter": "Jacoby Brissett",
+  "note": "Lamar Jackson out (thumb, IR). Jacoby Brissett, acquired from Arizona Nov 6, expected to start Week 10 (NFL.com Nov 9, coach Jesse Minter; ClutchPoints). Fagnano started Week 9; Huntley (toe) out for the season.",
+  "depth": "QB2",
+  "status": "Confirmed"
+ },
+ "SEA": {
+  "qb1": "Sam Darnold",
+  "qb1_out": true,
+  "starter": "Drew Lock",
+  "note": "Darnold (quad) out for Week 10, expected back Week 12 (ESPN Nov 10; FOX 13 Seattle Nov 9). Drew Lock starts but is Questionable (right elbow and oblique), limited Thursday (seahawks.com, John Boyle, Nov 13); Jalen Milroe is next."
+ },
+ "MIN": {
+  "qb1": "Kyler Murray",
+  "qb1_out": true,
+  "starter": "Kirk Cousins",
+  "depth": "QB1",
+  "pts_off": -1.1,
+  "note": "Kirk Cousins acquired from Las Vegas Nov 10 and expected to start at Green Bay (CBS Minnesota Nov 10; NFL Network, Ian Rapoport, Nov 13). Murray (hamstring) Doubtful and did not practice; Wentz (ankle) limited, Questionable. Cousins is rated 69 against Murray 33, worth about 1.1 points to Minnesota at half credit in his first week.",
+  "status": "Confirmed"
+ },
+ "ARI": {
+  "qb1": "Gardner Minshew",
+  "qb1_out": true,
+  "starter": "Carson Beck",
+  "depth": "QB3",
+  "note": "Minshew (elbow, likely season ending) placed on IR Nov 10; rookie Carson Beck makes his first start (Washington Post Nov 10, azfamily Nov 11). Season starter Jacoby Brissett was benched, then traded to Baltimore Nov 6.",
+  "status": "Confirmed"
+ },
+ "LV": {
+  "qb1": "Kirk Cousins",
+  "qb1_out": true,
+  "starter": "Fernando Mendoza",
+  "depth": "QB2",
+  "note": "Season starter Kirk Cousins traded to Minnesota Nov 10; No. 1 pick Fernando Mendoza named the starter (NFL.com Nov 10; DK Network Nov 10).",
+  "status": "Confirmed"
+ },
+ "MIA": {
+  "qb1": "Malik Willis",
+  "qb1_out": true,
+  "starter": "Kyle McCord",
+  "depth": "QB2",
+  "note": "Malik Willis placed on IR Nov 10 (groin, out at least four games); Kyle McCord makes his first NFL start (ESPN and Yahoo Sports, Nov 10).",
+  "status": "Confirmed"
+ },
+ "WAS": {
+  "qb1": "Jayden Daniels",
+  "qb1_out": false,
+  "starter": "Jayden Daniels",
+  "depth": "QB1",
+  "status": "Confirmed",
+  "note": "Daniels (left elbow) full participant all week, no game designation (official report via giants.com Nov 11). Only Out: C Lucas Patrick (concussion), TE Colson Yankoff (knee). WR Treylon Burks (foot) DNP Wednesday, no designation."
+ },
+ "NYG": {
+  "qb1": "J.J. McCarthy",
+  "qb1_out": false,
+  "starter": "J.J. McCarthy",
+  "depth": "QB1",
+  "status": "Confirmed",
+  "note": "McCarthy (hip) full participant Tue and Wed, no game designation (official report via giants.com Nov 11; Field Level Media Nov 9: Harbaugh says he will play). RB Cam Skattebo (hamstring) full participant, no designation, expected back as lead back (Fantasy Footballers Nov 10). LB Malik Harrison Questionable."
+ }
+}

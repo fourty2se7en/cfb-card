@@ -1,0 +1,231 @@
+{
+ "rules": {
+  "FAV_ML": {
+   "on": true,
+   "variant": "lowered",
+   "season": {
+    "w": 20,
+    "l": 10,
+    "p": 0,
+    "n": 30,
+    "pct": 0.6666666666666666,
+    "u": 3.8,
+    "be": 0.590988759426798
+   },
+   "month": {
+    "w": 8,
+    "l": 3,
+    "p": 0,
+    "n": 11,
+    "pct": 0.7272727272727273,
+    "u": 2.49,
+    "be": 0.589119258886151
+   },
+   "last14": {
+    "w": 8,
+    "l": 3,
+    "p": 0,
+    "n": 11,
+    "pct": 0.7272727272727273,
+    "u": 2.49,
+    "be": 0.589119258886151
+   },
+   "live": {
+    "w": 8,
+    "l": 3,
+    "p": 0,
+    "n": 11,
+    "pct": 0.7272727272727273,
+    "u": 2.06,
+    "be": 0.606759779420482
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 14,
+     "l": 8,
+     "p": 0,
+     "n": 22,
+     "pct": 0.6363636363636364,
+     "u": 1.99,
+     "be": 0.5884503201653684
+    }
+   },
+   "desc": "Favorite -200 to -100 with a signal lead of 2+ on it",
+   "warn": false,
+   "watch": false
+  },
+  "DOG_ML": {
+   "on": false,
+   "variant": "lowered",
+   "season": {
+    "w": 12,
+    "l": 25,
+    "p": 0,
+    "n": 37,
+    "pct": 0.32432432432432434,
+    "u": -8.88,
+    "be": 0.41607630126764406
+   },
+   "month": {
+    "w": 6,
+    "l": 16,
+    "p": 0,
+    "n": 22,
+    "pct": 0.2727272727272727,
+    "u": -7.8,
+    "be": 0.41506724109429266
+   },
+   "last14": {
+    "w": 5,
+    "l": 15,
+    "p": 0,
+    "n": 20,
+    "pct": 0.25,
+    "u": -8.14,
+    "be": 0.41471464055751206
+   },
+   "live": {
+    "w": 3,
+    "l": 1,
+    "p": 0,
+    "n": 4,
+    "pct": 0.75,
+    "u": 3.0,
+    "be": 0.41598912292189605
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 7,
+     "l": 12,
+     "p": 0,
+     "n": 19,
+     "pct": 0.3684210526315789,
+     "u": -2.71,
+     "be": 0.4243183831309445
+    }
+   },
+   "desc": "Underdog +100 to +200 with the signals on it (lead 1+)",
+   "warn": true,
+   "watch": true
+  },
+  "SPREAD_MOVE": {
+   "on": false,
+   "variant": "lowered",
+   "season": {
+    "w": 30,
+    "l": 33,
+    "p": 0,
+    "n": 63,
+    "pct": 0.47619047619047616,
+    "u": -6.25,
+    "be": 0.5252803829991526
+   },
+   "month": {
+    "w": 15,
+    "l": 21,
+    "p": 0,
+    "n": 36,
+    "pct": 0.4166666666666667,
+    "u": -7.62,
+    "be": 0.5250096377036102
+   },
+   "last14": {
+    "w": 14,
+    "l": 20,
+    "p": 0,
+    "n": 34,
+    "pct": 0.4117647058823529,
+    "u": -7.49,
+    "be": 0.5249531149330989
+   },
+   "live": {
+    "w": 1,
+    "l": 3,
+    "p": 0,
+    "n": 4,
+    "pct": 0.25,
+    "u": -2.09,
+    "be": 0.523674472625125
+   },
+   "other": {
+    "variant": "strict",
+    "season": {
+     "w": 30,
+     "l": 33,
+     "p": 0,
+     "n": 63,
+     "pct": 0.47619047619047616,
+     "u": -6.25,
+     "be": 0.5252803829991526
+    }
+   },
+   "desc": "Spread on the side the line moved toward by 0.5+ at both sources against the ticket majority",
+   "warn": true,
+   "watch": true
+  },
+  "UNDER_DROP": {
+   "on": true,
+   "variant": "lowered",
+   "season": {
+    "w": 35,
+    "l": 27,
+    "p": 0,
+    "n": 62,
+    "pct": 0.5645161290322581,
+    "u": 4.77,
+    "be": 0.5243522352043657
+   },
+   "month": {
+    "w": 16,
+    "l": 16,
+    "p": 0,
+    "n": 32,
+    "pct": 0.5,
+    "u": -1.43,
+    "be": 0.523909088119043
+   },
+   "last14": {
+    "w": 15,
+    "l": 15,
+    "p": 0,
+    "n": 30,
+    "pct": 0.5,
+    "u": -1.36,
+    "be": 0.5239186054595385
+   },
+   "live": null,
+   "other": {
+    "variant": "lowered",
+    "season": {
+     "w": 45,
+     "l": 38,
+     "p": 0,
+     "n": 83,
+     "pct": 0.5421686746987951,
+     "u": 2.88,
+     "be": 0.5240980966381157
+    }
+   },
+   "desc": "Under when the total dropped at both sources with 75%+ of tickets on the over",
+   "warn": true,
+   "watch": true,
+   "note_nov17": "A48 split: UNDER_DROP_ANY and UNDER_DROP_75 are separate rules; the card fits the loose band and b91_post moves 75%+ games to UNDER_DROP_75"
+  },
+  "OVER": {
+   "on": false,
+   "variant": "lowered",
+   "desc": "No over rule has a winning record yet: overs are No pick"
+  }
+ },
+ "log": [
+  "2026-10-31: UNDER_DROP lowered -> strict (21-14, +5.03u vs 19-8, +9.20u)",
+  "2026-11-05: DOG_ML switched off (9-13, -0.84u on 22 picks)",
+  "2026-11-05: SPREAD_MOVE switched off (21-19, -0.27u on 40 picks)",
+  "2026-11-06: no game rule switches (FAV_ML 17-8 +3.45u on, UNDER_DROP 30-18 +9.21u on, DOG_ML 9-13 -0.84u off, SPREAD_MOVE 21-20 -1.27u off)",
+  "2026-11-07: no game rule switches (FAV_ML 17-8 +3.62u on, UNDER_DROP 31-19 +9.12u on, DOG_ML 10-17 -3.56u off, SPREAD_MOVE 21-24 -5.27u off); Season Cards month policy checked, no change",
+  "2026-11-08: no game rule switches (FAV_ML 17-8 +3.62u on, UNDER_DROP 32-19 +10.03u on, DOG_ML 10-18 -4.56u off, SPREAD_MOVE 21-24 -5.27u off); Season Cards month policy checked, no change; DOG_ML and SPREAD_MOVE negative over the last 14 days"
+ ],
+ "updated": "2026-11-15"
+}

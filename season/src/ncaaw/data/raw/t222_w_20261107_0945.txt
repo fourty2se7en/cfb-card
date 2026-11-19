@@ -1,0 +1,7 @@
+menu|t222 time|team|spread price|total price|ml
+W|11a|PENN STATE (W)||
+W|11a|CINCINNATI (W)||
+W|12p|FRESNO STATE (W)||
+W|12p|COLORADO (W)||
+W|12p|MINNESOTA (W)|-10-115|o134.5-115|-600
+W|12p|MARQUETTE (W)|+10-115|u134.5-115|+450

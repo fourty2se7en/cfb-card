@@ -1,0 +1,49 @@
+Morehead St|Louisville|+35.5|56%|44%|72%|28%
+North Dakota|Winthrop|+9.5|35%|65%|32%|68%
+NC A&T|Ohio|+13.5|35%|65%|22%|78%
+UNC Wilmington|E. Carolina|-2.5|68%|32%|83%|17%
+Colgate|Drexel|+1.5||||
+Lamar|Ab Christian|+2.5|75%|25%|89%|11%
+Toledo|Marshall|+3.5||||
+CS Fullerton|South Dakota|+1.5||||
+LBSU|Montana St|+10.5||||
+NC Central|Longwood|+11.5||||
+VCU|Memphis|+1.5|32%|68%|50%|50%
+Colorado|San Diego State|+2.5||||
+Long Island|La Salle|+4.5||||
+Oakland|UCSB|+11.5||||
+Lafayette|Saint Joe's|+17.5|55%|45%|79%|21%
+Monmouth|Rhode Island|+5.5||||
+Samford|UNLV|+11.5|42%|58%|25%|75%
+Omaha|Utah State|+25.5|23%|77%|7%|93%
+Washington St|High Point|+11.5||||
+TN-Martin|IUIN|-1.5||||
+SIU-Edwardsville|Lipscomb|+5.5|8%|92%|4%|96%
+N. Iowa|Furman|+4.5||||
+Bellarmine|Miami (OH)|+20.5||||
+Old Dominion|Bucknell|-4.5||||
+N. Mexico St|Gonzaga|+27.5|26%|74%|21%|79%
+VMI|UTSA|+6.5||||
+W. Carolina|UNC Asheville|-2.5||||
+Prairie View|UT Grande Valley|+8.5||||
+N. Arizona|New Mexico|+24.5||||
+Hampton|G Washington|+17.5||||
+Morgan State|Niagara|+3.5||||
+Providence|Nebraska|+4.5||||
+St. Bonaventure|Canisius|-7.5||||
+N. Illinois|Dayton|+22.5|32%|68%|46%|54%
+Hou Christian|W. Illinois|-9.5||||
+Mercer|Davidson|+11.5||||
+Denver|UC Riverside|+2.5||||
+Maryland|Georgetown|+1.5||||
+Central State|Duquesne|||||
+B-Cookman|Grand Canyon|+22.5||||
+Evansville|Southern Indiana|-10.5||||
+NW State|Murray State|+20.5|23%|77%|100%|
+Pacific|Bradley|+2|79%|21%|99%|1%
+SE Louisiana|Ark-Little Rock|+5.5|42%|58%|12%|88%
+Utah Valley|Weber State|-9.5||||
+Fresno State|UCSD|+8.5||||
+Portland State|Seattle|+10.5||||
+Sac State|Santa Clara|+16.5||||
+San Jose St|UC Irvine|+5.5||||

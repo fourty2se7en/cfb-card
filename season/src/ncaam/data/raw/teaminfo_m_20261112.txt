@@ -1,0 +1,29 @@
+401920073|Kansas City Roos^004b87^2-2/1-0/0-2|George Mason Patriots^016600^2-0/2-0/0-0|McArthur Center, St. Petersburg FL
+401925631|Bradley Braves^b70002^1-2/1-1/0-1|Coppin State Eagles^2e3192^1-2/1-0/0-2|McArthur Center, St. Petersburg FL
+401923400|Johnson & Wales Griffins^^//|Boston University Terriers^cc0000^2-1/1-0/1-1|Case Gym, Boston MA
+401921086|Morgan State Bears^014786^3-0/2-0/1-0|UMBC Retrievers^000000^1-2/1-0/0-2|Chesapeake Employers Insurance Arena, Baltimore MD
+401917176|Mercyhurst Lakers^000000^1-2/1-0/0-2|Penn State Nittany Lions^061440^2-1/2-0/0-0|Bryce Jordan Center, University Park PA
+401916288|Tennessee Tech Golden Eagles^5A4099^2-1/2-0/0-1|Indiana Hoosiers^970310^3-0/2-0/0-0|Simon Skjodt Assembly Hall, Bloomington IN
+401929447|Virginia Lynchburg Dragons^^//|Coastal Carolina Chanticleers^006f71^1-2/1-1/0-1|The HTC Center, Conway SC
+401928818|Western Michigan Broncos^532e1f^2-1/2-0/0-1|Purdue Fort Wayne Mastodons^cfb991^1-1/1-0/0-1|Memorial Coliseum (IN), Fort Wayne IN
+401926788|LaGrange Panthers^000000^//|Kennesaw State Owls^fdbb30^3-0/3-0/0-0|VyStar Arena, Kennesaw GA
+401924876|Central Connecticut Blue Devils^1B49A2^1-2/0-0/1-2|Sacred Heart Pioneers^a40012^2-1/1-1/1-0|William H. Pitt Center, Fairfield CT
+401924857|Monmouth Hawks^051844^0-2/0-0/0-1|Quinnipiac Bobcats^041B43^2-1/1-0/1-1|M&T Bank Arena, Hamden CT
+401922239|Stetson Hatters^0a5640^0-3/0-0/0-3|Howard Bison^003a63^1-2/0-0/1-2|Burr Gymnasium, Washington DC
+401921768|Mercer Bears^ff7f29^2-2/1-0/1-2|West Virginia Mountaineers^eaaa00^2-0/2-0/0-0|Hope Coliseum, Morgantown WV
+401920566|Loyola Maryland Greyhounds^76a7a0^1-2/1-0/0-2|Towson Tigers^FFC229^1-2/1-0/0-2|SECU Arena, Towson MD
+401920412|Southern Utah Thunderbirds^c72026^3-0/3-0/0-0|High Point Panthers^330072^3-0/2-0/0-0|Qubein Center, High Point NC
+401920135|Cal State Bakersfield Roadrunners^003BAB^2-0/2-0/0-0|Western Illinois Leathernecks^4e1e8a^1-2/1-0/0-1|Western Hall, Macomb IL
+401920064|Maryland Eastern Shore Hawks^5c2301^1-3/1-0/0-3|Rhode Island Rams^091f3f^3-0/2-0/0-0|Thomas M. Ryan Center, Kingston RI
+401911307|Canisius Golden Griffins^004a81^1-2/1-1/0-1|Brown Bears^411e09^1-2/0-2/1-0|Pizzitola Sports Center, Providence RI
+401911013|Niagara Purple Eagles^69207E^0-2/0-1/0-1|Bowling Green Falcons^fd5000^2-0/1-0/1-0|Stroh Center, Bowling Green OH
+401922250|West Florida Argonauts^087dc2^2-1/2-0/0-1|Alabama A&M Bulldogs^790000^2-1/2-0/0-1|Event Center, Huntsville AL
+401919041|Oklahoma State Cowboys^fe5c00^2-0/2-0/0-0|Texas A&M Aggies^500000^3-0/3-0/0-0|Reed Arena, College Station TX
+401917524|Loyola Marymount Lions^880029^1-2/1-1/0-1|South Alabama Jaguars^00205b^1-2/1-1/0-1|Pensacola Bay Center, Pensacola FL
+401916306|Southern Jaguars^004B97^0-4/0-0/0-4|Minnesota Golden Gophers^5e0a2f^3-0/2-0/1-0|The Barn by Blue Cross and Blue Shield of Minnesota, Minneapolis MN
+401911239|Richmond Spiders^9e0712^3-0/2-0/0-0|Southern Illinois Salukis^85283D^1-1/1-0/0-1|Banterra Center, Carbondale IL
+401921741|Montana State Bobcats^00205c^1-1/1-0/0-1|BYU Cougars^0047ba^3-0/2-0/0-0|Marriott Center, Provo UT
+401920157|Lincoln (CA) Oaklanders^^//|Cal State Fullerton Titans^003767^1-1/0-0/1-1|Titan Gym, Fullerton CA
+401911533|New Mexico State Aggies^7e141b^1-1/1-0/0-1|UTEP Miners^ff8200^1-1/1-0/0-0|Don Haskins Center, El Paso TX
+401920296|Grace (CA) Talons^^//|Cal State Northridge Matadors^b50000^0-2/0-0/0-2|Premier America Credit Union Arena, Northridge CA
+401911471|UC Riverside Highlanders^14234F^2-0/2-0/0-0|San José State Spartans^0038a8^1-1/1-0/0-1|Provident Credit Union Event Center, San Jose CA

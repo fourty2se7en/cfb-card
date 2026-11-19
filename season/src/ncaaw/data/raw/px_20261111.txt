@@ -1,0 +1,175 @@
+#T
+FAU~Florida Atlantic Owls~FAU~003366~t:2-2,h:2-0,r:0-1,v:0-0
+USA~South Alabama Jaguars~South Alabama~00205b~t:1-3,h:0-1,r:1-2,v:0-0
+SJU~St. John's Red Storm~St John's~d10000~t:2-0,h:2-0,r:0-0,v:0-0
+QUIN~Quinnipiac Bobcats~Quinnipiac~041B43~t:1-2,h:1-1,r:0-1,v:0-0
+M-OH~Miami (OH) RedHawks~Miami OH~c41230~t:4-0,h:3-0,r:1-0,v:0-0
+MVNU~Mount Vernon Nazarene Cougars~Mt Vernon Naz~000000~t:0-0,h:0-0,r:0-0,v:0-0
+UNT~North Texas Mean Green~North Texas~068f33~t:2-1,h:2-0,r:0-1,v:0-0
+HCU~Houston Christian Huskies~Hou Christian~00539c~t:1-3,h:1-1,r:0-2,v:0-0
+UTSA~UTSA Roadrunners~UTSA~0c2340~t:1-2,h:1-0,r:0-2,v:0-0
+UIW~Incarnate Word Cardinals~Incarnate Word~000000~t:1-2,h:0-0,r:1-2,v:0-0
+BYU~BYU Cougars~BYU~0047ba~t:4-0,h:4-0,r:0-0,v:0-0
+BCU~Bethune-Cookman Wildcats~Bethune~7b1831~t:2-2,h:1-0,r:1-2,v:0-0
+UVM~Vermont Catamounts~Vermont~154734~t:2-1,h:2-0,r:0-1,v:0-0
+ORE~Oregon Ducks~Oregon~00934b~t:2-1,h:2-0,r:0-1,v:0-0
+SBU~St. Bonaventure Bonnies~St Bonaventure~70261D~t:1-0,h:1-0,r:0-0,v:0-0
+MERC~Mercyhurst Lakers~Mercyhurst~000000~t:1-2,h:1-0,r:0-2,v:0-0
+SLU~Saint Louis Billikens~Saint Louis~00539C~t:1-1,h:1-0,r:0-1,v:0-0
+EIU~Eastern Illinois Panthers~E Illinois~000000~t:0-3,h:0-0,r:0-3,v:0-0
+GAST~Georgia State Panthers~Georgia St~0039a6~t:0-3,h:0-1,r:0-2,v:0-0
+TOCC~Toccoa Falls Eagles~Toccoa Falls~~t:0-0,h:0-0,r:0-0,v:0-0
+RMU~Robert Morris Colonials~Robert Morris~00214D~t:1-1,h:1-1,r:0-0,v:0-0
+EMU~Eastern Michigan Eagles~E Michigan~006938~t:0-2,h:0-1,r:0-1,v:0-0
+USU~Utah State Aggies~Utah State~0f2439~t:1-2,h:1-1,r:0-1,v:0-0
+IDST~Idaho State Bengals~Idaho St~ef8c00~t:2-1,h:2-0,r:0-1,v:0-0
+COLG~Colgate Raiders~Colgate~821019~t:1-0,h:1-0,r:0-0,v:0-0
+BING~Binghamton Bearcats~Binghamton~00614A~t:1-2,h:0-0,r:1-2,v:0-0
+ARMY~Army Black Knights~Army~000000~t:2-0,h:1-0,r:1-0,v:0-0
+GMU~George Mason Patriots~George Mason~016600~t:2-1,h:2-0,r:0-1,v:0-0
+HOF~Hofstra Pride~Hofstra~003594~t:1-1,h:1-0,r:0-1,v:0-0
+COPP~Coppin State Eagles~Coppin St~2e3192~t:2-1,h:1-1,r:1-0,v:0-0
+CCU~Coastal Carolina Chanticleers~Coastal~006f71~t:2-0,h:1-0,r:1-0,v:0-0
+JAX~Jacksonville Dolphins~Jacksonville~00523e~t:1-1,h:0-0,r:1-1,v:0-0
+JMU~James Madison Dukes~James Madison~450084~t:1-2,h:1-0,r:0-2,v:0-0
+NAVY~Navy Midshipmen~Navy~00225b~t:1-1,h:0-0,r:1-1,v:0-0
+SYR~Syracuse Orange~Syracuse~000e54~t:2-0,h:2-0,r:0-0,v:0-0
+SIE~Siena Saints~Siena~037961~t:1-2,h:1-1,r:0-1,v:0-0
+AF~Air Force Falcons~Air Force~003594~t:2-0,h:2-0,r:0-0,v:0-0
+SF~San Francisco Dons~San Francisco~005a36~t:1-1,h:1-0,r:0-0,v:0-0
+NIA~Niagara Purple Eagles~Niagara~69207E~t:0-3,h:0-1,r:0-2,v:0-0
+STBK~Stony Brook Seawolves~Stony Brook~990000~t:2-0,h:1-0,r:1-0,v:0-0
+LEH~Lehigh Mountain Hawks~Lehigh~6c2b2a~t:0-2,h:0-0,r:0-2,v:0-0
+MSM~Mount St. Mary's Mountaineers~Mount St Marys~005596~t:0-3,h:0-2,r:0-1,v:0-0
+UVA~Virginia Cavaliers~Virginia~232d4b~t:3-0,h:2-0,r:1-0,v:0-0
+DREX~Drexel Dragons~Drexel~020260~t:1-1,h:1-1,r:0-0,v:0-0
+DUQ~Duquesne Dukes~Duquesne~002D62~t:1-1,h:1-0,r:0-1,v:0-0
+MRST~Marist Red Foxes~Marist~e53730~t:0-3,h:0-1,r:0-2,v:0-0
+LAF~Lafayette Leopards~Lafayette~790000~t:1-1,h:1-0,r:0-1,v:0-0
+NJIT~NJIT Highlanders~NJIT~EE3024~t:3-0,h:2-0,r:1-0,v:0-0
+FSU~Florida State Seminoles~Florida St~782f40~t:3-0,h:3-0,r:0-0,v:0-0
+UWF~West Florida Argonauts~West Florida~087dc2~t:1-2,h:1-0,r:0-2,v:0-0
+GW~George Washington Revolutionaries~G Washington~002843~t:1-1,h:1-0,r:0-1,v:0-0
+GTWN~Georgetown Hoyas~Georgetown~110E42~t:3-0,h:3-0,r:0-0,v:0-0
+BUCK~Bucknell Bison~Bucknell~000060~t:0-2,h:0-0,r:0-2,v:0-0
+FOR~Fordham Rams~Fordham~830032~t:3-0,h:3-0,r:0-0,v:0-0
+CAM~Campbell Fighting Camels~Campbell~000000~t:0-3,h:0-1,r:0-2,v:0-0
+RAD~Radford Highlanders~Radford~BC1515~t:1-2,h:1-0,r:0-2,v:0-0
+GWEB~Gardner-Webb Runnin' Bulldogs~Gardner-Webb~c12535~t:1-0,h:0-0,r:1-0,v:0-0
+UNCG~UNC Greensboro Spartans~UNC Greensboro~003559~t:2-1,h:2-0,r:0-1,v:0-0
+BC~Boston College Eagles~Boston College~8c2232~t:0-2,h:0-1,r:0-1,v:0-0
+UML~UMass Lowell River Hawks~UMass Lowell~000000~t:2-1,h:2-0,r:0-1,v:0-0
+UK~Kentucky Wildcats~Kentucky~0033a0~t:3-0,h:2-0,r:0-0,v:0-0
+EVAN~Evansville Purple Aces~Evansville~663399~t:0-2,h:0-0,r:0-2,v:0-0
+MSU~Michigan State Spartans~Michigan St~173f35~t:2-0,h:1-0,r:1-0,v:0-0
+OAK~Oakland Golden Grizzlies~Oakland~04091c~t:2-1,h:2-0,r:0-1,v:0-0
+LAS~La Salle Explorers~La Salle~003356~t:1-1,h:1-0,r:0-1,v:0-0
+TEM~Temple Owls~Temple~a41e35~t:1-1,h:1-0,r:0-1,v:0-0
+UCF~UCF Knights~UCF~000000~t:2-1,h:2-0,r:0-1,v:0-0
+APSU~Austin Peay Governors~Austin Peay~8e0b0b~t:2-0,h:1-0,r:1-0,v:0-0
+CIN~Cincinnati Bearcats~Cincinnati~000000~t:2-0,h:2-0,r:0-0,v:0-0
+JOES~Saint Joseph's Hawks~Saint Joseph's~9e1b32~t:1-0,h:1-0,r:0-0,v:0-0
+DART~Dartmouth Big Green~Dartmouth~005730~t:1-1,h:1-0,r:0-1,v:0-0
+UNH~New Hampshire Wildcats~New Hampshire~004990~t:2-1,h:1-1,r:1-0,v:0-0
+UGA~Georgia Lady Bulldogs~Georgia~ba0c2f~t:3-0,h:3-0,r:0-0,v:0-0
+KENN~Kennesaw State Owls~Kennesaw St~fdbb30~t:2-1,h:2-0,r:0-1,v:0-0
+TEX~Texas Longhorns~Texas~af5c37~t:2-0,h:2-0,r:0-0,v:0-0
+SDST~South Dakota State Jackrabbits~S Dakota St~0033a0~t:1-1,h:1-1,r:0-0,v:0-0
+MISS~Ole Miss Rebels~Ole Miss~13294b~t:2-0,h:2-0,r:0-0,v:0-0
+UALB~UAlbany Great Danes~UAlbany~3D2777~t:3-0,h:1-0,r:2-0,v:0-0
+UNC~North Carolina Tar Heels~North Carolina~7bafd4~t:0-2,h:0-0,r:0-0,v:0-0
+NCCU~North Carolina Central Eagles~NC Central~880023~t:2-2,h:2-0,r:0-2,v:0-0
+WIU~Western Illinois Leathernecks~W Illinois~4e1e8a~t:2-1,h:1-0,r:1-1,v:0-0
+CNIA~Cornell (IA) Rams~Cornell (IA)~000000~t:0-0,h:0-0,r:0-0,v:0-0
+ELON~Elon Phoenix~Elon~020303~t:1-1,h:1-0,r:0-1,v:0-0
+ETSU~East Tennessee State Buccaneers~ETSU~002d61~t:2-1,h:2-0,r:0-1,v:0-0
+MER~Mercer Bears~Mercer~ff7f29~t:2-1,h:2-0,r:0-1,v:0-0
+CHSO~Charleston Southern Buccaneers~Charleston So~2e3192~t:0-2,h:0-0,r:0-2,v:0-0
+FGCU~Florida Gulf Coast Eagles~FGCU~00885a~t:1-1,h:1-0,r:0-1,v:0-0
+AVEM~Ave Maria Gyrenes~Ave Maria~000000~t:0-0,h:0-0,r:0-0,v:0-0
+UAB~UAB Blazers~UAB~1a5632~t:2-0,h:1-0,r:1-0,v:0-0
+STLM~Stillman Tigers~Stillman~000000~t:0-0,h:0-0,r:0-0,v:0-0
+ALCN~Alcorn State Lady Braves~Alcorn St~4b0058~t:0-1,h:0-0,r:0-1,v:0-0
+MUW~Mississippi U for Women Owls~MS for Women~~t:0-0,h:0-0,r:0-0,v:0-0
+DEP~DePaul Blue Demons~DePaul~2d649c~t:3-0,h:3-0,r:0-0,v:0-0
+NIU~Northern Illinois Huskies~N Illinois~c8102e~t:1-1,h:1-0,r:0-1,v:0-0
+DAV~Davidson Wildcats~Davidson~000000~t:1-2,h:1-1,r:0-1,v:0-0
+APP~App State Mountaineers~App State~000000~t:2-0,h:1-0,r:1-0,v:0-0
+SHU~Sacred Heart Pioneers~Sacred Heart~a40012~t:1-1,h:1-0,r:0-1,v:0-0
+NE~Northeastern Huskies~Northeastern~CC0001~t:1-1,h:0-1,r:1-0,v:0-0
+SMU~SMU Mustangs~SMU~a80000~t:3-0,h:3-0,r:0-0,v:0-0
+LIU~Long Island University Sharks~Long Island~50c9f7~t:0-3,h:0-0,r:0-3,v:0-0
+HARV~Harvard Crimson~Harvard~990000~t:2-1,h:1-0,r:1-1,v:0-0
+MASS~Massachusetts Minutewomen~UMass~881c1c~t:1-1,h:0-1,r:1-0,v:0-0
+ECU~East Carolina Pirates~East Carolina~582c83~t:1-1,h:1-1,r:0-0,v:0-0
+HPU~High Point Panthers~High Point~330072~t:3-0,h:2-0,r:1-0,v:0-0
+PROV~Providence Friars~Providence~000000~t:1-1,h:1-1,r:0-0,v:0-0
+BRY~Bryant Bulldogs~Bryant~000000~t:3-0,h:2-0,r:1-0,v:0-0
+RUTG~Rutgers Scarlet Knights~Rutgers~ce0e2d~t:3-0,h:3-0,r:0-0,v:0-0
+MONM~Monmouth Hawks~Monmouth~051844~t:2-0,h:2-0,r:0-0,v:0-0
+NCSU~NC State Wolfpack~NC State~cc0000~t:2-1,h:2-0,r:0-0,v:0-0
+LIB~Liberty Flames~Liberty~0a254e~t:2-0,h:1-0,r:1-0,v:0-0
+CREI~Creighton Bluejays~Creighton~005ca9~t:2-0,h:0-0,r:2-0,v:0-0
+SDAK~South Dakota Coyotes~South Dakota~CD1241~t:2-0,h:2-0,r:0-0,v:0-0
+VAN~Vanderbilt Commodores~Vanderbilt~000000~t:3-0,h:3-0,r:0-0,v:0-0
+WKU~Western Kentucky Lady Toppers~Western KY~e13a3e~t:2-0,h:2-0,r:0-0,v:0-0
+ILST~Illinois State Redbirds~Illinois St~CE1126~t:3-0,h:2-0,r:1-0,v:0-0
+GB~Green Bay Phoenix~Green Bay~006633~t:1-1,h:1-0,r:0-1,v:0-0
+WIS~Wisconsin Badgers~Wisconsin~a00000~t:3-0,h:3-0,r:0-0,v:0-0
+DEL~Delaware Blue Hens~Delaware~00539f~t:0-2,h:0-0,r:0-2,v:0-0
+MSST~Mississippi State Bulldogs~Mississippi St~5d1725~t:2-0,h:1-0,r:1-0,v:0-0
+TROY~Troy Trojans~Troy~862633~t:2-0,h:1-0,r:1-0,v:0-0
+ETAM~East Texas A&M Lions~East Texas A&M~000000~t:1-2,h:1-0,r:0-2,v:0-0
+UL~Louisiana Ragin' Cajuns~Louisiana~ce181e~t:1-1,h:1-0,r:0-1,v:0-0
+RGV~UT Rio Grande Valley Vaqueros~UT Rio Grande~dc6000~t:1-2,h:1-0,r:0-2,v:0-0
+ACU~Abilene Christian Wildcats~Abilene Chrstn~592d82~t:2-0,h:1-0,r:1-0,v:0-0
+UIC~UIC Flames~UIC~001e62~t:2-1,h:1-0,r:1-1,v:0-0
+CHST~Chicago State Cougars~Chicago St~006700~t:2-2,h:2-1,r:0-1,v:0-0
+TAR~Tarleton State Texans~Tarleton St~000000~t:1-1,h:1-0,r:0-1,v:0-0
+SRST~Sul Ross State Lobos~Sul Ross St~000000~t:0-0,h:0-0,r:0-0,v:0-0
+PORT~Portland Pilots~Portland~330072~t:1-2,h:1-0,r:0-2,v:0-0
+WPAC~Warner Pacific Knights~Warner Pacific~~t:0-0,h:0-0,r:0-0,v:0-0
+LUC~Loyola Chicago Ramblers~Loyola Chicago~9d1244~t:1-1,h:1-0,r:0-1,v:0-0
+ARST~Arkansas State Red Wolves~Arkansas St~cc092f~t:0-2,h:0-0,r:0-2,v:0-0
+ORST~Oregon State Beavers~Oregon St~dc4405~t:1-1,h:1-1,r:0-0,v:0-0
+NNU~Northwest Nazarene Nighthawks~NW Nazarene~000000~t:0-0,h:0-0,r:0-0,v:0-0
+UTU~Utah Tech Trailblazers~Utah Tech~000000~t:1-1,h:1-1,r:0-0,v:0-0
+NAIC~Nelson American Indian Warriors~Nelson AIC~~t:0-0,h:0-0,r:0-0,v:0-0
+CP~Cal Poly Mustangs~Cal Poly~1E4D2B~t:2-1,h:2-0,r:0-1,v:0-0
+SEA~Seattle U Redhawks~Seattle U~BF2E1A~t:2-1,h:1-0,r:1-1,v:0-0
+FRES~Fresno State Bulldogs~Fresno St~b1102b~t:1-1,h:1-0,r:0-1,v:0-0
+UNM~New Mexico Lobos~New Mexico~ba0c2f~t:1-1,h:1-1,r:0-0,v:0-0
+SDSU~San Diego State Aztecs~San Diego St~a6192e~t:3-0,h:3-0,r:0-0,v:0-0
+COLO~Colorado Buffaloes~Colorado~cfb87c~t:2-0,h:2-0,r:0-0,v:0-0
+#V
+401919680~Memorial Coliseum (KY)~Lexington KY~
+401918842~Moody Center~Austin TX~
+401913800~The Sandy and John Black Pavilion at Ole Miss~Oxford MS~
+401906090~Carmichael Arena~Chapel Hill NC~
+401918829~Memorial Gymnasium (TN)~Nashville TN~
+#LOG
+20261102|401916067|VAN|LIP|112|53|0|27,36,23,26|15,9,7,22|8|
+20261102|401906088|UNC|OU|79|91|1|19,19,14,27|18,21,31,21|12|21
+20261102|401927955|UK|MORE|85|42|0|18,24,21,22|4,11,13,14|14|
+20261102|401923434|MISS|ALCN|80|38|0|10,26,21,23|6,13,10,9|19|
+20261102|401916015|VT|NCCU|85|39|0|32,15,25,13|10,4,14,11||
+20261102|401913797|NE|UALB|61|65|0|13,20,14,14|16,15,20,14||
+20261102|401911790|SDST|CREI|71|73|0|16,19,22,14|21,8,22,22||
+20261103|401913044|DEP|EVAN|90|65|0|17,20,28,25|23,10,17,15||
+20261104|401918840|TEX|FDU|85|65|0|30,14,22,19|8,19,15,23|6|
+20261104|401913884|VAN|QUC|100|42|0|38,35,16,11|4,7,12,19|8|
+20261104|401925620|NCCU|JCSU|99|73|0|25,31,24,19|14,17,16,26||
+20261104|401928191|WKU|UTC|61|50|0|11,17,17,16|2,21,14,13||
+20261105|401929059|UK|NKU|79|28|0|25,17,16,21|3,9,9,7|14|
+20261105|401924631|MISS|UNA|72|51|0|11,14,26,21|14,13,12,12|19|
+20261105|401913798|UALB|MAN|62|61|0|16,15,14,17|13,12,16,20||
+20261106|401919980|SDST|UNI|76|54|0|22,14,16,24|15,11,14,14||
+20261107|401918841|TEX|UNCO|91|29|0|23,26,23,19|6,3,9,11|6|
+20261107|401925621|UNCW|NCCU|82|48|0|31,17,18,16|13,9,10,16||
+20261107|401919679|LIN|EVAN|62|49|0|16,11,13,22|9,16,5,19||
+20261108|401906089|SC|UNC|84|39|1|15,19,32,18|10,7,9,13|1|12
+20261108|401913737|NCSU|UK|78|93|1|24,20,14,20|29,27,16,21|25|14
+20261108|401913799|MSM|UALB|57|77|0|11,14,15,17|18,17,25,17||
+20261108|401928994|WKU|CTBR|94|43|0|28,23,19,24|17,10,7,9||
+20261109|401918828|VAN|MORE|102|50|0|28,25,30,19|10,16,15,9|8|
+20261109|401925622|NCCU|FAYU|60|56|0|16,13,11,20|9,14,20,13||

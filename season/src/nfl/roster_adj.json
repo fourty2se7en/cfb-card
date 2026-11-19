@@ -1,0 +1,544 @@
+{
+ "_about": "Roster move adjustments for the NFL card (Trina, Nov 11: trades called out on every game card and factored into the analysis). See transactions.py for the method.",
+ "built_from": "transactions.json, injuries.json, lineups.py",
+ "teams": {
+  "ARI": {
+   "pts": -0.91,
+   "tot": -0.91,
+   "items": [
+    {
+     "player": "Jacoby Brissett",
+     "pos": "QB",
+     "slot": "QB",
+     "move": "Traded to BAL",
+     "date": "2026-11-06",
+     "role_now": "Out",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "in_qb_model": true,
+     "reason": "QB change in injuries.json: Carson Beck starts for Gardner Minshew, -3.0 points to ARI in the model"
+    },
+    {
+     "player": "Gardner Minshew",
+     "pos": "QB",
+     "slot": "QB",
+     "move": "IR",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "in_qb_model": true,
+     "reason": "QB change in injuries.json: Carson Beck starts for Gardner Minshew, -3.0 points to ARI in the model"
+    },
+    {
+     "player": "Michael Wilson",
+     "pos": "WR",
+     "slot": "WR",
+     "move": "IR",
+     "date": "2026-11-09",
+     "role_now": "Out",
+     "rating": 88,
+     "replaced_by": "Simi Fehoko",
+     "replaced_by_rating": 12,
+     "effect_pts": -0.91,
+     "effect_tot": -0.91,
+     "reason": "Michael Wilson (88) out, Simi Fehoko (12) starts"
+    }
+   ]
+  },
+  "ATL": {
+   "pts": -0.48,
+   "tot": 0.32,
+   "items": [
+    {
+     "player": "Jessie Bates III",
+     "pos": "S",
+     "slot": "S",
+     "move": "Traded to JAX",
+     "date": "2026-11-09",
+     "role_now": "Out",
+     "rating": 81,
+     "replaced_by": "DeMarcco Hellams",
+     "replaced_by_rating": 31,
+     "effect_pts": -0.4,
+     "effect_tot": 0.4,
+     "reason": "Jessie Bates III (81) out, DeMarcco Hellams (31) starts"
+    },
+    {
+     "player": "Ryan Neuzil",
+     "pos": "C",
+     "slot": "OL",
+     "move": "Traded to BAL",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "rating": 76,
+     "replaced_by": "Corey Levin",
+     "replaced_by_rating": 63,
+     "effect_pts": -0.08,
+     "effect_tot": -0.08,
+     "reason": "Ryan Neuzil (76) out, Corey Levin (63) starts"
+    },
+    {
+     "player": "Andrew Vorhees",
+     "pos": "G",
+     "slot": "OL",
+     "move": "Acquired from BAL",
+     "date": "2026-11-10",
+     "role_now": "Backup",
+     "rating": 41,
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "depth only this week"
+    }
+   ]
+  },
+  "BAL": {
+   "pts": 0.04,
+   "tot": 0.04,
+   "items": [
+    {
+     "player": "Ryan Neuzil",
+     "pos": "C",
+     "slot": "OL",
+     "move": "Acquired from ATL",
+     "date": "2026-11-10",
+     "role_now": "Rotation",
+     "rating": 76,
+     "vs": "Emery Jones",
+     "vs_rating": 48,
+     "credit": 0.25,
+     "effect_pts": 0.04,
+     "effect_tot": 0.04,
+     "reason": "Ryan Neuzil (76) over Emery Jones (48) at 25% credit in his first week"
+    },
+    {
+     "player": "Andrew Vorhees",
+     "pos": "G",
+     "slot": "OL",
+     "move": "Traded to ATL",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "rating": 41,
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "not a starter in BAL's last 3 games, no change to the starting lineup"
+    },
+    {
+     "player": "Jacoby Brissett",
+     "pos": "QB",
+     "slot": "QB",
+     "move": "Acquired from ARI",
+     "date": "2026-11-06",
+     "role_now": "Starts",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "in_qb_model": true,
+     "reason": "QB change in injuries.json: Jacoby Brissett starts for Lamar Jackson, -3.0 points to BAL in the model"
+    }
+   ]
+  },
+  "BUF": {
+   "pts": 0.27,
+   "tot": -0.27,
+   "items": [
+    {
+     "player": "Amani Hooker",
+     "pos": "S",
+     "slot": "S",
+     "move": "Acquired from TEN",
+     "date": "2026-11-10",
+     "role_now": "Starts",
+     "rating": 99,
+     "vs": "Damar Hamlin",
+     "vs_rating": 32,
+     "credit": 0.5,
+     "effect_pts": 0.27,
+     "effect_tot": -0.27,
+     "reason": "Amani Hooker (99) over Damar Hamlin (32) at 50% credit in his first week"
+    },
+    {
+     "player": "Josh Palmer",
+     "pos": "WR",
+     "slot": "WR",
+     "move": "IR",
+     "date": "2026-11-09",
+     "role_now": "Out",
+     "rating": 50,
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "not a starter in BUF's last 3 games, no change to the starting lineup"
+    }
+   ]
+  },
+  "DET": {
+   "pts": 0.0,
+   "tot": 0.0,
+   "items": [
+    {
+     "player": "Andre Cisco",
+     "pos": "S",
+     "slot": "S",
+     "move": "Acquired from NYJ",
+     "date": "2026-11-09",
+     "role_now": "Backup",
+     "rating": 38,
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "depth only this week"
+    }
+   ]
+  },
+  "IND": {
+   "pts": -0.94,
+   "tot": -0.94,
+   "items": [
+    {
+     "player": "Josh Downs",
+     "pos": "WR",
+     "slot": "WR",
+     "move": "Traded to KC",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "rating": 69,
+     "replaced_by": "Deion Burks",
+     "replaced_by_rating": 25,
+     "effect_pts": -0.53,
+     "effect_tot": -0.53,
+     "reason": "Josh Downs (69) out, Deion Burks (25) starts"
+    },
+    {
+     "player": "Keenan Allen",
+     "pos": "WR",
+     "slot": "WR",
+     "move": "Traded to SF",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "rating": 73,
+     "replaced_by": "Ashton Dulin",
+     "replaced_by_rating": 39,
+     "effect_pts": -0.41,
+     "effect_tot": -0.41,
+     "reason": "Keenan Allen (73) out, Ashton Dulin (39) starts"
+    },
+    {
+     "player": "Quenton Nelson",
+     "pos": "G",
+     "slot": "OL",
+     "move": "Traded to SEA",
+     "date": "2026-10-27",
+     "role_now": "Out",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "already in the ratings (he has played for his new team)"
+    },
+    {
+     "player": "DeForest Buckner",
+     "pos": "DT",
+     "slot": "DL",
+     "move": "Traded to SF",
+     "date": "2026-10-27",
+     "role_now": "Out",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "already in the ratings (he has played for his new team)"
+    }
+   ]
+  },
+  "JAX": {
+   "pts": 0.24,
+   "tot": -0.24,
+   "items": [
+    {
+     "player": "Jessie Bates III",
+     "pos": "S",
+     "slot": "S",
+     "move": "Acquired from ATL",
+     "date": "2026-11-09",
+     "role_now": "Starts",
+     "rating": 81,
+     "vs": "Kaevon Merriweather",
+     "vs_rating": 24,
+     "credit": 0.5,
+     "effect_pts": 0.23,
+     "effect_tot": -0.23,
+     "reason": "Jessie Bates III (81) over Kaevon Merriweather (24) at 50% credit in his first week"
+    },
+    {
+     "player": "Jordan Davis",
+     "pos": "DT",
+     "slot": "DL",
+     "move": "Acquired from PHI",
+     "date": "2026-11-09",
+     "role_now": "Rotation",
+     "rating": 48,
+     "vs": "Ruke Orhorhoro",
+     "vs_rating": 42,
+     "credit": 0.25,
+     "effect_pts": 0.01,
+     "effect_tot": -0.01,
+     "reason": "Jordan Davis (48) over Ruke Orhorhoro (42) at 25% credit in his first week"
+    },
+    {
+     "player": "Davon Godchaux",
+     "pos": "DT",
+     "slot": "DL",
+     "move": "Acquired from NO",
+     "date": "2026-11-09",
+     "role_now": "Rotation",
+     "rating": 12,
+     "vs": "Ruke Orhorhoro",
+     "vs_rating": 42,
+     "credit": 0.25,
+     "effect_pts": 0.0,
+     "effect_tot": -0.0,
+     "reason": "Davon Godchaux (12) over Ruke Orhorhoro (42) at 25% credit in his first week"
+    }
+   ]
+  },
+  "KC": {
+   "pts": 0.27,
+   "tot": 0.27,
+   "items": [
+    {
+     "player": "Josh Downs",
+     "pos": "WR",
+     "slot": "WR",
+     "move": "Acquired from IND",
+     "date": "2026-11-10",
+     "role_now": "Starts",
+     "rating": 69,
+     "vs": "Jalen Royals",
+     "vs_rating": 24,
+     "credit": 0.5,
+     "effect_pts": 0.27,
+     "effect_tot": 0.27,
+     "reason": "Josh Downs (69) over Jalen Royals (24) at 50% credit in his first week"
+    }
+   ]
+  },
+  "LA": {
+   "pts": -1.0,
+   "tot": -1.0,
+   "items": [
+    {
+     "player": "Puka Nacua",
+     "pos": "WR",
+     "slot": "WR",
+     "move": "IR",
+     "date": "2026-11-09",
+     "role_now": "Out",
+     "rating": 99,
+     "replaced_by": "Jordan Whittington",
+     "replaced_by_rating": 11,
+     "effect_pts": -1.0,
+     "effect_tot": -1.0,
+     "reason": "Puka Nacua (99) out, Jordan Whittington (11) starts"
+    }
+   ]
+  },
+  "LAC": {
+   "pts": 0.0,
+   "tot": 0.0,
+   "items": [
+    {
+     "player": "Daiyan Henley",
+     "pos": "LB",
+     "slot": "LB",
+     "move": "Traded to DEN",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "rating": 52,
+     "replaced_by": "Khalil Mack",
+     "replaced_by_rating": 86,
+     "effect_pts": -0.0,
+     "effect_tot": 0.0,
+     "reason": "Daiyan Henley (52) out, Khalil Mack (86) starts"
+    }
+   ]
+  },
+  "LV": {
+   "pts": 0.0,
+   "tot": 0.0,
+   "items": [
+    {
+     "player": "Kirk Cousins",
+     "pos": "QB",
+     "slot": "QB",
+     "move": "Traded to MIN",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "in_qb_model": true,
+     "reason": "QB change in injuries.json: Fernando Mendoza starts for Kirk Cousins, -3.0 points to LV in the model"
+    }
+   ]
+  },
+  "MIA": {
+   "pts": -0.38,
+   "tot": 0.38,
+   "items": [
+    {
+     "player": "Malik Willis",
+     "pos": "QB",
+     "slot": "QB",
+     "move": "IR",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "in_qb_model": true,
+     "reason": "QB change in injuries.json: Kyle McCord starts for Malik Willis, -3.0 points to MIA in the model"
+    },
+    {
+     "player": "Zach Sieler",
+     "pos": "DT",
+     "slot": "DL",
+     "move": "IR",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "rating": 82,
+     "replaced_by": "Zeek Biggers",
+     "replaced_by_rating": 44,
+     "effect_pts": -0.38,
+     "effect_tot": 0.38,
+     "reason": "Zach Sieler (82) out, Zeek Biggers (44) starts"
+    }
+   ]
+  },
+  "MIN": {
+   "pts": 0.0,
+   "tot": 0.0,
+   "items": [
+    {
+     "player": "Kirk Cousins",
+     "pos": "QB",
+     "slot": "QB",
+     "move": "Acquired from LV",
+     "date": "2026-11-10",
+     "role_now": "Starts",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "in_qb_model": true,
+     "reason": "QB change in injuries.json: Kirk Cousins starts for Kyler Murray, +1.1 points to MIN in the model"
+    }
+   ]
+  },
+  "NO": {
+   "pts": 0.0,
+   "tot": 0.0,
+   "items": [
+    {
+     "player": "Davon Godchaux",
+     "pos": "DT",
+     "slot": "DL",
+     "move": "Traded to JAX",
+     "date": "2026-11-09",
+     "role_now": "Out",
+     "rating": 12,
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "not a starter in NO's last 3 games, no change to the starting lineup"
+    }
+   ]
+  },
+  "NYJ": {
+   "pts": 0.0,
+   "tot": 0.0,
+   "items": [
+    {
+     "player": "Andre Cisco",
+     "pos": "S",
+     "slot": "S",
+     "move": "Traded to DET",
+     "date": "2026-11-09",
+     "role_now": "Out",
+     "rating": 38,
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "not a starter in NYJ's last 3 games, no change to the starting lineup"
+    }
+   ]
+  },
+  "SEA": {
+   "pts": 0.0,
+   "tot": 0.0,
+   "items": [
+    {
+     "player": "Quenton Nelson",
+     "pos": "G",
+     "slot": "OL",
+     "move": "Acquired from IND",
+     "date": "2026-10-27",
+     "role_now": "Out",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "already in the ratings (he has played for his new team)"
+    }
+   ]
+  },
+  "SF": {
+   "pts": 0.13,
+   "tot": 0.13,
+   "items": [
+    {
+     "player": "Keenan Allen",
+     "pos": "WR",
+     "slot": "WR",
+     "move": "Acquired from IND",
+     "date": "2026-11-10",
+     "role_now": "Rotation",
+     "rating": 73,
+     "vs": "Brandin Cooks",
+     "vs_rating": 29,
+     "credit": 0.25,
+     "effect_pts": 0.13,
+     "effect_tot": 0.13,
+     "reason": "Keenan Allen (73) over Brandin Cooks (29) at 25% credit in his first week"
+    },
+    {
+     "player": "DeForest Buckner",
+     "pos": "DT",
+     "slot": "DL",
+     "move": "Acquired from IND",
+     "date": "2026-10-27",
+     "role_now": "Starts",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "already in the ratings (he has played for his new team)"
+    }
+   ]
+  },
+  "TEN": {
+   "pts": -0.48,
+   "tot": 0.48,
+   "items": [
+    {
+     "player": "Amani Hooker",
+     "pos": "S",
+     "slot": "S",
+     "move": "Traded to BUF",
+     "date": "2026-11-10",
+     "role_now": "Out",
+     "rating": 99,
+     "replaced_by": "Tony Adams",
+     "replaced_by_rating": 39,
+     "effect_pts": -0.48,
+     "effect_tot": 0.48,
+     "reason": "Amani Hooker (99) out, Tony Adams (39) starts"
+    },
+    {
+     "player": "Jeffery Simmons",
+     "pos": "DT",
+     "slot": "DL",
+     "move": "Traded to CHI",
+     "date": "2026-10-29",
+     "role_now": "Out",
+     "effect_pts": 0.0,
+     "effect_tot": 0.0,
+     "reason": "already in the ratings (he has played for his new team)"
+    }
+   ]
+  }
+ }
+}

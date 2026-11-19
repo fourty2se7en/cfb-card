@@ -1,0 +1,128 @@
+Auburn|Byrum Brown|0.94|Byrum Brown
+UAB|Ryder Burton|0.97|Ryder Burton
+South Alabama|Jared Hollins|0.66|Bishop Davenport
+Arkansas|KJ Jackson|0.91|KJ Jackson
+Arizona State|Cutter Boley|0.56|Jake Fette
+Arizona|Noah Fifita|0.95|Noah Fifita
+Sacramento State|Jackson Sharman|0.77|Brian Salazar Jr.
+San Diego State|Jayden Denegal|0.64|Stone Saunders
+San José State|Luke Weaver|0.78|Daniel Rolovich
+Stanford|Davis Warren|0.96|Davis Warren
+California|Jaron-Keawe Sagapolutele|0.68|Jaron-Keawe Sagapolutele
+UCLA|Nico Iamaleava|0.49|Ty Dieffenbach
+USC|Jayden Maiava|0.95|Jayden Maiava
+Colorado State|Hauss Hejny|0.50|Hauss Hejny
+Colorado|Isaac Wilson|0.61|Isaac Wilson
+UConn|Kalieb Osborne|0.95|Kalieb Osborne
+Delaware|Nick Minicucci|0.67|Nick Minicucci
+Florida State|Ashton Daniels|0.98|Ashton Daniels
+Jacksonville State|Caden Creel|0.98|Caden Creel
+Florida|Aaron Philo|0.58|Tramell Jones Jr.
+South Florida|Michael Van Buren Jr.|0.83|Luke Kromenhoek
+Georgia Tech|Alberto Mendoza|0.84|Alberto Mendoza
+Georgia|Gunner Stockton|0.83|Gunner Stockton
+Hawai'i|Micah Alejado|0.97|Micah Alejado
+Iowa State|Jaylen Raynor|0.91|Jaylen Raynor
+Boise State|Maddux Madsen|0.87|Max Cutforth
+Northwestern|Aidan Chiles|0.85|Nicco Marchiol
+Indiana|Josh Hoover|0.89|Josh Hoover
+Notre Dame|CJ Carr|0.91|CJ Carr
+Kentucky|Kenny Minchey|0.99|Kenny Minchey
+Louisville|Lincoln Kienholz|0.96|Lincoln Kienholz
+Western Kentucky|Brock Glenn|0.57|Brock Glenn
+LSU|Sam Leavitt|0.87|Sam Leavitt
+Boston College|Mason McKenzie|0.94|Mason McKenzie
+Massachusetts|William Watson III|0.70|William Watson III
+Maryland|Malik Washington|0.97|Malik Washington
+Michigan State|Alessio Milivojevic|0.85|Alessio Milivojevic
+Michigan|Bryce Underwood|0.56|Tommy Carr
+Minnesota|Drake Lindsey|0.97|Drake Lindsey
+Missouri|Austin Simmons|0.94|Austin Simmons
+Ole Miss|Trinidad Chambliss|0.96|Trinidad Chambliss
+Duke|Walker Eget|0.87|Walker Eget
+East Carolina|Emory Williams|0.51|Emory Williams
+NC State|CJ Bailey|0.92|CJ Bailey
+North Carolina|Billy Edwards Jr.|0.98|Billy Edwards Jr.
+Wake Forest|Gio Lopez|0.84|Steele Pizzella
+Nebraska|Anthony Colandrea|0.95|Anthony Colandrea
+Rutgers|Dylan Lonergan|0.52|AJ Surace
+New Mexico State|Trey Hedden|0.56|Trey Hedden
+New Mexico|Toa Fa'avae|0.74|Toa Fa'avae
+Syracuse|Steve Angeli|0.62|Steve Angeli
+Ohio State|Julian Sayin|0.64|Luke Fahey
+Oklahoma State|Drew Mestemaker|0.97|Drew Mestemaker
+Oklahoma|John Mateer|0.99|John Mateer
+Tulsa|Baylor Hayes|0.78|Baylor Hayes
+Oregon State|Braden Atkinson|0.94|Braden Atkinson
+Penn State|Rocco Becht|0.94|Rocco Becht
+Temple|Ajani Sheppard|0.71|Jaxon Smolik
+Pittsburgh|Mason Heintschel|0.47|Holden Geriner
+Clemson|Tait Reynolds|0.86|Tait Reynolds
+Memphis|Marcus Stokes|0.96|Marcus Stokes
+Vanderbilt|Jared Curtis|0.80|Jared Curtis
+Baylor|DJ Lagway|0.79|DJ Lagway
+Rice|Jacurri Brown|0.70|Gael Ochoa
+Texas A&M|Marcel Reed|0.93|Marcel Reed
+Houston|Conner Weigman|0.97|Conner Weigman
+North Texas|Tayven Jackson|0.93|Tayven Jackson
+Texas|Arch Manning|0.96|Arch Manning
+BYU|Bear Bachmeier|0.98|Bear Bachmeier
+Utah|Devon Dampier|0.92|Devon Dampier
+James Madison|Camden Coleman|0.77|JC Evans
+Virginia|Beau Pribula|0.83|Beau Pribula
+Virginia Tech|Ethan Grunkemeyer|0.95|Ethan Grunkemeyer
+Washington|Demond Williams Jr.|0.69|Demond Williams Jr.
+Washington State|Caden Pinnick|0.57|Owen Eshelman
+Wisconsin|Colton Joseph|0.83|Ryan Hopkins
+Marshall|Carlos Del Rio-Wilson|0.52|Zion Turner
+West Virginia|Michael Hawkins Jr.|0.97|Michael Hawkins Jr.
+Fresno State|Jayden Mandal|0.98|Jayden Mandal
+Georgia Southern|Max Johnson|0.85|Max Johnson
+Louisiana|Lunch Winfield|0.95|Lunch Winfield
+Coastal Carolina|Deuce Bailey|0.96|Deuce Bailey
+Texas State|Brad Jackson|0.96|Brad Jackson
+Utah State|Grady Brosterhous|0.70|McCae Hillstead
+Alabama|Keelon Russell|0.98|Keelon Russell
+Kennesaw State|Rickie Collins|0.78|Landon Varnes
+Mississippi State|Kamario Taylor|0.56|AJ Swann
+Illinois|Katin Houser|0.90|Katin Houser
+Air Force|Liam Szarka|0.49|Evan Medders
+App State|Malachi Singleton|0.89|Malachi Singleton
+Arkansas State|Trey Owens|1.00|Trey Owens
+Ball State|Keldric Luster|0.86|Keldric Luster
+Buffalo|Jason Wright|0.79|Jason Wright
+UCF|Keyone Jenkins|0.64|Alonza Barnett III
+Central Michigan|Jadyn Glasser|0.47|Jadyn Glasser
+Cincinnati|JC French IV|0.97|JC French IV
+Florida Atlantic|Caden Veltkamp|0.94|Caden Veltkamp
+Florida International|JJ Kohl|0.93|JJ Kohl
+Georgia State|Cameran Brown|0.63|Ayden Pereira
+Iowa|Hank Brown|0.73|Hank Brown
+Kansas|Isaiah Marshall|0.83|Isaiah Marshall
+Kansas State|Avery Johnson|0.63|Blake Barnett
+Liberty|Deshawn Purdie|0.90|Deshawn Purdie
+Louisiana Tech|Blake Baker|0.64|Blake Baker
+Miami|Darian Mensah|0.91|Darian Mensah
+Middle Tennessee|Roman Gagliano|0.99|Roman Gagliano
+Charlotte|Conner Harrell|0.51|Conner Harrell
+UL Monroe|Aidan Armenta|0.73|Aidan Armenta
+UNLV|Jackson Arnold|0.95|Jackson Arnold
+Nevada|AJ Bianco|0.40|AJ Bianco
+North Dakota State|Nathan Hayes|0.97|Nathan Hayes
+Northern Illinois|Taron Dickens|0.94|Taron Dickens
+Oregon|Dylan Raiola|0.56|Dylan Raiola
+Purdue|Ryan Browne|0.95|Ryan Browne
+Sam Houston|Landyn Locke|0.84|Landyn Locke
+SMU|Kevin Jennings|0.94|Kevin Jennings
+Southern Miss|Landry Lyddy|0.63|John White
+South Carolina|LaNorris Sellers|0.93|LaNorris Sellers
+Missouri State|Henry Belin IV|0.60|Henry Belin IV
+TCU|Jaden Craig|1.00|Jaden Craig
+Tennessee|George MacIntyre|0.53|George MacIntyre
+UTSA|Owen McCown|0.98|Owen McCown
+UTEP|EJ Colson Jr.|0.50|Raymond Moore III
+Texas Tech|Will Hammond|0.78|Thomas Castellanos
+Toledo|John Alan Richter|0.98|John Alan Richter
+Troy|Goose Crowder|0.70|Tucker Kilcrease
+Tulane|Trace Johnson|0.48|Trace Johnson
+Wyoming|Tyler Hughes|0.96|Tyler Hughes

@@ -1,0 +1,1282 @@
+{
+ "Florida State@Pittsburgh": {
+  "away": "Florida State",
+  "home": "Pittsburgh",
+  "neutral": false,
+  "meta": "Fri 11/13 \u00b7 17:00 \u00b7 Acrisure Stadium, Pittsburgh PA \u00b7 grass \u00b7 conference game \u00b7 36\u00b0F, 3 mph wind \u00b7 rest 7 days to Pittsburgh",
+  "our_spread": "Pittsburgh -3.2",
+  "mkt_spread": "Pittsburgh -3.5",
+  "our_total": "55.9",
+  "mkt_total": "52.0"
+ },
+ "Illinois@UCLA": {
+  "away": "Illinois",
+  "home": "UCLA",
+  "neutral": false,
+  "meta": "Fri 11/13 \u00b7 19:00 \u00b7 Rose Bowl, Pasadena CA \u00b7 grass \u00b7 conference game \u00b7 59\u00b0F, 2 mph wind \u00b7 rest 1 days to Illinois",
+  "our_spread": "UCLA -9.8",
+  "mkt_spread": "UCLA -10.5",
+  "our_total": "47.3",
+  "mkt_total": "48.5"
+ },
+ "Southern Utah@Portland State": {
+  "away": "Southern Utah",
+  "home": "Portland State",
+  "neutral": false,
+  "meta": "Fri 11/13 \u00b7 20:00 \u00b7 Hillsboro Stadium, Portland OR \u00b7 turf",
+  "our_spread": "Portland State +8.8",
+  "mkt_spread": "Portland State +11.5",
+  "our_total": "60.7",
+  "mkt_total": "61.5"
+ },
+ "Houston@Colorado": {
+  "away": "Houston",
+  "home": "Colorado",
+  "neutral": false,
+  "meta": "Fri 11/13 \u00b7 20:15 \u00b7 Folsom Field, Boulder CO \u00b7 grass \u00b7 conference game \u00b7 51\u00b0F, 5 mph wind",
+  "our_spread": "Colorado +9.3",
+  "mkt_spread": "Colorado +7.5",
+  "our_total": "47.8",
+  "mkt_total": "52.0"
+ },
+ "Norfolk State@Morgan State": {
+  "away": "Norfolk State",
+  "home": "Morgan State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Hughes Stadium, Baltimore MD \u00b7 turf \u00b7 conference game",
+  "our_spread": "Morgan State +2.3",
+  "mkt_spread": "Morgan State -3.0",
+  "our_total": "56.6",
+  "mkt_total": "54.5"
+ },
+ "Butler@Marist": {
+  "away": "Butler",
+  "home": "Marist",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Leonidoff Field, Poughkeepsie NY \u00b7 turf \u00b7 conference game",
+  "our_spread": "Marist +9.9",
+  "mkt_spread": "Marist +8.5",
+  "our_total": "45.6",
+  "mkt_total": "45.5"
+ },
+ "Georgetown@Fordham": {
+  "away": "Georgetown",
+  "home": "Fordham",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Jack Coffey Field, Bronx NY \u00b7 turf \u00b7 conference game",
+  "our_spread": "Fordham -2.5",
+  "mkt_spread": "Fordham -1.5",
+  "our_total": "48.6",
+  "mkt_total": "45.5"
+ },
+ "Villanova@Holy Cross": {
+  "away": "Villanova",
+  "home": "Holy Cross",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Fitton Field, Worcester MA \u00b7 grass",
+  "our_spread": "Holy Cross +2.0",
+  "mkt_spread": "Holy Cross +7.0",
+  "our_total": "51.8",
+  "mkt_total": "50.5"
+ },
+ "Davidson@Dayton": {
+  "away": "Davidson",
+  "home": "Dayton",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Welcome Stadium, Dayton OH \u00b7 turf \u00b7 conference game",
+  "our_spread": "Dayton -24.6",
+  "mkt_spread": "Dayton -24.5",
+  "our_total": "53.8",
+  "mkt_total": "55.5"
+ },
+ "Maine@UAlbany": {
+  "away": "Maine",
+  "home": "UAlbany",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Bob Ford Field, Albany NY \u00b7 turf \u00b7 conference game \u00b7 rest 7 days to Maine",
+  "our_spread": "UAlbany -16.1",
+  "mkt_spread": "UAlbany -14.0",
+  "our_total": "46.2",
+  "mkt_total": "43.5"
+ },
+ "Bryant@Sacred Heart": {
+  "away": "Bryant",
+  "home": "Sacred Heart",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Campus Field, Fairfield CT \u00b7 turf",
+  "our_spread": "Sacred Heart -1.5",
+  "mkt_spread": "Sacred Heart +1.5",
+  "our_total": "50.0",
+  "mkt_total": "46.5"
+ },
+ "Central Connecticut@Long Island University": {
+  "away": "Central Connecticut",
+  "home": "Long Island University",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Shark Stadium, Brookville NY \u00b7 turf \u00b7 conference game",
+  "our_spread": "Long Island University +10.1",
+  "mkt_spread": "Long Island University +10.0",
+  "our_total": "49.8",
+  "mkt_total": "52.5"
+ },
+ "New Haven@Wagner": {
+  "away": "New Haven",
+  "home": "Wagner",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Wagner College Stadium, Staten Island NY \u00b7 turf \u00b7 conference game",
+  "our_spread": "Wagner -1.2",
+  "mkt_spread": "Wagner +1.5",
+  "our_total": "48.0",
+  "mkt_total": "44.5"
+ },
+ "Presbyterian@Morehead State": {
+  "away": "Presbyterian",
+  "home": "Morehead State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Jayne Stadium, Morehead KY \u00b7 turf \u00b7 conference game \u00b7 rest 7 days to Presbyterian",
+  "our_spread": "Morehead State +1.0",
+  "mkt_spread": "Morehead State +2.5",
+  "our_total": "60.3",
+  "mkt_total": "60.5"
+ },
+ "Towson@Rhode Island": {
+  "away": "Towson",
+  "home": "Rhode Island",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Centreville Bank Stadium, Pawtucket RI \u00b7 turf \u00b7 conference game",
+  "our_spread": "Rhode Island -4.9",
+  "mkt_spread": "Rhode Island -3.0",
+  "our_total": "54.8",
+  "mkt_total": "50.5"
+ },
+ "Columbia@Brown": {
+  "away": "Columbia",
+  "home": "Brown",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Brown Stadium, Providence RI \u00b7 turf \u00b7 conference game",
+  "our_spread": "Brown -17.3",
+  "mkt_spread": "Brown -13.5",
+  "our_total": "48.3",
+  "mkt_total": "41.5"
+ },
+ "Mercyhurst@Duquesne": {
+  "away": "Mercyhurst",
+  "home": "Duquesne",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Arthur J. Rooney Athletic Field, Pittsburgh PA \u00b7 turf \u00b7 conference game",
+  "our_spread": "Duquesne -15.1",
+  "mkt_spread": "Duquesne -10.5",
+  "our_total": "55.9",
+  "mkt_total": "53.5"
+ },
+ "Stonehill@Robert Morris": {
+  "away": "Stonehill",
+  "home": "Robert Morris",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Joe Walton Stadium, Moon Township PA \u00b7 turf \u00b7 conference game",
+  "our_spread": "Robert Morris -6.7",
+  "mkt_spread": "Robert Morris -1.5",
+  "our_total": "40.7",
+  "mkt_total": "39.5"
+ },
+ "Illinois State@Youngstown State": {
+  "away": "Illinois State",
+  "home": "Youngstown State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Stambaugh Stadium, Youngstown OH \u00b7 turf \u00b7 conference game",
+  "our_spread": "Youngstown State -10.6",
+  "mkt_spread": "Youngstown State -12.5",
+  "our_total": "60.7",
+  "mkt_total": "64.5"
+ },
+ "James Madison@UConn": {
+  "away": "James Madison",
+  "home": "UConn",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Pratt & Whitney Stadium, East Hartford CT \u00b7 grass \u00b7 42\u00b0F, 6 mph wind \u00b7 rest 2 days to James Madison",
+  "our_spread": "UConn +4.3",
+  "mkt_spread": "UConn +5.0",
+  "our_total": "61.2",
+  "mkt_total": "57.5"
+ },
+ "Northwestern@Ohio State": {
+  "away": "Northwestern",
+  "home": "Ohio State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Ohio Stadium, Columbus OH \u00b7 turf \u00b7 conference game \u00b7 41\u00b0F, 11 mph wind",
+  "our_spread": "Ohio State -14.2",
+  "mkt_spread": "Ohio State -14.0",
+  "our_total": "52.4",
+  "mkt_total": "44.0"
+ },
+ "Cincinnati@Iowa State": {
+  "away": "Cincinnati",
+  "home": "Iowa State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Jack Trice Stadium, Ames IA \u00b7 grass \u00b7 conference game \u00b7 40\u00b0F, 4 mph wind",
+  "our_spread": "Iowa State -5.0",
+  "mkt_spread": "Iowa State -3.0",
+  "our_total": "60.5",
+  "mkt_total": "58.0"
+ },
+ "Auburn@Mississippi State": {
+  "away": "Auburn",
+  "home": "Mississippi State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Davis Wade Stadium, Starkville MS \u00b7 grass \u00b7 conference game \u00b7 50\u00b0F, 7 mph wind",
+  "our_spread": "Mississippi State -1.5",
+  "mkt_spread": "Mississippi State +2.5",
+  "our_total": "52.1",
+  "mkt_total": "51.5"
+ },
+ "Merrimack@Monmouth": {
+  "away": "Merrimack",
+  "home": "Monmouth",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Kessler Stadium, West Long Branch NJ \u00b7 turf",
+  "our_spread": "Monmouth -17.1",
+  "mkt_spread": "Monmouth -16.5",
+  "our_total": "54.6",
+  "mkt_total": "54.5"
+ },
+ "Duke@Miami": {
+  "away": "Duke",
+  "home": "Miami",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Hard Rock Stadium, Miami Gardens FL \u00b7 turf \u00b7 conference game \u00b7 67\u00b0F, 11 mph wind",
+  "our_spread": "Miami -14.3",
+  "mkt_spread": "Miami -13.5",
+  "our_total": "56.4",
+  "mkt_total": "54.5"
+ },
+ "Wake Forest@SMU": {
+  "away": "Wake Forest",
+  "home": "SMU",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Gerald J. Ford Stadium, University Park TX \u00b7 turf \u00b7 conference game \u00b7 56\u00b0F, 12 mph wind \u00b7 rest 1 days to SMU",
+  "our_spread": "SMU +2.5",
+  "mkt_spread": "SMU -1.0",
+  "our_total": "59.4",
+  "mkt_total": "60.5"
+ },
+ "Wisconsin@Maryland": {
+  "away": "Wisconsin",
+  "home": "Maryland",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 SECU Stadium, College Park MD \u00b7 turf \u00b7 conference game \u00b7 46\u00b0F, 14 mph wind",
+  "our_spread": "Maryland +7.7",
+  "mkt_spread": "Maryland +9.0",
+  "our_total": "47.0",
+  "mkt_total": "42.0"
+ },
+ "Syracuse@NC State": {
+  "away": "Syracuse",
+  "home": "NC State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Carter-Finley Stadium, Raleigh NC \u00b7 grass \u00b7 conference game \u00b7 50\u00b0F, 10 mph wind",
+  "our_spread": "NC State -1.3",
+  "mkt_spread": "NC State +3.0",
+  "our_total": "54.4",
+  "mkt_total": "53.5"
+ },
+ "Princeton@Yale": {
+  "away": "Princeton",
+  "home": "Yale",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:00 \u00b7 Yale Bowl, New Haven CT \u00b7 turf \u00b7 conference game",
+  "our_spread": "Yale -4.8",
+  "mkt_spread": "Yale -3.0",
+  "our_total": "44.3",
+  "mkt_total": "44.5"
+ },
+ "The Citadel@VMI": {
+  "away": "The Citadel",
+  "home": "VMI",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:30 \u00b7 Alumni Memorial Field, Lexington VA \u00b7 grass \u00b7 conference game",
+  "our_spread": "VMI +10.5",
+  "mkt_spread": "VMI +17.5",
+  "our_total": "51.9",
+  "mkt_total": "47.5"
+ },
+ "Nebraska@Rutgers": {
+  "away": "Nebraska",
+  "home": "Rutgers",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:30 \u00b7 SHI Stadium, Piscataway NJ \u00b7 turf \u00b7 conference game \u00b7 42\u00b0F, 10 mph wind \u00b7 rest 1 days to Nebraska",
+  "our_spread": "Rutgers +8.8",
+  "mkt_spread": "Rutgers +15.0",
+  "our_total": "53.0",
+  "mkt_total": "51.5"
+ },
+ "Georgia Tech@Clemson": {
+  "away": "Georgia Tech",
+  "home": "Clemson",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:30 \u00b7 Memorial Stadium (Clemson, SC), Clemson SC \u00b7 grass \u00b7 conference game \u00b7 51\u00b0F, 6 mph wind",
+  "our_spread": "Clemson -18.3",
+  "mkt_spread": "Clemson -15.0",
+  "our_total": "49.8",
+  "mkt_total": "48.0"
+ },
+ "Alabama@Vanderbilt": {
+  "away": "Alabama",
+  "home": "Vanderbilt",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 10:45 \u00b7 FirstBank Stadium, Nashville TN \u00b7 turf \u00b7 conference game \u00b7 47\u00b0F, 7 mph wind",
+  "our_spread": "Vanderbilt +17.3",
+  "mkt_spread": "Vanderbilt +15.5",
+  "our_total": "54.2",
+  "mkt_total": "49.5"
+ },
+ "Dartmouth@Cornell": {
+  "away": "Dartmouth",
+  "home": "Cornell",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Schoellkopf Field, Ithaca NY \u00b7 turf \u00b7 conference game",
+  "our_spread": "Cornell -3.8",
+  "mkt_spread": "Cornell +1.5",
+  "our_total": "50.9",
+  "mkt_total": "46.5"
+ },
+ "Valparaiso@Stetson": {
+  "away": "Valparaiso",
+  "home": "Stetson",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Spec Martin Municipal Stadium, DeLand FL \u00b7 grass \u00b7 conference game",
+  "our_spread": "Stetson +9.6",
+  "mkt_spread": "Stetson +12.5",
+  "our_total": "55.6",
+  "mkt_total": "55.5"
+ },
+ "Lafayette@Colgate": {
+  "away": "Lafayette",
+  "home": "Colgate",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Andy Kerr Stadium, Hamilton NY \u00b7 turf \u00b7 conference game",
+  "our_spread": "Colgate -11.1",
+  "mkt_spread": "Colgate -10.5",
+  "our_total": "46.4",
+  "mkt_total": "46.5"
+ },
+ "Bucknell@William & Mary": {
+  "away": "Bucknell",
+  "home": "William & Mary",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Zable Stadium, Williamsburg VA \u00b7 turf",
+  "our_spread": "William &amp; Mary -7.6",
+  "mkt_spread": "William &amp; Mary -6.5",
+  "our_total": "48.0",
+  "mkt_total": "45.5"
+ },
+ "Murray State@Indiana State": {
+  "away": "Murray State",
+  "home": "Indiana State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Memorial Stadium, Terre Haute IN \u00b7 turf \u00b7 conference game",
+  "our_spread": "Indiana State -11.3",
+  "mkt_spread": "Indiana State -10.0",
+  "our_total": "61.2",
+  "mkt_total": "60.5"
+ },
+ "Grambling@Bethune-Cookman": {
+  "away": "Grambling",
+  "home": "Bethune-Cookman",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Municipal Stadium, Daytona Beach FL \u00b7 turf \u00b7 conference game",
+  "our_spread": "Bethune-Cookman +0.1",
+  "mkt_spread": "Bethune-Cookman +2.5",
+  "our_total": "63.5",
+  "mkt_total": "61.5"
+ },
+ "Stony Brook@New Hampshire": {
+  "away": "Stony Brook",
+  "home": "New Hampshire",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Wildcat Stadium, Durham NH \u00b7 turf \u00b7 conference game",
+  "our_spread": "New Hampshire +1.5",
+  "mkt_spread": "New Hampshire +4.5",
+  "our_total": "59.4",
+  "mkt_total": "57.5"
+ },
+ "Arkansas State@Coastal Carolina": {
+  "away": "Arkansas State",
+  "home": "Coastal Carolina",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Brooks Stadium (SC), Conway SC \u00b7 turf \u00b7 conference game \u00b7 56\u00b0F, 10 mph wind",
+  "our_spread": "Coastal Carolina -3.2",
+  "mkt_spread": "Coastal Carolina -1.5",
+  "our_total": "50.5",
+  "mkt_total": "52.0"
+ },
+ "UAB@Temple": {
+  "away": "UAB",
+  "home": "Temple",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Lincoln Financial Field, Philadelphia PA \u00b7 turf \u00b7 conference game \u00b7 44\u00b0F, 12 mph wind",
+  "our_spread": "Temple -4.1",
+  "mkt_spread": "Temple -2.5",
+  "our_total": "49.6",
+  "mkt_total": "47.5"
+ },
+ "East Carolina@Charlotte": {
+  "away": "East Carolina",
+  "home": "Charlotte",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Jerry Richardson Stadium, Charlotte NC \u00b7 turf \u00b7 conference game \u00b7 50\u00b0F, 12 mph wind \u00b7 rest 1 days to East Carolina",
+  "our_spread": "Charlotte +12.0",
+  "mkt_spread": "Charlotte +11.0",
+  "our_total": "50.0",
+  "mkt_total": "45.5"
+ },
+ "North Carolina A&T@Hampton": {
+  "away": "North Carolina A&T",
+  "home": "Hampton",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Armstrong Stadium, Hampton VA \u00b7 turf \u00b7 conference game",
+  "our_spread": "Hampton +6.6",
+  "mkt_spread": "Hampton +11.5",
+  "our_total": "47.9",
+  "mkt_total": "46.5"
+ },
+ "Harvard@Pennsylvania": {
+  "away": "Harvard",
+  "home": "Pennsylvania",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Franklin Field, Philadelphia PA \u00b7 turf \u00b7 conference game",
+  "our_spread": "Pennsylvania +8.1",
+  "mkt_spread": "Pennsylvania +13.5",
+  "our_total": "43.0",
+  "mkt_total": "37.5"
+ },
+ "Chattanooga@Furman": {
+  "away": "Chattanooga",
+  "home": "Furman",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 Paladin Stadium, Greenville SC \u00b7 turf \u00b7 conference game",
+  "our_spread": "Furman -0.2",
+  "mkt_spread": "Furman +3.0",
+  "our_total": "37.5",
+  "mkt_total": "35.5"
+ },
+ "Delaware State@Howard": {
+  "away": "Delaware State",
+  "home": "Howard",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:00 \u00b7 William H. Greene Stadium, Washington DC \u00b7 turf \u00b7 conference game \u00b7 rest 2 days to Howard",
+  "our_spread": "Howard +0.2",
+  "mkt_spread": "Howard +3.5",
+  "our_total": "48.7",
+  "mkt_total": "47.5"
+ },
+ "East Tennessee State@Wofford": {
+  "away": "East Tennessee State",
+  "home": "Wofford",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:30 \u00b7 Gibbs Stadium, Spartanburg SC \u00b7 grass \u00b7 conference game",
+  "our_spread": "Wofford -0.5",
+  "mkt_spread": "Wofford +4.5",
+  "our_total": "49.6",
+  "mkt_total": "49.5"
+ },
+ "North Carolina Central@South Carolina State": {
+  "away": "North Carolina Central",
+  "home": "South Carolina State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 11:30 \u00b7 Oliver C. Dawson Stadium, Orangeburg SC \u00b7 turf \u00b7 conference game \u00b7 rest 2 days to South Carolina State",
+  "our_spread": "South Carolina State -13.8",
+  "mkt_spread": "South Carolina State -10.5",
+  "our_total": "55.1",
+  "mkt_total": "51.5"
+ },
+ "Lehigh@Richmond": {
+  "away": "Lehigh",
+  "home": "Richmond",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 E. Claiborne Robins Stadium, Richmond VA \u00b7 turf \u00b7 conference game",
+  "our_spread": "Richmond +9.7",
+  "mkt_spread": "Richmond +13.5",
+  "our_total": "47.2",
+  "mkt_total": "46.5"
+ },
+ "Southeast Missouri State@Charleston Southern": {
+  "away": "Southeast Missouri State",
+  "home": "Charleston Southern",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Buccaneer Field, North Charleston SC \u00b7 turf \u00b7 conference game",
+  "our_spread": "Charleston Southern -2.6",
+  "mkt_spread": "Charleston Southern +3.0",
+  "our_total": "46.6",
+  "mkt_total": "42.5"
+ },
+ "North Alabama@West Georgia": {
+  "away": "North Alabama",
+  "home": "West Georgia",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 University Stadium (GA), Carrollton GA \u00b7 grass \u00b7 conference game",
+  "our_spread": "West Georgia +9.7",
+  "mkt_spread": "West Georgia +14.0",
+  "our_total": "47.0",
+  "mkt_total": "48.5"
+ },
+ "Drake@St. Thomas (MN)": {
+  "away": "Drake",
+  "home": "St. Thomas (MN)",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 O'Shaughnessy Stadium, Saint Paul MN \u00b7 turf \u00b7 conference game",
+  "our_spread": "St. Thomas (MN) -14.3",
+  "mkt_spread": "St. Thomas (MN) -13.5",
+  "our_total": "58.0",
+  "mkt_total": "60.5"
+ },
+ "Houston Christian@Northwestern State": {
+  "away": "Houston Christian",
+  "home": "Northwestern State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Harry Turpin Stadium, Natchitoches LA \u00b7 turf \u00b7 conference game",
+  "our_spread": "Northwestern State +11.7",
+  "mkt_spread": "Northwestern State +16.5",
+  "our_total": "53.2",
+  "mkt_total": "52.5"
+ },
+ "Abilene Christian@Austin Peay": {
+  "away": "Abilene Christian",
+  "home": "Austin Peay",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Governors Stadium, Clarksville TN \u00b7 turf \u00b7 conference game",
+  "our_spread": "Austin Peay -6.3",
+  "mkt_spread": "Austin Peay -7.5",
+  "our_total": "56.8",
+  "mkt_total": "55.5"
+ },
+ "South Dakota State@Southern Illinois": {
+  "away": "South Dakota State",
+  "home": "Southern Illinois",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Saluki Stadium, Carbondale IL \u00b7 turf \u00b7 conference game",
+  "our_spread": "Southern Illinois +7.3",
+  "mkt_spread": "Southern Illinois +15.5",
+  "our_total": "49.6",
+  "mkt_total": "52.5"
+ },
+ "Northern Iowa@South Dakota": {
+  "away": "Northern Iowa",
+  "home": "South Dakota",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 DakotaDome, Vermillion SD \u00b7 indoors \u00b7 turf \u00b7 conference game \u00b7 rest 7 days to South Dakota",
+  "our_spread": "South Dakota -13.9",
+  "mkt_spread": "South Dakota -12.5",
+  "our_total": "54.2",
+  "mkt_total": "56.5"
+ },
+ "Campbell@Elon": {
+  "away": "Campbell",
+  "home": "Elon",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Rhodes Stadium, Elon NC \u00b7 grass \u00b7 conference game",
+  "our_spread": "Elon +1.6",
+  "mkt_spread": "Elon +5.5",
+  "our_total": "51.8",
+  "mkt_total": "54.5"
+ },
+ "Tulane@Rice": {
+  "away": "Tulane",
+  "home": "Rice",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Rice Stadium, Houston TX \u00b7 turf \u00b7 conference game \u00b7 68\u00b0F, 12 mph wind",
+  "our_spread": "Rice -2.4",
+  "mkt_spread": "Rice -2.5",
+  "our_total": "52.9",
+  "mkt_total": "48.5"
+ },
+ "Kennesaw State@Sam Houston": {
+  "away": "Kennesaw State",
+  "home": "Sam Houston",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Elliott T. Bowers Stadium, Huntsville TX \u00b7 turf \u00b7 conference game \u00b7 66\u00b0F, 10 mph wind",
+  "our_spread": "Sam Houston +6.0",
+  "mkt_spread": "Sam Houston +7.0",
+  "our_total": "50.3",
+  "mkt_total": "46.5"
+ },
+ "Kansas State@TCU": {
+  "away": "Kansas State",
+  "home": "TCU",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Amon G. Carter Stadium, Fort Worth TX \u00b7 grass \u00b7 conference game \u00b7 62\u00b0F, 11 mph wind \u00b7 rest 1 days to TCU",
+  "our_spread": "TCU -13.9",
+  "mkt_spread": "TCU -11.5",
+  "our_total": "49.0",
+  "mkt_total": "44.5"
+ },
+ "Montana State@Northern Colorado": {
+  "away": "Montana State",
+  "home": "Northern Colorado",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Nottingham Field, Greeley CO \u00b7 grass \u00b7 conference game",
+  "our_spread": "Northern Colorado +17.6",
+  "mkt_spread": "Northern Colorado +23.5",
+  "our_total": "51.6",
+  "mkt_total": "57.5"
+ },
+ "Central Arkansas@Eastern Kentucky": {
+  "away": "Central Arkansas",
+  "home": "Eastern Kentucky",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Roy Kidd Stadium, Richmond KY \u00b7 turf \u00b7 conference game",
+  "our_spread": "Eastern Kentucky -1.6",
+  "mkt_spread": "Eastern Kentucky -1.5",
+  "our_total": "51.5",
+  "mkt_total": "49.5"
+ },
+ "Gardner-Webb@Western Illinois": {
+  "away": "Gardner-Webb",
+  "home": "Western Illinois",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:00 \u00b7 Hanson Field, Macomb IL \u00b7 turf \u00b7 conference game",
+  "our_spread": "Western Illinois -10.0",
+  "mkt_spread": "Western Illinois -6.5",
+  "our_total": "56.6",
+  "mkt_total": "54.5"
+ },
+ "Mercer@Tennessee Tech": {
+  "away": "Mercer",
+  "home": "Tennessee Tech",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 12:30 \u00b7 Tucker Stadium, Cookeville TN \u00b7 turf",
+  "our_spread": "Tennessee Tech -8.1",
+  "mkt_spread": "Tennessee Tech -7.0",
+  "our_total": "52.9",
+  "mkt_total": "52.5"
+ },
+ "Prairie View A&M@Arkansas-Pine Bluff": {
+  "away": "Prairie View A&M",
+  "home": "Arkansas-Pine Bluff",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Golden Lion Stadium, Pine Bluff AR \u00b7 turf \u00b7 conference game",
+  "our_spread": "Arkansas-Pine Bluff -5.8",
+  "mkt_spread": "Arkansas-Pine Bluff +1.5",
+  "our_total": "55.7",
+  "mkt_total": "56.5"
+ },
+ "Mississippi Valley State@Florida A&M": {
+  "away": "Mississippi Valley State",
+  "home": "Florida A&M",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Bragg Memorial Stadium, Tallahassee FL \u00b7 turf \u00b7 conference game",
+  "our_spread": "Florida A&amp;M -13.6",
+  "mkt_spread": "Florida A&amp;M -13.5",
+  "our_total": "53.4",
+  "mkt_total": "56.5"
+ },
+ "Alcorn State@Southern": {
+  "away": "Alcorn State",
+  "home": "Southern",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Ace W. Mumford Stadium, Baton Rouge LA \u00b7 turf \u00b7 conference game",
+  "our_spread": "Southern +0.5",
+  "mkt_spread": "Southern +2.5",
+  "our_total": "64.1",
+  "mkt_total": "63.5"
+ },
+ "Jackson State@Alabama State": {
+  "away": "Jackson State",
+  "home": "Alabama State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Hornet Stadium, Montgomery AL \u00b7 turf \u00b7 conference game",
+  "our_spread": "Alabama State -1.9",
+  "mkt_spread": "Alabama State +1.5",
+  "our_total": "51.7",
+  "mkt_total": "55.5"
+ },
+ "Texas Southern@Alabama A&M": {
+  "away": "Texas Southern",
+  "home": "Alabama A&M",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Louis Crews Stadium, Huntsville AL \u00b7 turf \u00b7 conference game",
+  "our_spread": "Alabama A&amp;M -18.0",
+  "mkt_spread": "Alabama A&amp;M -14.0",
+  "our_total": "59.5",
+  "mkt_total": "62.5"
+ },
+ "Nicholls@Incarnate Word": {
+  "away": "Nicholls",
+  "home": "Incarnate Word",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Gayle and Tom Benson Stadium, San Antonio TX \u00b7 turf \u00b7 conference game",
+  "our_spread": "Incarnate Word -29.4",
+  "mkt_spread": "Incarnate Word -26.5",
+  "our_total": "55.9",
+  "mkt_total": "54.5"
+ },
+ "Lindenwood@UT Martin": {
+  "away": "Lindenwood",
+  "home": "UT Martin",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Graham Stadium, Martin TN \u00b7 turf \u00b7 conference game",
+  "our_spread": "UT Martin +3.1",
+  "mkt_spread": "UT Martin +1.5",
+  "our_total": "49.3",
+  "mkt_total": "50.5"
+ },
+ "Florida International@Delaware": {
+  "away": "Florida International",
+  "home": "Delaware",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Delaware Stadium, Newark DE \u00b7 turf \u00b7 conference game \u00b7 46\u00b0F, 12 mph wind",
+  "our_spread": "Delaware -6.1",
+  "mkt_spread": "Delaware -4.0",
+  "our_total": "54.6",
+  "mkt_total": "54.5"
+ },
+ "Tennessee@Texas A&M": {
+  "away": "Tennessee",
+  "home": "Texas A&M",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Kyle Field, College Station TX \u00b7 grass \u00b7 conference game \u00b7 68\u00b0F, 11 mph wind",
+  "our_spread": "Texas A&amp;M +0.2",
+  "mkt_spread": "Texas A&amp;M +2.5",
+  "our_total": "45.8",
+  "mkt_total": "44.0"
+ },
+ "New Mexico State@Missouri State": {
+  "away": "New Mexico State",
+  "home": "Missouri State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:00 \u00b7 Plaster Sports Complex, Springfield MO \u00b7 turf \u00b7 conference game \u00b7 49\u00b0F, 6 mph wind",
+  "our_spread": "&mdash;",
+  "mkt_spread": "West Florida +17.5",
+  "our_total": "56.9",
+  "mkt_total": "61.5"
+ },
+ "Arizona State@UCF": {
+  "away": "Arizona State",
+  "home": "UCF",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 FBC Mortgage Stadium, Orlando FL \u00b7 grass \u00b7 conference game \u00b7 60\u00b0F, 9 mph wind",
+  "our_spread": "UCF -5.3",
+  "mkt_spread": "UCF -3.0",
+  "our_total": "53.7",
+  "mkt_total": "47.5"
+ },
+ "Boston College@Notre Dame": {
+  "away": "Boston College",
+  "home": "Notre Dame",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Notre Dame Stadium, Notre Dame IN \u00b7 turf \u00b7 42\u00b0F, 7 mph wind",
+  "our_spread": "Notre Dame -31.1",
+  "mkt_spread": "Notre Dame -29.5",
+  "our_total": "52.6",
+  "mkt_total": "52.0"
+ },
+ "Eastern Illinois@Tennessee State": {
+  "away": "Eastern Illinois",
+  "home": "Tennessee State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Nissan Stadium, Nashville TN \u00b7 turf \u00b7 conference game",
+  "our_spread": "Tennessee State +0.3",
+  "mkt_spread": "Tennessee State +6.5",
+  "our_total": "45.7",
+  "mkt_total": "46.5"
+ },
+ "Georgia Southern@Georgia State": {
+  "away": "Georgia Southern",
+  "home": "Georgia State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Center Parc Stadium, Atlanta GA \u00b7 turf \u00b7 conference game \u00b7 52\u00b0F, 12 mph wind",
+  "our_spread": "Georgia State +1.5",
+  "mkt_spread": "Georgia State +6.0",
+  "our_total": "55.7",
+  "mkt_total": "56.0"
+ },
+ "Nevada@Northern Illinois": {
+  "away": "Nevada",
+  "home": "Northern Illinois",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Huskie Stadium, DeKalb IL \u00b7 turf \u00b7 42\u00b0F, 8 mph wind \u00b7 rest 1 days to Nevada",
+  "our_spread": "Northern Illinois +5.0",
+  "mkt_spread": "Northern Illinois +5.5",
+  "our_total": "49.3",
+  "mkt_total": "47.5"
+ },
+ "Baylor@BYU": {
+  "away": "Baylor",
+  "home": "BYU",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 LaVell Edwards Stadium, Provo UT \u00b7 grass \u00b7 conference game \u00b7 43\u00b0F, 7 mph wind",
+  "our_spread": "BYU -3.1",
+  "mkt_spread": "BYU -7.5",
+  "our_total": "50.8",
+  "mkt_total": "50.5"
+ },
+ "Jacksonville State@Western Kentucky": {
+  "away": "Jacksonville State",
+  "home": "Western Kentucky",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Houchens Industries-L.T. Smith Stadium, Bowling Green KY \u00b7 turf \u00b7 conference game \u00b7 48\u00b0F, 6 mph wind",
+  "our_spread": "Western Kentucky +4.6",
+  "mkt_spread": "Western Kentucky +7.5",
+  "our_total": "53.7",
+  "mkt_total": "54.5"
+ },
+ "Western Carolina@Samford": {
+  "away": "Western Carolina",
+  "home": "Samford",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Seibert Stadium, Homewood AL \u00b7 turf \u00b7 conference game",
+  "our_spread": "Samford +0.9",
+  "mkt_spread": "Samford +3.0",
+  "our_total": "53.1",
+  "mkt_total": "56.5"
+ },
+ "USC@Indiana": {
+  "away": "USC",
+  "home": "Indiana",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Memorial Stadium (Bloomington, IN), Bloomington IN \u00b7 turf \u00b7 conference game \u00b7 46\u00b0F, 7 mph wind",
+  "our_spread": "Indiana -8.9",
+  "mkt_spread": "Indiana -9.5",
+  "our_total": "49.6",
+  "mkt_total": "50.5"
+ },
+ "Michigan@Oregon": {
+  "away": "Michigan",
+  "home": "Oregon",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Autzen Stadium, Eugene OR \u00b7 turf \u00b7 conference game \u00b7 56\u00b0F, 11 mph wind",
+  "our_spread": "Oregon -15.9",
+  "mkt_spread": "Oregon -10.5",
+  "our_total": "44.5",
+  "mkt_total": "38.5"
+ },
+ "California@Virginia": {
+  "away": "California",
+  "home": "Virginia",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Scott Stadium, Charlottesville VA \u00b7 grass \u00b7 conference game \u00b7 50\u00b0F, 14 mph wind",
+  "our_spread": "Virginia -13.4",
+  "mkt_spread": "Virginia -10.0",
+  "our_total": "49.0",
+  "mkt_total": "46.5"
+ },
+ "Florida Atlantic@Tulsa": {
+  "away": "Florida Atlantic",
+  "home": "Tulsa",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Chapman Stadium, Tulsa OK \u00b7 turf \u00b7 conference game \u00b7 54\u00b0F, 9 mph wind \u00b7 rest 2 days to Florida Atlantic",
+  "our_spread": "Tulsa -10.2",
+  "mkt_spread": "Tulsa -5.5",
+  "our_total": "68.2",
+  "mkt_total": "74.0"
+ },
+ "Missouri@Georgia": {
+  "away": "Missouri",
+  "home": "Georgia",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Sanford Stadium, Athens GA \u00b7 grass \u00b7 conference game \u00b7 55\u00b0F, 12 mph wind",
+  "our_spread": "Georgia -18.9",
+  "mkt_spread": "Georgia -16.0",
+  "our_total": "49.8",
+  "mkt_total": "47.5"
+ },
+ "Middle Tennessee@Liberty": {
+  "away": "Middle Tennessee",
+  "home": "Liberty",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 13:30 \u00b7 Williams Stadium (VA), Lynchburg VA \u00b7 turf \u00b7 conference game \u00b7 48\u00b0F, 14 mph wind",
+  "our_spread": "Liberty -23.6",
+  "mkt_spread": "Liberty -21.0",
+  "our_total": "55.9",
+  "mkt_total": "53.5"
+ },
+ "East Texas A&M@Lamar": {
+  "away": "East Texas A&M",
+  "home": "Lamar",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 14:00 \u00b7 Provost Umphrey Stadium, Beaumont TX \u00b7 turf \u00b7 conference game",
+  "our_spread": "Lamar -22.1",
+  "mkt_spread": "Lamar -23.5",
+  "our_total": "54.7",
+  "mkt_total": "51.5"
+ },
+ "UC Davis@Idaho": {
+  "away": "UC Davis",
+  "home": "Idaho",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 14:00 \u00b7 Kibbie Dome, Moscow ID \u00b7 indoors \u00b7 turf \u00b7 conference game",
+  "our_spread": "Idaho -11.1",
+  "mkt_spread": "Idaho -8.5",
+  "our_total": "60.1",
+  "mkt_total": "62.5"
+ },
+ "Fresno State@Texas State": {
+  "away": "Fresno State",
+  "home": "Texas State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 14:00 \u00b7 Bobcat Stadium (TX), San Marcos TX \u00b7 turf \u00b7 66\u00b0F, 9 mph wind",
+  "our_spread": "Texas State -10.4",
+  "mkt_spread": "Texas State -9.5",
+  "our_total": "57.2",
+  "mkt_total": "59.5"
+ },
+ "Weber State@Northern Arizona": {
+  "away": "Weber State",
+  "home": "Northern Arizona",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 14:00 \u00b7 Walkup Skydome, Flagstaff AZ \u00b7 indoors \u00b7 turf \u00b7 conference game \u00b7 rest 7 days to Weber State",
+  "our_spread": "Northern Arizona -9.6",
+  "mkt_spread": "Northern Arizona -6.5",
+  "our_total": "62.3",
+  "mkt_total": "65.5"
+ },
+ "Eastern Washington@Utah Tech": {
+  "away": "Eastern Washington",
+  "home": "Utah Tech",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 14:00 \u00b7 Greater Zion Stadium, Saint George UT \u00b7 turf",
+  "our_spread": "Utah Tech -2.7",
+  "mkt_spread": "Utah Tech +6.0",
+  "our_total": "61.7",
+  "mkt_total": "62.5"
+ },
+ "Washington@Michigan State": {
+  "away": "Washington",
+  "home": "Michigan State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 14:15 \u00b7 Spartan Stadium, East Lansing MI \u00b7 grass \u00b7 conference game \u00b7 41\u00b0F, 9 mph wind",
+  "our_spread": "Michigan State +1.0",
+  "mkt_spread": "Michigan State +3.5",
+  "our_total": "47.9",
+  "mkt_total": "44.5"
+ },
+ "Ole Miss@Oklahoma": {
+  "away": "Ole Miss",
+  "home": "Oklahoma",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 14:15 \u00b7 Memorial Stadium (Norman, OK), Norman OK \u00b7 grass \u00b7 conference game \u00b7 55\u00b0F, 12 mph wind",
+  "our_spread": "Oklahoma -0.6",
+  "mkt_spread": "Oklahoma -1.0",
+  "our_total": "50.4",
+  "mkt_total": "49.5"
+ },
+ "Southern Miss@Louisiana Tech": {
+  "away": "Southern Miss",
+  "home": "Louisiana Tech",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 15:00 \u00b7 Joe Aillet Stadium, Ruston LA \u00b7 turf \u00b7 56\u00b0F, 8 mph wind \u00b7 rest 2 days to Southern Miss",
+  "our_spread": "Louisiana Tech -18.3",
+  "mkt_spread": "Louisiana Tech -17.2",
+  "our_total": "56.2",
+  "mkt_total": "56.2"
+ },
+ "Kansas@West Virginia": {
+  "away": "Kansas",
+  "home": "West Virginia",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 15:30 \u00b7 Milan Puskar Stadium, Morgantown WV \u00b7 turf \u00b7 conference game \u00b7 40\u00b0F, 8 mph wind",
+  "our_spread": "West Virginia -4.5",
+  "mkt_spread": "West Virginia -2.5",
+  "our_total": "64.6",
+  "mkt_total": "68.0"
+ },
+ "Oregon State@Boise State": {
+  "away": "Oregon State",
+  "home": "Boise State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 16:00 \u00b7 Albertsons Stadium, Boise ID \u00b7 turf \u00b7 50\u00b0F, 3 mph wind",
+  "our_spread": "Boise State -12.5",
+  "mkt_spread": "Boise State -14.5",
+  "our_total": "64.0",
+  "mkt_total": "63.5"
+ },
+ "Stephen F. Austin@UT Rio Grande Valley": {
+  "away": "Stephen F. Austin",
+  "home": "UT Rio Grande Valley",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 16:00 \u00b7 Robert and Janet Vackar Stadium, Edinburg TX \u00b7 turf \u00b7 conference game",
+  "our_spread": "UT Rio Grande Valley +9.1",
+  "mkt_spread": "UT Rio Grande Valley +14.5",
+  "our_total": "55.7",
+  "mkt_total": "54.5"
+ },
+ "App State@Marshall": {
+  "away": "App State",
+  "home": "Marshall",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 16:00 \u00b7 Joan C. Edwards Stadium, Huntington WV \u00b7 turf \u00b7 conference game \u00b7 42\u00b0F, 5 mph wind",
+  "our_spread": "Marshall -2.0",
+  "mkt_spread": "Marshall +1.5",
+  "our_total": "53.5",
+  "mkt_total": "54.5"
+ },
+ "Florida@Kentucky": {
+  "away": "Florida",
+  "home": "Kentucky",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 16:15 \u00b7 Kroger Field, Lexington KY \u00b7 turf \u00b7 conference game \u00b7 38\u00b0F, 4 mph wind",
+  "our_spread": "Kentucky -4.6",
+  "mkt_spread": "Kentucky -3.0",
+  "our_total": "53.6",
+  "mkt_total": "52.8"
+ },
+ "McNeese@SE Louisiana": {
+  "away": "McNeese",
+  "home": "SE Louisiana",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:00 \u00b7 Strawberry Stadium, Hammond LA \u00b7 turf \u00b7 conference game",
+  "our_spread": "SE Louisiana -5.8",
+  "mkt_spread": "SE Louisiana -7.5",
+  "our_total": "42.9",
+  "mkt_total": "47.5"
+ },
+ "Minnesota@Penn State": {
+  "away": "Minnesota",
+  "home": "Penn State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:00 \u00b7 Beaver Stadium, University Park PA \u00b7 grass \u00b7 conference game \u00b7 38\u00b0F, 5 mph wind",
+  "our_spread": "Penn State -10.8",
+  "mkt_spread": "Penn State -9.5",
+  "our_total": "49.1",
+  "mkt_total": "42.0"
+ },
+ "Louisville@North Carolina": {
+  "away": "Louisville",
+  "home": "North Carolina",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:00 \u00b7 Kenan Stadium, Chapel Hill NC \u00b7 turf \u00b7 conference game \u00b7 43\u00b0F, 6 mph wind",
+  "our_spread": "North Carolina +0.5",
+  "mkt_spread": "North Carolina +3.5",
+  "our_total": "57.6",
+  "mkt_total": "57.5"
+ },
+ "San Jos\u00e9 State@Air Force": {
+  "away": "San Jos\u00e9 State",
+  "home": "Air Force",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:00 \u00b7 Falcon Stadium, Colorado Springs CO \u00b7 turf \u00b7 conference game \u00b7 44\u00b0F, 5 mph wind",
+  "our_spread": "Air Force -9.1",
+  "mkt_spread": "Air Force -12.2",
+  "our_total": "47.0",
+  "mkt_total": "48.0"
+ },
+ "Troy@South Alabama": {
+  "away": "Troy",
+  "home": "South Alabama",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:00 \u00b7 Hancock Whitney Stadium, Mobile AL \u00b7 turf \u00b7 conference game \u00b7 49\u00b0F, 6 mph wind",
+  "our_spread": "South Alabama -6.4",
+  "mkt_spread": "South Alabama -3.0",
+  "our_total": "56.2",
+  "mkt_total": "55.5"
+ },
+ "Purdue@Iowa": {
+  "away": "Purdue",
+  "home": "Iowa",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:30 \u00b7 Kinnick Stadium, Iowa City IA \u00b7 turf \u00b7 conference game \u00b7 36\u00b0F, 1 mph wind",
+  "our_spread": "Iowa -20.9",
+  "mkt_spread": "Iowa -17.5",
+  "our_total": "50.2",
+  "mkt_total": "47.5"
+ },
+ "Utah@Arizona": {
+  "away": "Utah",
+  "home": "Arizona",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:30 \u00b7 Arizona Stadium, Tucson AZ \u00b7 turf \u00b7 conference game \u00b7 62\u00b0F, 7 mph wind \u00b7 rest 1 days to Arizona",
+  "our_spread": "Arizona -0.9",
+  "mkt_spread": "Arizona +2.5",
+  "our_total": "54.6",
+  "mkt_total": "55.5"
+ },
+ "Stanford@Virginia Tech": {
+  "away": "Stanford",
+  "home": "Virginia Tech",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:30 \u00b7 Lane Stadium, Blacksburg VA \u00b7 grass \u00b7 conference game \u00b7 34\u00b0F, 10 mph wind \u00b7 rest 6 days to Stanford",
+  "our_spread": "Virginia Tech -13.3",
+  "mkt_spread": "Virginia Tech -15.5",
+  "our_total": "57.5",
+  "mkt_total": "57.5"
+ },
+ "UNLV@New Mexico": {
+  "away": "UNLV",
+  "home": "New Mexico",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:30 \u00b7 University Stadium (NM), Albuquerque NM \u00b7 turf \u00b7 conference game \u00b7 52\u00b0F, 11 mph wind \u00b7 rest 1 days to New Mexico",
+  "our_spread": "New Mexico -16.4",
+  "mkt_spread": "New Mexico -14.5",
+  "our_total": "51.6",
+  "mkt_total": "46.5"
+ },
+ "Texas@LSU": {
+  "away": "Texas",
+  "home": "LSU",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:30 \u00b7 Tiger Stadium (LA), Baton Rouge LA \u00b7 grass \u00b7 conference game \u00b7 55\u00b0F, 6 mph wind",
+  "our_spread": "LSU -4.9",
+  "mkt_spread": "LSU -4.0",
+  "our_total": "50.9",
+  "mkt_total": "46.5"
+ },
+ "South Carolina@Arkansas": {
+  "away": "South Carolina",
+  "home": "Arkansas",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 17:45 \u00b7 Razorback Stadium, Fayetteville AR \u00b7 turf \u00b7 conference game \u00b7 44\u00b0F, 8 mph wind",
+  "our_spread": "Arkansas +7.6",
+  "mkt_spread": "Arkansas +7.5",
+  "our_total": "53.9",
+  "mkt_total": "51.5"
+ },
+ "North Texas@UTSA": {
+  "away": "North Texas",
+  "home": "UTSA",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 19:00 \u00b7 Alamodome, San Antonio TX \u00b7 indoors \u00b7 turf \u00b7 conference game \u00b7 64\u00b0F, 11 mph wind \u00b7 rest 2 days to UTSA",
+  "our_spread": "UTSA +3.9",
+  "mkt_spread": "UTSA +2.5",
+  "our_total": "70.4",
+  "mkt_total": "76.0"
+ },
+ "Texas Tech@Oklahoma State": {
+  "away": "Texas Tech",
+  "home": "Oklahoma State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 19:30 \u00b7 Boone Pickens Stadium, Stillwater OK \u00b7 turf \u00b7 conference game \u00b7 50\u00b0F, 11 mph wind",
+  "our_spread": "Oklahoma State -2.5",
+  "mkt_spread": "Oklahoma State -3.5",
+  "our_total": "68.3",
+  "mkt_total": "73.5"
+ },
+ "Utah State@San Diego State": {
+  "away": "Utah State",
+  "home": "San Diego State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 19:30 \u00b7 Snapdragon Stadium, San Diego CA \u00b7 grass \u00b7 conference game \u00b7 61\u00b0F, 6 mph wind \u00b7 rest 7 days to San Diego State",
+  "our_spread": "San Diego State +0.0",
+  "mkt_spread": "San Diego State +2.5",
+  "our_total": "46.1",
+  "mkt_total": "44.0"
+ },
+ "Wyoming@UTEP": {
+  "away": "Wyoming",
+  "home": "UTEP",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 20:00 \u00b7 Sun Bowl, El Paso TX \u00b7 turf \u00b7 54\u00b0F, 8 mph wind",
+  "our_spread": "UTEP +6.4",
+  "mkt_spread": "UTEP +7.5",
+  "our_total": "47.5",
+  "mkt_total": "40.5"
+ },
+ "Colorado State@Washington State": {
+  "away": "Colorado State",
+  "home": "Washington State",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 20:30 \u00b7 Gesa Field, Pullman WA \u00b7 turf \u00b7 39\u00b0F, 6 mph wind \u00b7 rest 7 days to Washington State",
+  "our_spread": "Washington State -11.2",
+  "mkt_spread": "Washington State -9.0",
+  "our_total": "62.7",
+  "mkt_total": "66.5"
+ },
+ "Idaho State@Montana": {
+  "away": "Idaho State",
+  "home": "Montana",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 20:30 \u00b7 Washington-Grizzly Stadium, Missoula MT \u00b7 turf \u00b7 conference game",
+  "our_spread": "Montana -8.1",
+  "mkt_spread": "Montana -7.5",
+  "our_total": "61.5",
+  "mkt_total": "63.5"
+ },
+ "North Dakota State@Hawai'i": {
+  "away": "North Dakota State",
+  "home": "Hawai'i",
+  "neutral": false,
+  "meta": "Sat 11/14 \u00b7 21:00 \u00b7 Clarence T.C. Ching Athletics Complex, Honolulu HI \u00b7 turf \u00b7 75\u00b0F, 14 mph wind \u00b7 rest 7 days to North Dakota State",
+  "our_spread": "Hawai&#x27;i -12.5",
+  "mkt_spread": "Hawai&#x27;i +6.5",
+  "our_total": "43.5",
+  "mkt_total": "38.5"
+ },
+ "Western Michigan@Akron": {
+  "away": "Western Michigan",
+  "home": "Akron",
+  "neutral": false,
+  "meta": "Tue 11/10 \u00b7 17:00 \u00b7 InfoCision Stadium, Akron OH \u00b7 turf \u00b7 conference game \u00b7 rest 3 days to Western Michigan",
+  "our_spread": "Akron +14.8",
+  "mkt_spread": "Akron +15.2",
+  "our_total": "50.4",
+  "mkt_total": "50.8"
+ },
+ "Kent State@Bowling Green": {
+  "away": "Kent State",
+  "home": "Bowling Green",
+  "neutral": false,
+  "meta": "Tue 11/10 \u00b7 17:00 \u00b7 Doyt L. Perry Stadium, Bowling Green OH \u00b7 turf \u00b7 conference game \u00b7 rest 1 days to Kent State",
+  "our_spread": "Bowling Green -9.0",
+  "mkt_spread": "Bowling Green -3.8",
+  "our_total": "48.8",
+  "mkt_total": "42.2"
+ },
+ "Ohio@Miami (OH)": {
+  "away": "Ohio",
+  "home": "Miami (OH)",
+  "neutral": false,
+  "meta": "Tue 11/10 \u00b7 18:00 \u00b7 Yager Stadium, Oxford OH \u00b7 turf \u00b7 conference game",
+  "our_spread": "Miami (OH) -4.7",
+  "mkt_spread": "Miami (OH) +1.5",
+  "our_total": "52.4",
+  "mkt_total": "47.2"
+ },
+ "Buffalo@Ball State": {
+  "away": "Buffalo",
+  "home": "Ball State",
+  "neutral": false,
+  "meta": "Wed 11/11 \u00b7 17:30 \u00b7 Scheumann Stadium, Muncie IN \u00b7 turf \u00b7 conference game \u00b7 rest 1 days to Buffalo",
+  "our_spread": "Ball State +5.4",
+  "mkt_spread": "Ball State +1.2",
+  "our_total": "52.0",
+  "mkt_total": "52.8"
+ },
+ "Sacramento State@Central Michigan": {
+  "away": "Sacramento State",
+  "home": "Central Michigan",
+  "neutral": false,
+  "meta": "Wed 11/11 \u00b7 17:30 \u00b7 Kelly/Shorts Stadium, Mount Pleasant MI \u00b7 turf",
+  "our_spread": "Central Michigan -38.1",
+  "mkt_spread": "Central Michigan -17.2",
+  "our_total": "44.8",
+  "mkt_total": "42.0"
+ },
+ "Massachusetts@Toledo": {
+  "away": "Massachusetts",
+  "home": "Toledo",
+  "neutral": false,
+  "meta": "Wed 11/11 \u00b7 17:30 \u00b7 Glass Bowl, Toledo OH \u00b7 turf \u00b7 conference game",
+  "our_spread": "Toledo -18.6",
+  "mkt_spread": "Toledo -14.0",
+  "our_total": "48.3",
+  "mkt_total": "52.2"
+ },
+ "Memphis@South Florida": {
+  "away": "Memphis",
+  "home": "South Florida",
+  "neutral": false,
+  "meta": "Thu 11/12 \u00b7 18:00 \u00b7 Raymond James Stadium, Tampa FL \u00b7 grass \u00b7 conference game \u00b7 rest 6 days to Memphis",
+  "our_spread": "South Florida -0.7",
+  "mkt_spread": "South Florida +4.8",
+  "our_total": "60.5",
+  "mkt_total": "51.2"
+ },
+ "Louisiana@UL Monroe": {
+  "away": "Louisiana",
+  "home": "UL Monroe",
+  "neutral": false,
+  "meta": "Thu 11/12 \u00b7 19:00 \u00b7 Malone Stadium, Monroe LA \u00b7 turf \u00b7 conference game",
+  "our_spread": "UL Monroe +12.2",
+  "mkt_spread": "UL Monroe +10.0",
+  "our_total": "52.5",
+  "mkt_total": "47.2"
+ }
+}

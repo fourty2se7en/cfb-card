@@ -1,0 +1,1763 @@
+{
+ "Alcorn St Braves @ Murray St Racers": {
+  "event_id": "e3532157be1d6b149555fa8c451f13a8",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Alcorn St Braves",
+  "home": "Murray St Racers",
+  "open": {
+   "ml_home": -20000,
+   "ml_away": 3500,
+   "books": 9,
+   "spread_home": -30.5,
+   "spread_home_price": -110,
+   "total": 165.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -20000,
+   "ml_away": 3500,
+   "books": 9,
+   "spread_home": -31.5,
+   "spread_home_price": -111,
+   "total": 166.0,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -14.5,
+    "spread_home_price": -115,
+    "books": 4,
+    "total": 80.0,
+    "over_price": -112,
+    "under_price": -115
+   }
+  }
+ },
+ "Tenn-Martin Skyhawks @ Arkansas St Red Wolves": {
+  "event_id": "c01b327672b44187cac6e56917b0784a",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Tenn-Martin Skyhawks",
+  "home": "Arkansas St Red Wolves",
+  "open": {
+   "ml_home": -245,
+   "ml_away": 201,
+   "books": 10,
+   "spread_home": -5.5,
+   "spread_home_price": -110,
+   "total": 153.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -250,
+   "ml_away": 205,
+   "books": 10,
+   "spread_home": -5.5,
+   "spread_home_price": -111,
+   "total": 155.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -3.5,
+    "spread_home_price": -115,
+    "books": 7,
+    "total": 73.0,
+    "over_price": -110,
+    "under_price": -120
+   }
+  }
+ },
+ "Yale Bulldogs @ Baylor Bears": {
+  "event_id": "f4997c7daa0e22a1989d1c42c627d5b9",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Yale Bulldogs",
+  "home": "Baylor Bears",
+  "open": {
+   "ml_home": -4500,
+   "ml_away": 1600,
+   "books": 10,
+   "spread_home": -19.5,
+   "spread_home_price": -110,
+   "total": 157.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -4500,
+   "ml_away": 1600,
+   "books": 10,
+   "spread_home": -19.5,
+   "spread_home_price": -115,
+   "total": 158.25,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -11.5,
+    "spread_home_price": -115,
+    "books": 7,
+    "total": 75.0,
+    "over_price": -115,
+    "under_price": -105
+   }
+  }
+ },
+ "Belmont Bruins @ Lipscomb Bisons": {
+  "event_id": "2a4b1da6788e1f02b089f8c4598f55be",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Belmont Bruins",
+  "home": "Lipscomb Bisons",
+  "open": {
+   "ml_home": 146,
+   "ml_away": -175,
+   "books": 9,
+   "spread_home": 3.5,
+   "spread_home_price": -107,
+   "total": 157.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": 142,
+   "ml_away": -170,
+   "books": 9,
+   "spread_home": 3.5,
+   "spread_home_price": -110,
+   "total": 157.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": 2.5,
+    "spread_home_price": -113,
+    "books": 4,
+    "total": 74.5,
+    "over_price": -112,
+    "under_price": -117
+   }
+  }
+ },
+ "Green Bay Phoenix @ Northern Iowa Panthers": {
+  "event_id": "c8cdef4896e31a481ccbbe46fd13c74c",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Green Bay Phoenix",
+  "home": "Northern Iowa Panthers",
+  "open": {
+   "ml_home": -166,
+   "ml_away": 140,
+   "books": 10,
+   "spread_home": -3.5,
+   "spread_home_price": -111,
+   "total": 150.75,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -165,
+   "ml_away": 141,
+   "books": 10,
+   "spread_home": -3.5,
+   "spread_home_price": -111,
+   "total": 150.5,
+   "over_price": -113,
+   "under_price": -106
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -1.5,
+    "spread_home_price": -116,
+    "books": 8,
+    "total": 70.5,
+    "over_price": -111,
+    "under_price": -114
+   }
+  }
+ },
+ "Houston Christian Huskies @ South Dakota Coyotes": {
+  "event_id": "28852ebe4de79a16cc66b6dbe95b8a35",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Houston Christian Huskies",
+  "home": "South Dakota Coyotes",
+  "open": {
+   "ml_home": -180,
+   "ml_away": 148,
+   "books": 9,
+   "spread_home": -3.5,
+   "spread_home_price": -115,
+   "total": 155.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -185,
+   "ml_away": 152,
+   "books": 9,
+   "spread_home": -4.0,
+   "spread_home_price": -110,
+   "total": 155.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -4.5,
+    "spread_home_price": -124,
+    "books": 3,
+    "total": 74.5,
+    "over_price": -110,
+    "under_price": -120
+   }
+  }
+ },
+ "Illinois Fighting Illini @ Texas Tech Red Raiders": {
+  "event_id": "034812d38d48580c8bd4e35dab576b42",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Illinois Fighting Illini",
+  "home": "Texas Tech Red Raiders",
+  "open": {
+   "ml_home": 120,
+   "ml_away": -142,
+   "books": 9,
+   "spread_home": 2.5,
+   "spread_home_price": -110,
+   "total": 166.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": 120,
+   "ml_away": -145,
+   "books": 9,
+   "spread_home": 2.5,
+   "spread_home_price": -110,
+   "total": 166.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": 1.0,
+    "spread_home_price": -110,
+    "books": 6,
+    "total": 77.75,
+    "over_price": -115,
+    "under_price": -108
+   }
+  }
+ },
+ "Southern Jaguars @ Iowa State Cyclones": {
+  "event_id": "67f91b2a08972721009a8de5a505a052",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Southern Jaguars",
+  "home": "Iowa State Cyclones",
+  "open": {
+   "ml_home": -50000,
+   "ml_away": 9000,
+   "books": 9,
+   "spread_home": -35.5,
+   "spread_home_price": -110,
+   "total": 146.5,
+   "over_price": -112,
+   "under_price": -108
+  },
+  "close": {
+   "ml_home": -16667,
+   "ml_away": 6150,
+   "books": 9,
+   "spread_home": -35.5,
+   "spread_home_price": -110,
+   "total": 146.5,
+   "over_price": -112,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -19.5,
+    "spread_home_price": -115,
+    "books": 3,
+    "total": 69.5,
+    "over_price": -115,
+    "under_price": -115
+   }
+  }
+ },
+ "Northern Kentucky Norse @ Saint Louis Billikens": {
+  "event_id": "85c5502615ef2d6214eea220aad02fef",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Northern Kentucky Norse",
+  "home": "Saint Louis Billikens",
+  "open": {
+   "ml_home": -10000,
+   "ml_away": 1950,
+   "books": 10,
+   "spread_home": -23.0,
+   "spread_home_price": -110,
+   "total": 168.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -10000,
+   "ml_away": 1950,
+   "books": 10,
+   "spread_home": -23.0,
+   "spread_home_price": -110,
+   "total": 168.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -13.5,
+    "spread_home_price": -111,
+    "books": 8,
+    "total": 80.5,
+    "over_price": -115,
+    "under_price": -110
+   }
+  }
+ },
+ "Prairie View Panthers @ SMU Mustangs": {
+  "event_id": "b7639a67e9fd75c03fd01d5e03a7072d",
+  "commence": "2026-11-11T01:00:00Z",
+  "away": "Prairie View Panthers",
+  "home": "SMU Mustangs",
+  "open": {
+   "ml_home": -20000,
+   "ml_away": 3500,
+   "books": 9,
+   "spread_home": -26.5,
+   "spread_home_price": -110,
+   "total": 160.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -13333,
+   "ml_away": 3250,
+   "books": 9,
+   "spread_home": -27.0,
+   "spread_home_price": -110,
+   "total": 160.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -13.0,
+    "spread_home_price": -112,
+    "books": 5,
+    "total": 77.5,
+    "over_price": -110,
+    "under_price": -120
+   }
+  }
+ },
+ "Fairfield Stags @ Wisconsin Badgers": {
+  "event_id": "5f5e58582b09efcd7a4b09e276546622",
+  "commence": "2026-11-11T01:30:00Z",
+  "away": "Fairfield Stags",
+  "home": "Wisconsin Badgers",
+  "open": {
+   "ml_home": -10000,
+   "ml_away": 3250,
+   "books": 10,
+   "spread_home": -25.5,
+   "spread_home_price": -110,
+   "total": 150.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -12000,
+   "ml_away": 3500,
+   "books": 10,
+   "spread_home": -25.5,
+   "spread_home_price": -110,
+   "total": 150.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -14.5,
+    "spread_home_price": -113,
+    "books": 8,
+    "total": 70.5,
+    "over_price": -112,
+    "under_price": -110
+   }
+  }
+ },
+ "SE Louisiana Lions @ Ole Miss Rebels": {
+  "event_id": "e43a6bbda1ba20f8e9dfcbc3466b4cdd",
+  "commence": "2026-11-11T01:30:00Z",
+  "away": "SE Louisiana Lions",
+  "home": "Ole Miss Rebels",
+  "open": {
+   "ml_home": -10000,
+   "ml_away": 2800,
+   "books": 9,
+   "spread_home": -26.0,
+   "spread_home_price": -110,
+   "total": 146.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -10000,
+   "ml_away": 2800,
+   "books": 9,
+   "spread_home": -26.0,
+   "spread_home_price": -110,
+   "total": 146.5,
+   "over_price": -110,
+   "under_price": -113
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -14.5,
+    "spread_home_price": -105,
+    "books": 6,
+    "total": 70.5,
+    "over_price": -110,
+    "under_price": -120
+   }
+  }
+ },
+ "Hofstra Pride @ Arizona St Sun Devils": {
+  "event_id": "973484daa3820f01ed09cc49fdd0eafb",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Hofstra Pride",
+  "home": "Arizona St Sun Devils",
+  "open": {
+   "ml_home": -3500,
+   "ml_away": 1356,
+   "books": 10,
+   "spread_home": -18.5,
+   "spread_home_price": -111,
+   "total": 133.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -3500,
+   "ml_away": 1356,
+   "books": 10,
+   "spread_home": -18.5,
+   "spread_home_price": -110,
+   "total": 133.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -10.0,
+    "spread_home_price": -105,
+    "books": 8,
+    "total": 63.0,
+    "over_price": -110,
+    "under_price": -115
+   }
+  }
+ },
+ "Northern Arizona Lumberjacks @ Arizona Wildcats": {
+  "event_id": "5ec6bd990d3b9454b395d51b2f6ec8a7",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Northern Arizona Lumberjacks",
+  "home": "Arizona Wildcats",
+  "open": {
+   "ml_home": -16667,
+   "ml_away": 6150,
+   "books": 10,
+   "spread_home": -35.5,
+   "spread_home_price": -110,
+   "total": 156.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -100000,
+   "ml_away": 12000,
+   "books": 10,
+   "spread_home": -36.0,
+   "spread_home_price": -110,
+   "total": 157.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -18.5,
+    "spread_home_price": -112,
+    "books": 6,
+    "total": 75.75,
+    "over_price": -115,
+    "under_price": -107
+   }
+  }
+ },
+ "Arkansas-Little Rock Trojans @ New Mexico Lobos": {
+  "event_id": "d3290a76868f2cb07a216068f5cc4669",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Arkansas-Little Rock Trojans",
+  "home": "New Mexico Lobos",
+  "open": {
+   "ml_home": -7000,
+   "ml_away": 1800,
+   "books": 10,
+   "spread_home": -22.5,
+   "spread_home_price": -110,
+   "total": 158.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -8000,
+   "ml_away": 1800,
+   "books": 10,
+   "spread_home": -23.5,
+   "spread_home_price": -110,
+   "total": 157.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -12.5,
+    "spread_home_price": -115,
+    "books": 8,
+    "total": 73.75,
+    "over_price": -115,
+    "under_price": -110
+   }
+  }
+ },
+ "Queens University Royals @ BYU Cougars": {
+  "event_id": "c644683bcb3f78411ad20effbba718eb",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Queens University Royals",
+  "home": "BYU Cougars",
+  "open": {
+   "ml_home": -20000,
+   "ml_away": 4250,
+   "books": 9,
+   "spread_home": -29.0,
+   "spread_home_price": -110,
+   "total": 181.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -15000,
+   "ml_away": 3500,
+   "books": 9,
+   "spread_home": -28.5,
+   "spread_home_price": -112,
+   "total": 182.0,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -14.5,
+    "spread_home_price": -105,
+    "books": 5,
+    "total": 88.5,
+    "over_price": -110,
+    "under_price": -115
+   }
+  }
+ },
+ "Bucknell Bison @ Virginia Cavaliers": {
+  "event_id": "3687093fc999c352c8a97cfa9b188589",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Bucknell Bison",
+  "home": "Virginia Cavaliers",
+  "open": {
+   "ml_home": -100000,
+   "ml_away": 12000,
+   "books": 9,
+   "spread_home": -38.5,
+   "spread_home_price": -110,
+   "total": 151.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -100000,
+   "ml_away": 12000,
+   "books": 9,
+   "spread_home": -38.5,
+   "spread_home_price": -110,
+   "total": 151.5,
+   "over_price": -107,
+   "under_price": -113
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -20.5,
+    "spread_home_price": -112,
+    "books": 4,
+    "total": 72.5,
+    "over_price": -115,
+    "under_price": -115
+   }
+  }
+ },
+ "San Diego Toreros @ Colorado Buffaloes": {
+  "event_id": "9c96831c894928b32d315fa2542cdcdf",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "San Diego Toreros",
+  "home": "Colorado Buffaloes",
+  "open": {
+   "ml_home": -1000,
+   "ml_away": 650,
+   "books": 10,
+   "spread_home": -12.5,
+   "spread_home_price": -107,
+   "total": 151.0,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -1000,
+   "ml_away": 650,
+   "books": 10,
+   "spread_home": -12.5,
+   "spread_home_price": -105,
+   "total": 151.0,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -7.0,
+    "spread_home_price": -110,
+    "books": 8,
+    "total": 71.5,
+    "over_price": -110,
+    "under_price": -119
+   }
+  }
+ },
+ "Creighton Bluejays @ Kansas St Wildcats": {
+  "event_id": "ebaf79642bc68a407f516bff30aa408b",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Creighton Bluejays",
+  "home": "Kansas St Wildcats",
+  "open": {
+   "ml_home": 140,
+   "ml_away": -163,
+   "books": 10,
+   "spread_home": 3.25,
+   "spread_home_price": -111,
+   "total": 159.0,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": 139,
+   "ml_away": -162,
+   "books": 10,
+   "spread_home": 3.25,
+   "spread_home_price": -111,
+   "total": 159.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": 1.5,
+    "spread_home_price": -110,
+    "books": 8,
+    "total": 75.5,
+    "over_price": -112,
+    "under_price": -112
+   }
+  }
+ },
+ "Georgia St Panthers @ Fresno St Bulldogs": {
+  "event_id": "d59d81aa5d936c398264a0634ed0daf2",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Georgia St Panthers",
+  "home": "Fresno St Bulldogs",
+  "open": {
+   "ml_home": -257,
+   "ml_away": 211,
+   "books": 10,
+   "spread_home": -6.0,
+   "spread_home_price": -110,
+   "total": 146.0,
+   "over_price": -110,
+   "under_price": -111
+  },
+  "close": {
+   "ml_home": -257,
+   "ml_away": 210,
+   "books": 10,
+   "spread_home": -6.0,
+   "spread_home_price": -110,
+   "total": 146.0,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -3.0,
+    "spread_home_price": -115,
+    "books": 8,
+    "total": 68.5,
+    "over_price": -112,
+    "under_price": -110
+   }
+  }
+ },
+ "UL Monroe Warhawks @ TCU Horned Frogs": {
+  "event_id": "4ba8310473fadd71fa101710e1ed8634",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "UL Monroe Warhawks",
+  "home": "TCU Horned Frogs",
+  "open": {
+   "ml_home": -50000,
+   "ml_away": 9000,
+   "books": 10,
+   "spread_home": -33.5,
+   "spread_home_price": -110,
+   "total": 160.0,
+   "over_price": -107,
+   "under_price": -111
+  },
+  "close": {
+   "ml_home": -50000,
+   "ml_away": 9000,
+   "books": 10,
+   "spread_home": -33.5,
+   "spread_home_price": -110,
+   "total": 160.0,
+   "over_price": -107,
+   "under_price": -113
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -20.5,
+    "spread_home_price": -110,
+    "books": 7,
+    "total": 77.5,
+    "over_price": -110,
+    "under_price": -115
+   }
+  }
+ },
+ "Utah Tech Trailblazers @ Utah State Aggies": {
+  "event_id": "d24e603bbb4f28d250f93c3098cf862d",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Utah Tech Trailblazers",
+  "home": "Utah State Aggies",
+  "open": {
+   "ml_home": -20000,
+   "ml_away": 3500,
+   "books": 10,
+   "spread_home": -25.5,
+   "spread_home_price": -110,
+   "total": 156.0,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -20000,
+   "ml_away": 3500,
+   "books": 10,
+   "spread_home": -25.75,
+   "spread_home_price": -110,
+   "total": 156.0,
+   "over_price": -107,
+   "under_price": -113
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -15.0,
+    "spread_home_price": -110,
+    "books": 8,
+    "total": 74.5,
+    "over_price": -115,
+    "under_price": -115
+   }
+  }
+ },
+ "Weber State Wildcats @ Utah Utes": {
+  "event_id": "1697ac30f74318b8094ae3f11442cdea",
+  "commence": "2026-11-11T02:00:00Z",
+  "away": "Weber State Wildcats",
+  "home": "Utah Utes",
+  "open": {
+   "ml_home": -2600,
+   "ml_away": 1188,
+   "books": 10,
+   "spread_home": -16.5,
+   "spread_home_price": -111,
+   "total": 154.5,
+   "over_price": -111,
+   "under_price": -110
+  },
+  "close": {
+   "ml_home": -2600,
+   "ml_away": 1188,
+   "books": 10,
+   "spread_home": -16.5,
+   "spread_home_price": -111,
+   "total": 154.5,
+   "over_price": -110,
+   "under_price": -110
+  },
+  "close_at": "2026-11-11T00:53:40Z",
+  "periods_close": {
+   "h1": {
+    "spread_home": -9.5,
+    "spread_home_price": -110,
+    "books": 8,
+    "total": 73.5,
+    "over_price": -115,
+    "under_price": -107
+   }
+  }
+ },
+ "Florida Gators @ Florida St Seminoles": {
+  "event_id": "72eacb4b3afe5e4526420aa503a8ff1f",
+  "commence": "2026-11-10T23:00:00Z",
+  "away": "Florida Gators",
+  "home": "Florida St Seminoles",
+  "open": {
+   "ml_home": 357,
+   "ml_away": -475,
+   "books": 10,
+   "spread_home": 9.0,
+   "spread_home_price": -110,
+   "total": 165.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Delaware St Hornets @ Georgetown Hoyas": {
+  "event_id": "2b966e38935332c263ecce66667f4b3b",
+  "commence": "2026-11-10T23:30:00Z",
+  "away": "Delaware St Hornets",
+  "home": "Georgetown Hoyas",
+  "open": {
+   "ml_home": -66667,
+   "ml_away": 6000,
+   "books": 9,
+   "spread_home": -30.5,
+   "spread_home_price": -108,
+   "total": 143.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "NJIT Highlanders @ Rutgers Scarlet Knights": {
+  "event_id": "ee9da2e11b9dd590539d4c230c90a800",
+  "commence": "2026-11-10T23:30:00Z",
+  "away": "NJIT Highlanders",
+  "home": "Rutgers Scarlet Knights",
+  "open": {
+   "ml_home": -10000,
+   "ml_away": 3250,
+   "books": 9,
+   "spread_home": -25.0,
+   "spread_home_price": -110,
+   "total": 143.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Maryland-Eastern Shore Hawks @ Boston College Eagles": {
+  "event_id": "9ab69673b2a59af7135ebb4768c3d851",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Maryland-Eastern Shore Hawks",
+  "home": "Boston College Eagles",
+  "open": {
+   "ml_home": -28571,
+   "ml_away": 5000,
+   "books": 9,
+   "spread_home": -26.5,
+   "spread_home_price": -110,
+   "total": 128.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Bradley Braves @ Davidson Wildcats": {
+  "event_id": "59827fe0f02a369e1af3d183360ba896",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Bradley Braves",
+  "home": "Davidson Wildcats",
+  "open": {
+   "ml_home": -650,
+   "ml_away": 455,
+   "books": 9,
+   "spread_home": -10.5,
+   "spread_home_price": -105,
+   "total": 137.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Bryant Bulldogs @ Providence Friars": {
+  "event_id": "02420c8c9efd8150390de1e94efe26ff",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Bryant Bulldogs",
+  "home": "Providence Friars",
+  "open": {
+   "ml_home": -50000,
+   "ml_away": 6000,
+   "books": 9,
+   "spread_home": -30.5,
+   "spread_home_price": -110,
+   "total": 149.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Youngstown St Penguins @ Central Michigan Chippewas": {
+  "event_id": "604069251e105a4695deda046f92b38b",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Youngstown St Penguins",
+  "home": "Central Michigan Chippewas",
+  "open": {
+   "ml_home": -165,
+   "ml_away": 140,
+   "books": 10,
+   "spread_home": -3.5,
+   "spread_home_price": -110,
+   "total": 152.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Charleston Southern Buccaneers @ Wake Forest Demon Deacons": {
+  "event_id": "df614b1deb38ca8766ece5d20ae04191",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Charleston Southern Buccaneers",
+  "home": "Wake Forest Demon Deacons",
+  "open": {
+   "ml_home": -4500,
+   "ml_away": 1400,
+   "books": 9,
+   "spread_home": -18.5,
+   "spread_home_price": -110,
+   "total": 157.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Siena Saints @ Dayton Flyers": {
+  "event_id": "0995f116710c1331512cfda71ce00555",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Siena Saints",
+  "home": "Dayton Flyers",
+  "open": {
+   "ml_home": -1100,
+   "ml_away": 665,
+   "books": 10,
+   "spread_home": -13.25,
+   "spread_home_price": -108,
+   "total": 159.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Detroit Mercy Titans @ Xavier Musketeers": {
+  "event_id": "11ceba18c68149101dcde26737c1e810",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Detroit Mercy Titans",
+  "home": "Xavier Musketeers",
+  "open": {
+   "ml_home": -50000,
+   "ml_away": 8000,
+   "books": 10,
+   "spread_home": -35.5,
+   "spread_home_price": -110,
+   "total": 157.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Michigan St Spartans @ Duke Blue Devils": {
+  "event_id": "8f8f96b87641a3cbc280c8e63aed3ad4",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Michigan St Spartans",
+  "home": "Duke Blue Devils",
+  "open": {
+   "ml_home": -345,
+   "ml_away": 274,
+   "books": 10,
+   "spread_home": -7.5,
+   "spread_home_price": -112,
+   "total": 147.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Washington St Cougars @ Duquesne Dukes": {
+  "event_id": "cb982523378ba8e6e0aadc0e97748791",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Washington St Cougars",
+  "home": "Duquesne Dukes",
+  "open": {
+   "ml_home": -170,
+   "ml_away": 140,
+   "books": 10,
+   "spread_home": -3.5,
+   "spread_home_price": -110,
+   "total": 144.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Eastern Kentucky Colonels @ Georgia Tech Yellow Jackets": {
+  "event_id": "9a48ea0e6a4d0c1b7a6a9c38e825eb81",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Eastern Kentucky Colonels",
+  "home": "Georgia Tech Yellow Jackets",
+  "open": {
+   "ml_home": -1895,
+   "ml_away": 1000,
+   "books": 10,
+   "spread_home": -15.0,
+   "spread_home_price": -110,
+   "total": 165.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Elon Phoenix @ GW Revolutionaries": {
+  "event_id": "56e97d53de1e7bf6c31ad2b111448a6b",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Elon Phoenix",
+  "home": "GW Revolutionaries",
+  "open": {
+   "ml_home": -1200,
+   "ml_away": 750,
+   "books": 10,
+   "spread_home": -13.5,
+   "spread_home_price": -110,
+   "total": 147.5,
+   "over_price": -111,
+   "under_price": -108
+  }
+ },
+ "Iona Gaels @ Fordham Rams": {
+  "event_id": "59b9d34023c04a38ae8a01e9508650b9",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Iona Gaels",
+  "home": "Fordham Rams",
+  "open": {
+   "ml_home": -760,
+   "ml_away": 532,
+   "books": 10,
+   "spread_home": -11.5,
+   "spread_home_price": -110,
+   "total": 141.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Mercer Bears @ Georgia Southern Eagles": {
+  "event_id": "8981841a7cc117d41e73220eba7ee8fd",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Mercer Bears",
+  "home": "Georgia Southern Eagles",
+  "open": {
+   "ml_home": -116,
+   "ml_away": -102,
+   "books": 10,
+   "spread_home": -1.5,
+   "spread_home_price": -109,
+   "total": 164.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Harvard Crimson @ Northeastern Huskies": {
+  "event_id": "b49dc83f68f292ba15cb12280610891d",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Harvard Crimson",
+  "home": "Northeastern Huskies",
+  "open": {
+   "ml_home": 110,
+   "ml_away": -130,
+   "books": 10,
+   "spread_home": 2.0,
+   "spread_home_price": -110,
+   "total": 143.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Virginia Tech Hokies @ Iowa Hawkeyes": {
+  "event_id": "b57b809e9212138f9e00ffb2931cf4fd",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Virginia Tech Hokies",
+  "home": "Iowa Hawkeyes",
+  "open": {
+   "ml_home": -195,
+   "ml_away": 160,
+   "books": 10,
+   "spread_home": -4.0,
+   "spread_home_price": -108,
+   "total": 140.5,
+   "over_price": -110,
+   "under_price": -111
+  }
+ },
+ "Winthrop Eagles @ Kennesaw St Owls": {
+  "event_id": "16aed83105c1683d2a5eb84cdef8c8f4",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Winthrop Eagles",
+  "home": "Kennesaw St Owls",
+  "open": {
+   "ml_home": -585,
+   "ml_away": 425,
+   "books": 9,
+   "spread_home": -10.5,
+   "spread_home_price": -110,
+   "total": 170.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "La Salle Explorers @ Villanova Wildcats": {
+  "event_id": "69af0f725cf0220fbce85a364931bee5",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "La Salle Explorers",
+  "home": "Villanova Wildcats",
+  "open": {
+   "ml_home": -6000,
+   "ml_away": 1696,
+   "books": 10,
+   "spread_home": -21.0,
+   "spread_home_price": -110,
+   "total": 159.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Loyola Marymount Lions @ Troy Trojans": {
+  "event_id": "e61577b9c85f49125bca7a114c23b79b",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Loyola Marymount Lions",
+  "home": "Troy Trojans",
+  "open": {
+   "ml_home": -105,
+   "ml_away": -115,
+   "books": 10,
+   "spread_home": 1.25,
+   "spread_home_price": -110,
+   "total": 144.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Maine Black Bears @ Rhode Island Rams": {
+  "event_id": "0001ef1c010fb44d8b93c5aa3e9d2aa1",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Maine Black Bears",
+  "home": "Rhode Island Rams",
+  "open": {
+   "ml_home": -5000,
+   "ml_away": 1700,
+   "books": 9,
+   "spread_home": -20.0,
+   "spread_home_price": -110,
+   "total": 139.5,
+   "over_price": -110,
+   "under_price": -109
+  }
+ },
+ "Presbyterian Blue Hose @ NC State Wolfpack": {
+  "event_id": "e4c5dde6dc40ba56df0f75056bc28b37",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Presbyterian Blue Hose",
+  "home": "NC State Wolfpack",
+  "open": {
+   "ml_home": -4500,
+   "ml_away": 1600,
+   "books": 9,
+   "spread_home": -19.0,
+   "spread_home_price": -110,
+   "total": 150.0,
+   "over_price": -113,
+   "under_price": -110
+  }
+ },
+ "Wyoming Cowboys @ North Carolina Tar Heels": {
+  "event_id": "27efe29d687eb4b12f0f1cdb4a097482",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Wyoming Cowboys",
+  "home": "North Carolina Tar Heels",
+  "open": {
+   "ml_home": -1100,
+   "ml_away": 704,
+   "books": 10,
+   "spread_home": -13.0,
+   "spread_home_price": -110,
+   "total": 155.5,
+   "over_price": -111,
+   "under_price": -109
+  }
+ },
+ "South Alabama Jaguars @ UCF Knights": {
+  "event_id": "154c30f8f7ea51bd1ad16deb41fbfd05",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "South Alabama Jaguars",
+  "home": "UCF Knights",
+  "open": {
+   "ml_home": -1200,
+   "ml_away": 750,
+   "books": 10,
+   "spread_home": -13.5,
+   "spread_home_price": -110,
+   "total": 151.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Wright St Raiders @ Toledo Rockets": {
+  "event_id": "fdb2feae9b9bb3d0f27936b4bae6e0f8",
+  "commence": "2026-11-11T00:00:00Z",
+  "away": "Wright St Raiders",
+  "home": "Toledo Rockets",
+  "open": {
+   "ml_home": -105,
+   "ml_away": -115,
+   "books": 10,
+   "spread_home": 1.0,
+   "spread_home_price": -110,
+   "total": 157.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Army Knights @ New Haven Chargers": {
+  "event_id": "bf7a605f776bde1cc6778ed8a8cff04a",
+  "commence": "2026-11-11T00:00:46Z",
+  "away": "Army Knights",
+  "home": "New Haven Chargers",
+  "open": {
+   "ml_home": -105,
+   "ml_away": -120,
+   "books": 9,
+   "spread_home": 1.5,
+   "spread_home_price": -110,
+   "total": 133.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Memphis Tigers @ Vanderbilt Commodores": {
+  "event_id": "1b493fb07c04f10198445ee5d1b7f375",
+  "commence": "2026-11-11T00:15:00Z",
+  "away": "Memphis Tigers",
+  "home": "Vanderbilt Commodores",
+  "open": {
+   "ml_home": -1600,
+   "ml_away": 880,
+   "books": 10,
+   "spread_home": -14.0,
+   "spread_home_price": -110,
+   "total": 161.25,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Evansville Purple Aces @ Middle Tennessee Blue Raiders": {
+  "event_id": "6e5f0afa161cb1c7b90a86be779800bf",
+  "commence": "2026-11-11T00:30:00Z",
+  "away": "Evansville Purple Aces",
+  "home": "Middle Tennessee Blue Raiders",
+  "open": {
+   "ml_home": -450,
+   "ml_away": 350,
+   "books": 10,
+   "spread_home": -9.5,
+   "spread_home_price": -109,
+   "total": 143.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Nicholls St Colonels @ Tulane Green Wave": {
+  "event_id": "1bdd1ebc0dbf42b45f00e0e042a95bbc",
+  "commence": "2026-11-11T00:30:00Z",
+  "away": "Nicholls St Colonels",
+  "home": "Tulane Green Wave",
+  "open": {
+   "ml_home": -450,
+   "ml_away": 340,
+   "books": 9,
+   "spread_home": -9.5,
+   "spread_home_price": -110,
+   "total": 153.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Texas State Bobcats @ UT Rio Grande Valley Vaqueros": {
+  "event_id": "62ff4677a2d36350d135e9ffdcccdf6f",
+  "commence": "2026-11-11T00:30:00Z",
+  "away": "Texas State Bobcats",
+  "home": "UT Rio Grande Valley Vaqueros",
+  "open": {
+   "ml_home": 190,
+   "ml_away": -230,
+   "books": 9,
+   "spread_home": 5.5,
+   "spread_home_price": -115,
+   "total": 139.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Kansas Jayhawks @ Kentucky Wildcats": {
+  "event_id": "ac091b3b15d1fcf0312f8c0500329879",
+  "commence": "2026-11-11T02:35:00Z",
+  "away": "Kansas Jayhawks",
+  "home": "Kentucky Wildcats",
+  "open": {
+   "ml_home": 170,
+   "ml_away": -205,
+   "books": 9,
+   "spread_home": 5.0,
+   "spread_home_price": -110,
+   "total": 158.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Montana Grizzlies @ San Francisco Dons": {
+  "event_id": "ec95fa37f8cd117d2b0e8da4db83b192",
+  "commence": "2026-11-11T03:00:00Z",
+  "away": "Montana Grizzlies",
+  "home": "San Francisco Dons",
+  "open": {
+   "ml_home": -774,
+   "ml_away": 525,
+   "books": 10,
+   "spread_home": -11.5,
+   "spread_home_price": -110,
+   "total": 148.5,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "Loyola (Chi) Ramblers @ Air Force Falcons": {
+  "event_id": "b4a1814a6efc7eb096e5ac5e857915b5",
+  "commence": "2026-11-11T20:00:00Z",
+  "away": "Loyola (Chi) Ramblers",
+  "home": "Air Force Falcons",
+  "open": {
+   "ml_home": 340,
+   "ml_away": -450,
+   "books": 3,
+   "spread_home": 8.5,
+   "spread_home_price": -105,
+   "total": 155.5,
+   "over_price": -113,
+   "under_price": -105
+  }
+ },
+ "South Florida Bulls @ Saint Joseph's Hawks": {
+  "event_id": "fb4e0baed91adfe2f7de6ca28ed533e8",
+  "commence": "2026-11-11T20:00:00Z",
+  "away": "South Florida Bulls",
+  "home": "Saint Joseph's Hawks",
+  "open": {
+   "ml_home": 240,
+   "ml_away": -300,
+   "books": 3,
+   "spread_home": 7.0,
+   "spread_home_price": -115,
+   "total": 151.0,
+   "over_price": -110,
+   "under_price": -110
+  }
+ },
+ "North Carolina A&T Aggies @ East Carolina Pirates": {
+  "event_id": "83af3d625408a5c5f1b726fe740fc2ef",
+  "commence": "2026-11-11T21:00:00Z",
+  "away": "North Carolina A&T Aggies",
+  "home": "East Carolina Pirates",
+  "open": {
+   "spread_home": -10.5,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 151.5,
+   "over_price": -109,
+   "under_price": -109
+  }
+ },
+ "Charleston Cougars @ Temple Owls": {
+  "event_id": "c07a4ccdd6e2560b5829395b56863dc1",
+  "commence": "2026-11-11T23:30:00Z",
+  "away": "Charleston Cougars",
+  "home": "Temple Owls",
+  "open": {
+   "spread_home": 0.0,
+   "spread_home_price": -113,
+   "books": 2,
+   "total": 152.5,
+   "over_price": -117,
+   "under_price": -101
+  }
+ },
+ "Southern Indiana Screaming Eagles @ IUPUI Jaguars": {
+  "event_id": "460ff0fdd5edcbe00e3f8cb6e74d6fbb",
+  "commence": "2026-11-11T23:30:00Z",
+  "away": "Southern Indiana Screaming Eagles",
+  "home": "IUPUI Jaguars",
+  "open": {
+   "spread_home": -7.0,
+   "spread_home_price": -113,
+   "books": 2,
+   "total": 160.0,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Campbell Fighting Camels @ East Tennessee St Buccaneers": {
+  "event_id": "3701dfd3294546a83cc0c666d61f49eb",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "Campbell Fighting Camels",
+  "home": "East Tennessee St Buccaneers",
+  "open": {
+   "spread_home": -5.0,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 146.5,
+   "over_price": -109,
+   "under_price": -109
+  }
+ },
+ "Cornell Big Red @ St. Bonaventure Bonnies": {
+  "event_id": "2ad8e525847167b94b3fe19623b9447a",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "Cornell Big Red",
+  "home": "St. Bonaventure Bonnies",
+  "open": {
+   "spread_home": -8.0,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 154.5,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "James Madison Dukes @ Delaware Blue Hens": {
+  "event_id": "6f26440351de53a17fb83781075b7698",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "James Madison Dukes",
+  "home": "Delaware Blue Hens",
+  "open": {
+   "spread_home": 3.5,
+   "spread_home_price": -103,
+   "books": 2,
+   "total": 147.5,
+   "over_price": -104,
+   "under_price": -114
+  }
+ },
+ "William & Mary Tribe @ Florida Atlantic Owls": {
+  "event_id": "a5647dffff37f54bd901019578095560",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "William & Mary Tribe",
+  "home": "Florida Atlantic Owls",
+  "open": {
+   "spread_home": -5.0,
+   "spread_home_price": -113,
+   "books": 2,
+   "total": 162.5,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Milwaukee Panthers @ Indiana St Sycamores": {
+  "event_id": "6712d238dc9bc8354686dde1ee6cd6f2",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "Milwaukee Panthers",
+  "home": "Indiana St Sycamores",
+  "open": {
+   "spread_home": -4.5,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 151.5,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Kent State Golden Flashes @ UNC Wilmington Seahawks": {
+  "event_id": "015a3bad9e6d4b3ce108f6e7c663ed88",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "Kent State Golden Flashes",
+  "home": "UNC Wilmington Seahawks",
+  "open": {
+   "spread_home": -7.0,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 154.5,
+   "over_price": -109,
+   "under_price": -109
+  }
+ },
+ "Marquette Golden Eagles @ Michigan Wolverines": {
+  "event_id": "c5a909abd1412b4f70b5e5448a0b3b13",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "Marquette Golden Eagles",
+  "home": "Michigan Wolverines",
+  "open": {
+   "spread_home": -4.5,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 153.5,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Stony Brook Seawolves @ Princeton Tigers": {
+  "event_id": "4759cdf6363bef48c1455c003b0d4645",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "Stony Brook Seawolves",
+  "home": "Princeton Tigers",
+  "open": {
+   "spread_home": -4.0,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 138.0,
+   "over_price": -104,
+   "under_price": -114
+  }
+ },
+ "Saint Peter's Peacocks @ South Carolina Gamecocks": {
+  "event_id": "ab097a031b98bea79556def8937e59c5",
+  "commence": "2026-11-12T00:00:00Z",
+  "away": "Saint Peter's Peacocks",
+  "home": "South Carolina Gamecocks",
+  "open": {
+   "spread_home": -21.5,
+   "spread_home_price": -113,
+   "books": 2,
+   "total": 128.5,
+   "over_price": -104,
+   "under_price": -114
+  }
+ },
+ "Pepperdine Waves @ Sam Houston St Bearkats": {
+  "event_id": "cec8567863868eee57cefdef4d499a5a",
+  "commence": "2026-11-12T00:30:00Z",
+  "away": "Pepperdine Waves",
+  "home": "Sam Houston St Bearkats",
+  "open": {
+   "spread_home": 0.0,
+   "spread_home_price": -113,
+   "books": 2,
+   "total": 159.0,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Robert Morris Colonials @ Arkansas Razorbacks": {
+  "event_id": "727c66ecc80b721c8a7b0252fe67f115",
+  "commence": "2026-11-12T01:00:00Z",
+  "away": "Robert Morris Colonials",
+  "home": "Arkansas Razorbacks",
+  "open": {
+   "spread_home": -29.5,
+   "spread_home_price": -113,
+   "books": 2,
+   "total": 154.5,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Jacksonville St Gamecocks @ Houston Cougars": {
+  "event_id": "8be8e7e6cde374ce6f951b17a29a62c3",
+  "commence": "2026-11-12T01:00:00Z",
+  "away": "Jacksonville St Gamecocks",
+  "home": "Houston Cougars",
+  "open": {
+   "spread_home": -35.0,
+   "spread_home_price": -103,
+   "books": 2,
+   "total": 137.5,
+   "over_price": -109,
+   "under_price": -109
+  }
+ },
+ "Santa Clara Broncos @ North Texas Mean Green": {
+  "event_id": "797335cb74e596831cb223b996eda670",
+  "commence": "2026-11-12T01:00:00Z",
+  "away": "Santa Clara Broncos",
+  "home": "North Texas Mean Green",
+  "open": {
+   "spread_home": 1.0,
+   "spread_home_price": -113,
+   "books": 2,
+   "total": 150.0,
+   "over_price": -119,
+   "under_price": 101
+  }
+ },
+ "Oral Roberts Golden Eagles @ Tulsa Golden Hurricane": {
+  "event_id": "b4c3775da0df075aa79f9f881d83ffde",
+  "commence": "2026-11-12T01:00:00Z",
+  "away": "Oral Roberts Golden Eagles",
+  "home": "Tulsa Golden Hurricane",
+  "open": {
+   "spread_home": -19.0,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 153.5,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Valparaiso Beacons @ South Dakota St Jackrabbits": {
+  "event_id": "7a535301a94288a573a2206f13a52cd9",
+  "commence": "2026-11-12T01:00:00Z",
+  "away": "Valparaiso Beacons",
+  "home": "South Dakota St Jackrabbits",
+  "open": {
+   "spread_home": 2.0,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 142.5,
+   "over_price": -109,
+   "under_price": -109
+  }
+ },
+ "Cal Poly Mustangs @ Grand Canyon Antelopes": {
+  "event_id": "aa7576381a4cbdf1b32445e296e34a24",
+  "commence": "2026-11-12T02:00:00Z",
+  "away": "Cal Poly Mustangs",
+  "home": "Grand Canyon Antelopes",
+  "open": {
+   "spread_home": -18.0,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 172.0,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Portland St Vikings @ Colorado St Rams": {
+  "event_id": "afbca1bca5b21e68b1f1a233e9f127b9",
+  "commence": "2026-11-12T02:00:00Z",
+  "away": "Portland St Vikings",
+  "home": "Colorado St Rams",
+  "open": {
+   "spread_home": -15.0,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 147.5,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Lindenwood Lions @ Nebraska Cornhuskers": {
+  "event_id": "66797ed562dc7033f7796ca495f88219",
+  "commence": "2026-11-12T02:00:00Z",
+  "away": "Lindenwood Lions",
+  "home": "Nebraska Cornhuskers",
+  "open": {
+   "spread_home": -34.5,
+   "spread_home_price": -103,
+   "books": 2,
+   "total": 151.0,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "Nevada Wolf Pack @ UC Santa Barbara Gauchos": {
+  "event_id": "3cc19d97cf26e86153795e21abb5f55d",
+  "commence": "2026-11-12T02:00:00Z",
+  "away": "Nevada Wolf Pack",
+  "home": "UC Santa Barbara Gauchos",
+  "open": {
+   "spread_home": 1.5,
+   "spread_home_price": -108,
+   "books": 2,
+   "total": 145.0,
+   "over_price": -109,
+   "under_price": -109
+  }
+ },
+ "Pacific Tigers @ Long Beach St 49ers": {
+  "event_id": "4a67ec53bead3f5556b92ef5ad63885c",
+  "commence": "2026-11-12T03:00:00Z",
+  "away": "Pacific Tigers",
+  "home": "Long Beach St 49ers",
+  "open": {
+   "spread_home": 6.5,
+   "spread_home_price": -103,
+   "books": 2,
+   "total": 138.0,
+   "over_price": -109,
+   "under_price": -109
+  }
+ },
+ "UTSA Roadrunners @ Seattle Redhawks": {
+  "event_id": "7519c97618a3f43c4af47a05aeb69e78",
+  "commence": "2026-11-12T03:00:00Z",
+  "away": "UTSA Roadrunners",
+  "home": "Seattle Redhawks",
+  "open": {
+   "spread_home": -13.0,
+   "spread_home_price": -103,
+   "books": 2,
+   "total": 150.0,
+   "over_price": -114,
+   "under_price": -104
+  }
+ },
+ "USC Trojans @ California Golden Bears": {
+  "event_id": "92cc2f2a169d4efd4f1a0ac9d25672bc",
+  "commence": "2026-11-12T04:00:00Z",
+  "away": "USC Trojans",
+  "home": "California Golden Bears",
+  "open": {
+   "spread_home": 7.0,
+   "spread_home_price": -103,
+   "books": 2,
+   "total": 160.0,
+   "over_price": -114,
+   "under_price": -104
+  }
+ }
+}

@@ -1,0 +1,7 @@
+# Open-Meteo forecast at kickoff hour, read Sun Nov 15 ~7:25 AM Phoenix (CIN Sunday night, BAL Monday night). TEAM temp(F) wind(mph) rain(%). Domes and retractable roofs (DET game in Munich dome, ATL, IND, NO, ARI, LV, DAL) none needed.
+NYJ 47 10 0
+CLE 44 15 4
+GB 39 3 0
+TEN 52 3 0
+CIN 43 4 0
+BAL 40 4 0

@@ -1,0 +1,68 @@
+401920511|Rutgers Scarlet Knights^ce0e2d^3-0/3-0/0-0|Houston Cougars^c8102e^3-0/2-0/0-0|Michelob ULTRA Arena, Las Vegas NV
+401920904|Wilson Phoenix^^//|Delaware Blue Hens^00539f^3-2/3-1/0-1|Bob Carpenter Center, Newark DE
+401928360|Louisiana Christian Wildcats^000000^//|Southern Jaguars^004B97^1-5/1-0/0-5|F.G. Clark Activity Center, Baton Rouge LA
+401927381|Hofstra Pride^003594^2-3/2-0/0-2|Murray State Racers^002148^5-0/3-0/0-0|Landers Center, Southaven MS
+401906773|Notre Dame Fighting Irish^062340^4-0/3-0/0-0|Florida Gators^0021a5^4-0/2-0/1-0|Michelob ULTRA Arena, Las Vegas NV
+401923325|Saint Peter's Peacocks^004CC2^0-4/0-1/0-3|UMass Lowell River Hawks^00529C^3-1/2-0/1-1|Kennedy Family Athletic Complex, Lowell MA
+401920953|Liberty Flames^0a254e^2-1/2-0/0-0|Southern Illinois Salukis^85283D^2-1/2-0/0-1|Curry Arena, Charlotte NC
+401912230|Marist Red Foxes^e53730^1-3/1-1/0-2|Army Black Knights^000000^2-2/2-0/0-2|Christl Arena, West Point NY
+401926834|SUNY Potsdam SUNY-POTSDAM^000000^//|Stony Brook Seawolves^990000^1-2/1-0/0-2|Stony Brook Arena, Stony Brook NY
+401920706|Lipscomb Bisons^20366C^3-2/2-0/1-2|Purdue Boilermakers^ceb888^2-2/2-1/0-0|Mackey Arena, West Lafayette IN
+401920236|Maine Augusta Moose^^//|Dartmouth Big Green^005730^3-2/1-1/2-1|Leede Arena, Hanover NH
+401909566|Illinois Fighting Illini^ff5f05^3-1/3-0/0-1|Duke Blue Devils^00539b^3-1/3-0/0-0|Cameron Indoor Stadium, Durham NC
+401921722|Rider Broncs^a80532^1-4/1-1/0-3|Miami Hurricanes^f47423^3-1/3-0/0-0|Watsco Center, Coral Gables FL
+401930568|Spring Hill Badgers^000000^//|South Alabama Jaguars^00205b^2-3/1-1/0-2|Mitchell Center, Mobile AL
+401927342|Cheyney (PA) Wolves^000000^//|Delaware State Hornets^009cdb^1-3/1-0/0-3|Memorial Hall (DE), Dover DE
+401925775|Charlotte 49ers^005035^2-2/1-1/1-0|Davidson Wildcats^000000^3-1/2-1/1-0|John M. Belk Arena, Davidson NC
+401925751|Vermont State Lyndon Hornets^^//|Central Connecticut Blue Devils^1B49A2^3-2/1-0/2-2|Detrick Gymnasium, New Britain CT
+401924941|Akron Zips^041e42^3-0/2-0/1-0|Bucknell Bison^000060^0-4/0-2/0-2|Sojka Pavilion, Lewisburg PA
+401922251|Green Bay Phoenix^006633^3-2/2-0/1-2|West Florida Argonauts^087dc2^2-3/2-0/0-2|UWF Field House, Pensacola FL
+401922221|Fort Lauderdale Eagles^^//|North Florida Ospreys^004B8D^1-3/0-1/1-2|UNF Arena, Jacksonville FL
+401921756|Mississippi State Bulldogs^5d1725^3-1/3-0/0-0|UCF Knights^000000^4-0/4-0/0-0|Addition Financial Arena, Orlando FL
+401920921|Lehigh Mountain Hawks^6c2b2a^2-2/2-1/0-1|Mount St. Mary's Mountaineers^005596^1-2/1-0/0-2|Knott Arena, Emmitsburg MD
+401920857|East Tennessee State Buccaneers^002d61^1-2/1-0/0-2|Marshall Thundering Herd^00b140^1-3/1-1/0-2|Cam Henderson Center, Huntington WV
+401920308|Norfolk State Spartans^0c8968^2-3/2-1/0-2|Georgia Tech Yellow Jackets^b3a369^4-0/4-0/0-0|McCamish Pavilion, Atlanta GA
+401920297|Cal State Northridge Matadors^b50000^1-2/1-0/0-2|Troy Trojans^862633^1-3/1-1/0-2|Trojan Arena, Troy AL
+401920194|Wagner Seahawks^00483A^1-3/1-0/0-3|Saint Joseph's Hawks^9e1b32^4-0/3-0/0-0|Michael J. Hagan '85 Arena, Philadelphia PA
+401918994|Tennessee State Tigers^171796^2-2/2-0/0-1|South Florida Bulls^006747^2-2/2-0/0-1|Yuengling Center, Tampa FL
+401911198|Fordham Rams^830032^3-1/3-0/0-1|Manhattan Jaspers^4f8537^1-3/0-1/1-2|Draddy Gymnasium, Riverdale NY
+401911019|Central Michigan Chippewas^4c0027^4-0/2-0/2-0|Dayton Flyers^004B8D^1-3/1-3/0-0|UD Arena, Dayton OH
+401911018|Bowling Green Falcons^fd5000^3-0/2-0/1-0|William & Mary Tribe^115740^2-2/2-0/0-2|Kaplan Arena, Williamsburg VA
+401909729|Monmouth Hawks^051844^1-2/0-0/1-1|Wake Forest Demon Deacons^ceb888^3-1/3-0/0-1|LJVM Coliseum, Winston-Salem NC
+401909708|Villanova Wildcats^00205b^3-1/3-0/0-0|Pittsburgh Panthers^003594^4-0/2-0/1-0|Petersen Events Center, Pittsburgh PA
+401909697|Ball State Cardinals^ba0c2f^1-3/1-1/0-2|Florida State Seminoles^782f40^3-1/2-1/0-0|Donald L. Tucker Center, Tallahassee FL
+401909544|Cleveland State Vikings^006633^3-2/1-0/1-2|Xavier Musketeers^21304e^4-0/3-0/0-0|Cintas Center, Cincinnati OH
+401909535|Sacred Heart Pioneers^a40012^2-2/1-2/1-0|Providence Friars^000000^3-1/3-0/0-0|Amica Mutual Pavilion, Providence RI
+401902279|Western Carolina Catamounts^492F91^2-2/1-1/1-1|Butler Bulldogs^0d1361^2-2/2-1/0-1|Hinkle Fieldhouse, Indianapolis IN
+401906761|Kennesaw State Owls^fdbb30^4-0/4-0/0-0|Alabama Crimson Tide^9e1b32^4-0/4-0/0-0|Coleman Coliseum, Tuscaloosa AL
+401916289|Arkansas Razorbacks^a32136^3-1/3-0/0-0|Indiana Hoosiers^970310^4-0/3-0/0-0|Madison Square Garden, New York NY
+401926781|Jacksonville State Gamecocks^cc0000^2-2/2-0/0-2|Louisiana Tech Bulldogs^003087^2-2/2-0/0-2|Thomas Assembly Center, Ruston LA
+401919018|Florida International Panthers^091f3f^3-0/2-0/1-0|UAB Blazers^1a5632^2-2/2-0/0-1|Bartow Arena, Birmingham AL
+401911020|Bryant Bulldogs^000000^1-4/1-1/0-3|Massachusetts Minutemen^881c1c^2-1/1-0/1-0|Mullins Center, Amherst MA
+401921826|Eastern Illinois Panthers^000000^1-4/1-1/0-3|Vanderbilt Commodores^000000^4-0/4-0/0-0|Memorial Gymnasium (TN), Nashville TN
+401929358|UT Arlington Mavericks^004b7c^4-1/2-0/0-1|Southern Miss Golden Eagles^ffc72c^2-2/2-0/0-2|Reed Green Coliseum, Hattiesburg MS
+401927867|Embry Riddle (AZ) Eagles^^//|Northern Arizona Lumberjacks^003976^0-4/0-0/0-4|Rolle Activity Center, Flagstaff AZ
+401927388|Lindenwood Lions^000000^2-3/2-0/0-3|Northern Iowa Panthers^473282^2-3/2-0/0-3|McLeod Center, Cedar Falls IA
+401926143|SIU Edwardsville Cougars^eb1c23^2-3/2-0/0-3|North Dakota Fighting Hawks^00A26B^1-3/0-1/1-2|Betty Engelstad Sioux Center, Grand Forks ND
+401925012|Lamar Cardinals^000000^2-1/2-0/0-1|Omaha Mavericks^e3193e^3-2/3-0/0-2|Baxter Arena, Omaha NE
+401921106|Bellarmine Knights^000000^1-4/1-1/0-3|Illinois State Redbirds^CE1126^1-3/1-0/0-3|CEFCU Arena, Normal IL
+401921097|Texas A&M-Corpus Christi Islanders^0067c5^2-2/1-0/1-2|Rice Owls^00205b^2-2/1-1/1-1|Tudor Fieldhouse, Houston TX
+401921027|Middle Tennessee Blue Raiders^036eb7^3-1/3-0/0-1|Georgia Southern Eagles^041e42^1-3/1-1/0-2|Jack and Ruth Ann Hill Convocation Center, Statesboro GA
+401921006|Newman Jets^^//|Kansas City Roos^004b87^2-3/1-0/0-2|Swinney Center, Kansas City MO
+401919783|Le Moyne Dolphins^^2-2/2-0/0-2|Evansville Purple Aces^663399^2-2/2-1/0-1|Ford Center, Evansville IN
+401918970|Oral Roberts Golden Eagles^002462^2-2/2-0/0-2|SMU Mustangs^a80000^4-0/4-0/0-0|Moody Coliseum (Dallas), Dallas TX
+401917952|Life University Running Eagles^^//|Austin Peay Governors^8e0b0b^2-2/2-0/0-2|F&M Bank Arena, Clarksville TN
+401909504|Maryland Eastern Shore Hawks^5c2301^1-4/1-0/0-4|DePaul Blue Demons^2d649c^4-0/3-0/1-0|Wintrust Arena, Chicago IL
+401925064|Nicholls Colonels^C41230^2-2/2-0/0-2|Ole Miss Rebels^13294b^3-0/3-0/0-0|The Sandy and John Black Pavilion at Ole Miss, Oxford MS
+401924922|Sam Houston Bearkats^f56423^2-2/2-0/0-2|Wyoming Cowboys^492f24^3-1/2-0/1-1|Arena-Auditorium, Laramie WY
+401920720|Eastern Washington Eagles^a10022^1-3/1-0/0-3|Utah Utes^be0000^3-0/3-0/0-0|Jon M. Huntsman Center, Salt Lake City UT
+401906851|Michigan State Spartans^173f35^4-0/3-0/0-0|Tennessee Volunteers^ff8200^3-0/3-0/0-0|Food City Center, Knoxville TN
+401920426|Old Dominion Monarchs^003768^5-0/3-0/2-0|Virginia Cavaliers^232d4b^5-0/3-0/1-0|John Paul Jones Arena, Charlottesville VA
+401911521|Alabama State Hornets^e9a900^1-3/1-1/0-2|UC Davis Aggies^002855^3-1/2-1/1-0|University Credit Union Center, Davis CA
+401909787|UNLV Rebels^cf0a2c^3-0/3-0/0-0|Kansas Jayhawks^0051ba^3-0/2-0/0-0|Michelob ULTRA Arena, Las Vegas NV
+401934595|Simon Fraser Red Leafs^000000^//|Washington Huskies^33006f^2-0/2-0/0-0|Alaska Airlines Arena, Seattle WA
+401921729|UC Irvine Anteaters^002B5C^3-0/3-0/0-0|Stanford Cardinal^8c1515^3-1/3-0/0-1|Maples Pavilion, Stanford CA
+401917534|Pacific Union PACIFIC UNION^^//|Pacific Tigers^F47820^3-1/2-0/1-1|Alex G. Spanos Center, Stockton CA
+401917533|Seattle U Redhawks^BF2E1A^2-2/2-1/0-1|California Baptist Lancers^000080^1-3/1-2/0-1|Dale E. and Sarah Ann Fowler Events Center, Riverside CA
+401925879|Montana State Bobcats^00205c^2-2/2-0/0-2|Gonzaga Bulldogs^041e42^2-1/1-1/0-0|McCarthey Athletic Center, Spokane WA
+401920512|West Virginia Mountaineers^eaaa00^3-0/3-0/0-0|Auburn Tigers^002b5c^2-1/2-1/0-0|Michelob ULTRA Arena, Las Vegas NV

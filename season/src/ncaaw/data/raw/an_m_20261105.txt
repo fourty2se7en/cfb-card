@@ -1,0 +1,32 @@
+McNeese St|North Texas|-1.5|65%|35%|77%|23%
+Wake Forest|Vanderbilt|+14.5|52%|48%|43%|57%
+Chattanooga|Penn State|+15.5|33%|67%|70%|30%
+Bellarmine|Indiana|+26.5|17%|83%|15%|85%
+Long Island|Seton Hall|+17.5|27%|73%|16%|84%
+Mercer|VA Tech|+19.5|34%|66%|27%|73%
+Green Bay|Cincinnati|+21.5|28%|72%|30%|70%
+Buffalo|Pittsburgh|+16.5|23%|77%|18%|82%
+New Hampshire|Rider|+1.5|45%|55%|20%|80%
+Delaware St|Navy|+8.5|53%|47%|64%|36%
+N.J.I.T.|Iona|+9.5|28%|72%|17%|83%
+Albany|Manhattan|+2.5|52%|48%|20%|80%
+Central Conn|Syracuse|+21.5|20%|80%|14%|86%
+Hofstra|Princeton|+1.5|29%|71%|18%|82%
+Mercyhurst|Notre Dame|+19.5|17%|83%|18%|82%
+UMass Lowell|Merrimack|+6.5|60%|40%|64%|36%
+Bryant U|Quinnipiac|+5.5|22%|78%|14%|86%
+NW State|Mississippi St|+20.5|15%|85%|12%|88%
+Coastal Car|Duke|+38.5|36%|64%|43%|57%
+Gardner-Webb|Texas|+37.5|32%|68%|63%|37%
+Jacksonville|Florida|+32.5|17%|83%|14%|86%
+VMI|SMU|+23.5|32%|68%|14%|86%
+Le Moyne|Creighton|+26.5|30%|70%|19%|81%
+E TA&M|Rice|+3.5|56%|44%|86%|14%
+N. Illinois|Tulsa|+15.5|46%|54%|56%|44%
+Toledo|Michigan St|+25.5|27%|73%|19%|81%
+West Georgia|Loyola (IL)|+15.5|25%|75%|30%|70%
+Jax State|S. Alabama|+1.5|36%|64%|26%|74%
+Penn|Illinois|+27.5|19%|81%|10%|90%
+B-Cookman|Texas Tech|+26.5|17%|83%|4%|96%
+Towson|Utah|+10.5|30%|70%|46%|54%
+Cal Poly|Arizona|+28.5|26%|74%|25%|75%

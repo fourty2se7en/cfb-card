@@ -1,0 +1,404 @@
+{
+  "_readme": [
+    "Every number this card runs on. The scripts read it; nothing is typed twice.",
+    "model_state.py carries a fallback copy of all of it, so a broken or missing",
+    "file cannot cost a card. When it falls back, the card says so.",
+    "",
+    "WHAT IS MEASURED AND WHAT IS CHOSEN:",
+    "everything under 'backtest' was fitted from real games by nfl_backtest.py and",
+    "committed by that workflow. Nothing under 'grading' was: those are decisions,",
+    "kept in their own section so which is which stays obvious. The preseason",
+    "conversion is measured, on 352 team-seasons.",
+    "",
+    "WHERE TEAMS START, AND HOW THEY MOVE:",
+    "preseason.mode is 'market', so a team's week 1 rating is the sportsbook season",
+    "win total in preseason_2026.csv, converted to points. ratings.in_season_k is",
+    "how fast results take over from that: the in-season fit carries weight",
+    "n/(n+k) after n games. k was MEASURED, not chosen. Over 3,407 games the error",
+    "curve is flat from 8 to 14 and 10 sits at the bottom of it. Throwing the",
+    "preseason number away the moment a game is played (k=0) is WORSE than never",
+    "updating at all, by 0.54 points with a paired t of -3.84, so the prior earns",
+    "its place all season.",
+    "",
+    "WHY THE GRADES ARE CAPPED:",
+    "backtest.calibration holds, per strategy, the line mapping what the model",
+    "claimed onto what actually happened. On the spread the slope is -0.03 with a",
+    "95% interval of -0.18 to +0.12: the model's stated confidence carries no",
+    "information about who covers. A letter is a claim about evidence, so a grade",
+    "cannot outrun the record behind it. nfl_picks.py applies the caps and the card",
+    "shows a star and the reason wherever one bites. Re-run the nfl-backtest",
+    "workflow and every grade recalculates; nothing is pasted anywhere."
+  ],
+  "schema": 1,
+  "chrome_sha": "540d089f13efab86",
+  "ratings": {
+    "seasons": [
+      2025
+    ],
+    "half_life": 8.0,
+    "off_regress": 0.35,
+    "def_regress": 0.45,
+    "plays_per_game": 63.0,
+    "ridge_alpha": 25.0,
+    "early_down_weight": 1.5,
+    "epa_weight": 0.6,
+    "composite": {
+      "pass_off": 0.4,
+      "pass_def": 0.25,
+      "rush_off": 0.12,
+      "rush_def": 0.08
+    },
+    "in_season_k": 10
+  },
+  "preseason": {
+    "mode": "market",
+    "wins_at_average": 8.471,
+    "points_per_win": 2.056,
+    "file": "preseason_2026.csv"
+  },
+  "grading": {
+    "win_points": 70.0,
+    "value_points": 30.0,
+    "p_floor": 0.4,
+    "p_ceil": 0.6,
+    "value_ceil": 8.0,
+    "grade_a": 70.0,
+    "grade_b": 55.0,
+    "grade_c": 40.0,
+    "gate_a": 2.0,
+    "gate_b": 1.0,
+    "gate_d": 0.5,
+    "conf_a": 75.0,
+    "conf_b": 65.0,
+    "conf_c": 55.0,
+    "value_a": 2.0,
+    "value_b": 1.0,
+    "w_confidence": 0.6,
+    "w_value": 0.4,
+    "conf_floor": 40.0,
+    "_notes": {
+      "_what": "CHOSEN, not measured. Everything under backtest.calibration was fitted from real games; these were decided. Kept side by side so which is which is obvious. Same values as the college card, so the two grade alike.",
+      "conf_a": "calibrated probability, in percent, needed for an A on confidence",
+      "value_a": "points of calibrated probability above the price's break-even needed for an A on value",
+      "w_confidence": "how much the merged grade leans on confidence rather than value",
+      "conf_floor": "a call less likely than this cannot be lifted above D by the price alone. Chosen at 40 unless backtest.conf_floor.measured says otherwise.",
+      "win_points": "the OLD composite scale. Still computed and shown as the raw score, no longer the grade."
+    }
+  },
+  "backtest": {
+    "run_utc": "2026-09-08T03:25:01Z",
+    "window": "2013-2025 regular season, 3,407 games, walk-forward against real closing lines",
+    "record": {
+      "model_gap_early": [
+        418,
+        386
+      ],
+      "model_gap_late": [
+        1239,
+        1279
+      ],
+      "total_model": [
+        1704,
+        1672
+      ],
+      "total_over": [
+        1655,
+        1721
+      ],
+      "moneyline": [
+        1184,
+        1710
+      ],
+      "moneyline_dog": [
+        596,
+        1328
+      ],
+      "moneyline_fav": [
+        588,
+        382
+      ]
+    },
+    "returns": {
+      "moneyline": {
+        "n": 2894,
+        "roi": -6.8,
+        "se": 2.41,
+        "lo": -11.53,
+        "hi": -2.07,
+        "w": 1184,
+        "l": 1710
+      },
+      "moneyline_dog": {
+        "n": 1924,
+        "roi": -7.51,
+        "se": 3.4,
+        "lo": -14.18,
+        "hi": -0.85,
+        "w": 596,
+        "l": 1328
+      },
+      "moneyline_fav": {
+        "n": 970,
+        "roi": -5.4,
+        "se": 2.51,
+        "lo": -10.32,
+        "hi": -0.47,
+        "w": 588,
+        "l": 382
+      }
+    },
+    "calibration": {
+      "model_gap_early": {
+        "a": 0.0153,
+        "k": 0.161,
+        "se_a": 0.0702,
+        "se_k": 0.253,
+        "n": 804,
+        "k_clears_zero": false
+      },
+      "model_gap_late": {
+        "a": 0.0031,
+        "k": -0.1106,
+        "se_a": 0.039,
+        "se_k": 0.1436,
+        "n": 2518,
+        "k_clears_zero": false
+      },
+      "total_model": {
+        "a": 0.0159,
+        "k": -0.0126,
+        "se_a": 0.027,
+        "se_k": 0.0436,
+        "n": 3376,
+        "k_clears_zero": false
+      },
+      "total_over": {
+        "a": -0.0245,
+        "k": 0.0,
+        "se_a": null,
+        "se_k": null,
+        "n": 3376,
+        "k_clears_zero": false,
+        "level_only": true
+      },
+      "outright": {
+        "a": 0.0392,
+        "k": 0.8635,
+        "se_a": 0.0237,
+        "se_k": 0.0333,
+        "n": 3407,
+        "k_clears_zero": true
+      },
+      "moneyline": {
+        "a": 0.0392,
+        "k": 0.8635,
+        "se_a": 0.0237,
+        "se_k": 0.0333,
+        "n": 3407,
+        "k_clears_zero": true
+      },
+      "moneyline_fav": {
+        "a": 0.0392,
+        "k": 0.8635,
+        "se_a": 0.0237,
+        "se_k": 0.0333,
+        "n": 3407,
+        "k_clears_zero": true
+      },
+      "moneyline_dog": {
+        "a": 0.0392,
+        "k": 0.8635,
+        "se_a": 0.0237,
+        "se_k": 0.0333,
+        "n": 3407,
+        "k_clears_zero": true
+      }
+    },
+    "conf_floor": {
+      "buckets": [
+        {
+          "lo": 0,
+          "hi": 35,
+          "n": 592,
+          "w": 121,
+          "l": 471,
+          "roi": -9.75,
+          "interval": [
+            -24.78,
+            5.29
+          ]
+        },
+        {
+          "lo": 35,
+          "hi": 40,
+          "n": 290,
+          "w": 81,
+          "l": 209,
+          "roi": -12.58,
+          "interval": [
+            -29.07,
+            3.92
+          ]
+        },
+        {
+          "lo": 40,
+          "hi": 45,
+          "n": 303,
+          "w": 104,
+          "l": 199,
+          "roi": -5.48,
+          "interval": [
+            -20.45,
+            9.49
+          ]
+        },
+        {
+          "lo": 45,
+          "hi": 50,
+          "n": 305,
+          "w": 117,
+          "l": 188,
+          "roi": -4.23,
+          "interval": [
+            -18.24,
+            9.78
+          ]
+        },
+        {
+          "lo": 50,
+          "hi": 100,
+          "n": 1404,
+          "w": 761,
+          "l": 643,
+          "roi": -5.21,
+          "interval": [
+            -10.07,
+            -0.35
+          ]
+        }
+      ],
+      "measured": null,
+      "note": "no bucket at the BOTTOM lost with its whole interval below zero, so there is no measured floor and the chosen one stands. The buckets that did lose outright were 50-100%, which a floor cannot reach",
+      "basis": "moneyline bets, bucketed by calibrated probability, judged on return"
+    },
+    "record_notes": {
+      "model_gap_early": "our number against the closing spread, weeks 1 to 4",
+      "model_gap_late": "our number against the closing spread, week 5 onward",
+      "total_model": "our total against the closing total",
+      "total_over": "taking every over, which uses no model input",
+      "moneyline": "betting the outright winner, judged on return per unit staked",
+      "moneyline_fav": "the same, only where we take the favourite",
+      "moneyline_dog": "the same, only where we take the underdog"
+    },
+    "headline": {
+      "margin_mae": 10.422,
+      "market_margin_mae": 9.937,
+      "total_mae": 11.06,
+      "market_total_mae": 10.504,
+      "blend_k": 10,
+      "blend_grid": {
+        "0": {
+          "mae": 11.49602750841725,
+          "gain": -0.5386534725775107,
+          "t": -3.8442307986934043
+        },
+        "2": {
+          "mae": 10.768157908087987,
+          "gain": 0.18921612775175076,
+          "t": 1.765833472023199
+        },
+        "4": {
+          "mae": 10.551501060906206,
+          "gain": 0.405872974933533,
+          "t": 4.475365824971432
+        },
+        "6": {
+          "mae": 10.462915876770284,
+          "gain": 0.4944581590694544,
+          "t": 6.222770650181806
+        },
+        "8": {
+          "mae": 10.428726738700819,
+          "gain": 0.528647297138919,
+          "t": 7.440964316232258
+        },
+        "10": {
+          "mae": 10.422169342247962,
+          "gain": 0.5352046935917791,
+          "t": 8.322803608123465
+        },
+        "12": {
+          "mae": 10.427687148720992,
+          "gain": 0.5296868871187473,
+          "t": 9.013205666452262
+        },
+        "14": {
+          "mae": 10.439454163219084,
+          "gain": 0.5179198726206573,
+          "t": 9.565881514631203
+        },
+        "16": {
+          "mae": 10.454729846608007,
+          "gain": 0.5026441892317333,
+          "t": 10.009296281677907
+        },
+        "20": {
+          "mae": 10.489291288876121,
+          "gain": 0.46808274696361896,
+          "t": 10.669244704508305
+        },
+        "30": {
+          "mae": 10.567654278088204,
+          "gain": 0.3897197577515357,
+          "t": 11.689790520634617
+        },
+        "None": {
+          "mae": 10.957374035839738,
+          "gain": 0.0,
+          "t": 0.0
+        }
+      },
+      "home_field_measured": 1.914
+    }
+  },
+  "simulation": {
+    "avg_pts": 22.4,
+    "sims": 20000,
+    "line_sd": 3.0,
+    "margin_sd": 13.2,
+    "total_line_sd": 2.4,
+    "total_sd": 10.4,
+    "total_bump": [
+      47.0,
+      1.0
+    ],
+    "wind_bump": [
+      15.0,
+      1.0
+    ],
+    "p_floor": 0.4,
+    "p_ceil": 0.6,
+    "value_ceil": 8.0,
+    "win_points": 70.0,
+    "value_points": 30.0,
+    "_notes": {
+      "line_sd": "our uncertainty about the true spread. The college card uses 7.0",
+      "margin_sd": "margin scatter around the true line. The college card uses 15.0 at a total of 52",
+      "total_sd": "points around the true total. The college card uses 13.3",
+      "total_bump": "margin scatter widens by the second number when the total exceeds the first",
+      "wind_bump": "and narrows by the second number at or above the first, in mph",
+      "avg_pts": "league points per team per game, the baseline of every projected total. MEASURED as the best of three: over 3,407 games 2013-2025 the fixed 22.4 gave MAE 11.06 and a 1704-1672 record against the closing total; last season's actual average gave 11.15 and 1658-1718; season to date gave 11.07 and 1688-1688. None beats the market's 10.50 MAE and all three lose at -110, so the constant stays and totals stay ungraded above D",
+      "win_points": "the scoring scale this card originated; college carried it over unchanged"
+    }
+  },
+  "thresholds": {
+    "break_even": 52.4,
+    "game_sd": 13.2,
+    "expert_min_picks": 10,
+    "_notes": {
+      "break_even": "percent needed to profit at standard -110 pricing",
+      "game_sd": "margin scatter used to turn a spread into a win probability",
+      "expert_min_picks": "CHOSEN, not measured. Settled spread and total picks an expert needs before the card reads their trend at all. Below it the table says too few to read"
+    }
+  }
+}

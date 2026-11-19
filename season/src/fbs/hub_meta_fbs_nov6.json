@@ -1,0 +1,334 @@
+{
+  "how": [
+    "Betting signals score each side: sharp action, reverse line move, big money, PRO systems, money vs tickets, fade the public.",
+    "The side with more points is the side the signals favour.",
+    "A pick is made only when that side fits a rule below. Otherwise the game shows No pick.",
+    "The tier comes from the rule's season record."
+  ],
+  "notes": "Rule evaluation Nov 6: 507 FBS games graded (weeks 1 to 10), November graded for the first time. No switches. Watch: Two-signal total: Nov 2-2 -0.2u on 4 picks, a loss on the 5th November pick turns it off; Receiving yards · Over props: season 9-8-3 -0.76u on 17 graded picks; turns off at 20 picks if still negative. Player props: Play or tracking (leans are tracking only).",
+  "policy": {
+    "freeze_until": null,
+    "month_min": 5,
+    "off_min": 20,
+    "on_min": 0,
+    "text": [
+      "A rule is active only while its season to date and this month are both in the green (positive units).",
+      "Timing is unchanged: a rule can only switch off once it has 20+ season picks. The month counts once it has 5+ picks.",
+      "A rule turns off when its season units go negative, or this month goes negative on 5+ picks.",
+      "An inactive rule keeps being graded on every game it fits and turns back on when season and month are both green."
+    ]
+  },
+  "prop_lean_tracking": true,
+  "rules": [
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "desc": "Signals pick the underdog and the line moved toward it against the tickets, or the market overrates last season.",
+      "every_game": "69-45 +17.7u",
+      "key": "dog_spread",
+      "keys": [
+        "dog_spread"
+      ],
+      "label": "Underdog spread",
+      "last_3_weeks": "12-6 +4.9u",
+      "market": "Spread",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 0,
+        "w": 0
+      },
+      "on": true,
+      "season": {
+        "l": 45,
+        "p": 1,
+        "u": 17.73,
+        "w": 69
+      },
+      "tier": "Strong",
+      "version": "Line move or last season"
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "desc": "Two of money vs tickets, PRO systems and sharp action sit on one side of the total, none on the other.",
+      "every_game": "71-48 +16.6u",
+      "key": "one_sided",
+      "keys": [
+        "one_sided"
+      ],
+      "label": "Two-signal total",
+      "last_3_weeks": "19-16 +1.3u",
+      "market": "Total",
+      "month": {
+        "l": 2,
+        "label": "Nov",
+        "p": 0,
+        "u": -0.18,
+        "w": 2
+      },
+      "on": true,
+      "season": {
+        "l": 48,
+        "p": 0,
+        "u": 16.55,
+        "w": 71
+      },
+      "tier": "Strong",
+      "version": "Two of money vs tickets, PRO, sharp action"
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "desc": "Signals pick the underdog at +100 to +200 with a line move toward it, or the market overrates last season.",
+      "every_game": "19-14 +15.3u",
+      "key": "dog_ml",
+      "keys": [
+        "dog_ml"
+      ],
+      "label": "Underdog moneyline",
+      "last_3_weeks": "3-2 +2.2u",
+      "market": "Moneyline",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 0,
+        "w": 0
+      },
+      "on": true,
+      "season": {
+        "l": 14,
+        "p": 0,
+        "u": 15.31,
+        "w": 19
+      },
+      "tier": "Strong",
+      "version": "Line move or last season"
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "desc": "Signals pick the favourite at -200 to -100.",
+      "every_game": "48-19 +13.7u",
+      "key": "fav_ml",
+      "keys": [
+        "fav_ml"
+      ],
+      "label": "Favourite moneyline",
+      "last_3_weeks": "15-2 +8.6u",
+      "market": "Moneyline",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 1.51,
+        "w": 2
+      },
+      "on": true,
+      "season": {
+        "l": 19,
+        "p": 0,
+        "u": 13.7,
+        "w": 48
+      },
+      "tier": "Strong",
+      "version": "Signals favour the favourite, lead 1+"
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "desc": "Signals lead by 5 points or more.",
+      "every_game": "50-34 +11.4u",
+      "key": "strong_spread",
+      "keys": [
+        "strong_spread"
+      ],
+      "label": "Strong spread",
+      "last_3_weeks": "9-1 +7.2u",
+      "market": "Spread",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 0,
+        "w": 0
+      },
+      "on": true,
+      "season": {
+        "l": 34,
+        "p": 2,
+        "u": 11.45,
+        "w": 50
+      },
+      "tier": "Strong",
+      "version": "Lead 5+"
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "card": "2-2 +0.25u",
+      "desc": "Every logged passing touchdowns over prop (Play and tracking) in the hub ledger.",
+      "every_game": null,
+      "key": "PROP_passingtouchdowns_Over",
+      "keys": [],
+      "label": "Passing touchdowns · Over",
+      "market": "Prop",
+      "month": {
+        "l": 2,
+        "label": "Nov",
+        "p": 0,
+        "u": -1,
+        "w": 1
+      },
+      "on": true,
+      "season": {
+        "l": 2,
+        "p": 0,
+        "u": 0.25,
+        "w": 2
+      }
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "card": "2-0 +1.29u",
+      "desc": "Every logged passing touchdowns under prop (Play and tracking) in the hub ledger.",
+      "every_game": null,
+      "key": "PROP_passingtouchdowns_Under",
+      "keys": [],
+      "label": "Passing touchdowns · Under",
+      "market": "Prop",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 0.38,
+        "w": 1
+      },
+      "on": true,
+      "season": {
+        "l": 0,
+        "p": 0,
+        "u": 1.29,
+        "w": 2
+      }
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "card": "4-1 +2.48u",
+      "desc": "Every logged passing yards under prop (Play and tracking) in the hub ledger.",
+      "every_game": null,
+      "key": "PROP_passingyards_Under",
+      "keys": [],
+      "label": "Passing yards · Under",
+      "market": "Prop",
+      "month": {
+        "l": 1,
+        "label": "Nov",
+        "p": 0,
+        "u": -0.13,
+        "w": 1
+      },
+      "on": true,
+      "season": {
+        "l": 1,
+        "p": 0,
+        "u": 2.48,
+        "w": 4
+      }
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "card": "9-8-3 -0.76u",
+      "desc": "Every logged receiving yards over prop (Play and tracking) in the hub ledger.",
+      "every_game": null,
+      "key": "PROP_receivingyards_Over",
+      "keys": [],
+      "label": "Receiving yards · Over",
+      "market": "Prop",
+      "month": {
+        "l": 5,
+        "label": "Nov",
+        "p": 2,
+        "u": -0.9,
+        "w": 5
+      },
+      "on": true,
+      "season": {
+        "l": 8,
+        "p": 3,
+        "u": -0.76,
+        "w": 9
+      }
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "card": "0-1 -1.00u",
+      "desc": "Every logged receiving yards under prop (Play and tracking) in the hub ledger.",
+      "every_game": null,
+      "key": "PROP_receivingyards_Under",
+      "keys": [],
+      "label": "Receiving yards · Under",
+      "market": "Prop",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 0,
+        "u": 0,
+        "w": 0
+      },
+      "on": true,
+      "season": {
+        "l": 1,
+        "p": 0,
+        "u": -1,
+        "w": 0
+      }
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "card": "2-1-1 +0.60u",
+      "desc": "Every logged rushing yards over prop (Play and tracking) in the hub ledger.",
+      "every_game": null,
+      "key": "PROP_rushingyards_Over",
+      "keys": [],
+      "label": "Rushing yards · Over",
+      "market": "Prop",
+      "month": {
+        "l": 0,
+        "label": "Nov",
+        "p": 1,
+        "u": 0.8,
+        "w": 1
+      },
+      "on": true,
+      "season": {
+        "l": 1,
+        "p": 1,
+        "u": 0.6,
+        "w": 2
+      }
+    },
+    {
+      "back_on": "Back on when season and month (5+ picks) are both green.",
+      "card": "4-2 +1.48u",
+      "desc": "Every logged rushing yards under prop (Play and tracking) in the hub ledger.",
+      "every_game": null,
+      "key": "PROP_rushingyards_Under",
+      "keys": [],
+      "label": "Rushing yards · Under",
+      "market": "Prop",
+      "month": {
+        "l": 1,
+        "label": "Nov",
+        "p": 0,
+        "u": 1.61,
+        "w": 3
+      },
+      "on": true,
+      "season": {
+        "l": 2,
+        "p": 0,
+        "u": 1.48,
+        "w": 4
+      }
+    }
+  ],
+  "sport": "fbs",
+  "updated": "2026-11-06"
+}

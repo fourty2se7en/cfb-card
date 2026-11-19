@@ -1,0 +1,34 @@
+Howard|Penn|+6.5|51%|49%|44%|56%
+Syracuse|Indiana|+4.5|48%|52%|44%|56%
+USC Upstate|Coastal Car|+9.5|55%|45%|69%|31%
+North Dakota|Clemson|+21.5|87%|13%|20%|80%
+Stonehill|Columbia|+10.5|31%|69%|16%|84%
+Minnesota|Cincinnati|+6.5|47%|53%|53%|47%
+Wagner|UConn|+35.5|93%|7%|73%|27%
+Long Island|Towson|+5.5|51%|49%|28%|72%
+SC State|Chicago St|+5.5|46%|54%|92%|8%
+FGCU|Georgia|+21.5|93%|7%|62%|38%
+Cleveland St|Bowling Green|+12.5|95%|5%|12%|88%
+Radford|Tennessee|+28.5|81%|19%|33%|67%
+UMKC|Jacksonville|+5.5|26%|74%|19%|81%
+Grambling St|Texas|+34.5|90%|10%|26%|74%
+North Florida|Miami (FL)|+30.5|95%|5%|93%|7%
+E. Illinois|Notre Dame|+27.5|38%|62%|23%|77%
+UNC Greensboro|UIC|+17.5|53%|47%|44%|56%
+Oakland|Alabama|+31.5|92%|8%|81%|19%
+Jackson St|Mississippi St|+21.5|94%|6%|15%|85%
+Florida A&M|UAB|+16.5|98%|2%|84%|16%
+UL Monroe|Texas A&M|+35.5|66%|34%|65%|35%
+SIU-Edwardsville|Missouri|+28.5|67%|33%|75%|25%
+LA Tech|LSU|+28.5|96%|4%|50%|50%
+Boston U|Northwestern|+17.5|74%|26%|75%|25%
+North Alabama|Oklahoma|+26.5|97%|3%|59%|41%
+Illinois St|Purdue|+15.5|78%|22%|72%|28%
+Charlotte|Seton Hall|+4.5|37%|63%|49%|51%
+App State|Auburn|+24.5|76%|24%|78%|22%
+Alabama A&M|DePaul|+21.5|88%|12%|86%|14%
+E. Washington|Oregon St|+15.5|79%|21%|76%|24%
+MS Valley St|Washington|+33.5|43%|57%|68%|32%
+Rice|Stanford|+19.5|89%|11%|92%|8%
+Portland|Hawaii|+6.5|35%|65%|16%|84%
+Marshall|Ohio State|+25.5|93%|7%|64%|36%

@@ -1,0 +1,42 @@
+NC A&T|E. Carolina|+10.5|36%|64%|25%|75%
+B-Cookman|San Diego State|+18.5|28%|72%|20%|80%
+Penn|Navy|-10.5|45%|55%|35%|65%
+NC Central|VMI|+4.5|40%|60%|49%|51%
+Southern Indiana|IUIN|+5.5|44%|56%|48%|52%
+Charleston|Temple|+1.5|45%|55%|81%|19%
+JMU|Delaware|-3.5|60%|40%|70%|30%
+UMass Lowell|UMASS|+10.5|73%|27%|98%|2%
+UNC Asheville|West Georgia|+1.5||||
+Old Dominion|Norfolk State|-5.5|68%|32%|83%|17%
+N.J.I.T.|VCU|+28.5|62%|38%|39%|61%
+Cornell|St. Bonaventure|+8.5|35%|65%|25%|75%
+Milwaukee|Indiana St|+5.5|39%|61%|69%|31%
+Campbell|E Tennessee St|+5.5|15%|85%|9%|91%
+Kent State|UNC Wilmington|+6.5|59%|41%|63%|37%
+American U|Drexel|+1.5|43%|57%|50%|50%
+Marquette|Michigan|+4.5|26%|74%|30%|70%
+Furman|Holy Cross|-12.5||||
+Colgate|St. John's|+25.5|23%|77%|10%|90%
+Stony Brook|Princeton|+3.5|50%|50%|35%|65%
+St. Peter's|S. Carolina|+21.5|33%|67%|19%|81%
+SC State|Notre Dame|+25.5|54%|46%|41%|59%
+William & Mary|FAU|+5.5|41%|59%|55%|45%
+Pepperdine|Sam Houston|+1.5|66%|34%|83%|17%
+SFA|Ab Christian|-3.5||||
+Valparaiso|SD State|-2.5||||
+Robert Morris|Arkansas|+29.5|30%|70%|9%|91%
+Jax State|Houston|+35.5|45%|55%|37%|63%
+Santa Clara|North Texas|-1.5|44%|56%|48%|52%
+Oral Roberts|Tulsa|+19.5|38%|62%|21%|79%
+Jackson St|Southern Miss|+9.5||||
+Nevada|UCSB|-1.5||||
+Cal Poly|Grand Canyon|+18.5|46%|54%|32%|68%
+Portland State|Colorado St|+15|15%|85%|8%|92%
+Lindenwood|Nebraska|+34.5|39%|61%|39%|61%
+Oakland|Boise State|+18.5|14%|86%|9%|91%
+AR-Pine Bluff|UCLA|+43.5|35%|65%|8%|92%
+Chicago St|Cal Baptist|+10.5||||
+UTSA|Seattle|+13.5||||
+Pacific|LBSU|-6.5||||
+MS Valley St|Oregon|+36.5|66%|34%|65%|35%
+USC|California|-7.5|68%|32%|68%|32%

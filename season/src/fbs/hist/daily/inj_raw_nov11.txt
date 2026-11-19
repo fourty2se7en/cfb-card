@@ -1,0 +1,8 @@
+# Nov 11, 2026 ~2:20 PM Phoenix. MAC posts no availability report; RotoBaller CFB news had no items for these six teams; FanDuel previews list no injuries.
+# texas222 player props posted today (source props); ESPN box score usage in qb_usage.txt and qb_gp.txt.
+Massachusetts|William Watson III|QB|AVAILABLE|props|2026-11-11
+Toledo|John Alan Richter|QB|AVAILABLE|props|2026-11-11
+Buffalo|Jason Wright|QB|AVAILABLE|props|2026-11-11
+Ball State|Keldric Luster|QB|AVAILABLE|props|2026-11-11
+Sacramento State|Jackson Sharman|QB|AVAILABLE|props|2026-11-11
+Central Michigan|Jadyn Glasser|QB|AVAILABLE|props|2026-11-11

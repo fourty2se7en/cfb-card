@@ -1,0 +1,6 @@
+Memphis|Marcus Stokes|0.96
+Louisiana|Lunch Winfield|0.95
+UL Monroe|Aidan Armenta|0.73
+Florida State|Ashton Daniels|0.98
+Houston|Conner Weigman|0.97
+Illinois|Katin Houser|0.90

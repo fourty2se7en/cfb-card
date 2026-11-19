@@ -1,0 +1,382 @@
+{
+ "ML1_2": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  }
+ },
+ "ML1_3": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Solid": {
+   "on": true,
+   "upgraded": false,
+   "downgraded": false,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": true,
+   "upgraded": false,
+   "downgraded": false,
+   "pending_on": null
+  }
+ },
+ "PL1_SA": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": true,
+   "upgraded": false,
+   "downgraded": false,
+   "pending_on": null
+  }
+ },
+ "PL1_SAM": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": true,
+   "upgraded": false,
+   "downgraded": false,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "Positive after 1 of 2 pick days needed to turn on"
+  }
+ },
+ "TOT1_DIV": {
+  "Lean": {
+   "on": true,
+   "upgraded": false,
+   "downgraded": false,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  }
+ },
+ "TOT1_BOTH": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  }
+ },
+ "NHL_REST_ML": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "Positive after 1 of 2 pick days needed to turn on"
+  }
+ },
+ "NHL_BACKUP_G_ML": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "Positive after 1 of 2 pick days needed to turn on"
+  }
+ },
+ "MODEL_ONLY_TOTAL": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  }
+ },
+ "MODEL_ONLY_MONEYLINE": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": true,
+   "upgraded": true,
+   "downgraded": false,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "Positive after 1 of 2 pick days needed to turn on"
+  }
+ },
+ "MODEL_ONLY_PUCK_LINE": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  }
+ },
+ "TOT2_2": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  }
+ },
+ "TOT2_3": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "Positive after 1 of 2 pick days needed to turn on"
+  }
+ },
+ "P1O": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Solid": {
+   "on": true,
+   "upgraded": false,
+   "downgraded": false,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  }
+ },
+ "TT1": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": true,
+   "upgraded": true,
+   "downgraded": false,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  }
+ },
+ "ML1": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  }
+ },
+ "PL1": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": true,
+   "upgraded": false,
+   "downgraded": false,
+   "pending_on": null
+  }
+ },
+ "TOT1": {
+  "Lean": {
+   "on": true,
+   "upgraded": false,
+   "downgraded": false,
+   "pending_on": null
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  }
+ },
+ "TOT2": {
+  "Lean": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  },
+  "Solid": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": null
+  },
+  "Strong": {
+   "on": false,
+   "upgraded": false,
+   "downgraded": true,
+   "pending_on": "No status record yet: turns on after 2 positive pick days"
+  }
+ }
+}

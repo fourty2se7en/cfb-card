@@ -1,0 +1,6848 @@
+{
+"2026-10-24": {
+"an": {
+"MIA-CHA": {
+"ml_open": [
+-148,
+127
+],
+"bets": 89,
+"money": 97,
+"sp_open": -3.5,
+"sp_bets": 88,
+"sp_money": 90,
+"tot_open": 232.5,
+"tot_now": "229.5",
+"o_bets": 67,
+"o_money": 65,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 3761
+},
+"BKN-CLE": {
+"ml_open": [
+350,
+-450
+],
+"bets": 6,
+"money": 4,
+"sp_open": 10.5,
+"sp_bets": 22,
+"sp_money": 15,
+"tot_open": 232.5,
+"tot_now": "228",
+"o_bets": 64,
+"o_money": 60,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3311
+},
+"MIL-PHI": {
+"ml_open": [
+457,
+-620
+],
+"bets": 6,
+"money": 13,
+"sp_open": 12.5,
+"sp_bets": 23,
+"sp_money": 20,
+"tot_open": 230.5,
+"tot_now": "235",
+"o_bets": 62,
+"o_money": 61,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 4988
+},
+"WAS-CHI": {
+"ml_open": [
+-112,
+-104
+],
+"bets": 65,
+"money": 70,
+"sp_open": -1.5,
+"sp_bets": 72,
+"sp_money": 74,
+"tot_open": 242.5,
+"tot_now": "244",
+"o_bets": 52,
+"o_money": 48,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 3014
+},
+"SAS-DAL": {
+"ml_open": [
+-480,
+370
+],
+"bets": 88,
+"money": 85,
+"sp_open": -10.5,
+"sp_bets": 45,
+"sp_money": 52,
+"tot_open": 230.5,
+"tot_now": "232",
+"o_bets": 59,
+"o_money": 70,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 3120
+},
+"HOU-ATL": {
+"ml_open": [
+-110,
+-106
+],
+"bets": 62,
+"money": 74,
+"sp_open": -1.5,
+"sp_bets": 66,
+"sp_money": 54,
+"tot_open": 230.5,
+"tot_now": "227.5",
+"o_bets": 90,
+"o_money": 89,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3009
+},
+"NOP-DEN": {
+"ml_open": [
+380,
+-490
+],
+"bets": 6,
+"money": 5,
+"sp_open": 11.5,
+"sp_bets": 36,
+"sp_money": 48,
+"tot_open": 237.5,
+"tot_now": "240",
+"o_bets": 58,
+"o_money": 56,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 2988
+},
+"GSW-PHX": {
+"ml_open": [
+168,
+-200
+],
+"bets": 33,
+"money": 46,
+"sp_open": 5.5,
+"sp_bets": 66,
+"sp_money": 58,
+"tot_open": 225.5,
+"tot_now": "221.5",
+"o_bets": 71,
+"o_money": 75,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 2297
+}
+},
+"inj": {
+"DAL": 5.0,
+"DEN": 2.5,
+"GSW": 5.0,
+"CHI": 2.0,
+"PHX": 1.5
+}
+},
+"2026-10-25": {
+"an": {
+"LAL-UTA": {
+"ml_open": [
+-250,
+202
+],
+"bets": 89,
+"money": 77,
+"sp_open": -6.5,
+"sp_bets": 73,
+"sp_money": 66,
+"tot_open": 236.5,
+"tot_now": "237.5",
+"o_bets": 85,
+"o_money": 84,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {},
+"n_bets": 6517
+},
+"IND-BKN": {
+"ml_open": [
+-250,
+200
+],
+"bets": 90,
+"money": 86,
+"sp_open": -6.5,
+"sp_bets": 47,
+"sp_money": 52,
+"tot_open": 232.5,
+"tot_now": "231.5",
+"o_bets": 82,
+"o_money": 79,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3700
+},
+"ORL-NYK": {
+"ml_open": [
+264,
+-334
+],
+"bets": 6,
+"money": 3,
+"sp_open": 8.5,
+"sp_bets": 28,
+"sp_money": 28,
+"tot_open": 224.5,
+"tot_now": "224.5",
+"o_bets": 90,
+"o_money": 86,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5462
+},
+"TOR-MIN": {
+"ml_open": [
+110,
+-130
+],
+"bets": 21,
+"money": 15,
+"sp_open": 2.5,
+"sp_bets": 26,
+"sp_money": 22,
+"tot_open": 231.5,
+"tot_now": "229",
+"o_bets": 92,
+"o_money": 88,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5523
+},
+"LAC-OKC": {
+"ml_open": [
+625,
+-950
+],
+"bets": 4,
+"money": 12,
+"sp_open": 14.5,
+"sp_bets": 32,
+"sp_money": 33,
+"tot_open": 221.5,
+"tot_now": "225",
+"o_bets": 94,
+"o_money": 94,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3781
+},
+"DET-PHI": {
+"ml_open": [
+122,
+-144
+],
+"bets": 24,
+"money": 42,
+"sp_open": 3.5,
+"sp_bets": 39,
+"sp_money": 68,
+"tot_open": 225.5,
+"tot_now": "228",
+"o_bets": 95,
+"o_money": 94,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A",
+"Big Money": "A"
+},
+"sig_tot": {},
+"n_bets": 5599
+},
+"MEM-SAC": {
+"ml_open": [
+-162,
+136
+],
+"bets": 82,
+"money": 79,
+"sp_open": -3.5,
+"sp_bets": 73,
+"sp_money": 56,
+"tot_open": 236.5,
+"tot_now": "234.5",
+"o_bets": 88,
+"o_money": 85,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 4644
+}
+},
+"inj": {
+"PHI": 5.0,
+"ORL": 5.0,
+"DET": 2.5,
+"LAC": 3.5,
+"MEM": 2.5,
+"MIN": 2.0,
+"UTA": 1.0
+}
+},
+"2026-10-26": {
+"an": {
+"WAS-CHA": {
+"ml_open": [
+120,
+-142
+],
+"bets": 46,
+"money": 51,
+"sp_open": 1.5,
+"sp_bets": 64,
+"sp_money": 60,
+"tot_open": 232.5,
+"tot_now": "228",
+"o_bets": 84,
+"o_money": 83,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 8173
+},
+"MIN-CLE": {
+"ml_open": [
+142,
+-170
+],
+"bets": 58,
+"money": 80,
+"sp_open": 4.5,
+"sp_bets": 75,
+"sp_money": 74,
+"tot_open": 232.5,
+"tot_now": "232",
+"o_bets": 83,
+"o_money": 84,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9284
+},
+"CHI-BOS": {
+"ml_open": [
+550,
+-800
+],
+"bets": 7,
+"money": 9,
+"sp_open": 13.5,
+"sp_bets": 58,
+"sp_money": 49,
+"tot_open": 232.5,
+"tot_now": "232.5",
+"o_bets": 66,
+"o_money": 65,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6220
+},
+"DAL-MIA": {
+"ml_open": [
+235,
+-290
+],
+"bets": 12,
+"money": 12,
+"sp_open": 8.5,
+"sp_bets": 66,
+"sp_money": 64,
+"tot_open": 233.5,
+"tot_now": "241",
+"o_bets": 53,
+"o_money": 55,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {},
+"n_bets": 8209
+},
+"IND-MIL": {
+"ml_open": [
+-175,
+145
+],
+"bets": 83,
+"money": 82,
+"sp_open": -4.5,
+"sp_bets": 62,
+"sp_money": 63,
+"tot_open": 240.5,
+"tot_now": "238.5",
+"o_bets": 82,
+"o_money": 81,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 4892
+},
+"ATL-HOU": {
+"ml_open": [
+180,
+-218
+],
+"bets": 11,
+"money": 9,
+"sp_open": 5.5,
+"sp_bets": 31,
+"sp_money": 45,
+"tot_open": 228.5,
+"tot_now": "229.5",
+"o_bets": 85,
+"o_money": 85,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6300
+},
+"MEM-UTA": {
+"ml_open": [
+100,
+-118
+],
+"bets": 51,
+"money": 33,
+"sp_open": 1.5,
+"sp_bets": 55,
+"sp_money": 56,
+"tot_open": 238.5,
+"tot_now": "238",
+"o_bets": 70,
+"o_money": 71,
+"sig_ml": {
+"Big Money": "H"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5811
+},
+"GSW-DEN": {
+"ml_open": [
+235,
+-290
+],
+"bets": 11,
+"money": 16,
+"sp_open": 5.5,
+"sp_bets": 37,
+"sp_money": 43,
+"tot_open": 231.5,
+"tot_now": "236.5",
+"o_bets": 75,
+"o_money": 76,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6356
+}
+},
+"inj": {
+"CHA": 4.5,
+"DAL": 3.5,
+"GSW": 4.0,
+"CHI": 2.0,
+"HOU": 2.0,
+"MIN": 2.0,
+"WAS": 2.0,
+"UTA": 1.0
+}
+},
+"2026-10-27": {
+"an": {
+"BKN-BOS": {
+"ml_open": [
+425,
+-575
+],
+"bets": 4,
+"money": 4,
+"sp_open": 11.5,
+"sp_bets": 22,
+"sp_money": 19,
+"tot_open": 219.5,
+"tot_now": "222.5",
+"o_bets": 90,
+"o_money": 91,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 13252
+},
+"DET-NYK": {
+"ml_open": [
+144,
+-170
+],
+"bets": 42,
+"money": 36,
+"sp_open": 4.5,
+"sp_bets": 68,
+"sp_money": 56,
+"tot_open": 218.5,
+"tot_now": "219.5",
+"o_bets": 69,
+"o_money": 70,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 16958
+},
+"SAC-SAS": {
+"ml_open": [
+1000,
+-1800
+],
+"bets": 5,
+"money": 24,
+"sp_open": 18.5,
+"sp_bets": 44,
+"sp_money": 41,
+"tot_open": 230.5,
+"tot_now": "232.5",
+"o_bets": 63,
+"o_money": 65,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 11359
+},
+"POR-LAL": {
+"ml_open": [
+122,
+-148
+],
+"bets": 24,
+"money": 31,
+"sp_open": 3.5,
+"sp_bets": 29,
+"sp_money": 31,
+"tot_open": 235.5,
+"tot_now": "233.5",
+"o_bets": 84,
+"o_money": 81,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 16312
+}
+},
+"inj": {
+"POR": 3.0,
+"DET": 2.5,
+"SAC": 2.0,
+"SAS": 1.5
+}
+},
+"2026-10-28": {
+"an": {
+"MIA-ATL": {
+"ml_open": [
+126,
+-148
+],
+"bets": 38,
+"money": 67,
+"sp_open": 3.5,
+"sp_bets": 54,
+"sp_money": 65,
+"tot_open": 239.5,
+"tot_now": "242",
+"o_bets": 71,
+"o_money": 72,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 10647
+},
+"WAS-CLE": {
+"ml_open": [
+290,
+-360
+],
+"bets": 7,
+"money": 27,
+"sp_open": 9.5,
+"sp_bets": 31,
+"sp_money": 31,
+"tot_open": 238.5,
+"tot_now": "240",
+"o_bets": 77,
+"o_money": 76,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9976
+},
+"CHA-DET": {
+"ml_open": [
+245,
+-305
+],
+"bets": 8,
+"money": 8,
+"sp_open": 7.5,
+"sp_bets": 22,
+"sp_money": 19,
+"tot_open": 216,
+"tot_now": "213",
+"o_bets": 86,
+"o_money": 86,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7199
+},
+"PHI-IND": {
+"ml_open": [
+-126,
+108
+],
+"bets": 88,
+"money": 93,
+"sp_open": -1.5,
+"sp_bets": 77,
+"sp_money": 79,
+"tot_open": 237.5,
+"tot_now": "233.5",
+"o_bets": 76,
+"o_money": 69,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 12258
+},
+"ORL-TOR": {
+"ml_open": [
+145,
+-175
+],
+"bets": 16,
+"money": 12,
+"sp_open": 4.5,
+"sp_bets": 26,
+"sp_money": 26,
+"tot_open": 223.5,
+"tot_now": "224.5",
+"o_bets": 88,
+"o_money": 79,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 8178
+},
+"NYK-CHI": {
+"ml_open": [
+-270,
+220
+],
+"bets": 94,
+"money": 98,
+"sp_open": -7.5,
+"sp_bets": 78,
+"sp_money": 77,
+"tot_open": 234.5,
+"tot_now": "232",
+"o_bets": 79,
+"o_money": 73,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7345
+},
+"HOU-MIL": {
+"ml_open": [
+-290,
+235
+],
+"bets": 95,
+"money": 95,
+"sp_open": -8.5,
+"sp_bets": 72,
+"sp_money": 67,
+"tot_open": 226.5,
+"tot_now": "225.5",
+"o_bets": 91,
+"o_money": 91,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6472
+},
+"GSW-MIN": {
+"ml_open": [
+181,
+-217
+],
+"bets": 24,
+"money": 45,
+"sp_open": 5.5,
+"sp_bets": 35,
+"sp_money": 42,
+"tot_open": 227.5,
+"tot_now": "227.5",
+"o_bets": 90,
+"o_money": 89,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7830
+},
+"DEN-NOP": {
+"ml_open": [
+-210,
+176
+],
+"bets": 91,
+"money": 95,
+"sp_open": -5.5,
+"sp_bets": 54,
+"sp_money": 48,
+"tot_open": 239.5,
+"tot_now": "241",
+"o_bets": 80,
+"o_money": 78,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 8284
+},
+"SAS-UTA": {
+"ml_open": [
+-520,
+400
+],
+"bets": 97,
+"money": 95,
+"sp_open": -11.5,
+"sp_bets": 66,
+"sp_money": 72,
+"tot_open": 234.5,
+"tot_now": "233.5",
+"o_bets": 84,
+"o_money": 84,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5200
+},
+"OKC-DAL": {
+"ml_open": [
+-225,
+188
+],
+"bets": 88,
+"money": 79,
+"sp_open": -6.5,
+"sp_bets": 66,
+"sp_money": 63,
+"tot_open": 230.5,
+"tot_now": "227.5",
+"o_bets": 82,
+"o_money": 78,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5568
+},
+"LAL-LAC": {
+"ml_open": [
+-196,
+164
+],
+"bets": 91,
+"money": 86,
+"sp_open": -5.5,
+"sp_bets": 63,
+"sp_money": 55,
+"tot_open": 227.5,
+"tot_now": "228.5",
+"o_bets": 80,
+"o_money": 83,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5503
+}
+},
+"inj": {
+"CHA": 4.5,
+"IND": 6.0,
+"HOU": 5.5,
+"MIN": 6.0,
+"OKC": 6.0,
+"ORL": 6.0,
+"TOR": 4.5,
+"UTA": 4.0,
+"LAC": 4.5,
+"GSW": 4.0,
+"DET": 3.0,
+"DAL": 2.5,
+"CHI": 2.0,
+"NOP": 1.5,
+"SAS": 1.5
+}
+},
+"2026-10-29": {
+"an": {
+"GSV-ATD": {
+"ml_open": [
+145,
+-175
+],
+"bets": 20,
+"money": 55,
+"sp_open": 4.5,
+"sp_bets": 52,
+"sp_money": 76,
+"tot_open": 147.5,
+"tot_now": "147.5",
+"o_bets": 54,
+"o_money": 52,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 6457
+},
+"CLE-ATL": {
+"ml_open": [
+-110,
+-110
+],
+"bets": 65,
+"money": 55,
+"sp_open": 1.5,
+"sp_bets": 54,
+"sp_money": 50,
+"tot_open": 239.5,
+"tot_now": "238",
+"o_bets": 75,
+"o_money": 74,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5841
+},
+"SAC-NOP": {
+"ml_open": [
+160,
+-192
+],
+"bets": 18,
+"money": 19,
+"sp_open": 5.5,
+"sp_bets": 26,
+"sp_money": 24,
+"tot_open": 237.5,
+"tot_now": "236",
+"o_bets": 49,
+"o_money": 47,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5392
+},
+"MEM-POR": {
+"ml_open": [
+240,
+-295
+],
+"bets": 12,
+"money": 18,
+"sp_open": 8.5,
+"sp_bets": 24,
+"sp_money": 24,
+"tot_open": 233.5,
+"tot_now": "232.5",
+"o_bets": 78,
+"o_money": 79,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 8456
+}
+},
+"inj": {
+"ATD": 1.5,
+"SAC": 2.5,
+"POR": 3.0
+},
+"dk": {},
+"t222": {
+"GSV-ATD": {
+"sp_a": 5.0,
+"tot": 147.5,
+"ml_a": 160,
+"ml_h": -200
+},
+"CLE-ATL": {
+"sp_a": 1.0,
+"tot": 238.0,
+"ml_a": 100,
+"ml_h": -120
+},
+"SAC-NOP": {
+"sp_a": 6.0,
+"tot": 236.0,
+"ml_a": 190,
+"ml_h": -235
+},
+"MEM-POR": {
+"sp_a": 7.5,
+"tot": 232.5,
+"ml_a": 230,
+"ml_h": -290
+}
+}
+},
+"2026-10-30": {
+"an": {
+"CHA-WAS": {
+"ml_open": [
+-112,
+-107
+],
+"bets": 31,
+"money": 12,
+"sp_open": -1.5,
+"sp_bets": 42,
+"sp_money": 34,
+"tot_open": 235.5,
+"tot_now": "219",
+"o_bets": 84,
+"o_money": 86,
+"sig_ml": {
+"Big Money": "H"
+},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 9945
+},
+"CHI-BOS": {
+"ml_open": [
+437,
+-587
+],
+"bets": 4,
+"money": 17,
+"sp_open": 11.5,
+"sp_bets": 50,
+"sp_money": 52,
+"tot_open": 232.5,
+"tot_now": "235.5",
+"o_bets": 79,
+"o_money": 80,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 5482
+},
+"DET-BKN": {
+"ml_open": [
+-312,
+252
+],
+"bets": 94,
+"money": 90,
+"sp_open": -7.5,
+"sp_bets": 69,
+"sp_money": 63,
+"tot_open": 225.5,
+"tot_now": "222",
+"o_bets": 82,
+"o_money": 73,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6068
+},
+"NYK-PHI": {
+"ml_open": [
+106,
+-126
+],
+"bets": 40,
+"money": 25,
+"sp_open": 1.5,
+"sp_bets": 38,
+"sp_money": 42,
+"tot_open": 231.5,
+"tot_now": "227.5",
+"o_bets": 78,
+"o_money": 66,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 11561
+},
+"ORL-TOR": {
+"ml_open": [
+124,
+-148
+],
+"bets": 8,
+"money": 6,
+"sp_open": 3.5,
+"sp_bets": 16,
+"sp_money": 15,
+"tot_open": 226.5,
+"tot_now": "227",
+"o_bets": 86,
+"o_money": 88,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6659
+},
+"IND-MIA": {
+"ml_open": [
+132,
+-157
+],
+"bets": 12,
+"money": 13,
+"sp_open": 3.5,
+"sp_bets": 53,
+"sp_money": 60,
+"tot_open": 241.5,
+"tot_now": "237",
+"o_bets": 82,
+"o_money": 79,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6038
+},
+"HOU-DAL": {
+"ml_open": [
+-168,
+142
+],
+"bets": 85,
+"money": 69,
+"sp_open": -4.5,
+"sp_bets": 59,
+"sp_money": 65,
+"tot_open": 226.5,
+"tot_now": "224",
+"o_bets": 91,
+"o_money": 91,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 6709
+},
+"LAC-MIN": {
+"ml_open": [
+245,
+-305
+],
+"bets": 7,
+"money": 14,
+"sp_open": 9.5,
+"sp_bets": 35,
+"sp_money": 36,
+"tot_open": 230.5,
+"tot_now": "223.5",
+"o_bets": 83,
+"o_money": 83,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5417
+},
+"LAL-GSW": {
+"ml_open": [
+-110,
+-110
+],
+"bets": 68,
+"money": 58,
+"sp_open": 1.5,
+"sp_bets": 57,
+"sp_money": 63,
+"tot_open": 236.5,
+"tot_now": "234",
+"o_bets": 82,
+"o_money": 81,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 8007
+},
+"DEN-PHX": {
+"ml_open": [
+-133,
+113
+],
+"bets": 89,
+"money": 82,
+"sp_open": -2.5,
+"sp_bets": 71,
+"sp_money": 73,
+"tot_open": 233.5,
+"tot_now": "231",
+"o_bets": 87,
+"o_money": 87,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 4998
+}
+},
+"inj": {
+"CHA": 5.0,
+"CHI": 2.0,
+"DET": 3.0,
+"BKN": 2.0,
+"ORL": 7.0,
+"TOR": 5.0,
+"IND": 5.0,
+"HOU": 3.0,
+"DAL": 3.0,
+"LAC": 6.0,
+"MIN": 7.0,
+"GSW": 6.0,
+"DEN": 2.5,
+"PHX": 2.5
+},
+"dk": {
+"CHA-WAS": {
+"sp_open_a": -1.5,
+"sp_now_a": -1.5,
+"tot_open": 234.5,
+"tot_now": 218.5
+},
+"CHI-BOS": {
+"sp_open_a": 11.5,
+"sp_now_a": 14.5,
+"tot_open": 232.5,
+"tot_now": 235.5
+},
+"DET-BKN": {
+"sp_open_a": -7.5,
+"sp_now_a": -8.5,
+"tot_open": 226.5,
+"tot_now": 222.5
+},
+"NYK-PHI": {
+"sp_open_a": 1.5,
+"sp_now_a": -1.5,
+"tot_open": 231.5,
+"tot_now": 226.5
+},
+"ORL-TOR": {
+"sp_open_a": 3.5,
+"sp_now_a": 5.5,
+"tot_open": 226.5,
+"tot_now": 227.5
+},
+"IND-MIA": {
+"sp_open_a": -3.5,
+"sp_now_a": 8.5,
+"tot_open": 240.5,
+"tot_now": 237.5
+},
+"HOU-DAL": {
+"sp_open_a": 4.5,
+"sp_now_a": -6.5,
+"tot_open": 225.5,
+"tot_now": 224.5
+},
+"LAC-MIN": {
+"sp_open_a": 9.5,
+"sp_now_a": 6.5,
+"tot_open": 230.5,
+"tot_now": 223.5
+},
+"LAL-GSW": {
+"sp_open_a": -1.5,
+"sp_now_a": -3.5,
+"tot_open": 234.5,
+"tot_now": 234.5
+},
+"DEN-PHX": {
+"sp_open_a": -2.5,
+"sp_now_a": -4.5,
+"tot_open": 233.5,
+"tot_now": 231.5
+}
+},
+"t222": {
+"CHA-WAS": {
+"sp_a": -1.0,
+"tot": 219.0,
+"ml_a": -120,
+"ml_h": 100
+},
+"CHI-BOS": {
+"sp_a": 15.0,
+"tot": 235.5,
+"ml_a": 555,
+"ml_h": -905
+},
+"DET-BKN": {
+"sp_a": -8.0,
+"tot": 222.0,
+"ml_a": -310,
+"ml_h": 245
+},
+"NYK-PHI": {
+"sp_a": -2.0,
+"tot": 227.5,
+"ml_a": -140,
+"ml_h": 120
+},
+"ORL-TOR": {
+"sp_a": 5.5,
+"tot": 227.0,
+"ml_a": 170,
+"ml_h": -210
+},
+"IND-MIA": {
+"sp_a": 8.5,
+"tot": 237.0,
+"ml_a": 255,
+"ml_h": -325
+},
+"HOU-DAL": {
+"sp_a": -6.5,
+"tot": 224.0,
+"ml_a": -240,
+"ml_h": 195
+},
+"LAC-MIN": {
+"sp_a": 7.0,
+"tot": 223.5,
+"ml_a": 210,
+"ml_h": -265
+},
+"LAL-GSW": {
+"sp_a": -3.0,
+"tot": 234.0,
+"ml_a": -150,
+"ml_h": 130
+},
+"DEN-PHX": {
+"sp_a": -4.0,
+"tot": 231.0,
+"ml_a": -175,
+"ml_h": 150
+}
+}
+},
+"2026-10-31": {
+"an": {
+"POR-UTA": {
+"ml_open": [
+-235,
+194
+],
+"bets": 88,
+"money": 87,
+"sp_open": -6.5,
+"sp_bets": 81,
+"sp_money": 74,
+"tot_open": 233.5,
+"tot_now": "232",
+"o_bets": 76,
+"o_money": 77,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 2206
+},
+"PHI-CHA": {
+"ml_open": [
+-120,
+100
+],
+"bets": 89,
+"money": 95,
+"sp_open": -1.5,
+"sp_bets": 97,
+"sp_money": 97,
+"tot_open": 217.5,
+"tot_now": "215.5",
+"o_bets": 69,
+"o_money": 67,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1630
+},
+"ATL-NOP": {
+"ml_open": [
+-155,
+130
+],
+"bets": 84,
+"money": 90,
+"sp_open": -3.5,
+"sp_bets": 79,
+"sp_money": 84,
+"tot_open": 238.5,
+"tot_now": "241.5",
+"o_bets": 52,
+"o_money": 52,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 1635
+},
+"SAC-MEM": {
+"ml_open": [
+340,
+-440
+],
+"bets": 9,
+"money": 23,
+"sp_open": 10.5,
+"sp_bets": 26,
+"sp_money": 51,
+"tot_open": 234.5,
+"tot_now": "231.5",
+"o_bets": 82,
+"o_money": 83,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A",
+"Big Money": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1494
+},
+"CLE-MIL": {
+"ml_open": [
+-347,
+277
+],
+"bets": 92,
+"money": 93,
+"sp_open": -9.5,
+"sp_bets": 70,
+"sp_money": 49,
+"tot_open": 236.5,
+"tot_now": "237.5",
+"o_bets": 74,
+"o_money": 73,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H",
+"Big Money": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1373
+},
+"MIN-SAS": {
+"ml_open": [
+441,
+-550
+],
+"bets": 14,
+"money": 65,
+"sp_open": 11.5,
+"sp_bets": 64,
+"sp_money": 50,
+"tot_open": 226.5,
+"tot_now": "226.5",
+"o_bets": 92,
+"o_money": 91,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1201
+},
+"OKC-HOU": {
+"ml_open": [
+146,
+-174
+],
+"bets": 35,
+"money": 19,
+"sp_open": 4.5,
+"sp_bets": 31,
+"sp_money": 22,
+"tot_open": 218.5,
+"tot_now": "218.5",
+"o_bets": 93,
+"o_money": 91,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1277
+}
+},
+"inj": {
+"POR": 5.5,
+"UTA": 6.0,
+"CHA": 5.0,
+"NOP": 3.0,
+"SAC": 3.0,
+"MIN": 7.0,
+"SAS": 2.0,
+"OKC": 8.0,
+"HOU": 1.0
+},
+"dk": {
+"POR-UTA": {
+"sp_open_a": -6.5,
+"sp_now_a": -7.5,
+"tot_open": 232.5,
+"tot_now": 232.5
+},
+"PHI-CHA": {
+"sp_open_a": -1.5,
+"sp_now_a": -1.5,
+"tot_open": 216.5,
+"tot_now": 215.5
+},
+"ATL-NOP": {
+"sp_open_a": -3.5,
+"sp_now_a": -4.5,
+"tot_open": 239.5,
+"tot_now": 240.5
+},
+"SAC-MEM": {
+"sp_open_a": 10.5,
+"sp_now_a": 10.5,
+"tot_open": 234.5,
+"tot_now": 231.5
+},
+"CLE-MIL": {
+"sp_open_a": -9.5,
+"sp_now_a": -8.5,
+"tot_open": 236.5,
+"tot_now": 237.5
+},
+"MIN-SAS": {
+"sp_open_a": 11.5,
+"sp_now_a": 12.5,
+"tot_open": 227.5,
+"tot_now": 227.5
+},
+"OKC-HOU": {
+"sp_open_a": 4.5,
+"sp_now_a": 3.5,
+"tot_open": 218.5,
+"tot_now": 218.5
+}
+},
+"t222": {
+"POR-UTA": {
+"sp_a": -7.0,
+"tot": 232.0,
+"ml_a": -285,
+"ml_h": 225
+},
+"PHI-CHA": {
+"sp_a": -1.5,
+"tot": 215.5,
+"ml_a": -125,
+"ml_h": 105
+},
+"ATL-NOP": {
+"sp_a": -4.0,
+"tot": 241.5,
+"ml_a": -180,
+"ml_h": 155
+},
+"SAC-MEM": {
+"sp_a": 10.0,
+"tot": 231.5,
+"ml_a": 345,
+"ml_h": -460
+},
+"CLE-MIL": {
+"sp_a": -8.5,
+"tot": 237.5,
+"ml_a": -345,
+"ml_h": 270
+},
+"MIN-SAS": {
+"sp_a": 12.5,
+"tot": 226.5,
+"ml_a": 430,
+"ml_h": -605
+},
+"OKC-HOU": {
+"sp_a": 2.0,
+"tot": 218.5,
+"ml_a": 130,
+"ml_h": -150
+}
+}
+},
+"2026-11-01": {
+"an": {
+"BOS-ORL": {
+"ml_open": [
+-275,
+220
+],
+"bets": 92,
+"money": 90,
+"sp_open": -6.5,
+"sp_bets": 77,
+"sp_money": 78,
+"tot_open": 223.5,
+"tot_now": "222.5",
+"o_bets": 87,
+"o_money": 86,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 4967
+},
+"BKN-IND": {
+"ml_open": [
+155,
+-190
+],
+"bets": 15,
+"money": 29,
+"sp_open": 4.5,
+"sp_bets": 25,
+"sp_money": 30,
+"tot_open": 230.5,
+"tot_now": "230.5",
+"o_bets": 75,
+"o_money": 75,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3872
+},
+"LAC-GSW": {
+"ml_open": [
+110,
+-130
+],
+"bets": 17,
+"money": 36,
+"sp_open": 1.5,
+"sp_bets": 22,
+"sp_money": 25,
+"tot_open": 219.5,
+"tot_now": "221",
+"o_bets": 75,
+"o_money": 75,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3125
+},
+"TOR-LAL": {
+"ml_open": [
+154,
+-190
+],
+"bets": 14,
+"money": 24,
+"sp_open": 4.5,
+"sp_bets": 22,
+"sp_money": 25,
+"tot_open": 227.5,
+"tot_now": "225.5",
+"o_bets": 79,
+"o_money": 78,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3609
+}
+},
+"inj": {
+"BOS": 1.0,
+"ORL": 7.0,
+"BKN": 3.0,
+"IND": 5.0,
+"LAC": 3.5,
+"GSW": 10.0,
+"TOR": 5.0
+},
+"dk": {
+"BOS-ORL": {
+"sp_open_a": -6.5,
+"sp_now_a": -6.5,
+"tot_open": 222.5,
+"tot_now": 220.5
+},
+"BKN-IND": {
+"sp_open_a": 4.5,
+"sp_now_a": 3.5,
+"tot_open": 230.5,
+"tot_now": 231.5
+},
+"LAC-GSW": {
+"sp_open_a": 2.5,
+"sp_now_a": 2.5,
+"tot_open": 219.5,
+"tot_now": 222.5
+},
+"TOR-LAL": {
+"sp_open_a": 4.5,
+"sp_now_a": 2.5,
+"tot_open": 227.5,
+"tot_now": 225.5
+}
+},
+"t222": {
+"BOS-ORL": {
+"sp_a": -6.5,
+"tot": 222.5,
+"ml_a": -255,
+"ml_h": 205
+},
+"BKN-IND": {
+"sp_a": 3.5,
+"tot": 230.5,
+"ml_a": 150,
+"ml_h": -170
+},
+"LAC-GSW": {
+"sp_a": 2.5,
+"tot": 221.0,
+"ml_a": 120,
+"ml_h": -140
+},
+"TOR-LAL": {
+"sp_a": 3.0,
+"tot": 225.5,
+"ml_a": 135,
+"ml_h": -155
+}
+}
+},
+"2026-11-02": {
+"an": {
+"OKC-CLE": {
+"ml_open": [
+142,
+-168
+],
+"bets": 23,
+"money": 69,
+"sp_open": 3.5,
+"sp_bets": 7,
+"sp_money": 7,
+"tot_open": 227.5,
+"tot_now": "229.5",
+"o_bets": 86,
+"o_money": 86,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3569
+},
+"DET-CHA": {
+"ml_open": [
+-180,
+150
+],
+"bets": 91,
+"money": 96,
+"sp_open": -4.5,
+"sp_bets": 97,
+"sp_money": 96,
+"tot_open": 208.5,
+"tot_now": "210.5",
+"o_bets": 28,
+"o_money": 47,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Big Money": "O"
+},
+"n_bets": 3019
+},
+"ATL-IND": {
+"ml_open": [
+-230,
+190
+],
+"bets": 83,
+"money": 92,
+"sp_open": -6.5,
+"sp_bets": 81,
+"sp_money": 85,
+"tot_open": 234.5,
+"tot_now": "232",
+"o_bets": 80,
+"o_money": 80,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1534
+},
+"BKN-NYK": {
+"ml_open": [
+575,
+-850
+],
+"bets": 5,
+"money": 12,
+"sp_open": 14.5,
+"sp_bets": 45,
+"sp_money": 45,
+"tot_open": 222.5,
+"tot_now": "220",
+"o_bets": 53,
+"o_money": 57,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 2756
+},
+"WAS-ORL": {
+"ml_open": [
+100,
+-120
+],
+"bets": 51,
+"money": 69,
+"sp_open": 1.5,
+"sp_bets": 62,
+"sp_money": 66,
+"tot_open": 226.5,
+"tot_now": "225.5",
+"o_bets": 82,
+"o_money": 79,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 2342
+},
+"CHI-PHI": {
+"ml_open": [
+470,
+-650
+],
+"bets": 4,
+"money": 10,
+"sp_open": 11.5,
+"sp_bets": 23,
+"sp_money": 22,
+"tot_open": 239.5,
+"tot_now": "239",
+"o_bets": 66,
+"o_money": 61,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 2943
+},
+"SAC-DAL": {
+"ml_open": [
+310,
+-390
+],
+"bets": 1,
+"money": 4,
+"sp_open": 9.5,
+"sp_bets": 13,
+"sp_money": 13,
+"tot_open": 234.5,
+"tot_now": "233",
+"o_bets": 80,
+"o_money": 76,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1837
+},
+"NOP-MEM": {
+"ml_open": [
+205,
+-250
+],
+"bets": 12,
+"money": 12,
+"sp_open": 6.5,
+"sp_bets": 24,
+"sp_money": 36,
+"tot_open": 235.5,
+"tot_now": "233",
+"o_bets": 84,
+"o_money": 85,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 2998
+},
+"MIL-MIN": {
+"ml_open": [
+295,
+-375
+],
+"bets": 5,
+"money": 8,
+"sp_open": 11,
+"sp_bets": 32,
+"sp_money": 37,
+"tot_open": 233.5,
+"tot_now": "234",
+"o_bets": 75,
+"o_money": 74,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 2069
+},
+"BOS-HOU": {
+"ml_open": [
+154,
+-185
+],
+"bets": 31,
+"money": 31,
+"sp_open": 5.5,
+"sp_bets": 52,
+"sp_money": 47,
+"tot_open": 218.5,
+"tot_now": "218.5",
+"o_bets": 95,
+"o_money": 96,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 2428
+},
+"UTA-SAS": {
+"ml_open": [
+550,
+-800
+],
+"bets": 1,
+"money": 9,
+"sp_open": 15.5,
+"sp_bets": 39,
+"sp_money": 35,
+"tot_open": 229.5,
+"tot_now": "229.5",
+"o_bets": 79,
+"o_money": 76,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1696
+},
+"POR-DEN": {
+"ml_open": [
+136,
+-162
+],
+"bets": 21,
+"money": 36,
+"sp_open": 4.5,
+"sp_bets": 37,
+"sp_money": 31,
+"tot_open": 231.5,
+"tot_now": "231",
+"o_bets": 89,
+"o_money": 88,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 2504
+},
+"PHX-GSW": {
+"ml_open": [
+148,
+-176
+],
+"bets": 17,
+"money": 20,
+"sp_open": 4.5,
+"sp_bets": 38,
+"sp_money": 49,
+"tot_open": 227.5,
+"tot_now": "228",
+"o_bets": 90,
+"o_money": 89,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 1454
+},
+"TOR-LAC": {
+"ml_open": [
+-198,
+164
+],
+"bets": 90,
+"money": 97,
+"sp_open": -5.5,
+"sp_bets": 88,
+"sp_money": 89,
+"tot_open": 219.5,
+"tot_now": "221.5",
+"o_bets": 85,
+"o_money": 69,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {},
+"n_bets": 989
+},
+"MIA-LAL": {
+"ml_open": [
+100,
+-120
+],
+"bets": 33,
+"money": 47,
+"sp_open": 1.5,
+"sp_bets": 47,
+"sp_money": 52,
+"tot_open": 239.5,
+"tot_now": "237",
+"o_bets": 81,
+"o_money": 82,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1570
+}
+},
+"inj": {
+"OKC": 8.0,
+"DET": 3.5,
+"CHA": 3.5,
+"ATL": 1.5,
+"IND": 5.0,
+"BKN": 2.0,
+"ORL": 7.0,
+"CHI": 2.0,
+"SAC": 3.0,
+"DAL": 3.0,
+"NOP": 3.0,
+"MIN": 7.0,
+"HOU": 1.0,
+"UTA": 6.0,
+"SAS": 2.0,
+"POR": 5.5,
+"PHX": 2.5,
+"GSW": 6.5,
+"TOR": 5.0,
+"LAC": 6.0
+},
+"dk": {
+"OKC-CLE": {
+"sp_open_a": 4.5,
+"sp_now_a": 3.5,
+"tot_open": 226.5,
+"tot_now": 229.5
+},
+"DET-CHA": {
+"sp_open_a": -4.5,
+"sp_now_a": -5.5,
+"tot_open": 208.5,
+"tot_now": 210.5
+},
+"ATL-IND": {
+"sp_open_a": -7.5,
+"sp_now_a": -5.5,
+"tot_open": 234.5,
+"tot_now": 231.5
+},
+"BKN-NYK": {
+"sp_open_a": 14.5,
+"sp_now_a": 14.5,
+"tot_open": 222.5,
+"tot_now": 219.5
+},
+"WAS-ORL": {
+"sp_open_a": 1.5,
+"sp_now_a": 2.5,
+"tot_open": 226.5,
+"tot_now": 225.5
+},
+"CHI-PHI": {
+"sp_open_a": 11.5,
+"sp_now_a": 10.5,
+"tot_open": 239.5,
+"tot_now": 238.5
+},
+"SAC-DAL": {
+"sp_open_a": 9.5,
+"sp_now_a": 10.5,
+"tot_open": 234.5,
+"tot_now": 232.5
+},
+"NOP-MEM": {
+"sp_open_a": 6.5,
+"sp_now_a": 5.5,
+"tot_open": 235.5,
+"tot_now": 233.5
+},
+"MIL-MIN": {
+"sp_open_a": 10.5,
+"sp_now_a": 10.5,
+"tot_open": 233.5,
+"tot_now": 233.5
+},
+"BOS-HOU": {
+"sp_open_a": 5.5,
+"sp_now_a": 4.5,
+"tot_open": 218.5,
+"tot_now": 218.5
+},
+"UTA-SAS": {
+"sp_open_a": 15.5,
+"sp_now_a": 15.5,
+"tot_open": 229.5,
+"tot_now": 229.5
+},
+"POR-DEN": {
+"sp_open_a": 4.5,
+"sp_now_a": 4.5,
+"tot_open": 231.5,
+"tot_now": 231.5
+},
+"PHX-GSW": {
+"sp_open_a": 4.5,
+"sp_now_a": 2.5,
+"tot_open": 227.5,
+"tot_now": 228.5
+},
+"TOR-LAC": {
+"sp_open_a": -5.5,
+"sp_now_a": -4.5,
+"tot_open": 220.5,
+"tot_now": 221.5
+},
+"MIA-LAL": {
+"sp_open_a": 1.5,
+"sp_now_a": 1.5,
+"tot_open": 239.5,
+"tot_now": 236.5
+}
+},
+"t222": {
+"OKC-CLE": {
+"sp_a": 4.0,
+"tot": 229.5,
+"ml_a": 155,
+"ml_h": -180
+},
+"DET-CHA": {
+"sp_a": -4.5,
+"tot": 210.5,
+"ml_a": -190,
+"ml_h": 160
+},
+"ATL-IND": {
+"sp_a": -5.0,
+"tot": 232.0,
+"ml_a": -205,
+"ml_h": 170
+},
+"BKN-NYK": {
+"sp_a": 15.0,
+"tot": 220.0,
+"ml_a": 555,
+"ml_h": -905
+},
+"WAS-ORL": {
+"sp_a": 2.5,
+"tot": 225.5,
+"ml_a": 135,
+"ml_h": -155
+},
+"CHI-PHI": {
+"sp_a": 11.0,
+"tot": 239.0,
+"ml_a": 395,
+"ml_h": -535
+},
+"SAC-DAL": {
+"sp_a": 10.5,
+"tot": 233.0,
+"ml_a": 330,
+"ml_h": -430
+},
+"NOP-MEM": {
+"sp_a": 4.5,
+"tot": 233.0,
+"ml_a": 160,
+"ml_h": -195
+},
+"MIL-MIN": {
+"sp_a": 11.0,
+"tot": 234.0,
+"ml_a": 355,
+"ml_h": -480
+},
+"BOS-HOU": {
+"sp_a": 5.0,
+"tot": 218.5,
+"ml_a": 160,
+"ml_h": -195
+},
+"UTA-SAS": {
+"sp_a": 16.0,
+"tot": 229.5,
+"ml_a": 655,
+"ml_h": -1155
+},
+"POR-DEN": {
+"sp_a": 4.0,
+"tot": 231.0,
+"ml_a": 155,
+"ml_h": -175
+},
+"PHX-GSW": {
+"sp_a": 3.0,
+"tot": 228.0,
+"ml_a": 130,
+"ml_h": -150
+},
+"TOR-LAC": {
+"sp_a": -5.0,
+"tot": 221.5,
+"ml_a": -205,
+"ml_h": 170
+},
+"MIA-LAL": {
+"sp_a": 1.5,
+"tot": 237.0,
+"ml_a": 110,
+"ml_h": -130
+}
+}
+},
+"2026-11-04": {
+"an": {
+"PHI-DET": {
+"ml_open": [
+106,
+-124
+],
+"bets": 67,
+"money": 76,
+"sp_open": 1.5,
+"sp_bets": 74,
+"sp_money": 61,
+"tot_open": 219.5,
+"tot_now": "220",
+"o_bets": 75,
+"o_money": 72,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 17281
+},
+"ATL-WAS": {
+"ml_open": [
+-127,
+107
+],
+"bets": 52,
+"money": 39,
+"sp_open": -1.5,
+"sp_bets": 34,
+"sp_money": 39,
+"tot_open": 234.5,
+"tot_now": "231",
+"o_bets": 61,
+"o_money": 50,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 11909
+},
+"MIL-BOS": {
+"ml_open": [
+700,
+-1100
+],
+"bets": 4,
+"money": 4,
+"sp_open": 14.5,
+"sp_bets": 23,
+"sp_money": 48,
+"tot_open": 225.5,
+"tot_now": "221.5",
+"o_bets": 77,
+"o_money": 56,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A",
+"Big Money": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"Big Money": "U"
+},
+"n_bets": 9961
+},
+"CHA-BKN": {
+"ml_open": [
+-136,
+115
+],
+"bets": 76,
+"money": 75,
+"sp_open": -2.5,
+"sp_bets": 64,
+"sp_money": 71,
+"tot_open": 214.5,
+"tot_now": "212.5",
+"o_bets": 77,
+"o_money": 71,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9269
+},
+"CHI-NYK": {
+"ml_open": [
+466,
+-640
+],
+"bets": 4,
+"money": 6,
+"sp_open": 12.5,
+"sp_bets": 26,
+"sp_money": 27,
+"tot_open": 232.5,
+"tot_now": "233.5",
+"o_bets": 62,
+"o_money": 66,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 8007
+},
+"IND-MEM": {
+"ml_open": [
+205,
+-250
+],
+"bets": 10,
+"money": 14,
+"sp_open": 5.5,
+"sp_bets": 23,
+"sp_money": 14,
+"tot_open": 230.5,
+"tot_now": "228",
+"o_bets": 76,
+"o_money": 76,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7143
+},
+"UTA-NOP": {
+"ml_open": [
+168,
+-200
+],
+"bets": 12,
+"money": 10,
+"sp_open": 4.5,
+"sp_bets": 18,
+"sp_money": 19,
+"tot_open": 235.5,
+"tot_now": "232",
+"o_bets": 65,
+"o_money": 68,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7482
+},
+"CLE-OKC": {
+"ml_open": [
+110,
+-130
+],
+"bets": 32,
+"money": 33,
+"sp_open": 2.5,
+"sp_bets": 46,
+"sp_money": 48,
+"tot_open": 229.5,
+"tot_now": "226.5",
+"o_bets": 81,
+"o_money": 84,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 11521
+},
+"MIN-HOU": {
+"ml_open": [
+282,
+-348
+],
+"bets": 12,
+"money": 33,
+"sp_open": 9.5,
+"sp_bets": 35,
+"sp_money": 34,
+"tot_open": 224.5,
+"tot_now": "219.5",
+"o_bets": 86,
+"o_money": 86,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9648
+},
+"TOR-DEN": {
+"ml_open": [
+180,
+-220
+],
+"bets": 12,
+"money": 12,
+"sp_open": 5.5,
+"sp_bets": 28,
+"sp_money": 24,
+"tot_open": 231.5,
+"tot_now": "231",
+"o_bets": 76,
+"o_money": 80,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6507
+},
+"POR-PHX": {
+"ml_open": [
+-150,
+125
+],
+"bets": 84,
+"money": 86,
+"sp_open": -2.5,
+"sp_bets": 76,
+"sp_money": 76,
+"tot_open": 228.5,
+"tot_now": "227.5",
+"o_bets": 83,
+"o_money": 83,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7689
+},
+"DAL-SAS": {
+"ml_open": [
+490,
+-670
+],
+"bets": 8,
+"money": 31,
+"sp_open": 12.5,
+"sp_bets": 45,
+"sp_money": 47,
+"tot_open": 229.5,
+"tot_now": "227",
+"o_bets": 79,
+"o_money": 75,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 8517
+},
+"LAL-SAC": {
+"ml_open": [
+-625,
+450
+],
+"bets": 97,
+"money": 93,
+"sp_open": -11.5,
+"sp_bets": 82,
+"sp_money": 84,
+"tot_open": 238.5,
+"tot_now": "233.5",
+"o_bets": 74,
+"o_money": 74,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 6921
+},
+"MIA-LAC": {
+"ml_open": [
+-180,
+145
+],
+"bets": 92,
+"money": 93,
+"sp_open": -4.5,
+"sp_bets": 83,
+"sp_money": 77,
+"tot_open": 235.5,
+"tot_now": "233.5",
+"o_bets": 68,
+"o_money": 73,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6220
+}
+},
+"inj": {
+"DET": 3.5,
+"ATL": 1.5,
+"WAS": 1.5,
+"BOS": 5.0,
+"CHA": 1.0,
+"BKN": 2.0,
+"CHI": 2.0,
+"NYK": 2.5,
+"IND": 6.0,
+"MEM": 1.0,
+"UTA": 6.0,
+"NOP": 3.0,
+"CLE": 2.5,
+"OKC": 7.0,
+"MIN": 7.5,
+"HOU": 2.0,
+"TOR": 5.0,
+"POR": 5.5,
+"PHX": 2.5,
+"DAL": 4.0,
+"SAS": 2.0,
+"SAC": 3.5,
+"LAC": 6.0
+},
+"dk": {
+"PHI-DET": {
+"sp_open_a": 1.5,
+"sp_now_a": 2.5,
+"tot_open": 219.5,
+"tot_now": 219.5
+},
+"ATL-WAS": {
+"sp_open_a": -1.5,
+"sp_now_a": -3.5,
+"tot_open": 234.5,
+"tot_now": 230.5
+},
+"MIL-BOS": {
+"sp_open_a": 14.5,
+"sp_now_a": 11.5,
+"tot_open": 225.5,
+"tot_now": 221.5
+},
+"CHA-BKN": {
+"sp_open_a": -2.5,
+"sp_now_a": -3.5,
+"tot_open": 214.5,
+"tot_now": 212.5
+},
+"CHI-NYK": {
+"sp_open_a": 12.5,
+"sp_now_a": 12.5,
+"tot_open": 232.5,
+"tot_now": 233.5
+},
+"IND-MEM": {
+"sp_open_a": 6.5,
+"sp_now_a": 6.5,
+"tot_open": 230.5,
+"tot_now": 228.5
+},
+"UTA-NOP": {
+"sp_open_a": 5.5,
+"sp_now_a": 4.5,
+"tot_open": 235.5,
+"tot_now": 231.5
+},
+"CLE-OKC": {
+"sp_open_a": 2.5,
+"sp_now_a": 3.5,
+"tot_open": 227.5,
+"tot_now": 226.5
+},
+"MIN-HOU": {
+"sp_open_a": 8.5,
+"sp_now_a": 7.5,
+"tot_open": 223.5,
+"tot_now": 218.5
+},
+"TOR-DEN": {
+"sp_open_a": 5.5,
+"sp_now_a": 4.5,
+"tot_open": 231.5,
+"tot_now": 231.5
+},
+"POR-PHX": {
+"sp_open_a": -3.5,
+"sp_now_a": -2.5,
+"tot_open": 228.5,
+"tot_now": 227.5
+},
+"DAL-SAS": {
+"sp_open_a": 12.5,
+"sp_now_a": 12.5,
+"tot_open": 229.5,
+"tot_now": 226.5
+},
+"LAL-SAC": {
+"sp_open_a": -11.5,
+"sp_now_a": -12.5,
+"tot_open": 238.5,
+"tot_now": 233.5
+},
+"MIA-LAC": {
+"sp_open_a": -4.5,
+"sp_now_a": -5.5,
+"tot_open": 233.5,
+"tot_now": 233.5
+}
+},
+"t222": {
+"PHI-DET": {
+"sp_a": 2.5,
+"tot": 220.0,
+"ml_a": 125,
+"ml_h": -145
+},
+"ATL-WAS": {
+"sp_a": -3.0,
+"tot": 231.0,
+"ml_a": -155,
+"ml_h": 135
+},
+"MIL-BOS": {
+"sp_a": 11.5,
+"tot": 221.5,
+"ml_a": 365,
+"ml_h": -505
+},
+"CHA-BKN": {
+"sp_a": -3.5,
+"tot": 212.5,
+"ml_a": -170,
+"ml_h": 145
+},
+"CHI-NYK": {
+"sp_a": 12.0,
+"tot": 233.5,
+"ml_a": 395,
+"ml_h": -595
+},
+"IND-MEM": {
+"sp_a": 6.0,
+"tot": 228.0,
+"ml_a": 190,
+"ml_h": -235
+},
+"UTA-NOP": {
+"sp_a": 5.0,
+"tot": 232.0,
+"ml_a": 165,
+"ml_h": -200
+},
+"CLE-OKC": {
+"sp_a": 3.5,
+"tot": 226.5,
+"ml_a": 145,
+"ml_h": -165
+},
+"MIN-HOU": {
+"sp_a": 7.5,
+"tot": 219.5,
+"ml_a": 225,
+"ml_h": -285
+},
+"TOR-DEN": {
+"sp_a": 4.5,
+"tot": 231.0,
+"ml_a": 160,
+"ml_h": -195
+},
+"POR-PHX": {
+"sp_a": -3.0,
+"tot": 227.5,
+"ml_a": -155,
+"ml_h": 135
+},
+"DAL-SAS": {
+"sp_a": 12.0,
+"tot": 227.0,
+"ml_a": 395,
+"ml_h": -595
+},
+"LAL-SAC": {
+"sp_a": -12.0,
+"tot": 233.5,
+"ml_a": -605,
+"ml_h": 430
+},
+"MIA-LAC": {
+"sp_a": -5.5,
+"tot": 233.5,
+"ml_a": -215,
+"ml_h": 175
+}
+}
+},
+"2026-11-05": {
+"an": {
+"ORL-PHX": {
+"ml_open": [
+112,
+-132
+],
+"bets": 35,
+"money": 29,
+"sp_open": 2.5,
+"sp_bets": 31,
+"sp_money": 28,
+"tot_open": 224.5,
+"tot_now": "223",
+"o_bets": 72,
+"o_money": 64,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 8335
+},
+"MIA-GSW": {
+"ml_open": [
+138,
+-164
+],
+"bets": 29,
+"money": 63,
+"sp_open": 4.5,
+"sp_bets": 57,
+"sp_money": 68,
+"tot_open": 238.5,
+"tot_now": "234",
+"o_bets": 61,
+"o_money": 57,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7886
+}
+},
+"inj": {
+"ORL": 7.0,
+"PHX": 2.5,
+"GSW": 6.5
+},
+"dk": {
+"ORL-PHX": {
+"sp_open_a": 1.5,
+"sp_now_a": 1.5,
+"tot_open": 224.5,
+"tot_now": 222.5
+},
+"MIA-GSW": {
+"sp_open_a": 4.5,
+"sp_now_a": 7.5,
+"tot_open": 238.5,
+"tot_now": 233.5
+}
+},
+"t222": {
+"ORL-PHX": {
+"sp_a": 0.0,
+"tot": 223.0,
+"ml_a": -110,
+"ml_h": -110
+},
+"MIA-GSW": {
+"sp_a": 7.5,
+"tot": 234.0,
+"ml_a": 220,
+"ml_h": -275
+}
+}
+},
+"2026-11-06": {
+"an": {
+"WAS-ATL": {
+"ml_open": [
+199,
+-241
+],
+"bets": 22,
+"money": 61,
+"sp_open": 6.5,
+"sp_bets": 46,
+"sp_money": 45,
+"tot_open": 230.5,
+"tot_now": "228.5",
+"o_bets": 73,
+"o_money": 72,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 4634
+},
+"BOS-CHA": {
+"ml_open": [
+-332,
+268
+],
+"bets": 94,
+"money": 94,
+"sp_open": -8.5,
+"sp_bets": 80,
+"sp_money": 85,
+"tot_open": 210.5,
+"tot_now": "207.5",
+"o_bets": 87,
+"o_money": 86,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 4927
+},
+"PHI-CLE": {
+"ml_open": [
+100,
+-120
+],
+"bets": 86,
+"money": 88,
+"sp_open": 1.5,
+"sp_bets": 86,
+"sp_money": 81,
+"tot_open": 234.5,
+"tot_now": "230",
+"o_bets": 67,
+"o_money": 68,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9855
+},
+"UTA-DAL": {
+"ml_open": [
+208,
+-252
+],
+"bets": 6,
+"money": 3,
+"sp_open": 7.5,
+"sp_bets": 15,
+"sp_money": 13,
+"tot_open": 224.5,
+"tot_now": "226",
+"o_bets": 78,
+"o_money": 89,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 5240
+},
+"OKC-MEM": {
+"ml_open": [
+-165,
+139
+],
+"bets": 83,
+"money": 83,
+"sp_open": -3.5,
+"sp_bets": 79,
+"sp_money": 77,
+"tot_open": 224.5,
+"tot_now": "224",
+"o_bets": 83,
+"o_money": 82,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7219
+},
+"TOR-MIL": {
+"ml_open": [
+-226,
+187
+],
+"bets": 88,
+"money": 89,
+"sp_open": -7.5,
+"sp_bets": 66,
+"sp_money": 54,
+"tot_open": 231.5,
+"tot_now": "229",
+"o_bets": 66,
+"o_money": 61,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3948
+},
+"MIN-NOP": {
+"ml_open": [
+-188,
+157
+],
+"bets": 85,
+"money": 85,
+"sp_open": -5.5,
+"sp_bets": 68,
+"sp_money": 63,
+"tot_open": 229.5,
+"tot_now": "230.5",
+"o_bets": 74,
+"o_money": 84,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 4967
+},
+"POR-LAL": {
+"ml_open": [
+130,
+-155
+],
+"bets": 19,
+"money": 16,
+"sp_open": 3.5,
+"sp_bets": 27,
+"sp_money": 38,
+"tot_open": 238.5,
+"tot_now": "232",
+"o_bets": 86,
+"o_money": 89,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7048
+},
+"SAS-SAC": {
+"ml_open": [
+-900,
+610
+],
+"bets": 95,
+"money": 18,
+"sp_open": -15.5,
+"sp_bets": 73,
+"sp_money": 71,
+"tot_open": 228.5,
+"tot_now": "229.5",
+"o_bets": 74,
+"o_money": 69,
+"sig_ml": {
+"Big Money": "H"
+},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 4589
+}
+},
+"inj": {
+"OKC": 8.0,
+"MIN": 7.0,
+"UTA": 6.0,
+"POR": 5.5,
+"TOR": 5.0,
+"CHA": 3.5,
+"DAL": 3.0,
+"MEM": 3.0,
+"SAC": 3.0,
+"SAS": 2.0,
+"NOP": 1.5,
+"ATL": 1.5
+},
+"dk": {
+"WAS-ATL": {
+"sp_open_a": 6.5,
+"sp_now_a": 7.5,
+"tot_open": 230.5,
+"tot_now": 228.5
+},
+"BOS-CHA": {
+"sp_open_a": -8.5,
+"sp_now_a": -9.5,
+"tot_open": 210.5,
+"tot_now": 207.5
+},
+"PHI-CLE": {
+"sp_open_a": -2.5,
+"sp_now_a": -2.5,
+"tot_open": 233.5,
+"tot_now": 229.5
+},
+"UTA-DAL": {
+"sp_open_a": 7.5,
+"sp_now_a": 6.5,
+"tot_open": 223.5,
+"tot_now": 224.5
+},
+"OKC-MEM": {
+"sp_open_a": -3.5,
+"sp_now_a": -4.5,
+"tot_open": 225.5,
+"tot_now": 223.5
+},
+"TOR-MIL": {
+"sp_open_a": -7.5,
+"sp_now_a": -4.5,
+"tot_open": 231.5,
+"tot_now": 229.5
+},
+"MIN-NOP": {
+"sp_open_a": -5.5,
+"sp_now_a": -3.5,
+"tot_open": 229.5,
+"tot_now": 230.5
+},
+"POR-LAL": {
+"sp_open_a": 4.5,
+"sp_now_a": 3.5,
+"tot_open": 238.5,
+"tot_now": 231.5
+},
+"SAS-SAC": {
+"sp_open_a": -15.5,
+"sp_now_a": -16.5,
+"tot_open": 228.5,
+"tot_now": 229.5
+}
+},
+"t222": {
+"WAS-ATL": {
+"sp_a": 8.0,
+"tot": 228.5,
+"ml_a": 235,
+"ml_h": -295
+},
+"BOS-CHA": {
+"sp_a": -9.5,
+"tot": 207.5,
+"ml_a": -365,
+"ml_h": 280
+},
+"PHI-CLE": {
+"sp_a": -2.5,
+"tot": 230.0,
+"ml_a": -150,
+"ml_h": 130
+},
+"UTA-DAL": {
+"sp_a": 7.0,
+"tot": 226.0,
+"ml_a": 215,
+"ml_h": -270
+},
+"OKC-MEM": {
+"sp_a": -4.0,
+"tot": 224.0,
+"ml_a": -170,
+"ml_h": 145
+},
+"TOR-MIL": {
+"sp_a": -5.0,
+"tot": 229.0,
+"ml_a": -195,
+"ml_h": 160
+},
+"MIN-NOP": {
+"sp_a": -3.5,
+"tot": 230.5,
+"ml_a": -160,
+"ml_h": 140
+},
+"POR-LAL": {
+"sp_a": 3.0,
+"tot": 232.0,
+"ml_a": 135,
+"ml_h": -155
+},
+"SAS-SAC": {
+"sp_a": -16.5,
+"tot": 229.5,
+"ml_a": -1155,
+"ml_h": 655
+}
+}
+},
+"2026-11-07": {
+"an": {
+"DEN-IND": {
+"ml_open": [
+-225,
+188
+],
+"bets": 92,
+"money": 91,
+"sp_open": -6.5,
+"sp_bets": 77,
+"sp_money": 79,
+"tot_open": 229.5,
+"tot_now": "229.5",
+"o_bets": 73,
+"o_money": 71,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 5240
+},
+"BKN-ATL": {
+"ml_open": [
+191,
+-230
+],
+"bets": 8,
+"money": 9,
+"sp_open": 6.5,
+"sp_bets": 22,
+"sp_money": 20,
+"tot_open": 223.5,
+"tot_now": "227",
+"o_bets": 74,
+"o_money": 76,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 2731
+},
+"NYK-CLE": {
+"ml_open": [
+-163,
+137
+],
+"bets": 69,
+"money": 45,
+"sp_open": -4.5,
+"sp_bets": 55,
+"sp_money": 50,
+"tot_open": 224.5,
+"tot_now": "223",
+"o_bets": 78,
+"o_money": 74,
+"sig_ml": {
+"Big Money": "H"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3256
+},
+"WAS-OKC": {
+"ml_open": [
+373,
+-486
+],
+"bets": 5,
+"money": 7,
+"sp_open": 11.5,
+"sp_bets": 22,
+"sp_money": 22,
+"tot_open": 220.5,
+"tot_now": "222.5",
+"o_bets": 82,
+"o_money": 70,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3170
+},
+"ORL-GSW": {
+"ml_open": [
+180,
+-215
+],
+"bets": 5,
+"money": 4,
+"sp_open": 6.5,
+"sp_bets": 11,
+"sp_money": 38,
+"tot_open": 219.5,
+"tot_now": "222.5",
+"o_bets": 81,
+"o_money": 87,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A",
+"Big Money": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 4013
+},
+"HOU-PHX": {
+"ml_open": [
+-230,
+190
+],
+"bets": 93,
+"money": 94,
+"sp_open": -6.5,
+"sp_bets": 79,
+"sp_money": 70,
+"tot_open": 220.5,
+"tot_now": "223.5",
+"o_bets": 85,
+"o_money": 89,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 4074
+},
+"SAS-POR": {
+"ml_open": [
+-163,
+138
+],
+"bets": 86,
+"money": 87,
+"sp_open": -3.5,
+"sp_bets": 73,
+"sp_money": 52,
+"tot_open": 228.5,
+"tot_now": "226.5",
+"o_bets": 79,
+"o_money": 72,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A",
+"Big Money": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3327
+}
+},
+"inj": {
+"OKC": 8.0,
+"ORL": 6.5,
+"WAS": 5.5,
+"POR": 5.5,
+"ATL": 5.0,
+"GSW": 4.0,
+"CLE": 3.0,
+"NYK": 2.5,
+"IND": 2.0,
+"PHX": 2.0,
+"SAS": 2.0,
+"BKN": 1.0,
+"HOU": 1.0
+},
+"dk": {
+"DEN-IND": {
+"sp_open_a": -6.5,
+"sp_now_a": -7.5,
+"tot_open": 228.5,
+"tot_now": 229.5
+},
+"BKN-ATL": {
+"sp_open_a": 6.5,
+"sp_now_a": 6.5,
+"tot_open": 224.5,
+"tot_now": 226.5
+},
+"NYK-CLE": {
+"sp_open_a": -3.5,
+"sp_now_a": -4.5,
+"tot_open": 225.5,
+"tot_now": 224.5
+},
+"WAS-OKC": {
+"sp_open_a": 11.5,
+"sp_now_a": 11.5,
+"tot_open": 220.5,
+"tot_now": 222.5
+},
+"ORL-GSW": {
+"sp_open_a": 6.5,
+"sp_now_a": 5.5,
+"tot_open": 220.5,
+"tot_now": 222.5
+},
+"HOU-PHX": {
+"sp_open_a": -6.5,
+"sp_now_a": -6.5,
+"tot_open": 222.5,
+"tot_now": 223.5
+},
+"SAS-POR": {
+"sp_open_a": -4.5,
+"sp_now_a": -5.5,
+"tot_open": 228.5,
+"tot_now": 226.5
+}
+},
+"t222": {
+"DEN-IND": {
+"sp_a": -7.5,
+"tot": 229.5,
+"ml_a": -300,
+"ml_h": 240
+},
+"BKN-ATL": {
+"sp_a": 6.5,
+"tot": 227.0,
+"ml_a": 210,
+"ml_h": -265
+},
+"NYK-CLE": {
+"sp_a": -5.0,
+"tot": 223.0,
+"ml_a": -205,
+"ml_h": 170
+},
+"WAS-OKC": {
+"sp_a": 12.0,
+"tot": 222.5,
+"ml_a": 380,
+"ml_h": -580
+},
+"ORL-GSW": {
+"sp_a": 5.5,
+"tot": 222.5,
+"ml_a": 180,
+"ml_h": -220
+},
+"HOU-PHX": {
+"sp_a": -6.5,
+"tot": 223.5,
+"ml_a": -275,
+"ml_h": 220
+},
+"SAS-POR": {
+"sp_a": -5.5,
+"tot": 226.5,
+"ml_a": -215,
+"ml_h": 175
+}
+},
+"model": {
+"DEN-IND": {
+"home_margin": -10.51,
+"total": 230.5,
+"pace": 100.6,
+"model_home_win": 0.2,
+"sr_home_win": 27.7,
+"blended_home_win": 0.264,
+"inj": {
+"IND": 2.0
+}
+},
+"BKN-ATL": {
+"home_margin": 5.53,
+"total": 220.8,
+"pace": 100.6,
+"model_home_win": 0.671,
+"sr_home_win": 70.8,
+"blended_home_win": 0.691,
+"inj": {
+"BKN": 1.0,
+"ATL": 5.0
+}
+},
+"NYK-CLE": {
+"home_margin": -3.0,
+"total": 222.6,
+"pace": 98.2,
+"model_home_win": 0.405,
+"sr_home_win": 35.7,
+"blended_home_win": 0.366,
+"inj": {
+"NYK": 2.5,
+"CLE": 3.0
+}
+},
+"WAS-OKC": {
+"home_margin": 16.02,
+"total": 223.7,
+"pace": 100.8,
+"model_home_win": 0.9,
+"sr_home_win": 82.1,
+"blended_home_win": 0.826,
+"inj": {
+"WAS": 5.5,
+"OKC": 8.0
+}
+},
+"ORL-GSW": {
+"home_margin": 9.11,
+"total": 224.6,
+"pace": 99.7,
+"model_home_win": 0.767,
+"sr_home_win": 65.6,
+"blended_home_win": 0.679,
+"inj": {
+"ORL": 6.5,
+"GSW": 4.0
+}
+},
+"HOU-PHX": {
+"home_margin": -9.88,
+"total": 221.1,
+"pace": 95.9,
+"model_home_win": 0.215,
+"sr_home_win": 28.1,
+"blended_home_win": 0.278,
+"inj": {
+"HOU": 1.0,
+"PHX": 2.0
+}
+},
+"SAS-POR": {
+"home_margin": -7.09,
+"total": 228.9,
+"pace": 101.2,
+"model_home_win": 0.285,
+"sr_home_win": 34.0,
+"blended_home_win": 0.334,
+"inj": {
+"SAS": 2.0,
+"POR": 5.5
+}
+}
+}
+},
+"2026-11-08": {
+"an": {
+"PHI-CHI": {
+"ml_open": [
+-316,
+256
+],
+"bets": 96,
+"money": 97,
+"sp_open": -8.5,
+"sp_bets": 87,
+"sp_money": 87,
+"tot_open": 239.5,
+"tot_now": "237.5",
+"o_bets": 37,
+"o_money": 37,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 3281
+},
+"LAL-DET": {
+"ml_open": [
+111,
+-132
+],
+"bets": 53,
+"money": 29,
+"sp_open": 1.5,
+"sp_bets": 47,
+"sp_money": 44,
+"tot_open": 222.5,
+"tot_now": "221.5",
+"o_bets": 82,
+"o_money": 74,
+"sig_ml": {
+"Big Money": "H"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 2857
+},
+"UTA-MIN": {
+"ml_open": [
+360,
+-460
+],
+"bets": 4,
+"money": 8,
+"sp_open": 10.5,
+"sp_bets": 23,
+"sp_money": 25,
+"tot_open": 224.5,
+"tot_now": "223.5",
+"o_bets": 67,
+"o_money": 71,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {},
+"n_bets": 2569
+},
+"BKN-DAL": {
+"ml_open": [
+263,
+-327
+],
+"bets": 7,
+"money": 9,
+"sp_open": 8.5,
+"sp_bets": 30,
+"sp_money": 59,
+"tot_open": 218.5,
+"tot_now": "222.5",
+"o_bets": 72,
+"o_money": 74,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H",
+"Big Money": "A"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 2287
+},
+"BOS-MIL": {
+"ml_open": [
+-700,
+500
+],
+"bets": 96,
+"money": 96,
+"sp_open": -12.5,
+"sp_bets": 78,
+"sp_money": 83,
+"tot_open": 224.5,
+"tot_now": "221.5",
+"o_bets": 71,
+"o_money": 63,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 2524
+},
+"NOP-LAC": {
+"ml_open": [
+-112,
+-104
+],
+"bets": 63,
+"money": 68,
+"sp_open": -1.5,
+"sp_bets": 74,
+"sp_money": 81,
+"tot_open": 232.5,
+"tot_now": "227",
+"o_bets": 60,
+"o_money": 41,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"Big Money": "U"
+},
+"n_bets": 2276
+},
+"MIA-SAC": {
+"ml_open": [
+-350,
+280
+],
+"bets": 93,
+"money": 89,
+"sp_open": -9.5,
+"sp_bets": 70,
+"sp_money": 55,
+"tot_open": 240.5,
+"tot_now": "238",
+"o_bets": 44,
+"o_money": 49,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 2680
+}
+},
+"inj": {
+"MIN": 5.0,
+"UTA": 3.0,
+"DET": 2.5,
+"BKN": 2.5,
+"SAC": 2.0,
+"LAC": 2.0
+},
+"dk": {
+"PHI-CHI": {
+"sp_open_a": -9.5,
+"sp_now_a": -9.5,
+"tot_open": 238.5,
+"tot_now": 237.5
+},
+"LAL-DET": {
+"sp_open_a": 2.5,
+"sp_now_a": 4.5,
+"tot_open": 223.5,
+"tot_now": 221.5
+},
+"UTA-MIN": {
+"sp_open_a": 10.5,
+"sp_now_a": 11.5,
+"tot_open": 222.5,
+"tot_now": 223.5
+},
+"BKN-DAL": {
+"sp_open_a": 8.5,
+"sp_now_a": 7.5,
+"tot_open": 219.5,
+"tot_now": 222.5
+},
+"BOS-MIL": {
+"sp_open_a": -12.5,
+"sp_now_a": -13.5,
+"tot_open": 222.5,
+"tot_now": 221.5
+},
+"NOP-LAC": {
+"sp_open_a": -1.5,
+"sp_now_a": -1.5,
+"tot_open": 225.5,
+"tot_now": 226.5
+},
+"MIA-SAC": {
+"sp_open_a": -8.5,
+"sp_now_a": -10.5,
+"tot_open": 238.5,
+"tot_now": 238.5
+}
+},
+"t222": {
+"PHI-CHI": {
+"sp_a": -9.0,
+"tot": 237.5,
+"ml_a": -430,
+"ml_h": 330
+},
+"LAL-DET": {
+"sp_a": 5.0,
+"tot": 221.5,
+"ml_a": 160,
+"ml_h": -190
+},
+"UTA-MIN": {
+"sp_a": 11.5,
+"tot": 223.5,
+"ml_a": 443,
+"ml_h": -597
+},
+"BKN-DAL": {
+"sp_a": 8.0,
+"tot": 222.5,
+"ml_a": 255,
+"ml_h": -325
+},
+"BOS-MIL": {
+"sp_a": -13.0,
+"tot": 221.5,
+"ml_a": -780,
+"ml_h": 480
+},
+"NOP-LAC": {
+"sp_a": -1.5,
+"tot": 227.0,
+"ml_a": -130,
+"ml_h": 110
+},
+"MIA-SAC": {
+"sp_a": -10.0,
+"tot": 238.0,
+"ml_a": -455,
+"ml_h": 340
+}
+},
+"model": {
+"PHI-CHI": {
+"home_margin": -10.76,
+"total": 230.9,
+"pace": 104.1,
+"model_home_win": 0.195,
+"sr_home_win": 21.8,
+"blended_home_win": 0.216,
+"inj": {}
+},
+"LAL-DET": {
+"home_margin": 4.11,
+"total": 222.3,
+"pace": 99.0,
+"model_home_win": 0.629,
+"sr_home_win": 62.2,
+"blended_home_win": 0.628,
+"inj": {
+"DET": 2.5
+}
+},
+"UTA-MIN": {
+"home_margin": 16.36,
+"total": 228.0,
+"pace": 103.3,
+"model_home_win": 0.905,
+"sr_home_win": 84.0,
+"blended_home_win": 0.843,
+"inj": {
+"UTA": 3.0,
+"MIN": 5.0
+}
+},
+"BKN-DAL": {
+"home_margin": 11.18,
+"total": 217.6,
+"pace": 99.7,
+"model_home_win": 0.814,
+"sr_home_win": 73.3,
+"blended_home_win": 0.748,
+"inj": {
+"BKN": 2.5
+}
+},
+"BOS-MIL": {
+"home_margin": -16.71,
+"total": 218.4,
+"pace": 96.4,
+"model_home_win": 0.091,
+"sr_home_win": 14.1,
+"blended_home_win": 0.144,
+"inj": {}
+},
+"NOP-LAC": {
+"home_margin": -0.31,
+"total": 226.4,
+"pace": 100.4,
+"model_home_win": 0.49,
+"sr_home_win": 46.6,
+"blended_home_win": 0.466,
+"inj": {
+"LAC": 2.0
+}
+},
+"MIA-SAC": {
+"home_margin": -9.98,
+"total": 238.5,
+"pace": 104.5,
+"model_home_win": 0.212,
+"sr_home_win": 20.5,
+"blended_home_win": 0.214,
+"inj": {
+"SAC": 2.0
+}
+}
+}
+},
+"2026-11-09": {
+"an": {
+"LAL-ATL": {
+"ml_open": [
+-138,
+117
+],
+"bets": 77,
+"money": 71,
+"sp_open": -2.5,
+"sp_bets": 79,
+"sp_money": 68,
+"tot_open": 235.5,
+"tot_now": "233.5",
+"o_bets": 79,
+"o_money": 76,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 15555
+},
+"CLE-CHA": {
+"ml_open": [
+-309,
+250
+],
+"bets": 97,
+"money": 96,
+"sp_open": -7.5,
+"sp_bets": 85,
+"sp_money": 79,
+"tot_open": 217.5,
+"tot_now": "215.5",
+"o_bets": 80,
+"o_money": 77,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9395
+},
+"WAS-DET": {
+"ml_open": [
+348,
+-448
+],
+"bets": 5,
+"money": 20,
+"sp_open": 10.5,
+"sp_bets": 26,
+"sp_money": 26,
+"tot_open": 220.5,
+"tot_now": "219",
+"o_bets": 78,
+"o_money": 68,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 10430
+},
+"MEM-TOR": {
+"ml_open": [
+128,
+-153
+],
+"bets": 26,
+"money": 33,
+"sp_open": 2.5,
+"sp_bets": 40,
+"sp_money": 42,
+"tot_open": 228.5,
+"tot_now": "225.5",
+"o_bets": 73,
+"o_money": 75,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 8613
+},
+"IND-DAL": {
+"ml_open": [
+136,
+-162
+],
+"bets": 10,
+"money": 27,
+"sp_open": 2.5,
+"sp_bets": 17,
+"sp_money": 38,
+"tot_open": 221.5,
+"tot_now": "227",
+"o_bets": 78,
+"o_money": 72,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A",
+"Big Money": "A"
+},
+"sig_tot": {},
+"n_bets": 10264
+},
+"DEN-HOU": {
+"ml_open": [
+139,
+-166
+],
+"bets": 24,
+"money": 44,
+"sp_open": 4.5,
+"sp_bets": 58,
+"sp_money": 74,
+"tot_open": 222.5,
+"tot_now": "223",
+"o_bets": 80,
+"o_money": 69,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 10869
+},
+"SAS-PHX": {
+"ml_open": [
+-243,
+200
+],
+"bets": 95,
+"money": 90,
+"sp_open": -7.5,
+"sp_bets": 80,
+"sp_money": 81,
+"tot_open": 225.5,
+"tot_now": "226",
+"o_bets": 76,
+"o_money": 74,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 13338
+},
+"NOP-GSW": {
+"ml_open": [
+330,
+-420
+],
+"bets": 3,
+"money": 12,
+"sp_open": 10.5,
+"sp_bets": 19,
+"sp_money": 22,
+"tot_open": 231.5,
+"tot_now": "228.5",
+"o_bets": 74,
+"o_money": 59,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 10885
+}
+},
+"inj": {
+"LAL": 4.5,
+"CHA": 6.0,
+"TOR": 6.0,
+"NOP": 5.0,
+"DET": 2.5,
+"IND": 2.5,
+"MEM": 2.0,
+"SAS": 2.0,
+"WAS": 2.0,
+"CLE": 1.5,
+"DAL": 1.5,
+"HOU": 1.5
+},
+"dk": {
+"LAL-ATL": {
+"sp_open_a": -2.5,
+"sp_now_a": 2.5,
+"tot_open": 236.5,
+"tot_now": 233.5
+},
+"CLE-CHA": {
+"sp_open_a": -9.5,
+"sp_now_a": -9.5,
+"tot_open": 217.5,
+"tot_now": 215.5
+},
+"WAS-DET": {
+"sp_open_a": 11.5,
+"sp_now_a": 9.5,
+"tot_open": 218.5,
+"tot_now": 218.5
+},
+"MEM-TOR": {
+"sp_open_a": 2.5,
+"sp_now_a": -2.5,
+"tot_open": 228.5,
+"tot_now": 225.5
+},
+"IND-DAL": {
+"sp_open_a": 4.5,
+"sp_now_a": 4.5,
+"tot_open": 222.5,
+"tot_now": 226.5
+},
+"DEN-HOU": {
+"sp_open_a": 4.5,
+"sp_now_a": 4.5,
+"tot_open": 222.5,
+"tot_now": 223.5
+},
+"SAS-PHX": {
+"sp_open_a": -7.5,
+"sp_now_a": -8.5,
+"tot_open": 225.5,
+"tot_now": 226.5
+},
+"NOP-GSW": {
+"sp_open_a": 9.5,
+"sp_now_a": 11.5,
+"tot_open": 231.5,
+"tot_now": 229.5
+}
+},
+"t222": {
+"LAL-ATL": {
+"sp_a": 2.5,
+"tot": 233.5,
+"ml_a": 125,
+"ml_h": -145
+},
+"CLE-CHA": {
+"sp_a": -8.5,
+"tot": 215.5,
+"ml_a": -355,
+"ml_h": 275
+},
+"WAS-DET": {
+"sp_a": 9.0,
+"tot": 219.0,
+"ml_a": 330,
+"ml_h": -430
+},
+"MEM-TOR": {
+"sp_a": -2.0,
+"tot": 225.5,
+"ml_a": -130,
+"ml_h": 110
+},
+"IND-DAL": {
+"sp_a": 4.5,
+"tot": 227.0,
+"ml_a": 155,
+"ml_h": -175
+},
+"DEN-HOU": {
+"sp_a": 4.5,
+"tot": 223.0,
+"ml_a": 155,
+"ml_h": -175
+},
+"SAS-PHX": {
+"sp_a": -9.0,
+"tot": 226.0,
+"ml_a": -395,
+"ml_h": 305
+},
+"NOP-GSW": {
+"sp_a": 11.5,
+"tot": 228.5,
+"ml_a": 380,
+"ml_h": -580
+}
+},
+"model": {
+"LAL-ATL": {
+"home_margin": 4.04,
+"total": 235.9,
+"pace": 102.4,
+"model_home_win": 0.627,
+"sr_home_win": 56.7,
+"blended_home_win": 0.581,
+"inj": {
+"LAL": 4.5
+}
+},
+"CLE-CHA": {
+"home_margin": -9.45,
+"total": 218.6,
+"pace": 97.5,
+"model_home_win": 0.225,
+"sr_home_win": 24.5,
+"blended_home_win": 0.247,
+"inj": {
+"CLE": 1.5,
+"CHA": 6.0
+}
+},
+"WAS-DET": {
+"home_margin": 17.74,
+"total": 219.4,
+"pace": 100.2,
+"model_home_win": 0.922,
+"sr_home_win": 76.7,
+"blended_home_win": 0.804,
+"inj": {
+"WAS": 2.0,
+"DET": 2.5
+}
+},
+"MEM-TOR": {
+"home_margin": 3.08,
+"total": 228.2,
+"pace": 101.6,
+"model_home_win": 0.597,
+"sr_home_win": 46.0,
+"blended_home_win": 0.486,
+"inj": {
+"MEM": 2.0,
+"TOR": 6.0
+}
+},
+"IND-DAL": {
+"home_margin": 7.61,
+"total": 225.1,
+"pace": 102.6,
+"model_home_win": 0.729,
+"sr_home_win": 62.2,
+"blended_home_win": 0.641,
+"inj": {
+"IND": 2.5,
+"DAL": 1.5
+}
+},
+"DEN-HOU": {
+"home_margin": 3.34,
+"total": 223.2,
+"pace": 96.1,
+"model_home_win": 0.605,
+"sr_home_win": 60.4,
+"blended_home_win": 0.613,
+"inj": {
+"HOU": 1.5
+}
+},
+"SAS-PHX": {
+"home_margin": -6.7,
+"total": 223.1,
+"pace": 98.5,
+"model_home_win": 0.296,
+"sr_home_win": 23.7,
+"blended_home_win": 0.248,
+"inj": {
+"SAS": 2.0
+}
+},
+"NOP-GSW": {
+"home_margin": 11.71,
+"total": 232.6,
+"pace": 101.7,
+"model_home_win": 0.825,
+"sr_home_win": 82.6,
+"blended_home_win": 0.813,
+"inj": {
+"NOP": 5.0
+}
+}
+}
+},
+"2026-11-10": {
+"an": {
+"MIL-NYK": {
+"ml_open": [
+810,
+-1350
+],
+"bets": 4,
+"money": 6,
+"sp_open": 14.5,
+"sp_bets": 21,
+"sp_money": 21,
+"tot_open": 221.5,
+"tot_now": "222",
+"o_bets": 80,
+"o_money": 78,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 10476
+},
+"BOS-PHI": {
+"ml_open": [
+-109,
+-109
+],
+"bets": 38,
+"money": 24,
+"sp_open": 1.5,
+"sp_bets": 42,
+"sp_money": 35,
+"tot_open": 216.5,
+"tot_now": "217.5",
+"o_bets": 86,
+"o_money": 83,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 22163
+},
+"LAC-PHX": {
+"ml_open": [
+141,
+-168
+],
+"bets": 14,
+"money": 10,
+"sp_open": 4.5,
+"sp_bets": 24,
+"sp_money": 27,
+"tot_open": 226.5,
+"tot_now": "224.5",
+"o_bets": 78,
+"o_money": 79,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 7557
+},
+"MIA-UTA": {
+"ml_open": [
+-480,
+370
+],
+"bets": 95,
+"money": 88,
+"sp_open": -10.5,
+"sp_bets": 75,
+"sp_money": 58,
+"tot_open": 229.5,
+"tot_now": "228",
+"o_bets": 74,
+"o_money": 75,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 12732
+},
+"ORL-SAC": {
+"ml_open": [
+-235,
+194
+],
+"bets": 85,
+"money": 81,
+"sp_open": -6.5,
+"sp_bets": 62,
+"sp_money": 42,
+"tot_open": 221.5,
+"tot_now": "222",
+"o_bets": 79,
+"o_money": 77,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H",
+"Big Money": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9855
+},
+"OKC-POR": {
+"ml_open": [
+-118,
+100
+],
+"bets": 85,
+"money": 91,
+"sp_open": -1.5,
+"sp_bets": 78,
+"sp_money": 75,
+"tot_open": 227.5,
+"tot_now": "226",
+"o_bets": 80,
+"o_money": 75,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 12137
+}
+},
+"inj": {
+"UTA": 6.0,
+"OKC": 3.5,
+"ORL": 3.5,
+"POR": 2.5,
+"PHX": 2.0,
+"NYK": 2.0,
+"LAC": 1.5,
+"SAC": 1.5
+},
+"dk": {
+"MIL-NYK": {
+"sp_open_a": 15.5,
+"sp_now_a": 15.5,
+"tot_open": 219.5,
+"tot_now": 222.5
+},
+"BOS-PHI": {
+"sp_open_a": -1.5,
+"sp_now_a": -1.5,
+"tot_open": 214.5,
+"tot_now": 217.5
+},
+"LAC-PHX": {
+"sp_open_a": 4.5,
+"sp_now_a": 3.5,
+"tot_open": 225.5,
+"tot_now": 224.5
+},
+"MIA-UTA": {
+"sp_open_a": -10.5,
+"sp_now_a": -9.5,
+"tot_open": 227.5,
+"tot_now": 227.5
+},
+"ORL-SAC": {
+"sp_open_a": -5.5,
+"sp_now_a": -5.5,
+"tot_open": 221.5,
+"tot_now": 222.5
+},
+"OKC-POR": {
+"sp_open_a": -1.5,
+"sp_now_a": -1.5,
+"tot_open": 226.5,
+"tot_now": 226.5
+}
+},
+"t222": {
+"MIL-NYK": {
+"sp_a": 15.5,
+"tot": 222.0,
+"ml_a": 555,
+"ml_h": -1055
+},
+"BOS-PHI": {
+"sp_a": -1.5,
+"tot": 217.5,
+"ml_a": -120,
+"ml_h": 100
+},
+"LAC-PHX": {
+"sp_a": 3.5,
+"tot": 224.5,
+"ml_a": 155,
+"ml_h": -175
+},
+"MIA-UTA": {
+"sp_a": -9.5,
+"tot": 228.0,
+"ml_a": -415,
+"ml_h": 320
+},
+"ORL-SAC": {
+"sp_a": -5.5,
+"tot": 222.0,
+"ml_a": -225,
+"ml_h": 180
+},
+"OKC-POR": {
+"sp_a": -2.0,
+"tot": 226.0,
+"ml_a": -130,
+"ml_h": 110
+}
+},
+"model": {
+"MIL-NYK": {
+"home_margin": 16.59,
+"total": 217.8,
+"pace": 96.7,
+"model_home_win": 0.908,
+"sr_home_win": 89.1,
+"blended_home_win": 0.874,
+"inj": {
+"NYK": 2.0
+}
+},
+"BOS-PHI": {
+"home_margin": -6.79,
+"total": 213.1,
+"pace": 96.2,
+"model_home_win": 0.293,
+"sr_home_win": 47.6,
+"blended_home_win": 0.441,
+"inj": {}
+},
+"LAC-PHX": {
+"home_margin": -1.37,
+"total": 219.6,
+"pace": 96.8,
+"model_home_win": 0.456,
+"sr_home_win": 60.0,
+"blended_home_win": 0.582,
+"inj": {
+"LAC": 1.5,
+"PHX": 2.0
+}
+},
+"MIA-UTA": {
+"home_margin": -11.37,
+"total": 237.9,
+"pace": 105.7,
+"model_home_win": 0.182,
+"sr_home_win": 21.7,
+"blended_home_win": 0.217,
+"inj": {
+"UTA": 6.0
+}
+},
+"ORL-SAC": {
+"home_margin": -3.78,
+"total": 226.4,
+"pace": 100.3,
+"model_home_win": 0.381,
+"sr_home_win": 31.6,
+"blended_home_win": 0.344,
+"inj": {
+"ORL": 3.5,
+"SAC": 1.5
+}
+},
+"OKC-POR": {
+"home_margin": -4.53,
+"total": 221.9,
+"pace": 100.9,
+"model_home_win": 0.359,
+"sr_home_win": 46.5,
+"blended_home_win": 0.439,
+"inj": {
+"OKC": 3.5,
+"POR": 2.5
+}
+}
+}
+},
+"2026-11-11": {
+"an": {
+"WAS-IND": {
+"ml_open": [
+135,
+-161
+],
+"bets": 32,
+"money": 54,
+"sp_open": 4.5,
+"sp_bets": 50,
+"sp_money": 64,
+"tot_open": 228.5,
+"tot_now": "227.5",
+"o_bets": 69,
+"o_money": 73,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9506
+},
+"CLE-NYK": {
+"ml_open": [
+150,
+-178
+],
+"bets": 10,
+"money": 10,
+"sp_open": 3.5,
+"sp_bets": 19,
+"sp_money": 34,
+"tot_open": 220.5,
+"tot_now": "221.5",
+"o_bets": 72,
+"o_money": 72,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 8486
+},
+"BOS-TOR": {
+"ml_open": [
+-235,
+194
+],
+"bets": 96,
+"money": 97,
+"sp_open": -6.5,
+"sp_bets": 86,
+"sp_money": 70,
+"tot_open": 216.5,
+"tot_now": "215.5",
+"o_bets": 82,
+"o_money": 71,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U",
+"PRO Systems": "U"
+},
+"n_bets": 7537
+},
+"SAS-CHI": {
+"ml_open": [
+-610,
+451
+],
+"bets": 97,
+"money": 95,
+"sp_open": -14.5,
+"sp_bets": 83,
+"sp_money": 83,
+"tot_open": 237.5,
+"tot_now": "238",
+"o_bets": 55,
+"o_money": 42,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6290
+},
+"DEN-MEM": {
+"ml_open": [
+-162,
+136
+],
+"bets": 82,
+"money": 81,
+"sp_open": -4.5,
+"sp_bets": 67,
+"sp_money": 67,
+"tot_open": 228.5,
+"tot_now": "230",
+"o_bets": 75,
+"o_money": 76,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7507
+},
+"LAL-MIL": {
+"ml_open": [
+-650,
+475
+],
+"bets": 98,
+"money": 98,
+"sp_open": -10.5,
+"sp_bets": 89,
+"sp_money": 87,
+"tot_open": 232.5,
+"tot_now": "228.5",
+"o_bets": 67,
+"o_money": 60,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7098
+},
+"BKN-NOP": {
+"ml_open": [
+138,
+-164
+],
+"bets": 14,
+"money": 22,
+"sp_open": 4.5,
+"sp_bets": 31,
+"sp_money": 58,
+"tot_open": 230.5,
+"tot_now": "228",
+"o_bets": 57,
+"o_money": 44,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A",
+"Big Money": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6492
+},
+"ORL-UTA": {
+"ml_open": [
+-180,
+152
+],
+"bets": 90,
+"money": 88,
+"sp_open": -4.5,
+"sp_bets": 75,
+"sp_money": 64,
+"tot_open": 217.5,
+"tot_now": "214",
+"o_bets": 77,
+"o_money": 73,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 3428
+},
+"GSW-HOU": {
+"ml_open": [
+158,
+-189
+],
+"bets": 42,
+"money": 69,
+"sp_open": 5.5,
+"sp_bets": 63,
+"sp_money": 67,
+"tot_open": 222.5,
+"tot_now": "220.5",
+"o_bets": 85,
+"o_money": 82,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7593
+},
+"OKC-POR": {
+"ml_open": [
+-132,
+111
+],
+"bets": 63,
+"money": 72,
+"sp_open": -2.5,
+"sp_bets": 62,
+"sp_money": 61,
+"tot_open": 224.5,
+"tot_now": "225.5",
+"o_bets": 82,
+"o_money": 81,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 6129
+}
+},
+"inj": {
+"TOR": 4.5,
+"UTA": 5.0,
+"OKC": 3.5,
+"ORL": 3.5,
+"BOS": 3.0,
+"POR": 2.5,
+"IND": 2.5,
+"GSW": 2.0,
+"NOP": 2.0,
+"CLE": 1.5,
+"NYK": 1.5,
+"MIL": 1.5,
+"BKN": 1.0,
+"MEM": 1.0,
+"HOU": 1.0,
+"LAL": 1.0
+},
+"dk": {
+"WAS-IND": {
+"sp_open_a": 4.5,
+"sp_now_a": 2.5,
+"tot_open": 228.5,
+"tot_now": 228.5
+},
+"CLE-NYK": {
+"sp_open_a": 4.5,
+"sp_now_a": 3.5,
+"tot_open": 221.5,
+"tot_now": 221.5
+},
+"BOS-TOR": {
+"sp_open_a": -6.5,
+"sp_now_a": -5.5,
+"tot_open": 215.5,
+"tot_now": 215.5
+},
+"SAS-CHI": {
+"sp_open_a": -14.5,
+"sp_now_a": -15.5,
+"tot_open": 237.5,
+"tot_now": 237.5
+},
+"DEN-MEM": {
+"sp_open_a": -4.5,
+"sp_now_a": -3.5,
+"tot_open": 228.5,
+"tot_now": 229.5
+},
+"LAL-MIL": {
+"sp_open_a": -10.5,
+"sp_now_a": -14.5,
+"tot_open": 233.5,
+"tot_now": 228.5
+},
+"BKN-NOP": {
+"sp_open_a": 4.5,
+"sp_now_a": 3.5,
+"tot_open": 230.5,
+"tot_now": 228.5
+},
+"ORL-UTA": {
+"sp_open_a": -4.5,
+"sp_now_a": -4.5,
+"tot_open": 218.5,
+"tot_now": 214.5
+},
+"GSW-HOU": {
+"sp_open_a": 5.5,
+"sp_now_a": 6.5,
+"tot_open": 222.5,
+"tot_now": 219.5
+},
+"OKC-POR": {
+"sp_open_a": -2.5,
+"sp_now_a": -1.5,
+"tot_open": 224.5,
+"tot_now": 225.5
+}
+},
+"t222": {
+"WAS-IND": {
+"sp_a": 3.0,
+"tot": 227.5,
+"ml_a": 130,
+"ml_h": -150
+},
+"CLE-NYK": {
+"sp_a": 3.5,
+"tot": 221.5,
+"ml_a": 155,
+"ml_h": -175
+},
+"BOS-TOR": {
+"sp_a": -5.5,
+"tot": 215.5,
+"ml_a": -220,
+"ml_h": 180
+},
+"SAS-CHI": {
+"sp_a": -15.5,
+"tot": 238.0,
+"ml_a": -1205,
+"ml_h": 655
+},
+"DEN-MEM": {
+"sp_a": -3.5,
+"tot": 230.0,
+"ml_a": -165,
+"ml_h": 145
+},
+"LAL-MIL": {
+"sp_a": -14.5,
+"tot": 228.5,
+"ml_a": -805,
+"ml_h": 505
+},
+"BKN-NOP": {
+"sp_a": 3.5,
+"tot": 228.0,
+"ml_a": 140,
+"ml_h": -160
+},
+"ORL-UTA": {
+"sp_a": -4.5,
+"tot": 214.0,
+"ml_a": -185,
+"ml_h": 155
+},
+"GSW-HOU": {
+"sp_a": 6.5,
+"tot": 220.5,
+"ml_a": 210,
+"ml_h": -265
+},
+"OKC-POR": {
+"sp_a": -1.0,
+"tot": 225.5,
+"ml_a": -115,
+"ml_h": -105
+}
+},
+"model": {
+"WAS-IND": {
+"home_margin": 2.66,
+"total": 227.7,
+"pace": 102.7,
+"model_home_win": 0.584,
+"sr_home_win": 56.7,
+"blended_home_win": 0.578,
+"inj": {
+"IND": 2.5
+}
+},
+"CLE-NYK": {
+"home_margin": 6.05,
+"total": 220.4,
+"pace": 97.0,
+"model_home_win": 0.686,
+"sr_home_win": 61.3,
+"blended_home_win": 0.631,
+"inj": {
+"CLE": 1.5,
+"NYK": 1.5
+}
+},
+"BOS-TOR": {
+"home_margin": -5.49,
+"total": 215.8,
+"pace": 95.8,
+"model_home_win": 0.33,
+"sr_home_win": 33.5,
+"blended_home_win": 0.338,
+"inj": {
+"BOS": 3.0,
+"TOR": 4.5
+}
+},
+"SAS-CHI": {
+"home_margin": -19.72,
+"total": 235.4,
+"pace": 103.7,
+"model_home_win": 0.057,
+"sr_home_win": 10.0,
+"blended_home_win": 0.107,
+"inj": {}
+},
+"DEN-MEM": {
+"home_margin": -2.83,
+"total": 231.0,
+"pace": 99.9,
+"model_home_win": 0.41,
+"sr_home_win": 40.5,
+"blended_home_win": 0.401,
+"inj": {
+"MEM": 1.0
+}
+},
+"LAL-MIL": {
+"home_margin": -13.63,
+"total": 229.9,
+"pace": 98.9,
+"model_home_win": 0.138,
+"sr_home_win": 13.6,
+"blended_home_win": 0.149,
+"inj": {
+"LAL": 1.0,
+"MIL": 1.5
+}
+},
+"BKN-NOP": {
+"home_margin": 5.27,
+"total": 223.3,
+"pace": 99.9,
+"model_home_win": 0.663,
+"sr_home_win": 59.1,
+"blended_home_win": 0.609,
+"inj": {
+"BKN": 1.0,
+"NOP": 2.0
+}
+},
+"ORL-UTA": {
+"home_margin": -5.76,
+"total": 224.7,
+"pace": 101.7,
+"model_home_win": 0.323,
+"sr_home_win": 39.4,
+"blended_home_win": 0.369,
+"inj": {
+"ORL": 3.5,
+"UTA": 5.0
+}
+},
+"GSW-HOU": {
+"home_margin": 7.66,
+"total": 220.1,
+"pace": 97.0,
+"model_home_win": 0.73,
+"sr_home_win": 69.8,
+"blended_home_win": 0.701,
+"inj": {
+"GSW": 2.0,
+"HOU": 1.0
+}
+},
+"OKC-POR": {
+"home_margin": -2.12,
+"total": 220.1,
+"pace": 100.7,
+"model_home_win": 0.433,
+"sr_home_win": 48.0,
+"blended_home_win": 0.476,
+"inj": {
+"OKC": 3.5,
+"POR": 2.5
+}
+}
+}
+},
+"2026-11-12": {
+"an": {
+"DET-WAS": {
+"ml_open": [
+-370,
+295
+],
+"bets": 92,
+"money": 87,
+"sp_open": -9.5,
+"sp_bets": 62,
+"sp_money": 61,
+"tot_open": 220.5,
+"tot_now": "222",
+"o_bets": 78,
+"o_money": 62,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {},
+"n_bets": 12106
+},
+"TOR-PHI": {
+"ml_open": [
+310,
+-400
+],
+"bets": 7,
+"money": 8,
+"sp_open": 9.5,
+"sp_bets": 37,
+"sp_money": 41,
+"tot_open": 220.5,
+"tot_now": "224.5",
+"o_bets": 76,
+"o_money": 70,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {},
+"n_bets": 9885
+},
+"DAL-MIN": {
+"ml_open": [
+155,
+-185
+],
+"bets": 26,
+"money": 49,
+"sp_open": 4.5,
+"sp_bets": 58,
+"sp_money": 65,
+"tot_open": 225.5,
+"tot_now": "226.5",
+"o_bets": 71,
+"o_money": 75,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 12490
+},
+"CHA-PHX": {
+"ml_open": [
+202,
+-245
+],
+"bets": 11,
+"money": 13,
+"sp_open": 6.5,
+"sp_bets": 24,
+"sp_money": 21,
+"tot_open": 212.5,
+"tot_now": "214.5",
+"o_bets": 85,
+"o_money": 90,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 11248
+}
+},
+"inj": {
+"TOR": 4.5,
+"CHA": 4.0,
+"PHI": 3.0,
+"MIN": 1.5,
+"DET": 1.0,
+"WAS": 0.5
+},
+"dk": {
+"DET-WAS": {
+"sp_open_a": -10.5,
+"sp_now_a": -10.5,
+"tot_open": 220.5,
+"tot_now": 222.0
+},
+"TOR-PHI": {
+"sp_open_a": 8.5,
+"sp_now_a": 7.5,
+"tot_open": 222.5,
+"tot_now": 224.5
+},
+"DAL-MIN": {
+"sp_open_a": 6.0,
+"sp_now_a": 6.0,
+"tot_open": 226.5,
+"tot_now": 226.5
+},
+"CHA-PHX": {
+"sp_open_a": 6.5,
+"sp_now_a": 6.5,
+"tot_open": 214.5,
+"tot_now": 214.5
+}
+},
+"t222": {
+"DET-WAS": {
+"sp_a": -10.5,
+"tot": 220.5,
+"ml_a": -459,
+"ml_h": 340
+},
+"TOR-PHI": {
+"sp_a": 8.5,
+"tot": 222.5,
+"ml_a": 272,
+"ml_h": -344
+},
+"DAL-MIN": {
+"sp_a": 6.0,
+"tot": 226.5,
+"ml_a": 185,
+"ml_h": -225
+},
+"CHA-PHX": {
+"sp_a": 6.5,
+"tot": 214.5,
+"ml_a": 200,
+"ml_h": -240
+}
+},
+"model": {
+"DET-WAS": {
+"home_margin": -16.41,
+"total": 219.6,
+"pace": 100.4,
+"model_home_win": 0.095,
+"sr_home_win": 20.5,
+"blended_home_win": 0.19,
+"inj": {
+"DET": 1.0,
+"WAS": 0.5
+}
+},
+"TOR-PHI": {
+"home_margin": 1.9,
+"total": 219.5,
+"pace": 99.7,
+"model_home_win": 0.56,
+"sr_home_win": 70.1,
+"blended_home_win": 0.698,
+"inj": {
+"TOR": 4.5,
+"PHI": 3.0
+}
+},
+"DAL-MIN": {
+"home_margin": 7.98,
+"total": 224.2,
+"pace": 102.3,
+"model_home_win": 0.738,
+"sr_home_win": 67.7,
+"blended_home_win": 0.681,
+"inj": {
+"MIN": 1.5
+}
+},
+"CHA-PHX": {
+"home_margin": 6.29,
+"total": 213.6,
+"pace": 95.4,
+"model_home_win": 0.693,
+"sr_home_win": 68.9,
+"blended_home_win": 0.684,
+"inj": {
+"CHA": 4.0
+}
+}
+}
+},
+"2026-11-13": {
+"an": {
+"NYK-IND": {
+"ml_open": [
+-125,
+105
+],
+"bets": 94,
+"money": 94,
+"sp_open": -2.5,
+"sp_bets": 78,
+"sp_money": 74,
+"tot_open": 233.5,
+"tot_now": "219.5",
+"o_bets": 86,
+"o_money": 74,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 12424
+},
+"MIL-ORL": {
+"ml_open": [
+310,
+-390
+],
+"bets": 7,
+"money": 17,
+"sp_open": 8.5,
+"sp_bets": 44,
+"sp_money": 63,
+"tot_open": 222.5,
+"tot_now": "223.5",
+"o_bets": 77,
+"o_money": 74,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H",
+"Big Money": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9218
+},
+"CLE-MIA": {
+"ml_open": [
+108,
+-125
+],
+"bets": 47,
+"money": 61,
+"sp_open": 2.5,
+"sp_bets": 51,
+"sp_money": 60,
+"tot_open": 236.5,
+"tot_now": "236.5",
+"o_bets": 70,
+"o_money": 68,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 11500
+},
+"ATL-CHI": {
+"ml_open": [
+-250,
+205
+],
+"bets": 91,
+"money": 88,
+"sp_open": -6.5,
+"sp_bets": 73,
+"sp_money": 62,
+"tot_open": 244.5,
+"tot_now": "245.5",
+"o_bets": 61,
+"o_money": 55,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 8517
+},
+"MEM-NOP": {
+"ml_open": [
+-168,
+142
+],
+"bets": 85,
+"money": 88,
+"sp_open": -3.5,
+"sp_bets": 73,
+"sp_money": 59,
+"tot_open": 233.5,
+"tot_now": "235.5",
+"o_bets": 68,
+"o_money": 63,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 10213
+},
+"UTA-HOU": {
+"ml_open": [
+870,
+-1500
+],
+"bets": 2,
+"money": 17,
+"sp_open": 17.5,
+"sp_bets": 32,
+"sp_money": 40,
+"tot_open": 218.5,
+"tot_now": "221",
+"o_bets": 81,
+"o_money": 84,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7608
+},
+"GSW-SAS": {
+"ml_open": [
+395,
+-535
+],
+"bets": 8,
+"money": 21,
+"sp_open": 10.5,
+"sp_bets": 29,
+"sp_money": 31,
+"tot_open": 236.5,
+"tot_now": "217.5",
+"o_bets": 89,
+"o_money": 94,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 10652
+},
+"POR-SAC": {
+"ml_open": [
+-560,
+420
+],
+"bets": 97,
+"money": 88,
+"sp_open": -11.5,
+"sp_bets": 80,
+"sp_money": 80,
+"tot_open": 230.5,
+"tot_now": "229.5",
+"o_bets": 74,
+"o_money": 82,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 9173
+},
+"OKC-LAC": {
+"ml_open": [
+-300,
+245
+],
+"bets": 97,
+"money": 94,
+"sp_open": -8.5,
+"sp_bets": 86,
+"sp_money": 80,
+"tot_open": 222.5,
+"tot_now": "222.5",
+"o_bets": 81,
+"o_money": 85,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 7200
+}
+},
+"inj": {
+"GSW": 6.5,
+"UTA": 5.0,
+"CLE": 4.5,
+"NOP": 4.0,
+"OKC": 3.5,
+"ORL": 3.5,
+"MEM": 2.5,
+"POR": 2.5,
+"IND": 2.5,
+"CHI": 2.0,
+"HOU": 1.5,
+"LAC": 1.5,
+"SAC": 1.5,
+"SAS": 1.0,
+"ATL": 0.5
+},
+"dk": {
+"NYK-IND": {
+"sp_open_a": -8.5,
+"sp_now_a": -8.5,
+"tot_open": 219.0,
+"tot_now": 219.5
+},
+"MIL-ORL": {
+"sp_open_a": 9.0,
+"sp_now_a": 9.5,
+"tot_open": 222.5,
+"tot_now": 223.5
+},
+"ATL-CHI": {
+"sp_open_a": -6.5,
+"sp_now_a": -7.0,
+"tot_open": 246.5,
+"tot_now": 245.5
+},
+"CLE-MIA": {
+"sp_open_a": 2.5,
+"sp_now_a": 2.5,
+"tot_open": 235.5,
+"tot_now": 236.5
+},
+"MEM-NOP": {
+"sp_open_a": -2.5,
+"sp_now_a": -3.5,
+"tot_open": 235.5,
+"tot_now": 235.5
+},
+"UTA-HOU": {
+"sp_open_a": 16.0,
+"sp_now_a": 15.0,
+"tot_open": 219.0,
+"tot_now": 221.0
+},
+"GSW-SAS": {
+"sp_open_a": 11.5,
+"sp_now_a": 12.0,
+"tot_open": 218.5,
+"tot_now": 217.5
+},
+"POR-SAC": {
+"sp_open_a": -10.5,
+"sp_now_a": -10.0,
+"tot_open": 229.0,
+"tot_now": 229.5
+},
+"OKC-LAC": {
+"sp_open_a": -6.5,
+"sp_now_a": -7.0,
+"tot_open": 222.5,
+"tot_now": 222.5
+}
+},
+"t222": {
+"NYK-IND": {
+"sp_a": -8.5,
+"tot": 219.0,
+"ml_a": -310,
+"ml_h": 250
+},
+"MIL-ORL": {
+"sp_a": 9.0,
+"tot": 222.5,
+"ml_a": 292,
+"ml_h": -370
+},
+"CLE-MIA": {
+"sp_a": 2.5,
+"tot": 235.5,
+"ml_a": 115,
+"ml_h": -135
+},
+"ATL-CHI": {
+"sp_a": -6.5,
+"tot": 246.5,
+"ml_a": -250,
+"ml_h": 205
+},
+"MEM-NOP": {
+"sp_a": -2.5,
+"tot": 235.5,
+"ml_a": -144,
+"ml_h": 120
+},
+"UTA-HOU": {
+"sp_a": 16.0,
+"tot": 219.0,
+"ml_a": 800,
+"ml_h": -1350
+},
+"GSW-SAS": {
+"sp_a": 11.5,
+"tot": 218.5,
+"ml_a": 500,
+"ml_h": -700
+},
+"POR-SAC": {
+"sp_a": -10.5,
+"tot": 229.0,
+"ml_a": -500,
+"ml_h": 380
+},
+"OKC-LAC": {
+"sp_a": -6.5,
+"tot": 222.5,
+"ml_a": -272,
+"ml_h": 220
+}
+},
+"model": {
+"NYK-IND": {
+"home_margin": -11.74,
+"total": 217.9,
+"pace": 97.6,
+"model_home_win": 0.174,
+"sr_home_win": 25.6,
+"blended_home_win": 0.251,
+"inj": {
+"IND": 2.5
+}
+},
+"MIL-ORL": {
+"home_margin": 6.26,
+"total": 220.9,
+"pace": 98.6,
+"model_home_win": 0.692,
+"sr_home_win": 77.3,
+"blended_home_win": 0.746,
+"inj": {
+"ORL": 3.5
+}
+},
+"CLE-MIA": {
+"home_margin": 2.19,
+"total": 237.9,
+"pace": 103.5,
+"model_home_win": 0.57,
+"sr_home_win": 55.4,
+"blended_home_win": 0.556,
+"inj": {
+"CLE": 4.5
+}
+},
+"ATL-CHI": {
+"home_margin": -12.26,
+"total": 242.3,
+"pace": 106.1,
+"model_home_win": 0.163,
+"sr_home_win": 28.5,
+"blended_home_win": 0.278,
+"inj": {
+"ATL": 0.5,
+"CHI": 2.0
+}
+},
+"MEM-NOP": {
+"home_margin": -4.94,
+"total": 234.7,
+"pace": 102.2,
+"model_home_win": 0.346,
+"sr_home_win": 40.8,
+"blended_home_win": 0.412,
+"inj": {
+"MEM": 2.5,
+"NOP": 4.0
+}
+},
+"UTA-HOU": {
+"home_margin": 23.5,
+"total": 222.1,
+"pace": 99.0,
+"model_home_win": 0.97,
+"sr_home_win": 90.1,
+"blended_home_win": 0.91,
+"inj": {
+"UTA": 5.0,
+"HOU": 1.5
+}
+},
+"GSW-SAS": {
+"home_margin": 14.29,
+"total": 225.8,
+"pace": 99.5,
+"model_home_win": 0.874,
+"sr_home_win": 84.2,
+"blended_home_win": 0.847,
+"inj": {
+"GSW": 6.5,
+"SAS": 1.0
+}
+},
+"POR-SAC": {
+"home_margin": -10.76,
+"total": 231.0,
+"pace": 101.6,
+"model_home_win": 0.195,
+"sr_home_win": 19.6,
+"blended_home_win": 0.198,
+"inj": {
+"POR": 2.5,
+"SAC": 1.5
+}
+},
+"OKC-LAC": {
+"home_margin": -4.71,
+"total": 217.9,
+"pace": 98.2,
+"model_home_win": 0.353,
+"sr_home_win": 28.8,
+"blended_home_win": 0.308,
+"inj": {
+"OKC": 3.5,
+"LAC": 1.5
+}
+}
+}
+},
+"2026-11-14": {
+"an": {
+"DEN-NOP": {
+"ml_open": [
+-590,
+430
+],
+"bets": 94,
+"money": 93,
+"sp_open": -11.5,
+"sp_bets": 71,
+"sp_money": 78,
+"tot_open": 233.5,
+"tot_now": "235.5",
+"o_bets": 59,
+"o_money": 66,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 1610
+},
+"DAL-CLE": {
+"ml_open": [
+118,
+-140
+],
+"bets": 34,
+"money": 64,
+"sp_open": 3.5,
+"sp_bets": 34,
+"sp_money": 53,
+"tot_open": 231.5,
+"tot_now": "231.5",
+"o_bets": 69,
+"o_money": 68,
+"sig_ml": {
+"Big Money": "A"
+},
+"sig_sp": {
+"Sharp Action": "A",
+"Big Money": "A"
+},
+"sig_tot": {},
+"n_bets": 1635
+},
+"BKN-MEM": {
+"ml_open": [
+163,
+-195
+],
+"bets": 15,
+"money": 20,
+"sp_open": 5.5,
+"sp_bets": 18,
+"sp_money": 21,
+"tot_open": 224.5,
+"tot_now": "228.5",
+"o_bets": 75,
+"o_money": 77,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1428
+},
+"CHI-MIN": {
+"ml_open": [
+625,
+-1000
+],
+"bets": 10,
+"money": 15,
+"sp_open": 13.5,
+"sp_bets": 43,
+"sp_money": 36,
+"tot_open": 236.5,
+"tot_now": "235.5",
+"o_bets": 63,
+"o_money": 68,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1297
+},
+"DET-MIA": {
+"ml_open": [
+-186,
+156
+],
+"bets": 68,
+"money": 69,
+"sp_open": -5.5,
+"sp_bets": 53,
+"sp_money": 50,
+"tot_open": 226.5,
+"tot_now": "229",
+"o_bets": 78,
+"o_money": 80,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 1751
+}
+},
+"inj": {
+"CLE": 4.5,
+"NOP": 4.0,
+"MEM": 2.5,
+"MIA": 2.5,
+"MIN": 2.5,
+"CHI": 2.0,
+"DET": 1.0,
+"DAL": 0.5
+},
+"dk": {
+"DEN-NOP": {
+"sp_open_a": -12.0,
+"sp_now_a": -12.0,
+"tot_open": 235.5,
+"tot_now": 235.5
+},
+"DAL-CLE": {
+"sp_open_a": 1.0,
+"sp_now_a": -1.0,
+"tot_open": 231.5,
+"tot_now": 231.5
+},
+"BKN-MEM": {
+"sp_open_a": 3.5,
+"sp_now_a": 3.5,
+"tot_open": 228.0,
+"tot_now": 228.5
+},
+"CHI-MIN": {
+"sp_open_a": 15.0,
+"sp_now_a": 15.0,
+"tot_open": 235.5,
+"tot_now": 235.5
+},
+"DET-MIA": {
+"sp_open_a": -5.0,
+"sp_now_a": -4.5,
+"tot_open": 229.0,
+"tot_now": 229.0
+}
+},
+"t222": {
+"DEN-NOP": {
+"sp_a": -12.0,
+"tot": 235.5,
+"ml_a": -600,
+"ml_h": 446
+},
+"DAL-CLE": {
+"sp_a": 1.0,
+"tot": 231.5,
+"ml_a": -108,
+"ml_h": -109
+},
+"DET-MIA": {
+"sp_a": -5.0,
+"tot": 229.0,
+"ml_a": -195,
+"ml_h": 164
+},
+"BKN-MEM": {
+"sp_a": 3.5,
+"tot": 228.0,
+"ml_a": 140,
+"ml_h": -165
+},
+"CHI-MIN": {
+"sp_a": 15.0,
+"tot": 235.5,
+"ml_a": 624,
+"ml_h": -950
+}
+},
+"model": {
+"DEN-NOP": {
+"home_margin": -14.12,
+"total": 234.9,
+"pace": 100.1,
+"model_home_win": 0.129,
+"sr_home_win": 17.1,
+"blended_home_win": 0.166,
+"inj": {
+"NOP": 4.0
+}
+},
+"DAL-CLE": {
+"home_margin": 0.77,
+"total": 229.5,
+"pace": 101.4,
+"model_home_win": 0.524,
+"sr_home_win": 55.4,
+"blended_home_win": 0.516,
+"inj": {
+"DAL": 0.5,
+"CLE": 4.5
+}
+},
+"DET-MIA": {
+"home_margin": -10.06,
+"total": 228.9,
+"pace": 102.6,
+"model_home_win": 0.211,
+"sr_home_win": 37.0,
+"blended_home_win": 0.335,
+"inj": {
+"DET": 1.0,
+"MIA": 2.5
+}
+},
+"BKN-MEM": {
+"home_margin": 6.09,
+"total": 223.7,
+"pace": 99.6,
+"model_home_win": 0.687,
+"sr_home_win": 65.4,
+"blended_home_win": 0.628,
+"inj": {
+"MEM": 2.5
+}
+},
+"CHI-MIN": {
+"home_margin": 21.88,
+"total": 234.1,
+"pace": 104.5,
+"model_home_win": 0.96,
+"sr_home_win": 87.8,
+"blended_home_win": 0.888,
+"inj": {
+"CHI": 2.0,
+"MIN": 2.5
+}
+}
+}
+},
+"2026-11-15": {
+"an": {
+"IND-PHI": {
+"ml_open": [
+240,
+-295
+],
+"bets": 6,
+"money": 5,
+"sp_open": 7.5,
+"sp_bets": 24,
+"sp_money": 21,
+"tot_open": 221.5,
+"tot_now": "225",
+"o_bets": 77,
+"o_money": 78,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1751
+},
+"LAL-PHX": {
+"ml_open": [
+-152,
+125
+],
+"bets": 86,
+"money": 88,
+"sp_open": -2.5,
+"sp_bets": 80,
+"sp_money": 78,
+"tot_open": 228.5,
+"tot_now": "227.5",
+"o_bets": 83,
+"o_money": 84,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1655
+},
+"CHA-LAC": {
+"ml_open": [
+100,
+-118
+],
+"bets": 29,
+"money": 40,
+"sp_open": 1.5,
+"sp_bets": 25,
+"sp_money": 27,
+"tot_open": 216.5,
+"tot_now": "214.5",
+"o_bets": 79,
+"o_money": 79,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "A"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 833
+},
+"SAS-UTA": {
+"ml_open": [
+-1640,
+949
+],
+"bets": 95,
+"money": 71,
+"sp_open": -17.5,
+"sp_bets": 55,
+"sp_money": 59,
+"tot_open": 223.5,
+"tot_now": "225.5",
+"o_bets": 87,
+"o_money": 84,
+"sig_ml": {
+"Big Money": "H"
+},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1045
+},
+"DAL-BOS": {
+"ml_open": [
+467,
+-610
+],
+"bets": 8,
+"money": 21,
+"sp_open": 12.5,
+"sp_bets": 49,
+"sp_money": 43,
+"tot_open": 217.5,
+"tot_now": "219.5",
+"o_bets": 87,
+"o_money": 89,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1029
+},
+"NYK-TOR": {
+"ml_open": [
+-176,
+148
+],
+"bets": 83,
+"money": 79,
+"sp_open": -4,
+"sp_bets": 71,
+"sp_money": 56,
+"tot_open": 216.5,
+"tot_now": "217.5",
+"o_bets": 80,
+"o_money": 65,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 802
+},
+"HOU-WAS": {
+"ml_open": [
+-386,
+306
+],
+"bets": 92,
+"money": 85,
+"sp_open": -9.5,
+"sp_bets": 51,
+"sp_money": 43,
+"tot_open": 223.5,
+"tot_now": "222.5",
+"o_bets": 84,
+"o_money": 85,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 1842
+},
+"ATL-MIL": {
+"ml_open": [
+-285,
+230
+],
+"bets": 91,
+"money": 89,
+"sp_open": -7.5,
+"sp_bets": 68,
+"sp_money": 71,
+"tot_open": 231.5,
+"tot_now": "234.5",
+"o_bets": 52,
+"o_money": 55,
+"sig_ml": {},
+"sig_sp": {
+"Sharp Action": "H"
+},
+"sig_tot": {
+"Sharp Action": "O"
+},
+"n_bets": 1085
+},
+"OKC-SAC": {
+"ml_open": [
+-550,
+400
+],
+"bets": 95,
+"money": 85,
+"sp_open": -10.5,
+"sp_bets": 67,
+"sp_money": 51,
+"tot_open": 221.5,
+"tot_now": "222.5",
+"o_bets": 84,
+"o_money": 85,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {
+"Sharp Action": "U"
+},
+"n_bets": 848
+}
+},
+"inj": {
+"PHI": 4.0,
+"UTA": 4.0,
+"LAL": 3.5,
+"TOR": 3.5,
+"HOU": 2.5,
+"OKC": 2.5,
+"DAL": 2.0,
+"IND": 1.5,
+"CHA": 1.5,
+"ATL": 1.0,
+"MIL": 0.5
+},
+"dk": {
+"IND-PHI": {
+"sp_open_a": 7.0,
+"sp_now_a": 7.0,
+"tot_open": 225.5,
+"tot_now": 225.0
+},
+"LAL-PHX": {
+"sp_open_a": -3.0,
+"sp_now_a": -3.0,
+"tot_open": 227.5,
+"tot_now": 227.5
+},
+"CHA-LAC": {
+"sp_open_a": -1.0,
+"sp_now_a": -1.0,
+"tot_open": 214.5,
+"tot_now": 214.5
+},
+"SAS-UTA": {
+"sp_open_a": -16.5,
+"sp_now_a": -16.5,
+"tot_open": 225.5,
+"tot_now": 225.5
+},
+"DAL-BOS": {
+"sp_open_a": 14.0,
+"sp_now_a": 14.0,
+"tot_open": 219.5,
+"tot_now": 219.5
+},
+"NYK-TOR": {
+"sp_open_a": -4.5,
+"sp_now_a": -4.5,
+"tot_open": 217.5,
+"tot_now": 217.5
+},
+"HOU-WAS": {
+"sp_open_a": -8.5,
+"sp_now_a": -8.5,
+"tot_open": 222.5,
+"tot_now": 222.5
+},
+"ATL-MIL": {
+"sp_open_a": -7.5,
+"sp_now_a": -7.5,
+"tot_open": 234.5,
+"tot_now": 234.5
+},
+"OKC-SAC": {
+"sp_open_a": -10.5,
+"sp_now_a": -10.5,
+"tot_open": 222.5,
+"tot_now": 222.5
+}
+},
+"t222": {
+"IND-PHI": {
+"sp_a": 7.0,
+"tot": 225.5,
+"ml_a": 225,
+"ml_h": -275
+},
+"LAL-PHX": {
+"sp_a": -3.0,
+"tot": 227.5,
+"ml_a": -155,
+"ml_h": 130
+},
+"CHA-LAC": {
+"sp_a": -1.0,
+"tot": 214.5,
+"ml_a": -110,
+"ml_h": -110
+},
+"SAS-UTA": {
+"sp_a": -16.5,
+"tot": 225.5,
+"ml_a": -1400,
+"ml_h": 825
+},
+"DAL-BOS": {
+"sp_a": 14.0,
+"tot": 219.5,
+"ml_a": 558,
+"ml_h": -800
+},
+"NYK-TOR": {
+"sp_a": -4.5,
+"tot": 217.5,
+"ml_a": -190,
+"ml_h": 159
+},
+"HOU-WAS": {
+"sp_a": -8.5,
+"tot": 222.5,
+"ml_a": -360,
+"ml_h": 290
+},
+"ATL-MIL": {
+"sp_a": -7.5,
+"tot": 234.5,
+"ml_a": -305,
+"ml_h": 244
+},
+"OKC-SAC": {
+"sp_a": -10.5,
+"tot": 222.5,
+"ml_a": -475,
+"ml_h": 360
+}
+},
+"model": {
+"IND-PHI": {
+"home_margin": 5.61,
+"total": 221.3,
+"pace": 100.4,
+"model_home_win": 0.673,
+"sr_home_win": 71,
+"blended_home_win": 0.699,
+"inj": {
+"IND": 1.5,
+"PHI": 4.0
+}
+},
+"LAL-PHX": {
+"home_margin": 0.25,
+"total": 225.9,
+"pace": 97.7,
+"model_home_win": 0.508,
+"sr_home_win": 41.5,
+"blended_home_win": 0.435,
+"inj": {
+"LAL": 3.5
+}
+},
+"CHA-LAC": {
+"home_margin": 5.14,
+"total": 212.4,
+"pace": 95.4,
+"model_home_win": 0.66,
+"sr_home_win": 49.9,
+"blended_home_win": 0.532,
+"inj": {
+"CHA": 1.5
+}
+},
+"SAS-UTA": {
+"home_margin": -21.33,
+"total": 229.7,
+"pace": 102.0,
+"model_home_win": 0.044,
+"sr_home_win": 8.5,
+"blended_home_win": 0.088,
+"inj": {
+"UTA": 4.0
+}
+},
+"DAL-BOS": {
+"home_margin": 16.98,
+"total": 216.8,
+"pace": 96.9,
+"model_home_win": 0.913,
+"sr_home_win": 87.1,
+"blended_home_win": 0.869,
+"inj": {
+"DAL": 2.0
+}
+},
+"NYK-TOR": {
+"home_margin": -5.05,
+"total": 213.5,
+"pace": 96.1,
+"model_home_win": 0.343,
+"sr_home_win": 37.3,
+"blended_home_win": 0.366,
+"inj": {
+"TOR": 3.5
+}
+},
+"HOU-WAS": {
+"home_margin": -11.86,
+"total": 222.7,
+"pace": 98.1,
+"model_home_win": 0.171,
+"sr_home_win": 22.9,
+"blended_home_win": 0.228,
+"inj": {
+"HOU": 2.5
+}
+},
+"ATL-MIL": {
+"home_margin": -8.1,
+"total": 229.3,
+"pace": 101.5,
+"model_home_win": 0.258,
+"sr_home_win": 26.5,
+"blended_home_win": 0.272,
+"inj": {
+"ATL": 1.0,
+"MIL": 0.5
+}
+},
+"OKC-SAC": {
+"home_margin": -14.53,
+"total": 219.7,
+"pace": 99.6,
+"model_home_win": 0.123,
+"sr_home_win": 19.2,
+"blended_home_win": 0.188,
+"inj": {
+"OKC": 2.5
+}
+}
+}
+},
+"2026-11-17": {
+"an": {
+"NYK-TOR": {
+"ml_open": [
+-145,
+125
+],
+"bets": 50,
+"money": 50,
+"sp_open": -3,
+"sp_bets": 50,
+"sp_money": 50,
+"tot_open": 215.5,
+"tot_now": "215.5",
+"o_bets": 50,
+"o_money": 50,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 0
+},
+"POR-MIN": {
+"ml_open": [
+113,
+-135
+],
+"bets": 50,
+"money": 50,
+"sp_open": 2,
+"sp_bets": 50,
+"sp_money": 50,
+"tot_open": 227.5,
+"tot_now": "226",
+"o_bets": 50,
+"o_money": 50,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 0
+},
+"DET-SAS": {
+"ml_open": [
+310,
+-400
+],
+"bets": 50,
+"money": 50,
+"sp_open": 9.5,
+"sp_bets": 50,
+"sp_money": 50,
+"tot_open": 222.5,
+"tot_now": "221.5",
+"o_bets": 50,
+"o_money": 50,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 0
+},
+"UTA-LAC": {
+"ml_open": [
+200,
+-239
+],
+"bets": 50,
+"money": 50,
+"sp_open": 6.5,
+"sp_bets": 50,
+"sp_money": 50,
+"tot_open": 225.5,
+"tot_now": "225.5",
+"o_bets": 50,
+"o_money": 50,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 0
+},
+"CHA-LAL": {
+"ml_open": [
+250,
+-305
+],
+"bets": 50,
+"money": 50,
+"sp_open": 7.5,
+"sp_bets": 50,
+"sp_money": 50,
+"tot_open": 220.5,
+"tot_now": "223",
+"o_bets": 50,
+"o_money": 50,
+"sig_ml": {},
+"sig_sp": {},
+"sig_tot": {},
+"n_bets": 0
+}
+},
+"inj": {
+"LAL": 5.0,
+"MIN": 4.0,
+"DET": 3.0,
+"UTA": 3.0,
+"CHA": 1.5,
+"POR": 0.5,
+"TOR": 0.5
+},
+"dk": {
+"NYK-TOR": {
+"sp_open_a": -3.0,
+"sp_now_a": -2.5,
+"tot_open": 215.5,
+"tot_now": 215.5
+},
+"DET-SAS": {
+"sp_open_a": 9.5,
+"sp_now_a": 9.5,
+"tot_open": 222.5,
+"tot_now": 221.5
+},
+"POR-MIN": {
+"sp_open_a": 2.0,
+"sp_now_a": 2.5,
+"tot_open": 227.5,
+"tot_now": 226.0
+},
+"UTA-LAC": {
+"sp_open_a": 6.5,
+"sp_now_a": 6.5,
+"tot_open": 225.5,
+"tot_now": 225.5
+},
+"CHA-LAL": {
+"sp_open_a": 7.5,
+"sp_now_a": 7.0,
+"tot_open": 220.5,
+"tot_now": 223.0
+}
+},
+"t222": {
+"NYK-TOR": {
+"sp_a": -3.0,
+"tot": 215.5,
+"ml_a": -145,
+"ml_h": 125
+},
+"POR-MIN": {
+"sp_a": 2.0,
+"tot": 227.5,
+"ml_a": 113,
+"ml_h": -135
+},
+"DET-SAS": {
+"sp_a": 9.5,
+"tot": 222.5,
+"ml_a": 310,
+"ml_h": -400
+},
+"UTA-LAC": {
+"sp_a": 6.5,
+"tot": 225.5,
+"ml_a": 200,
+"ml_h": -239
+},
+"CHA-LAL": {
+"sp_a": 7.5,
+"tot": 220.5,
+"ml_a": 250,
+"ml_h": -305
+}
+},
+"model": {
+"NYK-TOR": {
+"home_margin": -2.77,
+"total": 213.1,
+"pace": 96.5,
+"model_home_win": 0.412,
+"sr_home_win": null,
+"blended_home_win": 0.422,
+"inj": {
+"TOR": 0.5
+}
+},
+"POR-MIN": {
+"home_margin": 3.04,
+"total": 222.2,
+"pace": 101.8,
+"model_home_win": 0.596,
+"sr_home_win": null,
+"blended_home_win": 0.569,
+"inj": {
+"POR": 0.5,
+"MIN": 4.0
+}
+},
+"DET-SAS": {
+"home_margin": 7.31,
+"total": 221.6,
+"pace": 99.6,
+"model_home_win": 0.721,
+"sr_home_win": null,
+"blended_home_win": 0.748,
+"inj": {
+"DET": 3.0
+}
+},
+"UTA-LAC": {
+"home_margin": 11.5,
+"total": 226.8,
+"pace": 100.3,
+"model_home_win": 0.821,
+"sr_home_win": null,
+"blended_home_win": 0.736,
+"inj": {
+"UTA": 3.0
+}
+},
+"CHA-LAL": {
+"home_margin": 7.56,
+"total": 219.7,
+"pace": 96.3,
+"model_home_win": 0.727,
+"sr_home_win": null,
+"blended_home_win": 0.726,
+"inj": {
+"CHA": 1.5,
+"LAL": 5.0
+}
+}
+}
+}
+}

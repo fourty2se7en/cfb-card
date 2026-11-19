@@ -1,0 +1,12 @@
+{
+ "_about": "Week-of openers from the Oct 27 notes research (notes.json movement). 'confirmed': Sportsbook Review and Bookmakers Review agree exactly. 'direction': they differ but agree the line moved the same way; the opener closer to the current line is used so the move is never overstated. Action Network and VegasInsider 'open' columns are lookahead lines and are not used. spread_h = home spread.",
+ "MIN@DET": {"spread_h": -3.0, "src": "confirmed"},
+ "IND@JAX": {"spread_h": -7.5, "src": "confirmed"},
+ "LAC@LA": {"spread_h": -7.5, "src": "confirmed"},
+ "NE@MIA": {"spread_h": 7.5, "total": 44.5, "src": "confirmed"},
+ "CHI@SEA": {"spread_h": -3.0, "src": "confirmed"},
+ "PHI@WAS": {"spread_h": -4.0, "src": "direction (SBR -4, BMR -3.5)"},
+ "CLE@PIT": {"spread_h": -4.0, "src": "direction (SBR -4, BMR -4.5)"},
+ "ATL@TB": {"spread_h": -1.5, "src": "direction (SBR -1, BMR -1.5)"},
+ "BAL@BUF": {"spread_h": -3.0, "src": "direction (SBR -3, BMR -2.5)"}
+}

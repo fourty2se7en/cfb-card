@@ -1,0 +1,33 @@
+div,definition,side,period,n,cover,lo,hi
+fbs,"Original: UTC dates, 6 days or less vs 7+",all,2017-2025,818,0.524,0.49,0.559
+fbs,"Original: UTC dates, 6 days or less vs 7+",all,2026,77,0.623,0.515,0.732
+fbs,"Original: UTC dates, 6 days or less vs 7+",underdog only,2017-2025,427,0.541,0.494,0.588
+fbs,"Original: UTC dates, 6 days or less vs 7+",underdog only,2026,40,0.575,0.422,0.728
+fbs,"Calendar days (Eastern), 6 days or less vs 7+",all,2017-2025,179,0.52,0.446,0.593
+fbs,"Calendar days (Eastern), 6 days or less vs 7+",all,2026,21,0.571,0.36,0.783
+fbs,"Calendar days (Eastern), 6 days or less vs 7+",underdog only,2017-2025,89,0.472,0.368,0.576
+fbs,"Calendar days (Eastern), 6 days or less vs 7+",underdog only,2026,10,0.6,0.296,0.904
+fbs,Real short week: calendar 5 days or less vs 6+,all,2017-2025,22,0.5,0.291,0.709
+fbs,Real short week: calendar 5 days or less vs 6+,all,2026,2,0.5,-0.193,1.193
+fbs,Real short week: calendar 5 days or less vs 6+,underdog only,2017-2025,13,0.308,0.057,0.559
+fbs,Real short week: calendar 5 days or less vs 6+,underdog only,2026,1,1.0,1.0,1.0
+fbs,"Hours: opponent under 156 h (6.5 days), team 156 h+",all,2017-2025,177,0.52,0.446,0.593
+fbs,"Hours: opponent under 156 h (6.5 days), team 156 h+",all,2026,21,0.571,0.36,0.783
+fbs,"Hours: opponent under 156 h (6.5 days), team 156 h+",underdog only,2017-2025,88,0.477,0.373,0.582
+fbs,"Hours: opponent under 156 h (6.5 days), team 156 h+",underdog only,2026,10,0.6,0.296,0.904
+fcs,"Original: UTC dates, 6 days or less vs 7+",all,2017-2025,159,0.597,0.521,0.674
+fcs,"Original: UTC dates, 6 days or less vs 7+",all,2026,31,0.452,0.276,0.627
+fcs,"Original: UTC dates, 6 days or less vs 7+",underdog only,2017-2025,82,0.622,0.517,0.727
+fcs,"Original: UTC dates, 6 days or less vs 7+",underdog only,2026,16,0.5,0.255,0.745
+fcs,"Calendar days (Eastern), 6 days or less vs 7+",all,2017-2025,15,0.6,0.352,0.848
+fcs,"Calendar days (Eastern), 6 days or less vs 7+",all,2026,5,0.8,0.449,1.151
+fcs,"Calendar days (Eastern), 6 days or less vs 7+",underdog only,2017-2025,3,0.333,-0.2,0.867
+fcs,"Calendar days (Eastern), 6 days or less vs 7+",underdog only,2026,4,1.0,1.0,1.0
+fcs,Real short week: calendar 5 days or less vs 6+,all,2017-2025,3,0.667,0.133,1.2
+fcs,Real short week: calendar 5 days or less vs 6+,all,2026,1,0.0,0.0,0.0
+fcs,Real short week: calendar 5 days or less vs 6+,underdog only,2017-2025,0,,,
+fcs,Real short week: calendar 5 days or less vs 6+,underdog only,2026,0,,,
+fcs,"Hours: opponent under 156 h (6.5 days), team 156 h+",all,2017-2025,15,0.6,0.352,0.848
+fcs,"Hours: opponent under 156 h (6.5 days), team 156 h+",all,2026,5,0.8,0.449,1.151
+fcs,"Hours: opponent under 156 h (6.5 days), team 156 h+",underdog only,2017-2025,3,0.333,-0.2,0.867
+fcs,"Hours: opponent under 156 h (6.5 days), team 156 h+",underdog only,2026,4,1.0,1.0,1.0

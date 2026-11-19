@@ -1,0 +1,30 @@
+401856738 STATUS_FINAL >> KJ Jackson : pass 180/1,rush -27/0 | Chris Marshall : rec 65/0 | CJ Brown : rec 4/0 | Byrum Brown : pass 180/2,rush 122/1
+401856740 STATUS_FINAL >> Keelon Russell : pass 206/3,rush 25/0 | Kaleb Edwards : rec 50/1 | Marshall Pritchett : rec 9/0 | Winston Watkins Jr. : rush 5/0,rec 11/0 | Trey'Dez Green : rec 85/0
+401856739 STATUS_FINAL >> John Mateer : pass 207/2,rush 56/0 | Lloyd Avant : rush 47/0,rec 6/0 | Isaiah Sategna III : rush 5/0,rec 34/1 | Rocky Beers : rec 72/0 || MISSING: Eric Singleton Jr.
+401856741 STATUS_FINAL >> Gunner Stockton : pass 186/4,rush 28/1 | Trinidad Chambliss : pass 170/0,rush -12/0 | Makhi Frazier : rush 8/0,rec 22/0 | Horatio Fields : rec 96/0 | Caleb Odom : rec 23/0 || MISSING: Caleb Cunningham,London Humphreys
+401860912 STATUS_FINAL >> Brad Jackson : pass 214/1,rush 87/1 | Torrance Burgess Jr. : rush 196/1,rec 8/0 | Davian Jackson : rush 107/3,rec 45/0 | Chris Dawn Jr. : rec 48/0 | AJ Newberry : rush 41/1,rec 4/0 | Aaron Butler : rec 26/0
+401858516 STATUS_FINAL >> Rocco Becht : pass 240/2,rush 10/0 | Demond Williams Jr. : pass 172/2,rush 43/0 | Chris Lawson : rec 89/0
+401856743 STATUS_FINAL >> Arch Manning : pass 297/3,rush -1/0 | Raleek Brown : rush 85/1,rec 48/1 | Austin Simmons : pass 252/2,rush -1/0 | Jamal Roberts : rush 66/0 | Cayden Lee : rec 79/0
+401856854 STATUS_FINAL >> Drew Mestemaker : pass 313/4,rush 11/1,rec 5/1 | Miles Coleman : rec 95/1 | Jaron Tibbs : rush 3/0,rec 42/0 | Derrick Salley Jr. : rec 100/2
+401856745 STATUS_FINAL >> Kenny Darby : rec 69/0 | DJ Miller : rec 23/0
+401856742 STATUS_FINAL >> Jared Curtis : pass 168/0,rush 22/0 | Sedrick Alexander : rush 59/1,rec 30/0 | Ja'Cory Thomas : rec 2/0
+401856744 STATUS_FINAL >> Marcel Reed : pass 251/0,rush 8/0 | Rueben Owens II : rush 137/0 | Mario Craver : rec 25/0 | LaNorris Sellers : pass 251/1,rush 34/1 | Jabree Coleman : rush 25/0,rec 4/0 | DJ Black : rec 17/0
+401856849 STATUS_FINAL >> Bear Bachmeier : pass 272/1,rush 59/0 | Legend Glasker : rush 5/0,rec 118/1 | Kyler Kasper : rec 43/0 | Devon Dampier : pass 177/2,rush 89/2,rec 29/0 | Wayshawn Parker : rush 36/0,rec 5/0 | Noah Bennee : rec 47/0
+401858286 STATUS_FINAL >> Walker Eget : pass 208/1 | Jonah Burton : rec 52/0 | Jeremiah Hasley : rec 16/0 | CJ Bailey : pass 123/0,rush -6/0 | Keenan Jackson : rec 21/0
+401856851 STATUS_FINAL >> JC French IV : pass 217/2,rush 24/1 | Cole Tabb : rush 60/0,rec 34/1 | Makhi Hughes : rush 90/0,rec 7/0
+401856852 STATUS_FINAL >> Richard Young : rush 47/0,rec 1/0 | Joseph Williams : rec 121/1 | DeAndre Moore Jr. : rec 48/0 | Cardae Mack : pass 9/1,rush 80/0,rec 17/0 | Reed Harris : rush 9/0,rec 103/1
+401856850 STATUS_FINAL >> Josh Derry : rec 143/1 | Waden Charles : rec 23/0 | Isaiah Marshall : pass 210/0,rush 125/2 | Dylan Edwards : rush 22/1 | Nahzae Cox : rec 42/0 | Nik McMillan : rec 31/0
+401856853 STATUS_FINAL >> Jaylen Raynor : pass 256/2,rush 23/1,rec 0/0 | Aiden Flora : pass 0/0,rush 182/1,rec 20/0 | Jamal Polite Jr. : rec 35/0 | DJ Lagway : pass 229/2,rush 119/1 | Jadon Porter : rec 6/0
+401856856 STATUS_FINAL >> Michael Hawkins Jr. : pass 303/1,rush 88/3 | Cam Cook : rush 149/1,rec 9/0 | DJ Epps : rush 15/0,rec 8/0 | J'Koby Williams : rush 160/1,rec 42/0
+401858285 STATUS_FINAL >> Tait Reynolds : pass 161/0,rush 61/0 | Bryant Wesco Jr. : pass 36/0,rush 4/0,rec 100/0 | Jarvis Green : rush 85/0,rec 6/0 | Chris Johnson Jr. : rush 8/0 | T.J. Moore : rec 63/0 | Olsen Patt-Henry : rec 5/0 | Tylik Hill : rush 16/0 | Daunte Bacheyie : rec 82/1 | Umari Hatcher : rec 12/0
+401858289 STATUS_FINAL >> Ashton Daniels : pass 178/0,rush 38/1 | Jasen Lopez : rec 54/0 | Desirrio Riles : rec 11/0 | Mason McKenzie : pass 166/2,rush 38/0,rec 10/0 | Bo MacCormack III : rush 105/1,rec 24/0 || MISSING: Dawson Pough
+401858287 STATUS_FINAL >> Lincoln Kienholz : pass 182/2,rush 81/0 | Keyjuan Brown : rush 54/0,rec 6/0 | Justice Haynes : rush 87/0,rec 12/0 | Dalen Penson : rec 66/0 | Jordan Allen : rec 33/0
+401858292 STATUS_FINAL >> Benjamin Hall : rush 81/1,rec 26/0 | Demon June : rush 60/0,rec 31/0 | Trech Kekahuna : rec 29/0 | Kalieb Osborne : pass 245/2,rush 28/0 | Cyncir Bowers : rush 68/1
+401858511 STATUS_FINAL >> Kenneth Williams : rush 41/0,rec 23/0 | Savion Hiter : rush 17/1,rec 2/0
+401858512 STATUS_FINAL >> Darius Taylor : rush 46/1,rec 18/0 | Javon Tracy : rush 2/0,rec 25/0 | Jalen Smith : rec 85/0
+401858513 STATUS_FINAL >> Xavier Williams : rush 7/0,rec 7/0 | Luke Dehnicke : rec 52/0 || MISSING: Aidan Chiles
+401858514 STATUS_FINAL >> Dylan Raiola : pass 257/2 | Evan Stewart : rec 47/0 | Bo Jackson : rush 48/2,rec 42/0 | Isaiah West : rush 10/0,rec 3/0 | Nate Roberts : rec 26/1
+401858515 STATUS_FINAL >> Ryan Browne : pass 296/0,rush 11/0 | Fame Ijeboi : rush 32/1,rec 35/0 | Asaad Waseem : rec 57/0
+401860911 STATUS_FINAL >> Dylan Riley : rush 192/2,rec 88/1 | Rasean Jones : rec 116/1 | Hauss Hejny : pass 253/2,rush 69/1 | RJ Vick : rec 38/0 || MISSING: Jackson Harper
+401862823 STATUS_FINAL >> Kemper Hodges : rush 119/1 | Gage LaDue : rush 65/0 | Owen Allen : rush 4/0 | Cale Hellums : pass 38/0,rush 34/1 | Samari Howard : rush 1/0,rec 11/0
+401864535 STATUS_FINAL >> Tyler Hughes : pass 107/1,rush 71/0 | Samuel Harris : rush 128/2,rec 10/0 | Jake Wilson : rec 56/1 | Jackson Arnold : pass 83/2,rush -5/0 | Kayden McGee : rush 0/0,rec 33/1 | Taz Reddicks : rec 41/1

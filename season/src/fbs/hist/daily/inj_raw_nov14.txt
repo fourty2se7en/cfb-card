@@ -1,0 +1,81 @@
+# Nov 14, 2026 ~1:30 AM Phoenix. Big Ten initial availability report (via ABC6/Yahoo) for OSU-NW; other QB status from team and beat news (WebSearch), ESPN box scores, Odds API props posted.
+Ohio State|Luke Fahey|QB|AVAILABLE|official|2026-11-13
+Ohio State|Julian Sayin|QB|OUT|official|2026-11-13
+Northwestern|Nicco Marchiol|QB|AVAILABLE|official|2026-11-13
+Northwestern|Aidan Chiles|QB|OUT|official|2026-11-13
+Michigan|Tommy Carr|QB|AVAILABLE|news|2026-11-13
+Michigan|Bryce Underwood|QB|AVAILABLE|news|2026-11-13
+Wisconsin|Ryan Hopkins|QB|AVAILABLE|news|2026-11-13
+Wisconsin|Colton Joseph|QB|OUT|news|2026-11-13
+Florida|Tramell Jones Jr.|QB|AVAILABLE|news|2026-11-13
+Florida|Aaron Philo|QB|OUT|news|2026-11-13
+Texas Tech|Thomas Castellanos|QB|AVAILABLE|news|2026-11-13
+Texas Tech|Will Hammond|QB|AVAILABLE|news|2026-11-13
+Arizona State|Jake Fette|QB|AVAILABLE|news|2026-11-13
+Arizona State|Cutter Boley|QB|OUT|news|2026-11-13
+UCF|Alonza Barnett III|QB|AVAILABLE|news|2026-11-13
+Kansas State|Blake Barnett|QB|AVAILABLE|news|2026-11-13
+Kansas State|Avery Johnson|QB|OUT|news|2026-11-13
+Mississippi State|AJ Swann|QB|AVAILABLE|news|2026-11-13
+Mississippi State|Kamario Taylor|QB|OUT|news|2026-11-13
+Wake Forest|Gio Lopez|QB|AVAILABLE|news|2026-11-13
+Boise State|Maddux Madsen|QB|AVAILABLE|news|2026-11-13
+James Madison|JC Evans|QB|AVAILABLE|news|2026-11-13
+James Madison|Camden Coleman|QB|OUT|news|2026-11-13
+Air Force|Evan Medders|QB|AVAILABLE|news|2026-11-13
+Air Force|Liam Szarka|QB|OUT|news|2026-11-13
+Rutgers|AJ Surace|QB|AVAILABLE|news|2026-11-13
+Rutgers|Dylan Lonergan|QB|OUT|news|2026-11-13
+Ohio State|Ja'Kobi Jackson|RB|OUT|official|2026-11-12
+Ohio State|Deshawn Stewart|S|OUT|official|2026-11-12
+Ohio State|Brennen Schramm|WR|OUT|official|2026-11-12
+Ohio State|Jaxon Powell|OL|OUT|official|2026-11-12
+Ohio State|Maxence LeBlanc|TE|OUT|official|2026-11-12
+Ohio State|Brandon Inniss|WR|QUESTIONABLE|official|2026-11-12
+Ohio State|Phillip Bell|WR|QUESTIONABLE|official|2026-11-12
+Ohio State|Terry Moore|S|QUESTIONABLE|official|2026-11-12
+Ohio State|Brock Boyd|WR|QUESTIONABLE|official|2026-11-12
+Ohio State|Eli Lee|LB|QUESTIONABLE|official|2026-11-12
+Ohio State|Deontae Armstrong|OL|QUESTIONABLE|official|2026-11-12
+Ohio State|Max Riley|OL|QUESTIONABLE|official|2026-11-12
+Northwestern|Josh Fussell|DB|OUT|official|2026-11-12
+Northwestern|Daniel Anderson|RB|OUT|official|2026-11-12
+Northwestern|Max Mohring|LB|OUT|official|2026-11-12
+Northwestern|Jason Reynolds II|LB|OUT|official|2026-11-12
+Northwestern|Qayvier Johnson|LB|OUT|official|2026-11-12
+Northwestern|Ezomo Oratokhai|OL|OUT|official|2026-11-12
+Northwestern|Chris Petrucci|TE|OUT|official|2026-11-12
+Missouri|Austin Simmons|QB|AVAILABLE|props|2026-11-14
+Oklahoma|John Mateer|QB|AVAILABLE|props|2026-11-14
+Georgia|Gunner Stockton|QB|AVAILABLE|props|2026-11-14
+Kansas|Isaiah Marshall|QB|AVAILABLE|props|2026-11-14
+USC|Jayden Maiava|QB|AVAILABLE|props|2026-11-14
+Oregon|Dylan Raiola|QB|AVAILABLE|props|2026-11-14
+California|Jaron-Keawe Sagapolutele|QB|AVAILABLE|props|2026-11-14
+Iowa State|Jaylen Raynor|QB|AVAILABLE|props|2026-11-14
+Ole Miss|Trinidad Chambliss|QB|AVAILABLE|props|2026-11-14
+West Virginia|Michael Hawkins Jr.|QB|AVAILABLE|props|2026-11-14
+Ohio State|Luke Fahey|QB|AVAILABLE|props|2026-11-14
+Syracuse|Steve Angeli|QB|AVAILABLE|props|2026-11-14
+Northwestern|Nicco Marchiol|QB|AVAILABLE|props|2026-11-14
+Mississippi State|AJ Swann|QB|AVAILABLE|props|2026-11-14
+Alabama|Keelon Russell|QB|AVAILABLE|props|2026-11-14
+Vanderbilt|Jared Curtis|QB|AVAILABLE|props|2026-11-14
+Virginia|Beau Pribula|QB|AVAILABLE|props|2026-11-14
+Miami|Darian Mensah|QB|AVAILABLE|props|2026-11-14
+Auburn|Byrum Brown|QB|AVAILABLE|props|2026-11-14
+NC State|CJ Bailey|QB|AVAILABLE|props|2026-11-14
+Duke|Walker Eget|QB|AVAILABLE|props|2026-11-14
+Cincinnati|JC French IV|QB|AVAILABLE|props|2026-11-14
+Wake Forest|Gio Lopez|QB|AVAILABLE|props|2026-11-14
+Clemson|Tait Reynolds|QB|AVAILABLE|props|2026-11-14
+Nebraska|Anthony Colandrea|QB|AVAILABLE|props|2026-11-14
+SMU|Kevin Jennings|QB|AVAILABLE|props|2026-11-14
+BYU|Bear Bachmeier|QB|AVAILABLE|props|2026-11-14
+Baylor|DJ Lagway|QB|AVAILABLE|props|2026-11-14
+Texas A&M|Marcel Reed|QB|AVAILABLE|props|2026-11-14
+Tennessee|George MacIntyre|QB|AVAILABLE|props|2026-11-14
+UCF|Alonza Barnett III|QB|AVAILABLE|props|2026-11-14
+Arizona State|Jake Fette|QB|AVAILABLE|props|2026-11-14
+Boston College|Mason McKenzie|QB|AVAILABLE|props|2026-11-14
+Notre Dame|CJ Carr|QB|AVAILABLE|props|2026-11-14

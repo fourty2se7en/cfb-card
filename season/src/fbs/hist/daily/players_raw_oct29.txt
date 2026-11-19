@@ -1,0 +1,27 @@
+North Texas|Tayven Jackson|pass|192/0,233/2,492/3,270/1,332/4,349/5,305/3
+North Texas|Tayven Jackson|rush|22/0,15/1,18/0,0/1,8/0,-8/0
+North Texas|Jahiem White|rush|61/1,124/1,45/1,133/4,219/1,105/1,174/2
+North Texas|Jahiem White|rec|36/0,34/1,56/1,17/0,12/0,37/0,58/0
+North Texas|Justin Stevenson|rec|47/0,43/0,122/0,69/1,50/2,122/2,209/2
+North Texas|Max Reese|rush|3/0
+North Texas|Max Reese|rec|9/0,16/1,15/0,70/0,101/1,39/1
+North Texas|Kyle Koch|rec|58/1,37/0,48/1,55/1,28/1
+Florida Atlantic|Caden Veltkamp|pass|276/1,386/5,204/0,314/2,247/4,318/3,339/3
+Florida Atlantic|Caden Veltkamp|rush|1/1,-22/0,-23/0,2/0,2/0,-17/0,5/1
+Florida Atlantic|Easton Messer|rush|18/2
+Florida Atlantic|Easton Messer|rec|73/0,179/2,85/0,20/0,88/1,102/1,162/2
+Florida Atlantic|Ethan Ervin|rush|50/1,67/0,36/0,139/1,23/0,46/0,7/0
+Florida Atlantic|Ethan Ervin|rec|16/0,7/0,10/0,10/0
+Florida Atlantic|Kelby Valsin|rec|92/1,115/1,56/0,123/0,126/3,89/1,78/0
+Florida Atlantic|Dominique Henry|rush|-6/0
+Florida Atlantic|Dominique Henry|rec|38/0,63/1,12/0,116/2,33/0,57/0
+James Madison|Camden Coleman|pass|57/0,170/1,246/2,243/4,263/3,171/1,185/2,232/1
+James Madison|Camden Coleman|rush|7/0,25/1,17/0,45/0,-14/0,26/0,11/1
+James Madison|Cole Keller|rec|30/0,37/0,40/2,21/1,35/0,108/1,54/0,25/1
+James Madison|Corey Scott|rec|21/1,52/0,55/0,57/1,104/2,44/0,38/0
+James Madison|Michael Scott|rush|8/0,0/0,32/0
+James Madison|Michael Scott|rec|45/0,22/0,19/1,43/0,68/0,44/1,47/0
+James Madison|Jeremiah Harrison|rec|53/1,24/0,2/1,54/0,59/0
+Troy|Jordan Lovett|rush|34/0,38/0,1/0,39/0,142/1,50/0,70/0
+Troy|Jordan Lovett|rec|12/0,4/0,53/1,4/0,-10/0
+Troy|TJ Lott|rec|29/1,30/0,16/0,32/0

@@ -1,0 +1,324 @@
+#E
+ST|Stuck|35-32-1|4.3
+AD|Anthony Dabbundo|3-2-0|0.8
+DZ|Doug Ziefel|129-97-3|16.0
+DG|The Degenerates|15-8-0|6.3
+KT|Kevin Thomas|3-8-1|-5.2
+GA|Dan Gaspar|54-35-9|15.6
+BB|Big Bets On Campus (CFB)|45-46-3|-2.4
+JK|Jake|50-51-1|16.3
+JF|John Feltman|57-33-0|18.6
+SZ|Sean Zerillo|17-10-0|1.6
+KM|Kody Malstrom|32-32-1|-2.1
+CW|Collin Whitchurch|45-32-0|6.8
+RC|Road to CFB|31-22-0|7.1
+MM|Mike McNamara|33-26-0|-0.1
+BK|Brandon Kravitz|9-11-0|-0.6
+AH|Alex Hinton|27-22-0|5.3
+WW|Wags Wins|63-56-1|5.7
+CL|Collin Wilson|82-57-2|11.8
+DU|Duck|82-84-1|-4.7
+RM|Ryan Minion|36-47-3|-11.4
+BI|Brian Bitler|25-30-0|-18.1
+CM|Colby Marchio|3-0-0|3.0
+NG|Nick Griffith|7-8-0|-2.2
+MC|Mike Calabrese|37-55-0|-10.7
+B6|BBOC: 6th Gear|15-26-1|-10.2
+SP|Sandy Plashkes|38-31-1|8.3
+AN|Anders|5-9-0|-4.5
+JR|Jeremiah Rose|23-29-1|-1.3
+KH|Kyle Hunter|6-7-0|-2.2
+RP|RoyalsProps|2-7-1|-6.0
+#P rot|code|play|type|period|odds|units
+347|ST|SYR +2.5|spread_home|game|-105|0.4
+347|AD|SYR +115|ml_home|game|115|1
+347|DZ|U.Hatcher o79.5 Rec Yds|custom|game|-100|0.5
+347|DG|CLEM -2.5|spread_away|game|-108|1.08
+347|KT|SYR +2.5|spread_home|game|-102|1
+347|GA|J.Green u41.5 Rush Yds|custom|game|-112|1.12
+347|BB|SYR +2.5|spread_home|game|-110|1
+347|JK|Under 49.5|under|game|-105|1.05
+347|JF|SYR +2|spread_home|game|-110|0.77
+361|SZ|Under 50.5|under|game|106|0.25
+361|KM|BAY -9.5|spread_home|game|-110|0.55
+361|DZ|C.Jackson o1.5 Recs|custom|game|-135|0.68
+361|CW|ISU u20.5|away_under|game|-112|0.56
+361|RC|ISU u20.5|away_under|game|-115|1.15
+361|JK|ISU u20.5|away_under|game|-110|1.1
+331|ST|BC +6.5|spread_home|game|100|0.4
+331|MM|BC +6.5|spread_home|game|-110|0.33
+331|DZ|FSU -6.5|spread_away|game|-106|0.53
+331|BB|BC +6.5|spread_home|game|-109|1
+331|BK|BC +6.5|spread_home|game|-108|1.08
+331|BK|BC +203|ml_home|game|203|0.25
+331|JK|Under 52.5|under|game|-112|2.28
+331|AH|Under 52.5|under|game|-114|0.25
+331|WW|Over 52.5|over|game|-103|1.03
+329|CL|UCONN +7.5|spread_home|game|-115|1.15
+329|ST|UCONN +7.5|spread_home|game|-124|0.5
+329|DZ|Over 53.5|over|game|-118|0.59
+329|DZ|M.Ragan u24.5 Rec Yds|custom|game|-115|0.57
+329|DU|UNC -6.5|spread_away|game|-110|1
+329|CW|UCONN +8|spread_home|game|-112|0.56
+329|BB|UCONN +7.5|spread_home|game|-108|1
+335|ST|MINN +6|spread_home|game|-110|0.5
+335|MM|MINN +5.5|spread_home|game|-110|0.45
+335|DZ|MINN +6.5|spread_home|game|-114|0.57
+335|DZ|T.Dieffenbach u0.5 Pass TDs|custom|game|145|0.34
+335|RM|Under 7.5 (1Q)|under|firstquarter|-135|1.35
+335|BI|MINN +5|spread_home|game|-107|3
+335|GA|B.Loftin u1.5 Recs|custom|game|-110|1.1
+335|GA|T.Dieffenbach u11.5 Rush Yds|custom|game|-115|1.15
+335|BB|MINN +5|spread_home|game|-114|1
+335|CM|MINN +6.5|spread_home|game|-110|1.1
+335|NG|MINN +5.5|spread_home|game|-107|1.07
+335|JF|MINN +4.5|spread_home|game|-120|0.94
+335|WW|UCLA -3.5|spread_away|game|-110|1.65
+343|CL|Under 47.5|under|game|-110|1.1
+343|ST|MIZ +3|spread_home|game|-118|0.5
+343|MM|MIZ +3|spread_home|game|-115|0.25
+343|MM|MIZ +124|ml_home|game|124|0.25
+343|DZ|C.Lee o72.5 Rec Yds|custom|game|-115|0.57
+343|DZ|R.Brown o13.5 Rush Att|custom|game|-130|0.65
+343|RM|TEX -2.5|spread_away|game|-115|1.15
+343|DG|MIZ +120|ml_home|game|120|1
+343|GA|M.Terry u26.5 Rush Yds|custom|game|-114|1.14
+343|GA|J.Roberts u2.5 Recs|custom|game|-114|1.14
+343|BB|MIZ +3|spread_home|game|-120|1
+343|BB|MIZ +122|ml_home|game|122|0.82
+343|AN|MIZ +3|spread_home|game|-118|1.18
+343|JK|Over 42.5|over|game|-108|1.08
+343|AH|A.Hardy Anytime TD Scorer Yes|custom|game|360|0.25
+343|NG|MIZ +3|spread_home|game|-115|1.15
+369|CL|Over 24.5 (1H)|over|firsthalf|110|1
+369|DZ|BYU +5.5|spread_away|game|-109|0.55
+369|DZ|D.Dampier u1.5 Pass TDs|custom|game|-130|0.65
+369|CW|Over 24.5 (1H)|over|firsthalf|107|0.5
+369|MC|B.Bachmeier Anytime TD Scorer Yes|custom|game|-105|1.05
+369|KT|BYU +4.5|spread_away|game|-102|1
+369|GA|D.Dampier o26.5 Pass Att|custom|game|-105|1.05
+369|GA|D.Dampier u47.5 Rush Yds|custom|game|-113|1.13
+369|GA|N.Bennee u2.5 Recs|custom|game|-104|1.04
+369|BB|Over 23.5 (1H)|over|firsthalf|-118|1
+369|BK|BYU +5.5|spread_away|game|-104|1.04
+369|CM|BYU +5.5|spread_away|game|-110|1.1
+369|JK|Under 23.5 (1H)|under|firsthalf|105|1.5
+369|JF|UTAH -180|ml_home|game|-180|1.8
+369|WW|Over 48.5|over|game|-110|1.1
+351|ST|NCST +4.5|spread_home|game|-105|0.5
+351|DZ|Under 10.5 (1Q)|under|firstquarter|-120|0.6
+351|CW|DUKE u28.5|away_under|game|-118|0.59
+351|BB|NCST +160|ml_home|game|160|0.63
+351|RC|DUKE u28.5|away_under|game|-115|1.15
+351|JF|NCST +4.5|spread_home|game|-105|1.05
+363|CL|Over 53.5|over|game|-112|1.12
+363|DZ|B.Brown o59.5 Rush Yds|custom|game|-114|0.57
+363|BB|Over 53.5|over|game|-118|1
+345|CW|CC -6.5|spread_home|game|-114|0.57
+345|RC|CC -7|spread_home|game|-105|1.05
+355|DZ|OKST -5.5|spread_away|game|-112|0.56
+355|DZ|Over 30.5 (1H)|over|firsthalf|-112|0.56
+355|MC|C.Hawkins o39.5 Rec Yds|custom|game|-112|1.12
+355|KT|OKST -7|spread_away|game|-105|1
+355|RC|OKST -5|spread_away|game|-110|1.1
+355|WW|Over 61.5|over|game|-120|1.2
+339|DU|Under 56.5|under|game|-112|1
+339|BB|APP -6.5|spread_home|game|-111|1
+339|B6|GAST u25.5|away_under|game|-115|1
+339|WW|Under 54.5|under|game|-110|1.1
+371|KM|KENN +3|spread_home|game|-120|0.6
+371|DZ|Over 55.5|over|game|-110|0.55
+371|SP|Under 56.5|under|game|-120|1.2
+371|MC|DEL -2|spread_away|game|-110|1.75
+371|B6|DEL -1.5|spread_away|game|-115|1
+371|WW|Under 57.5|under|game|-110|1.1
+371|WW|KENN +105|ml_home|game|105|1
+395|SZ|Over 51.5|over|game|-113|0.28
+395|SZ|Over 26.5 (1H)|over|firsthalf|-113|0.28
+395|DZ|SC -6.5|spread_home|game|-115|0.57
+395|DU|TA&M +7|spread_away|game|-105|1
+395|CW|TA&M +7|spread_away|game|-118|0.59
+395|BI|TA&M +7|spread_away|game|-102|3
+395|GA|L.Sellers o232.5 Pass Yds|custom|game|-114|1.14
+395|AH|N.Harbor o35.5 Rec Yds|custom|game|-114|1
+377|WW|Over 51.5|over|game|-120|1.8
+399|SZ|Under 47.5|under|game|-108|0.27
+399|SZ|CHA +8.5|spread_away|game|-102|0.26
+399|DU|UAB u28.5|home_under|game|-115|1
+397|CL|LSU -3.5|spread_home|game|-108|1.08
+397|CL|S.Leavitt Anytime TD Scorer Yes|custom|game|-140|0.7
+397|DZ|D.Jones o17.5 Rush Att|custom|game|-115|0.57
+397|DZ|LSU -5.5|spread_home|game|-110|0.55
+397|DZ|R.Coleman-Williams o47.5 Rec Yds|custom|game|-115|0.57
+397|DZ|L.Brooks o3.5 Recs|custom|game|120|0.42
+397|RM|R.Coleman-Williams o22.5 Longest Reception|custom|game|-114|1.14
+397|RM|BAMA +6|spread_away|game|-115|1.15
+397|DG|LSU -6|spread_home|game|-108|1.08
+397|GA|D.Jones o17.5 Rush Att|custom|game|-115|1.15
+397|GA|T.Green u50.5 Rec Yds|custom|game|-114|1.14
+397|GA|R.Coleman-Williams u3.5 Recs|custom|game|120|0.83
+397|BK|LSU -5.5|spread_home|game|-115|1.15
+397|AH|J.Harris Anytime TD Scorer Yes|custom|game|135|1
+397|AH|T.Green o48.5 Rec Yds|custom|game|-115|1
+397|NG|LSU -6|spread_home|game|-110|1.1
+337|CL|GASO -10|spread_home|game|-108|1.08
+337|SZ|Under 54.5|under|game|-102|0.26
+337|CW|GASO -8.5|spread_home|game|-108|0.54
+385|CL|Over 47.5|over|game|-110|0.55
+385|ST|OSU -7|spread_home|game|-110|0.5
+385|MM|ORE +10.5|spread_away|game|-105|0.4
+385|DZ|I.West o39.5 Rush Yds|custom|game|110|0.45
+385|DZ|D.Hill u14.5 Rush Att|custom|game|-115|0.57
+385|DZ|B.Jackson o18.5 Rush Att|custom|game|-110|0.55
+385|DZ|I.West o7.5 Rush Att|custom|game|-130|0.65
+385|DZ|D.McCuin o29.5 Rec Yds|custom|game|-115|0.57
+385|BI|ORE +8|spread_away|game|-110|3
+385|GA|I.West o7.5 Rush Att|custom|game|-115|1.15
+385|GA|D.Moore o4.5 Recs|custom|game|-112|1.12
+385|GA|B.Jackson o18.5 Rush Att|custom|game|-115|1.15
+385|BB|OSU -7.5|spread_home|game|-110|1
+385|JF|OSU -7|spread_home|game|-115|1.15
+403|ST|TEM +7.5|spread_away|game|-110|0.5
+403|DZ|TEM +7.5|spread_away|game|-118|0.59
+403|DU|Over 54.5|over|game|-112|1
+403|CW|Over 54.5|over|game|-108|0.54
+403|BB|TEM +7.5|spread_away|game|-118|1
+403|JF|TEM +7|spread_away|game|-105|1.15
+357|CL|HOU -10.5|spread_home|game|-110|1.1
+357|SZ|Under 61.5|under|game|-111|0.28
+357|SZ|Under 30.5 (1H)|under|firsthalf|104|0.25
+357|DZ|C.Weigman o2.5 Pass TDs|custom|game|178|0.28
+357|DZ|C.Tabb o60.5 Rush Yds|custom|game|-114|0.57
+357|DZ|M.Hughes o79.5 Rush Yds|custom|game|104|0.48
+357|BI|CIN +10.5|spread_away|game|-106|3
+357|CM|HOU -9.5|spread_home|game|-119|1.2
+308903|DU|MC +48.5|spread_away|game|-110|1
+308903|AH|Over 58.5|over|game|-110|1
+375|DZ|J.Limar u7.5 Rush Att|custom|game|105|0.48
+375|RM|WASH -2.5|spread_home|game|-110|1.1
+401|SP|Under 53.5|under|game|-120|1.2
+327|DZ|KU -2.5|spread_home|game|-112|0.56
+327|WW|Over 47.5|over|game|-110|1.38
+393|WW|Under 65.5|under|game|-115|1.15
+373|KM|SJSU -9.5|spread_home|game|-115|0.57
+373|WW|Over 51.5|over|game|-110|1.65
+407|CL|Over 46.5|over|game|-110|1.1
+405|WW|FIU -4.5|spread_home|game|-110|1.1
+359|CL|WIS -17.5|spread_home|game|-118|0.59
+391|CL|MSST -134|ml_home|game|-134|0.67
+391|DZ|J.Curtis o19.5 Rush Yds|custom|game|115|0.43
+391|DZ|C.Spence u2.5 Recs|custom|game|-115|0.57
+391|DZ|J.Sherrill u6.5 Recs|custom|game|100|0.5
+391|DU|MSST u26.5|home_under|game|-115|1
+387|SP|Under 58|under|game|-120|2.4
+387|WW|USA +7.5|spread_away|game|-110|1.38
+413|ST|CSU +18|spread_home|game|-110|0.5
+413|DU|Over 68.5|over|game|-112|1
+413|CW|Over 68.5|over|game|-110|0.55
+413|MC|Over 68.5|over|game|-110|1.1
+413|BI|CSU +17.5|spread_home|game|-110|3
+413|BB|CSU +17.5|spread_home|game|-110|1
+413|B6|Over 68.5|over|game|-115|1
+413|AH|Over 68.5|over|game|-110|1
+413|KH|CSU o24.5|home_over|game|-110|0.88
+413|JF|CSU +17.5|spread_home|game|-110|1.1
+411|CL|Over 50.5|over|game|-110|1.1
+411|ST|TENN -6.5|spread_home|game|-110|0.4
+411|RM|TENN -210|ml_home|game|-210|2.1
+411|CW|Over 49.5|over|game|-105|0.53
+411|SP|Under 51|under|game|-120|1.2
+411|BB|TENN -6.5|spread_home|game|-115|1
+411|BB|Over 49.5|over|game|-109|1
+411|BK|UK +6.5|spread_away|game|-105|1.05
+411|AN|TENN -6.5|spread_home|game|-110|2.2
+353|CL|Under 43.5|under|game|-110|0.55
+353|ST|NW -132|ml_home|game|-132|0.6
+353|ST|IOWA +2|spread_away|game|-110|0.4
+353|MM|NW -135|ml_home|game|-135|0.35
+353|MM|IOWA -1.5|spread_away|game|-110|0.22
+353|DZ|NW -2.5|spread_home|game|-112|0.56
+353|RM|IOWA -130|ml_away|game|-130|1.3
+353|BB|NW -130|ml_home|game|-130|1
+353|RC|IOWA +2.5|spread_away|game|-105|1.05
+353|NG|NW +2.5|spread_home|game|-102|1.02
+353|JF|NW -130|ml_home|game|-130|1.3
+353|JF|IOWA PK|spread_away|game|-120|1.2
+353|WW|Under 44.5|under|game|-120|1.2
+419|CL|ND -150|ml_home|game|-150|3
+419|CL|C.Carr o20.5 Pass Comp|custom|game|-110|0.55
+419|CL|J.Greathouse o37.5 Rec Yds|custom|game|-114|0.57
+419|ST|ND -5.5|spread_home|game|-108|0.4
+419|MM|ND -164|ml_home|game|-164|2
+419|MM|ND -3.5|spread_home|game|-105|0.8
+419|SZ|Under 55.5|under|game|-120|0.3
+419|SZ|Under 27.5 (1H)|under|firsthalf|-107|0.27
+419|DZ|MIA +7|spread_away|game|-115|0.57
+419|JR|MIA +4.5|spread_away|game|-110|0.6
+419|DU|Under 58.5|under|game|-110|1.35
+419|RM|C.Barkate o55.5 Rec Yds|custom|game|-117|1.17
+419|CW|ND -6.5|spread_home|game|114|0.5
+419|MC|C.Barkate u56.5 Rec Yds|custom|game|-110|1
+419|BB|ND -7|spread_home|game|-120|1
+419|BB|J.Greathouse o40.5 Rec Yds|custom|game|-113|1
+419|BK|ND -5.5|spread_home|game|-110|1.65
+419|RP|MIA +7|spread_away|game|-110|1.1
+419|AH|C.Carr o245.5 Pass Yds|custom|game|-114|1
+419|WW|Under 55.5|under|game|-115|1.44
+349|DZ|Over 61.5|over|game|-107|0.54
+349|DZ|K.Roche o33.5 Rec Yds|custom|game|-114|0.57
+349|CW|LOU o20.5 (1H)|away_over|firsthalf|-120|0.6
+349|DG|LOU -14.5|spread_away|game|-108|1.08
+349|RC|LOU o20.5 (1H)|away_over|firsthalf|-109|1.09
+349|WW|LOU -13.5|spread_away|game|-120|1.5
+379|CL|UGA -3.5|spread_away|game|-106|1.06
+379|ST|MISS +3.5|spread_home|game|-108|0.5
+379|MM|MISS +3.5|spread_home|game|-110|0.4
+379|KM|UGA -3|spread_away|game|-116|0.58
+379|DZ|N.Frazier u58.5 Rush Yds|custom|game|-115|0.57
+379|BI|MISS +3.5|spread_home|game|106|3
+379|JF|MISS +3.5|spread_home|game|-110|1.1
+341|KM|MICH -12.5|spread_home|game|-115|0.57
+341|DG|Under 39.5|under|game|-108|1.08
+341|AH|MSU +14.5|spread_away|game|-115|0.5
+365|KM|ASU -3|spread_home|game|-110|0.55
+365|DZ|C.Mack o94.5 Rush Yds|custom|game|-115|0.57
+365|JF|Under 48.5|under|game|-110|1.1
+417|DZ|AFA +3.5|spread_away|game|-115|0.57
+417|JR|Under 44.5|under|game|-110|0.3
+417|DU|AFA +5|spread_away|game|-110|1
+417|DG|Under 44.5|under|game|-105|1.05
+417|B6|AFA +140|ml_away|game|140|0.71
+381|DZ|J.Mateer u190.5 Pass Yds|custom|game|-115|0.57
+381|DZ|J.Mateer o190.5 Pass Yds|custom|game|-115|0.57
+381|DU|FLA -6|spread_home|game|-108|1
+381|BI|OU +6.5|spread_away|game|-115|3
+381|BK|Under 45.5|under|game|-101|0.51
+409|ST|NMSU +17|spread_home|game|-110|0.3
+409|SP|NMSU +17|spread_home|game|-110|1.1
+383|DZ|Over 14.5 (1Q)|over|firstquarter|132|0.38
+383|DU|Over 63.5|over|game|-108|1
+367|CL|UTEP +8.5|spread_home|game|-108|0.54
+367|DZ|Under 50.5|under|game|-110|0.55
+367|BB|UTEP +8.5|spread_home|game|-109|1
+367|RC|Under 49.5|under|game|-110|1.1
+421|ST|USU +2.5|spread_home|game|-106|0.4
+421|KM|FRES -2|spread_away|game|-110|0.55
+421|DU|FRES -2|spread_away|game|-112|1
+421|BB|USU +2.5|spread_home|game|-111|1
+425|DU|WYO +7.5|spread_away|game|-112|1
+425|B6|WYO +7|spread_away|game|-110|1
+425|KH|WYO o19.5|away_over|game|-125|1.1
+423|CL|TXST +7|spread_away|game|-112|1.12
+423|SZ|Under 71.5|under|game|-106|0.27
+423|SZ|Under 37.5 (1H)|under|firsthalf|-113|0.24
+423|JR|Over 70.5|over|game|-110|0.3
+423|RM|ORST -3.5 (1H)|spread_home|firsthalf|-105|1.1
+423|RM|J.Legree o119.5 Rec Yds|custom|game|-115|1.15
+423|RM|J.Legree o38.5 Longest Reception|custom|game|-118|1.18
+423|RM|ORST -5.5|spread_home|game|-110|1.1
+423|SP|Under 72|under|game|-110|2.75
+423|MC|ORST -6.5|spread_home|game|-110|1.5
+423|B6|ORST -6.5|spread_home|game|-112|1
+423|AH|Over 70.5|over|game|-115|1
+423|JF|Over 70.5|over|game|-110|1.1
+423|WW|Over 69.5|over|game|-120|1.8

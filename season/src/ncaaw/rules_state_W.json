@@ -1,0 +1,898 @@
+{
+ "rules": {
+  "FAV_ML_3": {
+   "on": false,
+   "variant": "fixed",
+   "backtest": {
+    "w": 72,
+    "l": 57,
+    "p": 0,
+    "u": -9.4,
+    "pos": 1
+   },
+   "season": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null
+   },
+   "source": "backtest",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 18-9 +2.8u (27 picks), failed: off (Trina, Nov 9 2026, backtest gate). Failed the backtest (needs positive units over three seasons and in 2 of 3). Trina, Nov 6 2026: turns on automatically when season and month are green (first possible switch Nov 9, after the freeze).",
+   "last14": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null
+   },
+   "since": "2026-11-02",
+   "month": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null,
+    "label": "2026-11"
+   },
+   "backtest_t25": {
+    "record": "18-9 +2.8u",
+    "seasons": "27 picks",
+    "passed": false,
+    "source": "src/backtest/t25_results_W.md.txt"
+   },
+   "split_from": "FAV_ML strict (Nov 14, B91)"
+  },
+  "FAV_ML_2": {
+   "on": false,
+   "variant": "fixed",
+   "since": "2026-11-14",
+   "split_from": "FAV_ML lowered (Nov 14, B91): new rule, no status record yet",
+   "season": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null
+   },
+   "month": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null,
+    "label": "2026-11"
+   },
+   "last14": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null
+   },
+   "backtest": {
+    "w": 143,
+    "l": 114,
+    "p": 0,
+    "u": -19.6,
+    "pos": 0
+   },
+   "note": "New FG rule split from FAV_ML (Nov 14, B91); three season record is all games, from data/bt_w.txt."
+  },
+  "DOG_ML_MOVE": {
+   "on": false,
+   "variant": "fixed",
+   "backtest": {
+    "w": 54,
+    "l": 67,
+    "p": 0,
+    "u": 11.4,
+    "pos": 2
+   },
+   "season": {
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "n": 1,
+    "pct": 0.0,
+    "u": -1,
+    "be": 0.3937007874015748
+   },
+   "source": "backtest",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 18-19 +7.1u (37 picks), failed: off (Trina, Nov 9 2026, backtest gate). Passed the backtest: positive over three seasons and in 2 of 3.",
+   "last14": {
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "n": 1,
+    "pct": 0.0,
+    "u": -1,
+    "be": 0.3937007874015748
+   },
+   "since": "2026-11-02",
+   "month": {
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "n": 1,
+    "pct": 0.0,
+    "u": -1,
+    "be": 0.3937007874015748,
+    "label": "2026-11"
+   },
+   "backtest_t25": {
+    "record": "18-19 +7.1u",
+    "seasons": "37 picks",
+    "passed": false,
+    "source": "src/backtest/t25_results_W.md.txt"
+   },
+   "switched": {
+    "date": "2026-11-09",
+    "to": "off",
+    "reason": "backtest gate (Top 25, 3 seasons)"
+   },
+   "split_from": "DOG_ML strict (Nov 14, B91)"
+  },
+  "DOG_ML_1": {
+   "on": false,
+   "variant": "fixed",
+   "since": "2026-11-14",
+   "split_from": "DOG_ML lowered (Nov 14, B91): new rule, no status record yet",
+   "season": {
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "n": 1,
+    "pct": 1.0,
+    "u": 1.3,
+    "be": 0.43478260869565216
+   },
+   "month": {
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "n": 1,
+    "pct": 1.0,
+    "u": 1.3,
+    "be": 0.43478260869565216,
+    "label": "2026-11"
+   },
+   "last14": {
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "n": 1,
+    "pct": 1.0,
+    "u": 1.3,
+    "be": 0.43478260869565216
+   },
+   "backtest": {
+    "w": 193,
+    "l": 296,
+    "p": 0,
+    "u": -18.7,
+    "pos": 1
+   },
+   "note": "New FG rule split from DOG_ML (Nov 14, B91); three season record is all games, from data/bt_w.txt."
+  },
+  "SPREAD_MOVE_1": {
+   "on": true,
+   "variant": "fixed",
+   "backtest": {
+    "w": 790,
+    "l": 852,
+    "p": 4,
+    "u": -133.8,
+    "pos": 0
+   },
+   "season": {
+    "w": 27,
+    "l": 21,
+    "p": 0,
+    "n": 48,
+    "pct": 0.5625,
+    "u": 3.55,
+    "be": 0.5238095238095238
+   },
+   "source": "backtest",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 329-362 -62.9u (0 of 3), failed: off (Trina, Nov 9 2026, backtest gate). Failed the backtest (needs positive units over three seasons and in 2 of 3). Trina, Nov 6 2026: turns on automatically when season and month are green (first possible switch Nov 9, after the freeze).",
+   "last14": {
+    "w": 27,
+    "l": 21,
+    "p": 0,
+    "n": 48,
+    "pct": 0.5625,
+    "u": 3.55,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-02",
+   "month": {
+    "w": 27,
+    "l": 21,
+    "p": 0,
+    "n": 48,
+    "pct": 0.5625,
+    "u": 3.55,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "auto_off": false,
+   "switched": {
+    "date": "2026-11-09",
+    "to": "on",
+    "season": "17-11-0 +4.45u",
+    "reason": "standard policy, backtest gate retired (Trina)"
+   },
+   "backtest_t25": {
+    "record": "329-362 -62.9u",
+    "seasons": "0 of 3",
+    "passed": false,
+    "source": "src/backtest/t25_results_W.md.txt"
+   },
+   "split_from": "SPREAD_MOVE strict (Nov 14, B91)"
+  },
+  "SPREAD_MOVE_05": {
+   "on": false,
+   "variant": "fixed",
+   "since": "2026-11-14",
+   "split_from": "SPREAD_MOVE lowered (Nov 14, B91): new rule, no status record yet",
+   "season": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null
+   },
+   "month": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null,
+    "label": "2026-11"
+   },
+   "last14": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "n": 0,
+    "pct": null,
+    "u": 0,
+    "be": null
+   },
+   "backtest": {
+    "w": 813,
+    "l": 879,
+    "p": 4,
+    "u": -139.9,
+    "pos": 0
+   },
+   "note": "New FG rule split from SPREAD_MOVE (Nov 14, B91); three season record is all games, from data/bt_w.txt."
+  },
+  "UNDER_DROP_05": {
+   "on": false,
+   "variant": "fixed",
+   "backtest": {
+    "w": 351,
+    "l": 307,
+    "p": 0,
+    "u": 12.1,
+    "pos": 3
+   },
+   "season": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238
+   },
+   "source": "backtest",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 117-112 -5.6u (1 of 3), failed: off (Trina, Nov 9 2026, backtest gate). Passed the backtest: positive over three seasons and in 3 of 3.",
+   "last14": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-02",
+   "month": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "backtest_t25": {
+    "record": "117-112 -5.6u",
+    "seasons": "1 of 3",
+    "passed": false,
+    "source": "src/backtest/t25_results_W.md.txt"
+   },
+   "switched": {
+    "date": "2026-11-09",
+    "to": "off",
+    "reason": "backtest gate (Top 25, 3 seasons)"
+   },
+   "split_from": "UNDER_DROP lowered (Nov 14, B91)"
+  },
+  "UNDER_DROP_2": {
+   "on": false,
+   "variant": "fixed",
+   "since": "2026-11-14",
+   "split_from": "UNDER_DROP strict (Nov 14, B91): new rule, no status record yet",
+   "season": {
+    "w": 0,
+    "l": 2,
+    "p": 0,
+    "n": 2,
+    "pct": 0.0,
+    "u": -2,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 0,
+    "l": 2,
+    "p": 0,
+    "n": 2,
+    "pct": 0.0,
+    "u": -2,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "last14": {
+    "w": 0,
+    "l": 2,
+    "p": 0,
+    "n": 2,
+    "pct": 0.0,
+    "u": -2,
+    "be": 0.5238095238095238
+   },
+   "backtest": {
+    "w": 184,
+    "l": 161,
+    "p": 0,
+    "u": 6.3,
+    "pos": 2
+   },
+   "note": "New FG rule split from UNDER_DROP (Nov 14, B91); three season record is all games, from data/bt_w.txt."
+  },
+  "OVER_2": {
+   "on": true,
+   "variant": "fixed",
+   "backtest": {
+    "w": 195,
+    "l": 176,
+    "p": 1,
+    "u": 1.3,
+    "pos": 2
+   },
+   "season": {
+    "w": 2,
+    "l": 0,
+    "p": 0,
+    "n": 2,
+    "pct": 1.0,
+    "u": 1.82,
+    "be": 0.5238095238095238
+   },
+   "source": "backtest",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 94-79 +6.5u (2 of 3, 173 picks), failed: off (Trina, Nov 9 2026, backtest gate). Passed the backtest: positive over three seasons and in 2 of 3. Thin: +1.3u on 371 picks, close to break-even. Kept live: approved by Trina Nov 2, 2026.",
+   "last14": {
+    "w": 2,
+    "l": 0,
+    "p": 0,
+    "n": 2,
+    "pct": 1.0,
+    "u": 1.82,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-02",
+   "month": {
+    "w": 2,
+    "l": 0,
+    "p": 0,
+    "n": 2,
+    "pct": 1.0,
+    "u": 1.82,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "backtest_t25": {
+    "record": "94-79 +6.5u",
+    "seasons": "2 of 3, 173 picks",
+    "passed": false,
+    "source": "src/backtest/t25_results_W.md.txt"
+   },
+   "switched": {
+    "date": "2026-11-09",
+    "to": "on",
+    "season": "2-0-0 +1.82u",
+    "reason": "standard policy, backtest gate retired (Trina)"
+   },
+   "auto_off": false,
+   "split_from": "OVER strict (Nov 14, B91)"
+  },
+  "OVER_05": {
+   "on": false,
+   "variant": "fixed",
+   "since": "2026-11-14",
+   "split_from": "OVER lowered (Nov 14, B91): new rule, no status record yet",
+   "season": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238
+   },
+   "month": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "last14": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238
+   },
+   "backtest": {
+    "w": 338,
+    "l": 325,
+    "p": 2,
+    "u": -17.7,
+    "pos": 2
+   },
+   "note": "New FG rule split from OVER (Nov 14, B91); three season record is all games, from data/bt_w.txt."
+  },
+  "MODEL_EDGE": {
+   "on": false,
+   "variant": "fixed",
+   "backtest": {
+    "w": 1643,
+    "l": 1452,
+    "p": 7,
+    "u": 41.6,
+    "pos": 2
+   },
+   "season": {
+    "w": 27,
+    "l": 25,
+    "p": 0,
+    "n": 52,
+    "pct": 0.5192307692307693,
+    "u": -0.45,
+    "be": 0.5238095238095238
+   },
+   "source": "approved",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 487-409 +33.7u (3 of 3), passed: on (Trina, Nov 9 2026, backtest gate). Approved Nov 2, 2026. Side ATS when the projection beats the spread by 3+ points. Early season ratings lean on last season, so picks grade LOW.",
+   "last14": {
+    "w": 27,
+    "l": 25,
+    "p": 0,
+    "n": 52,
+    "pct": 0.5192307692307693,
+    "u": -0.45,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-02",
+   "month": {
+    "w": 27,
+    "l": 25,
+    "p": 0,
+    "n": 52,
+    "pct": 0.5192307692307693,
+    "u": -0.45,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "auto_off": true,
+   "switched": {
+    "date": "2026-11-09",
+    "to": "off",
+    "season": "13-16-0 -4.18u",
+    "reason": "standard policy, backtest gate retired (Trina)"
+   },
+   "backtest_t25": {
+    "record": "487-409 +33.7u",
+    "seasons": "3 of 3",
+    "passed": true,
+    "source": "src/backtest/t25_results_W.md.txt"
+   }
+  },
+  "NEUTRAL_UNDER": {
+   "on": false,
+   "variant": "fixed",
+   "backtest": {
+    "w": 515,
+    "l": 403,
+    "p": 2,
+    "u": 65.2,
+    "pos": 3
+   },
+   "season": {
+    "w": 3,
+    "l": 6,
+    "p": 0,
+    "n": 9,
+    "pct": 0.3333333333333333,
+    "u": -3.27,
+    "be": 0.5238095238095238
+   },
+   "source": "approved",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 207-192 -3.8u (1 of 3), failed: off (Trina, Nov 9 2026, backtest gate). Approved Nov 2, 2026. Under at neutral sites; strongest in March.",
+   "last14": {
+    "w": 3,
+    "l": 6,
+    "p": 0,
+    "n": 9,
+    "pct": 0.3333333333333333,
+    "u": -3.27,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-02",
+   "month": {
+    "w": 3,
+    "l": 6,
+    "p": 0,
+    "n": 9,
+    "pct": 0.3333333333333333,
+    "u": -3.27,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "backtest_t25": {
+    "record": "207-192 -3.8u",
+    "seasons": "1 of 3",
+    "passed": false,
+    "source": "src/backtest/t25_results_W.md.txt"
+   },
+   "switched": {
+    "date": "2026-11-09",
+    "to": "off",
+    "reason": "backtest gate (Top 25, 3 seasons)"
+   }
+  },
+  "EARLY_UNDER_OPEN": {
+   "on": false,
+   "variant": "fixed",
+   "backtest": {
+    "w": 219,
+    "l": 158,
+    "p": 0,
+    "u": 41.1,
+    "pos": 3
+   },
+   "season": {
+    "w": 8,
+    "l": 9,
+    "p": 0,
+    "n": 17,
+    "pct": 0.47058823529411764,
+    "u": -1.73,
+    "be": 0.5238095238095238
+   },
+   "source": "approved",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 75-57 +11.2u (2 of 3, 132 picks), failed: off (Trina, Nov 9 2026, backtest gate). Live Nov 3, 2026 (same rule as the men). Nov and Dec only: under when the efficiency model total is 4+ below the opening total. Positive all three seasons.",
+   "last14": {
+    "w": 8,
+    "l": 9,
+    "p": 0,
+    "n": 17,
+    "pct": 0.47058823529411764,
+    "u": -1.73,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-03",
+   "month": {
+    "w": 8,
+    "l": 9,
+    "p": 0,
+    "n": 17,
+    "pct": 0.47058823529411764,
+    "u": -1.73,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "backtest_t25": {
+    "record": "75-57 +11.2u",
+    "seasons": "2 of 3, 132 picks",
+    "passed": false,
+    "source": "src/backtest/t25_results_W.md.txt"
+   },
+   "switched": {
+    "date": "2026-11-09",
+    "to": "off",
+    "reason": "backtest gate (Top 25, 3 seasons)"
+   }
+  },
+  "EARLY_OVER_OPEN": {
+   "on": true,
+   "variant": "fixed",
+   "backtest": {
+    "w": 233,
+    "l": 173,
+    "p": 0,
+    "u": 38.8,
+    "pos": 3
+   },
+   "season": {
+    "w": 1,
+    "l": 1,
+    "p": 0,
+    "n": 2,
+    "pct": 0.5,
+    "u": -0.09,
+    "be": 0.5238095238095238
+   },
+   "source": "approved",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 65-34 +25.1u (3 of 3), passed: on (Trina, Nov 9 2026, backtest gate). Live Nov 3, 2026. Nov and Dec only: over when the efficiency model total is 4+ above the opening total. Positive all three seasons.",
+   "last14": {
+    "w": 1,
+    "l": 1,
+    "p": 0,
+    "n": 2,
+    "pct": 0.5,
+    "u": -0.09,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-03",
+   "month": {
+    "w": 1,
+    "l": 1,
+    "p": 0,
+    "n": 2,
+    "pct": 0.5,
+    "u": -0.09,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "backtest_t25": {
+    "record": "65-34 +25.1u",
+    "seasons": "3 of 3",
+    "passed": true,
+    "source": "src/backtest/t25_results_W.md.txt"
+   }
+  },
+  "EFF_SPREAD": {
+   "on": false,
+   "variant": "fixed",
+   "backtest": {
+    "w": 1029,
+    "l": 804,
+    "p": 8,
+    "u": 131.5,
+    "pos": 3
+   },
+   "season": {
+    "w": 25,
+    "l": 30,
+    "p": 0,
+    "n": 55,
+    "pct": 0.45454545454545453,
+    "u": -7.27,
+    "be": 0.5238095238095238
+   },
+   "source": "approved",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 471-386 +42.2u (2 of 3), passed: on (Trina, Nov 9 2026, backtest gate). Live Nov 3, 2026. Side ATS when the efficiency model margin beats the spread by 3+. Positive all three seasons (2023-24 +97.4u, 2024-25 +11.1u, 2025-26 +23.0u).",
+   "last14": {
+    "w": 25,
+    "l": 30,
+    "p": 0,
+    "n": 55,
+    "pct": 0.45454545454545453,
+    "u": -7.27,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-03",
+   "month": {
+    "w": 25,
+    "l": 30,
+    "p": 0,
+    "n": 55,
+    "pct": 0.45454545454545453,
+    "u": -7.27,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "auto_off": true,
+   "switched": {
+    "date": "2026-11-09",
+    "to": "off",
+    "season": "15-20-0 -6.36u",
+    "reason": "standard policy, backtest gate retired (Trina)"
+   },
+   "backtest_t25": {
+    "record": "471-386 +42.2u",
+    "seasons": "2 of 3",
+    "passed": true,
+    "source": "src/backtest/t25_results_W.md.txt"
+   }
+  },
+  "EFF_OVER": {
+   "on": true,
+   "variant": "fixed",
+   "backtest": {
+    "w": 510,
+    "l": 420,
+    "p": 1,
+    "u": 43.6,
+    "pos": 3
+   },
+   "season": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238
+   },
+   "source": "approved",
+   "note": "AP Top 25 backtest 2023-24 to 2025-26: 166-125 +25.9u (3 of 3), passed: on (Trina, Nov 9 2026, backtest gate). Live Nov 3, 2026. Over when the efficiency model total is 3+ above the posted total. Positive all three seasons; most of the profit comes in Nov and Dec.",
+   "last14": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238
+   },
+   "since": "2026-11-03",
+   "month": {
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "n": 4,
+    "pct": 0.5,
+    "u": -0.18,
+    "be": 0.5238095238095238,
+    "label": "2026-11"
+   },
+   "backtest_t25": {
+    "record": "166-125 +25.9u",
+    "seasons": "3 of 3",
+    "passed": true,
+    "source": "src/backtest/t25_results_W.md.txt"
+   }
+  }
+ },
+ "log": [
+  {
+   "date": "2026-11-02",
+   "change": "Starting settings from the 2023-24 to 2025-26 backtest: FAV_ML off (strict), DOG_ML on (strict), SPREAD_MOVE off (strict), UNDER_DROP on (lowered), OVER on (strict)"
+  },
+  {
+   "date": "2026-11-02",
+   "change": "MODEL_EDGE added and live: approved by Trina (backtest 1643-1452, +41.6u, 2 of 3 seasons)"
+  },
+  {
+   "date": "2026-11-02",
+   "change": "NEUTRAL_UNDER added and live: approved by Trina (backtest 515-403, +65.2u, 3 of 3 seasons)"
+  },
+  {
+   "date": "2026-11-02",
+   "change": "OVER (strict) confirmed live by Trina"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EARLY_UNDER_OPEN added and live: backtest 219-158, +41.1u, 3 of 3 seasons"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EARLY_OVER_OPEN added and live: backtest 233-173, +38.8u, 3 of 3 seasons"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EFF_SPREAD added and live: backtest 1029-804, +131.5u, 3 of 3 seasons"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "EFF_OVER added and live: backtest 510-420, +43.6u, 3 of 3 seasons"
+  },
+  {
+   "date": "2026-11-03",
+   "change": "All NCAAW rules frozen through Nov 8 (Trina): no automatic switches until after week 1. Records keep updating."
+  },
+  {
+   "date": "2026-11-06",
+   "change": "Season Cards rule status policy adopted (Trina): active only while season and month are green; failed-backtest rules turn on automatically when green. SPREAD_MOVE is green and turns on Nov 9 if still green. Freeze through Nov 8 unchanged."
+  },
+  {
+   "date": "2026-11-07",
+   "change": "Re-check grades EARLY_UNDER_OPEN and EARLY_OVER_OPEN at the closing total (Trina, Nov 7); MODEL_EDGE re-check now uses the full 363 team ratings file (13-15, -3.18u). No switches (freeze through Nov 8)."
+  },
+  {
+   "date": "2026-11-08",
+   "change": "SPREAD_MOVE on (season and month green): season 16-10 +4.55u, month 16-10 +4.55u"
+  },
+  {
+   "date": "2026-11-08",
+   "change": "MODEL_EDGE off: season 14-16 -3.27u, month 14-16 -3.27u"
+  },
+  {
+   "date": "2026-11-08",
+   "change": "EFF_SPREAD off: season 13-20 -8.18u, month 13-20 -8.18u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "Backtest gate (Trina, Option A): on EFF_SPREAD, MODEL_EDGE, EFF_OVER, EARLY_OVER_OPEN; off SPREAD_MOVE, OVER, EARLY_UNDER_OPEN, NEUTRAL_UNDER, UNDER_DROP, DOG_ML (FAV_ML stays off). Season record warns only."
+  },
+  {
+   "date": "2026-11-09",
+   "change": "SPREAD_MOVE on: standard policy, gate retired; season 17-11 +4.45u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "OVER on: standard policy, gate retired; season 2-0 +1.82u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "MODEL_EDGE off: standard policy, gate retired; season 13-16 -4.18u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "EFF_SPREAD off: standard policy, gate retired; season 15-20 -6.36u"
+  },
+  {
+   "date": "2026-11-09",
+   "change": "Backtest gate retired (Trina): NCAAW follows the standard Season Cards policy, pick minimum 7"
+  },
+  {
+   "date": "2026-11-14",
+   "change": "B91 (Trina A39): split SPREAD_MOVE, FAV_ML, DOG_ML, UNDER_DROP, OVER into separate FG rules by trigger; history goes to the rule matching the variant each pick was logged under; version switching retired."
+  }
+ ],
+ "updated": "2026-11-15",
+ "recheck_note": "82 games played this season through 2026-11-15.",
+ "warnings": [],
+ "freeze_until": "2026-11-08",
+ "policy": {
+  "off_min": 7,
+  "month_min": 5,
+  "on_min": 0,
+  "freeze_until": "2026-11-08",
+  "set": "2026-11-09",
+  "text": "NCAAW follows the standard Season Cards policy (Trina, Nov 9 2026, backtest gate retired): season to date decides (off at 7+ picks with negative season units, on when season units are green), the month is a watch, two completed red months in a row switch a rule off after the first full week of the next month. Records count AP Top 25 games only.",
+  "month_role": "watch",
+  "two_red_months": true,
+  "pick_min_basis": "1/4 of a 30 game season",
+  "gate": "tiers",
+  "gate_note": "Nov 14: tier status records in hub meta decide (Season Cards policy); recheck.py writes every game records only."
+ }
+}
