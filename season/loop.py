@@ -6,7 +6,7 @@ Every tick (about every 30 minutes, at :13 and :43):
           start within 75 minutes)
   espn    finals for yesterday (once after 02:00), slate, injuries, standings, rankings, transactions (after 06:00, 10:00, 14:00)
   nhl     NHL API team, skater, standings, finals and DraftKings files (after 06:30 and 13:00)
-  now     (Nov 19) about 13:43 and 15:43: current full game lines, period lines and team totals for games left today, only
+  now     (Nov 19) about 13:43 (one read; 15:43 dropped for credits): current full game lines, period lines and team totals for games left today, only
           for sports with a game not yet started on the ESPN slate (odds/pull.py now with NOW_PERIODS=1 NOW_TODAY=1)
   players (Nov 14, B115) season/players_pull.py all after 09:15 (team season stats and ranks, NBA, NHL and FBS player logs),
           and NBA season_raw.txt again after props_open (it needs the prop lines)
@@ -67,7 +67,7 @@ def tick():
         if once(k, t): sh(['python3', 'season/espn_pull.py', 'slate', '', day])
     for k, t in (('nhl_am', 6 * 60 + 30), ('nhl_pm', 13 * 60)):
         if once(k, t): sh(['python3', 'season/nhl_pull.py', day])
-    for k, t in (('now_pm1', 13 * 60 + 43), ('now_pm2', 15 * 60 + 43)):   # Nov 19: fresh lines for the card runs, today's sports only
+    for k, t in (('now_pm1', 13 * 60 + 43),):   # Nov 19: one midday read only (two reads ran about 480 credits a day); add ('now_pm2', 15 * 60 + 43) back if credits allow   # Nov 19: fresh lines for the card runs, today's sports only
         if once(k, t):
             sp = sports_today(day)
             if sp: sh(['python3', 'odds/pull.py', 'now', ','.join(sp)], env=dict(NOW_PERIODS='1', NOW_TODAY='1', NOW_PERIODS_RESERVE='5000'))   # periods only while 5,000+ credits are left
