@@ -1,0 +1,98 @@
+[
+ {
+  "id": 2026020347,
+  "away": "LAK",
+  "home": "TOR",
+  "start": "2026-11-20T00:00:00Z",
+  "venue": "Scotiabank Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020348,
+  "away": "PHI",
+  "home": "OTT",
+  "start": "2026-11-20T00:00:00Z",
+  "venue": "Canadian Tire Centre",
+  "neutral": false
+ },
+ {
+  "id": 2026020350,
+  "away": "STL",
+  "home": "PIT",
+  "start": "2026-11-20T00:00:00Z",
+  "venue": "PPG Paints Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020351,
+  "away": "BUF",
+  "home": "WSH",
+  "start": "2026-11-20T00:00:00Z",
+  "venue": "Capital One Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020352,
+  "away": "MTL",
+  "home": "CAR",
+  "start": "2026-11-20T00:00:00Z",
+  "venue": "Lenovo Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020354,
+  "away": "NYI",
+  "home": "WPG",
+  "start": "2026-11-20T00:00:00Z",
+  "venue": "Canada Life Centre",
+  "neutral": false
+ },
+ {
+  "id": 2026020349,
+  "away": "EDM",
+  "home": "TBL",
+  "start": "2026-11-20T00:30:00Z",
+  "venue": "Benchmark International Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020353,
+  "away": "CBJ",
+  "home": "CHI",
+  "start": "2026-11-20T01:00:00Z",
+  "venue": "United Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020355,
+  "away": "MIN",
+  "home": "CGY",
+  "start": "2026-11-20T01:00:00Z",
+  "venue": "Scotiabank Saddledome",
+  "neutral": false
+ },
+ {
+  "id": 2026020356,
+  "away": "ANA",
+  "home": "COL",
+  "start": "2026-11-20T02:00:00Z",
+  "venue": "Ball Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020357,
+  "away": "VAN",
+  "home": "SEA",
+  "start": "2026-11-20T02:40:00Z",
+  "venue": "Climate Pledge Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020358,
+  "away": "DAL",
+  "home": "VGK",
+  "start": "2026-11-20T03:00:00Z",
+  "venue": "T-Mobile Arena",
+  "neutral": false
+ }
+]
