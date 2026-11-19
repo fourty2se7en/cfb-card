@@ -250,6 +250,24 @@ def cmd_apply_result(a):
     print(f'applied {n} succeeded writes; {skipped} not applied (failed or missing from results)')
 
 
+def cmd_setv(a):
+    """Record hub versions read with an ArtifactData query: versions.json is {"<collection>/<doc_id>": version}.
+    Only _v changes; docs missing from the ledger are reported, not created."""
+    vers = json.load(open(a.versions))
+    by = {}
+    for k, v in vers.items():
+        c, i = k.rsplit('/', 1)
+        by.setdefault(c, {})[i] = int(v)
+    n = miss = 0
+    for c, m in by.items():
+        docs = read_coll(c)
+        for i, v in m.items():
+            if i not in docs: miss += 1; continue
+            if docs[i].get('_v') != v: docs[i]['_v'] = v; n += 1
+        write_coll(c, docs)
+    print(f'set _v on {n} docs; {miss} not in the ledger')
+
+
 def cmd_count(a):
     m = load_manifest()
     mc = m.get('collections', {})
@@ -274,6 +292,8 @@ def main():
     p.set_defaults(fn=cmd_add)
     p = sp.add_parser('apply-result'); p.add_argument('updates'); p.add_argument('results'); p.set_defaults(fn=cmd_apply_result)
     p = sp.add_parser('count'); p.set_defaults(fn=cmd_count)
+    p = sp.add_parser('setv', help='record hub versions {"<collection>/<doc_id>": version} (only _v changes)')
+    p.add_argument('versions'); p.set_defaults(fn=cmd_setv)
     a = ap.parse_args()
     a.fn(a)
 
