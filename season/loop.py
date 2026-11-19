@@ -8,6 +8,9 @@ Every tick (about every 30 minutes, at :13 and :43):
   nhl     NHL API team, skater, standings, finals and DraftKings files (after 06:30 and 13:00)
   players (Nov 14, B115) season/players_pull.py all after 09:15 (team season stats and ranks, NBA, NHL and FBS player logs),
           and NBA season_raw.txt again after props_open (it needs the prop lines)
+  grade   (Nov 19) once a day right after the 02:00 finals pull: season/nightly_grade.py grades every sport from the repo
+          ledger, adds the saved close, rebuilds tiers and writes season/ledger/updates/<day>.json for a chat to apply
+          (season/apply_updates.md); the ledger docs it changes carry pending_hub: true.
 Then commits whatever changed. Times are Phoenix (UTC-7, no daylight saving)."""
 import datetime as dt, json, os, subprocess, sys, time
 from pathlib import Path
@@ -28,7 +31,7 @@ def sh(cmd):
 
 
 def commit(msg):
-    sh(['git', 'add', '-A', 'odds', 'season/data', 'season/state.json'])
+    sh(['git', 'add', '-A', 'odds', 'season/data', 'season/state.json', 'season/ledger'])
     if subprocess.run(['git', 'diff', '--staged', '--quiet'], cwd=ROOT).returncode == 0: return
     sh(['git', 'commit', '-q', '-m', msg])
     sh(['bash', 'season/push_retry.sh'])   # B116 (Nov 14): retries and settles rebase conflicts with odds or players commits
@@ -44,6 +47,8 @@ def tick():
     if once('props_open', 10 * 60 + 5): sh(['python3', 'odds/pull.py', 'props_open'])
     sh(['python3', 'odds/pull.py', 'close'])
     if once('espn_finals', 2 * 60): sh(['python3', 'season/espn_pull.py', 'finals', '', day])
+    if st.get('espn_finals') == day and once('nightly_grade', 2 * 60) and (ROOT / 'season' / 'ledger' / 'manifest.json').exists():
+        sh(['python3', 'season/nightly_grade.py', '--day', day, '--hub', '/tmp/hub'])   # Nov 19: grade, close, tiers -> ledger/updates
     for k, t in (('espn_slate_am', 6 * 60), ('espn_slate_mid', 10 * 60), ('espn_slate_pm', 14 * 60)):
         if once(k, t): sh(['python3', 'season/espn_pull.py', 'slate', '', day])
     for k, t in (('nhl_am', 6 * 60 + 30), ('nhl_pm', 13 * 60)):
