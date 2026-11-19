@@ -1,0 +1,36 @@
+# On-demand ESPN pulls (Nov 19 2026, B97 and B161). Push season/espn_run.txt; line 1 = "<kind> [sports]"
+# kind: slate, finals or ahead (next 7 Phoenix days, for Upcoming games). The scheduled pulls stay in season.yml.
+name: espn
+on:
+  push:
+    branches: [main]
+    paths: [season/espn_run.txt]
+  workflow_dispatch:
+concurrency:
+  group: espn
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Pull
+        run: |
+          k=$(head -1 season/espn_run.txt | awk '{print $1}'); case "$k" in slate|finals|ahead) ;; *) k=ahead ;; esac
+          sp=$(head -1 season/espn_run.txt | awk '{print $2}' | grep -E '^[a-z,]+$' || true)
+          python3 season/espn_pull.py "$k" "$sp" "$(TZ=America/Phoenix date +%F)"
+      - name: Commit
+        run: |
+          git config user.name  "cfb-card-bot"
+          git config user.email "cfb-card-bot@users.noreply.github.com"
+          git add -A season/data || true
+          git diff --staged --quiet && exit 0
+          git commit -m "espn on demand: $(date -u +%Y-%m-%dT%H:%MZ)"
+          bash season/push_retry.sh

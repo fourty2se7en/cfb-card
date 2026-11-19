@@ -65,6 +65,7 @@ def tick():
         sh(['python3', 'season/nightly_grade.py', '--day', day, '--hub', '/tmp/hub'])   # Nov 19: grade, close, tiers -> ledger/updates
     for k, t in (('espn_slate_am', 6 * 60), ('espn_slate_mid', 10 * 60), ('espn_slate_pm', 14 * 60)):
         if once(k, t): sh(['python3', 'season/espn_pull.py', 'slate', '', day])
+    if once('espn_ahead', 6 * 60): sh(['python3', 'season/espn_pull.py', 'ahead', '', day])   # Nov 19 (B161): next 7 days for Upcoming games
     for k, t in (('nhl_am', 6 * 60 + 30), ('nhl_pm', 13 * 60)):
         if once(k, t): sh(['python3', 'season/nhl_pull.py', day])
     for k, t in (('now_pm1', 13 * 60 + 43),):   # Nov 19: one midday read only (two reads ran about 480 credits a day); add ('now_pm2', 15 * 60 + 43) back if credits allow   # Nov 19: fresh lines for the card runs, today's sports only

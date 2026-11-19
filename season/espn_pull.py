@@ -3,6 +3,7 @@
     python3 season/espn_pull.py <kind> [sports] [YYYY-MM-DD Phoenix]
     kind: finals  yesterday's scoreboard with period scores plus trimmed box scores (grading, game logs, backtests)
           slate   today's scoreboard, injuries, standings, rankings, transactions (pick inputs)
+          ahead   scoreboards for the next 7 Phoenix days (Upcoming games on Season Cards; Trina Nov 19, B161)
 Writes season/data/espn/<sport>/<date>/<name>.json.gz. A missing feed is skipped, never fatal."""
 import datetime as dt, gzip, json, sys, time
 from pathlib import Path
@@ -65,9 +66,17 @@ def slate(sport, day):
     return n
 
 
+def ahead(sport, day, days=7):
+    path, grp = SP[sport]; n = 0; d0 = dt.date.fromisoformat(day)
+    for i in range(1, days + 1):
+        d = (d0 + dt.timedelta(days=i)).isoformat()
+        n += save(sport, d, 'scoreboard_ahead', j(f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={d.replace('-','')}&limit=500" + (f'&groups={grp}' if grp else '')))
+    return n
+
+
 if __name__ == '__main__':
     kind = sys.argv[1]; sports = [s for s in (sys.argv[2].split(',') if len(sys.argv) > 2 and sys.argv[2] else SP) if s in SP]
     day = sys.argv[3] if len(sys.argv) > 3 else dt.datetime.now(PHX).strftime('%Y-%m-%d')
     for s in sports:
-        try: print(s, kind, (finals if kind == 'finals' else slate)(s, day))
+        try: print(s, kind, {'finals': finals, 'ahead': ahead}.get(kind, slate)(s, day))
         except Exception as e: print(s, kind, 'error', type(e).__name__, str(e)[:120])
