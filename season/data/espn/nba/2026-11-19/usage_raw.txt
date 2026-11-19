@@ -1,0 +1,9 @@
+ESPN box scores 2026-27 totals, built Nov 19 about 9:43 AM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
+GSW|0.252,0.155,0.204,0.262|Stephen Curry(10g),Al Horford(12g),Brandon Williams(10g)
+LAC|0.000,0.000,0.000,0.000|
+MEM|0.274,0.168,0.207,0.222|Ty Jerome(11g),GG Jackson(12g),Scotty Pippen Jr.(5g),Isaiah Stewart(10g)
+MIL|0.109,0.115,0.164,0.125|Ryan Rollins(13g),Ousmane Dieng(10g)
+MIN|0.107,0.060,0.060,0.127|Anthony Edwards(4g),Jaylen Clark(12g)
+NYK|0.000,0.000,0.000,0.000|
+POR|0.120,0.173,0.145,0.078|Ja Morant(4g),Robert Williams III(12g),Vit Krejci(7g),Chris Youngblood(6g)
+SAS|0.157,0.112,0.163,0.094|Dylan Harper(15g)
