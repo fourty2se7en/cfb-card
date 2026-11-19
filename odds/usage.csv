@@ -2097,3 +2097,6 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-19T01:13:00Z,close,ncaam,event_odds,200,4,10630
 2026-11-19T01:13:00Z,close,ncaam,event_odds,200,4,10626
 2026-11-19T01:13:00Z,close,ncaam,event_odds,200,4,10622
+2026-11-19T01:43:00Z,close,nba,odds,200,3,10619
+2026-11-19T01:43:00Z,close,ncaam,odds,200,3,10616
+2026-11-19T01:43:00Z,close,ncaam,event_odds,200,4,10612
