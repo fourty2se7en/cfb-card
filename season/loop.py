@@ -59,6 +59,8 @@ def tick():
         return False
     if hm >= 7 * 60 + 5: sh(['python3', 'odds/pull.py', 'open'])
     if once('props_open', 10 * 60 + 5): sh(['python3', 'odds/pull.py', 'props_open'])
+    for k, t in (('props_late1', 13 * 60 + 45), ('props_late2', 15 * 60 + 15)):   # Nov 19 (Trina): every game gets props; reads only games whose props were not posted at 10:05
+        if once(k, t): sh(['python3', 'odds/pull.py', 'props_open'])
     sh(['python3', 'odds/pull.py', 'close'])
     if once('espn_finals', 2 * 60): sh(['python3', 'season/espn_pull.py', 'finals', '', day])
     if st.get('espn_finals') == day and once('nightly_grade', 2 * 60) and (ROOT / 'season' / 'ledger' / 'manifest.json').exists():

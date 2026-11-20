@@ -160,7 +160,8 @@ def run(mode, only=None):
             for e in evs:
                 if not ok(RESERVE_PROPS): print('  props skipped: budget guard'); break
                 ev = per_event(sport, e['id'], cfg['props'], 'props_open', mode, PROP_BOOKS)
-                if ev: out += rows(ev, 'props_open', sport); S['props_open'][e['id']] = iso(NOW)
+                r = rows(ev, 'props_open', sport) if ev else []
+                if r: out += r; S['props_open'][e['id']] = iso(NOW)   # Nov 19: mark read only when books posted props, so a later pass picks up late props
             write(sport, 'props_open', out)
         elif mode == 'now':   # Nov 12 (A28): pick time lines for a card run (texas222 retired); periods and team totals when asked
             end = NOW + dt.timedelta(hours=30)

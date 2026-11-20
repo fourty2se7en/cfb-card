@@ -23,8 +23,15 @@ def pois_ge(mu, k):
     return 1-sum(math.exp(-mu)*mu**i/math.factorial(i) for i in range(k))
 
 def read_props(sport):
-    f = (sorted(glob.glob(f'{REPO}/odds/data/{sport}/{DATE}/props_now_*.csv.gz')) or sorted(glob.glob(f'{REPO}/odds/data/{sport}/{DATE}/props_open_*.csv.gz')))[-1]
-    rows = list(csv.DictReader(gzip.open(f, 'rt')))
+    # Nov 19 (Trina): every read of the day counts (props_open, props_now, close_props), latest read wins per game, so a game whose
+    # props post after the morning read (Thursday FBS, late NBA lines) still gets props.
+    fs = sorted(glob.glob(f'{REPO}/odds/data/{sport}/{DATE}/props_open_*.csv.gz') + glob.glob(f'{REPO}/odds/data/{sport}/{DATE}/props_now_*.csv.gz')
+                + glob.glob(f'{REPO}/odds/data/{sport}/{DATE}/close_props_*.csv.gz'), key=lambda f: f.rsplit('_', 1)[-1])
+    if not fs: return {}
+    latest = {}
+    for f in fs:
+        for r in csv.DictReader(gzip.open(f, 'rt')): latest.setdefault(r['event_id'], {}).setdefault(f, []).append(r)
+    rows = [r for ev in latest.values() for r in ev[max(ev, key=lambda f: f.rsplit('_', 1)[-1])]]
     g = collections.defaultdict(lambda: collections.defaultdict(dict))
     for r in rows:
         key = (r['away'], r['home'], r['commence'], r['player'], r['market'])
