@@ -1,1 +1,1 @@
-now nba,ncaam,ncaaw,fbs,nfl periods  18:47:16
+props_now nba,nhl,nfl,fbs,ncaam,ncaaw  22:29:38
