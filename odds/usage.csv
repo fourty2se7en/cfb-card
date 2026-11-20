@@ -2268,3 +2268,10 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-20T00:13:00Z,close,nfl,event_odds,200,7,9909
 2026-11-20T00:13:00Z,close,nfl,event_odds,200,5,9904
 2026-11-20T00:13:00Z,close,fbs,odds,200,3,9901
+2026-11-20T00:43:00Z,close,nba,odds,200,3,9898
+2026-11-20T00:43:00Z,close,nhl,odds,200,3,9895
+2026-11-20T00:43:00Z,close,ncaam,odds,200,3,9892
+2026-11-20T00:43:00Z,close,ncaam,event_odds,200,4,9888
+2026-11-20T00:43:00Z,close,ncaam,event_odds,200,4,9884
+2026-11-20T00:43:00Z,close,ncaaw,odds,200,3,9881
+2026-11-20T00:43:00Z,close,nfl,odds,200,3,9878
