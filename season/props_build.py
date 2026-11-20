@@ -34,6 +34,8 @@ def read_props(sport):
     for f in fs:
         for r in csv.DictReader(gzip.open(f, 'rt')): latest.setdefault(r['event_id'], {}).setdefault(f, []).append(r)
     rows = [r for ev in latest.values() for r in ev[max(ev, key=lambda f: f.rsplit('_', 1)[-1])]]
+    # Nov 20: keep only games on DATE (Phoenix); reads cover the next 30 hours, so Saturday FBS games showed up on Friday
+    rows = [r for r in rows if dt.datetime.fromisoformat(r['commence'].replace('Z', '+00:00')).astimezone(dt.timezone(dt.timedelta(hours=-7))).strftime('%Y-%m-%d') == DATE]
     g = collections.defaultdict(lambda: collections.defaultdict(dict))
     for r in rows:
         key = (r['away'], r['home'], r['commence'], r['player'], r['market'])
@@ -308,7 +310,8 @@ def fbs():
         if mkt not in FMK: continue
         if started(com): out['skipped']['fbs'].append(f'{player}: game started'); continue
         kind, slab, lab = FMK[mkt]
-        tA, tH = tlook(teams, idx, away), tlook(teams, idx, home)
+        try: tA, tH = tlook(teams, idx, away), tlook(teams, idx, home)
+        except KeyError as e: out['skipped']['fbs'].append(f'{player} {slab}: team not in repo team stats ({e})'); continue
         nA, nH = tA['location'], tH['location']
         gid = f"{DATE}_{key_name(nA.replace('(OH)', 'OH'))}-{key_name(nH)}"
         team = nA if (nA, norm(player), kind) in logs else nH if (nH, norm(player), kind) in logs else None
