@@ -1,0 +1,320 @@
+# Action Network sharp report, read Nov 20 ~11:05 AM Phoenix (Chrome). Per market, columns SA (sharp action) BM (big money) PS (pro systems) MP (model proj) TE (top experts).
+# Two chars per column: first = away (Over on totals), second = home (Under on totals). Y = lit.
+#NBA
+[spread]
+ORL/BKN SA.Y BM.. PS.. MP.Y TE..
+NOP/OKC SAY. BM.. PS.. MPY. TE..
+IND/CLE SAY. BM.. PS.. MP.. TE..
+TOR/DET SAY. BM.. PS.. MP.. TE..
+WAS/CHI SAY. BM.. PS.. MP.. TE..
+PHX/UTA SA.Y BM.. PS.. MP.. TE..
+SAC/LAL SA.. BM.. PS.. MPY. TE..
+CHA/ATL SA.. BM.. PS.. MP.. TE..
+HOU/DEN SA.. BM.. PS.. MP.. TE..
+[total]
+CHA/ATL SA.Y BM.. PS.Y MP.. TE..
+SAC/LAL SA.Y BM.. PS.Y MP.. TE..
+ORL/BKN SA.Y BM.. PS.. MP.. TE..
+WAS/CHI SA.Y BM.. PS.. MP.. TE..
+PHX/UTA SA.Y BM.. PS.. MP.. TE..
+HOU/DEN SAY. BM.. PS.. MP.. TE..
+IND/CLE SA.. BM.. PS.. MP.. TE..
+TOR/DET SA.. BM.. PS.. MP.. TE..
+NOP/OKC SA.. BM.. PS.. MP.. TE..
+[ml]
+ORL/BKN SA.. BM.. PS.. MP.Y TE..
+WAS/CHI SA.. BMY. PS.. MP.. TE..
+HOU/DEN SA.. BMY. PS.. MP.. TE..
+CHA/ATL SA.. BM.. PS.. MP.. TE..
+IND/CLE SA.. BM.. PS.. MP.. TE..
+TOR/DET SA.. BM.. PS.. MP.. TE..
+NOP/OKC SA.. BM.. PS.. MP.. TE..
+PHX/UTA SA.. BM.. PS.. MP.. TE..
+SAC/LAL SA.. BM.. PS.. MP.. TE..
+#NCAAM (only rows with a lit signal; 53 games listed)
+[spread]
+Georgia/G Tech SAY. BM.. PS.. MPY. TE..
+NC State/Seton Hall SAY. BM.. PS.. MPY. TE..
+TN-Martin/S. Illinois SA.Y BM.. PS.. MP.Y TE..
+W. Michigan/St. Mary's SA.Y BM.. PS.. MP.. TE..
+Harvard/Holy Cross SAY. BM.. PS.. MP.. TE..
+Coastal Car/Tennessee SA.. BM.. PS.Y MP.. TE..
+C. Michigan/Pittsburgh SA.Y BM.. PS.. MP.. TE..
+Wagner/Maryland SA.Y BM.. PS.. MP.. TE..
+Saint Joe's/Drexel SA.Y BM.. PS.. MPY. TEY.
+Richmond/W. Kentucky SA.Y BM.. PS.. MP.. TE..
+Georgia State/Jax State SAY. BM.. PS.. MP.. TE..
+SE Louisiana/Kennesaw St SAY. BM.. PS.. MP.. TE..
+Monmouth/Princeton SA.Y BM.. PS.. MP.. TE..
+SC State/Citadel SA.Y BM.. PS.. MP.. TE..
+Murray State/Wisconsin SA.. BM.. PS.. MP.Y TE..
+Tulsa/Mississippi St SA.Y BM.. PS.. MP.. TE..
+UT-Arlington/NW State SA.Y BM.. PS.. MP.. TE..
+Kentucky/Indiana SA.Y BM.. PS.. MP.. TE..
+MS Valley St/Arkansas SAY. BM.. PS.. MP.. TE..
+S. Alabama/SMU SA.. BM.. PS.. MP.Y TE..
+CS Bakersfield/Idaho SA.Y BM.. PS.. MP.. TE..
+E. Illinois/Illinois SAY. BM.. PS.. MP.. TE..
+Alabama St/Fresno State SAY. BM.. PS.. MP.. TE..
+Minnesota/OK State SA.Y BM.. PS.. MP.. TE..
+Temple/Middle Tenn SAY. BM.. PS.. MP.. TE..
+Indiana St/SFA SA.Y BM.. PS.. MP.. TE..
+Utah/Dayton SAY. BM.. PS.. MP.. TE..
+Mercyhurst/Canisius SA.. BM.. PS.. MPY. TE..
+North Texas/App State SA.. BM.. PS.. MPY. TE..
+Iowa/Xavier SAY. BM.. PS.. MP.. TE.Y
+E. Carolina/Utah Valley SAY. BM.. PS.. MP.Y TE..
+Lipscomb/Alabama A&M SA.Y BM.. PS.. MPY. TE..
+G Washington/UAB SA.Y BM.. PS.. MPY. TE..
+SD State/Idaho State SA.Y BM.. PS.. MPY. TE..
+Rhode Island/Liberty SA.Y BM.. PS.. MPY. TE..
+Delaware/CS Northridge SA.Y BM.. PS.. MPY. TE..
+[total]
+Temple/Middle Tenn SA.Y BM.Y PS.Y MP.. TE..
+TN-Martin/S. Illinois SA.Y BM.. PS.Y MP.Y TE..
+Harvard/Holy Cross SAY. BMY. PS.. MP.. TE..
+Coastal Car/Tennessee SA.Y BM.. PS.. MP.Y TE..
+Tulsa/Mississippi St SA.Y BM.. PS.Y MP.. TE..
+UT-Arlington/NW State SA.Y BM.. PS.. MP.Y TE..
+E. Carolina/Utah Valley SA.Y BM.. PS.Y MP.. TE..
+Le Moyne/Missouri SA.Y BM.Y PS.. MP.. TE..
+Kentucky/Indiana SA.Y BM.. PS.Y MP.. TE..
+Campbell/K State SA.Y BM.Y PS.. MP.. TE..
+MS Valley St/Arkansas SA.Y BM.. PS.. MP.Y TE..
+Saint Louis/Saint Mary's SAY. BMY. PS.. MP.. TE..
+Minnesota/OK State SA.Y BM.. PS.Y MP.. TE..
+Manhattan/Miami (FL) SA.Y BM.. PS.. MP.Y TE..
+Utah/Dayton SAY. BM.. PS.. MPY. TE..
+UMKC/Iona SA.Y BM.. PS.. MP.. TE..
+Loyola (MD)/Virginia SAY. BM.. PS.. MP.. TE..
+Oakland/Purdue SA.Y BM.. PS.. MP.. TE..
+C. Michigan/Pittsburgh SA.Y BM.. PS.. MP.. TE..
+Wagner/Maryland SAY. BM.. PS.. MP.. TE..
+Saint Joe's/Drexel SA.Y BM.. PS.. MP.. TE..
+Richmond/W. Kentucky SAY. BM.. PS.Y MPY. TE..
+Georgia State/Jax State SAY. BM.. PS.. MP.. TE..
+SE Louisiana/Kennesaw St SA.Y BM.. PS.. MP.. TE..
+Monmouth/Princeton SAY. BM.. PS.. MP.. TE..
+SC State/Citadel SA.Y BM.. PS.. MP.. TE..
+Niagara/Delaware St SA.Y BM.. PS.. MP.. TE..
+Bellarmine/E. Kentucky SA.Y BM.. PS.. MP.. TE..
+Murray State/Wisconsin SAY. BM.. PS.. MP.. TE..
+Iowa/Xavier SAY. BM.. PS.. MP.. TE..
+CS Bakersfield/Idaho SA.Y BM.. PS.. MP.. TE..
+Sam Houston/Boise State SAY. BM.. PS.. MP.. TE..
+E. Illinois/Illinois SAY. BM.. PS.. MP.. TE..
+NC State/Seton Hall SA.Y BM.. PS.. MP.. TE..
+Alabama St/Fresno State SA.Y BM.Y PS.. MPY. TE..
+Green Bay/Florida St SA.Y BM.. PS.. MP.. TE..
+VA Tech/Northwestern SAY. BM.. PS.. MP.. TE..
+SD State/Idaho State SA.Y BM.. PS.. MP.. TE..
+Rhode Island/Liberty SA.Y BM.. PS.. MP.. TE..
+Mercyhurst/Canisius SA.Y BM.. PS.. MP.. TE..
+Delaware/CS Northridge SAY. BM.. PS.. MP.. TE..
+S. Alabama/SMU SA.Y BM.. PS.. MPY. TE..
+Marshall/UNC SAY. BM.. PS.. MP.Y TE..
+G Washington/UAB SAY. BM.. PS.Y MP.. TE..
+Indiana St/SFA SAY. BM.. PS.Y MP.. TE..
+W. Illinois/Albany SA.Y BM.. PS.. MPY. TE..
+North Texas/App State SAY. BM.. PS.. MP.Y TE..
+[ml]
+Saint Joe's/Drexel SA.. BM.. PS.. MPY. TE..
+Richmond/W. Kentucky SA.. BMY. PS.. MP.. TE..
+Georgia State/Jax State SA.. BMY. PS.. MP.. TE..
+Niagara/Delaware St SA.. BMY. PS.. MP.. TE..
+Murray State/Wisconsin SA.. BM.. PS.. MP.Y TE..
+E. Carolina/Utah Valley SA.. BM.. PS.. MP.Y TE..
+UCF/Vanderbilt SA.. BMY. PS.. MP.. TE..
+Georgia/G Tech SA.. BM.. PS.. MPY. TE..
+Campbell/K State SA.. BM.Y PS.. MP.. TE..
+Lipscomb/Alabama A&M SA.. BM.. PS.. MPY. TE..
+NC State/Seton Hall SA.. BM.. PS.. MPY. TE..
+Temple/Middle Tenn SA.. BM.Y PS.. MP.. TE..
+G Washington/UAB SA.. BM.. PS.. MPY. TE..
+SD State/Idaho State SA.. BM.. PS.. MPY. TE..
+Utah/Dayton SA.. BM.Y PS.. MP.. TE..
+Mercyhurst/Canisius SA.. BM.. PS.. MPY. TE..
+TN-Martin/S. Illinois SA.. BM.. PS.. MP.Y TE..
+Delaware/CS Northridge SA.. BM.. PS.. MPY. TE..
+North Texas/App State SA.. BM.. PS.. MPY. TE..
+Rhode Island/Liberty SA.. BM.Y PS.. MPY. TE..
+#NCAAF (week 12; only rows with a lit signal)
+[spread]
+North Texas/Tulane SA.Y BM.Y PS.. MP.Y TE.Y
+Arizona/K State SA.Y BM.. PS.. MP.. TE.Y
+Oregon/Michigan St SAY. BM.. PS.. MP.. TEY.
+UTSA/UAB SA.. BM.. PS.. MP.Y TE.Y
+Syracuse/Boston Col SAY. BM.. PSY. MP.. TE..
+Ohio State/Nebraska SA.Y BM.. PS.. MP.. TE.Y
+BYU/Kansas SA.Y BM.. PS.. MP.. TE.Y
+Tenn Tech/Mississippi St SAY. BMY. PS.. MP.. TE..
+Charlotte/Tulsa SA.Y BM.Y PS.. MP.. TE..
+Delaware/N. Mexico St SA.Y BM.. PS.. MP.. TE.Y
+FIU/Kennesaw St SA.. BM.. PS.. MPY. TEY.
+UCLA/Michigan SA.Y BM.. PS.. MP.. TE.Y
+Washington St/Texas St SA.Y BM.. PS.. MP.. TE.Y
+UNLV/San Jose St SAY. BM.. PS.. MP.. TE..
+Clemson/Duke SA.Y BM.. PSY. MP.. TE.Y
+Kentucky/Missouri SA.Y BM.. PS.. MP.. TE..
+Georgia/S. Carolina SA.. BM.Y PS.. MP.. TE..
+Pittsburgh/Louisville SA.Y BM.. PS.. MP.. TE..
+Stanford/California SA.. BM.. PS.. MP.Y TE..
+New Mexico/Wyoming SA.Y BM.. PS.. MP.. TE..
+Utah/TCU SAY. BM.. PS.. MP.Y TE.Y
+Utah State/Oregon St SA.Y BM.. PS.. MP.. TE..
+Colorado/Cincinnati SA.. BM.. PS.. MPY. TE..
+Northwestern/Minnesota SA.Y BMY. PSY. MP.. TE..
+UNC/Virginia SA.Y BM.. PS.. MP.. TE..
+Middle Tenn/Sam Houston SA.Y BM.. PS.. MP.. TE..
+S. Florida/FL Atlantic SA.Y BM.. PS.. MP.. TE..
+Iowa/Illinois SAY. BM.. PS.. MP.. TE..
+Arkansas/Texas SA.. BM.. PSY. MP.. TE..
+LSU/Tennessee SA.Y BM.. PS.. MP.. TE..
+NC State/Florida St SA.Y BM.. PS.. MP.. TE..
+Rutgers/Penn State SA.. BMY. PS.. MP.. TE..
+Indiana/Washington SA.Y BM.. PS.. MPY. TEY.
+Texas A&M/Oklahoma SA.. BM.. PSY. MP.. TE..
+Georgia State/Marshall SA.Y BM.. PS.. MP.. TE..
+GA Southern/Troy SA.. BM.. PS.. MP.Y TE..
+S. Alabama/Southern Miss SA.Y BM.. PS.. MP.. TE..
+VA Tech/Miami (FL) SA.Y BMY. PS.. MP.. TE..
+Bowling Green/Toledo SA.Y BM.. PSY. MP.. TE..
+San Diego St/Boise State SA.Y BM.. PS.. MP.. TEY.
+OK State/Arizona St SA.Y BM.. PS.. MPY. TE..
+E. Carolina/Army SA.. BM.. PS.. MPY. TE.Y
+Wisconsin/Purdue SA.. BM.. PSY. MP.. TE.Y
+Vanderbilt/Florida SA.Y BM.. PSY. MP.. TE..
+Memphis/Navy SAY. BM.. PS.. MP.. TE.Y
+Houston/West Virginia SAY. BM.Y PS.. MP.. TE..
+W. Kentucky/Liberty SA.Y BMY. PS.. MP.. TE..
+Old Dominion/UConn SAY. BM.. PS.. MP.. TE.Y
+Texas Tech/Baylor SAY. BM.. PS.. MP.Y TE..
+Iowa State/UCF SAY. BM.. PS.. MP.Y TE..
+Maryland/USC SA.Y BMY. PS.. MP.. TE..
+[total]
+Oregon/Michigan St SAY. BM.. PS.. MPY. TEY.
+Charlotte/Tulsa SA.Y BM.Y PS.Y MP.. TE..
+Arkansas St/LA Tech SAY. BMY. PS.. MP.. TE..
+VA Tech/Miami (FL) SAY. BM.. PS.. MP.. TEY.
+OK State/Arizona St SAY. BM.. PS.. MPY. TE..
+Wake Forest/GA Tech SAY. BM.. PS.. MPY. TE..
+Wisconsin/Purdue SAY. BM.. PS.. MP.. TEY.
+BYU/Kansas SA.Y BM.. PS.Y MP.. TE..
+S. Florida/FL Atlantic SA.Y BM.. PS.. MP.. TE.Y
+Iowa/Illinois SA.Y BM.Y PS.. MP.. TE..
+UCLA/Michigan SA.Y BM.Y PS.. MP.. TE..
+Texas A&M/Oklahoma SA.Y BM.. PS.Y MP.. TE..
+Arizona/K State SAY. BM.. PS.. MP.. TE..
+Clemson/Duke SA.Y BM.. PS.. MP.. TE..
+Colorado St/Fresno State SAY. BMY. PS.. MP.Y TE..
+Kentucky/Missouri SA.Y BM.. PS.. MP.. TE..
+SMU/Notre Dame SAY. BM.. PS.. MP.. TE..
+Georgia/S. Carolina SA.. BM.. PS.. MP.. TEY.
+Pittsburgh/Louisville SA.Y BM.. PS.. MP.. TE..
+Stanford/California SAY. BM.. PS.. MP.. TE..
+UTEP/Air Force SAY. BM.. PS.. MP.. TE..
+UTSA/UAB SA.Y BM.. PS.. MP.. TE..
+New Mexico/Wyoming SAY. BM.. PS.Y MP.. TEY.
+Utah/TCU SA.Y BM.. PS.. MP.. TE..
+San Diego St/Boise State SAY. BM.. PS.. MP.. TE..
+Hawaii/Nevada SA.Y BM.. PS.. MP.. TE..
+Utah State/Oregon St SA.Y BM.. PS.. MP.. TE..
+Syracuse/Boston Col SAY. BM.. PS.. MP.. TE..
+Ohio State/Nebraska SA.Y BM.. PS.. MP.. TE..
+E. Carolina/Army SAY. BM.. PS.. MP.. TE..
+Wofford/Ole Miss SA.Y BM.. PS.. MP.. TE..
+Vanderbilt/Florida SA.Y BM.. PS.. MP.. TE..
+Northwestern/Minnesota SA.Y BM.. PS.. MP.. TE..
+North Texas/Tulane SA.Y BM.. PS.. MP.. TE..
+Memphis/Navy SAY. BM.. PS.. MP.. TE..
+UNC/Virginia SA.Y BM.. PS.. MP.. TE..
+Houston/West Virginia SAY. BM.. PS.. MP.. TE..
+Tenn Tech/Mississippi St SA.. BMY. PS.. MP.. TE..
+W. Kentucky/Liberty SAY. BM.. PS.. MP.. TE..
+Middle Tenn/Sam Houston SA.Y BM.. PS.. MP.. TE..
+Coastal Car/Louisiana SA.Y BM.. PS.. MP.. TE..
+FIU/Kennesaw St SA.Y BM.. PS.. MP.. TE..
+Arkansas/Texas SA.Y BM.. PS.. MP.. TE..
+LSU/Tennessee SA.Y BM.. PS.. MP.. TE..
+NC State/Florida St SAY. BM.. PS.. MP.. TE..
+Indiana/Washington SA.Y BM.. PS.. MP.. TE..
+N. Illinois/ND State SA.. BM.Y PS.. MP.. TE..
+Georgia State/Marshall SAY. BM.. PS.. MP.. TE..
+GA Southern/Troy SA.Y BM.. PS.. MP.. TE..
+S. Alabama/Southern Miss SAY. BM.. PS.. MP.. TE..
+Iowa State/UCF SA.Y BM.. PS.. MPY. TE.Y
+Washington St/Texas St SAY. BM.. PS.. MP.. TE..
+Maryland/USC SAY. BM.. PS.. MP.. TE..
+UNLV/San Jose St SAY. BM.. PS.. MP.Y TE..
+Bowling Green/Toledo SA.Y BM.. PS.. MPY. TE..
+Delaware/N. Mexico St SAY. BM.. PS.Y MP.. TE..
+Texas Tech/Baylor SAY. BM.. PS.. MP.. TE.Y
+[ml]
+Wake Forest/GA Tech SA.. BM.Y PS.. MP.Y TE..
+Tenn Tech/Mississippi St SA.. BMY. PS.. MP.. TEY.
+FIU/Kennesaw St SA.. BMY. PS.. MPY. TE..
+GA Southern/Troy SA.. BM.Y PS.. MP.Y TE..
+UNLV/San Jose St SA.. BM.Y PS.. MP.. TE..
+Clemson/Duke SA.. BMY. PS.. MP.. TE..
+Kentucky/Missouri SA.. BMY. PS.. MP.. TE..
+Stanford/California SA.. BM.. PS.. MP.Y TE..
+Oregon/Michigan St SA.. BM.. PS.. MP.Y TE..
+New Mexico/Wyoming SA.. BM.Y PS.. MP.. TE..
+Utah/TCU SA.. BM.. PS.. MP.Y TE..
+San Diego St/Boise State SA.. BM.Y PS.. MP.. TE..
+OK State/Arizona St SA.. BM.. PS.. MPY. TE..
+Hawaii/Nevada SA.. BMY. PS.. MP.. TE..
+Colorado/Cincinnati SA.. BM.. PS.. MPY. TE..
+E. Carolina/Army SA.. BMY. PS.. MP.. TE..
+Vanderbilt/Florida SA.. BMY. PS.. MP.. TE..
+UNC/Virginia SA.. BMY. PS.. MP.. TE..
+Charlotte/Tulsa SA.. BM.. PS.. MPY. TE..
+Middle Tenn/Sam Houston SA.. BM.Y PS.. MP.. TE..
+Iowa/Illinois SA.. BM.Y PS.. MP.. TE..
+LSU/Tennessee SA.. BMY. PS.. MP.. TE..
+UCLA/Michigan SA.. BM.Y PS.. MP.. TE..
+Texas Tech/Baylor SA.. BM.. PS.. MP.Y TE..
+Indiana/Washington SA.. BM.. PS.. MPY. TE..
+Texas A&M/Oklahoma SA.. BMY. PS.. MP.. TE..
+Georgia State/Marshall SA.. BMY. PS.. MP.. TE..
+Iowa State/UCF SA.. BMY. PS.. MP.Y TE..
+#NFL (week 11)
+[spread]
+CIN/WAS SA.Y BM.Y PS.. MP.. TE.Y
+JAC/NYG SA.Y BM.. PS.. MP.Y TE.Y
+TB/DET SAY. BM.. PS.. MP.. TEY.
+LV/DEN SA.Y BM.. PS.. MP.. TE.Y
+MIN/SF SA.Y BM.Y PS.. MP.. TEY.
+TEN/DAL SAY. BM.. PS.. MP.. TE..
+BAL/CAR SA.Y BM.. PS.. MP.. TE..
+NO/CHI SAY. BM.. PS.. MP.. TE..
+PIT/PHI SA.Y BM.. PS.. MP.. TE..
+ARI/KC SA.. BM.. PSY. MP.. TE.Y
+NYJ/LAC SA.Y BM.. PSY. MP.. TE..
+MIA/BUF SA.. BM.. PS.. MP.. TE..
+[total]
+TB/DET SA.Y BM.. PS.. MP.Y TE.Y
+ARI/KC SA.Y BM.. PS.Y MP.. TE..
+MIA/BUF SA.Y BM.. PS.Y MP.. TE..
+CIN/WAS SAY. BM.. PS.. MP.. TE..
+BAL/CAR SA.Y BM.. PS.. MP.. TE..
+PIT/PHI SA.Y BM.. PS.. MP.. TE..
+NYJ/LAC SA.Y BM.. PS.. MP.. TE..
+JAC/NYG SA.Y BM.. PS.. MP.. TE..
+LV/DEN SA.Y BM.. PS.. MP.. TE..
+MIN/SF SAY. BM.. PS.. MP.Y TE..
+TEN/DAL SA.Y BM.. PS.. MP.. TEY.
+NO/CHI SAY. BM.. PS.Y MP.. TE..
+[ml]
+ARI/KC SA.. BMY. PS.. MPY. TE..
+CIN/WAS SA.. BM.. PS.. MP.Y TE..
+MIN/SF SA.. BMY. PS.. MP.. TE..
+NYJ/LAC SA.. BMY. PS.. MP.. TE..
+LV/DEN SA.. BM.. PS.. MPY. TE..
+TEN/DAL SA.. BM.. PS.. MP.. TE..
+TB/DET SA.. BM.. PS.. MP.. TE..
+MIA/BUF SA.. BM.. PS.. MP.. TE..
+BAL/CAR SA.. BM.. PS.. MP.. TE..
+NO/CHI SA.. BM.. PS.. MP.. TE..
+PIT/PHI SA.. BM.. PS.. MP.. TE..
+JAC/NYG SA.. BM.. PS.. MP.. TE..
