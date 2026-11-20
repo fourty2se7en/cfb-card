@@ -1,0 +1,259 @@
+Air Force|Liam Szarka|pass|19/0,103/0,92/1,82/0
+Air Force|Evan Medders|pass|0/0,47/1,0/0,18/0,27/1,84/1,0/0
+Air Force|Howard Fisher IV|pass|36/0,0/0
+Air Force|Simon Kibbee|rec|27/0,53/0,23/0,18/0,14/0,31/1
+Air Force|Matt Long|rec|18/0,55/1,7/1,0/0,30/0,13/0
+Air Force|Adam Hrynciw|rec|42/1,21/0,20/0,6/0
+Air Force|Mason Hayes|rec|1/0,40/0
+Air Force|Jonah Dawson|rec|39/0
+Air Force|Sylas Maiava-Alaimalo|rec|34/0
+Air Force|Rocco Conti|rec|0/0,21/0,2/0
+Air Force|Grant Wayne|rec|11/0,10/1
+Air Force|Gage LaDue|rec|21/0
+Air Force|Evan Medders|rush|48/1,31/0,30/0,114/2,152/3,115/0,59/1,146/1
+Air Force|Kemper Hodges|rush|72/1,24/1,48/0,2/0,52/0,3/0,200/4,119/1,117/2
+Air Force|Owen Allen|rush|38/0,53/0,29/0,18/0,100/2,96/1,42/0,70/0,4/0,103/0
+Air Force|Rocco Conti|rush|74/0,9/0,77/1,27/0,28/0,103/1,48/0,28/0,14/0,18/0
+Air Force|Liam Szarka|rush|51/2,88/1,171/2,81/2
+Air Force|Gage LaDue|rush|17/0,32/0,31/0,30/0,60/0,57/0,36/1,65/0,15/0
+Air Force|Matt Long|rush|33/0,2/0,6/0,76/0,17/0,4/0,1/0
+Air Force|Keegan Sack|rush|13/0,7/0,31/0,1/0,16/0
+Air Force|Howard Fisher IV|rush|9/0,6/0,38/0,-3/0,8/0
+Air Force|Mason Hayes|rush|12/0,16/0,7/0
+Air Force|Omari Elias|rush|4/0,7/0,19/0
+Air Force|Luke Rauh|rush|19/0,5/0
+Air Force|Owen Chambers|rush|9/0,11/0
+Bowling Green|Jay Kastantin|pass|262/0,84/1,97/1,122/0,305/2,116/1,215/2,217/3,149/1
+Bowling Green|Austin Novosad|pass|-1/0,21/0,229/3
+Bowling Green|Jeremiah Scoby|rec|102/0,19/0,17/0,10/0,34/0,70/0,17/0,13/0,37/0,37/0
+Bowling Green|Brennan Ridley|rec|44/0,8/0,7/0,13/0,95/0,6/0,84/1,12/0,36/0,24/0
+Bowling Green|Winn Sharp|rec|39/0,59/1,56/0,63/0,3/0,35/0,50/0,9/0
+Bowling Green|Eli Jacon-Duffy|rec|46/0,16/0,-3/0,30/0,39/1,34/1,40/0,41/0,59/1
+Bowling Green|Nakai Amachree|rec|31/0,7/0,11/0,7/0,71/1,14/0,20/1,17/0,87/1
+Bowling Green|Joseph Saffold|rec|47/1,4/0,16/0
+Bowling Green|Leo Kemp|rec|19/1,15/0,21/0
+Bowling Green|Trey Johnson|rec|5/0,40/1
+Bowling Green|Blane Cleaver|rec|8/0,16/0,1/1
+Bowling Green|Austyn Dendy|rush|60/1,29/0,37/0,48/0,11/0,86/2,61/1,39/0
+Bowling Green|Nakai Amachree|rush|11/0,53/0,3/0,34/0,12/0,32/0,21/0,32/0,61/0,110/1
+Bowling Green|Jay Kastantin|rush|17/0,12/0,0/0,-7/0,13/0,50/1,7/0,34/0,41/0
+Bowling Green|Ke'Marion Baldwin|rush|11/0,38/0,1/0,-1/0,9/0,18/0,17/0
+Bowling Green|Leo Kemp|rush|5/0,25/1,7/0,5/0,5/0,10/0
+Bowling Green|Brennan Ridley|rush|5/0,-8/0,1/0,34/0,3/0,5/0
+Bowling Green|Tristin Blackmon|rush|2/0,13/0,8/0
+Clemson|Tait Reynolds|pass|22/0,178/0,215/1,106/0,295/0,127/0,153/0,189/2,161/0,3/0
+Clemson|Christopher Vizzina|pass|83/0,19/1,133/0
+Clemson|Trent Pearman|pass|80/0,6/0
+Clemson|Bryant Wesco Jr.|rec|29/0,35/0,77/0,22/0,152/0,25/0,38/0,33/0,100/0,25/0
+Clemson|T.J. Moore|rec|31/0,103/1,38/0,24/0,39/0,9/0,25/0,36/0,63/0,7/0
+Clemson|Tyler Brown|rec|11/0,44/0,28/0,29/0,76/0,8/0,62/0,74/0
+Clemson|Christian Bentancur|rec|-3/0,9/0,35/1,7/0,5/0,74/0,6/0,18/1,17/0
+Clemson|Juju Preston|rec|25/0,6/0,-2/0,7/0,5/0,8/0,21/0,56/0
+Clemson|Olsen Patt-Henry|rec|1/0,6/0,28/0,22/0,5/0,9/0,14/0,30/1,5/0,3/0
+Clemson|Logan Brooking|rec|26/0,2/0
+Clemson|Gordon Sellars III|rec|4/0,-2/0,6/0,17/0
+Clemson|Jarvis Green|rec|6/0,15/0
+Clemson|Gideon Davidson|rush|20/0,62/0,105/1,159/2,25/1,59/1,62/0,36/0
+Clemson|Tait Reynolds|rush|-9/0,38/0,26/0,28/0,-22/0,40/0,63/1,85/1,61/0,24/0
+Clemson|Jarvis Green|rush|21/0,0/0,22/0,31/0,14/0,0/0,37/0,85/0,39/0
+Clemson|Chris Johnson Jr.|rush|0/0,53/0,0/0,16/0,32/0,34/2,-2/0,3/0,8/0,-6/0
+Clemson|Tyler Brown|rush|34/1,27/0,4/0,12/0,6/0
+Clemson|Max Wilson|rush|52/0
+Clemson|Jay Haynes|rush|25/0,3/0,16/0
+Duke|Walker Eget|pass|131/0,206/3,202/1,182/2,259/1,249/1,211/0,201/1,208/1,195/1
+Duke|Dan Mahan|pass|0/0,0/0,126/3,0/0,17/0,32/0,15/0
+Duke|Jonah Burton|rec|38/0,76/1,10/0,63/0,15/0,37/0,59/0,10/0,52/0,46/0
+Duke|Nate Sheppard|rec|19/0,41/2,2/1,8/0,91/0,98/1,11/0,32/0,4/0,93/0
+Duke|Jeremiah Hasley|rec|36/0,53/0,88/0,18/0,39/0,16/0,55/1,16/0,35/1
+Duke|Jaivon Solomon|rec|51/0,55/1,22/0,48/0,31/0,71/1,6/0
+Duke|Jared Richardson|rec|44/0,38/1,29/1,55/0,47/0,13/0,8/0,-1/0
+Duke|Jayden Moore|rec|11/0,32/1,42/0,17/0,16/0
+Duke|Javen Nicholas|rec|-1/0,14/0,44/0,29/0,32/0
+Duke|Kavon Simmons|rec|22/0,8/0,29/1,12/0,26/0
+Duke|Brody Keefe|rec|27/1,48/1,10/0,11/0
+Duke|Jake Taylor|rec|5/0,11/0,17/0,43/0,6/0
+Duke|Nate Kurisky|rec|3/0,21/0,14/0,3/0
+Duke|CJ Campbell Jr.|rec|22/0,7/0,9/0
+Duke|Paxon Kettering|rec|32/0
+Duke|Nate Sheppard|rush|227/2,147/1,154/2,116/1,99/2,77/0,55/1,97/5,217/3,131/2
+Duke|CJ Campbell Jr.|rush|25/0,31/0,42/0,41/0,46/0,61/0,12/0,26/0,6/0
+Duke|Jayvian Tanelus|rush|21/1,69/1,46/0,20/0
+Duke|Dan Mahan|rush|8/0,28/0,13/0,3/0,5/0,-6/0,-7/0
+Duke|CJ Givers|rush|36/1,3/0
+Iowa State|Jaylen Raynor|pass|184/2,117/1,133/1,205/1,264/1,98/1,106/0,309/3,256/2,229/1
+Iowa State|Connor Moberly|pass|11/0,9/0,63/0
+Iowa State|Jamal Polite Jr.|rec|20/0,34/1,2/0,12/0,20/0,27/0,171/1,35/0,68/0
+Iowa State|Omari Hayes|rec|54/0,39/0,8/0,55/0,34/1,18/0,29/0,9/0,28/0,11/0
+Iowa State|Cody Jackson|rec|31/0,160/1,12/0,33/0,19/0
+Iowa State|Cameron Pettaway|rec|27/0,13/0,4/0,7/0,40/1,52/1,76/1
+Iowa State|Dominic Overby|rec|85/0,15/0,42/1,70/0
+Iowa State|Vince Benetti|rec|24/1,10/1,20/0,8/1,42/0,9/0,9/1,62/0
+Iowa State|Ty Claiborne|rec|15/0,28/0,5/0,24/0,31/0,21/0,32/0,20/0,5/0
+Iowa State|Aiden Flora|rec|3/0,10/0,53/0,-1/0,15/0,20/0,38/0
+Iowa State|Tyler Fortenberry|rec|6/0,4/0,22/0,35/0
+Iowa State|Carson Robbins|rec|11/0,27/0,6/0
+Iowa State|Easton Miller|rec|15/1,23/0,2/1
+Iowa State|Carter Pabst|rec|24/0
+Iowa State|Malcolm Watkins|rec|13/0,8/0
+Iowa State|Aiden Flora|rush|45/1,89/0,194/2,54/0,212/3,86/0,36/0,221/2,182/1,216/3
+Iowa State|Jaylen Raynor|rush|32/2,18/0,60/0,27/1,15/0,14/0,-21/0,48/1,23/1,14/0
+Iowa State|Arnold Barnes III|rush|8/0,9/0,63/2,6/0,2/0,2/0,10/0,2/0,11/0,55/1
+Iowa State|Cameron Pettaway|rush|10/0,4/0,12/0,17/0,8/0,1/0
+Iowa State|Connor Moberly|rush|-4/0,21/0,7/0,20/0
+Iowa State|Ryver Peppers|rush|29/0,6/0
+Iowa State|Omari Hayes|rush|8/0,15/0,-1/0,1/0
+Michigan State|Alessio Milivojevic|pass|247/1,170/2,123/0,208/0,103/0,196/2,216/2,188/0,108/0
+Michigan State|Cam Fancher|pass|44/0,0/0,10/0,5/0,134/1
+Michigan State|Leo Hannan|pass|67/0
+Michigan State|Kayd Coffman|pass|42/1,0/0
+Michigan State|Chrishon McCray|rec|69/0,10/0,5/0,47/0,19/0,33/0,64/1,42/0,92/0,33/0
+Michigan State|Fredrick Moore|rec|25/0,18/1,13/0,43/0,23/0,42/1,43/0,9/0,14/0,66/0
+Michigan State|Jayden Savoury|rec|36/0,63/0,30/0,24/0,26/0,49/0,33/0,10/0
+Michigan State|Rodney Bullard Jr.|rec|90/1,26/0,66/0,11/0,13/0,36/0,11/0,0/0
+Michigan State|Bryson Williams|rec|19/0,32/1,19/0,36/0,63/1
+Michigan State|Charles Taplin|rec|65/1,13/0
+Michigan State|Brennan Parachek|rec|10/0,40/0,4/0,8/0,7/0
+Michigan State|Kenneth Williams|rec|3/0,12/1,23/0,11/0
+Michigan State|Jaziun Patterson|rec|3/0,26/1,18/0
+Michigan State|Cam Edwards|rec|7/0,5/0,23/0
+Michigan State|Kai Rios|rec|5/0,9/0,16/0,5/0
+Michigan State|Marvis Parrish|rec|-1/0,11/0,5/0,6/0,12/0
+Michigan State|Brandon Tullis|rec|6/0,3/0,23/0
+Michigan State|Carson Gulker|rec|-3/0,33/0
+Michigan State|Samson Gash|rec|9/0,16/0
+Michigan State|Braylon Collier|rec|23/0
+Michigan State|KK Smith|rec|10/0,11/0
+Michigan State|Jaziun Patterson|rush|23/0,23/1,54/1,62/0,93/3,72/0
+Michigan State|Cam Edwards|rush|98/1,152/2,38/0,16/0
+Michigan State|Brandon Tullis|rush|37/0,2/0,10/0,4/0,86/0,82/0
+Michigan State|Marvis Parrish|rush|28/0,11/0,8/0,6/0,36/0,2/0,5/0,9/0
+Michigan State|Kenneth Williams|rush|8/0,2/0,54/0,41/0,-1/0
+Michigan State|Cam Fancher|rush|3/0,8/0,18/1,-15/0,13/0,0/0
+Michigan State|Carson Gulker|rush|7/0,2/0,0/0,9/0,7/1
+New Mexico|Toa Fa'avae|pass|43/0,91/1,79/0,177/1,249/3,59/0,92/0,101/1,150/1,40/1
+New Mexico|Luke Moga|pass|116/1,82/2,37/0,13/0,11/0
+New Mexico|Cade Keith|rec|28/0,63/1,78/0,34/1,9/0,53/0,30/1,63/1,26/1
+New Mexico|Bailen George|rec|36/1,18/0,102/0,62/2,22/0,22/0,44/0,8/0
+New Mexico|DJ Darling|rec|9/0,35/1,75/0,13/0,11/0,65/0
+New Mexico|Troy Omeire|rec|20/0,70/1,22/0
+New Mexico|Massiah Mingo|rec|26/0,30/0,7/0,20/0,17/0
+New Mexico|Zhaiel Smith|rec|7/0,50/0,14/0
+New Mexico|Kiefer Sibley|rec|3/0,5/0,20/0,32/0,-3/0,4/0,4/0
+New Mexico|Miles Williams|rec|19/0,8/0,8/0,17/0,6/0
+New Mexico|Tripp Walsh|rec|5/0,22/0,14/0
+New Mexico|Toa Fa'avae|rec|35/0
+New Mexico|Scottre Humphrey|rush|64/1,110/2,7/0,104/2,47/1,90/2,31/1,87/2,107/2,89/1
+New Mexico|Kiefer Sibley|rush|45/0,48/1,41/0,63/1,8/0,87/0,91/1,102/0,54/1,77/0
+New Mexico|Toa Fa'avae|rush|45/0,12/1,17/0,57/0,12/0,77/1,25/0,40/0,29/0,28/0
+New Mexico|Cameron Mathews|rush|13/0,28/0,108/1,16/0
+New Mexico|Deshaun Buchanan|rush|10/1,12/0,12/0,4/0,39/0,3/0,6/0,13/0
+New Mexico|James Laubstein|rush|18/2,0/0,3/0,17/2,38/1,12/0
+New Mexico|Darrion Bowers|rush|21/0,40/0,13/0
+New Mexico|Jerod Terry Jr.|rush|38/1
+Oregon|Dylan Raiola|pass|124/3,289/2,43/0,59/1,246/0,336/3,257/2,341/4
+Oregon|Dante Moore|pass|378/3,191/2,280/4,77/0
+Oregon|Brock Thomas|pass|16/0,156/1,54/0
+Oregon|Dakorien Moore|rec|93/1,45/1,54/1,42/1,77/0,36/0,70/0,128/2,56/1,101/1
+Oregon|Evan Stewart|rec|72/0,78/1,72/1,56/1,74/1,71/0,47/0,38/0
+Oregon|Jamari Johnson|rec|57/1,119/0,13/0,35/1,69/0,35/1,42/0,35/0
+Oregon|Dierre Hill Jr.|rec|6/0,8/0,50/0,105/0,15/0,14/0,11/0,31/0,49/1
+Oregon|Jeremiah McClellan|rec|150/1,20/0,5/0,105/1
+Oregon|Messiah Hampton|rec|31/0,71/2,40/0,14/0,5/0,1/0
+Oregon|Jalen Lott|rec|6/0,23/0,61/0,21/0,4/0
+Oregon|Brandon Smith|rec|17/0,32/0,52/1,6/0
+Oregon|Hudson Lewis|rec|23/0,68/0
+Oregon|Kendre Harrison|rec|53/1,2/0
+Oregon|Da'Jaun Riggs|rec|21/0,12/0,3/0,2/1
+Oregon|Andrew Olesh|rec|9/0,23/1
+Oregon|Matayo Uiagalelei|rec|30/0
+Oregon|Gatlin Bair|rec|25/0
+Oregon|Tradarian Ball|rec|21/0
+Oregon|Dierre Hill Jr.|rush|36/0,74/0,11/1,63/2,44/0,67/0,83/0,21/0,75/2,98/0
+Oregon|Jordon Davison|rush|90/1,23/1,81/2,66/1,41/1,29/0,92/1,17/0
+Oregon|Brandon Smith|rush|85/1,29/0,11/0,82/1,12/0,29/0
+Oregon|Da'Jaun Riggs|rush|2/0,68/0,3/0,4/0,2/0
+Oregon|Tradarian Ball|rush|49/1,24/0
+Toledo|John Alan Richter|pass|196/2,252/3,429/4,284/3,201/1,203/0,288/1,391/3,60/1,197/1
+Toledo|Khamoni Robinson|pass|21/0
+Toledo|Adjatay Dabbs|rec|101/2,34/1,88/0,62/1,82/0,35/0,66/1,124/2,144/0
+Toledo|Bryson Hammer|rec|49/0,37/0,67/0,133/2,12/0,69/0,107/0,17/0,4/0
+Toledo|Daryl Barnett Jr.|rec|28/0,20/0,47/1,35/0,34/1,28/0,7/0,41/1,9/0
+Toledo|Terrell Crosby Jr.|rec|22/0,95/0,69/0,36/0,7/0
+Toledo|Sam Lee|rec|38/0,14/0,26/0,39/0,47/0,58/0
+Toledo|Rico Bond|rec|135/1,34/0,9/0,14/0,-1/0
+Toledo|Connor Walendzak|rec|18/0,4/1,9/1,13/0,15/0,12/0,4/0,41/1
+Toledo|Cooper Rusk|rec|40/1,50/0
+Toledo|CJ Miller|rec|15/1,18/0,19/0,2/0,13/0,2/0
+Toledo|Jacob Newell|rec|36/1,0/0,16/0,6/0
+Toledo|Anthony Simpson|rec|10/0,18/1
+Toledo|Peyton Strickland|rec|28/0
+Toledo|CJ Miller|rush|22/0,56/1,33/1,39/0,196/2,32/0,48/2,183/1,135/0,83/0
+Toledo|Connor Walendzak|rush|76/1,34/1,62/2,61/1,103/1,50/1,38/0,117/1
+Toledo|Autavius Ison|rush|-2/0,33/1,12/0,89/0,43/0,17/0,104/1,27/1,101/1,21/0
+Toledo|Khamoni Robinson|rush|49/1,7/0,13/0
+Toledo|Noah Sanders|rush|26/0,16/0
+Toledo|Corey Smith|rush|30/0
+UCF|Keyone Jenkins|pass|42/1,86/1,160/1,253/1,265/4,293/3,82/0
+UCF|Alonza Barnett III|pass|158/1,186/1,133/0,251/2,257/1
+UCF|Josh Derry|rec|45/0,9/0,24/0,41/0,101/1,84/1,54/1,70/0,143/1,137/0
+UCF|Tyren Hornes|rec|15/0,21/0,16/0,34/0,25/1,137/0,34/0,32/0,59/1
+UCF|Waden Charles|rec|41/1,46/1,14/0,68/0,30/0,18/0,45/0,23/0
+UCF|Caden Piening|rec|30/0,30/1,29/0,60/1,9/0,24/0,12/1,35/0
+UCF|Ric'Darious Farmer|rec|11/0,52/0,17/0,14/0,1/0,52/0
+UCF|Dylan Wade|rec|15/0,20/0,18/0,23/0,11/0,8/0
+UCF|Jonathan Bibbs|rec|44/1,8/0,22/0
+UCF|Duane Thomas Jr.|rec|16/0,28/0,13/0,17/0
+UCF|Landen Chambers|rec|15/0,6/0,10/0,27/1,4/0
+UCF|Caleb Rollerson|rec|9/1,22/0,7/0
+UCF|Taevion Swint|rec|16/0,3/0,-4/0,3/0,5/0
+UCF|Chase Hinshaw|rec|20/0
+UCF|Duke Watson|rush|110/1,10/0,177/2,57/0,50/0,79/0,94/0,20/0,-1/0
+UCF|Landen Chambers|rush|56/2,62/0,11/1,9/0,1/0,22/1,24/0,40/0,54/1
+UCF|Taevion Swint|rush|48/1,-1/0,40/0,29/1,19/0,27/0,19/1,15/0
+UCF|Rocco Marriott|rush|18/1,4/0,50/0,3/0,2/0
+UCF|Agyeman Addae|rush|74/1,0/0
+UCF|Keyone Jenkins|rush|-2/0,25/2,9/0,-4/1,13/0,35/1,-15/0
+UCF|Kaj Baker|rush|30/0
+UCF|Duane Thomas Jr.|rush|7/0,2/0,10/1,6/0
+UTEP|EJ Colson Jr.|pass|52/0,239/4,86/2,119/1,45/0,87/0,59/0
+UTEP|Raymond Moore III|pass|26/0,7/0,11/0,34/0,132/2,195/0,32/0,109/1,87/0
+UTEP|Jaden Smith|rec|8/0,10/0,62/0,7/0,56/1,90/0,41/0,29/0,11/0
+UTEP|Kam Thomas|rec|92/1,3/0,47/0,32/0,96/0,13/0,21/0
+UTEP|Carver Cheeks|rec|13/0,39/1,45/1,46/1,25/0,11/0,8/0,46/0,6/0
+UTEP|Cash Cheeks|rec|22/0,29/2,8/0,31/1,21/0,7/0,11/0,9/0
+UTEP|Jeremiah Nash|rec|37/0,10/0,9/0,26/0,3/0,5/0
+UTEP|Nik Henry|rec|22/0,2/0,26/0
+UTEP|Tavorus Jones|rec|22/0,3/0,-3/0,0/0,23/0,3/0
+UTEP|Royal Capell|rec|15/0,25/0,4/0
+UTEP|Judah Ezinwa|rec|6/0,20/1,14/0
+UTEP|Jaylan Brown|rec|6/0,23/0
+UTEP|Raymond Moore III|rush|49/0,93/1,18/0,0/0,134/1,65/0,55/0,67/1,41/0,164/1
+UTEP|Tavorus Jones|rush|24/0,104/1,34/0,34/0,3/0,62/0,15/0,14/0
+UTEP|Lamar Sperling|rush|7/0,6/0,7/0,10/0,40/0,4/0,63/1,14/0
+UTEP|EJ Colson Jr.|rush|25/0,49/1,-20/0,15/0,24/0,15/0,21/0
+UTEP|Jaden Smith|rush|13/0,5/0,-5/0,21/0,2/0,22/0
+UTEP|Elijah McCoy|rush|2/0,25/0,1/0,10/0,14/1
+UTEP|Jaden Moore|rush|7/0,9/0,4/0,9/0,11/0
+UTEP|Kam Thomas|rush|-5/0,8/0,-4/0,6/0,26/0
+UTEP|Chris Hunter|rush|6/0,15/0,2/0,3/0
+UTEP|Carver Cheeks|rush|22/0
+Wyoming|Tyler Hughes|pass|130/0,149/2,173/0,204/0,52/0,114/1,196/0,113/2,107/1
+Wyoming|Landon Sims|pass|25/1,289/1
+Wyoming|Kyle Frendt|rec|15/0,18/1,95/0,27/0,61/0,27/1,113/0
+Wyoming|Jake Wilson|rec|51/0,35/0,31/0,27/0,14/0,39/1,9/0,36/1,56/1,27/0
+Wyoming|Eric Richardson|rec|13/0,9/0,30/0,27/0,9/0,77/0,9/0,7/0,10/0
+Wyoming|Samuel Harris|rec|2/0,7/0,13/0,36/0,10/0,21/1,10/0,82/1
+Wyoming|Charlie Coenen|rec|12/0,34/1,16/0,16/0,16/0,20/0,33/0,12/0
+Wyoming|Markell Holman|rec|27/0,4/0,12/0,40/0,17/0,11/0,17/0
+Wyoming|Deion DeBlanc|rec|6/0,41/0,2/0,3/0
+Wyoming|Ke'Lyn Washom|rec|8/0,32/0
+Wyoming|Jackson Holman|rec|10/0,19/0
+Wyoming|Isaac Schoenfeld|rec|13/0,4/0,6/0
+Wyoming|Nico Hamilton|rec|18/0,4/0
+Wyoming|Tyler Hughes|rush|52/1,26/0,78/0,3/0,25/0,92/0,183/4,146/1,71/0
+Wyoming|Markell Holman|rush|14/0,80/0,38/1,87/2,41/0,62/0,80/0,35/1,110/0,41/0
+Wyoming|Samuel Harris|rush|63/0,48/1,21/0,94/1,31/0,67/0,7/0,128/2,66/1
+Wyoming|Nico Hamilton|rush|11/0,2/0,9/0,31/0,16/0
+Wyoming|Landon Sims|rush|5/0,17/1,15/1,29/0
+Wyoming|Eric Richardson|rush|4/0,4/0,10/0,9/0,9/0
+Wyoming|Jake Wilson|rush|20/0,-1/0,12/0

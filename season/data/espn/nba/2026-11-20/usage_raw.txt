@@ -1,0 +1,19 @@
+ESPN box scores 2026-27 totals, built Nov 20 about 9:43 AM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
+ATL|0.160,0.147,0.159,0.143|CJ McCollum(14g),Jock Landale(9g),Asa Newell(5g)
+BKN|0.000,0.000,0.000,0.000|
+CHA|0.230,0.122,0.289,0.290|Dennis Schroder(9g),Grayson Allen(13g),Kon Knueppel(1g),Grant Williams(3g)
+CHI|0.121,0.135,0.057,0.124|Caleb Wilson(10g),Tobe Awaka(4g)
+CLE|0.147,0.154,0.143,0.149|Evan Mobley(12g),Jaylon Tyson(8g)
+DEN|0.000,0.000,0.000,0.000|
+DET|0.193,0.142,0.140,0.303|Duncan Robinson(12g),Jalen Duren(2g),Ronald Holland II(12g),Ebuka Okorie(5g),Taurean Prince(3g)
+HOU|0.010,0.042,0.023,0.000|Clint Capela(6g)
+IND|0.054,0.031,0.092,0.062|Tyrese Haliburton(4g),Ben Sheppard(1g)
+LAL|0.153,0.060,0.143,0.119|Austin Reaves(12g)
+NOP|0.215,0.196,0.247,0.234|Trey Murphy III(9g),Dejounte Murray(9g),Bennedict Mathurin(12g),Bryce McGowens(7g),Trendon Watford(6g)
+OKC|0.057,0.073,0.052,0.049|Chet Holmgren(3g),Jalen Williams(3g),Cason Wallace(3g)
+ORL|0.032,0.022,0.040,0.015|Paolo Banchero(2g)
+PHX|0.000,0.000,0.000,0.000|
+SAC|0.000,0.000,0.000,0.000|
+TOR|0.274,0.279,0.211,0.177|Kawhi Leonard(2g),RJ Barrett(14g),Collin Murray-Boyles(14g)
+UTA|0.120,0.104,0.060,0.163|Lauri Markkanen(8g),Jaren Jackson Jr.(4g)
+WAS|0.016,0.044,0.013,0.012|Justin Champagnie(4g),Reece Beekman(1g)
