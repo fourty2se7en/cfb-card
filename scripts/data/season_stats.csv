@@ -5795,69 +5795,69 @@ Purdue,Big Ten,totalYards,3767
 Purdue,Big Ten,totalYardsOpponent,4173
 Purdue,Big Ten,turnovers,10
 Purdue,Big Ten,turnoversOpponent,11
-Rice,American Athletic,firstDowns,174
-Rice,American Athletic,firstDownsOpponent,213
-Rice,American Athletic,fourthDownConversions,17
-Rice,American Athletic,fourthDownConversionsOpponent,14
-Rice,American Athletic,fourthDowns,29
-Rice,American Athletic,fourthDownsOpponent,26
-Rice,American Athletic,fumblesLost,11
-Rice,American Athletic,fumblesLostOpponent,2
-Rice,American Athletic,fumblesRecovered,2
-Rice,American Athletic,fumblesRecoveredOpponent,11
-Rice,American Athletic,games,10
+Rice,American Athletic,firstDowns,197
+Rice,American Athletic,firstDownsOpponent,230
+Rice,American Athletic,fourthDownConversions,22
+Rice,American Athletic,fourthDownConversionsOpponent,15
+Rice,American Athletic,fourthDowns,36
+Rice,American Athletic,fourthDownsOpponent,27
+Rice,American Athletic,fumblesLost,12
+Rice,American Athletic,fumblesLostOpponent,3
+Rice,American Athletic,fumblesRecovered,3
+Rice,American Athletic,fumblesRecoveredOpponent,12
+Rice,American Athletic,games,11
 Rice,American Athletic,interceptions,3
-Rice,American Athletic,interceptionsOpponent,5
+Rice,American Athletic,interceptionsOpponent,6
 Rice,American Athletic,interceptionTDs,1
 Rice,American Athletic,interceptionTDsOpponent,0
-Rice,American Athletic,interceptionYards,96
+Rice,American Athletic,interceptionYards,119
 Rice,American Athletic,interceptionYardsOpponent,54
 Rice,American Athletic,kickReturns,12
-Rice,American Athletic,kickReturnsOpponent,13
+Rice,American Athletic,kickReturnsOpponent,17
 Rice,American Athletic,kickReturnTDs,0
 Rice,American Athletic,kickReturnTDsOpponent,0
 Rice,American Athletic,kickReturnYards,138
-Rice,American Athletic,kickReturnYardsOpponent,218
-Rice,American Athletic,netPassingYards,864
-Rice,American Athletic,netPassingYardsOpponent,2153
-Rice,American Athletic,passAttempts,131
-Rice,American Athletic,passAttemptsOpponent,308
-Rice,American Athletic,passCompletions,62
-Rice,American Athletic,passCompletionsOpponent,195
-Rice,American Athletic,passesIntercepted,5
+Rice,American Athletic,kickReturnYardsOpponent,241
+Rice,American Athletic,netPassingYards,1058
+Rice,American Athletic,netPassingYardsOpponent,2263
+Rice,American Athletic,passAttempts,156
+Rice,American Athletic,passAttemptsOpponent,325
+Rice,American Athletic,passCompletions,76
+Rice,American Athletic,passCompletionsOpponent,204
+Rice,American Athletic,passesIntercepted,6
 Rice,American Athletic,passesInterceptedOpponent,3
-Rice,American Athletic,passingTDs,5
-Rice,American Athletic,passingTDsOpponent,18
-Rice,American Athletic,penalties,50
-Rice,American Athletic,penaltiesOpponent,44
-Rice,American Athletic,penaltyYards,459
-Rice,American Athletic,penaltyYardsOpponent,410
-Rice,American Athletic,possessionTime,18118
-Rice,American Athletic,possessionTimeOpponent,17882
+Rice,American Athletic,passingTDs,8
+Rice,American Athletic,passingTDsOpponent,20
+Rice,American Athletic,penalties,54
+Rice,American Athletic,penaltiesOpponent,47
+Rice,American Athletic,penaltyYards,489
+Rice,American Athletic,penaltyYardsOpponent,435
+Rice,American Athletic,possessionTime,20168
+Rice,American Athletic,possessionTimeOpponent,19432
 Rice,American Athletic,puntReturns,4
-Rice,American Athletic,puntReturnsOpponent,21
+Rice,American Athletic,puntReturnsOpponent,22
 Rice,American Athletic,puntReturnTDs,0
 Rice,American Athletic,puntReturnTDsOpponent,1
 Rice,American Athletic,puntReturnYards,40
 Rice,American Athletic,puntReturnYardsOpponent,208
-Rice,American Athletic,rushingAttempts,495
-Rice,American Athletic,rushingAttemptsOpponent,374
-Rice,American Athletic,rushingTDs,21
-Rice,American Athletic,rushingTDsOpponent,22
-Rice,American Athletic,rushingYards,2663
-Rice,American Athletic,rushingYardsOpponent,1759
-Rice,American Athletic,sacks,14
-Rice,American Athletic,sacksOpponent,18
-Rice,American Athletic,tacklesForLoss,61
-Rice,American Athletic,tacklesForLossOpponent,59
-Rice,American Athletic,thirdDownConversions,39
-Rice,American Athletic,thirdDownConversionsOpponent,63
-Rice,American Athletic,thirdDowns,125
-Rice,American Athletic,thirdDownsOpponent,139
-Rice,American Athletic,totalYards,3527
-Rice,American Athletic,totalYardsOpponent,3912
-Rice,American Athletic,turnovers,14
-Rice,American Athletic,turnoversOpponent,7
+Rice,American Athletic,rushingAttempts,547
+Rice,American Athletic,rushingAttemptsOpponent,409
+Rice,American Athletic,rushingTDs,22
+Rice,American Athletic,rushingTDsOpponent,23
+Rice,American Athletic,rushingYards,2927
+Rice,American Athletic,rushingYardsOpponent,2059
+Rice,American Athletic,sacks,15
+Rice,American Athletic,sacksOpponent,19
+Rice,American Athletic,tacklesForLoss,65
+Rice,American Athletic,tacklesForLossOpponent,63
+Rice,American Athletic,thirdDownConversions,44
+Rice,American Athletic,thirdDownConversionsOpponent,68
+Rice,American Athletic,thirdDowns,140
+Rice,American Athletic,thirdDownsOpponent,149
+Rice,American Athletic,totalYards,3985
+Rice,American Athletic,totalYardsOpponent,4322
+Rice,American Athletic,turnovers,15
+Rice,American Athletic,turnoversOpponent,9
 Rutgers,Big Ten,firstDowns,182
 Rutgers,Big Ten,firstDownsOpponent,213
 Rutgers,Big Ten,fourthDownConversions,16
@@ -6674,69 +6674,69 @@ TCU,Big 12,totalYards,3729
 TCU,Big 12,totalYardsOpponent,3044
 TCU,Big 12,turnovers,15
 TCU,Big 12,turnoversOpponent,14
-Temple,American Athletic,firstDowns,165
-Temple,American Athletic,firstDownsOpponent,222
-Temple,American Athletic,fourthDownConversions,6
-Temple,American Athletic,fourthDownConversionsOpponent,12
-Temple,American Athletic,fourthDowns,13
-Temple,American Athletic,fourthDownsOpponent,23
-Temple,American Athletic,fumblesLost,7
-Temple,American Athletic,fumblesLostOpponent,5
-Temple,American Athletic,fumblesRecovered,5
-Temple,American Athletic,fumblesRecoveredOpponent,7
-Temple,American Athletic,games,10
-Temple,American Athletic,interceptions,5
+Temple,American Athletic,firstDowns,182
+Temple,American Athletic,firstDownsOpponent,245
+Temple,American Athletic,fourthDownConversions,7
+Temple,American Athletic,fourthDownConversionsOpponent,17
+Temple,American Athletic,fourthDowns,14
+Temple,American Athletic,fourthDownsOpponent,30
+Temple,American Athletic,fumblesLost,8
+Temple,American Athletic,fumblesLostOpponent,6
+Temple,American Athletic,fumblesRecovered,6
+Temple,American Athletic,fumblesRecoveredOpponent,8
+Temple,American Athletic,games,11
+Temple,American Athletic,interceptions,6
 Temple,American Athletic,interceptionsOpponent,5
 Temple,American Athletic,interceptionTDs,2
 Temple,American Athletic,interceptionTDsOpponent,0
 Temple,American Athletic,interceptionYards,108
-Temple,American Athletic,interceptionYardsOpponent,27
-Temple,American Athletic,kickReturns,17
+Temple,American Athletic,interceptionYardsOpponent,50
+Temple,American Athletic,kickReturns,21
 Temple,American Athletic,kickReturnsOpponent,14
 Temple,American Athletic,kickReturnTDs,0
 Temple,American Athletic,kickReturnTDsOpponent,0
-Temple,American Athletic,kickReturnYards,300
+Temple,American Athletic,kickReturnYards,323
 Temple,American Athletic,kickReturnYardsOpponent,296
-Temple,American Athletic,netPassingYards,1671
-Temple,American Athletic,netPassingYardsOpponent,2112
-Temple,American Athletic,passAttempts,227
-Temple,American Athletic,passAttemptsOpponent,262
-Temple,American Athletic,passCompletions,126
-Temple,American Athletic,passCompletionsOpponent,169
+Temple,American Athletic,netPassingYards,1781
+Temple,American Athletic,netPassingYardsOpponent,2306
+Temple,American Athletic,passAttempts,244
+Temple,American Athletic,passAttemptsOpponent,287
+Temple,American Athletic,passCompletions,135
+Temple,American Athletic,passCompletionsOpponent,183
 Temple,American Athletic,passesIntercepted,5
-Temple,American Athletic,passesInterceptedOpponent,5
-Temple,American Athletic,passingTDs,14
-Temple,American Athletic,passingTDsOpponent,11
-Temple,American Athletic,penalties,38
-Temple,American Athletic,penaltiesOpponent,58
-Temple,American Athletic,penaltyYards,307
-Temple,American Athletic,penaltyYardsOpponent,401
-Temple,American Athletic,possessionTime,16445
-Temple,American Athletic,possessionTimeOpponent,19555
-Temple,American Athletic,puntReturns,13
+Temple,American Athletic,passesInterceptedOpponent,6
+Temple,American Athletic,passingTDs,16
+Temple,American Athletic,passingTDsOpponent,14
+Temple,American Athletic,penalties,41
+Temple,American Athletic,penaltiesOpponent,62
+Temple,American Athletic,penaltyYards,332
+Temple,American Athletic,penaltyYardsOpponent,431
+Temple,American Athletic,possessionTime,17995
+Temple,American Athletic,possessionTimeOpponent,21605
+Temple,American Athletic,puntReturns,14
 Temple,American Athletic,puntReturnsOpponent,8
 Temple,American Athletic,puntReturnTDs,1
 Temple,American Athletic,puntReturnTDsOpponent,0
 Temple,American Athletic,puntReturnYards,286
 Temple,American Athletic,puntReturnYardsOpponent,58
-Temple,American Athletic,rushingAttempts,341
-Temple,American Athletic,rushingAttemptsOpponent,425
-Temple,American Athletic,rushingTDs,11
-Temple,American Athletic,rushingTDsOpponent,26
-Temple,American Athletic,rushingYards,1742
-Temple,American Athletic,rushingYardsOpponent,2066
-Temple,American Athletic,sacks,12
-Temple,American Athletic,sacksOpponent,22
-Temple,American Athletic,tacklesForLoss,34
-Temple,American Athletic,tacklesForLossOpponent,38
-Temple,American Athletic,thirdDownConversions,42
-Temple,American Athletic,thirdDownConversionsOpponent,58
-Temple,American Athletic,thirdDowns,115
-Temple,American Athletic,thirdDownsOpponent,127
-Temple,American Athletic,totalYards,3413
-Temple,American Athletic,totalYardsOpponent,4178
-Temple,American Athletic,turnovers,12
-Temple,American Athletic,turnoversOpponent,10
+Temple,American Athletic,rushingAttempts,376
+Temple,American Athletic,rushingAttemptsOpponent,477
+Temple,American Athletic,rushingTDs,12
+Temple,American Athletic,rushingTDsOpponent,27
+Temple,American Athletic,rushingYards,2042
+Temple,American Athletic,rushingYardsOpponent,2330
+Temple,American Athletic,sacks,13
+Temple,American Athletic,sacksOpponent,23
+Temple,American Athletic,tacklesForLoss,38
+Temple,American Athletic,tacklesForLossOpponent,42
+Temple,American Athletic,thirdDownConversions,47
+Temple,American Athletic,thirdDownConversionsOpponent,63
+Temple,American Athletic,thirdDowns,125
+Temple,American Athletic,thirdDownsOpponent,142
+Temple,American Athletic,totalYards,3823
+Temple,American Athletic,totalYardsOpponent,4636
+Temple,American Athletic,turnovers,14
+Temple,American Athletic,turnoversOpponent,11
 Tennessee,SEC,firstDowns,211
 Tennessee,SEC,firstDownsOpponent,160
 Tennessee,SEC,fourthDownConversions,14
@@ -13100,69 +13100,69 @@ New Haven,NEC,totalYards,2978
 New Haven,NEC,totalYardsOpponent,3911
 New Haven,NEC,turnovers,15
 New Haven,NEC,turnoversOpponent,21
-Nicholls,Southland,firstDowns,187
-Nicholls,Southland,firstDownsOpponent,241
+Nicholls,Southland,firstDowns,198
+Nicholls,Southland,firstDownsOpponent,261
 Nicholls,Southland,fourthDownConversions,14
-Nicholls,Southland,fourthDownConversionsOpponent,11
-Nicholls,Southland,fourthDowns,31
-Nicholls,Southland,fourthDownsOpponent,19
-Nicholls,Southland,fumblesLost,11
-Nicholls,Southland,fumblesLostOpponent,9
-Nicholls,Southland,fumblesRecovered,8
-Nicholls,Southland,fumblesRecoveredOpponent,11
-Nicholls,Southland,games,11
-Nicholls,Southland,interceptions,9
-Nicholls,Southland,interceptionsOpponent,11
+Nicholls,Southland,fourthDownConversionsOpponent,14
+Nicholls,Southland,fourthDowns,32
+Nicholls,Southland,fourthDownsOpponent,23
+Nicholls,Southland,fumblesLost,12
+Nicholls,Southland,fumblesLostOpponent,10
+Nicholls,Southland,fumblesRecovered,9
+Nicholls,Southland,fumblesRecoveredOpponent,12
+Nicholls,Southland,games,12
+Nicholls,Southland,interceptions,11
+Nicholls,Southland,interceptionsOpponent,12
 Nicholls,Southland,interceptionTDs,1
 Nicholls,Southland,interceptionTDsOpponent,2
-Nicholls,Southland,interceptionYards,95
-Nicholls,Southland,interceptionYardsOpponent,179
-Nicholls,Southland,kickReturns,20
-Nicholls,Southland,kickReturnsOpponent,28
+Nicholls,Southland,interceptionYards,92
+Nicholls,Southland,interceptionYardsOpponent,214
+Nicholls,Southland,kickReturns,25
+Nicholls,Southland,kickReturnsOpponent,30
 Nicholls,Southland,kickReturnTDs,0
 Nicholls,Southland,kickReturnTDsOpponent,1
-Nicholls,Southland,kickReturnYards,220
-Nicholls,Southland,kickReturnYardsOpponent,567
-Nicholls,Southland,netPassingYards,1582
-Nicholls,Southland,netPassingYardsOpponent,2631
-Nicholls,Southland,passAttempts,309
-Nicholls,Southland,passAttemptsOpponent,340
-Nicholls,Southland,passCompletions,152
-Nicholls,Southland,passCompletionsOpponent,194
-Nicholls,Southland,passesIntercepted,11
-Nicholls,Southland,passesInterceptedOpponent,9
+Nicholls,Southland,kickReturnYards,300
+Nicholls,Southland,kickReturnYardsOpponent,599
+Nicholls,Southland,netPassingYards,1672
+Nicholls,Southland,netPassingYardsOpponent,2784
+Nicholls,Southland,passAttempts,340
+Nicholls,Southland,passAttemptsOpponent,364
+Nicholls,Southland,passCompletions,160
+Nicholls,Southland,passCompletionsOpponent,210
+Nicholls,Southland,passesIntercepted,12
+Nicholls,Southland,passesInterceptedOpponent,11
 Nicholls,Southland,passingTDs,13
-Nicholls,Southland,passingTDsOpponent,27
-Nicholls,Southland,penalties,68
-Nicholls,Southland,penaltiesOpponent,81
-Nicholls,Southland,penaltyYards,611
-Nicholls,Southland,penaltyYardsOpponent,703
-Nicholls,Southland,possessionTime,19579
-Nicholls,Southland,possessionTimeOpponent,20021
+Nicholls,Southland,passingTDsOpponent,29
+Nicholls,Southland,penalties,70
+Nicholls,Southland,penaltiesOpponent,89
+Nicholls,Southland,penaltyYards,621
+Nicholls,Southland,penaltyYardsOpponent,783
+Nicholls,Southland,possessionTime,20883
+Nicholls,Southland,possessionTimeOpponent,22317
 Nicholls,Southland,puntReturns,4
-Nicholls,Southland,puntReturnsOpponent,29
+Nicholls,Southland,puntReturnsOpponent,33
 Nicholls,Southland,puntReturnTDs,0
 Nicholls,Southland,puntReturnTDsOpponent,1
 Nicholls,Southland,puntReturnYards,26
-Nicholls,Southland,puntReturnYardsOpponent,333
-Nicholls,Southland,rushingAttempts,458
-Nicholls,Southland,rushingAttemptsOpponent,418
-Nicholls,Southland,rushingTDs,8
-Nicholls,Southland,rushingTDsOpponent,23
-Nicholls,Southland,rushingYards,1826
-Nicholls,Southland,rushingYardsOpponent,1966
-Nicholls,Southland,sacks,10
-Nicholls,Southland,sacksOpponent,23
-Nicholls,Southland,tacklesForLoss,41
-Nicholls,Southland,tacklesForLossOpponent,81
-Nicholls,Southland,thirdDownConversions,49
-Nicholls,Southland,thirdDownConversionsOpponent,71
-Nicholls,Southland,thirdDowns,171
-Nicholls,Southland,thirdDownsOpponent,155
-Nicholls,Southland,totalYards,3408
-Nicholls,Southland,totalYardsOpponent,4597
-Nicholls,Southland,turnovers,20
-Nicholls,Southland,turnoversOpponent,20
+Nicholls,Southland,puntReturnYardsOpponent,371
+Nicholls,Southland,rushingAttempts,484
+Nicholls,Southland,rushingAttemptsOpponent,469
+Nicholls,Southland,rushingTDs,9
+Nicholls,Southland,rushingTDsOpponent,26
+Nicholls,Southland,rushingYards,1900
+Nicholls,Southland,rushingYardsOpponent,2282
+Nicholls,Southland,sacks,11
+Nicholls,Southland,sacksOpponent,25
+Nicholls,Southland,tacklesForLoss,46
+Nicholls,Southland,tacklesForLossOpponent,85
+Nicholls,Southland,thirdDownConversions,53
+Nicholls,Southland,thirdDownConversionsOpponent,78
+Nicholls,Southland,thirdDowns,186
+Nicholls,Southland,thirdDownsOpponent,172
+Nicholls,Southland,totalYards,3572
+Nicholls,Southland,totalYardsOpponent,5066
+Nicholls,Southland,turnovers,23
+Nicholls,Southland,turnoversOpponent,22
 Norfolk State,MEAC,firstDowns,219
 Norfolk State,MEAC,firstDownsOpponent,193
 Norfolk State,MEAC,fourthDownConversions,7
@@ -13667,68 +13667,68 @@ Northern Iowa,MVFC,totalYards,3315
 Northern Iowa,MVFC,totalYardsOpponent,4157
 Northern Iowa,MVFC,turnovers,8
 Northern Iowa,MVFC,turnoversOpponent,16
-Northwestern State,Southland,firstDowns,206
-Northwestern State,Southland,firstDownsOpponent,238
+Northwestern State,Southland,firstDowns,218
+Northwestern State,Southland,firstDownsOpponent,269
 Northwestern State,Southland,fourthDownConversions,18
 Northwestern State,Southland,fourthDownConversionsOpponent,11
-Northwestern State,Southland,fourthDowns,42
-Northwestern State,Southland,fourthDownsOpponent,15
+Northwestern State,Southland,fourthDowns,43
+Northwestern State,Southland,fourthDownsOpponent,17
 Northwestern State,Southland,fumblesLost,11
 Northwestern State,Southland,fumblesLostOpponent,5
 Northwestern State,Southland,fumblesRecovered,5
 Northwestern State,Southland,fumblesRecoveredOpponent,11
-Northwestern State,Southland,games,11
-Northwestern State,Southland,interceptions,13
+Northwestern State,Southland,games,12
+Northwestern State,Southland,interceptions,14
 Northwestern State,Southland,interceptionsOpponent,6
 Northwestern State,Southland,interceptionTDs,0
 Northwestern State,Southland,interceptionTDsOpponent,4
 Northwestern State,Southland,interceptionYards,89
 Northwestern State,Southland,interceptionYardsOpponent,254
-Northwestern State,Southland,kickReturns,25
+Northwestern State,Southland,kickReturns,26
 Northwestern State,Southland,kickReturnsOpponent,21
 Northwestern State,Southland,kickReturnTDs,1
 Northwestern State,Southland,kickReturnTDsOpponent,0
-Northwestern State,Southland,kickReturnYards,493
+Northwestern State,Southland,kickReturnYards,533
 Northwestern State,Southland,kickReturnYardsOpponent,400
-Northwestern State,Southland,netPassingYards,2433
-Northwestern State,Southland,netPassingYardsOpponent,2701
-Northwestern State,Southland,passAttempts,421
-Northwestern State,Southland,passAttemptsOpponent,316
-Northwestern State,Southland,passCompletions,227
-Northwestern State,Southland,passCompletionsOpponent,197
+Northwestern State,Southland,netPassingYards,2579
+Northwestern State,Southland,netPassingYardsOpponent,3118
+Northwestern State,Southland,passAttempts,457
+Northwestern State,Southland,passAttemptsOpponent,348
+Northwestern State,Southland,passCompletions,243
+Northwestern State,Southland,passCompletionsOpponent,222
 Northwestern State,Southland,passesIntercepted,6
-Northwestern State,Southland,passesInterceptedOpponent,13
+Northwestern State,Southland,passesInterceptedOpponent,14
 Northwestern State,Southland,passingTDs,18
-Northwestern State,Southland,passingTDsOpponent,26
-Northwestern State,Southland,penalties,65
-Northwestern State,Southland,penaltiesOpponent,72
-Northwestern State,Southland,penaltyYards,634
-Northwestern State,Southland,penaltyYardsOpponent,678
-Northwestern State,Southland,possessionTime,21058
-Northwestern State,Southland,possessionTimeOpponent,18542
+Northwestern State,Southland,passingTDsOpponent,30
+Northwestern State,Southland,penalties,70
+Northwestern State,Southland,penaltiesOpponent,77
+Northwestern State,Southland,penaltyYards,683
+Northwestern State,Southland,penaltyYardsOpponent,734
+Northwestern State,Southland,possessionTime,22482
+Northwestern State,Southland,possessionTimeOpponent,20718
 Northwestern State,Southland,puntReturns,9
-Northwestern State,Southland,puntReturnsOpponent,22
+Northwestern State,Southland,puntReturnsOpponent,23
 Northwestern State,Southland,puntReturnTDs,0
-Northwestern State,Southland,puntReturnTDsOpponent,2
+Northwestern State,Southland,puntReturnTDsOpponent,3
 Northwestern State,Southland,puntReturnYards,18
-Northwestern State,Southland,puntReturnYardsOpponent,341
-Northwestern State,Southland,rushingAttempts,373
-Northwestern State,Southland,rushingAttemptsOpponent,405
+Northwestern State,Southland,puntReturnYardsOpponent,385
+Northwestern State,Southland,rushingAttempts,398
+Northwestern State,Southland,rushingAttemptsOpponent,455
 Northwestern State,Southland,rushingTDs,7
-Northwestern State,Southland,rushingTDsOpponent,36
-Northwestern State,Southland,rushingYards,1133
-Northwestern State,Southland,rushingYardsOpponent,2165
-Northwestern State,Southland,sacks,16
-Northwestern State,Southland,sacksOpponent,26
-Northwestern State,Southland,tacklesForLoss,59
-Northwestern State,Southland,tacklesForLossOpponent,76
-Northwestern State,Southland,thirdDownConversions,58
-Northwestern State,Southland,thirdDownConversionsOpponent,65
-Northwestern State,Southland,thirdDowns,181
-Northwestern State,Southland,thirdDownsOpponent,136
-Northwestern State,Southland,totalYards,3566
-Northwestern State,Southland,totalYardsOpponent,4866
-Northwestern State,Southland,turnovers,24
+Northwestern State,Southland,rushingTDsOpponent,40
+Northwestern State,Southland,rushingYards,1197
+Northwestern State,Southland,rushingYardsOpponent,2451
+Northwestern State,Southland,sacks,17
+Northwestern State,Southland,sacksOpponent,27
+Northwestern State,Southland,tacklesForLoss,64
+Northwestern State,Southland,tacklesForLossOpponent,82
+Northwestern State,Southland,thirdDownConversions,60
+Northwestern State,Southland,thirdDownConversionsOpponent,73
+Northwestern State,Southland,thirdDowns,195
+Northwestern State,Southland,thirdDownsOpponent,148
+Northwestern State,Southland,totalYards,3776
+Northwestern State,Southland,totalYardsOpponent,5569
+Northwestern State,Southland,turnovers,25
 Northwestern State,Southland,turnoversOpponent,11
 Pennsylvania,Ivy,firstDowns,150
 Pennsylvania,Ivy,firstDownsOpponent,152
@@ -14423,69 +14423,69 @@ San Diego,Pioneer,totalYards,4322
 San Diego,Pioneer,totalYardsOpponent,4213
 San Diego,Pioneer,turnovers,12
 San Diego,Pioneer,turnoversOpponent,13
-SE Louisiana,Southland,firstDowns,182
-SE Louisiana,Southland,firstDownsOpponent,225
-SE Louisiana,Southland,fourthDownConversions,15
+SE Louisiana,Southland,firstDowns,202
+SE Louisiana,Southland,firstDownsOpponent,236
+SE Louisiana,Southland,fourthDownConversions,18
 SE Louisiana,Southland,fourthDownConversionsOpponent,8
-SE Louisiana,Southland,fourthDowns,29
-SE Louisiana,Southland,fourthDownsOpponent,14
-SE Louisiana,Southland,fumblesLost,8
-SE Louisiana,Southland,fumblesLostOpponent,10
-SE Louisiana,Southland,fumblesRecovered,10
-SE Louisiana,Southland,fumblesRecoveredOpponent,8
-SE Louisiana,Southland,games,11
-SE Louisiana,Southland,interceptions,13
-SE Louisiana,Southland,interceptionsOpponent,9
+SE Louisiana,Southland,fourthDowns,33
+SE Louisiana,Southland,fourthDownsOpponent,15
+SE Louisiana,Southland,fumblesLost,9
+SE Louisiana,Southland,fumblesLostOpponent,11
+SE Louisiana,Southland,fumblesRecovered,11
+SE Louisiana,Southland,fumblesRecoveredOpponent,9
+SE Louisiana,Southland,games,12
+SE Louisiana,Southland,interceptions,14
+SE Louisiana,Southland,interceptionsOpponent,11
 SE Louisiana,Southland,interceptionTDs,1
 SE Louisiana,Southland,interceptionTDsOpponent,2
-SE Louisiana,Southland,interceptionYards,134
-SE Louisiana,Southland,interceptionYardsOpponent,174
-SE Louisiana,Southland,kickReturns,31
-SE Louisiana,Southland,kickReturnsOpponent,32
+SE Louisiana,Southland,interceptionYards,169
+SE Louisiana,Southland,interceptionYardsOpponent,171
+SE Louisiana,Southland,kickReturns,33
+SE Louisiana,Southland,kickReturnsOpponent,37
 SE Louisiana,Southland,kickReturnTDs,1
 SE Louisiana,Southland,kickReturnTDsOpponent,0
-SE Louisiana,Southland,kickReturnYards,672
-SE Louisiana,Southland,kickReturnYardsOpponent,599
-SE Louisiana,Southland,netPassingYards,1854
-SE Louisiana,Southland,netPassingYardsOpponent,2331
-SE Louisiana,Southland,passAttempts,290
-SE Louisiana,Southland,passAttemptsOpponent,327
-SE Louisiana,Southland,passCompletions,176
-SE Louisiana,Southland,passCompletionsOpponent,204
-SE Louisiana,Southland,passesIntercepted,9
-SE Louisiana,Southland,passesInterceptedOpponent,13
-SE Louisiana,Southland,passingTDs,13
+SE Louisiana,Southland,kickReturnYards,704
+SE Louisiana,Southland,kickReturnYardsOpponent,679
+SE Louisiana,Southland,netPassingYards,2007
+SE Louisiana,Southland,netPassingYardsOpponent,2421
+SE Louisiana,Southland,passAttempts,314
+SE Louisiana,Southland,passAttemptsOpponent,358
+SE Louisiana,Southland,passCompletions,192
+SE Louisiana,Southland,passCompletionsOpponent,212
+SE Louisiana,Southland,passesIntercepted,11
+SE Louisiana,Southland,passesInterceptedOpponent,14
+SE Louisiana,Southland,passingTDs,15
 SE Louisiana,Southland,passingTDsOpponent,16
-SE Louisiana,Southland,penalties,54
-SE Louisiana,Southland,penaltiesOpponent,74
-SE Louisiana,Southland,penaltyYards,546
-SE Louisiana,Southland,penaltyYardsOpponent,634
-SE Louisiana,Southland,possessionTime,19217
-SE Louisiana,Southland,possessionTimeOpponent,20383
-SE Louisiana,Southland,puntReturns,19
+SE Louisiana,Southland,penalties,62
+SE Louisiana,Southland,penaltiesOpponent,76
+SE Louisiana,Southland,penaltyYards,626
+SE Louisiana,Southland,penaltyYardsOpponent,644
+SE Louisiana,Southland,possessionTime,21513
+SE Louisiana,Southland,possessionTimeOpponent,21687
+SE Louisiana,Southland,puntReturns,23
 SE Louisiana,Southland,puntReturnsOpponent,13
 SE Louisiana,Southland,puntReturnTDs,3
 SE Louisiana,Southland,puntReturnTDsOpponent,1
-SE Louisiana,Southland,puntReturnYards,401
+SE Louisiana,Southland,puntReturnYards,439
 SE Louisiana,Southland,puntReturnYardsOpponent,58
-SE Louisiana,Southland,rushingAttempts,380
-SE Louisiana,Southland,rushingAttemptsOpponent,421
-SE Louisiana,Southland,rushingTDs,15
-SE Louisiana,Southland,rushingTDsOpponent,18
-SE Louisiana,Southland,rushingYards,1709
-SE Louisiana,Southland,rushingYardsOpponent,1831
-SE Louisiana,Southland,sacks,21
-SE Louisiana,Southland,sacksOpponent,14
-SE Louisiana,Southland,tacklesForLoss,51
-SE Louisiana,Southland,tacklesForLossOpponent,57
-SE Louisiana,Southland,thirdDownConversions,45
-SE Louisiana,Southland,thirdDownConversionsOpponent,69
-SE Louisiana,Southland,thirdDowns,140
-SE Louisiana,Southland,thirdDownsOpponent,157
-SE Louisiana,Southland,totalYards,3563
-SE Louisiana,Southland,totalYardsOpponent,4162
-SE Louisiana,Southland,turnovers,21
-SE Louisiana,Southland,turnoversOpponent,19
+SE Louisiana,Southland,rushingAttempts,431
+SE Louisiana,Southland,rushingAttemptsOpponent,447
+SE Louisiana,Southland,rushingTDs,18
+SE Louisiana,Southland,rushingTDsOpponent,19
+SE Louisiana,Southland,rushingYards,2025
+SE Louisiana,Southland,rushingYardsOpponent,1905
+SE Louisiana,Southland,sacks,23
+SE Louisiana,Southland,sacksOpponent,15
+SE Louisiana,Southland,tacklesForLoss,55
+SE Louisiana,Southland,tacklesForLossOpponent,62
+SE Louisiana,Southland,thirdDownConversions,52
+SE Louisiana,Southland,thirdDownConversionsOpponent,73
+SE Louisiana,Southland,thirdDowns,157
+SE Louisiana,Southland,thirdDownsOpponent,172
+SE Louisiana,Southland,totalYards,4032
+SE Louisiana,Southland,totalYardsOpponent,4326
+SE Louisiana,Southland,turnovers,23
+SE Louisiana,Southland,turnoversOpponent,22
 South Carolina State,MEAC,firstDowns,259
 South Carolina State,MEAC,firstDownsOpponent,156
 South Carolina State,MEAC,fourthDownConversions,8
@@ -14927,69 +14927,69 @@ Southern Utah,Big Sky,totalYards,4597
 Southern Utah,Big Sky,totalYardsOpponent,4935
 Southern Utah,Big Sky,turnovers,14
 Southern Utah,Big Sky,turnoversOpponent,21
-Stephen F. Austin,Southland,firstDowns,250
-Stephen F. Austin,Southland,firstDownsOpponent,197
+Stephen F. Austin,Southland,firstDowns,281
+Stephen F. Austin,Southland,firstDownsOpponent,209
 Stephen F. Austin,Southland,fourthDownConversions,11
 Stephen F. Austin,Southland,fourthDownConversionsOpponent,11
-Stephen F. Austin,Southland,fourthDowns,14
-Stephen F. Austin,Southland,fourthDownsOpponent,26
+Stephen F. Austin,Southland,fourthDowns,16
+Stephen F. Austin,Southland,fourthDownsOpponent,27
 Stephen F. Austin,Southland,fumblesLost,12
 Stephen F. Austin,Southland,fumblesLostOpponent,6
 Stephen F. Austin,Southland,fumblesRecovered,6
 Stephen F. Austin,Southland,fumblesRecoveredOpponent,11
-Stephen F. Austin,Southland,games,11
+Stephen F. Austin,Southland,games,12
 Stephen F. Austin,Southland,interceptions,9
-Stephen F. Austin,Southland,interceptionsOpponent,14
+Stephen F. Austin,Southland,interceptionsOpponent,15
 Stephen F. Austin,Southland,interceptionTDs,3
 Stephen F. Austin,Southland,interceptionTDsOpponent,0
 Stephen F. Austin,Southland,interceptionYards,183
 Stephen F. Austin,Southland,interceptionYardsOpponent,93
 Stephen F. Austin,Southland,kickReturns,18
-Stephen F. Austin,Southland,kickReturnsOpponent,24
+Stephen F. Austin,Southland,kickReturnsOpponent,25
 Stephen F. Austin,Southland,kickReturnTDs,0
 Stephen F. Austin,Southland,kickReturnTDsOpponent,0
 Stephen F. Austin,Southland,kickReturnYards,345
-Stephen F. Austin,Southland,kickReturnYardsOpponent,383
-Stephen F. Austin,Southland,netPassingYards,2895
-Stephen F. Austin,Southland,netPassingYardsOpponent,2445
-Stephen F. Austin,Southland,passAttempts,326
-Stephen F. Austin,Southland,passAttemptsOpponent,390
-Stephen F. Austin,Southland,passCompletions,219
-Stephen F. Austin,Southland,passCompletionsOpponent,201
-Stephen F. Austin,Southland,passesIntercepted,14
+Stephen F. Austin,Southland,kickReturnYardsOpponent,423
+Stephen F. Austin,Southland,netPassingYards,3312
+Stephen F. Austin,Southland,netPassingYardsOpponent,2591
+Stephen F. Austin,Southland,passAttempts,358
+Stephen F. Austin,Southland,passAttemptsOpponent,426
+Stephen F. Austin,Southland,passCompletions,244
+Stephen F. Austin,Southland,passCompletionsOpponent,217
+Stephen F. Austin,Southland,passesIntercepted,15
 Stephen F. Austin,Southland,passesInterceptedOpponent,9
-Stephen F. Austin,Southland,passingTDs,31
+Stephen F. Austin,Southland,passingTDs,35
 Stephen F. Austin,Southland,passingTDsOpponent,13
-Stephen F. Austin,Southland,penalties,84
-Stephen F. Austin,Southland,penaltiesOpponent,78
-Stephen F. Austin,Southland,penaltyYards,706
-Stephen F. Austin,Southland,penaltyYardsOpponent,728
-Stephen F. Austin,Southland,possessionTime,19802
-Stephen F. Austin,Southland,possessionTimeOpponent,19798
-Stephen F. Austin,Southland,puntReturns,25
+Stephen F. Austin,Southland,penalties,89
+Stephen F. Austin,Southland,penaltiesOpponent,83
+Stephen F. Austin,Southland,penaltyYards,762
+Stephen F. Austin,Southland,penaltyYardsOpponent,777
+Stephen F. Austin,Southland,possessionTime,21978
+Stephen F. Austin,Southland,possessionTimeOpponent,21222
+Stephen F. Austin,Southland,puntReturns,26
 Stephen F. Austin,Southland,puntReturnsOpponent,5
-Stephen F. Austin,Southland,puntReturnTDs,2
+Stephen F. Austin,Southland,puntReturnTDs,3
 Stephen F. Austin,Southland,puntReturnTDsOpponent,0
-Stephen F. Austin,Southland,puntReturnYards,297
+Stephen F. Austin,Southland,puntReturnYards,341
 Stephen F. Austin,Southland,puntReturnYardsOpponent,18
-Stephen F. Austin,Southland,rushingAttempts,405
-Stephen F. Austin,Southland,rushingAttemptsOpponent,367
-Stephen F. Austin,Southland,rushingTDs,22
+Stephen F. Austin,Southland,rushingAttempts,455
+Stephen F. Austin,Southland,rushingAttemptsOpponent,392
+Stephen F. Austin,Southland,rushingTDs,26
 Stephen F. Austin,Southland,rushingTDsOpponent,8
-Stephen F. Austin,Southland,rushingYards,2312
-Stephen F. Austin,Southland,rushingYardsOpponent,1147
-Stephen F. Austin,Southland,sacks,41
-Stephen F. Austin,Southland,sacksOpponent,14
-Stephen F. Austin,Southland,tacklesForLoss,93
-Stephen F. Austin,Southland,tacklesForLossOpponent,52
-Stephen F. Austin,Southland,thirdDownConversions,60
-Stephen F. Austin,Southland,thirdDownConversionsOpponent,44
-Stephen F. Austin,Southland,thirdDowns,137
-Stephen F. Austin,Southland,thirdDownsOpponent,163
-Stephen F. Austin,Southland,totalYards,5207
-Stephen F. Austin,Southland,totalYardsOpponent,3592
+Stephen F. Austin,Southland,rushingYards,2598
+Stephen F. Austin,Southland,rushingYardsOpponent,1211
+Stephen F. Austin,Southland,sacks,42
+Stephen F. Austin,Southland,sacksOpponent,15
+Stephen F. Austin,Southland,tacklesForLoss,99
+Stephen F. Austin,Southland,tacklesForLossOpponent,57
+Stephen F. Austin,Southland,thirdDownConversions,68
+Stephen F. Austin,Southland,thirdDownConversionsOpponent,46
+Stephen F. Austin,Southland,thirdDowns,149
+Stephen F. Austin,Southland,thirdDownsOpponent,177
+Stephen F. Austin,Southland,totalYards,5910
+Stephen F. Austin,Southland,totalYardsOpponent,3802
 Stephen F. Austin,Southland,turnovers,21
-Stephen F. Austin,Southland,turnoversOpponent,20
+Stephen F. Austin,Southland,turnoversOpponent,21
 Stetson,Pioneer,firstDowns,185
 Stetson,Pioneer,firstDownsOpponent,242
 Stetson,Pioneer,fourthDownConversions,10
