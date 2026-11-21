@@ -1,7 +1,7 @@
 {
  "collections": {
   "meta": 7,
-  "runs": 157,
+  "runs": 158,
   "sports/fbs/backtest": 553,
   "sports/fbs/experts": 526,
   "sports/fbs/games": 195,
@@ -17,7 +17,7 @@
   "sports/ncaam/picks": 2522,
   "sports/ncaaw/backtest": 300,
   "sports/ncaaw/games": 206,
-  "sports/ncaaw/picks": 249,
+  "sports/ncaaw/picks": 251,
   "sports/nfl/backtest": 1764,
   "sports/nfl/experts": 81,
   "sports/nfl/games": 42,
@@ -34,6 +34,6 @@
  "packed_at": "2026-11-19 14:47 Phoenix",
  "source": "hub",
  "unknown_versions": 5787,
- "updated_at": "2026-11-21 09:30 Phoenix",
+ "updated_at": "2026-11-21 09:55 Phoenix",
  "pending_hub_file": "season/ledger/updates/2026-11-21.json"
 }
