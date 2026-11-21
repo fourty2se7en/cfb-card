@@ -17,7 +17,7 @@
   "sports/ncaam/picks": 2531,
   "sports/ncaaw/backtest": 300,
   "sports/ncaaw/games": 206,
-  "sports/ncaaw/picks": 251,
+  "sports/ncaaw/picks": 256,
   "sports/nfl/backtest": 1764,
   "sports/nfl/experts": 81,
   "sports/nfl/games": 42,
@@ -34,6 +34,6 @@
  "packed_at": "2026-11-19 14:47 Phoenix",
  "source": "hub",
  "unknown_versions": 5787,
- "updated_at": "2026-11-21 10:46 Phoenix",
+ "updated_at": "2026-11-21 10:51 Phoenix",
  "pending_hub_file": "season/ledger/updates/2026-11-21.json"
 }
