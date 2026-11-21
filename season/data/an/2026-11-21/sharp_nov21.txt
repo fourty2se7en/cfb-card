@@ -1,0 +1,293 @@
+# Action Network sharp report, read Sat Nov 21 ~9:15 AM Phoenix (Chrome). Only rows with a lit signal; games already final left out.
+# Columns SA (Sharp Action) BM (Big Money) PS (PRO Systems) MP (Model Projection, info only) TE (Top Experts).
+# Two chars per column: first = away (Over on totals), second = home (Under on totals). Y = lit.
+#NBA
+[spread]
+POR/NYK SA Y. BM .. PS .. MP .. TE ..
+LAC/DAL SA Y. BM .. PS .. MP .. TE ..
+MEM/MIN SA .Y BM .. PS .. MP .. TE ..
+NOP/SAS SA .Y BM .. PS .. MP .. TE ..
+MIL/PHI SA Y. BM .. PS .. MP .. TE ..
+[total]
+POR/NYK SA .Y BM .. PS .. MP .. TE ..
+MEM/MIN SA .Y BM .. PS .. MP .. TE ..
+BOS/SAC SA .Y BM .. PS .. MP .. TE ..
+MIL/PHI SA .Y BM .. PS .. MP .. TE ..
+[ml]
+MEM/MIN SA .. BM Y. PS .. MP .. TE ..
+NOP/SAS SA .. BM Y. PS .. MP .. TE ..
+#NHL (spread = puck line: no lit signals)
+[total]
+NJ/STL SA .Y BM .. PS .. MP .. TE ..
+VGK/WPG SA Y. BM .. PS .. MP .. TE ..
+LA/OTT SA .Y BM .. PS .. MP .. TE ..
+ANA/UTA SA .Y BM .. PS .. MP .. TE ..
+MIN/VAN SA .Y BM .. PS .. MP .. TE ..
+EDM/CAR SA .Y BM .. PS .. MP .. TE ..
+CHI/CGY SA .Y BM .. PS .. MP .. TE ..
+[ml]
+VGK/WPG SA Y. BM .. PS Y. MP .. TE ..
+NYI/DET SA .Y BM .Y PS .. MP .. TE ..
+MIN/VAN SA Y. BM .. PS Y. MP .. TE ..
+LA/OTT SA .Y BM .. PS .. MP .. TE ..
+PHI/MTL SA Y. BM .. PS .. MP .. TE ..
+CBJ/TOR SA Y. BM .. PS .. MP .. TE ..
+WSH/BOS SA Y. BM .. PS .. MP .. TE ..
+ANA/UTA SA .Y BM .. PS .. MP .. TE ..
+SEA/SJ SA Y. BM .. PS .. MP .. TE ..
+CHI/CGY SA Y. BM .. PS .. MP .. TE ..
+BUF/FLA SA Y. BM .. PS .. MP .. TE ..
+PIT/NSH SA Y. BM .. PS .. MP .. TE ..
+EDM/CAR SA .Y BM Y. PS .. MP .. TE ..
+#NCAAM (site team names away/home)
+[spread]
+Cornell/Morgan State SA Y. BM .. PS .. MP Y. TE ..
+UT Grande Valley/Austin Peay SA .Y BM .. PS .. MP .Y TE ..
+Northeastern/Stonehill SA Y. BM .. PS .. MP Y. TE ..
+Radford/Chattanooga SA .Y BM .. PS .. MP .. TE ..
+Cal Baptist/Loyola Marymount SA Y. BM .. PS .. MP .. TE ..
+Morehead St/Elon SA Y. BM .. PS .. MP .. TE ..
+N. Arizona/Cal Poly SA .Y BM .. PS .. MP .. TE ..
+Michigan/Villanova SA Y. BM .. PS .. MP .. TE ..
+Presbyterian/Tenn Tech SA .Y BM .. PS .. MP .. TE ..
+Texas A&M-CC/Oral Roberts SA .Y BM .. PS .. MP .. TE ..
+New Orleans/Texas Southern SA .Y BM .. PS .. MP .. TE ..
+Bradley/Pacific SA Y. BM .. PS .. MP .. TE ..
+Siena/Bucknell SA .Y BM .. PS .. MP .. TE ..
+Kent State/Cleveland St SA .Y BM .. PS .. MP .. TE ..
+Queens/LSU SA .Y BM .. PS .. MP .. TE ..
+Mercyhurst/W. Illinois SA .Y BM .. PS .. MP .. TE ..
+W. Carolina/Wake Forest SA Y. BM .. PS .. MP .. TE ..
+Stony Brook/St. Peter's SA Y. BM .. PS .. MP .. TE ..
+St. Thomas/Milwaukee SA Y. BM .. PS .. MP .. TE ..
+Army/Binghamton SA Y. BM .. PS .. MP .. TE ..
+Albany/Canisius SA Y. BM .. PS .. MP .. TE ..
+S. Florida/George Mason SA .Y BM .. PS .. MP .. TE ..
+C. Arkansas/Jacksonville SA Y. BM .. PS .. MP .. TE ..
+S. Illinois/E. Carolina SA Y. BM .. PS .. MP .. TE ..
+Coppin St/Georgetown SA .Y BM .. PS .. MP .. TE ..
+UNC Wilmington/Norfolk State SA .Y BM .. PS .. MP .. TE ..
+USC Upstate/UNC Greensboro SA Y. BM .. PS .. MP .Y TE ..
+Columbia/Boston U SA .Y BM .. PS .. MP Y. TE ..
+New Mexico/Wichita State SA Y. BM .. PS .. MP .Y TE ..
+Winthrop/Wofford SA .Y BM .. PS .. MP Y. TE ..
+[total]
+Gardner-Webb/VMI SA .Y BM .Y PS .. MP .. TE ..
+Fordham/Portland SA .Y BM .. PS .Y MP .. TE ..
+Lafayette/Syracuse SA .Y BM .Y PS .. MP .. TE ..
+Middle Tenn/Indiana St SA .Y BM .. PS .Y MP .. TE ..
+Army/Binghamton SA .Y BM .Y PS .. MP .. TE ..
+Penn/La Salle SA .Y BM .Y PS .. MP .. TE ..
+Radford/Chattanooga SA .. BM .Y PS .. MP .. TE ..
+Morehead St/Elon SA Y. BM .. PS .. MP .. TE ..
+N. Arizona/Cal Poly SA Y. BM .. PS .. MP .. TE ..
+Michigan/Villanova SA Y. BM .. PS .. MP .. TE ..
+Charleston So/Mercer SA Y. BM .. PS .. MP .. TE ..
+Texas A&M-CC/Oral Roberts SA .Y BM .. PS .. MP .. TE ..
+New Orleans/Texas Southern SA .Y BM .. PS .. MP .. TE ..
+Bradley/Pacific SA Y. BM .. PS .. MP .. TE ..
+Washington St/Duke SA .Y BM .. PS .Y MP Y. TE ..
+USC Upstate/UNC Greensboro SA .Y BM .. PS .. MP .. TE ..
+Columbia/Boston U SA .Y BM .. PS .. MP .. TE ..
+Detroit/Michigan St SA .Y BM .. PS .. MP .. TE ..
+Denver/E. Michigan SA .Y BM .. PS .. MP .. TE ..
+Queens/LSU SA .Y BM .. PS .. MP .. TE ..
+Navy/Rider SA .Y BM .. PS .. MP .. TE ..
+Cornell/Morgan State SA Y. BM .. PS .. MP .. TE ..
+Ark-Little Rock/North Florida SA .Y BM .. PS .. MP .. TE ..
+Stony Brook/St. Peter's SA .Y BM .. PS .. MP .. TE ..
+UT Grande Valley/Austin Peay SA .Y BM .. PS .. MP .. TE ..
+Drake/Missouri St SA .Y BM .. PS .. MP .. TE ..
+St. Thomas/Milwaukee SA .Y BM .. PS .. MP .. TE ..
+Albany/Canisius SA .Y BM .. PS .. MP .. TE ..
+S. Florida/George Mason SA .Y BM .. PS .. MP .. TE ..
+C. Arkansas/Jacksonville SA .Y BM .. PS .. MP .. TE ..
+Longwood/E Tennessee St SA .Y BM .. PS .. MP .. TE ..
+UC Irvine/San Diego SA .Y BM .Y PS .. MP Y. TE ..
+Winthrop/Wofford SA .Y BM .. PS .. MP .. TE ..
+Maine/UMASS SA Y. BM .. PS .. MP .. TE ..
+UNC Wilmington/Norfolk State SA .. BM .. PS .. MP Y. TE ..
+Cal Baptist/Loyola Marymount SA .Y BM .. PS .. MP Y. TE ..
+Siena/Bucknell SA Y. BM .. PS .. MP .Y TE ..
+Kent State/Cleveland St SA .Y BM .. PS .. MP Y. TE ..
+New Hampshire/New Haven SA Y. BM .. PS .. MP .Y TE ..
+Mercyhurst/W. Illinois SA .Y BM .. PS .. MP Y. TE ..
+N. Illinois/Bowling Green SA .Y BM .. PS .. MP Y. TE ..
+Northeastern/Stonehill SA .Y BM .. PS .. MP Y. TE ..
+Nicholls St/Southern Miss SA .Y BM .. PS .. MP Y. TE ..
+Air Force/UTSA SA .Y BM Y. PS .. MP .. TE ..
+[ml]
+New Mexico/Wichita State SA .. BM .Y PS .. MP .Y TE ..
+USC Upstate/UNC Greensboro SA .. BM .. PS .. MP .Y TE ..
+Columbia/Boston U SA .. BM .. PS .. MP Y. TE ..
+New Hampshire/New Haven SA .. BM .Y PS .. MP .. TE ..
+Cornell/Morgan State SA .. BM .. PS .. MP Y. TE ..
+Ark-Little Rock/North Florida SA .. BM .Y PS .. MP .. TE ..
+Lafayette/Syracuse SA .. BM Y. PS .. MP .. TE ..
+UT Grande Valley/Austin Peay SA .. BM .. PS .. MP .Y TE ..
+St. Thomas/Milwaukee SA .. BM .Y PS .. MP .. TE ..
+Army/Binghamton SA .. BM .Y PS .. MP .. TE ..
+S. Florida/George Mason SA .. BM Y. PS .. MP .. TE ..
+Longwood/E Tennessee St SA .. BM Y. PS .. MP .. TE ..
+Northeastern/Stonehill SA .. BM .. PS .. MP Y. TE ..
+Winthrop/Wofford SA .. BM .. PS .. MP Y. TE ..
+Mercyhurst/W. Illinois SA .. BM .Y PS .. MP Y. TE ..
+#NCAAF
+[spread]
+North Texas/Tulane SA .Y BM .. PS .. MP .Y TE .Y
+Arkansas/Texas SA Y. BM Y. PS Y. MP .. TE ..
+Arizona/K State SA .. BM .. PS .. MP .Y TE .Y
+Pittsburgh/Louisville SA Y. BM Y. PS .. MP .. TE ..
+UTSA/UAB SA .Y BM .. PS .. MP .. TE .Y
+Ohio State/Nebraska SA .Y BM .. PS .. MP .. TE .Y
+BYU/Kansas SA .Y BM .. PS .. MP .. TE .Y
+Tenn Tech/Mississippi St SA Y. BM Y. PS .. MP .. TE ..
+FIU/Kennesaw St SA .. BM .. PS .. MP Y. TE Y.
+Texas Tech/Baylor SA .Y BM .. PS .. MP .Y TE ..
+Washington St/Texas St SA .Y BM .. PS .. MP .. TE .Y
+VA Tech/Miami (FL) SA .Y BM .. PS .. MP .. TE ..
+UNLV/San Jose St SA Y. BM .. PS .. MP .. TE ..
+Kentucky/Missouri SA .Y BM .. PS .. MP .. TE ..
+Utah/TCU SA Y. BM .. PS .. MP .Y TE .Y
+OK State/Arizona St SA .. BM .. PS .. MP Y. TE ..
+Utah State/Oregon St SA .. BM .. PS .. MP .Y TE ..
+Colorado/Cincinnati SA .. BM .. PS .. MP Y. TE ..
+E. Carolina/Army SA Y. BM .. PS Y. MP .. TE .Y
+Wisconsin/Purdue SA .Y BM .. PS Y. MP .. TE .Y
+Vanderbilt/Florida SA .Y BM .Y PS Y. MP .. TE ..
+Northwestern/Minnesota SA .Y BM Y. PS Y. MP .. TE ..
+Memphis/Navy SA Y. BM .Y PS .. MP .. TE .Y
+UNC/Virginia SA .Y BM Y. PS .. MP .Y TE ..
+W. Kentucky/Liberty SA .Y BM .. PS .. MP .. TE ..
+Charlotte/Tulsa SA .Y BM .. PS .. MP .. TE ..
+Middle Tenn/Sam Houston SA .Y BM .. PS .. MP .. TE ..
+LA-Monroe/App State SA Y. BM .. PS .. MP .. TE ..
+Iowa/Illinois SA Y. BM .. PS .. MP .. TE ..
+LSU/Tennessee SA .Y BM .. PS .. MP .. TE ..
+NC State/Florida St SA .Y BM .. PS .. MP .. TE ..
+Rutgers/Penn State SA .Y BM .. PS .. MP .. TE ..
+Texas A&M/Oklahoma SA .. BM .. PS Y. MP .. TE ..
+Georgia State/Marshall SA .Y BM .. PS .. MP .. TE ..
+S. Alabama/Southern Miss SA .Y BM .. PS .. MP .. TE ..
+Maryland/USC SA .Y BM .. PS .. MP .. TE ..
+Stanford/California SA Y. BM .. PS .. MP .Y TE ..
+San Diego St/Boise State SA .Y BM .. PS .. MP .. TE Y.
+Hawaii/Nevada SA .Y BM .. PS .. MP Y. TE ..
+Syracuse/Boston Col SA Y. BM .Y PS Y. MP .Y TE ..
+Wake Forest/GA Tech SA Y. BM .. PS .. MP .Y TE ..
+S. Florida/FL Atlantic SA .Y BM Y. PS .. MP .. TE ..
+Delaware/N. Mexico St SA Y. BM .. PS .. MP .. TE .Y
+UCLA/Michigan SA Y. BM .. PS .. MP .. TE .Y
+Old Dominion/UConn SA Y. BM .. PS .. MP .. TE .Y
+Indiana/Washington SA .. BM .Y PS .. MP .. TE Y.
+GA Southern/Troy SA Y. BM .. PS .. MP .Y TE ..
+[total]
+VA Tech/Miami (FL) SA Y. BM .. PS .. MP .. TE Y.
+OK State/Arizona St SA Y. BM .. PS .. MP Y. TE ..
+Wake Forest/GA Tech SA Y. BM .. PS .. MP Y. TE ..
+Wisconsin/Purdue SA Y. BM .. PS .. MP .. TE Y.
+BYU/Kansas SA .Y BM .. PS .Y MP .. TE ..
+Memphis/Navy SA Y. BM Y. PS .. MP .. TE ..
+Charlotte/Tulsa SA .Y BM .. PS .Y MP .. TE ..
+Arkansas/Texas SA .Y BM .. PS .. MP .Y TE ..
+Texas A&M/Oklahoma SA .Y BM .. PS .Y MP .. TE ..
+Arkansas St/LA Tech SA Y. BM Y. PS .. MP .Y TE ..
+Arizona/K State SA Y. BM .. PS .. MP .. TE ..
+Kentucky/Missouri SA .Y BM .. PS .. MP .. TE ..
+SMU/Notre Dame SA Y. BM .. PS .. MP .. TE ..
+Pittsburgh/Louisville SA .Y BM .. PS .. MP .. TE ..
+Stanford/California SA Y. BM .. PS .. MP .. TE ..
+UTSA/UAB SA .Y BM .. PS .. MP .. TE ..
+Utah/TCU SA .Y BM .. PS .. MP .. TE ..
+San Diego St/Boise State SA Y. BM .. PS .. MP .. TE ..
+Hawaii/Nevada SA .Y BM .. PS .. MP .. TE ..
+Utah State/Oregon St SA .Y BM .. PS .. MP .. TE ..
+Colorado/Cincinnati SA .Y BM .. PS .. MP .. TE ..
+Ohio State/Nebraska SA .Y BM .. PS .. MP .. TE ..
+E. Carolina/Army SA Y. BM .. PS .. MP .. TE ..
+Wofford/Ole Miss SA .Y BM .. PS .. MP .. TE ..
+Vanderbilt/Florida SA .Y BM .. PS .. MP .. TE ..
+Northwestern/Minnesota SA .Y BM .. PS .. MP .. TE ..
+North Texas/Tulane SA .Y BM .. PS .. MP .. TE ..
+UNC/Virginia SA .Y BM .. PS .. MP .. TE ..
+Houston/West Virginia SA Y. BM .. PS .. MP .. TE ..
+W. Kentucky/Liberty SA Y. BM .. PS .. MP .. TE ..
+Chattanooga/Alabama SA .Y BM .. PS .. MP .. TE ..
+Middle Tenn/Sam Houston SA .Y BM .. PS .. MP .. TE ..
+S. Florida/FL Atlantic SA .. BM .. PS .. MP .. TE .Y
+Iowa/Illinois SA .Y BM .. PS .. MP .. TE ..
+Coastal Car/Louisiana SA .Y BM .. PS .. MP .. TE ..
+FIU/Kennesaw St SA .Y BM .. PS .. MP .. TE ..
+LSU/Tennessee SA .Y BM .. PS .. MP .. TE ..
+UCLA/Michigan SA .Y BM .. PS .. MP .. TE ..
+NC State/Florida St SA Y. BM .. PS .. MP .. TE ..
+Indiana/Washington SA .Y BM .. PS .. MP .. TE ..
+Georgia State/Marshall SA Y. BM .. PS .. MP .. TE ..
+GA Southern/Troy SA .Y BM .. PS .. MP .. TE ..
+S. Alabama/Southern Miss SA Y. BM .. PS .. MP .. TE ..
+Washington St/Texas St SA Y. BM .. PS .. MP .. TE ..
+Maryland/USC SA Y. BM .. PS .. MP .. TE ..
+UNLV/San Jose St SA Y. BM .. PS .. MP .Y TE ..
+Colorado St/Fresno State SA Y. BM .. PS .. MP .Y TE ..
+Georgia/S. Carolina SA .Y BM .. PS .. MP .. TE Y.
+Syracuse/Boston Col SA Y. BM .. PS .. MP .Y TE ..
+Tenn Tech/Mississippi St SA .Y BM Y. PS .. MP .. TE ..
+Delaware/N. Mexico St SA Y. BM .. PS .Y MP .. TE ..
+Texas Tech/Baylor SA Y. BM .. PS .. MP .. TE .Y
+N. Illinois/ND State SA Y. BM .Y PS .. MP .. TE ..
+[ml]
+Wake Forest/GA Tech SA .. BM .Y PS .. MP .Y TE ..
+FIU/Kennesaw St SA .. BM Y. PS .. MP Y. TE ..
+UNLV/San Jose St SA .. BM .Y PS .. MP .. TE ..
+Arizona/K State SA .. BM .. PS .. MP .Y TE ..
+Kentucky/Missouri SA .. BM Y. PS .. MP .. TE ..
+Stanford/California SA .. BM .. PS .. MP .Y TE ..
+Utah/TCU SA .. BM .. PS .. MP .Y TE ..
+OK State/Arizona St SA .. BM .. PS .. MP Y. TE ..
+Utah State/Oregon St SA .. BM Y. PS .. MP .. TE ..
+Ohio State/Nebraska SA .. BM .. PS .. MP .Y TE ..
+Northwestern/Minnesota SA .. BM .Y PS .. MP .. TE ..
+North Texas/Tulane SA .. BM .. PS .. MP .Y TE ..
+UNC/Virginia SA .. BM Y. PS .. MP .. TE ..
+Tenn Tech/Mississippi St SA .. BM .. PS .. MP .. TE Y.
+W. Kentucky/Liberty SA .. BM .. PS .. MP Y. TE ..
+Charlotte/Tulsa SA .. BM .. PS .. MP Y. TE ..
+S. Florida/FL Atlantic SA .. BM .Y PS .. MP .. TE ..
+Delaware/N. Mexico St SA .. BM .Y PS .. MP .. TE ..
+LSU/Tennessee SA .. BM Y. PS .. MP .. TE ..
+Texas Tech/Baylor SA .. BM .. PS .. MP .Y TE ..
+Texas A&M/Oklahoma SA .. BM Y. PS .. MP .. TE ..
+GA Southern/Troy SA .. BM .. PS .. MP .Y TE ..
+San Diego St/Boise State SA .. BM .Y PS .. MP Y. TE ..
+#NFL (week 11)
+[spread]
+CIN/WAS SA .Y BM .Y PS .. MP .. TE .Y
+TB/DET SA Y. BM .. PS .. MP .. TE Y.
+NO/CHI SA Y. BM Y. PS .. MP .. TE ..
+JAC/NYG SA .Y BM .. PS .. MP .. TE .Y
+LV/DEN SA .Y BM .. PS .. MP .. TE .Y
+MIN/SF SA .Y BM .Y PS .. MP .. TE Y.
+TEN/DAL SA Y. BM .. PS .. MP .. TE ..
+BAL/CAR SA .Y BM .. PS .. MP .. TE ..
+PIT/PHI SA Y. BM .. PS .. MP .. TE ..
+ARI/KC SA .. BM .. PS Y. MP .. TE .Y
+NYJ/LAC SA .Y BM .. PS Y. MP .. TE ..
+[total]
+TB/DET SA .Y BM .. PS .. MP .Y TE .Y
+ARI/KC SA .Y BM .. PS .Y MP .. TE ..
+MIA/BUF SA .Y BM .. PS .Y MP .. TE ..
+BAL/CAR SA .Y BM .. PS .. MP .. TE ..
+PIT/PHI SA .Y BM .. PS .. MP .. TE ..
+NYJ/LAC SA .Y BM .. PS .. MP .. TE ..
+JAC/NYG SA .Y BM .. PS .. MP .. TE ..
+LV/DEN SA .Y BM .. PS .. MP .. TE ..
+CIN/WAS SA Y. BM .. PS .. MP .Y TE ..
+MIN/SF SA Y. BM .. PS .. MP .Y TE ..
+TEN/DAL SA .Y BM .. PS .. MP .. TE Y.
+NO/CHI SA Y. BM .. PS .Y MP .. TE ..
+[ml]
+ARI/KC SA .. BM Y. PS .. MP Y. TE ..
+CIN/WAS SA .. BM .. PS .. MP .Y TE ..
+MIN/SF SA .. BM Y. PS .. MP .. TE ..
+MIA/BUF SA .. BM Y. PS .. MP .. TE ..
+LV/DEN SA .. BM .. PS .. MP Y. TE ..

@@ -1,0 +1,31 @@
+# Read Sat Nov 21 ~9:20 AM Phoenix in Chrome.
+# Action Network expert picks (named people only; groups and brands dropped): game|name|username|record last 30 days|pick|price|units
+# Profile url: https://www.actionnetwork.com/picks/profile/<username>
+#NBA
+MIL@PHI|Andrew O'Connor-Watts|nbaWatts|82-77-3 +4.2u|MIL +12|-107|0.75u
+POR@NYK|Matt Moore|HPBasketball|116-99-4 +3.5u|POR +5.5|-106|0.55u
+LAC@DAL|Matt Moore|HPBasketball|116-99-4 +3.5u|DAL -5.5|-106|0.55u
+LAC@DAL|Andrew O'Connor-Watts|nbaWatts|82-77-3 +4.2u|DAL -5.5|-102|1u
+MEM@MIN|Brandon Kravitz|BKPicks|40-41-0 +3.9u|MIN -5.5|-104|1.04u
+MEM@MIN|Andrew O'Connor-Watts|nbaWatts|82-77-3 +4.2u|MEM +6|-105|1u
+NOP@SAS|Brandon Kravitz|BKPicks|40-41-0 +3.9u|SAS -16.5|-110|0.55u
+#NHL
+VGK@WPG|Nick Griffith|NickGriffith|25-29-0 -3.5u|WPG +120|120|1u
+#NCAAF and NFL: use /home/claude/an/experts_nov20.txt (read Fri Nov 20 12:10 PM; Saturday FBS and Sunday NFL games).
+#NCAAM, NCAAW: not read.
+
+# NHL starting goalies, Daily Faceoff (Sat Nov 21, 4 of 28 confirmed at 9:20 AM). away goalie vs home goalie (status). Times MST (Phoenix).
+EDM@CAR 11:00 am | Tristan Jarry (Unconfirmed) vs Pyotr Kochetkov (Unconfirmed)
+CHI@CGY 1:30 pm | Spencer Knight (Unconfirmed) vs Dustin Wolf (Likely)
+PIT@NSH 4:00 pm | Sergei Murashov (Unconfirmed) vs Juuse Saros (Unconfirmed)
+BUF@FLA 4:00 pm | Alex Lyon (Likely) vs Jacob Markstrom (Confirmed)
+NJ@STL 5:00 pm | Connor Hellebuyck (Unconfirmed) vs Joel Hofer (Unconfirmed)
+NYI@DET 5:00 pm | Ilya Sorokin (Unconfirmed) vs John Gibson (Confirmed)
+CBJ@TOR 5:00 pm | Cam Talbot (Unconfirmed) vs Anthony Stolarz (Likely)
+WSH@BOS 5:00 pm | Logan Thompson (Unconfirmed) vs Jeremy Swayman (Confirmed)
+LA@OTT 5:00 pm | Anton Forsberg (Unconfirmed) vs Linus Ullmark (Likely)
+VGK@WPG 5:00 pm | Carter Hart (Unconfirmed) vs Stuart Skinner (Likely)
+PHI@MTL 5:00 pm | Dan Vladar (Likely) vs Jacob Fowler (Confirmed)
+ANA@UTA 7:00 pm | Lukas Dostal (Unconfirmed) vs Sebastian Cossa (Unconfirmed)
+SEA@SJ 8:00 pm | Philipp Grubauer (Unconfirmed) vs Alex Nedeljkovic (Unconfirmed)
+MIN@VAN 8:00 pm | Jesper Wallstedt (Unconfirmed) vs Leevi Merilainen (Unconfirmed)
