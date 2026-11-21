@@ -2894,3 +2894,12 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-21T01:43:00Z,close,ncaam,odds,200,3,7432
 2026-11-21T01:43:00Z,close,ncaam,event_odds,200,4,7428
 2026-11-21T01:43:00Z,close,fbs,odds,200,3,7425
+2026-11-21T02:13:05Z,close,nba,odds,200,3,7422
+2026-11-21T02:13:05Z,close,nba,event_odds,200,7,7415
+2026-11-21T02:13:05Z,close,nba,event_odds,200,5,7410
+2026-11-21T02:13:05Z,close,nba,event_odds,200,7,7403
+2026-11-21T02:13:05Z,close,nba,event_odds,200,5,7398
+2026-11-21T02:13:05Z,close,ncaam,odds,200,3,7395
+2026-11-21T02:13:05Z,close,ncaam,event_odds,200,4,7391
+2026-11-21T02:13:05Z,close,ncaaw,odds,200,3,7388
+2026-11-21T02:13:05Z,close,fbs,odds,200,3,7385
