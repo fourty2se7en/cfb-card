@@ -3398,3 +3398,8 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-21T22:29:53Z,props_now,fbs,event_odds,200,3,5411
 2026-11-21T22:29:53Z,props_now,fbs,event_odds,200,3,5408
 2026-11-21T22:29:53Z,props_now,ncaam,event_odds,200,4,5404
+2026-11-21T22:43:00Z,props_open,nhl,event_odds,200,1,5403
+2026-11-21T22:43:00Z,props_open,nhl,event_odds,200,1,5402
+2026-11-21T22:43:04Z,close,nhl,odds,200,3,5399
+2026-11-21T22:43:04Z,close,ncaam,odds,200,3,5396
+2026-11-21T22:43:04Z,close,fbs,odds,200,3,5393
