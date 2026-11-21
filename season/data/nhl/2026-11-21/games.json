@@ -1,0 +1,114 @@
+[
+ {
+  "id": 2026020359,
+  "away": "EDM",
+  "home": "CAR",
+  "start": "2026-11-21T18:00:00Z",
+  "venue": "Lenovo Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020360,
+  "away": "CHI",
+  "home": "CGY",
+  "start": "2026-11-21T20:30:00Z",
+  "venue": "Scotiabank Saddledome",
+  "neutral": false
+ },
+ {
+  "id": 2026020361,
+  "away": "BUF",
+  "home": "FLA",
+  "start": "2026-11-21T23:00:00Z",
+  "venue": "Amerant Bank Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020362,
+  "away": "PIT",
+  "home": "NSH",
+  "start": "2026-11-21T23:00:00Z",
+  "venue": "Bridgestone Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020363,
+  "away": "WSH",
+  "home": "BOS",
+  "start": "2026-11-22T00:00:00Z",
+  "venue": "TD Garden",
+  "neutral": false
+ },
+ {
+  "id": 2026020364,
+  "away": "CBJ",
+  "home": "TOR",
+  "start": "2026-11-22T00:00:00Z",
+  "venue": "Scotiabank Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020365,
+  "away": "PHI",
+  "home": "MTL",
+  "start": "2026-11-22T00:00:00Z",
+  "venue": "Centre Bell",
+  "neutral": false
+ },
+ {
+  "id": 2026020366,
+  "away": "LAK",
+  "home": "OTT",
+  "start": "2026-11-22T00:00:00Z",
+  "venue": "Canadian Tire Centre",
+  "neutral": false
+ },
+ {
+  "id": 2026020367,
+  "away": "NYI",
+  "home": "DET",
+  "start": "2026-11-22T00:00:00Z",
+  "venue": "Little Caesars Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020368,
+  "away": "NJD",
+  "home": "STL",
+  "start": "2026-11-22T00:00:00Z",
+  "venue": "Enterprise Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020369,
+  "away": "VGK",
+  "home": "WPG",
+  "start": "2026-11-22T00:00:00Z",
+  "venue": "Canada Life Centre",
+  "neutral": false
+ },
+ {
+  "id": 2026020370,
+  "away": "ANA",
+  "home": "UTA",
+  "start": "2026-11-22T02:00:00Z",
+  "venue": "Delta Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020371,
+  "away": "MIN",
+  "home": "VAN",
+  "start": "2026-11-22T03:00:00Z",
+  "venue": "Rogers Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020372,
+  "away": "SEA",
+  "home": "SJS",
+  "start": "2026-11-22T03:00:00Z",
+  "venue": "SAP Center at San Jose",
+  "neutral": false
+ }
+]
