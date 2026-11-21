@@ -77,9 +77,19 @@ def before(logs, team, dt):
     return [r for r in logs.get(team, []) if r[0] < dt]
 
 
+def cal_days(t1, t0):
+    """A73 (Trina, Nov 20): rest counts calendar days (US Eastern date of each kickoff), not whole 24 hour periods."""
+    import pandas as pd
+    def d(x):
+        x = pd.Timestamp(x)
+        if x.tzinfo is None: x = x.tz_localize('UTC')
+        return x.tz_convert('America/New_York').date()
+    return (d(t1) - d(t0)).days
+
+
 def rest_days(logs, team, dt):
     p = before(logs, team, dt)
-    return (dt - p[-1][0]).days if p else None
+    return cal_days(dt, p[-1][0]) if p else None
 
 
 def last3_total(logs, team, dt):

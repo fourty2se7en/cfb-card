@@ -39,7 +39,7 @@ def _an():
 def _features(r, logs, last, t, a, h):
     for k, tm in (('a', a), ('h', h)):
         p = RU.before(logs, tm, t)
-        r['rest_' + k] = (t - p[-1][0]).days if p else None
+        r['rest_' + k] = RU.cal_days(t, p[-1][0]) if p else None
         r['l3_' + k] = float(np.mean([q[1] + q[2] for q in p[-3:]])) if len(p) >= 3 else None
         r['n_' + k] = len(p)
         r['wp_' + k] = (sum(1 for q in p if q[1] > q[2]) / len(p)) if p else None

@@ -298,7 +298,7 @@ for r in SL.itertuples():
         g['papg_' + k] = round(float(np.mean([x['pa'] for x in rows])), 1) if rows else None
         g['last3_tot_' + k] = round(float(np.mean([x['pf'] + x['pa'] for x in rows[-3:]])), 1) if len(rows) >= 3 else None
         g['last5_' + k] = ' '.join(('W' if x['m'] > 0 else 'L') for x in rows[-5:])
-        g['rest_' + k] = (r.dt - rows[-1]['dt']).days if rows else None
+        g['rest_' + k] = RU.cal_days(r.dt, rows[-1]['dt']) if rows else None
         vz = VTZ.get(int(r.venueId)) if r.venueId == r.venueId else None
         tz = TEAMTZ.get(t); g['tz_' + k] = abs(vz - tz) if vz is not None and tz is not None else None
         g['last_' + k] = LAST.get(t)
