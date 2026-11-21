@@ -3190,3 +3190,6 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-21T17:43:00Z,close,ncaam,event_odds,200,4,6233
 2026-11-21T17:43:00Z,close,ncaaw,odds,200,3,6230
 2026-11-21T17:43:00Z,close,fbs,odds,200,3,6227
+2026-11-21T17:48:45Z,now,ncaaw,odds,200,3,6224
+2026-11-21T17:48:45Z,now,nfl,odds,200,3,6221
+2026-11-21T17:48:45Z,now,fbs,odds,200,3,6218
