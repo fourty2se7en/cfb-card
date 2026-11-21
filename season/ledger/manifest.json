@@ -1,16 +1,16 @@
 {
  "collections": {
   "meta": 7,
-  "runs": 169,
+  "runs": 173,
   "sports/fbs/backtest": 553,
   "sports/fbs/experts": 526,
   "sports/fbs/games": 195,
-  "sports/fbs/picks": 672,
+  "sports/fbs/picks": 685,
   "sports/fbs/preview": 194,
   "sports/nba/backtest": 207,
   "sports/nba/experts": 56,
   "sports/nba/games": 108,
-  "sports/nba/picks": 1403,
+  "sports/nba/picks": 1445,
   "sports/ncaam/backtest": 1842,
   "sports/ncaam/experts": 54,
   "sports/ncaam/games": 690,
@@ -28,12 +28,12 @@
   "sports/nhl/experts": 46,
   "sports/nhl/games": 119,
   "sports/nhl/inputs": 95,
-  "sports/nhl/picks": 1211,
+  "sports/nhl/picks": 1218,
   "standings": 7
  },
  "packed_at": "2026-11-19 14:47 Phoenix",
  "source": "hub",
  "unknown_versions": 5787,
- "updated_at": "2026-11-21 10:53 Phoenix",
+ "updated_at": "2026-11-21 15:34 Phoenix",
  "pending_hub_file": "season/ledger/updates/2026-11-21.json"
 }
