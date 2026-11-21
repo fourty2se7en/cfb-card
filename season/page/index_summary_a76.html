@@ -645,7 +645,7 @@ details.bld>.scroll{padding:0 4px 6px}
 .famh small{font:500 12px Inter,sans-serif;color:var(--muted)}
 @media (max-width:640px){.cs>.cs-h{padding:10px 8px 10px 12px!important}.cs-s,.cs-d{padding:0 12px 12px}table.smt th,table.smt td{padding:6px 5px;font-size:12.5px}}
 .cs-d>.trl{padding:0}.cs-d .ph{padding-left:0;padding-right:0}ol.csol,ul.csol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.5;max-width:780px}.cstx ul{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px;line-height:1.5}
-table.smt tr.tp td{background:var(--sumtp,rgba(240,162,74,.10))}table.smt.sumt td{overflow-wrap:anywhere}.sumh{font:700 18px 'Barlow Condensed',Inter,sans-serif;margin:14px 0 6px}.sum-i{margin:0 0 10px}.sumg+.sumg{margin-top:12px}details.sumsp{border:1px solid var(--line,rgba(0,0,0,.12));border-radius:10px;margin-top:8px;background:var(--surface)}details.sumsp>summary{flex-wrap:wrap}.sumsn{font:800 16px 'Barlow Semi Condensed',Inter,sans-serif;margin-right:6px}.sumsb{padding:0 12px 12px}.sumgh{font:700 15px 'Barlow Semi Condensed',Inter,sans-serif;margin:4px 0 4px;padding:4px 0 4px 8px;border-left:3px solid var(--accent,#F0A24A)}.sumgh .small{font-weight:500}
+table.smt tr.tp td{background:var(--sumtp,rgba(240,162,74,.10))}table.smt.sumt td{overflow-wrap:anywhere}.sumh{font:700 18px 'Barlow Condensed',Inter,sans-serif;margin:14px 0 6px}.sum-i{margin:0 0 10px}.sumg{margin-top:12px}details.sumsp{border:1px solid var(--line,rgba(0,0,0,.12));border-radius:10px;margin-top:8px;background:var(--surface)}details.sumsp>summary{flex-wrap:wrap}.sumsn{font:800 16px 'Barlow Semi Condensed',Inter,sans-serif;margin-right:6px}.sumsb{padding:0 12px 12px}.sumgh{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;padding:6px 0 6px 10px;border-left:3px solid var(--accent,#F0A24A);margin-bottom:4px}.sumgl{font:700 15px 'Barlow Semi Condensed',Inter,sans-serif}.sumgl .small{font-weight:500}.sumgr{text-align:right;white-space:nowrap;font-weight:700}
 .gsum{padding:12px 14px}.gsum-h{font:700 20px 'Barlow Condensed',Inter,sans-serif;margin:0 0 6px}.gsum-l{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px;font-size:14.5px;line-height:1.45}.gsum-l li{overflow-wrap:anywhere}.gsum-l li span.gsm{display:inline;color:var(--faint);white-space:normal}
 </style>
 
@@ -757,7 +757,7 @@ function unitsClassFromText(t){var m=String(t||'').match(/([+-]\d+(\.\d+)?)u/);i
 /* ---------------- state ---------------- */
 var S={sport:'nba',tab:'today',archive:false,game:null,gDate:'',propF:'',stdGroup:'',dbState:'wait',subs:{},filters:{market:'',group:'',tier:'',team:'',result:'',from:'',to:''},showTracking:false,epLimit:25,calOpen:false,calMonth:null,calPick:null,open:{how:true}};
 var TODAY=todayStr();
-var A61P=false;   /* A61 preview highlights: off on the live page */
+var A61P=false;var GCPV='';   /* A61 preview highlights: off on the live page */
 document.getElementById('today-l').textContent='2026-27 · '+fdate(TODAY);
 
 /* ---------------- theme ---------------- */
@@ -1719,7 +1719,10 @@ function propSum(p){var F=[],A=[],L=num(p.line),sd=propSide(p)||'Over',u=sd==='U
   var mu=p.matchup?muSentence(p.matchup,p,null):null;if(mu){var t=mu.text.replace(/\s*(That (helps|hurts) this \w+|Little effect on this \w+)\.$/,'').replace(/\.$/,'');if(mu.eff==='helps')F.push(t);else if(mu.eff==='hurts')A.push(t);}
   var md=p.model&&typeof p.model==='object'?p.model:{},hp=num(md.hit_pct),nd=num(md.needed_pct);if(hp!=null&&nd!=null){if(hp<=1)hp*=100;if(nd<=1)nd*=100;F.push((md.projection!=null?'Our model projects '+md.projection+', a ':'Our model gives a ')+Math.round(hp)+'% chance vs '+Math.round(nd)+'% needed');}
   return {for:F.length?F.join('. ')+'.':'',against:A.length?A.slice(0,2).join('. ')+'.':'Nothing notable.',auto:true};}
-function autoSum(g,key,pk,lp,rs,ag){var S0=(lp&&lp.summary)||(pk&&pk.summary)||null;if(S0&&(S0.for||S0.against))return S0;
+function autoSum(g,key,pk,lp,rs,ag){var S0=(lp&&lp.summary)||(pk&&pk.summary)||null;
+  /* Nov 20: a pick write up that says nothing ("No game fact beyond the rule") gives way to the game doc write up. */
+  if(S0&&/^No game fact beyond/i.test(String(S0.for||''))&&pk&&pk.summary&&pk.summary.for&&!/^No game fact beyond/i.test(pk.summary.for))S0={for:pk.summary.for,against:S0.against||pk.summary.against};
+  if(S0&&(S0.for||S0.against))return S0;
   if((lp&&lp.market==='Prop')||(pk&&pk.market==='Prop'))return propSum(lp||pk);
   g=g||{};var md=g.model||{},T=g.trends||{},F=[],A=[],pickS=String((pk&&pk.pick)||(lp&&lp.pick)||'');
   var me=teamKey(g,pickS),op=me==='away'?'home':(me==='home'?'away':null),nm=function(k){var t=g[k]||{};return t.short||t.name||t.code||'';};
@@ -2026,7 +2029,7 @@ function renderGameCard(M){
   var P0=g.picks||{},cards=(function(){var ks=pkKeys(P0).filter(function(k){return !Array.isArray(P0[k]);});if(ks.indexOf('side')<0)ks.unshift('side');if(ks.indexOf('total')<0)ks.push('total');return ks.map(function(k){return pickCard(M,g,k,PK_LBL[k]||k);}).join('');})();
   h+=gameSumHtml(M,g);
   var GP=gcPicks(M,g);
-  h+=sec('picks','Picks',GP.n?plural(GP.n,'card pick'):'No card pick',line1(esc(GP.line)),GP.html,{open:true});
+  h+=sec('picks','Picks',GP.n?plural(GP.n,'card pick'):(GP.pv?plural(GP.pv,'preview pick')+' · card picks post on game day':'No card pick'),line1(esc(GP.line)),GP.html,{open:true});
   h+=sec('sig','Signals','for and against each market',gcSig(g),'<div class="two">'+cards+'</div>');
   // lines, splits, moves
   var LN=g.lines,md=g.model,sp=Array.isArray(g.splits)?g.splits:[],mv=Array.isArray(g.moves)?g.moves:[],ld='';
@@ -2682,12 +2685,15 @@ function gamesSec(M,D){var L=todayGames(M,D),ex=D.pv?D.act:null,w=gWithPicks(M,L
 var GMO=['Moneyline','Spread','Puck line','1st half spread','1st period total','Total','Team total','Prop'];
 function gmo(m){var i=GMO.indexOf(m);return i<0?(/1st|1H|1P/i.test(m)?3.5:7.5):i;}
 function keyHit(k,P,p){var m=String(p.market||'');if(k==='side')return /^(Moneyline|Spread)$/.test(m)||(m==='Puck line'&&!P.puck_line);if(k==='moneyline')return m==='Moneyline';if(k==='spread')return m==='Spread';if(k==='puck_line')return m==='Puck line';if(k==='first_half')return /1st half|1H/i.test(m);if(k==='total')return m==='Total';return false;}
-function gcPicks(M,g){var id=g.__id,P=g.picks||{},cp=M.card.filter(function(p){return gidOf(p)===id;}),sh=(M.shadow||[]).filter(function(p){return gidOf(p)===id;});
+function gcPicks(M,g){var id=g.__id,P=g.picks||{},cp=M.card.filter(function(p){return gidOf(p)===id;}),sh=(M.shadow||[]).filter(function(p){return gidOf(p)===id;}),isPv=false;
+  /* Nov 20 (Trina): a game with no card pick yet shows its latest preview picks (football before game day, sports with no games today). */
+  if(!cp.length&&(M.pv||[]).length){var gp=M.pv.filter(function(p){return gidOf(p)===id;}),mx=gp.map(function(p){return String(p.as_of||'');}).sort().pop();gp=gp.filter(function(p){return String(p.as_of||'')===mx;});
+    var ac=gp.filter(function(p){return !p.shadow&&!p.tracking&&p.market!=='Prop';});if(ac.length){cp=ac;isPv=true;}sh=sh.concat(gp.filter(function(p){return p.shadow&&p.market!=='Prop';}));}
   cp.sort(function(a,b){return gmo(a.market)-gmo(b.market)||tierRank(pTier(a))-tierRank(pTier(b));});
   /* A61 (Nov 16, Trina): one row per bet; the Rule column lists every rule that picked it, each with its tier and tier record. */
   var rows=cp.map(function(p){var G=[p].concat(p.__also||[]).sort(function(a,b){return tierRank(pTier(a))-tierRank(pTier(b));});
     var rc=ruleLines(M,G);
-    return '<tr'+(G.length>1&&A61P?' class="a61m"':'')+'><td>'+esc(mktOf(p))+'</td><td><button type="button" class="lk" data-act="pick" data-id="'+esc(p.__id)+'">'+esc(pickLabel(p,g))+(p.price!=null&&p.price!==''?' <span class="pr">'+esc(fprice(p.price))+'</span>':'')+'</button>'+(G.length>1?'<div class="small mu">'+G.length+' rules, one bet</div>':'')+'</td><td class="gcrc'+(A61P?' a61x':'')+'">'+rc+'</td></tr>';});
+    return '<tr'+(G.length>1&&A61P?' class="a61m"':'')+'><td>'+esc(mktOf(p))+'</td><td>'+(p.__pv?'<span class="chip close'+GCPV+'">Preview</span> ':'')+'<button type="button" class="lk" data-act="pick" data-id="'+esc(p.__id)+'">'+esc(pickLabel(p,g))+(p.price!=null&&p.price!==''?' <span class="pr">'+esc(fprice(p.price))+'</span>':'')+'</button>'+(G.length>1?'<div class="small mu">'+G.length+' rules, one bet</div>':'')+'</td><td class="gcrc'+(A61P?' a61x':'')+'">'+rc+'</td></tr>';});
   var ks=pkKeys(P).filter(function(k){return !Array.isArray(P[k])&&PK_LBL[k];});if(ks.indexOf('side')<0&&!P.moneyline&&!P.spread)ks.unshift('side');if(ks.indexOf('total')<0)ks.push('total');
   /* A61 v4: a market with no card pick lists its would-be picks in the same rule format, marked would-be. */
   ks.forEach(function(k){if(cp.some(function(p){return keyHit(k,P,p);}))return;var W=sh.filter(function(p){return keyHit(k,P,p);}),seen={},lb=k==='side'?(S.sport==='nhl'?'Moneyline':'Side'):PK_LBL[k];
@@ -2695,9 +2701,11 @@ function gcPicks(M,g){var id=g.__id,P=g.picks||{},cp=M.card.filter(function(p){r
     rows.push('<tr class="np"><td>'+esc(lb)+'</td><td>No pick</td><td class="gcrc'+(A61P&&W.length?' a61x':'')+'">'+W.map(function(p){return ruleLine(M,p,pickLabel(p,g)+(p.price!=null&&p.price!==''?' '+fprice(p.price):''));}).join('')+'</td></tr>');});
   var p0=cp.filter(function(p){return p.market!=='Prop';})[0]||cp[0],why='';
   if(p0){var k0=null;Object.keys(P).forEach(function(k){if(!k0&&P[k]&&!Array.isArray(P[k])&&P[k].doc_id===p0.__id)k0=k;});var S0=autoSum(g,k0||(p0.market==='Total'?'total':'side'),k0?P[k0]:null,p0,[],[]);
-    why='<div class="gwhy"><div class="clamp2" title="'+esc(S0.for||'')+'"><b class="up">Why</b> '+esc(S0.for||'Not posted.')+'</div><div class="clamp2" title="'+esc(S0.against||'')+'"><b class="dn">Against</b> '+esc(S0.against||'Nothing notable.')+'</div><div class="small">Why and Against are for '+esc(pickLabel(p0,g))+'. Tap a pick for its full write up.</div></div>';}
-  else{var an=noneSum(g,'side');why='<div class="gwhy"><div><b>No card pick</b> '+esc((P.side&&P.side.none)||'No rule tier that is on fits this game.')+'</div>'+(an?'<div class="clamp2" title="'+esc(an)+'"><b>Game analysis</b> '+esc(an)+'</div>':'')+'</div>';}
-  return {n:cp.length,html:smt(['Market','Pick',{t:'Rule',cls:A61P?'a61h':'',raw:A61P?' <span class="a61n">New</span>':''}],rows,'gcp')+why,line:cp.length?plural(cp.length,'card pick')+': '+cp.map(function(p){return p.pick;}).join(' · '):'No card pick in this game.'};}
+    why='<div class="gwhy'+GCPV+'"><div class="clamp2" title="'+esc(S0.for||'')+'"><b class="up">Why</b> '+esc(S0.for||'Not posted.')+'</div><div class="clamp2" title="'+esc(S0.against||'')+'"><b class="dn">Against</b> '+esc(S0.against||'Nothing notable.')+'</div><div class="small">Why and Against are for '+(isPv?'the preview pick ':'')+esc(pickLabel(p0,g))+'. Tap a pick for its full write up.</div></div>';}
+  else{var an=noneSum(g,'side'),w0=sh.filter(function(p){return p.market!=='Prop'&&p.summary&&(p.summary.for||p.summary.against);}).sort(function(a,b){return tierRank(pTier(a))-tierRank(pTier(b));})[0];
+    why='<div class="gwhy"><div><b>No card pick</b> '+esc((P.side&&P.side.none)||'No rule tier that is on fits this game.')+'</div>'+(an?'<div class="clamp2" title="'+esc(an)+'"><b>Game analysis</b> '+esc(an)+'</div>':'')+
+      (w0?'<div class="gwhy2'+GCPV+'"><div class="small"><b>Would-be pick</b> '+esc(pickLabel(w0,g))+' ('+esc(ruleNameOf(M,w0)||'')+', '+esc(pTier(w0)||'')+' tier off)</div><div class="clamp2" title="'+esc(w0.summary.for||'')+'"><b class="up">Why</b> '+esc(w0.summary.for||'Not posted.')+'</div><div class="clamp2" title="'+esc(w0.summary.against||'')+'"><b class="dn">Against</b> '+esc(w0.summary.against||'Nothing notable.')+'</div></div>':'')+'</div>';}
+  return {n:isPv?0:cp.length,pv:isPv?cp.length:0,html:smt(['Market','Pick',{t:'Rule',cls:A61P?'a61h':'',raw:A61P?' <span class="a61n">New</span>':''}],rows,'gcp')+why,line:cp.length?plural(cp.length,isPv?'preview pick':'card pick')+': '+cp.map(function(p){return p.pick;}).join(' · '):'No card pick in this game.'};}
 function sigKeys(R){return Object.keys(R||{}).filter(function(k){return Array.isArray(R[k])&&R[k].length&&!/_against$|_lean$|_note$|_team$|^basis$/.test(k);});}
 function gcSig(g){var R=g.reasons||{},ks=sigKeys(R);if(!ks.length)return line1('No signals posted for this game.');
   var rows=ks.map(function(k){var C=sigCount(R[k],R[k+'_against']||[],/total/.test(k)?'total':'side'),pts=C.pf||C.pa,ld=pts?C.pf-C.pa:C.nf-C.na,lb=PK_LBL[k]||(k==='total_over'?'Total over':(k==='total_under'?'Total under':k.replace(/_/g,' ')));if(k==='side'&&S.sport==='nhl')lb='Moneyline';
@@ -2803,9 +2811,9 @@ function dayBlk(M,d,list,o){o=o||{};return sec('day-'+d,(d===TODAY?'Today · ':'
 /* Upcoming games: the next 7 days after today, one collapsed section per day, preview picks in the pick column. */
 function pvLatest(M){var by={},out=[];(M.pv||[]).forEach(function(p){if(p.shadow||p.tracking)return;var g=gidOf(p),a=String(p.as_of||'');if(!by[g]||a>by[g])by[g]=a;});
   (M.pv||[]).forEach(function(p){if(p.shadow||p.tracking)return;if(String(p.as_of||'')===by[gidOf(p)])out.push(p);});return out;}
-function upcomingSec(M,gs,inSlot,sortG){var ex=pvLatest(M),h='<div class="dh uph'+(A61P?' a61x':'')+'">Upcoming games'+(A61P?' <span class="a61n">New</span>':'')+' <small>next 7 days · tap a day</small></div>';
+function upcomingSec(M,gs,inSlot,sortG){var ex=pvLatest(M),h='<div class="dh uph'+(A61P?' a61x':'')+'">Upcoming games'+(A61P?' <span class="a61n">New</span>':'')+' <small>next 7 days, days with games only · tap a day</small></div>';
   for(var i=1;i<=7;i++){var d=addDays(TODAY,i),L=gs.filter(function(g){return gDate(g)===d;}).filter(inSlot).sort(sortG);
-    h+=L.length?dayBlk(M,d,L,{ex:ex,open:false}):sec('day-'+d,fdate(d),'0 games','','<div class="note">Schedule posts after the next run.</div>',{open:false});}
+    if(L.length)h+=dayBlk(M,d,L,{ex:ex,open:false});}   /* Nov 20 (Trina): days with no games are skipped */
   return h;}
 function stdSum(G){var cols=(G.columns||[]).filter(function(c){return !/^(rank|rk|#|seed)$/i.test(c);}).slice(0,2),R=G.rows||[];
   return smt(['#','Team'].concat(cols.map(function(c){return {t:c,n:1};})),R.slice(0,3).map(function(r,i){var v=r.values||{};return '<tr><td>'+(i+1)+'</td><td>'+esc(r.team||r.code||'')+'</td>'+cols.map(function(c){return '<td class="n">'+(v[c]==null||v[c]===''?'<span class="mu">·</span>':esc(v[c]))+'</td>';}).join('')+'</tr>';}))+line1('Top 3 of '+R.length+'. Open for the full table.');}
@@ -2874,7 +2882,7 @@ function topTest(M,p,before,cache){var k=rrKey(M,p),RC=cache&&cache[k];if(!RC){R
 function sumData(){var out={sp:[],loaded:0},keep=S.sport;
   IDS.forEach(function(sp){var st=S.subs[sp];if(!st||!st.got.picks){out.sp.push({sp:sp,wait:true});return;}out.loaded++;
     S.sport=sp;var M=null;try{M=build(sp);}catch(e){out.sp.push({sp:sp,err:true});return;}
-    var cache={},D=todayData(M),act=D.pv?[]:D.act.slice(),rows=[];
+    var cache={},D=todayData(M),act=D.act.slice(),rows=[];
     act.forEach(function(p){var T=topTest(M,p,null,cache);rows.push({p:p,T:T,sp:sp,lbl:pickLabel(p,findGame(gidOf(p))),rule:ruleNameOf(M,p),tier:pTier(p),g:gidOf(p),hasG:!!findGame(gidOf(p))});});
     /* A61: one row per bet. When two rules picked it, keep the row whose tier passes the top test, then the better per pick record. */
     var bk={},ord=rows.slice().sort(function(a,b){return (b.T.ok?1:0)-(a.T.ok?1:0)||(b.T.ppp-a.T.ppp);});ord.forEach(function(r){var k=betKey(r.p);if(!bk[k])bk[k]=r;});rows=rows.filter(function(r){return bk[betKey(r.p)]===r;});
@@ -2891,47 +2899,33 @@ function sumRow(r,showSport){var p=r.p,T=r.T,nm=SPORTS[r.sp].name;
     '<td>'+esc(r.rule)+' '+(r.tier?tierTag(r.tier,true):'')+'</td>'+
     '<td class="n">'+(T.rec?recU(T.rec):'<span class="mu">·</span>')+(T.n?'<div class="small"><b class="'+uc(T.ppp)+'">'+fu(T.ppp)+'</b> per pick</div>':'')+(T.ok?'':'<div class="small mu">'+esc(T.why)+'</div>')+'</td></tr>';}
 var SUMPV='';/* preview highlight class, empty on the live page */
-function sumBySport(rows,D){var by={};rows.forEach(function(r){(by[r.sp]=by[r.sp]||[]).push(r);});
-  var out=IDS.filter(function(sp){return by[sp];}).map(function(sp){var nm=sp==='fbs'?'FBS':SPORTS[sp].name,rs=by[sp].slice().sort(function(a,b){return tmv(a.p.time)-tmv(b.p.time)||(b.T.ok-a.T.ok);}),
-      nt=rs.filter(function(r){return r.T.ok;}).length,first=rs[0].p.time||'·';
-    return '<details class="bld sumsp'+SUMPV+'"><summary><b class="sumsn">'+esc(nm)+'</b><span class="small">'+plural(rs.length,'pick')+(D&&nt?' · '+nt+' top':'')+' · first game '+esc(first)+'</span></summary><div class="sumsb">'+sumByRule(rs,!D)+'</div></details>';}).join('');
-  if(D){var none=D.sp.filter(function(x){return !by[x.sp];});if(none.length)out+=line1('No active picks today: '+esc(none.map(function(x){var nm=x.sp==='fbs'?'FBS':SPORTS[x.sp].name;return nm+(x.wait?' (loading)':(x.pv?' (no games today)':''));}).join(', '))+'.');}
-  return out;}
-function sumByRule(rs,noTop){var G={},ord=[];rs.forEach(function(r){var k=r.rule||'Other';if(!G[k]){G[k]=[];ord.push(k);}G[k].push(r);});
-  return ord.map(function(k){var g=G[k],nt=g.filter(function(r){return r.T.ok;}).length;
-    return '<div class="sumg"><h4 class="sumgh">'+esc(k)+' <span class="small">'+plural(g.length,'pick')+(nt&&!noTop?' · '+nt+' top':'')+' · first '+esc(g[0].p.time||'·')+'</span></h4>'+
-      smt(['Time','Pick',{t:'Tier record',n:1}],g.map(sumRowR),'sumt')+'</div>';}).join('');}
-function sumRowR(r){var p=r.p,T=r.T;
-  return '<tr'+(T.ok?' class="tp"':'')+'><td class="tmc">'+esc(p.time||'')+'</td>'+
-    '<td><button type="button" class="lk" data-act="sumgo" data-sp="'+esc(r.sp)+'" data-g="'+esc(r.g)+'" data-id="'+esc(p.__id)+'">'+esc(r.lbl||p.pick)+'</button>'+(p.price!=null&&p.price!==''?' <span class="small">'+esc(fprice(p.price))+'</span>':'')+(r.tier?' '+tierTag(r.tier,true):'')+'<div class="small">'+esc(gameName(p))+'</div></td>'+
-    '<td class="n">'+(T.rec?recU(T.rec):'<span class="mu">·</span>')+(T.n?'<div class="small"><b class="'+uc(T.ppp)+'">'+fu(T.ppp)+'</b> per pick</div>':'')+(T.ok?'':'<div class="small mu">'+esc(T.why)+'</div>')+'</td></tr>';}
+/* Nov 20 (Trina, A76): Summary lists the top performers only, grouped by sport (collapsed: picks and first game),
+   then by rule and tier in start time order. The tier record sits in the group header, once, not on every pick line.
+   A sport with no games today shows its latest preview picks, marked Preview with the game day. */
+function sumWhen(p){var d=String(p.date||'');return (d&&d!==TODAY?fdate(d).replace(/,.*$/,'')+' ':'')+(p.time||'');}
+function sumBySport(rows){var by={};rows.forEach(function(r){(by[r.sp]=by[r.sp]||[]).push(r);});
+  return IDS.filter(function(sp){return by[sp];}).map(function(sp){var nm=sp==='fbs'?'FBS':SPORTS[sp].name,rs=by[sp].slice().sort(function(a,b){return String(a.p.date).localeCompare(String(b.p.date))||tmv(a.p.time)-tmv(b.p.time);}),
+      pv=rs.some(function(r){return r.p.__pv;});
+    return '<details class="bld sumsp'+SUMPV+'"><summary><b class="sumsn">'+esc(nm)+'</b>'+(pv?'<span class="chip close">Preview</span>':'')+'<span class="small">'+plural(rs.length,'pick')+' · first game '+esc(sumWhen(rs[0].p)||'·')+'</span></summary><div class="sumsb">'+sumByRule(rs)+'</div></details>';}).join('');}
+function sumByRule(rs){var G={},ord=[];rs.forEach(function(r){var k=(r.rule||'Other')+'¦'+(r.tier||'');if(!G[k]){G[k]=[];ord.push(k);}G[k].push(r);});
+  return ord.map(function(k){var g=G[k],r0=g[0],T=r0.T;
+    return '<div class="sumg"><div class="sumgh'+SUMPV+'"><div class="sumgl"><b>'+esc(r0.rule||'Other')+'</b> '+(r0.tier?tierTag(r0.tier,true):'')+'<span class="small"> '+plural(g.length,'pick')+' · first '+esc(sumWhen(r0.p)||'·')+'</span></div>'+
+      '<div class="sumgr">'+(T.rec?recU(T.rec):'<span class="mu">·</span>')+(T.n?'<div class="small"><b class="'+uc(T.ppp)+'">'+fu(T.ppp)+'</b> per pick</div>':'')+'</div></div>'+
+      smt(['Time','Pick'],g.map(sumRowR),'sumt sumt2')+'</div>';}).join('');}
+function sumRowR(r){var p=r.p;
+  return '<tr><td class="tmc">'+esc(sumWhen(p))+'</td><td><button type="button" class="lk" data-act="sumgo" data-sp="'+esc(r.sp)+'" data-g="'+esc(r.g)+'" data-id="'+esc(p.__id)+'">'+esc(r.lbl||p.pick)+'</button>'+(p.price!=null&&p.price!==''?' <span class="small">'+esc(fprice(p.price))+'</span>':'')+'<div class="small">'+esc(gameName(p))+'</div></td></tr>';}
 function renderSummaryView(){
   document.getElementById('tabs').hidden=true;document.getElementById('sport-name').textContent='Summary';
   var el=document.getElementById('status');
   if(S.dbState==='none'&&!IDS.some(function(sp){return S.subs[sp]&&S.subs[sp].snapAt;})){el.textContent='Sign in to see results';mainEl.innerHTML='<div class="note warn">Open Season Cards from its link while signed in to see results.</div>';return;}
   var D=sumData(),all=[];D.sp.forEach(function(x){if(x.rows)all=all.concat(x.rows);});
-  var top=all.filter(function(r){return r.T.ok;}).sort(function(a,b){return b.T.ppp-a.T.ppp||tmv(a.p.time)-tmv(b.p.time);});
+  var top=all.filter(function(r){return r.T.ok;});
   el.textContent=top.length+' top performer'+(top.length===1?'':'s')+' · '+all.length+' active picks · '+fdate(TODAY)+(D.loaded<IDS.length?' · loading '+(IDS.length-D.loaded)+' more':'');
   var wait=D.loaded<IDS.length?'<div class="note">Loading '+esc(D.sp.filter(function(x){return x.wait;}).map(function(x){return SPORTS[x.sp].name;}).join(', '))+'. The lists fill in as each sport loads.</div>':'';
-  var head=['Sport · time','Pick','Rule · tier',{t:'Tier record',n:1}];
-  var topT=top.length?sumBySport(top,null):'<div class="empty">No active pick passes the test today'+(all.length?' ('+all.length+' active picks checked).':'.')+'</div>';
-  var h=wait+'<p class="small sum-i">Picks are grouped by sport (tap a sport to open it), then by rule in start time order. Top performers are active picks whose tier has a proven record. Tap a pick for its game card.</p>';
-  h+=sec('top','Top performers today',plural(top.length,'pick')+' · of '+plural(all.length,'active pick')+' · by sport, then rule','',topT,{open:true,cls:SUMPV});
-  var th=smt(['Test','Default','Why'],[
-    '<tr><td>Tier is on</td><td>Active pick</td><td>Only card picks</td></tr>',
-    '<tr><td>Graded picks in the tier</td><td>'+SUMT.min+' or more</td><td>Fewer is mostly luck</td></tr>',
-    '<tr><td>Return per pick</td><td>'+fu(SUMT.ppp)+' or better</td><td>About 10% return, well above break even</td></tr>',
-    '<tr><td>Last '+SUMT.days+' days</td><td>Not negative</td><td>Skips tiers going cold</td></tr>']);
-  h+=sec('thr','How a pick makes this list','approved Nov 15 · season to date, the tier\'s season record',line1('Tier on, '+SUMT.min+'+ graded, '+fu(SUMT.ppp)+' per pick, last '+SUMT.days+' days not negative.'),th+line1('The tier record is the same season record that turns the tier on and off: card picks while on plus would-be picks while off. Past picks are tested with only the record before their date.'));
-  /* Nov 20 (Trina): active picks grouped by sport, each sport its own section that starts collapsed
-     (summary: picks, top count, first game). Open: sorted by start time and grouped under a rule header;
-     the pick line drops the rule name and keeps its tier and tier record. */
-  h+=sec('all','All active picks today',plural(all.length,'pick')+' · by sport, then rule · top performers shaded','',sumBySport(all,D)+'',{open:true,cls:SUMPV});
-  var tot={s:[],l:[],t:[]};
-  var sb=smt(['Sport',{t:'Record',n:1},{t:'Last 7 days',n:1},{t:'Top performers',n:1}],D.sp.map(function(x){var nm=SPORTS[x.sp].name;if(!x.gr)return '<tr><td>'+esc(nm)+'</td><td class="n mu" colspan="3">'+(x.wait?'Loading':'Not available')+'</td></tr>';
-    tot.s=tot.s.concat(x.gr);tot.t=tot.t.concat(x.topAll);
-    return '<tr><td>'+esc(nm)+'</td><td class="n">'+recU(x.season)+'</td><td class="n">'+uOnly(x.l7)+'</td><td class="n">'+recU(x.top)+'</td></tr>';}).concat(['<tr class="tot"><td><b>All sports</b></td><td class="n">'+recU(aggR(tot.s))+'</td><td class="n">'+uOnly(aggR(tot.s.filter(function(p){return String(p.date)>=addDays(TODAY,-7);})))+'</td><td class="n">'+recU(aggR(tot.t))+'</td></tr>']));
-  h+=sec('sea','Season by sport','card picks to date · top performers record',line1('All sports '+(aggR(tot.s)?wlp(aggR(tot.s))+' '+fu(aggR(tot.s).u):'0-0')+' · top performers '+(aggR(tot.t)?wlp(aggR(tot.t))+' '+fu(aggR(tot.t).u):'0-0')),sb+line1('"Top performers" counts every graded card pick that passed the test on its own day, so you can see if the threshold is working.'));
+  var none=IDS.filter(function(sp){return !top.some(function(r){return r.sp===sp;});}).map(function(sp){var x=D.sp.filter(function(y){return y.sp===sp;})[0]||{};return (sp==='fbs'?'FBS':SPORTS[sp].name)+(x.wait?' (loading)':'');});
+  var topT=(top.length?sumBySport(top):'<div class="empty">No active pick passes the test today'+(all.length?' ('+all.length+' active picks checked).':'.')+'</div>')+(none.length?line1('No top performers: '+esc(none.join(', '))+'.'):'');
+  var h=wait+'<p class="small sum-i">Active picks whose tier has a proven record: tier on, '+SUMT.min+'+ graded picks, '+fu(SUMT.ppp)+' per pick or better, last '+SUMT.days+' days not negative. Tap a sport to open it; tap a pick for its game card.</p>';
+  h+=sec('top','Top performers today',plural(top.length,'pick')+' · of '+plural(all.length,'active pick')+' · by sport, rule and tier','',topT,{open:true,cls:SUMPV});
   mainEl.setAttribute('data-tab','summary');mainEl.innerHTML=h;}
 document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('[data-act="sumgo"]');if(!b)return;e.preventDefault();e.stopPropagation();sumGo(b.getAttribute('data-sp'),b.getAttribute('data-g'),b.getAttribute('data-id'));},true);
 
