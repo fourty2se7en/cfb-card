@@ -1,0 +1,42 @@
+[
+ {
+  "id": 2026020373,
+  "away": "CAR",
+  "home": "NYR",
+  "start": "2026-11-22T17:30:00Z",
+  "venue": "Madison Square Garden",
+  "neutral": false
+ },
+ {
+  "id": 2026020374,
+  "away": "BUF",
+  "home": "TBL",
+  "start": "2026-11-22T22:00:00Z",
+  "venue": "Benchmark International Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020375,
+  "away": "EDM",
+  "home": "STL",
+  "start": "2026-11-23T00:00:00Z",
+  "venue": "Enterprise Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020376,
+  "away": "PIT",
+  "home": "DAL",
+  "start": "2026-11-23T00:00:00Z",
+  "venue": "American Airlines Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020377,
+  "away": "CHI",
+  "home": "VAN",
+  "start": "2026-11-23T01:00:00Z",
+  "venue": "Rogers Arena",
+  "neutral": false
+ }
+]

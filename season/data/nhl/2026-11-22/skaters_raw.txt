@@ -1,0 +1,21 @@
+BUF: Thompson 23g 15-11-26 90sh s2:19 s3:16 s4:13 p16 g12 a10 pp7 | Quinn 23g 12-11-23 66sh s2:19 s3:13 s4:8 p14 g10 a8 pp8 | Benson 23g 3-15-18 56sh s2:17 s3:11 s4:5 p14 g3 a12 pp3 | Power 23g 3-14-17 26sh s2:9 s3:1 s4:0 p10 g3 a8 pp0
+CAR: Aho 23g 13-19-32 63sh s2:16 s3:12 s4:8 p17 g11 a13 pp11 | Svechnikov 23g 13-10-23 67sh s2:17 s3:11 s4:8 p14 g8 a9 pp10 | Stankoven 23g 11-12-23 63sh s2:16 s3:15 s4:7 p15 g8 a9 pp3 | Ehlers 23g 6-16-22 53sh s2:14 s3:10 s4:6 p16 g5 a13 pp11
+CHI: Bedard 15g 7-11-18 44sh s2:13 s3:9 s4:5 p13 g7 a10 pp6 | Rinzel 22g 2-15-17 34sh s2:9 s3:3 s4:2 p10 g2 a9 pp7 | Kane 20g 2-13-15 43sh s2:13 s3:7 s4:4 p12 g2 a11 pp6 | Nazar 21g 11-3-14 45sh s2:14 s3:9 s4:3 p10 g8 a3 pp6
+DAL: Rantanen 22g 10-17-27 43sh s2:11 s3:8 s4:3 p16 g8 a10 pp8 | Robertson 22g 10-16-26 72sh s2:20 s3:17 s4:8 p15 g7 a12 pp6 | Hintz 22g 8-13-21 39sh s2:12 s3:5 s4:3 p13 g7 a9 pp4 | Johnston 20g 7-13-20 56sh s2:16 s3:11 s4:7 p13 g7 a9 pp8 | Seguin 22g 3-4-7 50sh s2:14 s3:9 s4:3 p5 g3 a4 pp1
+EDM: McDavid 25g 13-44-57 66sh s2:21 s3:14 s4:6 p24 g11 a23 pp25 | Draisaitl 25g 22-24-46 96sh s2:24 s3:20 s4:14 p22 g15 a16 pp16 | Bouchard 25g 12-26-38 64sh s2:17 s3:12 s4:7 p21 g9 a20 pp15 | Podkolzin 25g 13-8-21 50sh s2:15 s3:7 s4:2 p15 g10 a7 pp9
+NYR: Fox 22g 2-22-24 34sh s2:10 s3:6 s4:3 p16 g2 a15 pp7 | Lafrenière 22g 10-12-22 48sh s2:14 s3:8 s4:4 p13 g7 a9 pp6 | Zibanejad 22g 5-14-19 42sh s2:13 s3:7 s4:1 p13 g4 a11 pp4 | Miller 22g 4-13-17 42sh s2:13 s3:5 s4:2 p13 g4 a10 pp3 | Dorofeyev 21g 6-6-12 64sh s2:17 s3:12 s4:9 p11 g6 a6 pp6 | Cuylle 22g 6-5-11 45sh s2:13 s3:9 s4:4 p8 g4 a5 pp2
+PIT: Karlsson 22g 3-16-19 46sh s2:12 s3:7 s4:4 p14 g3 a13 pp8 | Malkin 19g 6-12-18 38sh s2:10 s3:6 s4:3 p11 g6 a7 pp5 | Novak 22g 8-8-16 40sh s2:12 s3:7 s4:2 p10 g6 a7 pp5 | Crosby 22g 6-9-15 43sh s2:13 s3:6 s4:2 p11 g4 a8 pp3 | Rakell 22g 8-5-13 60sh s2:19 s3:11 s4:5 p10 g7 a5 pp4
+STL: Thomas 23g 5-18-23 31sh s2:12 s3:3 s4:1 p13 g5 a12 pp6 | Holloway 23g 6-12-18 55sh s2:15 s3:9 s4:4 p13 g4 a10 pp3 | Neighbours 23g 5-13-18 39sh s2:9 s3:7 s4:4 p11 g4 a8 pp6 | Snuggerud 23g 13-5-18 52sh s2:16 s3:10 s4:3 p12 g11 a5 pp5 | McTavish 23g 8-5-13 55sh s2:13 s3:10 s4:8 p10 g7 a5 pp3
+TBL: Kucherov 22g 9-22-31 67sh s2:15 s3:11 s4:5 p16 g6 a13 pp9 | Guentzel 22g 13-14-27 59sh s2:14 s3:10 s4:6 p15 g9 a10 pp9 | Hagel 20g 13-11-24 80sh s2:17 s3:16 s4:10 p13 g8 a9 pp4 | Carlson 22g 7-13-20 51sh s2:11 s3:9 s4:6 p11 g6 a7 pp6
+VAN: Boeser 25g 8-19-27 42sh s2:10 s3:6 s4:1 p19 g8 a14 pp15 | Pettersson 24g 6-17-23 30sh s2:8 s3:4 s4:0 p17 g6 a13 pp9 | Lekkerimäki 25g 7-11-18 42sh s2:12 s3:5 s4:2 p14 g6 a10 pp9 | Hronek 25g 1-15-16 31sh s2:7 s3:2 s4:1 p13 g1 a13 pp8 | DeBrusk 23g 7-6-13 52sh s2:15 s3:9 s4:5 p9 g5 a5 pp6 | Karlsson 25g 6-6-12 44sh s2:13 s3:6 s4:2 p10 g5 a5 pp1
+GOALIES (season: GS W-L-OT GAA SV%)
+BUF Luukkonen 12 6-4-3 3.47 .873; Ellis 7 3-3-0 3.39 .873; Lyon 4 0-3-1 3.30 .890
+CAR Kochetkov 15 13-1-1 1.80 .911; Bussi 8 4-2-2 2.96 .872
+CHI Knight 19 7-11-1 3.45 .888; Soderblom 4 0-3-1 4.67 .842
+DAL Oettinger 17 12-4-1 2.25 .901; DeSmith 5 2-2-1 2.36 .906
+EDM Levi 13 10-3-0 2.83 .896; Jarry 10 6-1-3 2.45 .912; Tomkins 2 1-1-0 3.09 .880
+NYR Garand 13 7-7-1 2.37 .910; Shesterkin 5 3-1-0 1.79 .927; Korpisalo 3 3-0-0 1.67 .940; Reimer 1 0-0-0 9.00 .625
+PIT Silovs 13 5-7-1 3.41 .873; Murashov 9 2-6-1 3.35 .891
+STL Hofer 16 9-6-1 2.26 .923; Binnington 7 3-3-1 4.77 .847
+TBL Vasilevskiy 17 11-5-1 2.59 .895; Hildeby 5 4-0-1 2.56 .899
+VAN Meriläinen 16 4-10-1 3.48 .889; Lankinen 8 1-8-0 6.03 .808; Tolopilo 1 1-0-0 2.00 .946
