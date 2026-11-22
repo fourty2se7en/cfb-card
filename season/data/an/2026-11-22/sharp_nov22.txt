@@ -1,0 +1,149 @@
+# Action Network sharp report, read Sun Nov 22 2026 ~10:25 AM Phoenix
+# Each signal two digits: first = away (or Over), second = home (or Under). 1 = lit.
+# SA sharp action, BM big money, PS pro systems, MP model projections, TE expert picks.
+# NCAAM: only rows with at least one lit signal are listed; any game not listed for a market had no signals. "@?" = home name did not read (ranked team), match by away team.
+## NFL SPREAD
+CIN@WAS SA01 BM01 PS00 MP00 TE01
+LV@DEN SA01 BM00 PS00 MP00 TE01
+MIN@SF SA01 BM01 PS00 MP00 TE10
+TB@DET SA10 BM00 PS00 MP01 TE10
+ARI@KC SA10 BM00 PS10 MP00 TE01
+MIA@BUF SA10 BM00 PS00 MP00 TE00
+PIT@PHI SA10 BM00 PS00 MP00 TE00
+TEN@DAL SA01 BM00 PS00 MP00 TE10
+BAL@CAR SA01 BM00 PS00 MP00 TE10
+NO@CHI SA10 BM00 PS00 MP00 TE01
+NYJ@LAC SA01 BM10 PS10 MP00 TE01
+JAC@NYG SA01 BM00 PS00 MP00 TE10
+## NFL TOTAL
+TB@DET SA01 BM00 PS00 MP01 TE01
+ARI@KC SA01 BM00 PS01 MP00 TE00
+MIA@BUF SA01 BM00 PS01 MP00 TE00
+BAL@CAR SA01 BM00 PS00 MP00 TE01
+CIN@WAS SA10 BM00 PS01 MP01 TE00
+MIN@SF SA00 BM00 PS00 MP01 TE00
+NO@CHI SA00 BM00 PS01 MP00 TE00
+PIT@PHI SA01 BM00 PS00 MP00 TE00
+NYJ@LAC SA01 BM01 PS00 MP00 TE10
+JAC@NYG SA01 BM00 PS00 MP00 TE00
+LV@DEN SA01 BM00 PS00 MP00 TE00
+TEN@DAL SA01 BM00 PS00 MP00 TE10
+## NFL ML
+LV@DEN SA00 BM10 PS00 MP10 TE00
+CIN@WAS SA00 BM00 PS00 MP01 TE00
+MIN@SF SA00 BM10 PS00 MP00 TE00
+TB@DET SA00 BM00 PS00 MP01 TE00
+ARI@KC SA00 BM10 PS00 MP00 TE00
+MIA@BUF SA00 BM10 PS00 MP00 TE00
+BAL@CAR SA00 BM10 PS00 MP00 TE00
+NO@CHI SA00 BM00 PS00 MP10 TE00
+NYJ@LAC SA00 BM10 PS00 MP00 TE00
+JAC@NYG SA00 BM00 PS00 MP01 TE00
+TEN@DAL none; PIT@PHI none
+## NBA SPREAD
+ORL@WAS SA01 BM00 PS00 MP00 TE00
+IND@NYK SA10 BM00 PS00 MP00 TE00
+BOS@GSW SA01 BM00 PS00 MP00 TE00
+DEN@CHI SA10 BM00 PS00 MP01 TE00
+DAL@UTA SA01 BM00 PS00 MP10 TE00
+DET@ATL none; OKC@MIA none
+## NBA TOTAL
+ORL@WAS SA01 BM00 PS01 MP00 TE00
+DEN@CHI SA01; DAL@UTA SA01; IND@NYK SA01; BOS@GSW SA01; DET@ATL SA01; OKC@MIA SA01 (all other signals 00)
+## NBA ML
+ORL@WAS BM01
+DAL@UTA MP10
+others none
+## NHL SPREAD (puck line)
+none lit on any game
+## NHL TOTAL
+PIT@DAL SA01; EDM@STL SA01; CHI@VAN SA01; BUF@TB SA01; CAR@NYR none
+## NHL ML
+PIT@DAL SA01; EDM@STL SA01; BUF@TB SA01; CHI@VAN PS10; CAR@NYR PS10
+## NCAAM SPREAD (SA BM PS MP TE)
+Miami (OH)@UIC 10 00 00 10 00
+W. Illinois@Canisius 01 00 00 01 00
+N. Mexico St@Robert Morris 10 00 00 10 00
+Seattle@UCSD 10 00 00 00 00
+San Jose St@Loyola (IL) 01 00 00 00 00
+Butler@Nebraska 01 00 00 00 00
+Fairfield@? (LIU) 01 00 00 00 00
+Northwestern@Dayton 01 00 00 00 00
+Towson@? (American) 10 00 00 00 00
+UMass Lowell@? (Cincinnati) 01 00 00 00 00
+William & Mary@Youngstown St 00 00 00 01 00
+Duquesne@Wyoming 10 00 00 00 00
+Nicholls St@? (Troy) 01 00 00 00 00
+West Florida@? (S. Alabama) 10 00 00 00 00
+Mercyhurst@? (Albany) 10 00 00 00 00
+OK State@VA Tech 01 00 00 00 00
+Liberty@Richmond 00 00 00 01 00
+Temple@SFA 10 00 00 00 00
+Minnesota@Utah 01 00 00 00 00
+Valparaiso@Southern Miss 10 00 00 00 00
+TN-Martin@Utah Valley 10 00 00 01 00
+W. Kentucky@G Washington 10 00 00 01 00
+Utah Tech@South Dakota 01 00 00 10 00
+Southern Indiana@Texas 10 00 01 00 00
+MD-E Shore@? (IUIN) 01 00 00 10 00
+UC Irvine@Loyola Marymount 01 00 00 10 00
+CS Fullerton@Portland State 01 00 00 10 00
+UNC Asheville@? (Samford) 01 00 00 10 00
+## NCAAM TOTAL
+Cal Baptist@Portland 01 00 01 00 00
+Delaware@UCLA 01 00 00 01 00
+TN-Martin@Utah Valley 01 01 00 00 00
+Miami (OH)@UIC 10 10 00 00 00
+Towson@? 01 00 00 00 01
+UMass Lowell@? 01 00 00 01 00
+Valparaiso@Southern Miss 10 00 00 10 00
+UAB@Rhode Island 00 00 01 00 00
+San Jose St@Loyola (IL) 01 00 01 10 00
+Fairfield@? 01 00 00 00 00
+Chicago St@? (Marquette) 01 00 00 00 00
+W. Illinois@Canisius 10 00 00 00 00
+William & Mary@Youngstown St 01 00 00 00 00
+W. Kentucky@G Washington 00 00 01 00 00
+Evansville@Memphis 01 00 00 00 00
+Utah Tech@South Dakota 01 00 01 10 00
+N. Mexico St@Robert Morris 10 01 00 10 00
+Nicholls St@? 10 00 00 00 00
+West Florida@? 01 00 00 00 00
+OK State@VA Tech 00 00 00 10 00
+MD-E Shore@? 01 00 00 00 00
+Liberty@Richmond 01 00 00 00 00
+N.J.I.T.@? (Boston College) 01 00 00 00 00
+CS Fullerton@Portland State 00 00 00 01 00
+UNC Asheville@? 01 00 00 00 00
+Rice@? (Lamar) 01 10 00 01 00
+Temple@SFA 01 00 00 00 00
+Minnesota@Utah 01 00 00 00 00
+Seattle@UCSD 10 00 01 00 00
+Butler@Nebraska 10 00 01 00 00
+Northwestern@Dayton 01 00 00 10 00
+San Diego@Fordham 01 00 00 10 00
+Duquesne@Wyoming 01 00 00 10 00
+Southern Indiana@Texas 10 00 00 01 00
+UC Irvine@Loyola Marymount 01 00 00 10 00
+## NCAAM ML
+Delaware@UCLA 00 10 00 00 00
+Fairfield@? 00 10 00 00 00
+W. Illinois@Canisius 00 00 00 01 00
+Towson@? 00 10 00 00 00
+William & Mary@Youngstown St 00 00 00 01 00
+W. Kentucky@G Washington 00 00 00 01 00
+Utah Tech@South Dakota 00 00 00 10 00
+N. Mexico St@Robert Morris 00 00 00 10 00
+Mercyhurst@? 00 10 00 00 00
+MD-E Shore@? 00 00 00 10 00
+Liberty@Richmond 00 00 00 01 00
+UC Irvine@Loyola Marymount 00 00 00 10 00
+CS Fullerton@Portland State 00 00 00 10 00
+UNC Asheville@? 00 00 00 10 00
+Rice@? 00 10 00 00 00
+Temple@SFA 00 01 00 00 00
+Minnesota@Utah 00 01 00 00 00
+Cal Baptist@Portland 00 10 00 01 00
+TN-Martin@Utah Valley 00 10 00 01 00
+Miami (OH)@UIC 00 01 00 10 00
+McNeese St@? (Texas St) 00 00 00 01 10

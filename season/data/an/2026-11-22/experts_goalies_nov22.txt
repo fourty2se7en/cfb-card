@@ -1,0 +1,23 @@
+# Action Network expert picks (named people, game markets, unsettled), read Sun Nov 22 ~10:35 AM Phoenix
+# Format: AWAY@HOME :: Name (username) play price. Profile: https://www.actionnetwork.com/picks/profile/<username>
+## NBA
+DET@ATL :: Matt Moore (HPBasketball) DET -2.5 -104; Brian Bitler (BrianBitlerWins) ATL +1.5 +111; nbaWatts (nbaWatts) ATL +2.5 -111
+OKC@MIA :: Wags Wins (wagsischasing) MIA ML -135
+DEN@CHI :: none
+ORL@WAS :: Matt Moore (HPBasketball) WAS +5.5 -105; nbaWatts (nbaWatts) WAS +5.5 -104
+DAL@UTA :: Wags Wins (wagsischasing) DAL ML -120; Wags Wins (wagsischasing) Under 226.5 -118
+IND@NYK :: none
+BOS@GSW :: Brian Bitler (BrianBitlerWins) Under 211.5 -100; nbaWatts (nbaWatts) BOS -9.5 -106
+## NHL
+CAR@NYR :: Nick Griffith (NickGriffith) CAR ML -155
+BUF@TB :: Nick Griffith (NickGriffith) TB -1.5 +124
+PIT@DAL :: Nick Griffith (NickGriffith) Under 6.5 -125
+EDM@STL :: none
+CHI@VAN :: Nick Griffith (NickGriffith) Over 6.5 -110
+
+# NHL starting goalies, Daily Faceoff, Sun Nov 22 ~10:30 AM Phoenix. away vs home (status). Times Phoenix.
+CAR@NYR 10:30 am | Brandon Bussi (Confirmed) vs Dylan Garand (Confirmed)
+BUF@TB 3:00 pm | Ukko-Pekka Luukkonen (Unconfirmed) vs Andrei Vasilevskiy (Unconfirmed)
+PIT@DAL 5:00 pm | Arturs Silovs (Unconfirmed) vs Jake Oettinger (Confirmed)
+EDM@STL 5:00 pm | Tristan Jarry (Unconfirmed) vs Joel Hofer (Confirmed)
+CHI@VAN 6:00 pm | Drew Commesso (Likely) vs Nikita Tolopilo (Likely)
