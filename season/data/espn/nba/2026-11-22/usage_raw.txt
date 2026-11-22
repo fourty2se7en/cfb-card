@@ -1,0 +1,15 @@
+ESPN box scores 2026-27 totals, built Nov 22 about 9:43 AM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
+ATL|0.200,0.182,0.250,0.173|CJ McCollum(14g),Jock Landale(9g),Kingston Flemings(12g),Asa Newell(5g)
+BOS|0.350,0.293,0.429,0.243|Jayson Tatum(14g),Mitchell Robinson(14g),Derrick White(15g)
+CHI|0.114,0.127,0.053,0.119|Caleb Wilson(10g),Tobe Awaka(4g)
+DAL|0.135,0.167,0.066,0.184|P.J. Washington(15g),Sergio de Larrea(4g),Tobi Lawal(8g)
+DEN|0.000,0.000,0.000,0.000|
+DET|0.181,0.134,0.133,0.284|Duncan Robinson(12g),Jalen Duren(2g),Ronald Holland II(12g),Ebuka Okorie(5g),Taurean Prince(3g)
+GSW|0.212,0.082,0.144,0.210|Stephen Curry(10g),Brandon Williams(10g)
+IND|0.078,0.052,0.151,0.058|Tyrese Haliburton(4g),Ben Sheppard(1g),T.J. McConnell(7g)
+MIA|0.000,0.000,0.000,0.000|
+NYK|0.000,0.000,0.000,0.000|
+OKC|0.121,0.175,0.184,0.182|Chet Holmgren(3g),Jalen Williams(3g),Cason Wallace(3g),Jaylin Williams(9g),Alex Caruso(12g),Nikola Topic(3g)
+ORL|0.030,0.020,0.038,0.014|Paolo Banchero(2g)
+UTA|0.114,0.097,0.057,0.156|Lauri Markkanen(8g),Jaren Jackson Jr.(4g)
+WAS|0.016,0.041,0.012,0.011|Justin Champagnie(4g),Reece Beekman(1g)
