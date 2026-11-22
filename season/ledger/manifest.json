@@ -13,10 +13,10 @@
   "sports/nba/picks": 1540,
   "sports/ncaam/backtest": 1842,
   "sports/ncaam/experts": 54,
-  "sports/ncaam/games": 690,
+  "sports/ncaam/games": 691,
   "sports/ncaam/picks": 2531,
   "sports/ncaaw/backtest": 300,
-  "sports/ncaaw/games": 206,
+  "sports/ncaaw/games": 215,
   "sports/ncaaw/picks": 256,
   "sports/nfl/backtest": 1764,
   "sports/nfl/experts": 81,
@@ -26,7 +26,7 @@
   "sports/nfl/preview": 570,
   "sports/nhl/backtest": 456,
   "sports/nhl/experts": 46,
-  "sports/nhl/games": 119,
+  "sports/nhl/games": 124,
   "sports/nhl/inputs": 95,
   "sports/nhl/picks": 1242,
   "standings": 7
@@ -34,6 +34,6 @@
  "packed_at": "2026-11-19 14:47 Phoenix",
  "source": "hub",
  "unknown_versions": 5787,
- "updated_at": "2026-11-22 10:44 Phoenix",
+ "updated_at": "2026-11-22 10:47 Phoenix",
  "pending_hub_file": "season/ledger/updates/2026-11-22.json"
 }
