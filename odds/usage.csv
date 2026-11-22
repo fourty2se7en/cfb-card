@@ -3713,3 +3713,7 @@ ts,mode,sport,call,status,cost,remaining
 2026-11-22T21:13:06Z,close,ncaam,event_odds,200,4,4091
 2026-11-22T21:13:06Z,close,ncaaw,odds,200,3,4088
 2026-11-22T21:13:06Z,close,nfl,odds,200,3,4085
+2026-11-22T21:43:00Z,close,nhl,odds,200,3,4082
+2026-11-22T21:43:00Z,close,ncaam,odds,200,3,4079
+2026-11-22T21:43:00Z,close,ncaam,event_odds,200,4,4075
+2026-11-22T21:43:00Z,close,ncaaw,odds,200,3,4072
