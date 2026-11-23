@@ -12,6 +12,7 @@ Weather comes from Open-Meteo, which needs no key. It is fetched last and is
 allowed to fail: if it does, the card simply has no weather that week rather
 than no card.
 """
+from pathlib import Path
 import os, sys, time, json
 from datetime import datetime, timezone, timedelta
 import pandas as pd
@@ -746,6 +747,10 @@ def fetch_odds(games=None, mode=""):
     """Per-book NCAAF prices. Best-effort: no key, or any failure, costs nothing."""
     if not ODDS_KEY:
         print("  odds api: no ODDS_API_KEY set, skipping (CFBD lines are unaffected)")
+        return
+    if (Path(__file__).resolve().parent.parent / "odds" / "pause.txt").exists():
+        # Nov 23 2026 (Trina): Odds API paused until the credit reset; season/espn_lines.py supplies FBS lines.
+        print("  odds api: paused (odds/pause.txt), no credits spent")
         return
     if str(mode).lower() == "grade":
         print("  odds api: grade run settles finished games, no fresh prices needed")
