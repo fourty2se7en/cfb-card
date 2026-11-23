@@ -1,5 +1,10 @@
 # Fresh lines without gh (Nov 19 2026)
 
+> **Nov 23 2026 (Trina): Odds API paused until the credit cycle resets.** While `odds/pause.txt` exists, every pull (loop,
+> odds.yml crons and pushed run.txt requests) writes ESPN's free DraftKings full game lines (`season/espn_lines.py`) in the
+> same file format instead of spending credits. No props, first half or period lines, or team totals. To spend credits on one
+> request, put the word `credits` on line 1 of run.txt (for example `props_now nfl credits`). Delete `odds/pause.txt` to resume.
+
 gh CLI auth does not work in the chats, so a run asks GitHub for a pull by editing `odds/run.txt` and pushing.
 `.github/workflows/odds.yml` triggers on any push to main that changes `odds/run.txt` (`on.push.paths: [odds/run.txt]`),
 reads line 1, runs `odds/pull.py`, and commits the new files under `odds/data/<sport>/<Phoenix day>/` (about 1 to 2 minutes).

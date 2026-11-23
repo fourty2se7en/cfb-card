@@ -210,4 +210,15 @@ if __name__ == '__main__':
     m = sys.argv[1] if len(sys.argv) > 1 else 'close'
     only = [x for x in sys.argv[2].split(',') if x in SPORTS] if len(sys.argv) > 2 and sys.argv[2] else None
     if not USAGE_F.exists(): USAGE_F.write_text('ts,mode,sport,call,status,cost,remaining\n')
+    # Nov 23 (Trina): while odds/pause.txt exists, no pull spends credits: open, now and close come from ESPN's free
+    # DraftKings lines (season/espn_lines.py, same file format); props reads are skipped. A pushed odds/run.txt request
+    # spends credits only when its first line carries the word "credits" (for example "props_now nfl credits").
+    first = (ROOT / 'run.txt').read_text().splitlines()[0] if (ROOT / 'run.txt').exists() else ''
+    optin = os.environ.get('GITHUB_EVENT_NAME') == 'push' and 'credits' in first.split()
+    if (ROOT / 'pause.txt').exists() and not optin:
+        if m in ('open', 'now', 'close'):
+            import subprocess
+            subprocess.run([sys.executable, str(ROOT.parent / 'season' / 'espn_lines.py'), m, ','.join(only or SPORTS)], cwd=ROOT.parent)
+        else: print(f'{m}: paused (odds/pause.txt), no credits spent')
+        sys.exit(0)
     run(m, only)
