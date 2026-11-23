@@ -1,0 +1,21 @@
+ESPN box scores 2026-27 totals, built Nov 23 about 9:43 AM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
+BKN|0.108,0.037,0.104,0.098|Nolan Traore(14g)
+CHA|0.215,0.113,0.270,0.275|Dennis Schroder(9g),Grayson Allen(13g),Kon Knueppel(1g),Grant Williams(3g)
+CHI|0.277,0.184,0.133,0.242|Caleb Wilson(10g),Norman Powell(13g),Nic Claxton(6g)
+CLE|0.138,0.146,0.135,0.138|Evan Mobley(12g),Jaylon Tyson(8g)
+HOU|0.000,0.000,0.000,0.000|
+IND|0.073,0.049,0.145,0.056|Tyrese Haliburton(4g),Ben Sheppard(1g),T.J. McConnell(7g)
+LAC|0.000,0.000,0.000,0.000|
+LAL|0.145,0.057,0.134,0.114|Austin Reaves(12g)
+MEM|0.262,0.284,0.278,0.272|Cameron Boozer(16g),Jerami Grant(15g),GG Jackson(12g),Scotty Pippen Jr.(5g)
+MIL|0.021,0.016,0.024,0.027|Ousmane Dieng(10g)
+MIN|0.096,0.054,0.054,0.114|Anthony Edwards(4g),Jaylen Clark(12g)
+NOP|0.124,0.115,0.152,0.093|Dejounte Murray(9g),Bennedict Mathurin(12g),Bryce McGowens(7g),Trendon Watford(6g)
+OKC|0.461,0.397,0.430,0.370|Chet Holmgren(3g),Shai Gilgeous-Alexander(16g),Jalen Williams(3g),Cason Wallace(3g),Jaylin Williams(9g),Aday Mara(16g),Alex Caruso(12g),Nikola Topic(3g)
+PHI|0.010,0.048,0.015,0.000|Adem Bona(9g)
+PHX|0.000,0.000,0.000,0.000|
+POR|0.064,0.040,0.091,0.069|Ja Morant(4g),Vit Krejci(7g),Chris Youngblood(6g)
+SAC|0.000,0.000,0.000,0.000|
+SAS|0.138,0.100,0.140,0.081|Dylan Harper(15g)
+TOR|0.185,0.162,0.141,0.132|Kawhi Leonard(2g),RJ Barrett(14g)
+UTA|0.177,0.210,0.102,0.144|Lauri Markkanen(8g),Jaren Jackson Jr.(4g),Jaxson Hayes(15g)
