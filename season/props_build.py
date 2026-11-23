@@ -27,13 +27,20 @@ def pois_ge(mu, k):
 def read_props(sport):
     # Nov 19 (Trina): every read of the day counts (props_open, props_now, close_props), latest read wins per game, so a game whose
     # props post after the morning read (Thursday FBS, late NBA lines) still gets props.
-    fs = sorted(glob.glob(f'{REPO}/odds/data/{sport}/{DATE}/props_open_*.csv.gz') + glob.glob(f'{REPO}/odds/data/{sport}/{DATE}/props_now_*.csv.gz')
-                + glob.glob(f'{REPO}/odds/data/{sport}/{DATE}/close_props_*.csv.gz'), key=lambda f: f.rsplit('_', 1)[-1])
+    # Nov 23 (late props task): props_open marks a game read once, and the 30 hour window reads tomorrow's games the day before,
+    # so a game's only read can sit in the previous day's folder (NHL and NFL MNF on Nov 23). Read DATE and DATE-1; the DATE
+    # filter below keeps only today's games; latest read wins by (day, HHMM).
+    prev = (dt.date.fromisoformat(DATE) - dt.timedelta(days=1)).isoformat()
+    fs = []
+    for day in (prev, DATE):
+        for kind in ('props_open', 'props_now', 'close_props'): fs += glob.glob(f'{REPO}/odds/data/{sport}/{day}/{kind}_*.csv.gz')
+    fkey = lambda f: (f.split('/')[-2], f.rsplit('_', 1)[-1])
+    fs = sorted(fs, key=fkey)
     if not fs: return {}, ''
     latest = {}
     for f in fs:
         for r in csv.DictReader(gzip.open(f, 'rt')): latest.setdefault(r['event_id'], {}).setdefault(f, []).append(r)
-    rows = [r for ev in latest.values() for r in ev[max(ev, key=lambda f: f.rsplit('_', 1)[-1])]]
+    rows = [r for ev in latest.values() for r in ev[max(ev, key=fkey)]]
     # Nov 20: keep only games on DATE (Phoenix); reads cover the next 30 hours, so Saturday FBS games showed up on Friday
     rows = [r for r in rows if dt.datetime.fromisoformat(r['commence'].replace('Z', '+00:00')).astimezone(dt.timezone(dt.timedelta(hours=-7))).strftime('%Y-%m-%d') == DATE]
     g = collections.defaultdict(lambda: collections.defaultdict(dict))
@@ -463,6 +470,14 @@ if __name__ == '__main__':
                 if w.get('matchup'): d['matchup'] = {**d.get('matchup', {}), **w['matchup']}
             except Exception as e:
                 d['summary'] = {'for': '', 'against': 'Nothing notable.', 'err': str(e)}
+    # Nov 23: NFL hub game ids use WAS and LA (ESPN box scores say WSH and LAR); match the hub so props attach to the game doc
+    NFLMAP = {'WSH': 'WAS', 'LAR': 'LA'}
+    for d in out.get('nfl', []):
+        for k in ('team', 'opp', 'away', 'home'):
+            if d.get(k) in NFLMAP: d[k] = NFLMAP[d[k]]
+        for k in ('game', 'game_id', 'id', 'doc_id', 'pick_id'):
+            if isinstance(d.get(k), str):
+                for a, b in NFLMAP.items(): d[k] = re.sub(rf'(?<![A-Z]){a}(?![A-Z])', b, d[k])
     json.dump(out, open(OUT, 'w'), indent=1, default=str)
     for s in ('nba', 'nhl', 'fbs', 'nfl', 'ncaam', 'ncaaw'):
         c = collections.Counter((d['tier'], d['shadow']) for d in out[s])
