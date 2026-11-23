@@ -215,6 +215,12 @@ if __name__ == '__main__':
     # spends credits only when its first line carries the word "credits" (for example "props_now nfl credits").
     first = (ROOT / 'run.txt').read_text().splitlines()[0] if (ROOT / 'run.txt').exists() else ''
     optin = os.environ.get('GITHUB_EVENT_NAME') == 'push' and 'credits' in first.split()
+    if (ROOT / 'pause.txt').exists() and not optin and m == 'props_open':
+        # Nov 23 (Trina): props keep running during the pause. Each game's props are read once (props_open: 10:05, with
+        # 1:45 and 3:15 passes for games posted late), about 90 credits a day; no props_now rereads and no closing props,
+        # so props grade at the line read. Props stop if credits fall under PAUSE_PROPS_RESERVE (1,000).
+        RESERVE_PROPS = int(os.environ.get('PAUSE_PROPS_RESERVE') or 1000)
+        run(m, only); sys.exit(0)
     if (ROOT / 'pause.txt').exists() and not optin:
         if m in ('open', 'now', 'close'):
             import subprocess

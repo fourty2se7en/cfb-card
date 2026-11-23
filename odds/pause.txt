@@ -1,5 +1,8 @@
 Paused Nov 23 2026 (Trina): the scheduled season loop reads full game lines (open, now, close) from ESPN's free DraftKings
-lines (season/espn_lines.py) instead of The Odds API until the credit cycle resets. No props, first half or period lines, or
-team totals from the loop while this file exists. Delete this file to go back to The Odds API.
-Card runs that push odds/run.txt get ESPN lines too; add the word "credits" to line 1 (for example "props_now nfl credits")
+lines (season/espn_lines.py) instead of The Odds API until the credit cycle resets (about Dec 9). No first half or period
+lines or team totals while this file exists. Delete this file to go back to The Odds API.
+Props keep running (Trina, Nov 23 3:10 PM): props_open still spends Odds API credits, each game read once (10:05, with 1:45
+and 3:15 passes for late posts), about 90 credits a day; it stops under 1,000 credits (PAUSE_PROPS_RESERVE). No props_now
+rereads and no closing props, so props grade at the line read. props_build.py reads the props_open files as usual.
+Card runs that push odds/run.txt get ESPN lines; add the word "credits" to line 1 (for example "props_now nfl credits")
 to spend Odds API credits on that one request.
