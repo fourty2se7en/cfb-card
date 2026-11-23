@@ -1,0 +1,29 @@
+ANA: Gauthier 23g 21-9-30 99sh s2:20 s3:18 s4:15 p16 g11 a9 pp16 | Carlsson 24g 7-22-29 41sh s2:13 s3:4 s4:1 p16 g7 a13 pp18 | Granlund 23g 8-18-26 44sh s2:14 s3:6 s4:2 p15 g8 a13 pp12 | Sennecke 22g 12-14-26 53sh s2:16 s3:9 s4:5 p15 g9 a9 pp11
+CBJ: Johnson 21g 9-13-22 49sh s2:14 s3:9 s4:5 p17 g8 a12 pp5 | Werenski 21g 5-15-20 68sh s2:16 s3:14 s4:8 p15 g5 a12 pp5 | Coyle 21g 3-11-14 47sh s2:13 s3:6 s4:3 p9 g2 a8 pp5 | Knies 21g 6-8-14 40sh s2:11 s3:7 s4:3 p9 g5 a7 pp5 | Fantilli 21g 7-4-11 66sh s2:18 s3:12 s4:8 p8 g7 a4 pp3
+CGY: Farabee 24g 7-11-18 66sh s2:19 s3:13 s4:6 p13 g7 a9 pp9 | Coronato 24g 5-11-16 51sh s2:15 s3:10 s4:3 p10 g5 a6 pp7 | Frost 24g 5-9-14 35sh s2:10 s3:4 s4:1 p11 g5 a8 pp6 | Gridin 24g 6-8-14 51sh s2:16 s3:7 s4:5 p10 g5 a8 pp5 | Backlund 22g 3-5-8 56sh s2:14 s3:8 s4:6 p8 g3 a5 pp0
+LAK: Panarin 17g 8-11-19 56sh s2:15 s3:14 s4:6 p10 g7 a7 pp8 | Kempe 20g 6-8-14 58sh s2:14 s3:12 s4:6 p9 g3 a8 pp7 | Laferriere 21g 4-10-14 65sh s2:18 s3:10 s4:7 p10 g4 a6 pp4 | Clarke 21g 3-11-14 32sh s2:7 s3:4 s4:2 p12 g3 a10 pp4
+MIN: Kaprizov 25g 18-27-45 75sh s2:20 s3:17 s4:9 p23 g14 a17 pp14 | Hughes 24g 8-26-34 63sh s2:18 s3:13 s4:7 p22 g8 a21 pp13 | Boldy 25g 14-15-29 99sh s2:24 s3:20 s4:12 p16 g9 a13 pp8 | Eriksson Ek 25g 8-15-23 78sh s2:23 s3:16 s4:7 p16 g8 a11 pp8
+MTL: Hutson 24g 5-19-24 47sh s2:14 s3:8 s4:2 p15 g4 a13 pp6 | Suzuki 18g 9-11-20 47sh s2:14 s3:9 s4:5 p12 g9 a7 pp4 | Caufield 24g 12-8-20 79sh s2:20 s3:17 s4:10 p13 g8 a7 pp4 | Slafkovský 24g 2-12-14 54sh s2:16 s3:10 s4:4 p10 g2 a9 pp5
+NJD: Hughes 23g 10-19-29 87sh s2:23 s3:16 s4:10 p17 g8 a14 pp9 | Bratt 23g 4-18-22 53sh s2:18 s3:7 s4:6 p16 g4 a15 pp7 | Gritsyuk 23g 8-9-17 51sh s2:12 s3:5 s4:5 p13 g7 a8 pp4 | Hischier 23g 9-7-16 49sh s2:13 s3:9 s4:5 p12 g7 a7 pp8 | Meier 23g 6-6-12 86sh s2:20 s3:16 s4:10 p9 g5 a5 pp3 | Hamilton 23g 2-8-10 64sh s2:17 s3:11 s4:5 p9 g2 a7 pp1
+NYI: Schaefer 22g 9-17-26 80sh s2:19 s3:13 s4:9 p17 g6 a12 pp7 | Horvat 22g 9-12-21 67sh s2:21 s3:14 s4:7 p16 g8 a10 pp7 | Holmstrom 22g 10-8-18 38sh s2:13 s3:6 s4:1 p12 g7 a8 pp2 | Schenn 22g 6-10-16 33sh s2:10 s3:4 s4:1 p11 g6 a8 pp4 | Palmieri 22g 4-5-9 43sh s2:16 s3:6 s4:2 p7 g3 a4 pp0
+OTT: Stützle 24g 13-18-31 56sh s2:14 s3:8 s4:6 p19 g11 a15 pp7 | Batherson 24g 12-10-22 52sh s2:15 s3:8 s4:3 p15 g10 a9 pp5 | Pinto 24g 9-8-17 44sh s2:14 s3:5 s4:3 p13 g8 a8 pp3 | Cozens 24g 6-10-16 49sh s2:15 s3:9 s4:4 p10 g4 a9 pp3 | Zetterlund 24g 2-9-11 50sh s2:13 s3:8 s4:6 p11 g2 a9 pp2
+SEA: Catton 20g 8-10-18 30sh s2:7 s3:4 s4:3 p12 g6 a8 pp4 | Montour 19g 3-12-15 36sh s2:13 s3:6 s4:1 p11 g3 a9 pp3 | Kakko 20g 3-11-14 22sh s2:6 s3:2 s4:0 p11 g3 a9 pp3 | Samoskevich 19g 6-8-14 36sh s2:11 s3:7 s4:4 p11 g5 a7 pp1 | McMann 20g 3-3-6 50sh s2:14 s3:10 s4:4 p6 g3 a3 pp2 | Eberle 20g 6-7-13 42sh s2:11 s3:6 s4:4 p12 g6 a7 pp8 | Dunn 20g 3-8-11 41sh s2:11 s3:6 s4:4 p9 g3 a7 pp5
+SJS: Celebrini 23g 10-19-29 96sh s2:22 s3:16 s4:14 p15 g9 a12 pp12 | Smith 25g 8-11-19 60sh s2:18 s3:13 s4:5 p13 g6 a10 pp7 | Orlov 25g 3-14-17 24sh s2:5 s3:0 s4:0 p10 g3 a8 pp10 | Stenberg 25g 8-8-16 42sh s2:13 s3:5 s4:3 p12 g8 a8 pp9 | Toffoli 25g 6-8-14 51sh s2:14 s3:9 s4:3 p10 g6 a8 pp7
+TOR: Matthews 25g 14-19-33 81sh s2:21 s3:16 s4:12 p19 g13 a13 pp12 | Nylander 25g 11-14-25 62sh s2:16 s3:12 s4:7 p14 g8 a10 pp9 | Roslovic 24g 9-14-23 61sh s2:18 s3:11 s4:6 p16 g8 a13 pp2 | Cowan 25g 8-9-17 49sh s2:15 s3:7 s4:3 p13 g8 a8 pp1 | Raddysh 25g 1-15-16 62sh s2:18 s3:11 s4:5 p14 g1 a14 pp8
+UTA: Keller 23g 5-24-29 60sh s2:17 s3:11 s4:8 p19 g4 a18 pp18 | Cooley 21g 12-13-25 35sh s2:11 s3:7 s4:1 p15 g7 a12 pp14 | Sergachev 24g 6-16-22 60sh s2:18 s3:11 s4:7 p15 g6 a12 pp12 | Schmaltz 19g 9-11-20 48sh s2:14 s3:10 s4:3 p12 g8 a7 pp12
+WPG: Scheifele 24g 8-22-30 53sh s2:16 s3:10 s4:3 p15 g7 a13 pp10 | Connor 24g 19-11-30 101sh s2:24 s3:18 s4:14 p16 g15 a9 pp9 | Perfetti 24g 9-11-20 66sh s2:19 s3:13 s4:8 p13 g8 a7 pp10 | Vilardi 24g 3-13-16 51sh s2:18 s3:7 s4:2 p12 g3 a11 pp7
+GOALIES (season: GS W-L-OT GAA SV%)
+ANA Dostal 12 4-6-1 3.94 .857; Husso 7 3-5-0 3.55 .854; Brossoit 5 4-1-0 3.42 .867
+CBJ Talbot 11 7-4-0 2.64 .907; Greaves 10 2-8-0 3.42 .875
+CGY Wolf 13 5-6-2 3.45 .877; Cooley 10 5-5-0 2.89 .906; Sergeev 1 0-1-0 5.00 .853
+LAK Kuemper 13 7-5-1 3.22 .885; Forsberg 8 0-7-1 2.60 .901
+MIN Wallstedt 22 16-2-4 1.99 .923; Pickard 3 1-1-1 3.60 .855
+MTL Fowler 15 10-3-2 2.31 .918; Dobes 9 4-3-2 3.60 .864
+NJD Allen 10 6-5-0 3.31 .873; Hellebuyck 9 7-1-0 2.80 .897; Daws 4 2-2-0 2.78 .872
+NYI Sorokin 15 9-4-2 2.39 .918; Varlamov 7 2-2-3 2.79 .889
+OTT Ullmark 12 11-1-0 1.47 .937; Ersson 8 3-3-3 3.43 .869; Johansson 4 1-2-0 4.60 .848
+SEA Grubauer 11 6-5-1 3.02 .894; Daccord 9 4-4-0 4.10 .872
+SJS Askarov 16 6-9-1 3.29 .888; Nedeljkovic 9 5-3-1 3.07 .902
+TOR Bobrovsky 14 3-9-2 3.65 .874; Stolarz 11 5-5-1 2.83 .902
+UTA Vejmelka 15 6-7-2 3.14 .872; Cossa 9 6-2-1 3.09 .886
+WPG Skinner 17 7-5-4 3.32 .883; Stevenson 4 1-3-0 3.61 .870; Daws 3 3-1-0 2.47 .906

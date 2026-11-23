@@ -1,0 +1,58 @@
+[
+ {
+  "id": 2026020378,
+  "away": "CBJ",
+  "home": "NJD",
+  "start": "2026-11-24T00:00:00Z",
+  "venue": "Prudential Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020379,
+  "away": "LAK",
+  "home": "MTL",
+  "start": "2026-11-24T00:30:00Z",
+  "venue": "Centre Bell",
+  "neutral": false
+ },
+ {
+  "id": 2026020380,
+  "away": "CGY",
+  "home": "OTT",
+  "start": "2026-11-24T00:30:00Z",
+  "venue": "Canadian Tire Centre",
+  "neutral": false
+ },
+ {
+  "id": 2026020381,
+  "away": "TOR",
+  "home": "NYI",
+  "start": "2026-11-24T00:30:00Z",
+  "venue": "UBS Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020382,
+  "away": "UTA",
+  "home": "WPG",
+  "start": "2026-11-24T00:30:00Z",
+  "venue": "Canada Life Centre",
+  "neutral": false
+ },
+ {
+  "id": 2026020383,
+  "away": "ANA",
+  "home": "SEA",
+  "start": "2026-11-24T02:40:00Z",
+  "venue": "Climate Pledge Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020384,
+  "away": "MIN",
+  "home": "SJS",
+  "start": "2026-11-24T03:00:00Z",
+  "venue": "SAP Center at San Jose",
+  "neutral": false
+ }
+]
