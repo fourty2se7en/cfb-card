@@ -1,0 +1,132 @@
+# Action Network sharp report, experts and Daily Faceoff goalies, read Mon Nov 23 2026 ~4:20 PM Phoenix
+# Sharp: signals SA BM PS MP TE, two digits each: first = away (or Over), second = home (or Under). Only games with a lit signal are listed.
+## NFL (MNF)
+CIN@WAS SPREAD 01 00 00 01 01 | TOTAL 10 00 01 01 00 | ML 00 01 00 01 00
+## NBA SPREAD
+BKN@MIN 10 00 00 10 00
+MIL@TOR 10 00 00 10 00
+POR@PHI 10 00 00 00 00
+MEM@CHA 01 00 00 00 00
+PHX@NOP 01 00 00 00 00
+CLE@CHI 00 00 00 01 00
+LAC@HOU 01 00 00 00 00
+SAS@SAC 01 00 00 00 00
+UTA@LAL 01 00 00 10 00
+## NBA TOTAL
+MEM@CHA 01; OKC@IND 10; BKN@MIN 01; MIL@TOR 01; PHX@NOP 01; CLE@CHI 01; LAC@HOU 01; SAS@SAC 01; UTA@LAL 01 (SA only; other signals 00)
+## NBA ML: none lit
+## NHL PUCK LINE: none lit
+## NHL TOTAL
+LA@MTL 01 00 00 00 00
+CBJ@NJ 01 10 00 00 00
+CGY@OTT 01 10 00 00 00
+ANA@SEA 10 00 00 00 01
+MIN@SJ 01 10 00 00 00
+## NHL ML
+TOR@NYI 00 10 00 00 00
+CGY@OTT 01 00 00 00 00
+UTA@WPG 00 00 10 00 00
+LA@MTL 01 00 00 00 00
+ANA@SEA 01 00 00 00 00
+MIN@SJ 01 00 10 00 00
+## NCAAM SPREAD ("@?" = home name missing, match by away team)
+UNC Greensboro@Pepperdine 10 00 00 10 00
+Temple@TN-Martin 10 00 00 10 00
+GA Southern@N Kentucky 10 00 00 00 00
+Fairleigh@? (Iona) 00 10 00 00 00
+C. Arkansas@? (North Florida) 10 00 00 00 00
+Illinois St@Santa Clara 10 00 00 01 01
+Denver@Kansas 10 00 00 00 00
+Winthrop@? (Illinois) 10 00 00 00 00
+SFA@Utah Valley 01 00 00 00 00
+E. Washington@UNLV 01 00 00 00 00
+Alabama St@? (California) 10 00 00 00 00
+Colorado St@Arizona 10 00 00 00 00
+Southern Utah@Arkansas St 01 00 00 00 00
+MD-E Shore@? (Youngstown St) 10 00 00 00 00
+N. Iowa@Davidson 01 00 00 00 00
+Indiana St@E. Carolina 01 00 00 01 00
+LBSU@FIU 10 00 00 00 00
+Charlotte@? (FGCU) 10 00 00 00 00
+Akron@Wright State 01 00 00 01 00
+Middle Tenn@S. Illinois 01 00 00 10 00
+IUIN@William & Mary 01 00 00 00 00
+Tulane@Georgia State 01 00 00 10 00
+Yale@Belmont 10 00 00 01 00
+## NCAAM TOTAL
+Texas A&M-CC@? (Wichita St) 01 01 00 00 00
+VCU@Providence 00 00 01 01 00
+GA Southern@N Kentucky 01 00 00 00 00
+Fairleigh@? 10 00 00 00 00
+C. Arkansas@? 10 00 00 00 00
+Illinois St@Santa Clara 01 00 01 10 00
+Monmouth@UNC 01 00 00 00 00
+Winthrop@? 10 00 00 00 00
+SFA@Utah Valley 01 00 01 10 00
+UNC Greensboro@Pepperdine 01 00 00 00 00
+Seattle@Loyola (IL) 10 00 00 00 00
+Colorado St@Arizona 10 00 00 00 00
+Southern Utah@Arkansas St 01 00 00 00 00
+Nevada@San Francisco 01 00 00 00 00
+Temple@TN-Martin 01 00 00 00 00
+MD-E Shore@? 01 00 00 00 00
+NC A&T@? (SC State) 01 00 00 10 00
+Alabama St@? 01 00 00 10 00
+UCSD@San Jose St 10 00 01 00 00
+Washington@BYU 01 10 00 00 00
+N. Iowa@Davidson 01 00 01 00 00
+St. Bonaventure@App State 10 00 00 01 00
+Indiana St@E. Carolina 10 10 01 00 00
+LBSU@FIU 01 00 00 00 00
+Charlotte@? 01 00 00 10 00
+Akron@Wright State 10 00 00 01 00
+Tulsa@Oregon St 10 00 00 10 00
+Ole Miss@Clemson 01 00 01 00 00
+Middle Tenn@S. Illinois 01 00 00 00 00
+IUIN@William & Mary 01 10 00 00 00
+Tulane@Georgia State 01 00 01 10 00
+Yale@Belmont 10 00 01 00 00
+## NCAAM ML
+C. Arkansas@? 00 01 00 00 00
+Illinois St@Santa Clara 00 00 00 01 00
+UNC Greensboro@Pepperdine 00 00 00 10 00
+Southern Utah@Arkansas St 00 10 00 00 00
+Nevada@San Francisco 00 01 00 00 00
+MD-E Shore@? 00 10 00 00 00
+Temple@TN-Martin 00 01 00 10 00
+Indiana St@E. Carolina 00 00 00 01 00
+Akron@Wright State 00 00 00 01 00
+Middle Tenn@S. Illinois 00 00 00 10 00
+Tulane@Georgia State 00 10 00 10 10
+Yale@Belmont 00 00 00 01 00
+
+# Experts (named people, game markets, unsettled). Profile: https://www.actionnetwork.com/picks/profile/<username>
+## NBA
+POR@PHI :: Brandon Kravitz (BKPicks) POR +3.5 -115
+MEM@CHA :: Matt Moore (HPBasketball) MEM -3.5 -111
+OKC@IND :: Brandon Kravitz (BKPicks) OKC -4.5 -106; Wags Wins (wagsischasing) Under 222.5 -115
+BKN@MIN :: Brian Bitler (BrianBitlerWins) BKN +11.5 -100
+PHX@NOP :: Brian Bitler (BrianBitlerWins) NOP +3.5 +102
+LAC@HOU :: Matt Moore (HPBasketball) HOU -12.5 -110
+SAS@SAC :: Brian Bitler (BrianBitlerWins) SAC +10.5 +106
+UTA@LAL :: Matt Moore (HPBasketball) LAL -13.5 -110
+MIL@TOR, CLE@CHI :: none
+## NHL
+CBJ@NJ :: Austin Pendergrass (ABonARoll) NJ ML -140
+TOR@NYI :: tonysartori99 (tonysartori99_) NYI ML -160
+CGY@OTT :: Austin Pendergrass (ABonARoll) OTT ML -155; tonysartori99 (tonysartori99_) OTT -1.5 +120
+LA@MTL :: Wags Wins (wagsischasing) MTL ML -143
+ANA@SEA :: Nick Martin (NicholaskMartin) Under 6.5 +111; Wags Wins (wagsischasing) ANA ML -104
+MIN@SJ :: tonysartori99 (tonysartori99_) MIN -1.5 +126
+UTA@WPG :: none
+## NFL MNF
+CIN@WAS :: Stuckey (Stuckey2) WAS +6.5 -115; Kody Malstrom (kmalstrom) Under 54.5 -115; Anthony Dabbundo (AnthonyDabbundo) WAS +6 -100; Doug Ziefel (Dziefel7) Over 51.5 -110 and CIN -4.5 -110; Ryan Minion (VegasMinion) WAS +6 -110; Brandon Kravitz (BKPicks) WAS +6 -101; Anders (AndersPicks) WAS +6.5 -115; Frank Ammirante (FAmmiranteTFJ) WAS +6 -105; Adam Kaufman (AdamKaufman) CIN -5.5 -120 (plus period picks); John Feltman (johnfeltmanli_) WAS +7.5 -130; Kendra Middleton (KendraMiddleton_) WAS +5.5 -105
+
+# NHL starting goalies, Daily Faceoff, ~4:25 PM Phoenix. away vs home (status). Times Phoenix.
+CBJ@NJ 5:00 pm | Cam Talbot (Confirmed) vs Connor Hellebuyck (Confirmed)
+LA@MTL 5:30 pm | Darcy Kuemper (Unconfirmed) vs Jakub Dobes (Confirmed)
+CGY@OTT 5:30 pm | Devin Cooley (Confirmed) vs Linus Ullmark (Confirmed)
+TOR@NYI 5:30 pm | Anthony Stolarz (Confirmed) vs Ilya Sorokin (Likely)
+UTA@WPG 5:30 pm | Sebastian Cossa (Confirmed) vs Stuart Skinner (Likely)
+ANA@SEA 7:40 pm | Lukas Dostal (Unconfirmed) vs Joey Daccord (Likely)
+MIN@SJ 8:00 pm | Filip Gustavsson (Confirmed) vs Yaroslav Askarov (Confirmed)

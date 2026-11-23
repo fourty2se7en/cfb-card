@@ -292,6 +292,16 @@ for pdoc in pick_docs:
         if not hit:
             hit = [item(TRIG[rule], f"model gap {abs(gap):.1f}", None, 'Card model')]; d['reasons'].insert(0, hit[0])
         it = hit[0]; it['points'] = gp(abs(gap)); it['detail'] += f" (model gap {abs(gap):.1f} = {gp(abs(gap))} points)"
+    # B168 (Nov 23): a line that moved against the pick since the line the rule used counts 2 points against (season-cards tier rule).
+    # EARLY_* rules read the opening total; every other rule reads the current line (no move between rule line and pick line).
+    if rule in ('EARLY_UNDER_OPEN', 'EARLY_OVER_OPEN') and m.get('open_total') is not None and d.get('market') == 'Total':
+        try: cur = float(str(d['pick']).split()[-1])
+        except ValueError: cur = None
+        ot = float(m['open_total']); under = str(d['pick']).startswith('Under')
+        moved = None if cur is None else ((ot - cur) if under else (cur - ot))
+        d['against'] = [x for x in d['against'] if x.get('label') != 'Total moved against the pick']
+        if moved and moved > 0:
+            d['against'].append(item('Total moved against the pick', f"the rule read the open {ot:g}; the total is now {cur:g}, {moved:g} points {'lower' if under else 'higher'}, so the {'Under' if under else 'Over'} gets a worse number than the rule used", 2, 'Card rule'))
     f_ = sum(x['points'] or 0 for x in d['reasons']); a_ = sum(x['points'] or 0 for x in d['against'])
     d['rule_tier'] = 'Thin'; d['tier'] = tierof(f_ - a_); d['tier_basis'] = f"signal lead {f_ - a_} (for {f_}, against {a_})"
     if d['market'] != 'Moneyline':
