@@ -1,4 +1,4 @@
-ESPN 2025-26 home/road splits per prop stat (avg x games), built Nov 23 about 3:16 PM Phoenix. B2B rows: players with 20+ games in the repo logs, both seasons: group (S = 28+ MPG, O = 15 to 28), b2b games, b2b MPG, b2b PRA per minute, other games, other MPG, other PRA per minute
+ESPN 2025-26 home/road splits per prop stat (avg x games), built Nov 23 about 3:29 PM Phoenix. B2B rows: players with 20+ games in the repo logs, both seasons: group (S = 28+ MPG, O = 15 to 28), b2b games, b2b MPG, b2b PRA per minute, other games, other MPG, other PRA per minute
 Ace Bailey|a1.5:h2.1x37a1.5x35 p13.5:h15.6x37a11.8x35 r5.5:h4.1x37a4.3x35 t1.5:h2.5x37a1.3x35
 Ajay Mitchell|a3.5:h3.5x30a3.8x27 p17.5:h13.3x30a13.9x27 r3.5:h3.0x30a3.7x27 t0.5:h1.1x30a1.0x27
 Allen Graves|p8.5:h0.0x0a0.0x0 r4.5:h0.0x0a0.0x0
