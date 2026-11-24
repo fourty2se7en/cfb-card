@@ -1,0 +1,179 @@
+# Action Network sharp report (Chrome, signed in), experts and Daily Faceoff goalies, read Tue Nov 24 2026 ~10:30 AM Phoenix
+# Signals SA BM PS MP TE, two digits each: first = away (or Over), second = home (or Under). Only lit games listed. "@?" = home name missing, match by away team.
+## NBA
+SPREAD: DET@ORL 10 00 00 00 00 | BOS@WAS 10 00 00 00 00 | DAL@DEN 10 00 00 00 00
+TOTAL: DET@ORL 01 00 00 00 00 | BOS@WAS 01 00 00 00 00 | DAL@DEN 01 00 00 00 00
+ML: none lit
+## NHL
+PUCK LINE: VGK@EDM 00 01 10 00 00
+TOTAL: VGK@EDM 01 00 00 00 00
+ML: VGK@EDM 00 01 10 00 00
+## FBS (MAC)
+SPREAD: KENT@EMU none; M-OH@WMU none
+TOTAL: KENT@EMU 10 00 00 00 00; M-OH@WMU 01 00 00 00 00
+ML: KENT@EMU 00 10 00 00 00; M-OH@WMU 00 10 00 00 00
+## NCAAM SPREAD
+Bryant U@? (Marist) 01 00 00 01 00
+Tarleton St@Weber State 10 00 00 10 00
+Maryland@Tennessee 10 10 00 01 10
+Campbell@Coastal Car 10 00 00 00 00
+Nevada@Santa Clara 10 00 00 01 01
+Charleston So@? (JMU) 10 00 00 00 00
+Vermont@? (Siena) 01 00 00 00 00
+St. Mary's@? (Morgan St) 10 00 00 00 00
+Gardner-Webb@? (Bowling Green) 01 00 00 00 00
+New Hampshire@? (Seton Hall) 00 00 00 00 10
+Hampton@Old Dominion 01 00 00 00 00
+Binghamton@? (Lehigh) 00 00 00 00 10
+Duquesne@? (High Point) 01 00 00 00 00
+IPFW@SE Missouri 01 00 00 00 00
+Louisville@Texas Tech 10 00 00 01 10
+Army@? (Air Force) 01 00 00 00 00
+Bucknell@? (Cornell) 01 00 00 00 00
+Oral Roberts@UT-Arlington 00 00 00 01 00
+C. Michigan@Notre Dame 00 00 00 00 10
+Alabama A&M@? (North Alabama) 00 00 00 01 00
+UTEP@Charleston 01 00 00 00 00
+UNC Asheville@? (Florida St) 01 00 00 00 00
+Alabama@Baylor 00 00 00 10 00
+St. John's@Oregon 10 00 00 00 00
+Colorado St@VCU 10 00 00 00 00
+Stanford@Colorado 00 00 00 01 00
+Belmont@Akron 10 00 00 00 00
+Southern Utah@FIU 10 00 00 00 00
+Pittsburgh@Oklahoma 01 00 00 00 00
+Oregon St@San Francisco 01 00 00 00 00
+North Dakota@Detroit 10 00 00 00 00
+App State@Yale 01 00 00 00 00
+Arkansas St@LBSU 10 00 00 00 00
+Tulsa@Illinois St 10 00 00 00 00
+Arizona@Providence 00 00 00 10 00
+Michigan@Creighton 01 00 00 00 00
+Kent State@Wyoming 00 00 00 01 00
+Queens@? (Wofford) 00 00 00 10 00
+E. Michigan@Kennesaw St 01 00 00 00 00
+Sacred Heart@Rutgers 10 00 00 00 00
+Mercer@FAU 00 00 00 01 00
+Elon@Furman 10 00 00 00 00
+Lamar@? (Robert Morris) 10 00 00 00 00
+Drexel@Penn 10 00 00 01 00
+Sam Houston@Washington St 01 00 00 10 00
+K State@Gonzaga 01 10 00 00 00
+N. Mexico St@Ohio 01 00 00 10 00
+TCU@Miami (FL) 10 00 00 01 00
+Iowa State@San Diego State 10 00 00 01 00
+DePaul@Purdue 10 00 00 01 00
+Wright State@St. Bonaventure 10 00 00 10 00
+## NCAAM TOTAL
+Duquesne@? 10 00 00 10 00
+UTEP@Charleston 01 00 01 00 00
+App State@Yale 01 00 00 01 00
+Arkansas St@LBSU 01 00 01 00 00
+Tulsa@Illinois St 10 00 00 10 00
+Queens@? 10 10 00 00 00
+Boston U@? (Harvard) 01 00 00 00 00
+Bryant U@? 01 00 00 00 00
+Nevada@Santa Clara 10 00 00 00 00
+Tarleton St@Weber State 01 00 00 00 00
+Vermont@? 00 00 00 00 10
+Delaware St@? (Chattanooga) 01 00 00 00 00
+Stetson@? (S. Florida) 01 00 00 00 00
+St. Mary's@? 01 00 00 00 00
+Vanderbilt@Ohio State 10 00 00 00 00
+Samford@G Tech 10 00 00 00 00
+Hampton@Old Dominion 01 01 00 10 00
+Milwaukee@Florida 01 01 00 10 00
+Rider@? (Loyola MD) 01 00 00 00 00
+UMBC@? (Iowa) 01 00 00 00 00
+GA Southern@? (Bellarmine) 01 00 00 00 00
+Binghamton@? 01 00 00 00 00
+West Georgia@Tenn Tech 10 00 00 00 00
+Hou Christian@? (UL Monroe) 01 00 00 00 00
+Alcorn State@? (LA Tech) 01 00 00 00 00
+Army@? 00 01 00 00 00
+Green Bay@UMKC 10 00 00 00 00
+Lipscomb@? (Auburn) 00 10 00 00 00
+Bucknell@? 10 00 00 00 00
+Oral Roberts@UT-Arlington 01 00 00 00 00
+Idaho State@Boise State 10 00 00 00 00
+UNC Asheville@? 10 00 00 00 00
+Sam Houston@Washington St 01 00 00 00 00
+Grand Canyon@Saint Louis 00 10 00 00 00
+Alabama@Baylor 01 00 00 00 00
+Stanford@Colorado 10 01 00 10 00
+K State@Gonzaga 10 00 00 00 00
+SE Louisiana@N. Colorado 01 01 00 10 00
+Belmont@Akron 01 00 00 00 00
+Southern Utah@FIU 10 00 00 00 00
+Pittsburgh@Oklahoma 00 00 01 00 00
+UIC@Rice 10 00 00 00 00
+Oregon St@San Francisco 01 00 01 10 00
+North Dakota@Detroit 01 00 01 10 00
+Maryland@Tennessee 10 00 01 01 00
+New Haven@? (Lindenwood) 01 00 00 00 00
+Arizona@Providence 00 00 01 00 00
+Iowa State@San Diego State 10 00 00 00 00
+Michigan@Creighton 01 00 00 00 00
+Kent State@Wyoming 10 00 00 00 00
+Southern Indiana@VMI 01 00 00 00 00
+E. Michigan@Kennesaw St 00 00 01 00 00
+Sacred Heart@Rutgers 10 00 00 00 00
+Elon@Furman 01 00 00 00 00
+Lamar@? 00 00 00 01 00
+Charleston So@? 10 00 00 01 00
+Coppin St@? (Villanova) 10 00 00 01 00
+Gardner-Webb@? 01 00 00 10 00
+IPFW@SE Missouri 01 00 00 10 00
+Louisville@Texas Tech 10 00 01 00 00
+Drexel@Penn 01 00 00 10 00
+C. Michigan@Notre Dame 01 00 00 10 00
+Florida A&M@? (S. Alabama) 01 00 00 10 00
+Washington@Clemson 10 00 01 00 00
+UNC Greensboro@UCSB 01 00 00 10 00
+St. John's@Oregon 10 01 01 10 00
+N. Mexico St@Ohio 00 00 01 10 00
+BYU@Ole Miss 10 00 01 00 00
+TCU@Miami (FL) 10 00 01 00 00
+DePaul@Purdue 01 00 00 10 00
+Wright State@St. Bonaventure 01 00 01 00 01
+## NCAAM ML
+Tarleton St@Weber State 00 10 00 10 00
+Stanford@Colorado 00 01 00 01 00
+Queens@? 00 10 00 10 00
+Bryant U@? 00 00 00 01 00
+Nevada@Santa Clara 00 01 00 00 00
+Drexel@Penn 00 00 00 01 00
+Oral Roberts@UT-Arlington 00 00 00 01 00
+Washington@Clemson 00 10 00 00 00
+UNC Asheville@? 00 10 00 00 00
+Sam Houston@Washington St 00 00 00 10 00
+Grand Canyon@Saint Louis 00 00 00 00 01
+Alabama@Baylor 00 00 00 10 00
+K State@Gonzaga 00 10 00 00 00
+N. Mexico St@Ohio 00 00 00 10 00
+Belmont@Akron 00 10 00 00 00
+Southern Utah@FIU 00 00 00 01 00
+UIC@Rice 00 01 00 00 00
+Maryland@Tennessee 00 00 00 01 00
+TCU@Miami (FL) 00 00 00 01 00
+Arizona@Providence 00 00 00 10 00
+Kent State@Wyoming 00 00 00 01 00
+DePaul@Purdue 00 00 00 01 00
+Mercer@FAU 00 00 00 01 00
+Lamar@? 00 01 00 00 00
+Louisville@Texas Tech 00 10 00 01 00
+Alabama A&M@? 00 10 00 01 00
+Wright State@St. Bonaventure 00 00 00 10 00
+
+# Experts (named people, game markets). Profile: https://www.actionnetwork.com/picks/profile/<username>
+## NBA
+DET@ORL :: nbaWatts (nbaWatts) DET -1.5 -115; nbaWatts (nbaWatts) DET alt -5.5 +152
+BOS@WAS :: Matt Moore (HPBasketball) WAS +10.5 -110; nbaWatts (nbaWatts) WAS +10.5 -100
+DAL@DEN :: Matt Moore (HPBasketball) DAL +8.5 -110; Brandon Kravitz (BKPicks) DAL +8.5 -113
+## NHL: none
+## FBS
+KENT@EMU :: Road to CFB (RoadtoCFB) KENT ML +190; Wags Wins (wagsischasing) Over 45.5 -120
+M-OH@WMU :: Brian Bitler (BrianBitlerWins) Under 45.5 -102; Wags Wins (wagsischasing) Under 46.5 -115
+
+# NHL goalies, Daily Faceoff ~10:30 AM
+VGK@EDM 6:00 pm | Adin Hill (Unconfirmed) vs Devon Levi (Confirmed)
