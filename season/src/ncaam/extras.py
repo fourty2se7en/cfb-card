@@ -218,7 +218,8 @@ for g in games:
         if ot is not None and g['tot'] is not None and ot != g['tot']:
             w = (g['tot'] < ot) == (side == 'under')
             (pro if w else con).append(dict(label='Total moved with the pick' if w else 'Total moved against the pick', detail=f"opened {ot:g}, {lines['book']} now {g['tot']:g}", points=None, source=f"DraftKings open, {lines['book']}"))
-        if g.get('etot') is not None and g['tot'] is not None:
+        # Trina Nov 24: when the total has not moved, model vs current is the same signal as model vs opener; count it once.
+        if g.get('etot') is not None and g['tot'] is not None and not (ot is not None and ot == g['tot']):
             w = (g['etot'] < g['tot']) == (side == 'under')
             (pro if w else con).append(dict(label='Model vs current total', detail=f"model {g['etot']:.1f} vs {g['tot']:g} now ({g['etot'] - g['tot']:+.1f})", points=None, source='Card model'))
         con.append(dict(label='Injuries unknown', detail='College injury reporting is thin; no confirmed absences pulled (LOW)', points=None, source='ESPN'))

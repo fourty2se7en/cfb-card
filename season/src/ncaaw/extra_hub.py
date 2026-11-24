@@ -149,7 +149,9 @@ for g in games:
     def total_reasons(side):
         out = []
         ot = g.get('t2o') if g.get('t2o') is not None else g.get('t1o')
-        if etot is not None and tot is not None:
+        # Trina Nov 24: when the total has not moved, model vs current and model vs opener are one signal; count it once.
+        same_open = ot is not None and tot is not None and ot == tot and etot is not None and ((side == 'under' and etot - ot <= -4) or (side == 'over' and etot - ot >= 4))
+        if etot is not None and tot is not None and not same_open:
             d_ = etot - tot
             if (side == 'under' and d_ < 0) or (side == 'over' and d_ > 0): out.append(item('Efficiency model total', f"model {etot:.1f} vs total {tot:g} ({d_:+.1f})", None, 'Card efficiency model'))
         if etot is not None and ot is not None:
