@@ -1,0 +1,5 @@
+EDM: McDavid 26g 13-45-58 68sh s2:22 s3:14 s4:6 p25 g11 a24 pp25 | Draisaitl 26g 23-24-47 98sh s2:25 s3:20 s4:14 p23 g16 a16 pp16 | Bouchard 26g 12-27-39 65sh s2:17 s3:12 s4:7 p22 g9 a21 pp15 | Podkolzin 26g 13-9-22 51sh s2:15 s3:7 s4:2 p16 g10 a8 pp9
+VGK: Eichel 25g 9-22-31 68sh s2:17 s3:11 s4:10 p18 g9 a14 pp13 | Marner 23g 4-23-27 58sh s2:16 s3:13 s4:4 p18 g4 a16 pp12 | Stone 25g 11-12-23 43sh s2:13 s3:8 s4:2 p17 g9 a10 pp13 | Hertl 25g 10-10-20 64sh s2:20 s3:13 s4:6 p14 g7 a9 pp8
+GOALIES (season: GS W-L-OT GAA SV%)
+EDM Levi 13 10-3-0 2.83 .896; Jarry 11 6-1-4 2.57 .907; Tomkins 2 1-1-0 3.09 .880
+VGK Hart 13 7-4-2 2.82 .886; Hill 12 7-2-3 2.61 .898
