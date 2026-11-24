@@ -1,1 +1,1 @@
-now nba,nhl,ncaam,ncaaw,nfl,fbs  17:23:37
+props_open nba,nhl,nfl,fbs,ncaam,ncaaw  17:36:21
