@@ -286,6 +286,10 @@ standings = dict(sport='ncaaw', updated=DATE, title_label=None, groups=groups)
 def gp(x): return min(4, int(x // 2))
 def tierof(l): return 'Strong' if l >= 4 else ('Solid' if l >= 2 else 'Lean')
 TRIG = {'MODEL_EDGE': 'Projection beats the spread', 'EFF_SPREAD': 'Efficiency model edge', 'EARLY_UNDER_OPEN': 'Model vs opening total', 'EARLY_OVER_OPEN': 'Model vs opening total', 'EFF_OVER': 'Efficiency model total'}
+GMOVE = {}
+for _gg in games:
+    _M = _gg['S']['M']
+    GMOVE[(_gg['away'], _gg['home'])] = dict(s=any(x not in (None, 0) for x in (_M.get('m1'), _M.get('m2'))), t=any(x not in (None, 0) for x in (_M.get('t') or [])))
 for pdoc in pick_docs:
     d = pdoc['data']; rule = d['rule']; m = d.get('model', {})
     gap = m.get('edge_vs_open') if rule in ('EARLY_UNDER_OPEN', 'EARLY_OVER_OPEN') else (m.get('edge') if rule in TRIG else None)
@@ -304,6 +308,19 @@ for pdoc in pick_docs:
         d['against'] = [x for x in d['against'] if x.get('label') != 'Total moved against the pick']
         if moved and moved > 0:
             d['against'].append(item('Total moved against the pick', f"the rule read the open {ot:g}; the total is now {cur:g}, {moved:g} points {'lower' if under else 'higher'}, so the {'Under' if under else 'Over'} gets a worse number than the rule used", 2, 'Card rule'))
+    # A89 (Trina, Nov 24): when the line has not moved from the opener, model signals measuring the edge against that same number
+    # (card projection and efficiency model) count once in the tier score: the highest scores, the rest show 0 points.
+    # When the line has moved, each model comparison counts (for the pick adds, against the pick counts against).
+    _g = GMOVE.get((d.get('away'), d.get('home')), {})
+    _moved = _g.get('t') if d.get('market') == 'Total' else _g.get('s')
+    _is_model = lambda x: x.get('label', '').startswith(('Projection beats the spread', 'Efficiency model edge', 'Efficiency model total', 'Model vs opening total'))
+    if not _moved:
+        for L in (d['reasons'], d['against']):
+            ms = [x for x in L if _is_model(x) and (x.get('points') or 0) > 0]
+            if len(ms) > 1:
+                keep = max(ms, key=lambda x: x['points'])
+                for x in ms:
+                    if x is not keep: x['points'] = 0; x['detail'] += f" (counted once with {keep['label']}: the line has not moved from the opener)"
     f_ = sum(x['points'] or 0 for x in d['reasons']); a_ = sum(x['points'] or 0 for x in d['against'])
     d['rule_tier'] = 'Thin'; d['tier'] = tierof(f_ - a_); d['tier_basis'] = f"signal lead {f_ - a_} (for {f_}, against {a_})"
     if d['market'] != 'Moneyline':

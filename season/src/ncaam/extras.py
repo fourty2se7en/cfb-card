@@ -129,15 +129,27 @@ for l in (W/'data'/'raw'/(os.environ.get('H1FILE') or f"t222_m1h_{DATE.replace('
     f = l.split('|'); H1[f[2]] = f
 
 MODEL_RULES = {'EARLY_UNDER_OPEN': 'Efficiency model vs opener', 'EARLY_OVER_OPEN': 'Efficiency model vs opener', 'EFF_SPREAD': 'Efficiency model vs spread', 'EFF_OVER': 'Model vs current total', 'MODEL_EDGE': 'Efficiency model vs spread'}
-def score(rule, pro, con):
-    """Season Cards tier scale (Nov 7): lead = reason points minus against points. Model rules: trigger gap 1 point per 2 (max 4); line moved against = 2 against."""
+MODEL_ITEM = lambda x: x['label'] in ('Efficiency model vs spread', 'Efficiency model vs opener', 'Model vs current total') or x['label'].lower().startswith('projection beats the spread')
+def score(rule, pro, con, moved=True):
+    """Season Cards tier scale (Nov 7): lead = reason points minus against points. Model rules: trigger gap 1 point per 2 (max 4); line moved against = 2 against.
+    A89 (Trina, Nov 24): model signals in the tier score. When the line has not moved from the opener, model signals that measure the
+    edge against that same number (the card projection, the efficiency model, model vs opener and model vs current) count once: the
+    highest one scores and the rest show with 0 points (every model still tracks its own rule record). When the line has moved, each
+    model comparison measures something different: each one that favors the pick adds points and each one that does not counts against."""
     if rule in MODEL_RULES:
-        for x in pro:
-            if x['label'] == MODEL_RULES[rule] and x['points'] is None:
+        for x in pro + con:
+            if MODEL_ITEM(x) and x['points'] is None and not x['label'].lower().startswith('projection'):
                 m = re.search(r'\(([+-][\d.]+)', x['detail']) or re.search(r'([+-][\d.]+) for', x['detail'])
                 gap = abs(float(m.group(1))) if m else 0; x['points'] = min(4, int(gap // 2))
         for x in con:
             if x['label'] == 'Total moved against the pick' and x['points'] is None: x['points'] = 2
+    if not moved:
+        for L in (pro, con):
+            ms = [x for x in L if MODEL_ITEM(x) and isinstance(x.get('points'), (int, float)) and x['points'] > 0]
+            if len(ms) > 1:
+                keep = max(ms, key=lambda x: x['points'])
+                for x in ms:
+                    if x is not keep: x['points'] = 0; x['detail'] = x['detail'] + ' (counted once with ' + keep['label'] + ': the line has not moved from the opener)'
     f = sum(x['points'] for x in pro if isinstance(x.get('points'), (int, float))); a = sum(x['points'] for x in con if isinstance(x.get('points'), (int, float)))
     lead = f - a; tier = 'Strong' if lead >= 4 else ('Solid' if lead >= 2 else 'Lean')
     return tier, f"signal lead {lead} (for {f}, against {a})"
@@ -331,7 +343,9 @@ for g in games:
         return (f"{tm} ML" if c['market'] == 'Moneyline' else (f"{tm} PK" if ln == 0 else f"{tm} {ln:+g}")), ln
     def details(c, kind):
         pro, con = tot_reasons(c['side']) if kind == 'total' else side_reasons(c['side'])
-        tier, basis = score(c['rule'], pro, con)
+        if kind == 'total': _mv = not (ot is not None and g['tot'] is not None and ot == g['tot'])
+        else: _mv = not (e.get('o') is not None and g['sp'] is not None and e['o'] == g['sp'])
+        tier, basis = score(c['rule'], pro, con, _mv)
         s = RS[c['rule']]
         rr = dict(rule=c['rule'], every_game=rs(s['season']), card=card(c['rule']), last_3_weeks=rs(s['season']) + ' (season began Nov 2)')
         trc = tier_rec(c['rule'], tier)
