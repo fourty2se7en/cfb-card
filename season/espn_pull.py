@@ -114,11 +114,22 @@ def depth(sport, day):
             for a in (grp_.get('items') if isinstance(grp_, dict) and 'items' in grp_ else [grp_]):
                 if isinstance(a, dict) and a.get('id'): names[str(a['id'])] = dict(n=a.get('displayName'), pos=(a.get('position') or {}).get('abbreviation'),
                                                                                status=((a.get('injuries') or [{}])[0] or {}).get('status'))
+        if not ((dc or {}).get('depthchart') or (dc or {}).get('items')):   # college: core API depth chart, athletes as $ref ids
+            yr = int(day[:4]) if int(day[5:7]) >= 7 else int(day[:4]) - 1
+            core = j(f'https://sports.core.api.espn.com/v2/sports/{lg}/leagues/{ln}/seasons/{yr}/teams/{tid}/depthcharts?limit=50')
+            items = []
+            for it in (core or {}).get('items', []):
+                pos = {}
+                for k2, v2 in (it.get('positions') or {}).items():
+                    pos[k2] = {'athletes': [dict(athlete=dict(id=str((x.get('athlete') or {}).get('$ref', '')).rstrip('/').split('/')[-1].split('?')[0]), rank=x.get('rank'))
+                                            for x in (v2.get('athletes') or [])]}
+                items.append(dict(name=it.get('name'), positions=pos))
+            dc = {'items': items}
         charts = []
         for ch in (dc or {}).get('depthchart', []) or (dc or {}).get('items', []) or []:
             pos = {}
             for k, v in (ch.get('positions') or {}).items():
-                pos[k] = [dict(id=str((x.get('athlete') or {}).get('id') or x.get('id') or ''), n=(x.get('athlete') or {}).get('displayName') or x.get('displayName'), rank=x.get('rank'))
+                pos[k] = [dict(id=str((x.get('athlete') or {}).get('id') or x.get('id') or ''), n=(x.get('athlete') or {}).get('displayName') or x.get('displayName') or (names.get(str((x.get('athlete') or {}).get('id') or '')) or {}).get('n'), rank=x.get('rank'))
                           for x in (v.get('athletes') or [])]
             charts.append(dict(name=ch.get('name'), positions=pos))
         out[ab or tid] = dict(id=tid, charts=charts, roster=names)

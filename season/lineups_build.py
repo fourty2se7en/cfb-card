@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 ESPN = ROOT / 'data' / 'espn'
 TO_ESPN = {'nba': {'GSW': 'GS', 'NYK': 'NY', 'SAS': 'SA', 'NOP': 'NO', 'UTA': 'UTAH', 'WAS': 'WSH'},
-           'nhl': {'TBL': 'TB', 'LAK': 'LA', 'NJD': 'NJ', 'SJS': 'SJ', 'UTA': 'UTAH'}}
+           'nhl': {'TBL': 'TB', 'LAK': 'LA', 'NJD': 'NJ', 'SJS': 'SJ'}}
 OUT_WORDS = ('out', 'injured reserve', 'suspension')
 
 
