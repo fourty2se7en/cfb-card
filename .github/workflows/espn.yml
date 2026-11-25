@@ -1,5 +1,5 @@
 # On-demand ESPN pulls (Nov 19 2026, B97 and B161). Push season/espn_run.txt; line 1 = "<kind> [sports]"
-# kind: slate, finals or ahead (next 7 Phoenix days, for Upcoming games). The scheduled pulls stay in season.yml.
+# kind: slate, finals, ahead (next 7 Phoenix days, for Upcoming games) or news (game previews, game news, injuries; A92). The scheduled pulls stay in season.yml.
 name: espn
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
       - run: pip install requests
       - name: Pull
         run: |
-          k=$(head -1 season/espn_run.txt | awk '{print $1}'); case "$k" in slate|finals|ahead) ;; *) k=ahead ;; esac
+          k=$(head -1 season/espn_run.txt | awk '{print $1}'); case "$k" in slate|finals|ahead|news) ;; *) k=ahead ;; esac
           sp=$(head -1 season/espn_run.txt | awk '{print $2}' | grep -E '^[a-z,]+$' || true)
           python3 season/espn_pull.py "$k" "$sp" "$(TZ=America/Phoenix date +%F)"
       - name: Commit

@@ -4,6 +4,7 @@
     kind: finals  yesterday's scoreboard with period scores plus trimmed box scores (grading, game logs, backtests)
           slate   today's scoreboard, injuries, standings, rankings, transactions (pick inputs)
           ahead   scoreboards for the next 7 Phoenix days (Upcoming games on Season Cards; Trina Nov 19, B161)
+          news    today's game previews, game news, injuries and league headlines (Trina Nov 24, A92: why a line moved)
 Writes season/data/espn/<sport>/<date>/<name>.json.gz. A missing feed is skipped, never fatal."""
 import datetime as dt, gzip, json, sys, time
 from pathlib import Path
@@ -74,9 +75,41 @@ def ahead(sport, day, days=7):
     return n
 
 
+def trim_news(s):
+    """Per game: the preview article, linked news, both teams' injury lists and the line history ESPN shows."""
+    art = s.get('article') or {}
+    news = [dict(h=a.get('headline'), d=a.get('description'), t=a.get('published'), u=((a.get('links') or {}).get('web') or {}).get('href'))
+            for a in ((s.get('news') or {}).get('articles') or [])[:8]]
+    inj = []
+    for t in s.get('injuries') or []:
+        ab = (t.get('team') or {}).get('abbreviation')
+        for x in t.get('injuries') or []:
+            inj.append(dict(team=ab, player=((x.get('athlete') or {}).get('displayName')), status=x.get('status'),
+                            detail=((x.get('details') or {}).get('type') or '') + (' ' + (x.get('details') or {}).get('detail', '') if (x.get('details') or {}).get('detail') else ''),
+                            date=x.get('date')))
+    return dict(preview=dict(h=art.get('headline'), d=art.get('description'), story=(art.get('story') or '')[:4000]) if art else None,
+                news=news, injuries=inj, notes=[n.get('headline') for n in (s.get('header') or {}).get('competitions', [{}])[0].get('notes', []) if n.get('headline')])
+
+
+def news(sport, day):
+    """Today's slate: one summary per game (preview, game news, injuries) plus the league's latest headlines."""
+    path, grp = SP[sport]; out = {}
+    sb = j(f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={day.replace('-','')}&limit=500" + (f'&groups={grp}' if grp else ''))
+    for e in (sb or {}).get('events', []):
+        s = j(f'https://site.api.espn.com/apis/site/v2/sports/{path}/summary?event={e["id"]}')
+        if s:
+            c = (e.get('competitions') or [{}])[0]
+            out[e['id']] = dict(teams=[(x.get('team') or {}).get('abbreviation') for x in c.get('competitors', [])], **trim_news(s))
+    lg = j(f'https://site.api.espn.com/apis/site/v2/sports/{path}/news?limit=50')
+    out['_league'] = [dict(h=a.get('headline'), d=a.get('description'), t=a.get('published'),
+                           teams=[(c.get('team') or {}).get('abbreviation') or c.get('description') for c in a.get('categories', []) if c.get('type') == 'team'])
+                      for a in (lg or {}).get('articles', [])]
+    return save(sport, day, 'news', out) and len(out)
+
+
 if __name__ == '__main__':
     kind = sys.argv[1]; sports = [s for s in (sys.argv[2].split(',') if len(sys.argv) > 2 and sys.argv[2] else SP) if s in SP]
     day = sys.argv[3] if len(sys.argv) > 3 else dt.datetime.now(PHX).strftime('%Y-%m-%d')
     for s in sports:
-        try: print(s, kind, {'finals': finals, 'ahead': ahead}.get(kind, slate)(s, day))
+        try: print(s, kind, {'finals': finals, 'ahead': ahead, 'news': news}.get(kind, slate)(s, day))
         except Exception as e: print(s, kind, 'error', type(e).__name__, str(e)[:120])
