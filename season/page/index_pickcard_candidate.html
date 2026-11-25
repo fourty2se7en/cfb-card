@@ -2,7 +2,7 @@
 dialog.pop .scroll{overflow:visible}dialog.pop table.smt{margin:6px 0 16px}dialog.pop table.smt td,dialog.pop table.smt th{padding:8px 10px}
 .rp-rule{margin-top:6px;font-size:14px}.rp-body{padding:4px 18px 16px}.rp-rain{position:relative;isolation:isolate;background-color:var(--rain-bg);border-radius:12px}
 .rp-gap{margin:-8px 0 12px;padding:8px 10px;border-radius:8px;background:#fef3c7;color:#78350f;font-size:13px}.rp-gaprow td{background:#fef3c7;color:#78350f;font-size:12px;text-align:center}
-.rp-stats{margin:4px 0 18px}.rp-stats .card2{margin:0}
+.rp-stats{margin:4px 0 18px}.rp-cmp th[scope=row]{text-align:left;font-weight:600;text-transform:none;letter-spacing:0;font-size:13px;color:var(--ink);background:transparent}.rp-cmp th[scope=row] small{text-transform:none}dialog.pop .rp-body td:nth-child(1),dialog.pop .rp-body td:nth-child(4){white-space:nowrap}.rp-cmp th small,.rp-cmp td small{display:block;font-weight:400;font-size:11px;color:var(--mu,#777)}.rp-cmp td.rp-me,.rp-cmp th.rp-me{background:color-mix(in srgb,#f59e0b 12%,transparent)}.rp-key{margin:4px 0 8px}.rp-stats .card2{margin:0}
 dialog.pop{resize:both;overflow:auto;min-width:300px;min-height:180px}dialog.pop .pop-h{cursor:move}dialog.pop.moved{margin:0;position:fixed}
 .rp-h{margin:14px 0 6px;font-size:14px}
 </style></head><body>
@@ -796,6 +796,8 @@ function subscribe(sport){
   /* Nov 19 (Trina, B161): Upcoming games for the next 7 days come from sched/<sport>.json (ESPN schedule, published each run).
      A saved game doc with the same id always wins; schedule rows only fill dates the runs have not written yet. */
   st.sched=null;
+  /* Nov 24 (Trina, A92): full season game log per team from the ESPN schedule and finals (season/team_log.py), so pick cards list every game played. */
+  st.tlog=null;fetch('tlog/'+sport+'.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null;}).then(function(J){if(J&&J.teams)st.tlog=J.teams;}).catch(function(){});
   fetch('sched/'+sport+'.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null;}).then(function(J){
     if(!J||!J.games)return;st.sched=J.games.map(function(o){o=thaw(o);o.__sched=true;return o;});mergeSched(st);
     if(S.sport===sport||S.view==='summary')rerender();}).catch(function(){});
@@ -2709,9 +2711,13 @@ function rperfPop(M,p){var st=M.st||{},meta=M.meta,all=(st.picks||[]).concat(st.
 /* Nov 24 (Trina): tap a pick in the Games list. Props open the player stat card; game picks open a team card with the
    team's season to date and last 5 games at the line picked, plus one short paragraph on why this pick. */
 function tgScore(g,code){var f=String(g.final||'');var m=f.match(/^(.*?)\s+(\d+),\s*(.*?)\s+(\d+)$/);if(!m)return null;var A=teamOf(g,'away'),H=teamOf(g,'home'),c=nrm(code),aw=nrm(A.code)===c||nrm(A.short)===c||nrm(A.name)===c,hm=nrm(H.code)===c||nrm(H.short)===c||nrm(H.name)===c;if(!aw&&!hm)return null;var a=+m[2],h=+m[4];return {date:gDate(g),opp:aw?(H.code||tShort(H)):(A.code||tShort(A)),site:aw?'away':'home',pf:aw?a:h,pa:aw?h:a};}
-function teamLog(M,g0,side){var T=teamOf(g0,side),code=T.code||tShort(T),out={},d0=gDate(g0);
-  (gamesOf(S.sport)||[]).forEach(function(g){if(gDate(g)>=d0||!isFinal(g))return;var r=tgScore(g,code);if(r)out[r.date]=r;});
-  var tr=((g0.trends||{})[side]||{}).games||[];tr.forEach(function(x){if(x&&x.date&&x.date<d0&&x.pf!=null&&!out[x.date])out[x.date]={date:x.date,opp:x.opp,site:x.site,pf:+x.pf,pa:+x.pa};});
+/* Nov 24 (Trina, A92): every game the team has played before this one. The ESPN schedule log (tlog) is the list; closing
+   lines come from our game docs and trends first, then the Odds API close saved in the repo. Nothing is assumed missing. */
+function teamLog(M,g0,side){var T=teamOf(g0,side),code=T.code||tShort(T),out={},d0=gDate(g0),st=S.subs[S.sport]||{},TL=st.tlog&&(st.tlog[code]||st.tlog[String(code).toUpperCase()]);
+  if(TL)TL.forEach(function(r){if(r.d<d0)out[r.d]={date:r.d,opp:r.o,oppName:r.on,site:r.s,pf:+r.pf,pa:+r.pa,sp:r.sp!=null?+r.sp:null,t:r.t!=null?+r.t:null,src:'sched'};});
+  (gamesOf(S.sport)||[]).forEach(function(g){if(gDate(g)>=d0||!isFinal(g))return;var r=tgScore(g,code);if(r&&!out[r.date])out[r.date]=r;});
+  var tr=((g0.trends||{})[side]||{}).games||[];tr.forEach(function(x){if(!x||!x.date||x.date>=d0||x.pf==null)return;var o=out[x.date]||(out[x.date]={date:x.date,opp:x.opp,site:x.site,pf:+x.pf,pa:+x.pa});
+    if(x.opp_name&&!o.oppName)o.oppName=x.opp_name;if(x.site)o.site=x.site;var sp=num(x.spread);if(sp!=null)o.sp=sp;if(x.total!=null&&num(x.total)!=null)o.t=num(x.total);});
   return Object.keys(out).sort().map(function(k){return out[k];});}
 function atLine(G,kind,X){var w=0,l=0,p=0;G.forEach(function(x){var v=kind==='spread'?(x.pf-x.pa+X):kind==='ml'?(x.pf-x.pa):kind==='over'?(x.pf+x.pa-X):(X-(x.pf+x.pa));if(v>0)w++;else if(v<0)l++;else p++;});return {w:w,l:l,p:p};}
 function wlpS(r){return r.w+'-'+r.l+(r.p?'-'+r.p:'');}
@@ -2749,24 +2755,45 @@ function storyOf(M,p,g){if(p.story)return p.story;g=g||{};var mk=p.market,pk=Str
   if(!out.length)out.push((ruleNameOf(M,p)||'The rule')+' picked '+pk+'; the run did not post more detail for this game.');
   return out.slice(0,4).join(' ');}
 function recGames(rec){var n=0;String(rec||'').split(/[\s,]/)[0].split('-').forEach(function(x){var v=parseInt(x,10);if(isFinite(v))n+=v;});return n;}
-function teamPickPop(M,p){var g=findGame(gidOf(p))||{},mk=p.market,pk=String(p.pick||''),tm=pk.split(/\s+/)[0],isTot=mk==='Total',sides=[];
-  if(isTot)sides=['away','home'];else['away','home'].forEach(function(s){var T=teamOf(g,s);if(nrm(T.code)===nrm(tm)||nrm(T.short)===nrm(tm)||nrm(T.name)===nrm(tm))sides.push(s);});
-  var m0=pk.match(/([+-]?\d+(?:\.\d+)?)\s*$/),X=m0?+m0[1]:num(p.line);
-  var kind=isTot?(/^under/i.test(pk)?'under':'over'):(mk==='Moneyline'||/\bML\b/.test(pk)?'ml':'spread'),lbl=kind==='ml'?'straight up':(kind==='spread'?'at '+(X>0?'+':'')+X:(kind==='over'?'over ':'under ')+X);
-  var A=teamOf(g,'away'),H=teamOf(g,'home');
-  var h='<div class="pop-h"><div><h3 id="pop-title">'+esc(pk)+(p.price!=null&&p.price!==''?' '+esc(fprice(p.price)):'')+'</h3><div class="sub">'+esc(tShort(A)+(g.neutral?' vs ':' at ')+tShort(H))+(g.neutral?' <span class="ntag">Neutral site'+(g.venue?' · '+esc(g.venue):'')+'</span>':'')+(rainGame(g)?' '+rainTag(g):'')+'</div>'+
+function covS(x){if(x.sp==null)return null;var v=x.pf-x.pa+x.sp;return v>0?'W':(v<0?'L':'P');}
+function ouS(x){if(x.t==null)return null;var v=x.pf+x.pa-x.t;return v>0?'O':(v<0?'U':'P');}
+function cnt(G,f,a,b){var w=0,l=0,p=0;G.forEach(function(x){var r=f(x);if(r===a)w++;else if(r===b)l++;else if(r==='P')p++;});return w+l+p?w+'-'+l+(p?'-'+p:''):'';}
+function teamPickPop(M,p){var g=findGame(gidOf(p))||{},mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p);
+  var m0=pk.match(/([+-]?\d+(?:\.\d+)?)\s*$/),X=m0?+m0[1]:num(p.line),kind=isTot?(/^under/i.test(pk)?'under':'over'):(mk==='Moneyline'||/\bML\b/.test(pk)?'ml':'spread');
+  var A=teamOf(g,'away'),H=teamOf(g,'home'),unit=S.sport==='nhl'?'Goals':'Points',sides=['away','home'],rn=rainGame(g);
+  var h='<div class="pop-h"><div><h3 id="pop-title">'+esc(pk)+(p.price!=null&&p.price!==''?' '+esc(fprice(p.price)):'')+'</h3><div class="sub">'+esc(tShort(A)+(g.neutral?' vs ':' at ')+tShort(H))+(g.neutral?' <span class="ntag">Neutral site'+(g.venue?' · '+esc(g.venue):'')+'</span>':'')+(rn?' '+rainTag(g):'')+'</div>'+
     '<div class="rp-rule">Rule: <button type="button" class="rnb" data-act="rperf" data-id="'+esc(p.__id)+'">'+esc(ruleNameOf(M,p)||'Rule')+'</button> '+tierTag(pTier(p),true)+' <span class="small mu">tap the rule to see how it has done</span></div></div><button class="x" type="button" data-act="close" aria-label="Close">×</button></div>';
-  h+='<div class="rp-body'+(rainGame(g)?' rp-rain':'')+'"><p class="rp-story">'+esc(storyOf(M,p,g))+'</p>';
-  sides.forEach(function(sd){var T=teamOf(g,sd),G=teamLog(M,g,sd),L5=G.slice(-5),a=atLine(G,kind,X||0),b=atLine(L5,kind,X||0),tot=recGames(T.record),miss=tot>G.length?tot-G.length:0;
-    h+='<h4 class="rp-h">'+badge(T,'sm')+' '+esc(tName(T))+' '+esc(lbl)+(T.record?' <span class="small mu">('+esc(T.record)+')</span>':'')+'</h4>';
-    h+=smt(['Span','Record '+lbl,'Games'],['<tr><td>Season to date</td><td><b>'+wlpS(a)+'</b></td><td class="n">'+G.length+(tot?' of '+tot:'')+'</td></tr>','<tr><td>Last 5 logged</td><td><b>'+wlpS(b)+'</b></td><td class="n">'+L5.length+'</td></tr>']);
-    if(miss)h+='<div class="rp-gap">'+esc(tShort(T))+' has played '+tot+' games ('+esc(T.record)+'), but '+miss+(miss===1?' is':' are')+' not in our game log, so the records here cover '+G.length+'. Gaps between dates below may hide a game.</div>';
-    if(L5.length){var rows=[],prev=null;L5.slice().reverse().forEach(function(x){if(prev){var dd=(pd(prev)-pd(x.date))/864e5;if(dd>(S.sport==='nfl'||S.sport==='fbs'?9:6))rows.push('<tr class="rp-gaprow"><td colspan="5">'+Math.round(dd)+' days between games: a game may be missing here</td></tr>');}prev=x.date;
-        var v=kind==='spread'?(x.pf-x.pa+X):kind==='ml'?(x.pf-x.pa):kind==='over'?(x.pf+x.pa-X):(X-(x.pf+x.pa)),r=v>0?'<b class="up">Yes</b>':(v<0?'<b class="dn">No</b>':'Push');
-        rows.push('<tr><td>'+esc(fdate(x.date))+'</td><td>'+(x.site==='away'?'at ':(x.site==='neutral'?'vs (n) ':'vs '))+esc(x.opp||'')+'</td><td>'+x.pf+'-'+x.pa+'</td><td class="n">'+(kind==='spread'||kind==='ml'?((x.pf-x.pa>0?'+':'')+(x.pf-x.pa)):(x.pf+x.pa))+'</td><td>'+r+'</td></tr>');});
-      h+=smt(['Date','Opponent','Score',kind==='spread'||kind==='ml'?'Margin':'Total','At the line'],rows);}
-    else h+='<div class="small mu">No finished games logged for this team yet.</div>';
-    h+='<div class="rp-stats">'+statsCard(g,sd)+'</div>';});
+  h+='<div class="rp-body'+(rn?' rp-rain':'')+'"><p class="rp-story">'+esc(storyOf(M,p,g))+'</p>';
+  var D={};sides.forEach(function(sd){D[sd]={T:teamOf(g,sd),G:teamLog(M,g,sd),tr:(g.trends||{})[sd]||{}};});
+  function cell(sd,v){return '<td class="n'+(sd===side&&!isTot?' rp-me':'')+'">'+(v==null||v===''?'<span class="mu">–</span>':v)+'</td>';}
+  function row(lbl,f,def){return '<tr><th scope="row">'+lbl+(def?'<small>'+def+'</small>':'')+'</th>'+sides.map(function(sd){return cell(sd,f(D[sd],sd));}).join('')+'</tr>';}
+  function hn(G){var o={home:[0,0],away:[0,0],neutral:[0,0]};G.forEach(function(x){var k=o[x.site]?x.site:'home';o[k][x.pf>x.pa?0:1]++;});return ['home','away','neutral'].filter(function(k){return o[k][0]+o[k][1];}).map(function(k){return o[k][0]+'-'+o[k][1]+' '+(k==='away'?'road':k);}).join(' · ');}
+  function avg(G,f){if(!G.length)return null;var t=0;G.forEach(function(x){t+=f(x);});return Math.round(t/G.length*10)/10;}
+  var lbl=kind==='spread'?'Covers '+(X>0?'+':'')+X:(kind==='ml'?'Wins':(kind==='over'?'Games over '+X:'Games under '+X));
+  var rows=[row('Record',function(d){var w=0,l=0;d.G.forEach(function(x){if(x.pf>x.pa)w++;else l++;});return d.G.length?w+'-'+l:(d.T.record||'');}),
+    row('Home · road · neutral',function(d){return hn(d.G);}),
+    row(unit+' scored a game',function(d){return avg(d.G,function(x){return x.pf;});}),
+    row(unit+' allowed a game',function(d){return avg(d.G,function(x){return x.pa;});}),
+    row('Scoring margin a game',function(d){var v=avg(d.G,function(x){return x.pf-x.pa;});return v==null?null:(v>0?'+':'')+v;},'Actual results: '+unit.toLowerCase()+' scored minus allowed'),
+    row('Against the spread',function(d){return cnt(d.G,covS,'W','L');},'Covered their own closing spread'),
+    row('Over · under',function(d){return cnt(d.G,ouS,'O','U');},'Game total vs the closing total'),
+    row('Last 5',function(d){return d.G.slice(-5).map(function(x){return x.pf>x.pa?'W':'L';}).join(' ');}),
+    row('Days of rest',function(d){return d.tr.rest_days!=null?d.tr.rest_days:'';})];
+  if(kind==='spread'&&side)rows.splice(6,0,row(esc(lbl),function(d,sd){if(sd!==side)return null;var r=atLine(d.G,'spread',X);return wlpS(r);},'This pick\'s number applied to every game'));
+  if(kind==='over'||kind==='under')rows.splice(7,0,row(esc(lbl),function(d){var r=atLine(d.G,kind,X);return d.G.length?wlpS(r):'';},'This pick\'s total applied to every game'));
+  /* stat ranks where the run posted them (NBA, NFL, FBS, NCAAW) */
+  var SA={};sides.forEach(function(sd){var T=D[sd].T,a=Array.isArray(T.stats)?T.stats:(g.stats&&Array.isArray(g.stats[sd])?g.stats[sd]:[]);a.forEach(function(x){if(x&&x.label)(SA[x.label]=SA[x.label]||{})[sd]=x;});});
+  Object.keys(SA).forEach(function(k){if(/^points( allowed)?$/i.test(k))return;rows.push(row(esc(k)+(SA[k].away&&SA[k].away.per==='game'||SA[k].home&&SA[k].home.per==='game'?' a game':''),function(d,sd){var x=SA[k][sd];return x?esc(x.value)+(x.rank?' <small class="mu">'+ordN(x.rank)+'</small>':''):null;}));});
+  h+='<h4 class="rp-h">Matchup, season to date</h4><div class="scroll"><table class="smt rp-cmp"><thead><tr><th></th>'+sides.map(function(sd){var T=D[sd].T;return '<th class="n'+(sd===side&&!isTot?' rp-me':'')+'">'+badge(T,'sm')+' '+esc(tShort(T))+(sd===side&&!isTot?'<small>picked</small>':'')+'</th>';}).join('')+'</tr></thead><tbody>'+rows.join('')+'</tbody></table></div>';
+  /* records vs the doc's own season record: a game ESPN does not list */
+  sides.forEach(function(sd){var d=D[sd],rec=recGames(d.T.record);if(rec>d.G.length)h+='<div class="rp-gap">'+esc(tShort(d.T))+' is '+esc(d.T.record)+' ('+rec+' games), but the ESPN schedule in our data lists '+d.G.length+'. The game not listed could not be identified from the schedule.</div>';});
+  sides.forEach(function(sd){var d=D[sd],L5=d.G.slice(-5).reverse(),nm=tShort(d.T);if(!L5.length)return;
+    var rr=L5.map(function(x){var w=x.pf>x.pa,c=covS(x),o=ouS(x),site=x.site==='away'?'Away':(x.site==='neutral'?'Neutral':'Home');
+      return '<tr><td>'+esc(fdate(x.date))+'</td><td>'+site+'</td><td>'+(x.site==='away'?'at ':'vs ')+esc(x.oppName||x.opp||'')+'</td><td><b class="'+(w?'up':'dn')+'">'+(w?'W':'L')+'</b> '+x.pf+'-'+x.pa+'</td>'+
+        '<td>'+(x.sp!=null?(x.sp>0?'+':'')+x.sp+' <b class="'+(c==='W'?'up':(c==='L'?'dn':''))+'">'+(c==='W'?'Covered':(c==='L'?'Missed':'Push'))+'</b>':'<span class="mu">No line saved</span>')+'</td>'+
+        '<td>'+(x.t!=null?x.t+' <b>'+(o==='O'?'Over':(o==='U'?'Under':'Push'))+'</b> ('+(x.pf+x.pa)+')':'<span class="mu">'+(x.pf+x.pa)+' scored, no line saved</span>')+'</td></tr>';});
+    h+='<h4 class="rp-h">'+badge(d.T,'sm')+' '+esc(nm)+' last '+L5.length+' games</h4>'+smt(['Date','Site','Opponent',nm+' result',nm+' spread','Total (combined)'],rr);});
+  h+='<div class="small mu rp-key">Result shows '+(isTot?'the team':'each team')+'\'s score first. Spread is that team\'s closing number: Covered means it beat the number. Total is the closing game total: Over or Under, with the combined score in brackets.</div>';
   return h+'</div>';}
 function pcardPop(M,p){if(p.market==='Prop'){var g=findGame(gidOf(p));return '<div class="pop-h"><div><h3 id="pop-title">'+esc(pickLabel(p,g))+'</h3><div class="sub">Player stat card</div></div><button class="x" type="button" data-act="close" aria-label="Close">×</button></div><p class="rp-story">'+esc(storyOf(M,p,g))+'</p><div class="pgrid">'+propCard(M,p)+'</div>';}return teamPickPop(M,p);}
 function ruleLine(M,r,wb){var t=pTier(r),RC=ruleRecOf(M,r),u=RC.season&&recN(RC.season)?RC.season.u:null;
