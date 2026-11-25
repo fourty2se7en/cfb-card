@@ -274,6 +274,9 @@ for s in MIN:
         on_rule = r.get('on') is not False
         if not bt:   # no backtest download: keep the stored replay numbers and statuses
             new = {t: {k: v for k, v in dict(o).items() if k not in ('real', 'real_month', 'fits', 'pending_on')} for t, o in old.items()}
+        if bt:   # Nov 25: a stored tier with no backtest docs now (split rules, old history) gets an empty replay, not a stale one
+            for t in list(new):
+                if t not in E and isinstance(new[t], dict): new[t].update(season=dict(w=0, l=0, p=0, u=0), month=None, n=0)
         for t, e in E.items():
             se = rec(e); n = se['w'] + se['l'] + se['p']; mo = [x for x in e if in_window(x.get('date'), today)]
             new[t] = dict(new.get(t, {}), season=se, month=rec(mo, 'Last 3 weeks') if mo else None, n=n)   # Nov 13: replay is reference only, never switches

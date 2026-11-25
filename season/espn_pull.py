@@ -91,6 +91,40 @@ def trim_news(s):
                 news=news, injuries=inj, notes=[n.get('headline') for n in (s.get('header') or {}).get('competitions', [{}])[0].get('notes', []) if n.get('headline')])
 
 
+def depth(sport, day):
+    """Depth charts (Nov 25, validate lineups): every team playing in the next 7 Phoenix days (football; works for any sport ESPN serves).
+    Uses the core API depthcharts (athletes as $ref) plus the site roster to resolve names and positions."""
+    path, grp = SP[sport]; teams = {}
+    import datetime as dt
+    d0 = dt.date.fromisoformat(day)
+    for k in range(7):
+        dd = (d0 + dt.timedelta(days=k)).strftime('%Y%m%d')
+        sb = j(f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={dd}&limit=500" + (f'&groups={grp}' if grp else ''))
+        for e in (sb or {}).get('events', []):
+            for c in ((e.get('competitions') or [{}])[0].get('competitors') or []):
+                t = c.get('team') or {}
+                if t.get('id'): teams[t['id']] = t.get('abbreviation')
+    lg, ln = path.split('/')
+    out = {}
+    for tid, ab in teams.items():
+        dc = j(f'https://site.api.espn.com/apis/site/v2/sports/{path}/teams/{tid}/depthcharts')
+        ro = j(f'https://site.api.espn.com/apis/site/v2/sports/{path}/teams/{tid}/roster')
+        names = {}
+        for grp_ in (ro or {}).get('athletes', []) or []:
+            for a in (grp_.get('items') if isinstance(grp_, dict) and 'items' in grp_ else [grp_]):
+                if isinstance(a, dict) and a.get('id'): names[str(a['id'])] = dict(n=a.get('displayName'), pos=(a.get('position') or {}).get('abbreviation'),
+                                                                               status=((a.get('injuries') or [{}])[0] or {}).get('status'))
+        charts = []
+        for ch in (dc or {}).get('depthchart', []) or (dc or {}).get('items', []) or []:
+            pos = {}
+            for k, v in (ch.get('positions') or {}).items():
+                pos[k] = [dict(id=str((x.get('athlete') or {}).get('id') or x.get('id') or ''), n=(x.get('athlete') or {}).get('displayName') or x.get('displayName'), rank=x.get('rank'))
+                          for x in (v.get('athletes') or [])]
+            charts.append(dict(name=ch.get('name'), positions=pos))
+        out[ab or tid] = dict(id=tid, charts=charts, roster=names)
+    return save(sport, day, 'depth', out) and len(out)
+
+
 def news(sport, day):
     """Today's slate: one summary per game (preview, game news, injuries) plus the league's latest headlines."""
     path, grp = SP[sport]; out = {}
@@ -111,5 +145,5 @@ if __name__ == '__main__':
     kind = sys.argv[1]; sports = [s for s in (sys.argv[2].split(',') if len(sys.argv) > 2 and sys.argv[2] else SP) if s in SP]
     day = sys.argv[3] if len(sys.argv) > 3 else dt.datetime.now(PHX).strftime('%Y-%m-%d')
     for s in sports:
-        try: print(s, kind, {'finals': finals, 'ahead': ahead, 'news': news}.get(kind, slate)(s, day))
+        try: print(s, kind, {'finals': finals, 'ahead': ahead, 'news': news, 'depth': depth}.get(kind, slate)(s, day))
         except Exception as e: print(s, kind, 'error', type(e).__name__, str(e)[:120])

@@ -23,7 +23,7 @@ jobs:
       - run: pip install requests
       - name: Pull
         run: |
-          k=$(head -1 season/espn_run.txt | awk '{print $1}'); case "$k" in slate|finals|ahead|news) ;; *) k=ahead ;; esac
+          k=$(head -1 season/espn_run.txt | awk '{print $1}'); case "$k" in slate|finals|ahead|news|depth) ;; *) k=ahead ;; esac
           sp=$(head -1 season/espn_run.txt | awk '{print $2}' | grep -E '^[a-z,]+$' || true)
           python3 season/espn_pull.py "$k" "$sp" "$(TZ=America/Phoenix date +%F)"
       - name: Commit

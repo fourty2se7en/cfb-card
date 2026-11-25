@@ -47,10 +47,11 @@ def tier_bt(s, b):
         return sc(float(i['signal_lead']) if pk.startswith(str(i['signal_team'])) else -float(i['signal_lead']))
     return None
 def units(d):
-    if d.get('units') is not None: return float(d['units'])
+    # Nov 25: same as season/rebuild_tiers.py: units come from the price, the units field only when there is no price
     r = d.get('result'); pr = d.get('price')
-    try: pr = float(pr)
+    try: pr = float(str(pr).replace('+', ''))
     except Exception: pr = None
+    if pr is None and d.get('units') is not None: return float(d['units'])
     if r == 'win': return 1 if pr is None else (pr / 100 if pr > 0 else 100 / -pr)
     return -1 if r == 'loss' else 0
 def team(p): return re.sub(r'\s+(ML|moneyline|[+-]\d.*)$', '', str(p.get('pick', '')), flags=re.I).strip()
