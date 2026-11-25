@@ -1,0 +1,19 @@
+ESPN box scores 2026-27 totals, built Nov 25 about 9:43 AM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
+BKN|0.101,0.035,0.096,0.090|Nolan Traore(14g)
+CHA|0.180,0.097,0.247,0.221|Dennis Schroder(9g),Grayson Allen(13g),Kon Knueppel(1g)
+CHI|0.231,0.134,0.103,0.222|Caleb Wilson(10g),Norman Powell(13g)
+CLE|0.095,0.107,0.088,0.086|Evan Mobley(12g)
+GSW|0.202,0.077,0.135,0.198|Stephen Curry(10g),Brandon Williams(10g)
+HOU|0.000,0.000,0.000,0.000|
+LAC|0.000,0.000,0.000,0.000|
+MEM|0.247,0.269,0.268,0.257|Cameron Boozer(16g),Jerami Grant(15g),GG Jackson(12g),Scotty Pippen Jr.(5g)
+MIA|0.000,0.000,0.000,0.000|
+MIL|0.000,0.000,0.000,0.000|
+MIN|0.089,0.052,0.050,0.107|Anthony Edwards(4g),Jaylen Clark(12g)
+NYK|0.164,0.125,0.077,0.143|OG Anunoby(15g),Jordan Clarkson(12g)
+OKC|0.142,0.240,0.155,0.078|Chet Holmgren(3g),Jalen Williams(3g),Cason Wallace(3g),Jaylin Williams(9g),Aday Mara(16g),Nikola Topic(3g)
+PHI|0.000,0.000,0.000,0.000|
+PHX|0.000,0.000,0.000,0.000|
+POR|0.059,0.038,0.084,0.064|Ja Morant(4g),Vit Krejci(7g),Chris Youngblood(6g)
+SAC|0.000,0.000,0.000,0.000|
+SAS|0.130,0.094,0.132,0.075|Dylan Harper(15g)
