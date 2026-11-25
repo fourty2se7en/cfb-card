@@ -87,7 +87,7 @@ def trim_news(s):
             inj.append(dict(team=ab, player=((x.get('athlete') or {}).get('displayName')), status=x.get('status'),
                             detail=((x.get('details') or {}).get('type') or '') + (' ' + (x.get('details') or {}).get('detail', '') if (x.get('details') or {}).get('detail') else ''),
                             date=x.get('date')))
-    return dict(preview=dict(h=art.get('headline'), d=art.get('description'), story=(art.get('story') or '')[:4000]) if art else None,
+    return dict(preview=dict(h=art.get('headline'), d=art.get('description'), type=art.get('type'), t=art.get('published') or art.get('lastModified'), story=(art.get('story') or '')[:4000]) if art else None,
                 news=news, injuries=inj, notes=[n.get('headline') for n in (s.get('header') or {}).get('competitions', [{}])[0].get('notes', []) if n.get('headline')])
 
 

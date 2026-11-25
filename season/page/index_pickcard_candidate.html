@@ -2,7 +2,7 @@
 dialog.pop .scroll{overflow:visible}dialog.pop table.smt{margin:6px 0 16px}dialog.pop table.smt td,dialog.pop table.smt th{padding:8px 10px}
 .rp-rule{margin-top:6px;font-size:14px}.rp-body{padding:4px 18px 16px}.rp-rain{position:relative;isolation:isolate;background-color:var(--rain-bg);border-radius:12px}
 .rp-gap{margin:-8px 0 12px;padding:8px 10px;border-radius:8px;background:#fef3c7;color:#78350f;font-size:13px}.rp-gaprow td{background:#fef3c7;color:#78350f;font-size:12px;text-align:center}
-.rp-stats{margin:4px 0 18px}.rp-cmp th[scope=row]{text-align:left;font-weight:600;text-transform:none;letter-spacing:0;font-size:13px;color:var(--ink);background:transparent}.rp-cmp th[scope=row] small{text-transform:none}dialog.pop .rp-body td:nth-child(1),dialog.pop .rp-body td:nth-child(4){white-space:nowrap}.rp-cmp th small,.rp-cmp td small{display:block;font-weight:400;font-size:11px;color:var(--mu,#777)}.rp-cmp td.rp-me,.rp-cmp th.rp-me{background:color-mix(in srgb,#f59e0b 12%,transparent)}.rp-key{margin:4px 0 8px}.rp-stats .card2{margin:0}
+.rp-stats{margin:4px 0 18px}.rp-cmp th[scope=row]{text-align:left;font-weight:600;text-transform:none;letter-spacing:0;font-size:13px;color:var(--ink);background:transparent}.rp-cmp th[scope=row] small{text-transform:none}dialog.pop .rp-body td:nth-child(1),dialog.pop .rp-body td:nth-child(4){white-space:nowrap}.rp-cmp th small,.rp-cmp td small{display:block;font-weight:400;font-size:11px;color:var(--mu,#777)}.rp-cmp td.rp-me,.rp-cmp th.rp-me{background:color-mix(in srgb,#f59e0b 12%,transparent)}.rp-key{margin:4px 0 8px}.nwl{margin:6px 0 0;padding:0;list-style:none}.nwl li{padding:6px 0;border-top:1px solid var(--line,#ddd);font-size:14px}.nwl li:first-child{border-top:0}.nwk{display:inline-block;font:700 11px Inter,sans-serif;padding:1px 7px;border-radius:999px;background:#e0e7ff;color:#3730a3;margin-right:4px}.rp-stats .card2{margin:0}
 dialog.pop{resize:both;overflow:auto;min-width:300px;min-height:180px}dialog.pop .pop-h{cursor:move}dialog.pop.moved{margin:0;position:fixed}
 .rp-h{margin:14px 0 6px;font-size:14px}
 </style></head><body>
@@ -2591,7 +2591,9 @@ function pickPop(p){
   }
   // signals
   var rs=Array.isArray(p.reasons)&&p.reasons.length?p.reasons:(Array.isArray(p.signals)&&p.signals.length?p.signals:null);
-  var agp=Array.isArray(p.against)?p.against:[];var gg=findGame(gidOf(p))||{};var SM=autoSum(gg,p.market==='Total'?'total':'side',null,p,rs||[],agp)||{};var lead=storyOf(M,p,gg,/model/i.test(SM.for||''));h+=sumHtml({for:[lead,SM.for].filter(Boolean).join(' '),against:SM.against});
+  var agp=Array.isArray(p.against)?p.against:[];var gg=findGame(gidOf(p))||{};var SM=autoSum(gg,p.market==='Total'?'total':'side',null,p,rs||[],agp)||{};var mkey=p.market==='Total'?'total':'spread',MW=(gg.move_why||{})[mkey]||'';var lead=storyOf(M,p,gg,/model/i.test(SM.for||''),!!MW||/opened/i.test(SM.for||''));var F0=String(SM.for||'');if(MW)F0=F0.split(/(?<=\.)\s+/).filter(function(x){return !/opened|sharp report|is now|moved (from|toward)/i.test(x);}).join(' ');h+=sumHtml({for:[MW,lead,F0].filter(Boolean).join(' '),against:SM.against});
+  /* Nov 24 (Trina, A92): the news behind the game (injuries, previews, team headlines) from the run's news step. */
+  var NW=Array.isArray(gg.news)?gg.news:[];if(NW.length)h+='<div class="sec"><div class="lbl">In the news</div><ul class="nwl">'+NW.slice(0,6).map(function(x){return '<li><span class="nwk">'+esc({injury:'Injury',preview:'Preview',news:'News',league:'Team news'}[x.kind]||'News')+'</span> '+esc(x.text||'')+(x.source?' <span class="small mu">'+esc(x.source)+'</span>':'')+'</li>';}).join('')+'</ul></div>';
   h+=sigBtn(p.pick,rs||[],(Array.isArray(p.against)?p.against:[]),p.market==='Total'?'total':'side',p.tier_basis||'',gg,p.pick,'',p.market);
   // experts
   var ex0=Array.isArray(p.experts)?p.experts.slice():[],seen={},both={},ex=[];
@@ -2728,7 +2730,7 @@ function spSide(g,p){var pk=String(p.pick||''),tm=nrm(pk.split(/\s+/)[0]);if(p.m
 function spRow(g,mkt){var L=Array.isArray(g.splits)?g.splits:[];for(var i=0;i<L.length;i++)if(L[i]&&String(L[i].market||'').toLowerCase()===String(mkt).toLowerCase())return L[i];return null;}
 /* Nov 24 (Trina): the why paragraph tells the story behind the pick in two or three sentences: why the money sits where it does,
    why the model leans this way, and what else in the matchup backs it (injuries, rest, weather, experts). No stat dumps. */
-function storyOf(M,p,g,noModel){if(p.story)return p.story;g=g||{};var mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p),oth=side==='away'?'home':'away';
+function storyOf(M,p,g,noModel,noMove){if(p.story)return p.story;g=g||{};var mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p),oth=side==='away'?'home':'away';
   var me=side&&!isTot?tShort(teamOf(g,side)):(isTot?(/^under/i.test(pk)?'the Under':'the Over'):pk),op=side&&!isTot?tShort(teamOf(g,oth)):(isTot?(/^under/i.test(pk)?'the Over':'the Under'):'');
   var R=(p.reasons||[]).filter(function(r){return r&&typeof r==='object';}),has=function(re){return R.some(function(r){return re.test((r.label||'')+' '+(r.detail||''));});};
   var out=[];
@@ -2741,7 +2743,7 @@ function storyOf(M,p,g,noModel){if(p.story)return p.story;g=g||{};var mk=p.marke
       else if(has(/sharp|big money|pro systems/i))out.push('The sharp report flags '+me+': professional action and system plays are lined up on this side even though the betting split is close.');}}
   else if(has(/sharp|big money|pro systems/i))out.push('The sharp report flags '+me+' as the side professional money and system plays are on.');
   var mm=String(mv).replace(/\.$/,'').match(/opened\s+(.*?),\s*now\s+(.+?)(?:\s*\(|,|$)/i);
-  if(mm)out.push('The number opened '+mm[1].trim()+' and sits at '+mm[2].trim()+(has(/reverse line/i)?', moving against the public tickets, a reverse line move that usually means respected money is on '+me:(has(/moved toward|moved with|line moved/i)?', and the move has gone toward '+me:''))+'.');
+  if(mm&&!noMove)out.push('The number opened '+mm[1].trim()+' and sits at '+mm[2].trim()+(has(/reverse line/i)?', moving against the public tickets, a reverse line move that usually means respected money is on '+me:(has(/moved toward|moved with|line moved/i)?', and the move has gone toward '+me:''))+'.');
   /* 2. Why the model leans this way */
   var md=noModel?{}:(g.model||{}),ms=String(md.our_spread||''),mt=String(md.our_total||'');
   if(isTot&&mt){var lt=num((pk.match(/(\d+(?:\.\d+)?)/)||[])[1]);out.push('Our efficiency model projects '+mt+' total points'+(lt!=null?', '+Math.abs(Math.round((num(mt)-lt)*10)/10)+' '+(num(mt)>lt?'above':'below')+' the line':'')+(g.neutral?' on a neutral floor':'')+'.');}
