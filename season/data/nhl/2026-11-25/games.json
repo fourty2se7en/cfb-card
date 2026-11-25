@@ -1,0 +1,114 @@
+[
+ {
+  "id": 2026020386,
+  "away": "WPG",
+  "home": "BOS",
+  "start": "2026-11-26T00:00:00Z",
+  "venue": "TD Garden",
+  "neutral": false
+ },
+ {
+  "id": 2026020387,
+  "away": "NYR",
+  "home": "BUF",
+  "start": "2026-11-26T00:00:00Z",
+  "venue": "KeyBank Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020388,
+  "away": "CAR",
+  "home": "TBL",
+  "start": "2026-11-26T00:00:00Z",
+  "venue": "Benchmark International Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020389,
+  "away": "OTT",
+  "home": "FLA",
+  "start": "2026-11-26T00:00:00Z",
+  "venue": "Amerant Bank Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020390,
+  "away": "STL",
+  "home": "NYI",
+  "start": "2026-11-26T00:00:00Z",
+  "venue": "UBS Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020391,
+  "away": "CGY",
+  "home": "PIT",
+  "start": "2026-11-26T00:00:00Z",
+  "venue": "PPG Paints Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020392,
+  "away": "PHI",
+  "home": "WSH",
+  "start": "2026-11-26T00:00:00Z",
+  "venue": "Capital One Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020393,
+  "away": "NJD",
+  "home": "CBJ",
+  "start": "2026-11-26T00:00:00Z",
+  "venue": "Nationwide Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020394,
+  "away": "VAN",
+  "home": "DET",
+  "start": "2026-11-26T00:30:00Z",
+  "venue": "Little Caesars Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020395,
+  "away": "NSH",
+  "home": "DAL",
+  "start": "2026-11-26T01:00:00Z",
+  "venue": "American Airlines Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020396,
+  "away": "UTA",
+  "home": "MIN",
+  "start": "2026-11-26T01:00:00Z",
+  "venue": "Grand Casino Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020397,
+  "away": "MTL",
+  "home": "COL",
+  "start": "2026-11-26T02:30:00Z",
+  "venue": "Ball Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020399,
+  "away": "CHI",
+  "home": "SEA",
+  "start": "2026-11-26T02:40:00Z",
+  "venue": "Climate Pledge Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020398,
+  "away": "SJS",
+  "home": "ANA",
+  "start": "2026-11-26T03:00:00Z",
+  "venue": "Honda Center",
+  "neutral": false
+ }
+]
