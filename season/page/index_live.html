@@ -1,4 +1,5 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}.rnb{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline dotted;cursor:pointer;text-align:left}.rnb.pvhl{outline:2px solid #f59e0b;outline-offset:2px;border-radius:3px}.rp-h{margin:14px 0 6px;font-size:14px}
+</style></head><body>
 <title>Season Cards</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -2668,8 +2669,35 @@ function gPicksOf(M,g,extra){var id=g.__id,ps=M.card.filter(function(p){return g
 function gBets(M,g,extra){var id=g.__id,all=(M.cardAll||M.card).filter(function(p){return gidOf(p)===id;});if(extra)all=all.concat(extra.filter(function(p){return gidOf(p)===id;}));
   return dedupeBets(all,M).map(function(b){var k=betKey(b);return {p:b,rules:all.filter(function(x){return betKey(x)===k;}).sort(function(a,c){return tierRank(pTier(a))-tierRank(pTier(c));})};});}
 /* A61 v4 (Nov 17, Trina): a rule in a table is its name, tier tag, the tier's season record units (green or red) and its units trend. wb marks a would-be pick. */
+/* Nov 24 (Trina): tap a rule on any card to see how that rule has done, plus every graded pick under that rule for the same
+   player (props), the same team (sides) or each of the two teams and their average (totals). */
+var RPV='';
+function rpTeam(x){var t=String(x.pick||'').trim().split(/\s+/)[0]||'';return nrm(t);}
+function rperfPop(M,p){var st=M.st||{},meta=M.meta,all=(st.picks||[]).concat(st.bg||[]),nm=ruleNameOf(M,p)||'Rule',r=null,isProp=p.market==='Prop',L;
+  if(isProp){var pl=propRuleName(p);L=all.filter(function(x){return x.market==='Prop'&&propRuleName(x)===pl&&gradedP(x)&&playP(x);});}
+  else{var g=M.byId[p.__g],RR=g&&g.rule,key=(RR&&RR.key)||p.rule;if(meta)meta.rules.forEach(function(x){if(x.key===key||(x.keys||[]).indexOf(p.rule)>=0)r=r||x;});
+    var keys=r?(r.keys||[r.key]):[key];L=all.filter(function(x){return x.market!=='Prop'&&x.rule&&keys.indexOf(x.rule)>=0&&gradedP(x)&&countsP(x);});}
+  L.sort(function(a,b){return String(a.date)<String(b.date)?1:-1;});
+  var tiers=['Strong','Solid','Lean'],tr=tiers.map(function(t){var T=L.filter(function(x){return (isProp?propTier(x):tierOf(x))===t;});if(!T.length&&!(r&&r.tiers&&r.tiers[t]))return '';var on=isProp?null:(r&&r.tiers&&r.tiers[t]?!!r.tiers[t].on:null);
+    return '<tr><td>'+tierTag(t,true)+'</td><td>'+recTxt(aggRec(T))+'</td><td>'+recTxt(aggRec(T.filter(function(x){return in6(x.date);})))+'</td><td>'+(on==null?'<span class="mu">·</span>':(on?'<span class="up">On</span>':'<span class="mu">Off</span>'))+'</td></tr>';}).filter(Boolean);
+  tr.push('<tr><td><b>All tiers</b></td><td>'+recTxt(aggRec(L))+'</td><td>'+recTxt(aggRec(L.filter(function(x){return in6(x.date);})))+'</td><td></td></tr>');
+  var h='<div class="pop-h"><div><h3 id="pop-title">'+esc(nm)+'</h3><div class="sub">How this rule has done, graded at the close (card and would-be picks)</div></div><button class="x" type="button" data-act="close" aria-label="Close">×</button></div><div class="pop-b">'+smt(['Tier','Season','Last 3 weeks','Now'],tr);
+  var groups=[],ctxT='';
+  if(isProp){var who=String(p.player||'');ctxT=who;groups.push({lb:who,ps:L.filter(function(x){return nrm(x.player)===nrm(who);})});}
+  else if(p.market==='Total'){var A=nrm(p.away),H=nrm(p.home);ctxT=(p.away||'')+' and '+(p.home||'');
+    [[p.away,A],[p.home,H]].forEach(function(z){groups.push({lb:z[0],ps:L.filter(function(x){return x.market==='Total'&&pickTeams(x).indexOf(z[1])>=0;})});});}
+  else{var T0=rpTeam(p);ctxT=String(p.pick||'').trim().split(/\s+/)[0];groups.push({lb:ctxT,ps:L.filter(function(x){return x.market!=='Total'&&rpTeam(x)===T0;})});}
+  var rows=groups.map(function(G){return '<tr><td><b>'+esc(G.lb||'')+'</b></td><td>'+recTxt(aggRec(G.ps))+'</td><td class="n">'+G.ps.length+'</td></tr>';});
+  if(groups.length===2){var a1=aggRec(groups[0].ps),a2=aggRec(groups[1].ps),n1=recN(a1),n2=recN(a2);
+    if(n1||n2){var wp=function(a){return a.w+a.l?a.w/(a.w+a.l):null;},w1=wp(a1),w2=wp(a2),ws=[w1,w2].filter(function(v){return v!=null;}),av=ws.length?ws.reduce(function(x,y){return x+y;},0)/ws.length:null,au=((n1?a1.u/n1:0)+(n2?a2.u/n2:0))/((n1?1:0)+(n2?1:0));
+      rows.push('<tr><td><b>Average of both</b></td><td>'+(av==null?'<span class="mu">·</span>':'<span class="rec">'+Math.round(av*100)+'% wins <b class="'+uc(au)+'">'+fu(au)+' a pick</b></span>')+'</td><td class="n"></td></tr>');}}
+  h+='<h4 class="rp-h">'+esc(ctxT)+' in this rule</h4>'+smt(['Who','Record','Picks'],rows);
+  var seen={},lst=[];groups.forEach(function(G){G.ps.forEach(function(x){if(!seen[x.__id]){seen[x.__id]=1;lst.push(x);}});});
+  lst.sort(function(a,b){return String(a.date)<String(b.date)?1:-1;});
+  h+=lst.length?smt(['Date','Pick','Tier','Result','Units'],lst.slice(0,40).map(function(x){var u=units(x);return '<tr><td>'+esc(fdate(x.date))+'</td><td>'+esc(x.game||((x.away||'')+' @ '+(x.home||'')))+'<div class="small">'+esc(pickLabel(x))+(x.price!=null&&x.price!==''?' '+esc(fprice(x.price)):'')+(x.shadow?' <span class="mu">would-be</span>':'')+'</div></td><td>'+tierTag(isProp?propTier(x):tierOf(x),true)+'</td><td>'+esc(x.result)+'</td><td class="n"><b class="'+uc(u)+'">'+fu(u)+'</b></td></tr>';}))+(lst.length>40?'<div class="small mu">Latest 40 of '+lst.length+'.</div>':''):'<div class="small mu">No graded picks yet for '+esc(ctxT)+' in this rule.</div>';
+  return h+'</div>';}
 function ruleLine(M,r,wb){var t=pTier(r),RC=ruleRecOf(M,r),u=RC.season&&recN(RC.season)?RC.season.u:null;
-  return '<div class="glr-l'+(wb?' wb':'')+'"><span class="rn">'+esc(ruleNameOf(M,r)||'Rule not named')+'</span>'+(t?tierTag(t,true):'')+'<b class="ru '+uc(u||0)+'">'+(u==null?'<span class="mu">no record</span>':fu(u))+'</b>'+(RC.series&&RC.series.length?'<span class="rsp">'+spark(RC.series,RC.uf)+'</span>':'')+(wb?'<span class="wbm">would-be'+(typeof wb==='string'?': '+esc(wb):'')+'</span>':'')+'</div>';}
+  return '<div class="glr-l'+(wb?' wb':'')+'">'+(r&&r.__id?'<button type="button" class="rn rnb'+RPV+'" data-act="rperf" data-id="'+esc(r.__id)+'" title="See how this rule has done">'+esc(ruleNameOf(M,r)||'Rule not named')+'</button>':'<span class="rn">'+esc(ruleNameOf(M,r)||'Rule not named')+'</span>')+(t?tierTag(t,true):'')+'<b class="ru '+uc(u||0)+'">'+(u==null?'<span class="mu">no record</span>':fu(u))+'</b>'+(RC.series&&RC.series.length?'<span class="rsp">'+spark(RC.series,RC.uf)+'</span>':'')+(wb?'<span class="wbm">would-be'+(typeof wb==='string'?': '+esc(wb):'')+'</span>':'')+'</div>';}
 function ruleLines(M,rules){return rules.map(function(r){return ruleLine(M,r,false);}).join('');}
 function gLineRows(M,list,extra){var out=[],hl=A61P?' a61x':'';list.forEach(function(g){var A=teamOf(g,'away'),H=teamOf(g,'home'),B=gBets(M,g,extra);
   var lines=B.map(function(b){var p=b.p;return {pv:!!p.__pv,txt:pickLabel(p,g)+(p.market!=='Prop'&&p.price!=null&&p.price!==''?' '+fprice(p.price):''),rh:ruleLines(M,b.rules)};});
@@ -2827,6 +2855,7 @@ document.addEventListener('click',function(e){
   if(!b){if(S.calOpen&&!e.target.closest('.cal')){S.calOpen=false;S.calPick=null;render();}return;}
   var a=b.getAttribute('data-act');
   if(a==='cs'){secToggle(b.getAttribute('data-k'));return;}
+  if(a==='rperf'){e.preventDefault();e.stopPropagation();var p=findPick(b.getAttribute('data-id'));if(p&&curModel){pop.classList.add('wide');openPop(rperfPop(curModel,p),b);}return;}
   if(a==='pick'){var p=findPick(b.getAttribute('data-id'));if(p){if(!pop.open){L_back=null;pop.classList.remove('sheet');}pop.classList.remove('wide');openPop(pickPop(p),b);}}
   else if(a==='rbox'){openRbox(b.getAttribute('data-sec'),b.getAttribute('data-rk'),b);}
   else if(a==='sigc'){var S1=SIGS[b.getAttribute('data-s')];if(S1)openPop(sigPop(S1,b.getAttribute('data-c'),b.getAttribute('data-n')==='1'),b);}
