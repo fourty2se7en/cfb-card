@@ -22,7 +22,7 @@ def j(url):
         try:
             r = S.get(url, timeout=30)
             if r.ok: return r.json()
-            if r.status_code == 404: return None
+            if r.status_code in (400, 404): return None
         except requests.RequestException: pass
         time.sleep(1 + i)
     return None
