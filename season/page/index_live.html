@@ -1,4 +1,10 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}.rnb{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline dotted;cursor:pointer;text-align:left}.rnb.pvhl{outline:2px solid #f59e0b;outline-offset:2px;border-radius:3px}.rp-h{margin:14px 0 6px;font-size:14px}
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}.rnb{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline dotted;cursor:pointer;text-align:left}.rnb.pvhl{outline:2px solid #f59e0b;outline-offset:2px;border-radius:3px}.pkb{background:none;border:0;padding:0;font:inherit;color:inherit;text-align:left;cursor:pointer}.pkb .clamp2{text-decoration:underline dotted}.pkb.pvhl{outline:2px solid #f59e0b;outline-offset:2px;border-radius:3px}.rp-story{margin:8px 0 10px;line-height:1.5}.ntag{display:inline-flex;align-items:center;font:700 12px Inter,sans-serif;padding:2px 9px;border-radius:999px;background:#7c3aed;color:#fff;white-space:nowrap;vertical-align:middle}
+dialog.pop .scroll{overflow:visible}dialog.pop table.smt{margin:6px 0 16px}dialog.pop table.smt td,dialog.pop table.smt th{padding:8px 10px}
+.rp-rule{margin-top:6px;font-size:14px}.rp-body{padding:4px 18px 16px}.rp-rain{position:relative;isolation:isolate;background-color:var(--rain-bg);border-radius:12px}
+.rp-gap{margin:-8px 0 12px;padding:8px 10px;border-radius:8px;background:#fef3c7;color:#78350f;font-size:13px}.rp-gaprow td{background:#fef3c7;color:#78350f;font-size:12px;text-align:center}
+.rp-stats{margin:4px 0 18px}.rp-cmp th[scope=row]{text-align:left;font-weight:600;text-transform:none;letter-spacing:0;font-size:13px;color:var(--ink);background:transparent}.rp-cmp th[scope=row] small{text-transform:none}dialog.pop .rp-body td:nth-child(1),dialog.pop .rp-body td:nth-child(4){white-space:nowrap}.rp-cmp th small,.rp-cmp td small{display:block;font-weight:400;font-size:11px;color:var(--mu,#777)}.rp-cmp td.rp-me,.rp-cmp th.rp-me{background:color-mix(in srgb,#f59e0b 12%,transparent)}.rp-key{margin:4px 0 8px}.nwl{margin:6px 0 0;padding:0;list-style:none}.nwl li{padding:6px 0;border-top:1px solid var(--line,#ddd);font-size:14px}.nwl li:first-child{border-top:0}.nwk{display:inline-block;font:700 11px Inter,sans-serif;padding:1px 7px;border-radius:999px;background:#e0e7ff;color:#3730a3;margin-right:4px}.rp-stats .card2{margin:0}
+dialog.pop{resize:both;overflow:auto;min-width:300px;min-height:180px}dialog.pop .pop-h{cursor:move}dialog.pop.moved{margin:0;position:fixed}
+.rp-h{margin:14px 0 6px;font-size:14px}
 </style></head><body>
 <title>Season Cards</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -573,8 +579,8 @@ table.tdt td:first-child{grid-column:1/-1}
 table.tdt td[data-l]::before{content:attr(data-l);display:block;font:600 9.5px Inter,sans-serif;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:3px}
 }
 /* Nov 14 (Trina): football games projected to play in the rain. Static raindrops drawn in a token color behind the card's content. */
-.gh.rain,.grow.rain{position:relative;isolation:isolate;background-color:var(--rain-bg)}
-.gh.rain::before,.grow.rain::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;background-color:var(--rain-drop);-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg stroke='black' stroke-width='1.7' stroke-linecap='round'%3E%3Cpath d='M9 4l-2 7M33 9l-2 7M53 2l-2 7M20 25l-2 7M45 29l-2 7M6 41l-2 7M30 46l-2 7M54 49l-2 7'/%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg stroke='black' stroke-width='1.7' stroke-linecap='round'%3E%3Cpath d='M9 4l-2 7M33 9l-2 7M53 2l-2 7M20 25l-2 7M45 29l-2 7M6 41l-2 7M30 46l-2 7M54 49l-2 7'/%3E%3C/g%3E%3C/svg%3E");-webkit-mask-size:60px 60px;mask-size:60px 60px;-webkit-mask-repeat:repeat;mask-repeat:repeat}
+.gh.rain,.grow.rain,.rp-rain{position:relative;isolation:isolate;background-color:var(--rain-bg)}
+.gh.rain::before,.grow.rain::before,.rp-rain::before{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;background-color:var(--rain-drop);-webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg stroke='black' stroke-width='1.7' stroke-linecap='round'%3E%3Cpath d='M9 4l-2 7M33 9l-2 7M53 2l-2 7M20 25l-2 7M45 29l-2 7M6 41l-2 7M30 46l-2 7M54 49l-2 7'/%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'%3E%3Cg stroke='black' stroke-width='1.7' stroke-linecap='round'%3E%3Cpath d='M9 4l-2 7M33 9l-2 7M53 2l-2 7M20 25l-2 7M45 29l-2 7M6 41l-2 7M30 46l-2 7M54 49l-2 7'/%3E%3C/g%3E%3C/svg%3E");-webkit-mask-size:60px 60px;mask-size:60px 60px;-webkit-mask-repeat:repeat;mask-repeat:repeat}
 .grow.rain:hover{background-color:color-mix(in srgb,var(--raise) 60%,var(--rain-bg))}
 .rainx{display:inline-flex;align-items:center;gap:5px;font:700 12px Inter,sans-serif;padding:2px 9px;border-radius:999px;background:var(--rain-chip);color:var(--rain-ink);white-space:nowrap}
 .rainx svg{width:11px;height:13px;flex:0 0 auto}
@@ -790,6 +796,8 @@ function subscribe(sport){
   /* Nov 19 (Trina, B161): Upcoming games for the next 7 days come from sched/<sport>.json (ESPN schedule, published each run).
      A saved game doc with the same id always wins; schedule rows only fill dates the runs have not written yet. */
   st.sched=null;
+  /* Nov 24 (Trina, A92): full season game log per team from the ESPN schedule and finals (season/team_log.py), so pick cards list every game played. */
+  st.tlog=null;fetch('tlog/'+sport+'.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null;}).then(function(J){if(J&&J.teams)st.tlog=J.teams;}).catch(function(){});
   fetch('sched/'+sport+'.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null;}).then(function(J){
     if(!J||!J.games)return;st.sched=J.games.map(function(o){o=thaw(o);o.__sched=true;return o;});mergeSched(st);
     if(S.sport===sport||S.view==='summary')rerender();}).catch(function(){});
@@ -1564,11 +1572,11 @@ function gameRow(g){
     return nm.length?'<small class="grl'+(A61P?' a61x':'')+'">'+esc(nm.join(' · '))+'</small>':'';};
   var sk=pkKeys(P).filter(function(k){return k!=='total';});
   var sum=(s||t||n)?(pv?'<span class="chip close">Preview</span>':'')+(s?'<span>'+esc(s)+rn0(sk)+'</span>':'')+(t?'<span>'+esc(t)+rn0(['total'])+'</span>':'')+(n?'<span>'+n+' prop pick'+(n===1?'':'s')+'</span>':''):'<span class="np">No pick</span>';
-  var lab=tName(A)+' at '+tName(H)+(fin?', final':'')+'. '+((s||t)?[s,t].filter(Boolean).join(', '):'No pick')+(n?'. '+n+' prop picks':'');
+  var lab=tName(A)+(g.neutral?' vs ':' at ')+tName(H)+(g.neutral?' (neutral site)':'')+(fin?', final':'')+'. '+((s||t)?[s,t].filter(Boolean).join(', '):'No pick')+(n?'. '+n+' prop picks':'');
   var rn=rainGame(g);if(rn)lab+='. Rain expected'+(rainPct(g)?' '+rainPct(g)+'%':'');
   return '<button class="grow'+(rn?' rain':'')+'" type="button" data-act="game" data-g="'+esc(g.__id)+'" aria-label="'+esc(lab)+'">'+
     '<span class="tm">'+(fin?'<span class="chip fin">Final</span>':esc(g.time||''))+'<small>'+esc(fin?(g.final||''):(g.week?'Week '+g.week:''))+'</small></span>'+
-    '<span class="mu2">'+badge(A,'sm')+'<b>'+esc(tShort(A))+'</b>'+divChip(A)+'<span class="at">at</span>'+badge(H,'sm')+'<b>'+esc(tShort(H))+'</b>'+divChip(H)+'</span>'+
+    '<span class="mu2">'+badge(A,'sm')+'<b>'+esc(tShort(A))+'</b>'+divChip(A)+'<span class="at">'+(g.neutral?'vs':'at')+'</span>'+badge(H,'sm')+'<b>'+esc(tShort(H))+'</b>'+divChip(H)+(g.neutral?' <span class="ntag">Neutral</span>':'')+'</span>'+
     '<span class="gsum">'+sum+'</span>'+
     '<span class="pc"></span><span class="chev" aria-hidden="true">›</span></button>';
 }
@@ -1864,7 +1872,7 @@ function statsCard(g,side){
     h+=blk('Season to date','<span class="lgd">Rank 1 is best · for defense, allows the least</span>','<div class="ssg">'+(off.length?'<div class="ssh">Offense</div>'+off.map(function(x){return row(x.label,x.value,x.per,x.rank,x.of);}).join(''):'')+(def.length?'<div class="ssh">Defense</div>'+def.map(function(x){return row(x.label,x.value,x.per,x.rank,x.of);}).join(''):'')+'</div>');
     return h+'</div>';}
   var unit=S.sport==='nhl'?'Goals':'Points',l5=Array.isArray(tr.last5)?tr.last5:[];
-  var body=row('Record',T.record,'')+row(unit,tr.pf,'game')+row(unit+' allowed',tr.pa,'game')+(l5.length?row('Last 5',l5.map(function(x){return String(x).toUpperCase().charAt(0);}).join(' '),''):'');
+  var hs=(tr.history||{}).season||{},pf0=tr.pf!=null?tr.pf:hs.pf,pa0=tr.pa!=null?tr.pa:hs.pa;var body=row('Record',T.record||hs.record,'')+row(unit,pf0,'game')+row(unit+' allowed',pa0,'game')+(pf0!=null&&pa0!=null?row('Average margin',(pf0-pa0>0?'+':'')+(Math.round((pf0-pa0)*10)/10),'game'):'')+row('Against the spread',hs.ats,'')+row('Over/Under',hs.ou,'')+row('Home, road, neutral',hs.home_away,'')+(l5.length?row('Last 5',l5.map(function(x){return String(x).toUpperCase().charAt(0);}).join(' '),''):'');
   h+=blk('Season to date','<span class="lgd">Full stats and ranks fill in at the next run</span>',body?'<div class="ssg">'+body+'</div>':'<div class="small">No season stats posted for this team yet.</div>');
   return h+'</div>';
 }
@@ -2024,7 +2032,7 @@ function renderGameCard(M){
   var A=teamOf(g,'away'),H=teamOf(g,'home'),h=back;
   function tm2(T,cls){var sub=[T.record,T.rank_label].filter(Boolean).join(' · ');return '<div class="tm2'+cls+'">'+badge(T,'lg')+'<span><b>'+esc(tName(T))+' '+divChip(T)+'</b>'+(sub?'<small>'+esc(sub)+'</small>':'')+(T.conference?'<small>'+esc(T.conference)+'</small>':'')+'</span></div>';}
   var when=(g.kickoff_label&&!g.date?g.kickoff_label:fdate(gDate(g))+(g.time?' · '+g.time+' Phoenix':''));
-  var tags=(trxList(g).length?'<span class="tagx trtag">Trade or roster move</span>':'')+(g.neutral?'<span class="tagx">Neutral site</span>':'')+(g.conference_game?'<span class="tagx">Conference game</span>':'')+(g.week?'<span class="tagx">Week '+esc(g.week)+'</span>':'')+(isFinal(g)?'<span class="chip fin">Final'+(g.final?' · '+esc(g.final):'')+'</span>':'');
+  var tags=(trxList(g).length?'<span class="tagx trtag">Trade or roster move</span>':'')+(g.neutral?'<span class="tagx ntag">Neutral site'+(g.venue?' · '+esc(g.venue):'')+'</span>':'')+(g.conference_game?'<span class="tagx">Conference game</span>':'')+(g.week?'<span class="tagx">Week '+esc(g.week)+'</span>':'')+(isFinal(g)?'<span class="chip fin">Final'+(g.final?' · '+esc(g.final):'')+'</span>':'');
   var rn=rainGame(g);
   h+='<div class="gh'+(rn?' rain':'')+'"><h2 tabindex="-1" id="gc-h">'+esc(tShort(A))+' <span class="at">at</span> '+esc(tShort(H))+'</h2>'+
     '<div class="mt">'+tm2(A,'')+'<span class="vs">at</span>'+tm2(H,' h')+'</div>'+
@@ -2469,7 +2477,11 @@ function renderRules(M){
 function archLink(){return '<p class="small" style="margin:8px 0 0"><button class="det" type="button" data-act="arch">Original card (archive)</button></p>';}
 /* ---------------- pop-up ---------------- */
 var pop=document.getElementById('pop'),popIn=document.getElementById('pop-in'),opener=null;
-function openPop(html,from,kind){popIn.innerHTML=html;pop.setAttribute('data-kind',kind||'');if(!pop.open){opener=from||document.activeElement;try{pop.showModal();}catch(e){pop.setAttribute('open','');}}var x=popIn.querySelector('.x');if(x)x.focus();popIn.scrollTop=0;}
+/* Nov 24 (Trina): every pop up can be moved (drag its header) and resized (drag the corner). */
+(function(){var dr=null;document.addEventListener('pointerdown',function(e){var hd=e.target.closest&&e.target.closest('dialog.pop .pop-h');if(!hd||e.target.closest('button,a,input,select'))return;var d=hd.closest('dialog.pop'),r=d.getBoundingClientRect();d.classList.add('moved');d.style.left=r.left+'px';d.style.top=r.top+'px';dr={d:d,x:e.clientX-r.left,y:e.clientY-r.top};e.preventDefault();});
+document.addEventListener('pointermove',function(e){if(!dr)return;var w=window.innerWidth,hh=window.innerHeight;dr.d.style.left=Math.max(0,Math.min(w-80,e.clientX-dr.x))+'px';dr.d.style.top=Math.max(0,Math.min(hh-40,e.clientY-dr.y))+'px';});
+document.addEventListener('pointerup',function(){dr=null;});})();
+function openPop(html,from,kind){if(!pop.open){pop.classList.remove('moved');pop.style.left='';pop.style.top='';pop.style.width='';pop.style.height='';}popIn.innerHTML=html;pop.setAttribute('data-kind',kind||'');if(!pop.open){opener=from||document.activeElement;try{pop.showModal();}catch(e){pop.setAttribute('open','');}}var x=popIn.querySelector('.x');if(x)x.focus();popIn.scrollTop=0;}
 function closePop(){try{pop.close();}catch(e){pop.removeAttribute('open');}}
 pop.addEventListener('close',function(){var rb=S.rbox;S.rbox=null;pop.classList.remove('sheet');pop.setAttribute('data-kind','');
   if(opener&&!document.contains(opener)&&rb){opener=[].filter.call(document.querySelectorAll('[data-act="rbox"]'),function(x){return x.getAttribute('data-rk')===rb.rk&&x.getAttribute('data-sec')===rb.sec;})[0]||null;}
@@ -2545,6 +2557,8 @@ function pickPop(p){
   sub.push(gameName(p));sub.push((p.date!==TODAY?fdate(p.date)+' ':'')+(p.time||''));if(p.book||p.line_source)sub.push(String(p.book||p.line_source).slice(0,40)+' '+fprice(p.price));else sub.push(fprice(p.price));
   var isPr=p.market==='Prop',pw=isPr?propWho(p):null;
   var h='<div class="pop-h"><div><h3 id="pop-title">'+esc(isPr?pickLabel(p):p.pick)+'</h3>'+(pw&&(pw.team||pw.opp)?'<div class="sub"><b>'+esc([pw.team?'Plays for '+pw.team:'',pw.opp?'vs '+pw.opp:''].filter(Boolean).join(' · '))+'</b></div>':'')+'<div class="sub">'+esc(sub.filter(Boolean).join(' · '))+'</div></div><div style="display:flex;align-items:flex-start;gap:8px">'+tierTag(dispTier(M,p),true)+'<button class="x" type="button" data-act="close" aria-label="Close">×</button></div></div>'+(findGame(gidOf(p))?'<div class="gotop"><button type="button" data-act="gopen" data-g="'+esc(gidOf(p))+'">Open the game card ›</button></div>':'');
+  /* Nov 24 (Trina, A92): one pick card everywhere (game card and Games list): rule button, neutral site, rain, the story, the matchup. */
+  var g9=findGame(gidOf(p))||{};if(g9.neutral||rainGame(g9))h+='<div class="rp-rule">'+(g9.neutral?'<span class="ntag">Neutral site</span> ':'')+(rainGame(g9)?rainTag(g9):'')+'</div>';
   if(p.__pv)h+='<div class="box pvn">Preview as of '+esc(fdate(p.as_of||''))+': not a card pick until game day.'+(p.change?' Changed since '+esc(fshort(p.change.from_as_of||''))+': was '+esc(p.change.from||'')+(p.change.reason?'. '+esc(p.change.reason):''):'')+'</div>';
   /* A61: a bet more than one rule picked is one card pick; name the other rules. */
   if(!p.__pv&&!p.shadow&&g.kind!=='track'){var BG=betGroup(M,p).slice(1);if(BG.length)h+='<div class="box alsob'+(A61P?' a61o':'')+'">'+(A61P?'<span class="a61n">New</span> ':'')+'Also picked by: '+BG.map(function(x){return '<b>'+esc(ruleNameOf(M,x)||'Rule not named')+'</b> ('+esc(pTier(x)||'no tier')+')';}).join(', ')+'. One card pick: it counts once in the card record, and each rule keeps it in its own record.</div>';}
@@ -2555,7 +2569,7 @@ function pickPop(p){
     h+='<div class="box">Would-be pick: its '+(p.market==='Prop'?'prop rule tier':'rule')+' is off, so this is not a card pick and is graded only to track it.'+(wbp&&wbp.length?' Would-be record'+(p.market==='Prop'?' ('+esc(pTier(p))+' tier)':'')+' <b class="'+uc(agg(wbp).u)+'">'+wlp(agg(wbp))+' · '+fu(agg(wbp).u)+'</b>':'')+'</div>';
     if(p.market==='Prop'&&tierPack(M,p))h+='<div class="prl"><div class="prn">Rule: '+esc(propRuleName(p))+' · '+esc(pTier(p))+' tier</div><div class="prs">'+tierLine(M,p)+'</div></div>';}
   else if(tr)h+='<div class="box">Not a card pick: '+(p.__bg?'its prop rule is off, so it is graded in the background.':'prop leans are tracking only.')+(g.picks?' Tracking record <b class="'+uc(agg(g.picks).u)+'">'+wlp(agg(g.picks))+' · '+fu(agg(g.picks).u)+'</b>':'')+'</div>';
-  else if(tierPack(M,p))h+='<div class="prl"><div class="prn">Rule: '+esc(p.market==='Prop'?propRuleName(p)+' · '+pTier(p)+' tier':(g.label||rShort(p.rule_label||p.rule)||''))+'</div><div class="prs">'+tierLine(M,p)+'</div></div>';
+  else if(tierPack(M,p))h+='<div class="prl"><div class="prn">Rule: '+(p.market==='Prop'?esc(propRuleName(p)+' · '+pTier(p)+' tier'):'<button type="button" class="rnb" data-act="rperf" data-id="'+esc(p.__id)+'" title="See how this rule has done">'+esc(ruleNameOf(M,p)||g.label||rShort(p.rule_label||p.rule)||'')+'</button> <span class="small mu">tap to see its record and picks</span>')+'</div><div class="prs">'+tierLine(M,p)+'</div></div>';
   else if(rr&&typeof rr==='object'){h+='<div class="box sig">'+(rr.every_game?'<span>'+esc(rShort(rr.rule)||g.label||'')+(p.market!=='Prop'?', all tiers':'')+', every game this season</span><span class="'+unitsClassFromText(rr.every_game)+'">'+esc(rr.every_game)+'</span>':'')+(g.picks?(function(){var a1=agg(g.picks);return '<span>Card picks on this rule</span><span class="'+uc(a1.u)+'">'+wlp(a1)+' · '+fu(a1.u)+'</span>';})():(rr.card?'<span>Card picks on this rule</span><span class="'+unitsClassFromText(rr.card)+'">'+esc(rr.card)+'</span>':''))+(rr.last_3_weeks?'<span>Last 3 weeks, every game'+(p.market!=='Prop'?', all tiers':'')+'</span><span class="'+unitsClassFromText(rr.last_3_weeks)+'">'+esc(rr.last_3_weeks)+'</span>':'')+(rr.last_14_days?'<span>Last 14 days, every game'+(p.market!=='Prop'?', all tiers':'')+'</span><span class="'+unitsClassFromText(rr.last_14_days)+'">'+esc(rr.last_14_days)+'</span>':'')+'</div>';}
   else if(g.picks){var a=agg(g.picks),mr=(g.rule&&g.rule.meta)||ruleMetas(g)[0]||{};
     h+='<div class="box sig">'+(mr.every_game?'<span>'+esc(g.label)+(p.market!=='Prop'?', all tiers':'')+', every game this season</span><span class="'+unitsClassFromText(mr.every_game)+'">'+esc(mr.every_game)+'</span>':'')+'<span>'+(g.kind==='rule'?'Card picks on this rule':(g.kind==='prop'?'Card picks on prop rule '+esc(g.label):esc(g.label)))+'</span><span class="'+uc(a.u)+'">'+wlp(a)+' · '+fu(a.u)+'</span>'+(mr.last_3_weeks?'<span>Last 3 weeks, every game'+(p.market!=='Prop'?', all tiers':'')+'</span><span class="'+unitsClassFromText(mr.last_3_weeks)+'">'+esc(mr.last_3_weeks)+'</span>':'')+'</div>';}
@@ -2577,7 +2591,9 @@ function pickPop(p){
   }
   // signals
   var rs=Array.isArray(p.reasons)&&p.reasons.length?p.reasons:(Array.isArray(p.signals)&&p.signals.length?p.signals:null);
-  var agp=Array.isArray(p.against)?p.against:[];var gg=findGame(gidOf(p))||{};h+=sumHtml(autoSum(gg,p.market==='Total'?'total':'side',null,p,rs||[],agp));
+  var agp=Array.isArray(p.against)?p.against:[];var gg=findGame(gidOf(p))||{};var SM=autoSum(gg,p.market==='Total'?'total':'side',null,p,rs||[],agp)||{};var mkey=p.market==='Total'?'total':'spread',MW=(gg.move_why||{})[mkey]||'';var lead=storyOf(M,p,gg,/model/i.test(SM.for||''),!!MW||/opened/i.test(SM.for||''));var F0=String(SM.for||'');if(MW)F0=F0.split(/(?<=\.)\s+/).filter(function(x){return !/opened|sharp report|is now|moved (from|toward)/i.test(x);}).join(' ');h+=sumHtml({for:[MW,lead,F0].filter(Boolean).join(' '),against:SM.against});
+  /* Nov 24 (Trina, A92): the news behind the game (injuries, previews, team headlines) from the run's news step. */
+  var NW=Array.isArray(gg.news)?gg.news:[];if(NW.length)h+='<div class="sec"><div class="lbl">In the news</div><ul class="nwl">'+NW.slice(0,6).map(function(x){return '<li><span class="nwk">'+esc({injury:'Injury',preview:'Preview',news:'News',league:'Team news'}[x.kind]||'News')+'</span> '+esc(x.text||'')+(x.source?' <span class="small mu">'+esc(x.source)+'</span>':'')+'</li>';}).join('')+'</ul></div>';
   h+=sigBtn(p.pick,rs||[],(Array.isArray(p.against)?p.against:[]),p.market==='Total'?'total':'side',p.tier_basis||'',gg,p.pick,'',p.market);
   // experts
   var ex0=Array.isArray(p.experts)?p.experts.slice():[],seen={},both={},ex=[];
@@ -2592,6 +2608,7 @@ function pickPop(p){
   var ag=Array.isArray(p.against)&&p.against.length?p.against.slice():[];
   if(p.conflicting===true)ag.push('Signals point both ways on this game');
   // against list now lives in the signal bars above
+  if(!isPr&&g.kind!=='track'&&gg.__id)h+=matchupHtml(M,p,gg);
   if(L_back)h+='<button class="det" type="button" data-act="back" style="align-self:flex-start">‹ Back to the list</button>';
   h+='<div class="gotoc"><button type="button" data-act="gopen" data-g="'+esc(gidOf(p))+'">Open the game card ›</button></div>';
   return h;
@@ -2696,14 +2713,103 @@ function rperfPop(M,p){var st=M.st||{},meta=M.meta,all=(st.picks||[]).concat(st.
   lst.sort(function(a,b){return String(a.date)<String(b.date)?1:-1;});
   h+=lst.length?smt(['Date','Pick','Tier','Result','Units'],lst.slice(0,40).map(function(x){var u=units(x);return '<tr><td>'+esc(fdate(x.date))+'</td><td>'+esc(x.game||((x.away||'')+' @ '+(x.home||'')))+'<div class="small">'+esc(pickLabel(x))+(x.price!=null&&x.price!==''?' '+esc(fprice(x.price)):'')+(x.shadow?' <span class="mu">would-be</span>':'')+'</div></td><td>'+tierTag(isProp?propTier(x):tierOf(x),true)+'</td><td>'+esc(x.result)+'</td><td class="n"><b class="'+uc(u)+'">'+fu(u)+'</b></td></tr>';}))+(lst.length>40?'<div class="small mu">Latest 40 of '+lst.length+'.</div>':''):'<div class="small mu">No graded picks yet for '+esc(ctxT)+' in this rule.</div>';
   return h+'</div>';}
+/* Nov 24 (Trina): tap a pick in the Games list. Props open the player stat card; game picks open a team card with the
+   team's season to date and last 5 games at the line picked, plus one short paragraph on why this pick. */
+function tgScore(g,code){var f=String(g.final||'');var m=f.match(/^(.*?)\s+(\d+),\s*(.*?)\s+(\d+)$/);if(!m)return null;var A=teamOf(g,'away'),H=teamOf(g,'home'),c=nrm(code),aw=nrm(A.code)===c||nrm(A.short)===c||nrm(A.name)===c,hm=nrm(H.code)===c||nrm(H.short)===c||nrm(H.name)===c;if(!aw&&!hm)return null;var a=+m[2],h=+m[4];return {date:gDate(g),opp:aw?(H.code||tShort(H)):(A.code||tShort(A)),site:aw?'away':'home',pf:aw?a:h,pa:aw?h:a};}
+/* Nov 24 (Trina, A92): every game the team has played before this one. The ESPN schedule log (tlog) is the list; closing
+   lines come from our game docs and trends first, then the Odds API close saved in the repo. Nothing is assumed missing. */
+function teamLog(M,g0,side){var T=teamOf(g0,side),code=T.code||tShort(T),out={},d0=gDate(g0),st=S.subs[S.sport]||{},TL=st.tlog&&(st.tlog[code]||st.tlog[String(code).toUpperCase()]);
+  if(TL)TL.forEach(function(r){if(r.d<d0)out[r.d]={date:r.d,opp:r.o,oppName:r.on,site:r.s,pf:+r.pf,pa:+r.pa,sp:r.sp!=null?+r.sp:null,t:r.t!=null?+r.t:null,src:'sched'};});
+  (gamesOf(S.sport)||[]).forEach(function(g){if(gDate(g)>=d0||!isFinal(g))return;var r=tgScore(g,code);if(r&&!out[r.date])out[r.date]=r;});
+  var tr=((g0.trends||{})[side]||{}).games||[];tr.forEach(function(x){if(!x||!x.date||x.date>=d0||x.pf==null)return;var o=out[x.date]||(out[x.date]={date:x.date,opp:x.opp,site:x.site,pf:+x.pf,pa:+x.pa});
+    if(x.opp_name&&!o.oppName)o.oppName=x.opp_name;if(x.site)o.site=x.site;var sp=num(x.spread);if(sp!=null)o.sp=sp;if(x.total!=null&&num(x.total)!=null)o.t=num(x.total);});
+  return Object.keys(out).sort().map(function(k){return out[k];});}
+function atLine(G,kind,X){var w=0,l=0,p=0;G.forEach(function(x){var v=kind==='spread'?(x.pf-x.pa+X):kind==='ml'?(x.pf-x.pa):kind==='over'?(x.pf+x.pa-X):(X-(x.pf+x.pa));if(v>0)w++;else if(v<0)l++;else p++;});return {w:w,l:l,p:p};}
+function wlpS(r){return r.w+'-'+r.l+(r.p?'-'+r.p:'');}
+function spSide(g,p){var pk=String(p.pick||''),tm=nrm(pk.split(/\s+/)[0]);if(p.market==='Total')return /^under/i.test(pk)?'home':'away';var r=null;['away','home'].forEach(function(s){var T=teamOf(g,s);if(nrm(T.code)===tm||nrm(T.short)===tm||nrm(T.name)===tm)r=s;});return r;}
+function spRow(g,mkt){var L=Array.isArray(g.splits)?g.splits:[];for(var i=0;i<L.length;i++)if(L[i]&&String(L[i].market||'').toLowerCase()===String(mkt).toLowerCase())return L[i];return null;}
+/* Nov 24 (Trina): the why paragraph tells the story behind the pick in two or three sentences: why the money sits where it does,
+   why the model leans this way, and what else in the matchup backs it (injuries, rest, weather, experts). No stat dumps. */
+function storyOf(M,p,g,noModel,noMove){if(p.story)return p.story;g=g||{};var mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p),oth=side==='away'?'home':'away';
+  var me=side&&!isTot?tShort(teamOf(g,side)):(isTot?(/^under/i.test(pk)?'the Under':'the Over'):pk),op=side&&!isTot?tShort(teamOf(g,oth)):(isTot?(/^under/i.test(pk)?'the Over':'the Under'):'');
+  var R=(p.reasons||[]).filter(function(r){return r&&typeof r==='object';}),has=function(re){return R.some(function(r){return re.test((r.label||'')+' '+(r.detail||''));});};
+  var out=[];
+  /* 1. Where the money is and why it matters */
+  var sp=spRow(g,isTot?'Total':(mk==='Moneyline'?'Moneyline':(mk==='Puck line'?'Puck line':'Spread')))||(mk==='Moneyline'?spRow(g,'Spread'):null);
+  var mv=(Array.isArray(g.moves)?g.moves:[]).filter(function(x){return isTot?/total/i.test(x):!/total/i.test(x);})[0]||'';
+  if(sp&&side){var a=sp[side==='away'?'away_or_over':'home_or_under']||{},b=sp[side==='away'?'home_or_under':'away_or_over']||{},t=num(a.tickets),m=num(a.money);
+    if(t!=null&&m!=null){if(m-t>=12)out.push('Only '+t+'% of the bets are on '+me+' but '+m+'% of the money is, so the bigger, fewer tickets that books respect are on this side'+(b.tickets>=60?' while the public piles onto '+op:'')+'.');
+      else if(t<=35)out.push('The public is lopsided on '+op+' ('+(100-t)+'% of the bets), the kind of one way action books tend to shade the number against'+(m>t?', and the money is not following those tickets':'')+'.');
+      else if(has(/sharp|big money|pro systems/i))out.push('The sharp report flags '+me+': professional action and system plays are lined up on this side even though the betting split is close.');}}
+  else if(has(/sharp|big money|pro systems/i))out.push('The sharp report flags '+me+' as the side professional money and system plays are on.');
+  var mm=String(mv).replace(/\.$/,'').match(/opened\s+(.*?),\s*now\s+(.+?)(?:\s*\(|,|$)/i);
+  if(mm&&!noMove)out.push('The number opened '+mm[1].trim()+' and sits at '+mm[2].trim()+(has(/reverse line/i)?', moving against the public tickets, a reverse line move that usually means respected money is on '+me:(has(/moved toward|moved with|line moved/i)?', and the move has gone toward '+me:''))+'.');
+  /* 2. Why the model leans this way */
+  var md=noModel?{}:(g.model||{}),ms=String(md.our_spread||''),mt=String(md.our_total||'');
+  if(isTot&&mt){var lt=num((pk.match(/(\d+(?:\.\d+)?)/)||[])[1]);out.push('Our efficiency model projects '+mt+' total points'+(lt!=null?', '+Math.abs(Math.round((num(mt)-lt)*10)/10)+' '+(num(mt)>lt?'above':'below')+' the line':'')+(g.neutral?' on a neutral floor':'')+'.');}
+  else if(ms&&!isTot){var mq=ms.match(/^(\S+)\s+([+-]?\d+(?:\.\d+)?)/),lx=num((pk.match(/([+-]?\d+(?:\.\d+)?)\s*$/)||[])[1]);
+    if(mq){var fav=nrm(mq[1]),amt=Math.abs(+mq[2]),meT=side?teamOf(g,side):{},isMe=fav===nrm(meT.code)||fav===nrm(meT.short),mm2=isMe?amt:-amt;
+      var cov=lx!=null?Math.round((mm2+lx)*10)/10:null;
+      out.push('Our efficiency model makes it '+ms+(g.neutral?' on a neutral floor':'')+(cov==null?'.':(cov>0?', so it has '+me+' covering by about '+cov+' points at this number.':', which actually leans '+op+'; this pick comes from the rule\'s own read (line movement and calibration), not the raw model.')));}}
+  /* 3. Matchup context */
+  var inj=[],oppT=side&&!isTot?teamOf(g,oth):null;if(oppT&&Array.isArray(g.injuries))g.injuries.forEach(function(x){if(x&&/^out$/i.test(x.status||'')&&nrm(x.team)===nrm(oppT.code||oppT.short))inj.push(x.player);});
+  if(inj.length)out.push(tShort(oppT)+' is without '+inj.slice(0,3).join(', ')+(inj.length>3?' and '+(inj.length-3)+' more':'')+'.');
+  var rs=R.filter(function(r){return /rest|back to back|nights|goalie|weather|wind|rain|expert/i.test(r.label||'');})[0];
+  if(rs&&out.length<4)out.push(String(rs.label).replace(/\s*\(\d+\)$/,'')+(rs.detail&&String(rs.detail).length<110?': '+String(rs.detail).replace(/\s*\(\+?\d+\)\s*$/,''):'')+'.');
+  if(isTot&&rainGame(g))out.push('Rain is in the forecast, which tends to slow scoring.');
+  if(!out.length&&!noModel)out.push((ruleNameOf(M,p)||'The rule')+' picked '+pk+'; the run did not post more detail for this game.');
+  return out.slice(0,4).join(' ');}
+function recGames(rec){var n=0;String(rec||'').split(/[\s,]/)[0].split('-').forEach(function(x){var v=parseInt(x,10);if(isFinite(v))n+=v;});return n;}
+function covS(x){if(x.sp==null)return null;var v=x.pf-x.pa+x.sp;return v>0?'W':(v<0?'L':'P');}
+function ouS(x){if(x.t==null)return null;var v=x.pf+x.pa-x.t;return v>0?'O':(v<0?'U':'P');}
+function cnt(G,f,a,b){var w=0,l=0,p=0;G.forEach(function(x){var r=f(x);if(r===a)w++;else if(r===b)l++;else if(r==='P')p++;});return w+l+p?w+'-'+l+(p?'-'+p:''):'';}
+function matchupHtml(M,p,g){var mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p);
+  var m0=pk.match(/([+-]?\d+(?:\.\d+)?)\s*$/),X=m0?+m0[1]:num(p.line),kind=isTot?(/^under/i.test(pk)?'under':'over'):(mk==='Moneyline'||/\bML\b/.test(pk)?'ml':'spread');
+  var unit=S.sport==='nhl'?'Goals':'Points',sides=['away','home'],h='';
+  var D={};sides.forEach(function(sd){D[sd]={T:teamOf(g,sd),G:teamLog(M,g,sd),tr:(g.trends||{})[sd]||{}};});
+  function cell(sd,v){return '<td class="n'+(sd===side&&!isTot?' rp-me':'')+'">'+(v==null||v===''?'<span class="mu">–</span>':v)+'</td>';}
+  function row(lbl,f,def){return '<tr><th scope="row">'+lbl+(def?'<small>'+def+'</small>':'')+'</th>'+sides.map(function(sd){return cell(sd,f(D[sd],sd));}).join('')+'</tr>';}
+  function hn(G){var o={home:[0,0],away:[0,0],neutral:[0,0]};G.forEach(function(x){var k=o[x.site]?x.site:'home';o[k][x.pf>x.pa?0:1]++;});return ['home','away','neutral'].filter(function(k){return o[k][0]+o[k][1];}).map(function(k){return o[k][0]+'-'+o[k][1]+' '+(k==='away'?'road':k);}).join(' · ');}
+  function siteRec(G,k){var w=0,l=0;G.forEach(function(x){if((x.site||'home')===k){if(x.pf>x.pa)w++;else l++;}});return w+'-'+l;}
+  function avg(G,f){if(!G.length)return null;var t=0;G.forEach(function(x){t+=f(x);});return Math.round(t/G.length*10)/10;}
+  var lbl=kind==='spread'?'Covers '+(X>0?'+':'')+X:(kind==='ml'?'Wins':(kind==='over'?'Games over '+X:'Games under '+X));
+  var rows=[row('Record',function(d){var w=0,l=0;d.G.forEach(function(x){if(x.pf>x.pa)w++;else l++;});return d.G.length?w+'-'+l:(d.T.record||'');}),
+    row('At home',function(d){return siteRec(d.G,'home');},'Wins-losses'),
+    row('On the road',function(d){return siteRec(d.G,'away');},'Wins-losses'),
+    row('Neutral site',function(d){return siteRec(d.G,'neutral');},'Wins-losses'),
+    row(unit+' scored a game',function(d){return avg(d.G,function(x){return x.pf;});}),
+    row(unit+' allowed a game',function(d){return avg(d.G,function(x){return x.pa;});}),
+    row('Scoring margin a game',function(d){var v=avg(d.G,function(x){return x.pf-x.pa;});return v==null?null:(v>0?'+':'')+v;},'Actual results: '+unit.toLowerCase()+' scored minus allowed'),
+    row('Against the spread',function(d){return cnt(d.G,covS,'W','L');},'Covered their own closing spread'),
+    row('Over · under',function(d){return cnt(d.G,ouS,'O','U');},'Game total vs the closing total'),
+    row('Last 5',function(d){return d.G.slice(-5).map(function(x){return x.pf>x.pa?'W':'L';}).join(' ');}),
+    row('Days of rest',function(d){return d.tr.rest_days!=null?d.tr.rest_days:'';})];
+  if(kind==='spread'&&side)rows.splice(8,0,row(esc(lbl),function(d,sd){if(sd!==side)return null;var r=atLine(d.G,'spread',X);return wlpS(r);},'This pick\'s number applied to every game'));
+  if(kind==='over'||kind==='under')rows.splice(9,0,row(esc(lbl),function(d){var r=atLine(d.G,kind,X);return d.G.length?wlpS(r):'';},'This pick\'s total applied to every game'));
+  /* stat ranks where the run posted them (NBA, NFL, FBS, NCAAW) */
+  var SA={};sides.forEach(function(sd){var T=D[sd].T,a=Array.isArray(T.stats)?T.stats:(g.stats&&Array.isArray(g.stats[sd])?g.stats[sd]:[]);a.forEach(function(x){if(x&&x.label)(SA[x.label]=SA[x.label]||{})[sd]=x;});});
+  Object.keys(SA).forEach(function(k){if(/^points( allowed)?$/i.test(k))return;rows.push(row(esc(k)+(SA[k].away&&SA[k].away.per==='game'||SA[k].home&&SA[k].home.per==='game'?' a game':''),function(d,sd){var x=SA[k][sd];return x?esc(x.value)+(x.rank?' <small class="mu">'+ordN(x.rank)+'</small>':''):null;}));});
+  h+='<h4 class="rp-h">Matchup, season to date</h4><div class="scroll"><table class="smt rp-cmp"><thead><tr><th></th>'+sides.map(function(sd){var T=D[sd].T;return '<th class="n'+(sd===side&&!isTot?' rp-me':'')+'">'+badge(T,'sm')+' '+esc(tShort(T))+(sd===side&&!isTot?'<small>picked</small>':'')+'</th>';}).join('')+'</tr></thead><tbody>'+rows.join('')+'</tbody></table></div>';
+  /* records vs the doc's own season record: a game ESPN does not list */
+  sides.forEach(function(sd){var d=D[sd],rec=recGames(d.T.record);if(rec>d.G.length)h+='<div class="rp-gap">'+esc(tShort(d.T))+' is '+esc(d.T.record)+' ('+rec+' games), but the ESPN schedule in our data lists '+d.G.length+'. The game not listed could not be identified from the schedule.</div>';});
+  sides.forEach(function(sd){var d=D[sd],L5=d.G.slice(-5).reverse(),nm=tShort(d.T);if(!L5.length)return;
+    var rr=L5.map(function(x){var w=x.pf>x.pa,c=covS(x),o=ouS(x),site=x.site==='away'?'Away':(x.site==='neutral'?'Neutral':'Home');
+      return '<tr><td>'+esc(fdate(x.date))+'</td><td>'+site+'</td><td>'+(x.site==='away'?'at ':'vs ')+esc(x.oppName||x.opp||'')+'</td><td><b class="'+(w?'up':'dn')+'">'+(w?'W':'L')+'</b> '+x.pf+'-'+x.pa+'</td>'+
+        '<td>'+(x.sp!=null?(x.sp>0?'+':'')+x.sp+' <b class="'+(c==='W'?'up':(c==='L'?'dn':''))+'">'+(c==='W'?'Covered':(c==='L'?'Missed':'Push'))+'</b>':'<span class="mu">No line saved</span>')+'</td>'+
+        '<td>'+(x.t!=null?x.t+' <b>'+(o==='O'?'Over':(o==='U'?'Under':'Push'))+'</b> ('+(x.pf+x.pa)+')':'<span class="mu">'+(x.pf+x.pa)+' scored, no line saved</span>')+'</td></tr>';});
+    h+='<h4 class="rp-h">'+badge(d.T,'sm')+' '+esc(nm)+' last '+L5.length+' games</h4>'+smt(['Date','Site','Opponent',nm+' result',nm+' spread','Total (combined)'],rr);});
+  h+='<div class="small mu rp-key">Result shows '+(isTot?'the team':'each team')+'\'s score first. Spread is that team\'s closing number: Covered means it beat the number. Total is the closing game total: Over or Under, with the combined score in brackets.</div>';
+  return h;}
+
+function pcardPop(M,p){return pickPop(p);}
 function ruleLine(M,r,wb){var t=pTier(r),RC=ruleRecOf(M,r),u=RC.season&&recN(RC.season)?RC.season.u:null;
   return '<div class="glr-l'+(wb?' wb':'')+'">'+(r&&r.__id?'<button type="button" class="rn rnb'+RPV+'" data-act="rperf" data-id="'+esc(r.__id)+'" title="See how this rule has done">'+esc(ruleNameOf(M,r)||'Rule not named')+'</button>':'<span class="rn">'+esc(ruleNameOf(M,r)||'Rule not named')+'</span>')+(t?tierTag(t,true):'')+'<b class="ru '+uc(u||0)+'">'+(u==null?'<span class="mu">no record</span>':fu(u))+'</b>'+(RC.series&&RC.series.length?'<span class="rsp">'+spark(RC.series,RC.uf)+'</span>':'')+(wb?'<span class="wbm">would-be'+(typeof wb==='string'?': '+esc(wb):'')+'</span>':'')+'</div>';}
 function ruleLines(M,rules){return rules.map(function(r){return ruleLine(M,r,false);}).join('');}
 function gLineRows(M,list,extra){var out=[],hl=A61P?' a61x':'';list.forEach(function(g){var A=teamOf(g,'away'),H=teamOf(g,'home'),B=gBets(M,g,extra);
-  var lines=B.map(function(b){var p=b.p;return {pv:!!p.__pv,txt:pickLabel(p,g)+(p.market!=='Prop'&&p.price!=null&&p.price!==''?' '+fprice(p.price):''),rh:ruleLines(M,b.rules)};});
+  var lines=B.map(function(b){var p=b.p;return {id:p.__id,pv:!!p.__pv,txt:pickLabel(p,g)+(p.market!=='Prop'&&p.price!=null&&p.price!==''?' '+fprice(p.price):''),rh:ruleLines(M,b.rules)};});
   if(!lines.length){var P=g.picks||{},txt=pkKeys(P).map(function(k){return pickTxt(P[k]);}).filter(Boolean).join(' · ');lines=[{txt:txt,rh:''}];}
-  var n=lines.length,head='<td class="tmc" rowspan="'+n+'">'+(isFinal(g)?'<span class="chip fin">Final</span>':esc(g.time||''))+'</td><td rowspan="'+n+'" class="glg'+(A61P?' a61x':'')+'"><button type="button" class="lk glk" data-act="game" data-g="'+esc(g.__id)+'" aria-label="'+esc(tName(A)+' at '+tName(H))+'"><span class="glt-t">'+badge(A,'sm')+'<span>'+esc(A.code||tShort(A))+'</span></span><span class="glt-at">at</span><span class="glt-t">'+badge(H,'sm')+'<span>'+esc(H.code||tShort(H))+'</span></span></button>'+(rainGame(g)?' '+rainTag(g):'')+'</td>';
-  lines.forEach(function(L,i){out.push('<tr class="glb'+(i?' glb2':'')+'">'+(i?'':head)+'<td>'+(L.txt?(L.pv?'<span class="chip close">Preview</span> ':'')+'<span class="clamp2">'+esc(L.txt)+'</span>'+(L.rh?'<div class="glr-m'+hl+'">'+L.rh+'</div>':''):'<span class="mu">No pick</span>')+'</td><td class="glr'+(L.rh?hl:'')+'">'+L.rh+'</td></tr>');});});
+  var n=lines.length,head='<td class="tmc" rowspan="'+n+'">'+(isFinal(g)?'<span class="chip fin">Final</span>':esc(g.time||''))+'</td><td rowspan="'+n+'" class="glg'+(A61P?' a61x':'')+'"><button type="button" class="lk glk" data-act="game" data-g="'+esc(g.__id)+'" aria-label="'+esc(tName(A)+' at '+tName(H))+'"><span class="glt-t">'+badge(A,'sm')+'<span>'+esc(A.code||tShort(A))+'</span></span><span class="glt-at">at</span><span class="glt-t">'+badge(H,'sm')+'<span>'+esc(H.code||tShort(H))+'</span></span></button>'+(g.neutral?' <span class="ntag">Neutral</span>':'')+(rainGame(g)?' '+rainTag(g):'')+'</td>';
+  lines.forEach(function(L,i){out.push('<tr class="glb'+(i?' glb2':'')+'">'+(i?'':head)+'<td>'+(L.txt?(L.pv?'<span class="chip close">Preview</span> ':'')+(L.id?'<button type="button" class="lk pkb'+RPV+'" data-act="pcard" data-id="'+esc(L.id)+'" title="Stat card and why this pick"><span class="clamp2">'+esc(L.txt)+'</span></button>':'<span class="clamp2">'+esc(L.txt)+'</span>')+(L.rh?'<div class="glr-m'+hl+'">'+L.rh+'</div>':''):'<span class="mu">No pick</span>')+'</td><td class="glr'+(L.rh?hl:'')+'">'+L.rh+'</td></tr>');});});
   return out;}
 function gLineTbl(M,list,extra){return list.length?smt(['Time','Game',{t:'Card pick',cls:A61P?'a61h':'',raw:'<span class="glr-hm"> and rule</span>'+(A61P?'<span class="glr-hm"> <span class="a61n">New</span></span>':'')},{t:'Rule',cls:'glr'+(A61P?' a61h':''),raw:A61P?' <span class="a61n">New</span>':''}],gLineRows(M,list,extra),'glt'):line1('No games.');}
 function gWithPicks(M,list,extra){return list.filter(function(g){var P=g.picks||{};return gPicksOf(M,g,extra).length||pkKeys(P).some(function(k){return pickTxt(P[k]);});}).length;}
@@ -2855,8 +2961,9 @@ document.addEventListener('click',function(e){
   if(!b){if(S.calOpen&&!e.target.closest('.cal')){S.calOpen=false;S.calPick=null;render();}return;}
   var a=b.getAttribute('data-act');
   if(a==='cs'){secToggle(b.getAttribute('data-k'));return;}
+  if(a==='pcard'){e.preventDefault();e.stopPropagation();var p=findPick(b.getAttribute('data-id'));if(p&&curModel){if(!pop.open){L_back=null;pop.classList.remove('sheet');}pop.classList.add('wide');openPop(pickPop(p),b);}return;}
   if(a==='rperf'){e.preventDefault();e.stopPropagation();var p=findPick(b.getAttribute('data-id'));if(p&&curModel){pop.classList.add('wide');openPop(rperfPop(curModel,p),b);}return;}
-  if(a==='pick'){var p=findPick(b.getAttribute('data-id'));if(p){if(!pop.open){L_back=null;pop.classList.remove('sheet');}pop.classList.remove('wide');openPop(pickPop(p),b);}}
+  if(a==='pick'){var p=findPick(b.getAttribute('data-id'));if(p){if(!pop.open){L_back=null;pop.classList.remove('sheet');}pop.classList.add('wide');openPop(pickPop(p),b);}}
   else if(a==='rbox'){openRbox(b.getAttribute('data-sec'),b.getAttribute('data-rk'),b);}
   else if(a==='sigc'){var S1=SIGS[b.getAttribute('data-s')];if(S1)openPop(sigPop(S1,b.getAttribute('data-c'),b.getAttribute('data-n')==='1'),b);}
   else if(a==='plist'){var L=LISTS[b.getAttribute('data-list')];if(L){L_back=L;S.rbox=null;pop.classList.remove('sheet');pop.classList.add('wide');openPop(listPop(L),b);}}
