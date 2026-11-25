@@ -2557,6 +2557,8 @@ function pickPop(p){
   sub.push(gameName(p));sub.push((p.date!==TODAY?fdate(p.date)+' ':'')+(p.time||''));if(p.book||p.line_source)sub.push(String(p.book||p.line_source).slice(0,40)+' '+fprice(p.price));else sub.push(fprice(p.price));
   var isPr=p.market==='Prop',pw=isPr?propWho(p):null;
   var h='<div class="pop-h"><div><h3 id="pop-title">'+esc(isPr?pickLabel(p):p.pick)+'</h3>'+(pw&&(pw.team||pw.opp)?'<div class="sub"><b>'+esc([pw.team?'Plays for '+pw.team:'',pw.opp?'vs '+pw.opp:''].filter(Boolean).join(' · '))+'</b></div>':'')+'<div class="sub">'+esc(sub.filter(Boolean).join(' · '))+'</div></div><div style="display:flex;align-items:flex-start;gap:8px">'+tierTag(dispTier(M,p),true)+'<button class="x" type="button" data-act="close" aria-label="Close">×</button></div></div>'+(findGame(gidOf(p))?'<div class="gotop"><button type="button" data-act="gopen" data-g="'+esc(gidOf(p))+'">Open the game card ›</button></div>':'');
+  /* Nov 24 (Trina, A92): one pick card everywhere (game card and Games list): rule button, neutral site, rain, the story, the matchup. */
+  var g9=findGame(gidOf(p))||{};if(g9.neutral||rainGame(g9))h+='<div class="rp-rule">'+(g9.neutral?'<span class="ntag">Neutral site</span> ':'')+(rainGame(g9)?rainTag(g9):'')+'</div>';
   if(p.__pv)h+='<div class="box pvn">Preview as of '+esc(fdate(p.as_of||''))+': not a card pick until game day.'+(p.change?' Changed since '+esc(fshort(p.change.from_as_of||''))+': was '+esc(p.change.from||'')+(p.change.reason?'. '+esc(p.change.reason):''):'')+'</div>';
   /* A61: a bet more than one rule picked is one card pick; name the other rules. */
   if(!p.__pv&&!p.shadow&&g.kind!=='track'){var BG=betGroup(M,p).slice(1);if(BG.length)h+='<div class="box alsob'+(A61P?' a61o':'')+'">'+(A61P?'<span class="a61n">New</span> ':'')+'Also picked by: '+BG.map(function(x){return '<b>'+esc(ruleNameOf(M,x)||'Rule not named')+'</b> ('+esc(pTier(x)||'no tier')+')';}).join(', ')+'. One card pick: it counts once in the card record, and each rule keeps it in its own record.</div>';}
@@ -2567,7 +2569,7 @@ function pickPop(p){
     h+='<div class="box">Would-be pick: its '+(p.market==='Prop'?'prop rule tier':'rule')+' is off, so this is not a card pick and is graded only to track it.'+(wbp&&wbp.length?' Would-be record'+(p.market==='Prop'?' ('+esc(pTier(p))+' tier)':'')+' <b class="'+uc(agg(wbp).u)+'">'+wlp(agg(wbp))+' · '+fu(agg(wbp).u)+'</b>':'')+'</div>';
     if(p.market==='Prop'&&tierPack(M,p))h+='<div class="prl"><div class="prn">Rule: '+esc(propRuleName(p))+' · '+esc(pTier(p))+' tier</div><div class="prs">'+tierLine(M,p)+'</div></div>';}
   else if(tr)h+='<div class="box">Not a card pick: '+(p.__bg?'its prop rule is off, so it is graded in the background.':'prop leans are tracking only.')+(g.picks?' Tracking record <b class="'+uc(agg(g.picks).u)+'">'+wlp(agg(g.picks))+' · '+fu(agg(g.picks).u)+'</b>':'')+'</div>';
-  else if(tierPack(M,p))h+='<div class="prl"><div class="prn">Rule: '+esc(p.market==='Prop'?propRuleName(p)+' · '+pTier(p)+' tier':(g.label||rShort(p.rule_label||p.rule)||''))+'</div><div class="prs">'+tierLine(M,p)+'</div></div>';
+  else if(tierPack(M,p))h+='<div class="prl"><div class="prn">Rule: '+(p.market==='Prop'?esc(propRuleName(p)+' · '+pTier(p)+' tier'):'<button type="button" class="rnb" data-act="rperf" data-id="'+esc(p.__id)+'" title="See how this rule has done">'+esc(ruleNameOf(M,p)||g.label||rShort(p.rule_label||p.rule)||'')+'</button> <span class="small mu">tap to see its record and picks</span>')+'</div><div class="prs">'+tierLine(M,p)+'</div></div>';
   else if(rr&&typeof rr==='object'){h+='<div class="box sig">'+(rr.every_game?'<span>'+esc(rShort(rr.rule)||g.label||'')+(p.market!=='Prop'?', all tiers':'')+', every game this season</span><span class="'+unitsClassFromText(rr.every_game)+'">'+esc(rr.every_game)+'</span>':'')+(g.picks?(function(){var a1=agg(g.picks);return '<span>Card picks on this rule</span><span class="'+uc(a1.u)+'">'+wlp(a1)+' · '+fu(a1.u)+'</span>';})():(rr.card?'<span>Card picks on this rule</span><span class="'+unitsClassFromText(rr.card)+'">'+esc(rr.card)+'</span>':''))+(rr.last_3_weeks?'<span>Last 3 weeks, every game'+(p.market!=='Prop'?', all tiers':'')+'</span><span class="'+unitsClassFromText(rr.last_3_weeks)+'">'+esc(rr.last_3_weeks)+'</span>':'')+(rr.last_14_days?'<span>Last 14 days, every game'+(p.market!=='Prop'?', all tiers':'')+'</span><span class="'+unitsClassFromText(rr.last_14_days)+'">'+esc(rr.last_14_days)+'</span>':'')+'</div>';}
   else if(g.picks){var a=agg(g.picks),mr=(g.rule&&g.rule.meta)||ruleMetas(g)[0]||{};
     h+='<div class="box sig">'+(mr.every_game?'<span>'+esc(g.label)+(p.market!=='Prop'?', all tiers':'')+', every game this season</span><span class="'+unitsClassFromText(mr.every_game)+'">'+esc(mr.every_game)+'</span>':'')+'<span>'+(g.kind==='rule'?'Card picks on this rule':(g.kind==='prop'?'Card picks on prop rule '+esc(g.label):esc(g.label)))+'</span><span class="'+uc(a.u)+'">'+wlp(a)+' · '+fu(a.u)+'</span>'+(mr.last_3_weeks?'<span>Last 3 weeks, every game'+(p.market!=='Prop'?', all tiers':'')+'</span><span class="'+unitsClassFromText(mr.last_3_weeks)+'">'+esc(mr.last_3_weeks)+'</span>':'')+'</div>';}
@@ -2589,7 +2591,7 @@ function pickPop(p){
   }
   // signals
   var rs=Array.isArray(p.reasons)&&p.reasons.length?p.reasons:(Array.isArray(p.signals)&&p.signals.length?p.signals:null);
-  var agp=Array.isArray(p.against)?p.against:[];var gg=findGame(gidOf(p))||{};h+=sumHtml(autoSum(gg,p.market==='Total'?'total':'side',null,p,rs||[],agp));
+  var agp=Array.isArray(p.against)?p.against:[];var gg=findGame(gidOf(p))||{};var SM=autoSum(gg,p.market==='Total'?'total':'side',null,p,rs||[],agp)||{};var lead=storyOf(M,p,gg,/model/i.test(SM.for||''));h+=sumHtml({for:[lead,SM.for].filter(Boolean).join(' '),against:SM.against});
   h+=sigBtn(p.pick,rs||[],(Array.isArray(p.against)?p.against:[]),p.market==='Total'?'total':'side',p.tier_basis||'',gg,p.pick,'',p.market);
   // experts
   var ex0=Array.isArray(p.experts)?p.experts.slice():[],seen={},both={},ex=[];
@@ -2604,6 +2606,7 @@ function pickPop(p){
   var ag=Array.isArray(p.against)&&p.against.length?p.against.slice():[];
   if(p.conflicting===true)ag.push('Signals point both ways on this game');
   // against list now lives in the signal bars above
+  if(!isPr&&g.kind!=='track'&&gg.__id)h+=matchupHtml(M,p,gg);
   if(L_back)h+='<button class="det" type="button" data-act="back" style="align-self:flex-start">‹ Back to the list</button>';
   h+='<div class="gotoc"><button type="button" data-act="gopen" data-g="'+esc(gidOf(p))+'">Open the game card ›</button></div>';
   return h;
@@ -2725,7 +2728,7 @@ function spSide(g,p){var pk=String(p.pick||''),tm=nrm(pk.split(/\s+/)[0]);if(p.m
 function spRow(g,mkt){var L=Array.isArray(g.splits)?g.splits:[];for(var i=0;i<L.length;i++)if(L[i]&&String(L[i].market||'').toLowerCase()===String(mkt).toLowerCase())return L[i];return null;}
 /* Nov 24 (Trina): the why paragraph tells the story behind the pick in two or three sentences: why the money sits where it does,
    why the model leans this way, and what else in the matchup backs it (injuries, rest, weather, experts). No stat dumps. */
-function storyOf(M,p,g){if(p.story)return p.story;g=g||{};var mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p),oth=side==='away'?'home':'away';
+function storyOf(M,p,g,noModel){if(p.story)return p.story;g=g||{};var mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p),oth=side==='away'?'home':'away';
   var me=side&&!isTot?tShort(teamOf(g,side)):(isTot?(/^under/i.test(pk)?'the Under':'the Over'):pk),op=side&&!isTot?tShort(teamOf(g,oth)):(isTot?(/^under/i.test(pk)?'the Over':'the Under'):'');
   var R=(p.reasons||[]).filter(function(r){return r&&typeof r==='object';}),has=function(re){return R.some(function(r){return re.test((r.label||'')+' '+(r.detail||''));});};
   var out=[];
@@ -2740,7 +2743,7 @@ function storyOf(M,p,g){if(p.story)return p.story;g=g||{};var mk=p.market,pk=Str
   var mm=String(mv).replace(/\.$/,'').match(/opened\s+(.*?),\s*now\s+(.+?)(?:\s*\(|,|$)/i);
   if(mm)out.push('The number opened '+mm[1].trim()+' and sits at '+mm[2].trim()+(has(/reverse line/i)?', moving against the public tickets, a reverse line move that usually means respected money is on '+me:(has(/moved toward|moved with|line moved/i)?', and the move has gone toward '+me:''))+'.');
   /* 2. Why the model leans this way */
-  var md=g.model||{},ms=String(md.our_spread||''),mt=String(md.our_total||'');
+  var md=noModel?{}:(g.model||{}),ms=String(md.our_spread||''),mt=String(md.our_total||'');
   if(isTot&&mt){var lt=num((pk.match(/(\d+(?:\.\d+)?)/)||[])[1]);out.push('Our efficiency model projects '+mt+' total points'+(lt!=null?', '+Math.abs(Math.round((num(mt)-lt)*10)/10)+' '+(num(mt)>lt?'above':'below')+' the line':'')+(g.neutral?' on a neutral floor':'')+'.');}
   else if(ms&&!isTot){var mq=ms.match(/^(\S+)\s+([+-]?\d+(?:\.\d+)?)/),lx=num((pk.match(/([+-]?\d+(?:\.\d+)?)\s*$/)||[])[1]);
     if(mq){var fav=nrm(mq[1]),amt=Math.abs(+mq[2]),meT=side?teamOf(g,side):{},isMe=fav===nrm(meT.code)||fav===nrm(meT.short),mm2=isMe?amt:-amt;
@@ -2752,26 +2755,26 @@ function storyOf(M,p,g){if(p.story)return p.story;g=g||{};var mk=p.market,pk=Str
   var rs=R.filter(function(r){return /rest|back to back|nights|goalie|weather|wind|rain|expert/i.test(r.label||'');})[0];
   if(rs&&out.length<4)out.push(String(rs.label).replace(/\s*\(\d+\)$/,'')+(rs.detail&&String(rs.detail).length<110?': '+String(rs.detail).replace(/\s*\(\+?\d+\)\s*$/,''):'')+'.');
   if(isTot&&rainGame(g))out.push('Rain is in the forecast, which tends to slow scoring.');
-  if(!out.length)out.push((ruleNameOf(M,p)||'The rule')+' picked '+pk+'; the run did not post more detail for this game.');
+  if(!out.length&&!noModel)out.push((ruleNameOf(M,p)||'The rule')+' picked '+pk+'; the run did not post more detail for this game.');
   return out.slice(0,4).join(' ');}
 function recGames(rec){var n=0;String(rec||'').split(/[\s,]/)[0].split('-').forEach(function(x){var v=parseInt(x,10);if(isFinite(v))n+=v;});return n;}
 function covS(x){if(x.sp==null)return null;var v=x.pf-x.pa+x.sp;return v>0?'W':(v<0?'L':'P');}
 function ouS(x){if(x.t==null)return null;var v=x.pf+x.pa-x.t;return v>0?'O':(v<0?'U':'P');}
 function cnt(G,f,a,b){var w=0,l=0,p=0;G.forEach(function(x){var r=f(x);if(r===a)w++;else if(r===b)l++;else if(r==='P')p++;});return w+l+p?w+'-'+l+(p?'-'+p:''):'';}
-function teamPickPop(M,p){var g=findGame(gidOf(p))||{},mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p);
+function matchupHtml(M,p,g){var mk=p.market,pk=String(p.pick||''),isTot=mk==='Total',side=spSide(g,p);
   var m0=pk.match(/([+-]?\d+(?:\.\d+)?)\s*$/),X=m0?+m0[1]:num(p.line),kind=isTot?(/^under/i.test(pk)?'under':'over'):(mk==='Moneyline'||/\bML\b/.test(pk)?'ml':'spread');
-  var A=teamOf(g,'away'),H=teamOf(g,'home'),unit=S.sport==='nhl'?'Goals':'Points',sides=['away','home'],rn=rainGame(g);
-  var h='<div class="pop-h"><div><h3 id="pop-title">'+esc(pk)+(p.price!=null&&p.price!==''?' '+esc(fprice(p.price)):'')+'</h3><div class="sub">'+esc(tShort(A)+(g.neutral?' vs ':' at ')+tShort(H))+(g.neutral?' <span class="ntag">Neutral site'+(g.venue?' · '+esc(g.venue):'')+'</span>':'')+(rn?' '+rainTag(g):'')+'</div>'+
-    '<div class="rp-rule">Rule: <button type="button" class="rnb" data-act="rperf" data-id="'+esc(p.__id)+'">'+esc(ruleNameOf(M,p)||'Rule')+'</button> '+tierTag(pTier(p),true)+' <span class="small mu">tap the rule to see how it has done</span></div></div><button class="x" type="button" data-act="close" aria-label="Close">×</button></div>';
-  h+='<div class="rp-body'+(rn?' rp-rain':'')+'"><p class="rp-story">'+esc(storyOf(M,p,g))+'</p>';
+  var unit=S.sport==='nhl'?'Goals':'Points',sides=['away','home'],h='';
   var D={};sides.forEach(function(sd){D[sd]={T:teamOf(g,sd),G:teamLog(M,g,sd),tr:(g.trends||{})[sd]||{}};});
   function cell(sd,v){return '<td class="n'+(sd===side&&!isTot?' rp-me':'')+'">'+(v==null||v===''?'<span class="mu">–</span>':v)+'</td>';}
   function row(lbl,f,def){return '<tr><th scope="row">'+lbl+(def?'<small>'+def+'</small>':'')+'</th>'+sides.map(function(sd){return cell(sd,f(D[sd],sd));}).join('')+'</tr>';}
   function hn(G){var o={home:[0,0],away:[0,0],neutral:[0,0]};G.forEach(function(x){var k=o[x.site]?x.site:'home';o[k][x.pf>x.pa?0:1]++;});return ['home','away','neutral'].filter(function(k){return o[k][0]+o[k][1];}).map(function(k){return o[k][0]+'-'+o[k][1]+' '+(k==='away'?'road':k);}).join(' · ');}
+  function siteRec(G,k){var w=0,l=0;G.forEach(function(x){if((x.site||'home')===k){if(x.pf>x.pa)w++;else l++;}});return w+'-'+l;}
   function avg(G,f){if(!G.length)return null;var t=0;G.forEach(function(x){t+=f(x);});return Math.round(t/G.length*10)/10;}
   var lbl=kind==='spread'?'Covers '+(X>0?'+':'')+X:(kind==='ml'?'Wins':(kind==='over'?'Games over '+X:'Games under '+X));
   var rows=[row('Record',function(d){var w=0,l=0;d.G.forEach(function(x){if(x.pf>x.pa)w++;else l++;});return d.G.length?w+'-'+l:(d.T.record||'');}),
-    row('Home · road · neutral',function(d){return hn(d.G);}),
+    row('At home',function(d){return siteRec(d.G,'home');},'Wins-losses'),
+    row('On the road',function(d){return siteRec(d.G,'away');},'Wins-losses'),
+    row('Neutral site',function(d){return siteRec(d.G,'neutral');},'Wins-losses'),
     row(unit+' scored a game',function(d){return avg(d.G,function(x){return x.pf;});}),
     row(unit+' allowed a game',function(d){return avg(d.G,function(x){return x.pa;});}),
     row('Scoring margin a game',function(d){var v=avg(d.G,function(x){return x.pf-x.pa;});return v==null?null:(v>0?'+':'')+v;},'Actual results: '+unit.toLowerCase()+' scored minus allowed'),
@@ -2779,8 +2782,8 @@ function teamPickPop(M,p){var g=findGame(gidOf(p))||{},mk=p.market,pk=String(p.p
     row('Over · under',function(d){return cnt(d.G,ouS,'O','U');},'Game total vs the closing total'),
     row('Last 5',function(d){return d.G.slice(-5).map(function(x){return x.pf>x.pa?'W':'L';}).join(' ');}),
     row('Days of rest',function(d){return d.tr.rest_days!=null?d.tr.rest_days:'';})];
-  if(kind==='spread'&&side)rows.splice(6,0,row(esc(lbl),function(d,sd){if(sd!==side)return null;var r=atLine(d.G,'spread',X);return wlpS(r);},'This pick\'s number applied to every game'));
-  if(kind==='over'||kind==='under')rows.splice(7,0,row(esc(lbl),function(d){var r=atLine(d.G,kind,X);return d.G.length?wlpS(r):'';},'This pick\'s total applied to every game'));
+  if(kind==='spread'&&side)rows.splice(8,0,row(esc(lbl),function(d,sd){if(sd!==side)return null;var r=atLine(d.G,'spread',X);return wlpS(r);},'This pick\'s number applied to every game'));
+  if(kind==='over'||kind==='under')rows.splice(9,0,row(esc(lbl),function(d){var r=atLine(d.G,kind,X);return d.G.length?wlpS(r):'';},'This pick\'s total applied to every game'));
   /* stat ranks where the run posted them (NBA, NFL, FBS, NCAAW) */
   var SA={};sides.forEach(function(sd){var T=D[sd].T,a=Array.isArray(T.stats)?T.stats:(g.stats&&Array.isArray(g.stats[sd])?g.stats[sd]:[]);a.forEach(function(x){if(x&&x.label)(SA[x.label]=SA[x.label]||{})[sd]=x;});});
   Object.keys(SA).forEach(function(k){if(/^points( allowed)?$/i.test(k))return;rows.push(row(esc(k)+(SA[k].away&&SA[k].away.per==='game'||SA[k].home&&SA[k].home.per==='game'?' a game':''),function(d,sd){var x=SA[k][sd];return x?esc(x.value)+(x.rank?' <small class="mu">'+ordN(x.rank)+'</small>':''):null;}));});
@@ -2794,8 +2797,9 @@ function teamPickPop(M,p){var g=findGame(gidOf(p))||{},mk=p.market,pk=String(p.p
         '<td>'+(x.t!=null?x.t+' <b>'+(o==='O'?'Over':(o==='U'?'Under':'Push'))+'</b> ('+(x.pf+x.pa)+')':'<span class="mu">'+(x.pf+x.pa)+' scored, no line saved</span>')+'</td></tr>';});
     h+='<h4 class="rp-h">'+badge(d.T,'sm')+' '+esc(nm)+' last '+L5.length+' games</h4>'+smt(['Date','Site','Opponent',nm+' result',nm+' spread','Total (combined)'],rr);});
   h+='<div class="small mu rp-key">Result shows '+(isTot?'the team':'each team')+'\'s score first. Spread is that team\'s closing number: Covered means it beat the number. Total is the closing game total: Over or Under, with the combined score in brackets.</div>';
-  return h+'</div>';}
-function pcardPop(M,p){if(p.market==='Prop'){var g=findGame(gidOf(p));return '<div class="pop-h"><div><h3 id="pop-title">'+esc(pickLabel(p,g))+'</h3><div class="sub">Player stat card</div></div><button class="x" type="button" data-act="close" aria-label="Close">×</button></div><p class="rp-story">'+esc(storyOf(M,p,g))+'</p><div class="pgrid">'+propCard(M,p)+'</div>';}return teamPickPop(M,p);}
+  return h;}
+
+function pcardPop(M,p){return pickPop(p);}
 function ruleLine(M,r,wb){var t=pTier(r),RC=ruleRecOf(M,r),u=RC.season&&recN(RC.season)?RC.season.u:null;
   return '<div class="glr-l'+(wb?' wb':'')+'">'+(r&&r.__id?'<button type="button" class="rn rnb'+RPV+'" data-act="rperf" data-id="'+esc(r.__id)+'" title="See how this rule has done">'+esc(ruleNameOf(M,r)||'Rule not named')+'</button>':'<span class="rn">'+esc(ruleNameOf(M,r)||'Rule not named')+'</span>')+(t?tierTag(t,true):'')+'<b class="ru '+uc(u||0)+'">'+(u==null?'<span class="mu">no record</span>':fu(u))+'</b>'+(RC.series&&RC.series.length?'<span class="rsp">'+spark(RC.series,RC.uf)+'</span>':'')+(wb?'<span class="wbm">would-be'+(typeof wb==='string'?': '+esc(wb):'')+'</span>':'')+'</div>';}
 function ruleLines(M,rules){return rules.map(function(r){return ruleLine(M,r,false);}).join('');}
@@ -2955,9 +2959,9 @@ document.addEventListener('click',function(e){
   if(!b){if(S.calOpen&&!e.target.closest('.cal')){S.calOpen=false;S.calPick=null;render();}return;}
   var a=b.getAttribute('data-act');
   if(a==='cs'){secToggle(b.getAttribute('data-k'));return;}
-  if(a==='pcard'){e.preventDefault();e.stopPropagation();var p=findPick(b.getAttribute('data-id'));if(p&&curModel){pop.classList.add('wide');openPop(pcardPop(curModel,p),b);}return;}
+  if(a==='pcard'){e.preventDefault();e.stopPropagation();var p=findPick(b.getAttribute('data-id'));if(p&&curModel){if(!pop.open){L_back=null;pop.classList.remove('sheet');}pop.classList.add('wide');openPop(pickPop(p),b);}return;}
   if(a==='rperf'){e.preventDefault();e.stopPropagation();var p=findPick(b.getAttribute('data-id'));if(p&&curModel){pop.classList.add('wide');openPop(rperfPop(curModel,p),b);}return;}
-  if(a==='pick'){var p=findPick(b.getAttribute('data-id'));if(p){if(!pop.open){L_back=null;pop.classList.remove('sheet');}pop.classList.remove('wide');openPop(pickPop(p),b);}}
+  if(a==='pick'){var p=findPick(b.getAttribute('data-id'));if(p){if(!pop.open){L_back=null;pop.classList.remove('sheet');}pop.classList.add('wide');openPop(pickPop(p),b);}}
   else if(a==='rbox'){openRbox(b.getAttribute('data-sec'),b.getAttribute('data-rk'),b);}
   else if(a==='sigc'){var S1=SIGS[b.getAttribute('data-s')];if(S1)openPop(sigPop(S1,b.getAttribute('data-c'),b.getAttribute('data-n')==='1'),b);}
   else if(a==='plist'){var L=LISTS[b.getAttribute('data-list')];if(L){L_back=L;S.rbox=null;pop.classList.remove('sheet');pop.classList.add('wide');openPop(listPop(L),b);}}
