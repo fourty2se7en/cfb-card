@@ -11,10 +11,46 @@ Pass block = sack rate allowed (low is good), Run block = rushing EPA per play, 
 EPA allowed per play, Coverage = dropback EPA allowed. Several starters out in one unit lower that unit by the gap between
 each starter and his backup, scaled by the unit's size."""
 import pandas as pd, numpy as np, nflreadpy as nfl
+import re as _re
 
 SEASON = 2026
 SC = nfl.load_snap_counts([SEASON]).to_pandas(); SC = SC[SC.game_type == 'REG']
 PS = nfl.load_player_stats([SEASON]).to_pandas(); PS = PS[PS.season_type == 'REG'] if 'season_type' in PS else PS
+_PP = PS.sort_values('week').groupby('player_display_name').position.last().to_dict()
+# Nov 25: ESPN depth chart (repo season/data/espn/nfl/<day>/depth.json.gz) sorts DB into CB or S
+import gzip as _gz, json as _js, glob as _gl, os as _os
+_DEP = {}
+_df = sorted(_gl.glob(_os.environ.get('NFL_DEPTH_GLOB', '/home/claude/cfb-card/season/data/espn/nfl/*/depth.json.gz')))
+if _df:
+    _E2N = {'LAR': 'LA', 'WSH': 'WAS'}
+    for _t, _v in _js.load(_gz.open(_df[-1])).items():
+        _m = {}
+        for _c in _v.get('charts', []):
+            for _pos, _lst in (_c.get('positions') or {}).items():
+                for _x in _lst:
+                    if _pos in ('fs', 'ss'): _m.setdefault(_x['n'], 'S')
+                    elif _pos in ('lcb', 'rcb', 'nb', 'cb'): _m.setdefault(_x['n'], 'CB')
+        for _x in (_v.get('roster') or {}).values():
+            if _x.get('pos') in ('CB', 'S', 'FS', 'SS', 'SAF'): _m.setdefault(_x['n'], 'S' if _x['pos'] != 'CB' else 'CB')
+        _DEP[_E2N.get(_t, _t)] = _m
+def _key(n): return _re.sub(r"[.'`]", '', _re.sub(r'\s+(jr|sr|ii|iii|iv|v)\.?$', '', str(n).strip(), flags=_re.I)).lower()
+def _dep_pos(team, name):
+    m = _DEP.get(team) or {}
+    k = {_key(a): b for a, b in m.items()}
+    if _key(name) in k: return k[_key(name)]
+    last = _key(name).split()[-1] if name else ''
+    hits = {b for a, b in k.items() if a.split()[-1] == last and a.split()[0][:3] == _key(name)[:3]}
+    return hits.pop() if len(hits) == 1 else None
+def _norm_pos(r):
+    p = r['position']
+    if p == 'HB': return 'RB'
+    if p == 'DB':
+        q = _dep_pos(r['team'], r['player'])
+        if q: return q
+        q = _PP.get(r['player'])
+        return 'S' if q in ('S', 'FS', 'SS', 'SAF') else 'CB'
+    return p
+SC['position'] = SC.apply(_norm_pos, axis=1)
 PBP = nfl.load_pbp([SEASON]).to_pandas()
 PBP = PBP[(PBP.season_type == 'REG') & PBP.posteam.notna()]
 
@@ -41,6 +77,7 @@ g = PS.groupby(['player_id', 'player_display_name', 'position']).agg(
     gp=('week', 'nunique'), pepa=('passing_epa', 'sum'), repa=('rushing_epa', 'sum'), ry=('rushing_yards', 'sum'), recy=('receiving_yards', 'sum'),
     sk=('def_sacks', 'sum'), qh=('def_qb_hits', 'sum'), tfl=('def_tackles_for_loss', 'sum'), tk=('def_tackles_solo', 'sum'),
     ints=('def_interceptions', 'sum'), pd_=('def_pass_defended', 'sum')).reset_index()
+g_all = g.copy()
 g = g[g.gp >= 3].copy()
 for c in ('pepa', 'repa', 'ry', 'recy', 'sk', 'qh', 'tfl', 'tk', 'ints', 'pd_'): g[c] = g[c].fillna(0) / g.gp
 g['score'] = np.nan
@@ -53,9 +90,26 @@ g.loc[g.grp.isin(['DL', 'LB']), 'score'] = 2 * g.sk + g.qh + g.tfl + (0.15 * g.t
 g.loc[g.grp.isin(['CB', 'S']), 'score'] = 3 * g.ints + g.pd_ + 0.1 * g.tk
 g['rating'] = g.groupby('grp').score.transform(lambda s: pct_rank(s))
 RAT = {(r.player_display_name, r.grp): r for r in g.itertuples()}
+# Nov 25 fix: players with 1 or 2 games are rated against the 3+ game pool at their position group (same score)
+g1 = g_all[g_all.gp < 3].copy()
+for c in ('pepa', 'repa', 'ry', 'recy', 'sk', 'qh', 'tfl', 'tk', 'ints', 'pd_'): g1[c] = g1[c].fillna(0) / g1.gp
+g1['grp'] = g1.position.map({p: k for k, v in grp.items() for p in v})
+g1['score'] = np.nan
+g1.loc[g1.grp == 'QB', 'score'] = g1.pepa + g1.repa
+g1.loc[g1.grp == 'RB', 'score'] = g1.ry + g1.recy
+g1.loc[g1.grp.isin(['WR', 'TE']), 'score'] = g1.recy
+g1.loc[g1.grp.isin(['DL', 'LB']), 'score'] = 2 * g1.sk + g1.qh + g1.tfl + (0.15 * g1.tk)
+g1.loc[g1.grp.isin(['CB', 'S']), 'score'] = 3 * g1.ints + g1.pd_ + 0.1 * g1.tk
+def _vs_pool(r):
+    pool = g[g.grp == r.grp].score
+    if r.grp is None or r.grp != r.grp or not len(pool) or r.score != r.score: return np.nan
+    return int(min(99, max(1, round((pool < r.score).mean() * 100))))
+g1['rating'] = [_vs_pool(r) for r in g1.itertuples()]
+G1 = {}
+for r in g1.itertuples():
+    if r.rating == r.rating: G1.setdefault(_re.sub(r"[.'`]", '', _re.sub(r'\s+(jr|sr|ii|iii|iv|v)\.?$', '', str(r.player_display_name).strip(), flags=_re.I)).lower(), r)
 BYNAME = {}
 for r in g.itertuples(): BYNAME.setdefault(r.player_display_name, r)
-import re as _re
 def _nn(n): return _re.sub(r"[.'`]", '', _re.sub(r'\s+(jr|sr|ii|iii|iv|v)\.?$', '', str(n).strip(), flags=_re.I)).lower()
 BYNORM = {}
 for r in g.itertuples(): BYNORM.setdefault(_nn(r.player_display_name), r)
@@ -105,6 +159,22 @@ def rating_of(p, slot, team_hint=None):
     r = lookup(p, slot)
     if r is None or r.rating != r.rating: return None
     return int(r.rating)
+
+def fallback(p, slot, team):
+    """Nov 25 fix: rating for a starter with no 3+ game stat line: his 1 or 2 game stat line against the position pool,
+    else his snap share at the slot over the last 3 games against every player at that slot league wide."""
+    r = G1.get(_nn(p))
+    if r is not None:
+        st, wk = tags(r)
+        return int(r.rating), st, wk, f'rated on {int(r.gp)} game(s) of stats against the 3+ game pool at {r.grp}'
+    poss = dict((a, b) for a, b, _ in SLOTS_O + SLOTS_D).get(slot, [slot])
+    col = 'offense_pct' if slot in ('QB', 'RB', 'WR', 'TE', 'OL') else 'defense_pct'
+    wk3 = sorted(SC.week.unique())[-3:]
+    z = SC[SC.week.isin(wk3) & SC.position.isin(poss) & (SC[col] > 0)].groupby('player')[col].mean()
+    if p not in z.index:
+        return 50, ['new starter'], ['no 2026 snaps or stats at this slot yet'], 'no stats yet: neutral 50 until he plays'
+    sh = float(z[p]); rt = int(min(99, max(1, round(z.rank(pct=True)[p] * 100))))
+    return rt, [f'plays {sh*100:.0f}% of snaps'], ['too few games for a stat rating'], 'rating from snap share at the slot (too few games for a stat rating)'
 
 def build(team, qb_override=None, inj=None, moves=None):
     """Returns (lineup rows, units). inj: {player: status} from the official report.
@@ -162,6 +232,8 @@ def build(team, qb_override=None, inj=None, moves=None):
                 status = inj.get(p, 'Active')
                 if slot == 'OL' and p not in list(agg.player): rating = rating_of(p, 'OL'); note = 'OL rating from snap share with his previous team and its block units'
                 if rating is None and slot != 'OL': rating = rating_of(p, slot)
+                if rating is None:
+                    rating, st, wk, note = fallback(p, slot, team)
                 row = dict(player=p, pos=slot, role=side, starter=True, status=status, rating=rating, strengths=st, weaknesses=wk, source='nflverse snap counts (last 3 games) and player stats')
                 if p in self_moves: row.update(self_moves[p]); row['source'] += '; transactions.json'
                 elif lost and p not in base and slot != 'QB':
