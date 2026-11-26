@@ -1,7 +1,7 @@
 {
  "collections": {
   "meta": 7,
-  "runs": 247,
+  "runs": 257,
   "sports/fbs/backtest": 553,
   "sports/fbs/experts": 526,
   "sports/fbs/games": 264,
@@ -34,6 +34,6 @@
  "packed_at": "2026-11-19 14:47 Phoenix",
  "source": "hub",
  "unknown_versions": 5787,
- "updated_at": "2026-11-26 10:38 Phoenix",
+ "updated_at": "2026-11-26 10:39 Phoenix",
  "pending_hub_file": "season/ledger/updates/2026-11-26.json"
 }
