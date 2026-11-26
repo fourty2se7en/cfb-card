@@ -105,8 +105,8 @@ Wyoming,-7.85,-8.58,5.73,528.29,-3.2,21.0,24.5,36.8,0.23,,Mountain West,fbs,103
 Georgia State,-8.12,-5.9,2.77,573.83,-8.3,25.9,33.9,131.7,0.465,,Sun Belt,fbs,104
 Stephen F. Austin,-8.16,0.0,19.72,,,,,,,0.4049,Southland,fcs,105
 Nevada,-8.2,-7.3,4.1,549.99,-3.7,19.7,24.0,32.3,0.355,,Mountain West,fbs,106
-Central Michigan,-8.63,-7.89,4.25,540.01,-11.0,17.4,27.8,134.9,0.54,,Mid-American,fbs,107
 Tulane,-8.63,-0.52,-3.11,665.11,-10.4,18.8,29.9,72.5,0.21,,American Athletic,fbs,107
+Central Michigan,-8.63,-7.89,4.25,540.01,-11.0,17.4,27.8,134.9,0.54,,Mid-American,fbs,107
 Florida International,-9.41,-3.91,-0.51,607.56,-9.9,16.9,26.1,75.2,0.316,,Conference USA,fbs,109
 Old Dominion,-9.61,-7.64,3.02,544.25,-14.7,13.2,27.2,32.8,0.092,,Sun Belt,fbs,110
 California,-9.69,4.59,-9.28,751.92,-12.9,19.2,31.5,188.8,0.583,,ACC,fbs,111
@@ -172,8 +172,8 @@ Alcorn State,-24.49,0.0,3.39,,,,,,,0.4211,SWAC,fcs,170
 San Diego,-24.87,0.0,3.01,,,,,,,0.6361,Pioneer,fcs,171
 Central Connecticut,-24.94,0.0,2.94,,,,,,,0.1217,NEC,fcs,172
 Monmouth,-25.14,0.0,2.74,,,,,,,0.2897,Coastal Athletic,fcs,173
-North Alabama,-25.4,0.0,2.48,,,,,,,0.3814,UAC,fcs,174
 East Tennessee State,-25.4,0.0,2.48,,,,,,,0.2071,Southern,fcs,174
+North Alabama,-25.4,0.0,2.48,,,,,,,0.3814,UAC,fcs,174
 Weber State,-25.48,0.0,2.4,,,,,,,0.279,Big Sky,fcs,176
 Southern,-25.58,0.0,2.3,,,,,,,0.6242,SWAC,fcs,177
 Dartmouth,-25.84,0.0,2.04,,,,,,,0.5918,Ivy,fcs,178
@@ -185,8 +185,8 @@ Southeast Missouri State,-26.88,0.0,1.0,,,,,,,0.3209,OVC-Big South,fcs,183
 North Carolina Central,-26.93,0.0,0.95,,,,,,,0.229,MEAC,fcs,184
 Western Carolina,-27.11,0.0,0.77,,,,,,,0.1173,Southern,fcs,185
 Alabama State,-27.16,0.0,0.72,,,,,,,0.5464,SWAC,fcs,186
-SE Louisiana,-27.28,0.0,0.6,,,,,,,0.438,Southland,fcs,187
 Duquesne,-27.28,0.0,0.6,,,,,,,0.2206,NEC,fcs,187
+SE Louisiana,-27.28,0.0,0.6,,,,,,,0.438,Southland,fcs,187
 Cornell,-27.42,0.0,0.46,,,,,,,0.852,Ivy,fcs,189
 Chattanooga,-27.62,0.0,0.26,,,,,,,0.2748,Southern,fcs,190
 Central Arkansas,-27.65,0.0,0.22,,,,,,,0.2448,UAC,fcs,191
