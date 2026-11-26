@@ -5,7 +5,7 @@
   "sports/fbs/backtest": 553,
   "sports/fbs/experts": 526,
   "sports/fbs/games": 264,
-  "sports/fbs/picks": 693,
+  "sports/fbs/picks": 699,
   "sports/fbs/preview": 234,
   "sports/nba/backtest": 223,
   "sports/nba/experts": 102,
@@ -21,7 +21,7 @@
   "sports/nfl/backtest": 1764,
   "sports/nfl/experts": 81,
   "sports/nfl/games": 58,
-  "sports/nfl/picks": 545,
+  "sports/nfl/picks": 585,
   "sports/nfl/picks_bg": 234,
   "sports/nfl/preview": 690,
   "sports/nhl/backtest": 456,
@@ -34,6 +34,6 @@
  "packed_at": "2026-11-19 14:47 Phoenix",
  "source": "hub",
  "unknown_versions": 5787,
- "updated_at": "2026-11-26 02:14 Phoenix",
+ "updated_at": "2026-11-26 10:38 Phoenix",
  "pending_hub_file": "season/ledger/updates/2026-11-26.json"
 }
