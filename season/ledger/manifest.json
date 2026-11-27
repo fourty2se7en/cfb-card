@@ -5,7 +5,7 @@
   "sports/fbs/backtest": 553,
   "sports/fbs/experts": 526,
   "sports/fbs/games": 264,
-  "sports/fbs/picks": 755,
+  "sports/fbs/picks": 753,
   "sports/fbs/preview": 321,
   "sports/nba/backtest": 227,
   "sports/nba/experts": 122,
@@ -35,6 +35,6 @@
  "packed_at": "2026-11-19 14:47 Phoenix",
  "source": "hub",
  "unknown_versions": 5787,
- "updated_at": "2026-11-27 10:40 Phoenix",
+ "updated_at": "2026-11-27 10:44 Phoenix",
  "pending_hub_file": "season/ledger/updates/2026-11-27.json"
 }

@@ -80,9 +80,12 @@ def started(commence):
 def tlook(teams, idx, name):
     if name in idx: return teams[idx[name]]
     last = name.split()[-1]
-    if last in idx: return teams[idx[last]]
-    for t in teams.values():
-        if t.get('display', '').split()[-1] == last or t.get('name') == last: return t
+    cands = [teams[idx[last]]] if last in idx else []
+    cands += [t for t in teams.values() if (t.get('display', '').split()[-1] == last or t.get('name') == last) and t not in cands]
+    if len(cands) > 1:  # shared mascot (App State and West Virginia Mountaineers): pick the closest school name
+        import difflib
+        cands.sort(key=lambda t: -difflib.SequenceMatcher(None, name.lower(), t.get('display', '').lower()).ratio())
+    if cands: return cands[0]
     raise KeyError(name)
 def key_name(s): return re.sub(r'[^A-Za-z0-9]', '', unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode())
 def norm(s):
