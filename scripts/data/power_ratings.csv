@@ -1,126 +1,126 @@
 team,rating,talent_prior,form,talent,sp_rating,sp_offense.rating,sp_defense.rating,ret_totalPPA,ret_percentPPA,fcs_ret_yards_share,conference,division,rank
 Georgia,29.23,19.41,14.83,1003.67,31.3,40.5,9.4,248.1,0.687,,SEC,fbs,1
 Alabama,24.17,17.64,11.54,973.53,22.9,36.4,14.0,120.2,0.264,,SEC,fbs,2
-Notre Dame,21.82,16.43,10.4,953.03,25.6,40.1,15.0,175.6,0.512,,FBS Independents,fbs,3
+Notre Dame,21.81,16.43,10.39,953.03,25.6,40.1,15.0,175.6,0.512,,FBS Independents,fbs,3
 Texas,21.52,18.32,8.21,985.17,22.4,34.1,12.2,187.5,0.721,,SEC,fbs,4
-Wake Forest,21.03,0.41,25.64,680.87,22.6,38.2,16.2,44.1,0.142,,ACC,fbs,5
-Tennessee,19.97,12.48,12.5,885.9,21.5,33.8,12.9,186.2,0.353,,SEC,fbs,6
-Oregon,18.8,18.28,5.54,984.33,18.3,34.4,16.4,373.3,0.753,,Big Ten,fbs,7
-Miami,18.34,12.48,10.87,885.94,24.4,42.9,18.9,167.9,0.369,,ACC,fbs,8
+Wake Forest,21.03,0.41,25.63,680.87,22.6,38.2,16.2,44.1,0.142,,ACC,fbs,5
+Tennessee,19.96,12.48,12.5,885.9,21.5,33.8,12.9,186.2,0.353,,SEC,fbs,6
+Oregon,18.81,18.28,5.55,984.33,18.3,34.4,16.4,373.3,0.753,,Big Ten,fbs,7
+Miami,18.33,12.48,10.86,885.94,24.4,42.9,18.9,167.9,0.369,,ACC,fbs,8
 LSU,17.45,15.18,7.29,931.76,22.1,36.5,13.9,42.9,0.212,,SEC,fbs,9
 Ole Miss,16.88,12.47,9.43,885.72,12.9,35.3,23.1,279.4,0.503,,SEC,fbs,10
 Ohio State,16.46,17.09,4.38,964.27,24.1,37.4,13.4,355.9,0.683,,Big Ten,fbs,11
-Utah,15.27,1.28,19.01,695.72,21.7,39.8,18.1,278.5,0.679,,Big 12,fbs,12
-Louisville,14.81,3.89,15.94,739.97,17.1,39.8,22.4,92.3,0.348,,ACC,fbs,13
-Texas Tech,14.18,5.53,13.66,767.89,19.4,39.7,20.9,231.6,0.534,,Big 12,fbs,14
-Indiana,14.09,3.61,15.49,735.26,23.1,33.2,9.9,97.9,0.166,,Big Ten,fbs,15
+Utah,15.2,1.28,18.93,695.72,21.7,39.8,18.1,278.5,0.679,,Big 12,fbs,12
+Texas Tech,14.82,5.53,14.3,767.89,19.4,39.7,20.9,231.6,0.534,,Big 12,fbs,13
+Louisville,14.8,3.89,15.93,739.97,17.1,39.8,22.4,92.3,0.348,,ACC,fbs,14
+Indiana,14.08,3.61,15.49,735.26,23.1,33.2,9.9,97.9,0.166,,Big Ten,fbs,15
 Iowa,14.05,2.87,16.19,722.73,17.4,29.1,12.0,80.4,0.342,,Big Ten,fbs,16
-Oklahoma,12.79,10.43,7.38,851.14,7.5,22.2,15.1,181.3,0.632,,SEC,fbs,17
+Oklahoma,12.79,10.43,7.37,851.14,7.5,22.2,15.1,181.3,0.632,,SEC,fbs,17
 Auburn,11.86,9.08,7.79,828.19,5.9,26.4,20.9,35.8,0.144,,SEC,fbs,18
 Missouri,11.78,7.91,8.88,808.36,10.7,29.4,18.4,132.8,0.42,,SEC,fbs,19
 Nebraska,10.98,6.68,9.31,787.45,16.8,30.5,13.5,146.2,0.463,,Big Ten,fbs,20
 Florida,10.47,12.78,2.7,891.07,6.6,29.5,23.5,143.0,0.691,,SEC,fbs,21
-Duke,10.25,-0.32,15.59,668.47,11.6,32.1,20.5,75.6,0.171,,ACC,fbs,22
+Duke,10.24,-0.32,15.58,668.47,11.6,32.1,20.5,75.6,0.171,,ACC,fbs,22
 UCLA,9.88,5.92,8.98,774.45,21.1,33.0,11.9,108.3,0.57,,Big Ten,fbs,23
-USC,9.85,13.25,1.62,899.0,14.0,35.3,21.2,305.5,0.592,,Big Ten,fbs,24
-Arizona,9.67,1.51,13.18,699.59,15.0,37.1,22.1,202.4,0.649,,Big 12,fbs,25
-BYU,9.44,0.91,13.55,689.42,18.0,33.6,16.2,284.3,0.785,,Big 12,fbs,26
+USC,9.85,13.25,1.61,899.0,14.0,35.3,21.2,305.5,0.592,,Big Ten,fbs,24
+Arizona,9.65,1.51,13.16,699.59,15.0,37.1,22.1,202.4,0.649,,Big 12,fbs,25
+BYU,9.41,0.91,13.52,689.42,18.0,33.6,16.2,284.3,0.785,,Big 12,fbs,26
 Texas A&M,9.21,15.25,-1.03,933.0,6.9,26.0,19.6,266.6,0.728,,SEC,fbs,27
 Wisconsin,8.78,5.52,8.28,767.68,8.3,23.6,15.7,29.8,0.31,,Big Ten,fbs,28
-South Carolina,8.09,11.12,1.98,862.87,11.3,32.1,21.3,148.3,0.69,,SEC,fbs,29
+South Carolina,8.08,11.12,1.97,862.87,11.3,32.1,21.3,148.3,0.69,,SEC,fbs,29
 Northwestern,7.27,0.85,11.44,688.32,10.7,31.5,20.7,198.2,0.885,,Big Ten,fbs,30
-Kentucky,7.16,6.64,5.55,786.65,7.4,30.7,22.8,43.8,0.193,,SEC,fbs,31
-Baylor,6.95,2.9,9.06,723.28,10.7,29.3,18.7,212.6,0.602,,Big 12,fbs,32
-Oklahoma State,6.77,-0.07,11.86,672.69,12.7,39.6,27.2,0.0,0.0,,Big 12,fbs,33
+Kentucky,7.16,6.64,5.54,786.65,7.4,30.7,22.8,43.8,0.193,,SEC,fbs,31
+Baylor,6.97,2.9,9.08,723.28,10.7,29.3,18.7,212.6,0.602,,Big 12,fbs,32
+Oklahoma State,6.84,-0.07,11.93,672.69,12.7,39.6,27.2,0.0,0.0,,Big 12,fbs,33
 Washington,6.67,6.1,5.58,777.63,9.7,28.3,18.9,228.1,0.544,,Big Ten,fbs,34
-Penn State,6.64,5.89,5.76,774.04,12.2,30.3,17.9,21.5,0.076,,Big Ten,fbs,35
-Clemson,6.43,11.12,0.33,862.85,1.5,20.3,19.5,124.3,0.414,,ACC,fbs,36
-Houston,6.1,1.29,9.82,695.93,12.7,37.0,24.7,242.7,0.812,,Big 12,fbs,37
-SMU,5.54,5.33,5.23,764.5,11.6,34.4,22.7,219.8,0.569,,ACC,fbs,38
+Penn State,6.63,5.89,5.76,774.04,12.2,30.3,17.9,21.5,0.076,,Big Ten,fbs,35
+Clemson,6.43,11.12,0.32,862.85,1.5,20.3,19.5,124.3,0.414,,ACC,fbs,36
+Houston,6.12,1.29,9.85,695.93,12.7,37.0,24.7,242.7,0.812,,Big 12,fbs,37
+SMU,5.54,5.33,5.22,764.5,11.6,34.4,22.7,219.8,0.569,,ACC,fbs,38
 Texas State,5.4,-2.89,13.31,624.81,6.8,37.2,29.9,306.4,0.76,,Sun Belt,fbs,39
-North Carolina,5.37,5.53,4.86,767.89,4.8,28.3,23.0,46.9,0.278,,ACC,fbs,40
+North Carolina,5.35,5.53,4.83,767.89,4.8,28.3,23.0,46.9,0.278,,ACC,fbs,40
 Louisiana Tech,5.11,-7.71,17.84,543.02,4.4,29.4,24.5,138.6,0.639,,Conference USA,fbs,41
-Liberty,4.87,-2.39,12.28,633.35,15.2,32.6,17.5,86.9,0.383,,Conference USA,fbs,42
-Virginia,4.79,1.54,8.26,700.18,4.1,25.5,21.6,34.9,0.095,,ACC,fbs,43
+Liberty,4.88,-2.39,12.28,633.35,15.2,32.6,17.5,86.9,0.383,,Conference USA,fbs,42
+Virginia,4.78,1.54,8.25,700.18,4.1,25.5,21.6,34.9,0.095,,ACC,fbs,43
 Boise State,4.73,-1.93,11.68,641.17,13.4,39.7,26.7,234.2,0.663,,Mountain West,fbs,44
-Illinois,4.28,1.77,7.53,704.01,6.9,29.1,22.7,83.5,0.211,,Big Ten,fbs,45
-Kansas,3.88,0.62,8.27,684.51,4.8,28.4,23.7,59.5,0.181,,Big 12,fbs,46
-Michigan,3.79,12.72,-3.92,890.02,7.0,21.0,13.3,212.5,0.692,,Big Ten,fbs,47
+Illinois,4.28,1.77,7.52,704.01,6.9,29.1,22.7,83.5,0.211,,Big Ten,fbs,45
+Kansas,3.82,0.62,8.22,684.51,4.8,28.4,23.7,59.5,0.181,,Big 12,fbs,46
+Michigan,3.78,12.72,-3.92,890.02,7.0,21.0,13.3,212.5,0.692,,Big Ten,fbs,47
 Georgia Southern,3.56,-2.34,10.92,634.19,3.1,27.5,23.9,19.4,0.058,,Sun Belt,fbs,48
-Arkansas,3.52,4.21,4.33,745.48,-1.2,25.1,26.2,65.7,0.145,,SEC,fbs,49
+Arkansas,3.52,4.21,4.32,745.48,-1.2,25.1,26.2,65.7,0.145,,SEC,fbs,49
 Florida State,3.41,7.43,0.99,800.2,6.3,31.5,25.6,162.9,0.401,,ACC,fbs,50
 New Mexico,3.35,-6.23,14.59,568.19,13.2,27.3,14.0,174.1,0.582,,Mountain West,fbs,51
-TCU,3.34,3.35,5.01,730.79,7.9,23.9,15.7,94.3,0.224,,Big 12,fbs,52
-Vanderbilt,3.12,3.15,4.99,727.39,-2.1,24.0,26.8,203.3,0.354,,SEC,fbs,53
-Memphis,2.89,-0.22,8.12,670.31,9.9,36.9,26.9,20.7,0.056,,American Athletic,fbs,54
-Tulsa,2.69,-3.01,10.72,622.84,3.0,29.8,26.4,89.6,0.413,,American Athletic,fbs,55
+Vanderbilt,3.12,3.15,4.99,727.39,-2.1,24.0,26.8,203.3,0.354,,SEC,fbs,52
+Memphis,2.89,-0.22,8.12,670.31,9.9,36.9,26.9,20.7,0.056,,American Athletic,fbs,53
+Tulsa,2.69,-3.01,10.72,622.84,3.0,29.8,26.4,89.6,0.413,,American Athletic,fbs,54
+TCU,2.68,3.35,4.35,730.79,7.9,23.9,15.7,94.3,0.224,,Big 12,fbs,55
 James Madison,2.47,-5.04,12.53,588.31,10.6,32.6,22.3,31.0,0.08,,Sun Belt,fbs,56
-Arizona State,1.93,2.83,4.11,722.0,3.1,26.1,23.0,37.6,0.155,,Big 12,fbs,57
+Arizona State,1.97,2.83,4.16,722.0,3.1,26.1,23.0,37.6,0.155,,Big 12,fbs,57
 Mississippi State,1.77,7.69,-0.9,804.53,0.8,27.0,26.3,109.5,0.339,,SEC,fbs,58
 North Texas,1.54,-4.23,10.79,602.08,2.4,36.1,33.4,13.8,0.025,,American Athletic,fbs,59
-NC State,1.38,4.9,1.5,757.14,-1.7,28.9,30.9,233.7,0.599,,ACC,fbs,60
-Pittsburgh,1.26,0.06,6.21,675.02,8.8,28.0,19.6,149.9,0.397,,ACC,fbs,61
-UCF,1.22,-0.11,6.35,672.14,0.5,26.2,25.9,62.3,0.248,,Big 12,fbs,62
-Oregon State,0.24,-2.25,7.5,635.79,4.0,33.1,28.7,97.3,0.579,,Pac-12,fbs,63
+NC State,1.38,4.9,1.49,757.14,-1.7,28.9,30.9,233.7,0.599,,ACC,fbs,60
+Pittsburgh,1.25,0.06,6.21,675.02,8.8,28.0,19.6,149.9,0.397,,ACC,fbs,61
+UCF,1.2,-0.11,6.32,672.14,0.5,26.2,25.9,62.3,0.248,,Big 12,fbs,62
+Oregon State,0.27,-2.25,7.53,635.79,4.0,33.1,28.7,97.3,0.579,,Pac-12,fbs,63
 Iowa State,0.02,-0.26,5.3,669.55,0.1,28.1,28.2,4.7,0.017,,Big 12,fbs,64
-Syracuse,-0.11,4.22,0.69,745.61,-2.5,26.1,28.3,80.1,0.35,,ACC,fbs,65
-Minnesota,-0.36,3.23,1.43,728.79,-1.5,20.4,22.4,113.5,0.649,,Big Ten,fbs,66
+Syracuse,-0.11,4.22,0.68,745.61,-2.5,26.1,28.3,80.1,0.35,,ACC,fbs,65
+Minnesota,-0.36,3.23,1.42,728.79,-1.5,20.4,22.4,113.5,0.649,,Big Ten,fbs,66
 Virginia Tech,-0.38,5.6,-0.97,769.12,3.9,29.9,25.9,94.3,0.367,,ACC,fbs,67
-UConn,-0.45,-1.26,5.83,652.56,1.2,31.3,29.8,11.4,0.023,,FBS Independents,fbs,68
+UConn,-0.45,-1.26,5.82,652.56,1.2,31.3,29.8,11.4,0.023,,FBS Independents,fbs,68
 UTSA,-0.7,-1.07,5.38,655.82,3.3,32.2,29.0,234.1,0.669,,American Athletic,fbs,69
-Toledo,-0.77,-6.93,11.18,556.26,4.2,27.0,22.6,224.9,0.663,,Mid-American,fbs,70
+Toledo,-0.77,-6.93,11.17,556.26,4.2,27.0,22.6,224.9,0.663,,Mid-American,fbs,70
 Fresno State,-1.45,-3.78,7.35,609.75,4.1,28.1,24.3,104.6,0.383,,Mountain West,fbs,71
 Stanford,-1.61,1.88,1.53,705.81,-9.3,23.1,32.1,47.9,0.213,,ACC,fbs,72
 South Florida,-1.62,1.76,1.64,703.81,3.4,26.9,23.9,55.0,0.126,,American Athletic,fbs,73
-Cincinnati,-1.68,-2.34,5.67,634.28,0.5,32.3,31.9,34.8,0.083,,Big 12,fbs,74
-Georgia Tech,-1.68,4.57,-1.24,751.65,-5.8,24.4,29.8,47.7,0.126,,ACC,fbs,74
-West Virginia,-1.8,1.98,1.24,707.6,-2.3,32.6,35.4,21.1,0.14,,Big 12,fbs,76
-Louisiana,-2.19,-4.89,7.71,590.94,4.2,30.2,25.7,189.3,0.919,,Sun Belt,fbs,77
+Cincinnati,-1.65,-2.34,5.7,634.28,0.5,32.3,31.9,34.8,0.083,,Big 12,fbs,74
+Georgia Tech,-1.68,4.57,-1.24,751.65,-5.8,24.4,29.8,47.7,0.126,,ACC,fbs,75
+West Virginia,-1.78,1.98,1.25,707.6,-2.3,32.6,35.4,21.1,0.14,,Big 12,fbs,76
+Louisiana,-2.2,-4.89,7.71,590.94,4.2,30.2,25.7,189.3,0.919,,Sun Belt,fbs,77
 Air Force,-2.36,-20.0,22.65,272.35,2.9,27.9,25.3,185.9,0.574,,Mountain West,fbs,78
 Florida Atlantic,-2.48,-4.75,7.28,593.36,-2.9,31.9,35.2,266.8,0.684,,American Athletic,fbs,79
 Western Michigan,-2.71,-5.99,8.3,572.2,1.5,24.4,23.4,155.5,0.997,,Mid-American,fbs,80
-Kansas State,-2.71,2.63,-0.32,718.67,4.5,29.4,25.3,167.8,0.714,,Big 12,fbs,80
-Colorado,-2.81,3.4,-1.19,731.62,-3.9,23.9,27.2,26.4,0.137,,Big 12,fbs,82
+Kansas State,-2.76,2.63,-0.38,718.67,4.5,29.4,25.3,167.8,0.714,,Big 12,fbs,81
+Colorado,-2.77,3.4,-1.15,731.62,-3.9,23.9,27.2,26.4,0.137,,Big 12,fbs,82
 Maryland,-3.15,2.69,-0.83,719.64,-0.9,26.6,27.2,112.3,0.54,,Big Ten,fbs,83
 Michigan State,-3.16,0.65,1.21,685.02,-2.9,20.6,24.0,52.9,0.209,,Big Ten,fbs,84
-Miami (OH),-3.32,-3.1,4.8,621.37,-2.8,24.0,26.7,31.9,0.139,,Mid-American,fbs,85
-UNLV,-3.72,1.3,0.0,696.03,-2.6,25.2,28.1,66.1,0.154,,Mountain West,fbs,86
+Miami (OH),-3.31,-3.1,4.8,621.37,-2.8,24.0,26.7,31.9,0.139,,Mid-American,fbs,85
+UNLV,-3.71,1.3,0.0,696.03,-2.6,25.2,28.1,66.1,0.154,,Mountain West,fbs,86
 East Carolina,-3.87,-2.95,4.1,623.79,-3.0,20.1,23.5,50.6,0.136,,American Athletic,fbs,87
-Jacksonville State,-4.19,-4.19,5.02,602.83,2.9,27.6,25.1,133.7,0.495,,Conference USA,fbs,88
+Jacksonville State,-4.18,-4.19,5.02,602.83,2.9,27.6,25.1,133.7,0.495,,Conference USA,fbs,88
 Washington State,-4.23,-2.57,3.36,630.29,-10.3,18.7,28.4,228.3,0.913,,Pac-12,fbs,89
-Boston College,-4.43,-0.82,1.4,660.0,-8.2,20.7,28.4,45.8,0.156,,ACC,fbs,90
-San Diego State,-4.91,-3.81,3.91,609.22,-5.1,23.9,29.6,182.6,0.987,,Mountain West,fbs,91
+Boston College,-4.44,-0.82,1.4,660.0,-8.2,20.7,28.4,45.8,0.156,,ACC,fbs,90
+San Diego State,-4.91,-3.81,3.92,609.22,-5.1,23.9,29.6,182.6,0.987,,Mountain West,fbs,91
 Rutgers,-4.96,2.07,-2.01,709.04,-11.2,23.4,35.0,165.0,0.444,,Big Ten,fbs,92
 Buffalo,-5.04,-7.34,7.32,549.31,-8.7,18.5,27.3,-1.6,-0.008,,Mid-American,fbs,93
-Purdue,-5.47,1.43,-1.88,698.33,-3.6,27.5,31.7,111.7,0.475,,Big Ten,fbs,94
+Purdue,-5.47,1.43,-1.89,698.33,-3.6,27.5,31.7,111.7,0.475,,Big Ten,fbs,94
 Utah State,-6.03,-7.65,6.64,543.98,-6.8,17.2,23.4,215.0,0.652,,Mountain West,fbs,95
 Delaware,-6.1,-11.22,10.13,483.48,-7.2,26.8,33.6,299.8,0.849,,Conference USA,fbs,96
 Ohio,-6.42,-8.9,7.5,522.84,-2.4,23.6,26.0,205.6,0.625,,Mid-American,fbs,97
 UAB,-6.5,-3.99,2.51,606.18,-4.4,20.7,25.5,245.1,0.796,,American Athletic,fbs,98
-Army,-6.56,-20.0,18.45,303.83,-1.9,29.5,31.7,168.5,0.802,,American Athletic,fbs,99
-Navy,-6.65,-20.0,18.37,195.68,-3.0,30.1,32.6,46.7,0.138,,American Athletic,fbs,100
+Army,-6.57,-20.0,18.45,303.83,-1.9,29.5,31.7,168.5,0.802,,American Athletic,fbs,99
+Navy,-6.65,-20.0,18.36,195.68,-3.0,30.1,32.6,46.7,0.138,,American Athletic,fbs,100
 Kennesaw State,-6.69,-10.08,8.4,502.86,-7.8,21.7,29.2,23.1,0.061,,Conference USA,fbs,101
-South Alabama,-7.09,-5.92,3.85,573.38,-9.7,26.6,36.1,180.8,0.786,,Sun Belt,fbs,102
+South Alabama,-7.09,-5.92,3.84,573.38,-9.7,26.6,36.1,180.8,0.786,,Sun Belt,fbs,102
 Wyoming,-7.85,-8.58,5.74,528.29,-3.2,21.0,24.5,36.8,0.23,,Mountain West,fbs,103
 Georgia State,-8.11,-5.9,2.8,573.83,-8.3,25.9,33.9,131.7,0.465,,Sun Belt,fbs,104
 Nevada,-8.21,-7.3,4.11,549.99,-3.7,19.7,24.0,32.3,0.355,,Mountain West,fbs,105
-Stephen F. Austin,-8.54,0.0,19.79,,,,,,,0.4049,Southland,fcs,106
-Tulane,-8.62,-0.52,-3.09,665.11,-10.4,18.8,29.9,72.5,0.21,,American Athletic,fbs,107
+Stephen F. Austin,-8.53,0.0,19.79,,,,,,,0.4049,Southland,fcs,106
+Tulane,-8.63,-0.52,-3.09,665.11,-10.4,18.8,29.9,72.5,0.21,,American Athletic,fbs,107
 Central Michigan,-8.64,-7.89,4.26,540.01,-11.0,17.4,27.8,134.9,0.54,,Mid-American,fbs,108
-Florida International,-9.42,-3.91,-0.49,607.56,-9.9,16.9,26.1,75.2,0.316,,Conference USA,fbs,109
+Florida International,-9.41,-3.91,-0.49,607.56,-9.9,16.9,26.1,75.2,0.316,,Conference USA,fbs,109
 Old Dominion,-9.61,-7.64,3.05,544.25,-14.7,13.2,27.2,32.8,0.092,,Sun Belt,fbs,110
 California,-9.7,4.59,-9.27,751.92,-12.9,19.2,31.5,188.8,0.583,,ACC,fbs,111
 App State,-9.72,-3.08,-1.62,621.61,-4.2,23.0,27.6,107.7,0.379,,Sun Belt,fbs,112
-Hawai'i,-9.79,-6.9,2.13,556.82,-10.1,16.5,26.5,234.7,0.645,,Mountain West,fbs,113
-Coastal Carolina,-9.94,-5.89,0.97,573.96,-7.4,22.9,30.5,28.4,0.154,,Sun Belt,fbs,114
-Western Kentucky,-10.32,-3.68,-1.62,611.52,-11.9,21.3,33.3,312.2,0.837,,Conference USA,fbs,115
-Middle Tennessee,-10.63,-6.03,0.42,571.5,-13.7,21.8,36.1,70.8,0.325,,Conference USA,fbs,116
-Missouri State,-10.88,-7.3,1.44,549.92,-13.1,19.5,32.0,98.9,0.313,,Conference USA,fbs,117
+Hawai'i,-9.78,-6.9,2.13,556.82,-10.1,16.5,26.5,234.7,0.645,,Mountain West,fbs,113
+Coastal Carolina,-9.94,-5.89,0.96,573.96,-7.4,22.9,30.5,28.4,0.154,,Sun Belt,fbs,114
+Western Kentucky,-10.31,-3.68,-1.62,611.52,-11.9,21.3,33.3,312.2,0.837,,Conference USA,fbs,115
+Middle Tennessee,-10.62,-6.03,0.43,571.5,-13.7,21.8,36.1,70.8,0.325,,Conference USA,fbs,116
+Missouri State,-10.87,-7.3,1.45,549.92,-13.1,19.5,32.0,98.9,0.313,,Conference USA,fbs,117
 San José State,-11.69,-6.17,-0.51,569.25,-12.1,13.8,25.7,11.2,0.038,,Mountain West,fbs,118
-Montana State,-11.72,0.0,16.62,,,,,,,0.8114,Big Sky,fcs,119
+Montana State,-11.71,0.0,16.62,,,,,,,0.8114,Big Sky,fcs,119
 Marshall,-11.85,-4.67,-2.17,594.71,-11.9,21.8,33.6,284.6,0.988,,Sun Belt,fbs,120
-South Dakota State,-12.08,0.0,16.25,,,,,,,0.6868,MVFC,fcs,121
-Arkansas State,-12.23,-3.99,-3.23,606.22,-7.3,24.4,31.4,73.9,0.3,,Sun Belt,fbs,122
+South Dakota State,-12.07,0.0,16.25,,,,,,,0.6868,MVFC,fcs,121
+Arkansas State,-12.26,-3.99,-3.26,606.22,-7.3,24.4,31.4,73.9,0.3,,Sun Belt,fbs,122
 Rice,-12.54,-4.95,-2.57,589.89,-16.0,18.9,34.3,32.7,0.394,,American Athletic,fbs,123
 Bowling Green,-12.91,-6.22,-1.68,568.33,-17.0,15.7,32.7,-7.1,-0.062,,Mid-American,fbs,124
 Eastern Michigan,-13.25,-5.5,-2.74,580.64,-17.4,14.7,32.2,228.5,0.721,,Mid-American,fbs,125
@@ -128,139 +128,139 @@ Temple,-13.5,-2.53,-5.96,631.07,-11.7,22.5,34.5,96.1,0.37,,American Athletic,fbs
 Troy,-13.51,-4.58,-3.92,596.19,-13.8,16.3,29.6,75.1,0.353,,Sun Belt,fbs,127
 Southern Miss,-13.8,-4.2,-4.58,602.63,-17.4,20.7,37.4,289.4,0.902,,Sun Belt,fbs,128
 Massachusetts,-14.98,-8.72,-1.25,525.94,-10.1,18.5,28.5,-3.4,-0.567,,Mid-American,fbs,129
-Incarnate Word,-15.35,0.0,12.98,,,,,,,0.1103,Southland,fcs,130
+Incarnate Word,-15.34,0.0,12.98,,,,,,,0.1103,Southland,fcs,130
 Ball State,-15.37,-6.48,-3.87,563.88,-20.8,17.2,37.4,5.6,0.057,,Mid-American,fbs,131
-Tarleton State,-15.45,0.0,12.88,,,,,,,0.1772,UAC,fcs,132
-Colorado State,-15.54,-1.98,-8.55,640.31,-13.0,28.5,41.3,79.6,0.396,,Mountain West,fbs,133
-New Mexico State,-15.55,-12.58,2.05,460.38,-15.5,15.9,30.7,34.2,0.244,,Conference USA,fbs,134
-Western Illinois,-17.01,0.0,11.32,,,,,,,0.4002,OVC-Big South,fcs,135
-Butler,-17.21,0.0,11.13,,,,,,,0.5962,Pioneer,fcs,136
-UL Monroe,-17.48,-9.92,-2.55,505.49,-24.3,15.1,38.6,63.5,0.387,,Sun Belt,fbs,137
+Tarleton State,-15.44,0.0,12.88,,,,,,,0.1772,UAC,fcs,132
+New Mexico State,-15.54,-12.58,2.05,460.38,-15.5,15.9,30.7,34.2,0.244,,Conference USA,fbs,133
+Colorado State,-15.54,-1.98,-8.54,640.31,-13.0,28.5,41.3,79.6,0.396,,Mountain West,fbs,133
+Western Illinois,-17.0,0.0,11.32,,,,,,,0.4002,OVC-Big South,fcs,135
+Butler,-17.19,0.0,11.13,,,,,,,0.5962,Pioneer,fcs,136
+UL Monroe,-17.49,-9.92,-2.55,505.49,-24.3,15.1,38.6,63.5,0.387,,Sun Belt,fbs,137
 Akron,-17.86,-7.49,-5.36,546.84,-26.3,13.5,39.0,158.8,0.918,,Mid-American,fbs,138
-Kent State,-17.93,-8.9,-4.01,522.83,-22.1,12.4,33.7,108.3,0.641,,Mid-American,fbs,139
-Northern Illinois,-18.21,-8.09,-5.1,536.58,-28.3,12.8,40.4,35.8,0.437,,Mid-American,fbs,140
-Youngstown State,-18.21,0.0,10.13,,,,,,,0.6742,MVFC,fcs,140
+Kent State,-17.92,-8.9,-4.01,522.83,-22.1,12.4,33.7,108.3,0.641,,Mid-American,fbs,139
+Youngstown State,-18.19,0.0,10.13,,,,,,,0.6742,MVFC,fcs,140
+Northern Illinois,-18.2,-8.09,-5.1,536.58,-28.3,12.8,40.4,35.8,0.437,,Mid-American,fbs,141
 Charlotte,-18.22,-5.72,-7.48,576.77,-24.9,14.6,39.4,53.6,0.409,,American Athletic,fbs,142
-Prairie View A&M,-18.61,0.0,9.72,,,,,,,0.3143,SWAC,fcs,143
-Harvard,-18.8,0.0,9.53,,,,,,,0.4414,Ivy,fcs,144
-North Dakota,-18.83,0.0,9.5,,,,,,,0.5645,MVFC,fcs,145
-South Carolina State,-18.97,0.0,9.37,,,,,,,0.1251,MEAC,fcs,146
-Alabama A&M,-19.23,0.0,9.11,,,,,,,0.318,SWAC,fcs,147
-South Dakota,-19.35,0.0,8.98,,,,,,,0.2163,MVFC,fcs,148
-Jackson State,-19.59,0.0,8.75,,,,,,,0.2137,SWAC,fcs,149
-Sam Houston,-19.6,-7.04,-7.55,554.47,-21.9,11.1,32.3,38.1,0.577,,Conference USA,fbs,150
-Lamar,-19.63,0.0,8.71,,,,,,,0.5417,Southland,fcs,151
-Montana,-21.16,0.0,7.17,,,,,,,0.6606,Big Sky,fcs,152
-North Dakota State,-21.31,0.0,7.02,515.59,10.8,25.1,14.5,,,,MVFC,fcs,153
-Dayton,-21.43,0.0,6.9,,,,,,,0.8804,Pioneer,fcs,154
-Arkansas-Pine Bluff,-21.58,0.0,6.76,,,,,,,0.3395,SWAC,fcs,155
-Austin Peay,-21.71,0.0,6.62,,,,,,,0.7027,UAC,fcs,156
-Lehigh,-22.11,0.0,6.22,,,,,,,0.6472,Patriot,fcs,157
-Alabama State,-22.25,0.0,6.08,,,,,,,0.5464,SWAC,fcs,158
-Idaho State,-22.45,0.0,5.89,,,,,,,0.6907,Big Sky,fcs,159
-Illinois State,-22.65,0.0,5.69,,,,,,,0.3555,MVFC,fcs,160
+Prairie View A&M,-18.6,0.0,9.72,,,,,,,0.3143,SWAC,fcs,143
+Harvard,-18.79,0.0,9.53,,,,,,,0.4414,Ivy,fcs,144
+North Dakota,-18.82,0.0,9.5,,,,,,,0.5645,MVFC,fcs,145
+South Carolina State,-18.95,0.0,9.37,,,,,,,0.1251,MEAC,fcs,146
+Alabama A&M,-19.22,0.0,9.1,,,,,,,0.318,SWAC,fcs,147
+South Dakota,-19.34,0.0,8.98,,,,,,,0.2163,MVFC,fcs,148
+Sam Houston,-19.57,-7.04,-7.52,554.47,-21.9,11.1,32.3,38.1,0.577,,Conference USA,fbs,149
+Jackson State,-19.58,0.0,8.74,,,,,,,0.2137,SWAC,fcs,150
+Lamar,-19.61,0.0,8.71,,,,,,,0.5417,Southland,fcs,151
+Montana,-21.15,0.0,7.17,,,,,,,0.6606,Big Sky,fcs,152
+North Dakota State,-21.3,0.0,7.02,515.59,10.8,25.1,14.5,,,,MVFC,fcs,153
+Dayton,-21.42,0.0,6.9,,,,,,,0.8804,Pioneer,fcs,154
+Arkansas-Pine Bluff,-21.57,0.0,6.76,,,,,,,0.3395,SWAC,fcs,155
+Austin Peay,-21.7,0.0,6.63,,,,,,,0.7027,UAC,fcs,156
+Lehigh,-22.1,0.0,6.22,,,,,,,0.6472,Patriot,fcs,157
+Alabama State,-22.24,0.0,6.08,,,,,,,0.5464,SWAC,fcs,158
+Idaho State,-22.44,0.0,5.89,,,,,,,0.6907,Big Sky,fcs,159
+Illinois State,-22.63,0.0,5.69,,,,,,,0.3555,MVFC,fcs,160
 UTEP,-22.72,-5.19,-12.51,585.76,-26.3,10.9,36.5,-0.9,-0.011,,Conference USA,fbs,161
-Southern Utah,-22.9,0.0,5.43,,,,,,,0.2252,UAC,fcs,162
-Yale,-22.94,0.0,5.39,,,,,,,0.5064,Ivy,fcs,163
-Mercer,-23.06,0.0,5.27,,,,,,,0.1518,Southern,fcs,164
-Northern Arizona,-23.08,0.0,5.26,,,,,,,0.5778,Big Sky,fcs,165
-Tennessee Tech,-23.11,0.0,5.22,,,,,,,0.2008,OVC-Big South,fcs,166
-Villanova,-23.17,0.0,5.17,,,,,,,0.6769,Coastal Athletic,fcs,167
-St. Thomas (MN),-23.2,0.0,5.14,,,,,,,0.4635,Pioneer,fcs,168
-Abilene Christian,-23.88,0.0,4.45,,,,,,,0.1686,UAC,fcs,169
-Alcorn State,-24.38,0.0,3.95,,,,,,,0.4211,SWAC,fcs,170
-UAlbany,-24.44,0.0,3.89,,,,,,,0.1429,Coastal Athletic,fcs,171
-Southern,-25.3,0.0,3.04,,,,,,,0.6242,SWAC,fcs,172
-San Diego,-25.32,0.0,3.01,,,,,,,0.6361,Pioneer,fcs,173
-Central Connecticut,-25.39,0.0,2.94,,,,,,,0.1217,NEC,fcs,174
-Monmouth,-25.58,0.0,2.75,,,,,,,0.2897,Coastal Athletic,fcs,175
-North Alabama,-25.82,0.0,2.51,,,,,,,0.3814,UAC,fcs,176
-East Tennessee State,-25.85,0.0,2.48,,,,,,,0.2071,Southern,fcs,177
-Weber State,-25.92,0.0,2.41,,,,,,,0.279,Big Sky,fcs,178
-Dartmouth,-26.29,0.0,2.05,,,,,,,0.5918,Ivy,fcs,179
-Brown,-26.36,0.0,1.98,,,,,,,0.8358,Ivy,fcs,180
-Idaho,-26.46,0.0,1.87,,,,,,,0.603,Big Sky,fcs,181
-Norfolk State,-26.57,0.0,1.77,,,,,,,0.0216,MEAC,fcs,182
-Campbell,-27.15,0.0,1.18,,,,,,,0.5485,Coastal Athletic,fcs,183
-Southeast Missouri State,-27.31,0.0,1.03,,,,,,,0.3209,OVC-Big South,fcs,184
-North Carolina Central,-27.32,0.0,1.02,,,,,,,0.229,MEAC,fcs,185
-Grambling,-27.54,0.0,0.79,,,,,,,0.4325,SWAC,fcs,186
-Western Carolina,-27.56,0.0,0.78,,,,,,,0.1173,Southern,fcs,187
-SE Louisiana,-27.69,0.0,0.65,,,,,,,0.438,Southland,fcs,188
-Duquesne,-27.73,0.0,0.6,,,,,,,0.2206,NEC,fcs,189
-Cornell,-27.87,0.0,0.46,,,,,,,0.852,Ivy,fcs,190
-Chattanooga,-28.07,0.0,0.26,,,,,,,0.2748,Southern,fcs,191
-Central Arkansas,-28.09,0.0,0.24,,,,,,,0.2448,UAC,fcs,192
-Bryant,-28.42,0.0,-0.09,,,,,,,0.3774,Coastal Athletic,fcs,193
-UT Rio Grande Valley,-28.46,0.0,-0.12,,,,,,,0.2453,Southland,fcs,194
-Colgate,-28.85,0.0,-0.51,,,,,,,0.4335,Patriot,fcs,195
-Holy Cross,-29.08,0.0,-0.75,,,,,,,0.4481,Patriot,fcs,196
-Southern Illinois,-29.28,0.0,-0.94,,,,,,,0.6667,MVFC,fcs,197
-Pennsylvania,-29.75,0.0,-1.42,,,,,,,0.1614,Ivy,fcs,198
-Princeton,-29.79,0.0,-1.46,,,,,,,0.5255,Ivy,fcs,199
-Eastern Kentucky,-29.84,0.0,-1.51,,,,,,,0.7908,UAC,fcs,200
-Delaware State,-29.87,0.0,-1.53,,,,,,,0.2632,MEAC,fcs,201
-UC Davis,-30.19,0.0,-1.86,,,,,,,0.374,Big Sky,fcs,202
-McNeese,-30.26,0.0,-1.93,,,,,,,0.5735,Southland,fcs,203
-Towson,-30.38,0.0,-2.05,,,,,,,0.5067,Coastal Athletic,fcs,204
-Furman,-30.56,0.0,-2.22,,,,,,,0.2113,Southern,fcs,205
-Lindenwood,-30.57,0.0,-2.24,,,,,,,0.4053,OVC-Big South,fcs,206
-Elon,-30.77,0.0,-2.43,,,,,,,0.2901,Coastal Athletic,fcs,207
-Stony Brook,-30.78,0.0,-2.44,,,,,,,0.2635,Coastal Athletic,fcs,208
-Valparaiso,-30.82,0.0,-2.48,,,,,,,0.5152,Pioneer,fcs,209
-Marist,-31.47,0.0,-3.14,,,,,,,0.6728,Pioneer,fcs,210
-UT Martin,-31.63,0.0,-3.29,,,,,,,0.1913,OVC-Big South,fcs,211
-Sacred Heart,-31.75,0.0,-3.42,,,,,,,0.7682,FCS Independents,fcs,212
-Northern Colorado,-32.02,0.0,-3.68,,,,,,,0.1667,Big Sky,fcs,213
-Wofford,-32.15,0.0,-3.81,,,,,,,0.5827,Southern,fcs,214
-Morgan State,-32.25,0.0,-3.92,,,,,,,0.4085,MEAC,fcs,215
-Rhode Island,-32.49,0.0,-4.16,,,,,,,0.6527,Coastal Athletic,fcs,216
-Charleston Southern,-32.62,0.0,-4.29,,,,,,,0.163,OVC-Big South,fcs,217
-Gardner-Webb,-32.92,0.0,-4.59,,,,,,,0.3487,OVC-Big South,fcs,218
-Northern Iowa,-33.13,0.0,-4.79,,,,,,,0.2972,MVFC,fcs,219
-Lafayette,-33.35,0.0,-5.02,,,,,,,0.3971,Patriot,fcs,220
-Eastern Illinois,-33.63,0.0,-5.3,,,,,,,0.4649,OVC-Big South,fcs,221
-Long Island University,-33.65,0.0,-5.31,,,,,,,0.588,NEC,fcs,222
-Drake,-33.92,0.0,-5.59,,,,,,,0.1905,Pioneer,fcs,223
-North Carolina A&T,-33.94,0.0,-5.6,,,,,,,0.6901,Coastal Athletic,fcs,224
-Florida A&M,-34.01,0.0,-5.68,,,,,,,0.1668,SWAC,fcs,225
-Robert Morris,-34.56,0.0,-6.23,,,,,,,0.2992,NEC,fcs,226
-Murray State,-34.7,0.0,-6.36,,,,,,,0.5617,MVFC,fcs,227
-New Hampshire,-34.7,0.0,-6.36,,,,,,,0.246,Coastal Athletic,fcs,227
-Presbyterian,-35.01,0.0,-6.68,,,,,,,0.0537,Pioneer,fcs,229
-Samford,-35.03,0.0,-6.7,,,,,,,0.2217,Southern,fcs,230
+Southern Utah,-22.89,0.0,5.43,,,,,,,0.2252,UAC,fcs,162
+Yale,-22.93,0.0,5.39,,,,,,,0.5064,Ivy,fcs,163
+Mercer,-23.05,0.0,5.27,,,,,,,0.1518,Southern,fcs,164
+Northern Arizona,-23.06,0.0,5.26,,,,,,,0.5778,Big Sky,fcs,165
+Tennessee Tech,-23.1,0.0,5.22,,,,,,,0.2008,OVC-Big South,fcs,166
+Villanova,-23.15,0.0,5.17,,,,,,,0.6769,Coastal Athletic,fcs,167
+St. Thomas (MN),-23.18,0.0,5.14,,,,,,,0.4635,Pioneer,fcs,168
+Abilene Christian,-23.85,0.0,4.47,,,,,,,0.1686,UAC,fcs,169
+Alcorn State,-24.37,0.0,3.95,,,,,,,0.4211,SWAC,fcs,170
+UAlbany,-24.43,0.0,3.89,,,,,,,0.1429,Coastal Athletic,fcs,171
+Southern,-25.29,0.0,3.04,,,,,,,0.6242,SWAC,fcs,172
+San Diego,-25.31,0.0,3.01,,,,,,,0.6361,Pioneer,fcs,173
+Central Connecticut,-25.38,0.0,2.94,,,,,,,0.1217,NEC,fcs,174
+Monmouth,-25.57,0.0,2.75,,,,,,,0.2897,Coastal Athletic,fcs,175
+North Alabama,-25.81,0.0,2.51,,,,,,,0.3814,UAC,fcs,176
+East Tennessee State,-25.84,0.0,2.48,,,,,,,0.2071,Southern,fcs,177
+Weber State,-25.91,0.0,2.41,,,,,,,0.279,Big Sky,fcs,178
+Dartmouth,-26.28,0.0,2.05,,,,,,,0.5918,Ivy,fcs,179
+Brown,-26.34,0.0,1.98,,,,,,,0.8358,Ivy,fcs,180
+Idaho,-26.45,0.0,1.87,,,,,,,0.603,Big Sky,fcs,181
+Norfolk State,-26.55,0.0,1.77,,,,,,,0.0216,MEAC,fcs,182
+Campbell,-27.14,0.0,1.18,,,,,,,0.5485,Coastal Athletic,fcs,183
+Southeast Missouri State,-27.29,0.0,1.03,,,,,,,0.3209,OVC-Big South,fcs,184
+North Carolina Central,-27.3,0.0,1.02,,,,,,,0.229,MEAC,fcs,185
+Western Carolina,-27.54,0.0,0.78,,,,,,,0.1173,Southern,fcs,186
+Grambling,-27.56,0.0,0.77,,,,,,,0.4325,SWAC,fcs,187
+SE Louisiana,-27.67,0.0,0.65,,,,,,,0.438,Southland,fcs,188
+Duquesne,-27.72,0.0,0.6,,,,,,,0.2206,NEC,fcs,189
+Cornell,-27.86,0.0,0.46,,,,,,,0.852,Ivy,fcs,190
+Chattanooga,-28.06,0.0,0.27,,,,,,,0.2748,Southern,fcs,191
+Central Arkansas,-28.08,0.0,0.25,,,,,,,0.2448,UAC,fcs,192
+Bryant,-28.41,0.0,-0.09,,,,,,,0.3774,Coastal Athletic,fcs,193
+UT Rio Grande Valley,-28.44,0.0,-0.12,,,,,,,0.2453,Southland,fcs,194
+Colgate,-28.83,0.0,-0.51,,,,,,,0.4335,Patriot,fcs,195
+Holy Cross,-29.07,0.0,-0.75,,,,,,,0.4481,Patriot,fcs,196
+Southern Illinois,-29.26,0.0,-0.94,,,,,,,0.6667,MVFC,fcs,197
+Pennsylvania,-29.74,0.0,-1.42,,,,,,,0.1614,Ivy,fcs,198
+Princeton,-29.78,0.0,-1.46,,,,,,,0.5255,Ivy,fcs,199
+Eastern Kentucky,-29.83,0.0,-1.5,,,,,,,0.7908,UAC,fcs,200
+Delaware State,-29.85,0.0,-1.53,,,,,,,0.2632,MEAC,fcs,201
+UC Davis,-30.18,0.0,-1.86,,,,,,,0.374,Big Sky,fcs,202
+McNeese,-30.25,0.0,-1.92,,,,,,,0.5735,Southland,fcs,203
+Towson,-30.37,0.0,-2.04,,,,,,,0.5067,Coastal Athletic,fcs,204
+Furman,-30.54,0.0,-2.22,,,,,,,0.2113,Southern,fcs,205
+Lindenwood,-30.56,0.0,-2.23,,,,,,,0.4053,OVC-Big South,fcs,206
+Elon,-30.75,0.0,-2.43,,,,,,,0.2901,Coastal Athletic,fcs,207
+Stony Brook,-30.76,0.0,-2.44,,,,,,,0.2635,Coastal Athletic,fcs,208
+Valparaiso,-30.8,0.0,-2.48,,,,,,,0.5152,Pioneer,fcs,209
+Marist,-31.46,0.0,-3.14,,,,,,,0.6728,Pioneer,fcs,210
+UT Martin,-31.61,0.0,-3.29,,,,,,,0.1913,OVC-Big South,fcs,211
+Sacred Heart,-31.74,0.0,-3.42,,,,,,,0.7682,FCS Independents,fcs,212
+Northern Colorado,-32.0,0.0,-3.68,,,,,,,0.1667,Big Sky,fcs,213
+Wofford,-32.13,0.0,-3.81,,,,,,,0.5827,Southern,fcs,214
+Morgan State,-32.24,0.0,-3.92,,,,,,,0.4085,MEAC,fcs,215
+Rhode Island,-32.48,0.0,-4.15,,,,,,,0.6527,Coastal Athletic,fcs,216
+Charleston Southern,-32.61,0.0,-4.29,,,,,,,0.163,OVC-Big South,fcs,217
+Gardner-Webb,-32.91,0.0,-4.58,,,,,,,0.3487,OVC-Big South,fcs,218
+Northern Iowa,-33.11,0.0,-4.79,,,,,,,0.2972,MVFC,fcs,219
+Lafayette,-33.34,0.0,-5.02,,,,,,,0.3971,Patriot,fcs,220
+Eastern Illinois,-33.62,0.0,-5.3,,,,,,,0.4649,OVC-Big South,fcs,221
+Long Island University,-33.63,0.0,-5.31,,,,,,,0.588,NEC,fcs,222
+Drake,-33.91,0.0,-5.59,,,,,,,0.1905,Pioneer,fcs,223
+North Carolina A&T,-33.92,0.0,-5.6,,,,,,,0.6901,Coastal Athletic,fcs,224
+Florida A&M,-34.0,0.0,-5.68,,,,,,,0.1668,SWAC,fcs,225
+Robert Morris,-34.55,0.0,-6.23,,,,,,,0.2992,NEC,fcs,226
+Murray State,-34.68,0.0,-6.36,,,,,,,0.5617,MVFC,fcs,227
+New Hampshire,-34.69,0.0,-6.36,,,,,,,0.246,Coastal Athletic,fcs,228
+Presbyterian,-35.0,0.0,-6.68,,,,,,,0.0537,Pioneer,fcs,229
+Samford,-35.02,0.0,-6.69,,,,,,,0.2217,Southern,fcs,230
 Bethune-Cookman,-35.1,0.0,-6.77,,,,,,,0.177,SWAC,fcs,231
-Richmond,-35.28,0.0,-6.95,,,,,,,0.4285,Patriot,fcs,232
-Fordham,-35.54,0.0,-7.2,,,,,,,0.7307,Patriot,fcs,233
-Columbia,-35.56,0.0,-7.23,,,,,,,0.8876,Ivy,fcs,234
-Howard,-35.63,0.0,-7.29,,,,,,,0.2965,MEAC,fcs,235
-Houston Christian,-35.67,0.0,-7.33,,,,,,,0.3613,Southland,fcs,236
-Cal Poly,-36.27,0.0,-7.94,,,,,,,0.4945,Big Sky,fcs,237
-Eastern Washington,-36.52,0.0,-8.19,,,,,,,0.6344,Big Sky,fcs,238
-Tennessee State,-36.54,0.0,-8.21,,,,,,,0.414,OVC-Big South,fcs,239
-Utah Tech,-36.78,0.0,-8.44,,,,,,,0.3826,UAC,fcs,240
-William & Mary,-37.46,0.0,-9.13,,,,,,,0.1227,Coastal Athletic,fcs,241
-Merrimack,-37.65,0.0,-9.31,,,,,,,0.2553,FCS Independents,fcs,242
-Morehead State,-37.67,0.0,-9.34,,,,,,,0.2876,Pioneer,fcs,243
-Mercyhurst,-37.7,0.0,-9.37,,,,,,,0.2728,NEC,fcs,244
-Stonehill,-37.71,0.0,-9.38,,,,,,,0.5888,NEC,fcs,245
-Georgetown,-37.74,0.0,-9.41,,,,,,,0.2408,Patriot,fcs,246
-Texas Southern,-37.8,0.0,-9.46,,,,,,,0.3074,SWAC,fcs,247
-The Citadel,-38.18,0.0,-9.84,,,,,,,0.4055,Southern,fcs,248
-Portland State,-38.2,0.0,-9.87,,,,,,,0.8046,Big Sky,fcs,249
-East Texas A&M,-38.69,0.0,-10.36,,,,,,,0.323,Southland,fcs,250
-New Haven,-39.11,0.0,-10.77,,,,,,,0.656,NEC,fcs,251
-Wagner,-39.43,0.0,-11.09,,,,,,,0.5509,NEC,fcs,252
-Maine,-40.6,0.0,-12.27,,,,,,,0.2521,Coastal Athletic,fcs,253
-Sacramento State,-40.76,0.0,-12.43,561.42,-26.4,9.4,35.4,,,,Big Sky,fcs,254
-Indiana State,-41.27,0.0,-12.93,,,,,,,0.2614,MVFC,fcs,255
-West Georgia,-41.77,0.0,-13.44,,,,,,,0.0957,UAC,fcs,256
-Bucknell,-42.05,0.0,-13.72,,,,,,,0.3672,Patriot,fcs,257
-Nicholls,-42.66,0.0,-14.32,,,,,,,0.5118,Southland,fcs,258
-Mississippi Valley State,-43.52,0.0,-15.18,,,,,,,0.413,SWAC,fcs,259
-Stetson,-44.59,0.0,-16.26,,,,,,,0.6768,Pioneer,fcs,260
-Davidson,-45.06,0.0,-16.72,,,,,,,0.2331,Pioneer,fcs,261
-Hampton,-46.09,0.0,-17.76,,,,,,,0.2112,Coastal Athletic,fcs,262
-Northwestern State,-49.69,0.0,-21.35,,,,,,,0.7383,Southland,fcs,263
-Saint Francis,-51.64,0.0,-23.3,,,,,,,,NEC,fcs,264
-VMI,-52.71,0.0,-24.38,,,,,,,0.2837,Southern,fcs,265
+Richmond,-35.27,0.0,-6.95,,,,,,,0.4285,Patriot,fcs,232
+Fordham,-35.52,0.0,-7.2,,,,,,,0.7307,Patriot,fcs,233
+Columbia,-35.55,0.0,-7.23,,,,,,,0.8876,Ivy,fcs,234
+Howard,-35.61,0.0,-7.29,,,,,,,0.2965,MEAC,fcs,235
+Houston Christian,-35.65,0.0,-7.33,,,,,,,0.3613,Southland,fcs,236
+Cal Poly,-36.26,0.0,-7.94,,,,,,,0.4945,Big Sky,fcs,237
+Eastern Washington,-36.51,0.0,-8.19,,,,,,,0.6344,Big Sky,fcs,238
+Tennessee State,-36.53,0.0,-8.21,,,,,,,0.414,OVC-Big South,fcs,239
+Utah Tech,-36.76,0.0,-8.44,,,,,,,0.3826,UAC,fcs,240
+William & Mary,-37.45,0.0,-9.13,,,,,,,0.1227,Coastal Athletic,fcs,241
+Merrimack,-37.63,0.0,-9.31,,,,,,,0.2553,FCS Independents,fcs,242
+Morehead State,-37.66,0.0,-9.33,,,,,,,0.2876,Pioneer,fcs,243
+Mercyhurst,-37.69,0.0,-9.37,,,,,,,0.2728,NEC,fcs,244
+Stonehill,-37.7,0.0,-9.38,,,,,,,0.5888,NEC,fcs,245
+Georgetown,-37.73,0.0,-9.41,,,,,,,0.2408,Patriot,fcs,246
+Texas Southern,-37.79,0.0,-9.47,,,,,,,0.3074,SWAC,fcs,247
+The Citadel,-38.16,0.0,-9.84,,,,,,,0.4055,Southern,fcs,248
+Portland State,-38.19,0.0,-9.87,,,,,,,0.8046,Big Sky,fcs,249
+East Texas A&M,-38.68,0.0,-10.36,,,,,,,0.323,Southland,fcs,250
+New Haven,-39.09,0.0,-10.77,,,,,,,0.656,NEC,fcs,251
+Wagner,-39.41,0.0,-11.09,,,,,,,0.5509,NEC,fcs,252
+Maine,-40.59,0.0,-12.27,,,,,,,0.2521,Coastal Athletic,fcs,253
+Sacramento State,-40.75,0.0,-12.43,561.42,-26.4,9.4,35.4,,,,Big Sky,fcs,254
+Indiana State,-41.25,0.0,-12.93,,,,,,,0.2614,MVFC,fcs,255
+West Georgia,-41.76,0.0,-13.44,,,,,,,0.0957,UAC,fcs,256
+Bucknell,-42.04,0.0,-13.72,,,,,,,0.3672,Patriot,fcs,257
+Nicholls,-42.64,0.0,-14.32,,,,,,,0.5118,Southland,fcs,258
+Mississippi Valley State,-43.51,0.0,-15.18,,,,,,,0.413,SWAC,fcs,259
+Stetson,-44.58,0.0,-16.26,,,,,,,0.6768,Pioneer,fcs,260
+Davidson,-45.04,0.0,-16.72,,,,,,,0.2331,Pioneer,fcs,261
+Hampton,-46.08,0.0,-17.76,,,,,,,0.2112,Coastal Athletic,fcs,262
+Northwestern State,-49.67,0.0,-21.35,,,,,,,0.7383,Southland,fcs,263
+Saint Francis,-51.62,0.0,-23.3,,,,,,,,NEC,fcs,264
+VMI,-52.7,0.0,-24.38,,,,,,,0.2837,Southern,fcs,265
