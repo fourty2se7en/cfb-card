@@ -1,0 +1,23 @@
+ESPN box scores 2026-27 totals, built Nov 27 about 9:43 AM Phoenix: share of each team's season points, rebounds, assists, 3PM produced by players listed Out (ESPN injuries). team|pts,reb,ast,3pm|players (games played)
+ATL|0.142,0.129,0.144,0.127|CJ McCollum(14g),Jock Landale(9g),Asa Newell(5g)
+BKN|0.181,0.108,0.150,0.169|Moritz Wagner(17g),Nolan Traore(14g)
+BOS|0.036,0.092,0.025,0.000|Mitchell Robinson(14g)
+DAL|0.016,0.022,0.016,0.017|Sergio de Larrea(4g),Tobi Lawal(8g)
+DEN|0.000,0.000,0.000,0.000|
+DET|0.321,0.160,0.337,0.345|Duncan Robinson(12g),Jalen Duren(2g),Cade Cunningham(15g),Ebuka Okorie(5g),Taurean Prince(3g)
+GSW|0.138,0.047,0.079,0.158|Stephen Curry(10g)
+IND|0.044,0.025,0.076,0.052|Tyrese Haliburton(4g),Ben Sheppard(1g)
+LAC|0.000,0.000,0.000,0.000|
+LAL|0.138,0.054,0.127,0.108|Austin Reaves(12g)
+MEM|0.235,0.255,0.256,0.247|Cameron Boozer(16g),Jerami Grant(15g),GG Jackson(12g),Scotty Pippen Jr.(5g)
+MIA|0.000,0.000,0.000,0.000|
+MIL|0.000,0.000,0.000,0.000|
+MIN|0.085,0.049,0.047,0.100|Anthony Edwards(4g),Jaylen Clark(12g)
+NOP|0.106,0.102,0.134,0.077|Dejounte Murray(9g),Bennedict Mathurin(12g),Trendon Watford(6g)
+NYK|0.154,0.119,0.072,0.134|OG Anunoby(15g),Jordan Clarkson(12g)
+PHI|0.156,0.120,0.108,0.123|Jaylen Brown(16g)
+PHX|0.000,0.000,0.000,0.000|
+POR|0.056,0.035,0.079,0.060|Ja Morant(4g),Vit Krejci(7g),Chris Youngblood(6g)
+SAS|0.124,0.088,0.126,0.072|Dylan Harper(15g)
+TOR|0.175,0.152,0.133,0.123|Kawhi Leonard(2g),RJ Barrett(14g)
+UTA|0.102,0.086,0.051,0.140|Lauri Markkanen(8g),Jaren Jackson Jr.(4g)
