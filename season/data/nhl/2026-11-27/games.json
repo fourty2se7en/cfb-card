@@ -1,0 +1,122 @@
+[
+ {
+  "id": 2026020400,
+  "away": "TOR",
+  "home": "BOS",
+  "start": "2026-11-27T18:00:00Z",
+  "venue": "TD Garden",
+  "neutral": false
+ },
+ {
+  "id": 2026020401,
+  "away": "CGY",
+  "home": "NJD",
+  "start": "2026-11-27T18:00:00Z",
+  "venue": "Prudential Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020402,
+  "away": "UTA",
+  "home": "NSH",
+  "start": "2026-11-27T18:00:00Z",
+  "venue": "Bridgestone Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020403,
+  "away": "DAL",
+  "home": "STL",
+  "start": "2026-11-27T19:00:00Z",
+  "venue": "Enterprise Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020404,
+  "away": "OTT",
+  "home": "TBL",
+  "start": "2026-11-27T20:00:00Z",
+  "venue": "Benchmark International Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020405,
+  "away": "VAN",
+  "home": "PHI",
+  "start": "2026-11-27T20:00:00Z",
+  "venue": "Xfinity Mobile Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020406,
+  "away": "FLA",
+  "home": "WSH",
+  "start": "2026-11-27T20:00:00Z",
+  "venue": "Capital One Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020407,
+  "away": "DET",
+  "home": "CBJ",
+  "start": "2026-11-27T20:00:00Z",
+  "venue": "Nationwide Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020408,
+  "away": "COL",
+  "home": "MIN",
+  "start": "2026-11-27T21:00:00Z",
+  "venue": "Grand Casino Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020409,
+  "away": "LAK",
+  "home": "ANA",
+  "start": "2026-11-27T21:00:00Z",
+  "venue": "Honda Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020410,
+  "away": "VGK",
+  "home": "SJS",
+  "start": "2026-11-27T21:00:00Z",
+  "venue": "SAP Center at San Jose",
+  "neutral": false
+ },
+ {
+  "id": 2026020411,
+  "away": "NYR",
+  "home": "CHI",
+  "start": "2026-11-27T22:30:00Z",
+  "venue": "United Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020412,
+  "away": "WPG",
+  "home": "NYI",
+  "start": "2026-11-28T00:30:00Z",
+  "venue": "UBS Arena",
+  "neutral": false
+ },
+ {
+  "id": 2026020413,
+  "away": "PIT",
+  "home": "BUF",
+  "start": "2026-11-28T01:00:00Z",
+  "venue": "KeyBank Center",
+  "neutral": false
+ },
+ {
+  "id": 2026020414,
+  "away": "SEA",
+  "home": "EDM",
+  "start": "2026-11-28T01:00:00Z",
+  "venue": "Rogers Place",
+  "neutral": false
+ }
+]
