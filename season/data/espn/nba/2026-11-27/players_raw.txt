@@ -1,4 +1,4 @@
-Built Nov 27 about 10:13 AM Phoenix from season_raw: 2026-27 regular season games, ESPN box scores. name|gp|min|P pts|R reb|A ast|T 3pm|team|last date|prev team|games this season
+Built Nov 27 about 3:29 PM Phoenix from season_raw: 2026-27 regular season games, ESPN box scores. name|gp|min|P pts|R reb|A ast|T 3pm|team|last date|prev team|games this season
 Allen Graves|17|17|P5,2,11,3,7,3,0,5,3,3,13,0,2,3,9,20,7|R5,2,6,1,4,0,0,2,2,2,5,2,5,2,4,10,2|A0,0,4,0,0,0,2,1,0,1,0,0,3,1,0,1,0|T0,0,1,0,1,0,0,1,0,1,3,0,0,1,1,2,2|TOR|-|-|17
 Ayo Dosunmu|19|32|P16,14,9,9,17,15,27,19,21,26,26,18,24,8,30,6,19,23,16|R5,7,3,1,3,7,9,12,1,2,4,2,5,5,4,4,2,3,3|A3,10,3,0,4,2,3,8,6,4,1,1,0,2,5,4,2,5,4|T1,1,1,1,3,3,2,1,0,4,4,2,0,2,7,2,1,4,4|MIN|-|MIN|19
 Brandin Podziemski|16|32|P18,18,8,21,17,20,9,15,25,22,8,15,10,15,18,13|R2,7,5,5,8,3,6,7,2,6,3,6,3,3,7,2|A3,5,6,6,8,2,3,1,4,4,0,3,4,2,2,6|T2,3,0,4,2,3,2,4,5,4,2,3,0,0,4,3|GSW|-|GSW|16
